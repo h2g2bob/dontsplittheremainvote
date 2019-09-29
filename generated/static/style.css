@@ -1,0 +1,12 @@
+
+div.barchart {
+  height: 1.5em;
+  margin: 0.5em;
+}
+
+div.barchart span.bar {
+  display: inline-block;
+  color: transparent;
+  font-size: 1%;
+  height: 100%;
+}
