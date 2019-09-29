@@ -133,11 +133,11 @@ class Result(NamedTuple):
             raise ValueError([remain1, remain2])
 
         if winner == CON:
-            return classify.DIFFICULT_CON
+            return classify.LEAVE_VICTORY_CON
         if winner == DUP:
-            return classify.DIFFICULT_DUP
+            return classify.LEAVE_VICTORY_DUP
         if winner == UUP:
-            return classify.DIFFICULT_UUP
+            return classify.LEAVE_VICTORY_UUP
         if winner == UKIP:
-            return classify.DIFFICULT_UKIP
+            return classify.LEAVE_VICTORY_UKIP
         raise ValueError(winner)

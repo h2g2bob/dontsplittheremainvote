@@ -19,7 +19,7 @@ DUP = Party('DUP', remain=False, color='#D46A4C')
 ALLIANCE = Party('Alliance', remain=True, color='#F6CB2F')
 SF = Party('Sinn Fein', remain=True, color='#008800')
 GREEN = Party('Green', remain=True, color='#6AB023')
-UKIP = Party('UK Independence Party', remain=False, color='#70147A')
+UKIP = Party('UKIP / Brexit', remain=False, color='#70147A')
 UUP = Party('UUP', remain=False, color='#9999FF')
 INDEPENDENT = Party('Independent', remain=False, color='#CCCCCC')
 SPEAKER = Party('Speaker', remain=True, color='#888888')
@@ -51,6 +51,7 @@ _MAPPINGS = {
     'Social Democratic and Labour Party': 'Labour',
     'Democratic Unionist Party': 'DUP',
     'Ulster Unionist Party': 'UUP',
+    'UK Independence Party': 'UKIP / Brexit',
 }
 
 def get_party(code):

@@ -27,7 +27,7 @@ class _RemainVictory(ClassifyResult):
 
 class _LeaveVictory(ClassifyResult):
     def __new__(self, shortname, longname):
-        return super().__new__(self, logo=f'difficult-{shortname}', name=f'Largest party is {longname}. An alliance would not have helped here.')
+        return super().__new__(self, logo=f'leave-victory-{shortname}', name=f'Largest party is {longname}. An alliance would not have helped here.')
 
 class _AllianceNeeded(ClassifyResult):
     def __new__(self, short1, short2, long1):
@@ -53,9 +53,9 @@ ALLIANCE_NEEDED_ALLIANCE_LD = _AllianceNeeded('alliance', 'ld', 'Alliance')
 
 SF_ALLIANCE = ClassifyResult(logo='other', name=f'Remain can win if parties work together. The largest party is Sinn Fenn, but Sinn Fenn do not take their seats in the UK Parliament.')
 
-DIFFICULT_CON = _LeaveVictory('con', 'Conservative')
-DIFFICULT_DUP = _LeaveVictory('dup', 'DUP')
-DIFFICULT_UUP = _LeaveVictory('dup', 'UUP')
-DIFFICULT_UKIP = _LeaveVictory('ukip', 'UKIP')
+LEAVE_VICTORY_CON = _LeaveVictory('con', 'Conservative')
+LEAVE_VICTORY_DUP= _LeaveVictory('dup', 'DUP')
+LEAVE_VICTORY_UUP = _LeaveVictory('dup', 'UUP')
+LEAVE_VICTORY_UKIP = _LeaveVictory('ukip', 'UKIP / Brexit')
 
 OTHER = ClassifyResult(logo='other', name=f'Unusual result')
