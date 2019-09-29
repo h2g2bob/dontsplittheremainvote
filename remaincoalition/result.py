@@ -40,8 +40,8 @@ class Result(NamedTuple):
                 if results[party] < 0.0:
                     del results[party]
             except KeyError:
-                pass
-        sum_votes = results.values()
+                results[party] = adjust
+        sum_votes = sum(results.values())
         normalization = 1.0 / sum_votes
         return Result({
             party: votes * normalization
@@ -116,8 +116,18 @@ class Result(NamedTuple):
                 return classify.ALLIANCE_NEEDED_LAB_ALLIANCE
             if remain1 == LD and remain2 == LAB:
                 return classify.ALLIANCE_NEEDED_LD_LAB
+            if remain1 == LD and remain2 == GREEN:
+                return classify.ALLIANCE_NEEDED_LD_GREEN
+            if remain1 == LD and remain2 == PLAID:
+                return classify.ALLIANCE_NEEDED_LD_PLAID
             if remain1 == SNP and remain2 == LAB:
                 return classify.ALLIANCE_NEEDED_SNP_LAB
+            if remain1 == SNP and remain2 == LD:
+                return classify.ALLIANCE_NEEDED_SNP_LD
+            if remain1 == ALLIANCE and remain2 == SF:
+                return classify.ALLIANCE_NEEDED_ALLIANCE_SF
+            if remain1 == ALLIANCE and remain2 == LD:
+                return classify.ALLIANCE_NEEDED_ALLIANCE_LD
             if remain1 == SF:
                 return classify.SF_ALLIANCE
             raise ValueError([remain1, remain2])
