@@ -1,3 +1,4 @@
+from . import data_ge2015
 from . import data_ge2017
 from .constituency import all_constituencies
 from .constituency import Constituency
@@ -8,6 +9,7 @@ from typing import Dict
 def get_all_datasets():
     datasets = {
         data_ge2017.DESCRIPTION: data_ge2017.get_data(),
+        data_ge2015.DESCRIPTION: data_ge2015.get_data(),
     }
     return datasets
 

@@ -45,9 +45,11 @@ ALLIANCE_NEEDED_LAB_PLAID = _AllianceNeeded('lab', 'plaid', 'Labour')
 ALLIANCE_NEEDED_LAB_ALLIANCE = _AllianceNeeded('lab', 'alliance', 'Labour')
 ALLIANCE_NEEDED_LD_LAB = _AllianceNeeded('ld', 'lab', 'Liberal Democrats')
 ALLIANCE_NEEDED_SNP_LAB = _AllianceNeeded('snp', 'lab', 'SNP')
-SF_OR_ALLIANCE = ClassifyResult(logo='other', name=f'Remain can win if parties work together. The largest party is Sinn Fenn, but Sinn Fenn do not take their seats in the UK Parliament.')
+SF_ALLIANCE = ClassifyResult(logo='other', name=f'Remain can win if parties work together. The largest party is Sinn Fenn, but Sinn Fenn do not take their seats in the UK Parliament.')
 
 DIFFICULT_CON = _LeaveVictory('con', 'Conservative')
 DIFFICULT_DUP = _LeaveVictory('dup', 'DUP')
+DIFFICULT_UUP = _LeaveVictory('dup', 'UUP')
+DIFFICULT_UKIP = _LeaveVictory('ukip', 'UKIP')
 
-SPEAKER = ClassifyResult(logo='other', name=f'Major parties will not be contesting this constituency')
+OTHER = ClassifyResult(logo='other', name=f'Unusual result')

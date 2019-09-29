@@ -17,7 +17,10 @@ from .party import DUP
 from .party import SF
 from .party import ALLIANCE
 from .party import GREEN
+from .party import UUP
 from .party import SPEAKER
+from .party import INDEPENDENT
+from .party import UKIP
 from . import classify
 
 def _party_ratio_sort(party_and_ratio):
@@ -83,7 +86,9 @@ class Result(NamedTuple):
         winner = self.winner()
 
         if winner == SPEAKER:
-            return 'speaker'
+            return classify.OTHER
+        if winner == INDEPENDENT:
+            return classify.OTHER
 
         if winner.remain:
             if winner == LAB:
@@ -113,12 +118,16 @@ class Result(NamedTuple):
                 return classify.ALLIANCE_NEEDED_LD_LAB
             if remain1 == SNP and remain2 == LAB:
                 return classify.ALLIANCE_NEEDED_SNP_LAB
-            if remain1 == SF and remain2 == ALLIANCE:
-                return classify.SF_OR_ALLIANCE
+            if remain1 == SF:
+                return classify.SF_ALLIANCE
             raise ValueError([remain1, remain2])
 
         if winner == CON:
             return classify.DIFFICULT_CON
         if winner == DUP:
             return classify.DIFFICULT_DUP
+        if winner == UUP:
+            return classify.DIFFICULT_UUP
+        if winner == UKIP:
+            return classify.DIFFICULT_UKIP
         raise ValueError(winner)

@@ -19,6 +19,9 @@ DUP = Party('DUP', remain=False, color='#D46A4C')
 ALLIANCE = Party('Alliance', remain=True, color='#F6CB2F')
 SF = Party('Sinn Fein', remain=True, color='#008800')
 GREEN = Party('Green', remain=True, color='#6AB023')
+UKIP = Party('UK Independence Party', remain=False, color='#70147A')
+UUP = Party('UUP', remain=False, color='#9999FF')
+INDEPENDENT = Party('Independent', remain=False, color='#CCCCCC')
 SPEAKER = Party('Speaker', remain=True, color='#888888')
 
 _PARTIES = {
@@ -33,12 +36,12 @@ _PARTIES = {
         SF,
         ALLIANCE,
         GREEN,
+        UKIP,
+        UUP,
+        INDEPENDENT,
         SPEAKER,
-        Party('UK Independence Party', remain=False, color='#70147A'),
         Party('The Yorkshire Party', remain=False, color='#00AEEF'),
-        Party('UUP', remain=False, color='#9999FF'),
         Party('National Health Action Party', remain=True, color='#0071BB'),
-        Party('Independent', remain=False, color='#CCCCCC'),
         OTHERS,
     ]
 }
