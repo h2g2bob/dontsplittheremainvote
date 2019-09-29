@@ -3,8 +3,11 @@ from collections import defaultdict
 from .party import get_party
 from .constituency import get_constitiuency
 from .result import Result
+from .dataset import Dataset
 
-def get_data():
+DESCRIPTION = Dataset(name='ge2017', description='ge2017')
+
+def _results_by_constituency():
     raw_data = defaultdict(dict)
 
     with open('data/ge2017/HoC-GE2017-results-by-candidate.csv', 'r') as f:
@@ -20,6 +23,9 @@ def get_data():
             get_party(party_name): vote_share
             for party_name, vote_share in constituency_results.items()})
         for constituency_id, constituency_results in raw_data.items()}
+
+def get_data():
+    return _results_by_constituency()
 
 if __name__ == '__main__':
     print(get_data())
