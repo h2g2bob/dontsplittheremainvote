@@ -1,9 +1,9 @@
 {% extends "base.html" %}
-{% block title %}{{place}} - Vote Tactically For Remain{% endblock %}
+{% block title %}{{constituency.name}} - Vote Tactically For Remain{% endblock %}
 {% block content %}
-<h1>{{place}}</h1>
+<h1>{{constituency.name}}</h1>
 
-<div class="intro">{% block intro %}The situation in {{place}} is complicated.{% endblock %}</div>
+<div class="intro">{% block intro %}The situation in {{constituency.name}} is complicated.{% endblock %}</div>
 
 {% block partypositions %}{% endblock %}
 
@@ -19,7 +19,7 @@
 </ul>
 
 <div class="scenarios">
-{% for scenario in scenarios %}
+{% for dataset in datasets %}
   <div class="scenario">
      ...
   </div>

@@ -1,4 +1,4 @@
-from typing import Namedtuple
+from typing import NamedTuple
 
 class Party(NamedTuple):
     code: str
