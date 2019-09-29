@@ -33,6 +33,10 @@ class _AllianceNeeded(ClassifyResult):
     def __new__(self, short1, short2, long1):
         return super().__new__(self, logo=f'remain-victory-{short1}-{short2}', name=f'Remain can win if parties work together. The largest party is {long1}.')
 
+class _DifficultAlliance(ClassifyResult):
+    def __new__(self, short1):
+        return super().__new__(self, logo=f'difficult-alliance-{short1}', name=f'If the leave vote is split, a remain alliance can win.')
+
 REMAIN_VICTORY_LAB = _RemainVictory('lab', 'Labour')
 REMAIN_VICTORY_LD = _RemainVictory('ld', 'Liberal Democrats')
 REMAIN_VICTORY_SNP = _RemainVictory('snp', 'SNP')
@@ -52,6 +56,13 @@ ALLIANCE_NEEDED_ALLIANCE_SF = _AllianceNeeded('alliance', 'sf', 'Alliance')
 ALLIANCE_NEEDED_ALLIANCE_LD = _AllianceNeeded('alliance', 'ld', 'Alliance')
 
 SF_ALLIANCE = ClassifyResult(logo='other', name=f'Remain can win if parties work together. The largest party is Sinn Fenn, but Sinn Fenn do not take their seats in the UK Parliament.')
+
+DIFFICULT_ALLIANCE_LAB = _DifficultAlliance('lab')
+DIFFICULT_ALLIANCE_LD = _DifficultAlliance('ld')
+DIFFICULT_ALLIANCE_SNP = _DifficultAlliance('snp')
+DIFFICULT_ALLIANCE_ALLIANCE = _DifficultAlliance('alliance')
+DIFFICULT_ALLIANCE_GREEN = _DifficultAlliance('green')
+DIFFICULT_ALLIANCE_NHAP = _DifficultAlliance('nhap')
 
 LEAVE_VICTORY_CON = _LeaveVictory('con', 'Conservative')
 LEAVE_VICTORY_DUP= _LeaveVictory('dup', 'DUP')

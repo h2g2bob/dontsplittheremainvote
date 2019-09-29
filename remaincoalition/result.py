@@ -18,6 +18,7 @@ from .party import SF
 from .party import ALLIANCE
 from .party import GREEN
 from .party import UUP
+from .party import NHAP
 from .party import SPEAKER
 from .party import INDEPENDENT
 from .party import UKIP
@@ -77,9 +78,12 @@ class Result(NamedTuple):
             key=_party_ratio_sort)
         return party
 
-    def would_rainbow_win(self) -> bool:
+    def winner_share(self) -> float:
+        return max(self.results.values())
+
+    def rainbow_alliance_share(self) -> float:
         total_remain_vote = sum(ratio for _party, ratio in self.remainers())
-        return total_remain_vote > 0.5
+        return total_remain_vote
 
     @property
     def classify(self) -> classify.ClassifyResult:
@@ -105,7 +109,8 @@ class Result(NamedTuple):
                     return classify.REMAIN_VICTORY_GREEN
             raise ValueError(winner)
 
-        if self.would_rainbow_win():
+        rainbow_alliance_share = self.rainbow_alliance_share()
+        if rainbow_alliance_share > 0.5:
             remainers = [party for party, _ratio in self.remainers()]
             [remain1, remain2] = remainers[:2]
             if remain1 == LAB and remain2 == LD:
@@ -131,6 +136,24 @@ class Result(NamedTuple):
             if remain1 == SF:
                 return classify.SF_ALLIANCE
             raise ValueError([remain1, remain2])
+
+        if rainbow_alliance_share > self.winner_share():
+            [remain1, _ratio] = self.remainers()[0]
+            if remain1 == LAB:
+                return classify.DIFFICULT_ALLIANCE_LAB
+            if remain1 == LD:
+                return classify.DIFFICULT_ALLIANCE_LD
+            if remain1 == SNP:
+                return classify.DIFFICULT_ALLIANCE_SNP
+            if remain1 == ALLIANCE:
+                return classify.DIFFICULT_ALLIANCE_ALLIANCE
+            if remain1 == GREEN:
+                return classify.DIFFICULT_ALLIANCE_GREEN
+            if remain1 == NHAP:
+                return classify.DIFFICULT_ALLIANCE_GREEN
+            if remain1 == SF:
+                return classify.SF_ALLIANCE
+            raise ValueError(remain1)
 
         if winner == CON:
             return classify.LEAVE_VICTORY_CON
