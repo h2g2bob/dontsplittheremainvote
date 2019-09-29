@@ -18,6 +18,7 @@ from .party import SF
 from .party import ALLIANCE
 from .party import GREEN
 from .party import SPEAKER
+from . import classify
 
 def _party_ratio_sort(party_and_ratio):
     [party, ratio] = party_and_ratio
@@ -77,17 +78,8 @@ class Result(NamedTuple):
         total_remain_vote = sum(ratio for _party, ratio in self.remainers())
         return total_remain_vote > 0.5
 
-    def classify(self) -> Tuple[str, Party]:
-        # XXX how to combine results together?
-        winner = self.winner()
-        if winner.remain:
-            return ('remain-victory', winner)
-        if self.would_rainbow_win():
-            [biggest_remain, _ratio] = self.remainers()[0]
-            return ('alliance-needed', biggest_remain)
-        return ('difficult', winner)
-
-    def classify_logo(self) -> str:
+    @property
+    def classify(self) -> classify.ClassifyResult:
         winner = self.winner()
 
         if winner == SPEAKER:
@@ -95,42 +87,38 @@ class Result(NamedTuple):
 
         if winner.remain:
             if winner == LAB:
-                    return 'remain-victory-lab'
+                    return classify.REMAIN_VICTORY_LAB
             if winner == LD:
-                    return 'remain-victory-ld'
+                    return classify.REMAIN_VICTORY_LD
             if winner == SNP:
-                    return 'remain-victory-snp'
+                    return classify.REMAIN_VICTORY_SNP
             if winner == PLAID:
-                    return 'remain-victory-plaid'
+                    return classify.REMAIN_VICTORY_PLAID
             if winner == SF:
-                    return 'remain-victory-sf'
+                    return classify.REMAIN_VICTORY_SF
             if winner == GREEN:
-                    return 'remain-victory-green'
-            print(repr(['win', winner]))
-            return 'remain-victory'
+                    return classify.REMAIN_VICTORY_GREEN
+            raise ValueError(winner)
 
         if self.would_rainbow_win():
             remainers = [party for party, _ratio in self.remainers()]
             [remain1, remain2] = remainers[:2]
             if remain1 == LAB and remain2 == LD:
-                return 'alliance-needed-lab-ld'
+                return classify.ALLIANCE_NEEDED_LAB_LD
             if remain1 == LAB and remain2 == PLAID:
-                return 'alliance-needed-lab-plaid'
-            if remain1 == LD and remain2 == LAB:
-                return 'alliance-needed-ld-lab'
-            if remain1 == SNP and remain2 == LAB:
-                return 'alliance-needed-snp-lab'
-            if remain1 == SF and remain2 == ALLIANCE:
-                return 'alliance-needed-sf-alliance'
+                return classify.ALLIANCE_NEEDED_LAB_PLAID
             if remain1 == LAB and remain2 == ALLIANCE:
-                return 'alliance-needed-lab-alliance'
-            print(repr(['a', remain1, remain2]))
-            return 'alliance-needed'
+                return classify.ALLIANCE_NEEDED_LAB_ALLIANCE
+            if remain1 == LD and remain2 == LAB:
+                return classify.ALLIANCE_NEEDED_LD_LAB
+            if remain1 == SNP and remain2 == LAB:
+                return classify.ALLIANCE_NEEDED_SNP_LAB
+            if remain1 == SF and remain2 == ALLIANCE:
+                return classify.SF_OR_ALLIANCE
+            raise ValueError([remain1, remain2])
 
         if winner == CON:
-            return 'difficult-con'
+            return classify.DIFFICULT_CON
         if winner == DUP:
-            return 'difficult-dup'
-
-        print(repr(['d', winner]))
-        return 'difficult'
+            return classify.DIFFICULT_DUP
+        raise ValueError(winner)
