@@ -10,3 +10,10 @@ div.barchart span.bar {
   font-size: 1%;
   height: 100%;
 }
+
+img.logo {
+  width: 5em;
+  height: 5em;
+  margin: 0.5em;
+  float: left;
+}

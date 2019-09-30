@@ -22,7 +22,8 @@
 {% for dataset, result in datasets.items() %}
   <div class="scenario">
     <h3>{{dataset.description}}</h3>
-    <div>{{result.classify.logo}}: {{result.classify.name}}</div>
+    <img class="logo" src="../static/logo/{{result.classify.logo}}.png" />
+    <div>{{result.classify.name}}</div>
     <div class="barchart">{% for party, vote in result.remainers() %}<span class="bar" title="{{party.name}}" style="background: {{party.color}}; width: {{(100 * vote)|int}}%">&nbsp;</span>{% endfor %}</div>
     <div class="barchart">{% for party, vote in result.leavers() %}<span class="bar" title="{{party.name}}" style="background: {{party.color}}; width: {{(100 * vote)|int}}%">&nbsp;</span>{% endfor %}</div>
   </div>

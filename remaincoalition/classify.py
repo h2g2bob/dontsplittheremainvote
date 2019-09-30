@@ -31,7 +31,7 @@ class _LeaveVictory(ClassifyResult):
 
 class _AllianceNeeded(ClassifyResult):
     def __new__(self, short1, short2, long1):
-        return super().__new__(self, logo=f'remain-victory-{short1}-{short2}', name=f'Remain can win if parties work together. The largest party is {long1}.')
+        return super().__new__(self, logo=f'alliance-victory-{short1}-{short2}', name=f'Remain can win if parties work together. The largest party is {long1}.')
 
 class _DifficultAlliance(ClassifyResult):
     def __new__(self, short1):
