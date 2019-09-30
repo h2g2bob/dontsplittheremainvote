@@ -3,6 +3,7 @@ from __future__ import annotations
 from typing import Dict
 from typing import List
 from typing import NamedTuple
+from typing import Optional
 from typing import Tuple
 
 from .party import CON
@@ -21,21 +22,47 @@ class ClassifyResult(NamedTuple):
     logo: str
     name: str
 
+    remain_allicance_leader: Optional[str]
+    remain_can_win: bool
+    alliance_helpful: bool
+
+
 class _RemainVictory(ClassifyResult):
     def __new__(self, shortname, longname):
-        return super().__new__(self, logo=f'remain-victory-{shortname}', name=f'Remain win: {longname}')
+        return super().__new__(self,
+            logo=f'remain-victory-{shortname}',
+            name=f'Remain win: {longname}',
+            remain_allicance_leader=shortname,
+            remain_can_win=True,
+            alliance_helpful=False)
+
 
 class _LeaveVictory(ClassifyResult):
     def __new__(self, shortname, longname):
-        return super().__new__(self, logo=f'leave-victory-{shortname}', name=f'Largest party is {longname}. An alliance would not have helped here.')
+        return super().__new__(self,
+            logo=f'leave-victory-{shortname}',
+            name=f'Largest party is {longname}. An alliance would not have helped here.',
+            remain_allicance_leader=None,
+            remain_can_win=False,
+            alliance_helpful=False)
 
 class _AllianceNeeded(ClassifyResult):
     def __new__(self, short1, short2, long1):
-        return super().__new__(self, logo=f'alliance-victory-{short1}-{short2}', name=f'Remain can only win if parties work together. The largest party is {long1}.')
+        return super().__new__(self,
+            logo=f'alliance-victory-{short1}-{short2}',
+            name=f'Remain can only win if parties work together. The largest party is {long1}.',
+            remain_allicance_leader=short1,
+            remain_can_win=True,
+            alliance_helpful=True)
 
 class _DifficultAlliance(ClassifyResult):
     def __new__(self, short1):
-        return super().__new__(self, logo=f'difficult-alliance-{short1}', name=f'If the leave vote is split, a remain alliance can win.')
+        return super().__new__(self,
+            logo=f'difficult-alliance-{short1}',
+            name=f'If the leave vote is split, a remain alliance can win.',
+            remain_allicance_leader=short1,
+            remain_can_win=True,
+            alliance_helpful=True)
 
 REMAIN_VICTORY_LAB = _RemainVictory('lab', 'Labour')
 REMAIN_VICTORY_LD = _RemainVictory('ld', 'Liberal Democrats')
@@ -55,7 +82,12 @@ ALLIANCE_NEEDED_SNP_LD = _AllianceNeeded('snp', 'ld', 'SNP')
 ALLIANCE_NEEDED_ALLIANCE_SF = _AllianceNeeded('alliance', 'sf', 'Alliance')
 ALLIANCE_NEEDED_ALLIANCE_LD = _AllianceNeeded('alliance', 'ld', 'Alliance')
 
-SF_ALLIANCE = ClassifyResult(logo='other', name=f'Remain can win if parties work together. The largest party is Sinn Fenn, but Sinn Fenn do not take their seats in the UK Parliament.')
+SF_ALLIANCE = ClassifyResult(
+    logo='other',
+    name=f'Remain can win if parties work together. The largest party is Sinn Fenn, but Sinn Fenn do not take their seats in the UK Parliament.',
+    remain_allicance_leader=None,
+    remain_can_win=False,
+    alliance_helpful=False)
 
 DIFFICULT_ALLIANCE_LAB = _DifficultAlliance('lab')
 DIFFICULT_ALLIANCE_LD = _DifficultAlliance('ld')
@@ -69,4 +101,9 @@ LEAVE_VICTORY_DUP= _LeaveVictory('dup', 'DUP')
 LEAVE_VICTORY_UUP = _LeaveVictory('dup', 'UUP')
 LEAVE_VICTORY_UKIP = _LeaveVictory('ukip', 'UKIP / Brexit')
 
-OTHER = ClassifyResult(logo='other', name=f'Unusual result')
+OTHER = ClassifyResult(
+    logo='other',
+    name=f'Unusual result',
+    remain_allicance_leader=None,
+    remain_can_win=False,
+    alliance_helpful=False)

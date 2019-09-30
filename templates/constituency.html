@@ -18,6 +18,21 @@
 <li><em class="who">Everyone</em>: attend the pro-europe march on 19 October.</li>
 </ul>
 
+<h2>{{advice}}</h2>
+
+<div class="outcome-summary">
+{% for outcome, percent in outcomes %}
+  <div class="outcome">
+    <img class="logo" src="../static/logo/{{outcome.logo}}.png" />
+    {{percent * 100|round|int}}%
+    {{outcome.name}}
+    <br style="clear: both" />
+  </div>
+{% endfor %}
+</div>
+
+<h2>Scenarios</h2>
+
 <div class="scenarios">
 {% for dataset, result in datasets.items() %}
   <div class="scenario">
@@ -28,6 +43,7 @@
       <div class="barchart">{% for party, vote in result.remainers() %}<span class="bar" title="{{party.name}}" style="background: {{party.color}}; width: {{(100 * vote)|int}}%">&nbsp;</span>{% endfor %}</div>
       <div class="barchart">{% for party, vote in result.leavers() %}<span class="bar" title="{{party.name}}" style="background: {{party.color}}; width: {{(100 * vote)|int}}%">&nbsp;</span>{% endfor %}</div>
     </div>
+    <br style="clear: both" />
   </div>
 {% endfor %}
 </div>
