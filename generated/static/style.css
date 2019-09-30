@@ -17,3 +17,14 @@ img.logo {
   margin: 0.5em;
   float: left;
 }
+
+div.beside-logo {
+  display: inline-block;
+  width: calc(100% - 7em);
+  min-width: 6em;
+  position: relative;
+
+  /* the speaker's elections can get close to 100%, which is enough to cause word wrapping (somehow) */
+  overflow: hidden;
+  white-space: nowrap;
+}
