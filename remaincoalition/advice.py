@@ -1,11 +1,17 @@
 from collections import defaultdict
 from typing import List
 from typing import Dict
+from typing import NamedTuple
 from typing import Tuple
 import operator
 
 from .result import Result
 from .classify import ClassifyResult
+
+class Advice(NamedTuple):
+    image: str
+    title: str
+
 
 def group_by_frequency(results: List[Result]) -> Dict[ClassifyResult, float]:
     classify_frequency = defaultdict(float)
@@ -18,18 +24,18 @@ def outcome_frequency(results: List[Result]) -> List[Tuple[ClassifyResult, float
     classify_frequency.sort(key=operator.itemgetter(1), reverse=True)
     return classify_frequency
 
-def get_advice(results):
+def get_advice(results) -> Advice:
     outcomes = group_by_frequency(results)
 
     if not any(clfy.remain_can_win for clfy in outcomes.keys()):
-        return 'no-remain-win'
+        return Advice('leave.png', 'Leave win likely')
 
     if all(clfy.remain_can_win and not clfy.alliance_helpful for clfy in outcomes.keys()):
-        return 'remain-win-certain'
+        return Advice('remain.png', 'Remain win likely')
 
     if not any(clfy.alliance_helpful for clfy in outcomes.keys()):
         # eg: speaker's consituency and other strange edge-cases
-        return 'alliance-not-helpful'
+        return Advice('other.png', 'No need for an alliance')
 
     leading_remain_party = set(
         clfy.remain_allicance_leader
@@ -42,10 +48,14 @@ def get_advice(results):
         if clfy.remain_can_win)
 
     if len(leading_remain_party) == 1:
+        party = tuple(leading_remain_party)[0]
         if chance_of_success < 0.5:
-            return 'alliance-clear-hard-' + repr(leading_remain_party)
-        return 'alliance-clear-' + repr(leading_remain_party)
+            return Advice('difficult-alliance.png', 'An alliance would help ({})'.format(party))
+        return Advice('alliance-{}.png'.format(party), 'Remain can win if we back {} here'.format(party))
 
     if chance_of_success < 0.5:
-        return 'alliance-mixed-hard'
-    return 'alliance-mixed'
+        # hard AND no single remain party to back
+        return Advice('difficult-alliance.png', 'An alliance would help')
+
+    # no single party to back
+    return Advice('difficult-alliance.png', 'Remain can win if we back one party')

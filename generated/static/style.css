@@ -11,6 +11,13 @@ div.barchart span.bar {
   height: 100%;
 }
 
+img.mainlogo {
+  width: 7em;
+  height: 7em;
+  margin: 0.5em;
+  float: left;
+}
+
 img.logo {
   width: 5em;
   height: 5em;
@@ -27,4 +34,16 @@ div.beside-logo {
   /* the speaker's elections can get close to 100%, which is enough to cause word wrapping (somehow) */
   overflow: hidden;
   white-space: nowrap;
+}
+
+div.clear {
+  clear: both;
+}
+
+div.advice {
+  background: #ffffff;
+  color: #000000;
+  border: 0.7em #cccccc solid;
+  margin: 0.3em;
+  padding: 0.5em;
 }

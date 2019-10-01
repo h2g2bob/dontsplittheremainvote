@@ -3,6 +3,7 @@
 {% block content %}
 <h1>{{constituency.name}}</h1>
 
+{#
 <div class="intro">{% block intro %}The situation in {{constituency.name}} is complicated.{% endblock %}</div>
 
 {% block partypositions %}{% endblock %}
@@ -17,10 +18,18 @@
 {% block extraadvice %}{% endblock %}
 <li><em class="who">Everyone</em>: attend the pro-europe march on 19 October.</li>
 </ul>
+#} 
 
-<h2>{{advice}}</h2>
+<div class="section advice">
+  <img class="mainlogo" src="../static/logo/outcome/{{advice.image}}" />
+  <h2>{{advice.title}}</h2>
+  <div class="clear"></div>
+</div>
 
-<div class="outcome-summary">
+<h2>Analysis</h2>
+
+<div class="section outcome-summary">
+  <h3>Possible election results</h3>
 {% for outcome, percent in outcomes %}
   <div class="outcome">
     <img class="logo" src="../static/logo/{{outcome.logo}}.png" />
@@ -31,12 +40,12 @@
 {% endfor %}
 </div>
 
-<h2>Scenarios</h2>
+<h3>Detailed scenarios</h3>
 
-<div class="scenarios">
+<div class="section scenarios">
 {% for dataset, result in datasets.items() %}
   <div class="scenario">
-    <h3>{{dataset.description}}</h3>
+    <h4>{{dataset.description}}</h4>
     <img class="logo" src="../static/logo/{{result.classify.logo}}.png" />
     <div class="beside-logo">
       <div>{{result.classify.name}}</div>

@@ -18,8 +18,6 @@ def generate_constituency(constituency, datasets):
     advice = get_advice(datasets.values())
     outcomes = outcome_frequency(datasets.values())
 
-    print(advice)
-
     html = JINJA_ENV.get_template('constituency.html').render(
         constituency=constituency,
         datasets=datasets,
