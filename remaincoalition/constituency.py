@@ -8,7 +8,7 @@ class Constituency(NamedTuple):
 
     @property
     def slug(self):
-        return '-'.join(self.name.split()).lower()
+        return '-'.join(self.name.split()).lower().replace(',', '').replace('.', '')
 
 _CONSTITUENCIES = {}
 def _load_constitency_data():
