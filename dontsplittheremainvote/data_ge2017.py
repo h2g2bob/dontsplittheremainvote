@@ -5,7 +5,7 @@ from .constituency import get_constitiuency
 from .result import Result
 from .dataset import Dataset
 
-DESCRIPTION = Dataset(name='ge2017', description='ge2017')
+DESCRIPTION = Dataset(name='ge2017', description='General Election 2017')
 
 def _results_by_constituency():
     raw_data = defaultdict(dict)
