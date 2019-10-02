@@ -150,7 +150,7 @@ class Result(NamedTuple):
             if remain1 == GREEN:
                 return classify.DIFFICULT_ALLIANCE_GREEN
             if remain1 == NHAP:
-                return classify.DIFFICULT_ALLIANCE_GREEN
+                return classify.DIFFICULT_ALLIANCE_NHAP
             if remain1 == SF:
                 return classify.SF_ALLIANCE
             raise ValueError(remain1)
