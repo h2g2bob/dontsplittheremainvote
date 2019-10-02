@@ -133,6 +133,16 @@ class Result(NamedTuple):
                 return classify.ALLIANCE_NEEDED_ALLIANCE_SF
             if remain1 == ALLIANCE and remain2 == LD:
                 return classify.ALLIANCE_NEEDED_ALLIANCE_LD
+            if remain1 == PLAID and remain2 == LD:
+                return classify.ALLIANCE_NEEDED_PLAID_LD
+            if remain1 == GREEN and remain2 == LAB:
+                return classify.ALLIANCE_NEEDED_GREEN_LAB
+            if remain1 == PLAID and remain2 == LAB:
+                return classify.ALLIANCE_NEEDED_PLAID_LAB
+            if remain1 == GREEN and remain2 == LD:
+                return classify.ALLIANCE_NEEDED_GREEN_LD
+            if remain1 == LAB and remain2 == GREEN:
+                return classify.ALLIANCE_NEEDED_LAB_GREEN
             if remain1 == SF:
                 return classify.SF_ALLIANCE
             raise ValueError([remain1, remain2])
@@ -151,6 +161,8 @@ class Result(NamedTuple):
                 return classify.DIFFICULT_ALLIANCE_GREEN
             if remain1 == NHAP:
                 return classify.DIFFICULT_ALLIANCE_NHAP
+            if remain1 == PLAID:
+                return classify.DIFFICULT_ALLIANCE_PLAID
             if remain1 == SF:
                 return classify.SF_ALLIANCE
             raise ValueError(remain1)
