@@ -12,9 +12,11 @@ class ConstituencyPage(NamedTuple):
     constituency: Constituency
     datasets: Dict[Dataset, Result]
 
+    @property
     def advice(self):
         return get_advice(self.datasets.values())
 
+    @property
     def outcomes(self):
         return outcome_frequency(self.datasets.values())
 
