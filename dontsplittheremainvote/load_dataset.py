@@ -9,9 +9,10 @@ from . import data_adj_ld
 from . import data_adj_bx
 from .constituency import all_constituencies
 from .constituency import Constituency
+from .constituency_page import ConstituencyPage
 from .dataset import Dataset
 from .result import Result
-from typing import Dict
+from typing import List
 
 def get_all_datasets():
     datasets = {
@@ -27,11 +28,15 @@ def get_all_datasets():
     }
     return datasets
 
-def datasets_by_constituency() -> Dict[Constituency, Dict[Dataset, Result]]:
-    datasets = get_all_datasets()
-    return {
-        constituency: {
-            dataset_name: results_by_constituency[constituency]
-            for dataset_name, results_by_constituency in datasets.items()
+def datasets_by_constituency() -> List[ConstituencyPage]:
+    all_datasets = get_all_datasets()
+    constituency_pages = []
+    for constituency in all_constituencies():
+        constituency_datasets = {
+            dataset_name: results_by_constituency[constituency].collect_others(0.02)
+            for dataset_name, results_by_constituency in all_datasets.items()
             if constituency in results_by_constituency}
-        for constituency in all_constituencies()}
+        constituency_pages.append(ConstituencyPage(
+            constituency=constituency,
+            datasets=constituency_datasets))
+    return constituency_pages
