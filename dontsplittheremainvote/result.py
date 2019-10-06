@@ -143,6 +143,8 @@ class Result(NamedTuple):
                 return classify.ALLIANCE_NEEDED_GREEN_LD
             if remain1 == LAB and remain2 == GREEN:
                 return classify.ALLIANCE_NEEDED_LAB_GREEN
+            if remain1 == LD and remain2 == SNP:
+                return classify.ALLIANCE_NEEDED_LD_SNP
             if remain1 == SF:
                 return classify.SF_ALLIANCE
             raise ValueError([remain1, remain2])
