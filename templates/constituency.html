@@ -33,7 +33,7 @@
 {% for outcome, percent in outcomes %}
   <div class="outcome">
     <img class="logo" src="{{static}}/logo/{{outcome.logo}}.png" />
-    {{percent * 100|round|int}}%
+    {{(percent * 100)|round|int}}%
     {{outcome.name}}
     <br style="clear: both" />
   </div>
