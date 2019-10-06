@@ -47,3 +47,9 @@ div.advice {
   margin: 0.3em;
   padding: 0.5em;
 }
+
+li.constituency img.advice-image {
+    height: 1em;
+    width: 1em;
+    vertical-align: center;
+}
