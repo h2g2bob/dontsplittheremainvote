@@ -53,3 +53,52 @@ li.constituency img.advice-image {
     width: 1em;
     vertical-align: center;
 }
+
+
+body {
+  margin: 0;
+  padding: 0;
+  background: white;
+  color: black;
+}
+
+div#content {
+  margin: 0.5em;
+}
+
+div#banner,
+div#footer {
+  background: #cccccc;
+  color: black;
+}
+
+div#banner a:link,
+div#footer a:link {
+  text-decoration: none;
+  color: black;
+}
+
+div#banner {
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 160%;
+  padding-top: 0.1em;
+  padding-left: 0.4em;
+  padding-right: 0.4em;
+  padding-bottom: 0.4em;
+}
+
+div#footer {
+  font-size: 80%;
+  padding-top: 0.4em;
+  padding-left: 0.4em;
+  padding-right: 0.4em;
+  padding-bottom: 0.1em;
+}
+
+div#banner #banner-dont { color: #DC241F; }
+div#banner #banner-split { color: #FAA61A; }
+div#banner #banner-the { color: #eeeeee; }
+div#banner #banner-remain { color: #6AB023; }
+div#banner #banner-vote { color: #FFF95D; }
+div#banner #banner-com { font-size: 50%; color: #bbbbbb; }
