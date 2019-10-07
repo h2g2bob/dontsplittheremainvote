@@ -11,7 +11,7 @@ def generate_all_constituencies():
     generate_index(constituency_pages)
 
 def generate_constituency(constituency_page):
-    html = JINJA_ENV.get_template('constituency.html').render(
+    html = JINJA_ENV.get_template(constituency_page.advice.template).render(
         static="/static",
         constituency=constituency_page.constituency,
         datasets=constituency_page.datasets,

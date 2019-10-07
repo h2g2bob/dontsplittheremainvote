@@ -22,7 +22,11 @@
 
 <div class="section advice">
   <img class="mainlogo" src="{{static}}/logo/outcome/{{advice.image}}" />
-  <h2>{{advice.title}}</h2>
+  <h2>{% block advicetitle %}{{advice.title}}{% endblock %}</h2>
+  <ul class="checklist">
+    <li><a href="https://www.gov.uk/register-to-vote">Register to Vote</a> today</li>
+    {% block adviceblock %}{% endblock %}
+  </ul>
   <div class="clear"></div>
 </div>
 

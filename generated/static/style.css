@@ -102,3 +102,14 @@ div#banner #banner-the { color: #eeeeee; }
 div#banner #banner-remain { color: #6AB023; }
 div#banner #banner-vote { color: #FFF95D; }
 div#banner #banner-com { font-size: 50%; color: #bbbbbb; }
+
+ul.checklist li {
+  list-style-type: '□';
+  padding-left: 0.3em;
+}
+
+div.advice ul.checklist {
+  display: inline-block;
+  width: calc(100% - 14em);
+  min-width: 80%;
+}

@@ -11,6 +11,7 @@ from .classify import ClassifyResult
 class Advice(NamedTuple):
     image: str
     title: str
+    template: str = 'constituency.html'
 
 
 def group_by_frequency(results: List[Result]) -> Dict[ClassifyResult, float]:
@@ -51,7 +52,10 @@ def get_advice(results) -> Advice:
         party = tuple(leading_remain_party)[0]
         if chance_of_success < 0.5:
             return Advice('difficult-alliance.png', 'An alliance would help ({})'.format(party))
-        return Advice('alliance-{}.png'.format(party), 'Remain can win if we back {} here'.format(party))
+        return Advice(
+            image='alliance-{}.png'.format(party),
+            title='Remain can win if we back {} here'.format(party),
+            template='alliance-{}.html'.format(party))
 
     if chance_of_success < 0.5:
         # hard AND no single remain party to back
