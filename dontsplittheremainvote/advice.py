@@ -29,14 +29,23 @@ def get_advice(results) -> Advice:
     outcomes = group_by_frequency(results)
 
     if not any(clfy.remain_can_win for clfy in outcomes.keys()):
-        return Advice('leave.png', 'Leave win likely')
+        return Advice(
+            image='leave.png',
+            title='Leave win likely',
+            template='leave.html')
 
     if all(clfy.remain_can_win and not clfy.alliance_helpful for clfy in outcomes.keys()):
-        return Advice('remain.png', 'Remain win likely')
+        return Advice(
+            image='remain.png',
+            title='Remain win likely',
+            template='remain.html')
 
     if not any(clfy.alliance_helpful for clfy in outcomes.keys()):
         # eg: speaker's consituency and other strange edge-cases
-        return Advice('other.png', 'No need for an alliance')
+        return Advice(
+            image='other.png',
+            title='No need for an alliance',
+            template='other.html')
 
     leading_remain_party = set(
         clfy.remain_allicance_leader
