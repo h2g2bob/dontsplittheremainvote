@@ -24,5 +24,7 @@ def generate_index(constituency_pages):
     html = JINJA_ENV.get_template('constituency_index.html').render(
         static="/static",
         constituency_pages=constituency_pages)
+    with open('generated/index.html', 'w') as f:
+        f.write(html)
     with open('generated/constituency/index.html', 'w') as f:
         f.write(html)

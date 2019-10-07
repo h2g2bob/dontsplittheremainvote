@@ -6,7 +6,7 @@
 <ul>
 {% for cpage in constituency_pages %}
     <li class="constituency">
-        <a href="{{cpage.constituency.slug}}.html">{{cpage.constituency.name}}</a> <img class="advice-image" src="{{static}}/logo/outcome/{{cpage.advice.image}}" />
+        <a href="/constituency/{{cpage.constituency.slug}}.html">{{cpage.constituency.name}}</a> <img class="advice-image" src="{{static}}/logo/outcome/{{cpage.advice.image}}" />
     </li>
 {% endfor %}
 </ul>
