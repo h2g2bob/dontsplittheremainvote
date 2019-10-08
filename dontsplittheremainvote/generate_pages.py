@@ -16,7 +16,8 @@ def generate_constituency(constituency_page):
         constituency=constituency_page.constituency,
         datasets=constituency_page.datasets,
         outcomes=constituency_page.outcomes,
-        advice=constituency_page.advice)
+        advice=constituency_page.advice,
+        **constituency_page.advice.advice_kwargs)
     with open('generated/constituency/{}.html'.format(constituency_page.constituency.slug), 'w') as f:
         f.write(html)
 

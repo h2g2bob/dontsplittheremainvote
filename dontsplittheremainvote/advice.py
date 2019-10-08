@@ -10,8 +10,8 @@ from .classify import ClassifyResult
 
 class Advice(NamedTuple):
     image: str
-    title: str
     template: str = 'constituency.html'
+    advice_kwargs: dict = {}
 
 
 def group_by_frequency(results: List[Result]) -> Dict[ClassifyResult, float]:
@@ -31,20 +31,17 @@ def get_advice(results) -> Advice:
     if not any(clfy.remain_can_win for clfy in outcomes.keys()):
         return Advice(
             image='leave.png',
-            title='Leave win likely',
             template='leave.html')
 
     if all(clfy.remain_can_win and not clfy.alliance_helpful for clfy in outcomes.keys()):
         return Advice(
             image='remain.png',
-            title='Remain win likely',
             template='remain.html')
 
     if not any(clfy.alliance_helpful for clfy in outcomes.keys()):
         # eg: speaker's consituency and other strange edge-cases
         return Advice(
             image='other.png',
-            title='No need for an alliance',
             template='other.html')
 
     leading_remain_party = set(
@@ -60,15 +57,16 @@ def get_advice(results) -> Advice:
     if len(leading_remain_party) == 1:
         party = tuple(leading_remain_party)[0]
         if chance_of_success < 0.5:
-            return Advice('difficult-alliance.png', 'An alliance would help ({})'.format(party))
+            return Advice(
+                image='difficult-alliance.png',
+                template='alliance-{}.html'.format(party),
+                advice_kwargs={'difficult_win': True})
         return Advice(
             image='alliance-{}.png'.format(party),
-            title='Remain can win if we back {} here'.format(party),
-            template='alliance-{}.html'.format(party))
-
-    if chance_of_success < 0.5:
-        # hard AND no single remain party to back
-        return Advice('difficult-alliance.png', 'An alliance would help')
+            template='alliance-{}.html'.format(party),
+            advice_kwargs={'difficult_win': False})
 
     # no single party to back
-    return Advice('difficult-alliance.png', 'Remain can win if we back one party')
+    return Advice(
+        image='difficult-alliance.png',
+        template='alliance-mixed.html')

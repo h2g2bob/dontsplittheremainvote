@@ -1,5 +1,9 @@
 {% extends "constituency.html" %}
-{% block advicetitle %}Remain can win if we back {% block party %}a remain party{% endblock %}{% endblock %}
+{% block advicetitle %}
+{% if difficult_win %}Vote{% else %}Remain can win if we back{% endif %}
+{% block party %}a remain party{% endblock %}
+{% if difficult_win %}for the best chance of a remain victory{% else %}{% endif %}
+{% endblock %}
 {% block adviceblock %}
   <li>Vote for a remain party</li>
 {% endblock %}
