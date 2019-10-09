@@ -1,7 +1,5 @@
 from . import data_ge2015
-from . import data_ge2015_adjust_avg
 from . import data_ge2017
-from . import data_ge2017_adjust_avg
 from . import data_eu2019
 from . import data_adj_con
 from . import data_adj_lab
@@ -21,8 +19,8 @@ def get_all_datasets():
         data_ge2015.DESCRIPTION: data_ge2015.get_data(),
         data_eu2019.DESCRIPTION: data_eu2019.get_data(),
 
-        data_ge2017_adjust_avg.DESCRIPTION: data_ge2017_adjust_avg.get_data(),
-        data_ge2015_adjust_avg.DESCRIPTION: data_ge2015_adjust_avg.get_data(),
+        data_adj_avg.DESCRIPTION_2017: data_adj_avg.get_data_2017(),
+        data_adj_avg.DESCRIPTION_2015: data_adj_avg.get_data_2015(),
         data_adj_avg.DESCRIPTION_2019: data_adj_avg.get_data_2019(),
 
         data_adj_con.DESCRIPTION_2017: data_adj_con.get_data_2017(),
