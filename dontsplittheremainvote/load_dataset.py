@@ -17,16 +17,17 @@ def get_all_datasets():
     datasets = [
         data_ge2017.DATA_2017,
         data_ge2015.DATA_2015,
-        data_eu2019.DATA_2019,
 
         data_adj_avg.DATA_2017,
         data_adj_avg.DATA_2015,
-        data_adj_avg.DATA_2019,
 
         data_adj_ld.DATA_2017,
         data_adj_lab.DATA_2017,
         data_adj_con.DATA_2017,
         data_adj_bx.DATA_2017,
+
+        data_eu2019.DATA_2019,
+        data_adj_avg.DATA_2019,
     ]
     return datasets
 
