@@ -51,7 +51,7 @@ https://ukpollingreport.co.uk/blog/archives/10089
 LAB       40.0%     25.2%       -14.8%
 LD         7.4%     18.0%        10.6%
 CON       42.4%     30.4%       -12.0%
-BXT       12.6%     16.0%         3.4%
+BXT        1.8%     16.0%        14.2%
 
 The difference numbers are added the the percentage each party got in the election,
 and the results normalized to add up to 100%.
@@ -62,7 +62,7 @@ def _get_data_2017():
         LAB: -0.148,
         LD: +0.106,
         CON: -0.120,
-        UKIP: +0.034,
+        UKIP: +0.142,
     }
     return {
         constituency: result.adjust_for_polling(adjustments)
