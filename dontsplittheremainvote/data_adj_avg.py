@@ -8,19 +8,23 @@ from .party import LAB
 from .party import LD
 from .party import UKIP
 
-DESCRIPTION_2015 = Dataset(name='ge2015_adjust_avg', description='2015 General Election results, adjusted for recent opinion polls')
+DOC_2015 = """Results of the 2015 General Election, adjusted for an average opinion poll
 
-def get_data_2015():
-    """
-    HoC 2015 results, adjusted to polling			
-    https://ukpollingreport.co.uk/blog/archives/10089			
-                
-        Election	Current polling	Adjustment
-    L	30.40%	25.20%	-5.20%
-    LD	7.90%	18.00%	10.10%
-    C	36.80%	30.40%	-6.40%
-    U/B 12.6%    16.00%  3.4%
-    """
+Using the average of the opinion polls listed here:
+https://ukpollingreport.co.uk/blog/archives/10089			
+
+       Election   Polling   Difference
+LAB       30.4%     25.2%        -5.2%
+LD         7.9%     18.0%        10.1%
+CON       36.8%     30.4%        -6.4%
+BXT       12.6%     16.0%         3.4%
+
+The difference numbers are added the the percentage each party got in the election,
+and the results normalized to add up to 100%.
+
+""" + data_ge2015.SOURCE
+
+def _get_data_2015():
     adjustments = {
         LAB: -0.052,
         LD: +0.101,
@@ -29,22 +33,31 @@ def get_data_2015():
     }
     return {
         constituency: result.adjust_for_polling(adjustments)
-        for constituency, result in data_ge2015.get_data().items()}
+        for constituency, result in data_ge2015.DATA_2015.results_by_constituency.items()}
+
+DATA_2015 = Dataset(
+    code='ge2015_avg',
+    title='2015 General Election results, adjusted for recent opinion polls',
+    longdesc=DOC_2015,
+    datafunc=_get_data_2015)
 
 
-DESCRIPTION_2017 = Dataset(name='ge2017_adjust_avg', description='2017 General Election results, adjusted for recent opinion polls')
+DOC_2017 = """Results of the 2017 General Election, adjusted for an average opinion poll
 
-def get_data_2017():
-    """
-    HoC 2017 results, adjusted to polling			
-    https://ukpollingreport.co.uk/blog/archives/10089			
+Using the average of the opinion polls listed here:
+https://ukpollingreport.co.uk/blog/archives/10089			
 
-    	Election	Current polling	Adjustment
-    L	40.00%	25.20%	-14.80%
-    LD	7.40%	18.00%	10.60%
-    C	42.40%	30.40%	-12.00%
-    U/B 12.6%   16.0%   +3.4%
-    """
+       Election   Polling   Difference
+LAB       40.0%     25.2%       -14.8%
+LD         7.4%     18.0%        10.6%
+CON       42.4%     30.4%       -12.0%
+BXT       12.6%     16.0%         3.4%
+
+The difference numbers are added the the percentage each party got in the election,
+and the results normalized to add up to 100%.
+
+""" + data_ge2017.SOURCE
+def _get_data_2017():
     adjustments = {
         LAB: -0.148,
         LD: +0.106,
@@ -53,32 +66,42 @@ def get_data_2017():
     }
     return {
         constituency: result.adjust_for_polling(adjustments)
-        for constituency, result in data_ge2017.get_data().items()}
+        for constituency, result in data_ge2017.DATA_2017.results_by_constituency.items()}
+
+DATA_2017 = Dataset(
+    code='ge2017_avg',
+    title='2017 General Election results, adjusted for recent opinion polls',
+    longdesc=DOC_2017,
+    datafunc=_get_data_2017)
 
 
-DESCRIPTION_2019 = Dataset(name='eu2019_adjust_avg', description='2019 European Parliament results (estimated), adjusted for recent opinion polls')
+DOC_2019 = """HoC 2015 results, adjusted to polling			
 
-def get_data_2019():
-    """
-    HoC 2015 results, adjusted to polling			
-    https://ukpollingreport.co.uk/blog/archives/10089
+Using the average of the opinion polls listed here:
+https://ukpollingreport.co.uk/blog/archives/10089			
 
-    Election:
-        BX 30.5
-        LD 19.6
-        L  13.7
-        G  11.8
-        C   8.8
-        SNP 3.5
-        PC  1.0
+Election:
+    BX 30.5
+    LD 19.6
+    L  13.7
+    G  11.8
+    C   8.8
+    SNP 3.5
+    PC  1.0
 
-    Polling:
-        L  25.2
-        LD 18.0
-        C  34.4
-        BX 16.0
-        G   4.7
-    """
+Polling:
+    L  25.2
+    LD 18.0
+    C  34.4
+    BX 16.0
+    G   4.7
+
+The difference numbers are added the the percentage each party got in the election,
+and the results normalized to add up to 100%.
+
+""" + data_eu2019.SOURCE
+
+def _get_data_2019():
     adjustments = {
         LAB: 0.252 - 0.137,
         LD: 0.180 - 0.196,
@@ -88,4 +111,10 @@ def get_data_2019():
     }
     return {
         constituency: result.adjust_for_polling(adjustments)
-        for constituency, result in data_eu2019.get_data().items()}
+        for constituency, result in data_eu2019.DATA_2019.results_by_constituency.items()}
+
+DATA_2019 = Dataset(
+    code='eu2019_avg',
+    title='2019 European Parliament results (estimated), adjusted for recent opinion polls',
+    longdesc=DOC_2019,
+    datafunc=_get_data_2019)

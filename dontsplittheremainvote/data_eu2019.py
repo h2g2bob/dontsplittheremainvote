@@ -1,12 +1,25 @@
 from csv import DictReader
 from collections import defaultdict
-from .party import get_party
+from typing import Dict
+from . import party
+from .constituency import Constituency
 from .constituency import get_constitiuency
 from .result import Result
 from .dataset import Dataset
-from . import party
 
-DESCRIPTION = Dataset(name='EU 2019 Estimates', description='European Parliament 2019 (estimated)')
+SOURCE = """EP2019 results mapped onto Westminster constituencies by Chris Hanretty
+
+Notes on this blog post:
+https://medium.com/@chrishanretty/ep2019-results-mapped-onto-westminster-constituencies-8a2a6ed14146
+
+The data here is an export of:
+https://docs.google.com/spreadsheets/d/1G_zdsUdYjvZKOCm1F_cE4vuTI6KKXNMwMQE_z8-ZiWg/edit#gid=1595021733
+"""
+
+DOC = """Results of the 2019 European Parliament Election
+
+""" + SOURCE
+
 FILE = 'data/eu2019/Estimates of the EP2019 vote in Westminster constituencies - export.csv'
 
 PARTIES = [
@@ -20,7 +33,7 @@ PARTIES = [
     (party.OTHERS, 'Other_pct'),
 ]
 
-def _results_by_constituency():
+def _results_by_constituency() -> Dict[Constituency, Result]:
     raw_data = defaultdict(dict)
 
     with open(FILE, 'r') as f:
@@ -38,8 +51,8 @@ def _results_by_constituency():
             for party, vote_share in constituency_results.items()})
         for constituency_id, constituency_results in raw_data.items()}
 
-def get_data():
-    return _results_by_constituency()
-
-if __name__ == '__main__':
-    print(get_data())
+DATA_2019 = Dataset(
+    code='eu2019',
+    title='European Parliament 2019 (estimated)',
+    longdesc=DOC,
+    datafunc=_results_by_constituency)

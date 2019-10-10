@@ -1,13 +1,24 @@
 from csv import DictReader
 from collections import defaultdict
+from typing import Dict
 from .party import get_party
+from .constituency import Constituency
 from .constituency import get_constitiuency
 from .result import Result
 from .dataset import Dataset
 
-DESCRIPTION = Dataset(name='ge2017', description='General Election 2017')
+SOURCE = """These are collected as a Research Briefing by the UK Parliament, and can be downloaded from:
+https://researchbriefings.parliament.uk/ResearchBriefing/Summary/CBP-7979
 
-def _results_by_constituency():
+Contains Parliamentary information licensed under the Open Parliament Licence v3.0.
+https://www.parliament.uk/site-information/copyright-parliament/open-parliament-licence/
+"""
+
+DOC = """Results of the 2017 General Election
+
+""" + SOURCE
+
+def _results_by_constituency() -> Dict[Constituency, Result]:
     raw_data = defaultdict(dict)
 
     with open('data/ge2017/HoC-GE2017-results-by-candidate.csv', 'r') as f:
@@ -24,8 +35,8 @@ def _results_by_constituency():
             for party_name, vote_share in constituency_results.items()})
         for constituency_id, constituency_results in raw_data.items()}
 
-def get_data():
-    return _results_by_constituency()
-
-if __name__ == '__main__':
-    print(get_data())
+DATA_2017 = Dataset(
+    code='ge2017',
+    title='General Election 2017',
+    longdesc=DOC,
+    datafunc=_results_by_constituency)

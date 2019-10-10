@@ -49,7 +49,7 @@
 <div class="section scenarios">
 {% for dataset, result in datasets.items() %}
   <div class="scenario">
-    <h4>{{dataset.description}}</h4>
+    <h4><a href="/datasets.html#{{dataset.code}}">{{dataset.title}}</a></h4>
     <img class="logo" src="{{static}}/logo/{{result.classify.logo}}.png" />
     <div class="beside-logo">
       <div>{{result.classify.name}}</div>
