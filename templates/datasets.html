@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+{% block title %}Sources - Vote Tactically For Remain{% endblock %}
+{% block content %}
+<h1>Sources</h1>
+
+<h2>Election scenarios</h2>
+
+{% for dataset in datasets %}
+
+<div class="section dataset" id="{{ dataset.code }}">
+  <h3>{{dataset.title}}</h3>
+  <pre>{{dataset.longdesc}}</pre>
+</div>
+
+{% endfor %}
+
+{% endblock %}
