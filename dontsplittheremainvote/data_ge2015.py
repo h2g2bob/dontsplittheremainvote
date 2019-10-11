@@ -7,7 +7,7 @@ from .constituency import get_constitiuency
 from .result import Result
 from .dataset import Dataset
 
-SOURCE = """Results are collected as a Research Briefing by the UK Parliament, and can be downloaded from:
+SOURCE = """Election results are collected as a Research Briefing by the UK Parliament, and can be downloaded from:
 https://researchbriefings.parliament.uk/ResearchBriefing/Summary/CBP-7186
 
 Contains Parliamentary information licensed under the Open Parliament Licence v3.0.
