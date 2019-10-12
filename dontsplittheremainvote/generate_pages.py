@@ -4,10 +4,13 @@ from .dataset import Dataset
 from .load_dataset import datasets_by_constituency
 from .load_dataset import get_all_datasets
 from .constituency import all_constituencies
+from .generate_postcode_sqlite import make_sqlite
 
 JINJA_ENV = Environment(loader=FileSystemLoader('templates/'))
 
 def generate_all_constituencies():
+    make_sqlite()
+
     constituency_pages = datasets_by_constituency()
     for constituency_page in constituency_pages:
         generate_constituency(constituency_page)
