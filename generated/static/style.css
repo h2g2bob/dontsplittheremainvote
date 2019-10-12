@@ -119,3 +119,19 @@ div.advice ul.checklist {
   font-weight: bold;
   color: black;
 }
+
+
+form.postcode-search {
+  text-align: center;
+}
+
+form.postcode-search input {
+  font-size: 200%;
+  height: 1.5em;
+  vertical-align: middle;
+}
+
+form.postcode-search input.postcode {
+  max-width: 10em;
+  width: 100%;
+}
