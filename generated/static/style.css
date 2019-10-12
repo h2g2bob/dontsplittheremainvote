@@ -72,10 +72,14 @@ div#footer {
   color: black;
 }
 
-div#banner a:link,
-div#footer a:link {
+div#banner a:link {
   text-decoration: none;
   color: black;
+}
+
+div#footer a:link {
+  color: black;
+  text-decoration: underline;
 }
 
 div#banner {
