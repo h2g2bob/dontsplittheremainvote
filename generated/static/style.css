@@ -130,6 +130,13 @@ div.advice ul.checklist {
 
 form.postcode-search {
   text-align: center;
+  margin-top: 0.6em;
+  margin-bottom: 0.6em;
+  margin-left: 2.2em;
+  margin-right: 2.2em;
+  padding: 0.6em;
+  background: #dddddd;
+  color: black;
 }
 
 form.postcode-search input {

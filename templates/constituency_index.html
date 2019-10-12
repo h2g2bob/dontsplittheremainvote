@@ -1,12 +1,22 @@
 {% extends "base.html" %}
 {% block title %}Vote Tactically For Remain{% endblock %}
 {% block content %}
-<h1>Constituency Index</h1>
+
+<h1>Don't Split The Remain Vote</h1>
+
+<div class="introdction">
+We need to work together to win the election.
+In 2015, <strong>most people</strong> who voted <strong>voted for someone who didn't become their MP</strong>.
+</div>
 
 <form class="postcode-search" action="/postcodes.php" method="POST">
   <input type="text" name="postcode" placeholder="SW1A 0AA" />
   <input type="submit" value="⮰" />
 </form>
+
+<div class="introdction">
+Click on a constituency to see our analysis of the possible election outcomes in the 2019 / 2020 General Election.
+</div>
 
 <ul>
 {% for cpage in constituency_pages %}
