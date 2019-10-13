@@ -10,6 +10,7 @@ JINJA_ENV = Environment(loader=FileSystemLoader('templates/'))
 
 BASE_URL = 'https://dontsplittheremainvote.com'
 STATIC = "/static"
+IMAGE_LOGO_600_314 = BASE_URL + STATIC + '/banner/banner_600_314.png'
 IMAGE_LOGO_735_238 = BASE_URL + STATIC + '/banner/banner_735_285.png'
 
 def generate_all_constituencies():
