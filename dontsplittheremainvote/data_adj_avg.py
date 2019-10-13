@@ -6,18 +6,32 @@ from .party import CON
 from .party import GREEN
 from .party import LAB
 from .party import LD
+from .party import SNP
 from .party import UKIP
+
+RECENT_POLLING = """October polling:
+
+               Con   Lab   LibDem   Brexit   Green   SNP
+ComRes          33    27       19       13       3     4
+Opinium         38    23       15       12       4     5
+YouGov          35    22       22       12       5
+
+https://www.comresglobal.com/polls/the-telegraph-voting-intention-october-2019/
+https://www.opinium.co.uk/political-polling-3rd-october-2019/
+https://yougov.co.uk/topics/politics/articles-reports/2019/10/11/political-trackers-8-9-oct-update
+
+               Con   Lab   LibDem   Brexit   Green   SNP
+October Avg     35    24       19       12       4     4
+"""
 
 DOC_2015 = """Results of the 2015 General Election, adjusted for an average opinion poll
 
-Using the average of the opinion polls listed here:
-https://ukpollingreport.co.uk/blog/archives/10089			
+""" + RECENT_POLLING + """
+               Con   Lab   LibDem   Brexit   Green   SNP
+2015 Election   37    30        8       13       4     5
 
-       Election   Polling   Difference
-LAB       30.4%     25.2%        -5.2%
-LD         7.9%     18.0%        10.1%
-CON       36.8%     30.4%        -6.4%
-BXT       12.6%     16.0%         3.4%
+               Con   Lab   LibDem   Brexit   Green   SNP
+Change          -2    -6      +11       -1       0    -1
 
 The difference numbers are added the the percentage each party got in the election,
 and the results normalized to add up to 100%.
@@ -26,10 +40,11 @@ and the results normalized to add up to 100%.
 
 def _get_data_2015():
     adjustments = {
-        LAB: -0.052,
-        LD: +0.101,
-        CON: -0.064,
-        UKIP: +0.034,
+        CON: -0.02,
+        LAB: -0.06,
+        LD: +0.11,
+        UKIP: -0.01,
+        SNP: -0.01,
     }
     return {
         constituency: result.adjust_for_polling(adjustments)
@@ -44,14 +59,12 @@ DATA_2015 = Dataset(
 
 DOC_2017 = """Results of the 2017 General Election, adjusted for an average opinion poll
 
-Using the average of the opinion polls listed here:
-https://ukpollingreport.co.uk/blog/archives/10089			
+""" + RECENT_POLLING + """
+               Con   Lab   LibDem   Brexit   Green   SNP
+2017 Election   42    40        7        2       1     3
 
-       Election   Polling   Difference
-LAB       40.0%     25.2%       -14.8%
-LD         7.4%     18.0%        10.6%
-CON       42.4%     30.4%       -12.0%
-BXT        1.8%     16.0%        14.2%
+               Con   Lab   LibDem   Brexit   Green   SNP
+Change          -7   -16      +12      +10      +3    +1
 
 The difference numbers are added the the percentage each party got in the election,
 and the results normalized to add up to 100%.
@@ -59,10 +72,12 @@ and the results normalized to add up to 100%.
 """ + data_ge2017.SOURCE
 def _get_data_2017():
     adjustments = {
-        LAB: -0.148,
-        LD: +0.106,
-        CON: -0.120,
-        UKIP: +0.142,
+        CON: -0.07,
+        LAB: -0.16,
+        LD: +0.12,
+        UKIP: +0.10,
+        GREEN: +0.03,
+        SNP: +0.01,
     }
     return {
         constituency: result.adjust_for_polling(adjustments)
