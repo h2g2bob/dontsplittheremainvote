@@ -10,6 +10,10 @@ class Constituency(NamedTuple):
     def slug(self):
         return '-'.join(self.name.split()).lower().replace(',', '').replace('.', '')
 
+    @property
+    def hashtag(self):
+        return '#' + ''.join(word.title() for word in self.name.replace(',', '').replace('.', '').split())
+
 _CONSTITUENCIES = {}
 def _load_constitency_data():
     constituencies = defaultdict(dict)
