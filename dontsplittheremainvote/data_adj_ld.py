@@ -9,23 +9,24 @@ from .party import UKIP
 DOC_2017 = """HoC 2017 results, adjusted for Lib-Dem-skewed polling
 
 Using an opinion poll which is favourable to the Liberal Democrats.
-https://ukpollingreport.co.uk/blog/archives/10089
+https://yougov.co.uk/topics/politics/articles-reports/2019/10/11/political-trackers-8-9-oct-update
 
-YouGov: CON 33%, LAB 22%, LDEM 21%, BREX 12%, GRN 7%
+               Con   Lab   LibDem   Brexit   Green   SNP
+YouGov          35    22       22       12       5
 
-Election 2017: C 42.40%, L 40.00%. LD 7.40%, UKIP 1.8%, G 1.6%
-
-Difference: C -9.4%, L -18.0%, LD +13.6%, BX/UKIP +10.2%, G +5.4%
+               Con   Lab   LibDem   Brexit   Green   SNP
+2017 Election   42    40        7        2       1     3
+Change          -7   -18      +15      +10      +4
 
 """ + data_ge2017.SOURCE
 
 def _get_data_2017():
     adjustments = {
-        CON: -0.094,
-        LAB: -0.180,
-        LD: +0.136,
-        UKIP: +0.102,
-        GREEN: +0.054,
+        CON: -0.07,
+        LAB: -0.18,
+        LD: +0.15,
+        UKIP: +0.10,
+        GREEN: +0.04,
     }
     return {
         constituency: result.adjust_for_polling(adjustments)
