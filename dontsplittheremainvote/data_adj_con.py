@@ -1,31 +1,34 @@
 from . import data_ge2017
 from .dataset import Dataset
-from .party import LAB
-from .party import LD
 from .party import CON
 from .party import GREEN
+from .party import LAB
+from .party import LD
+from .party import SNP
 from .party import UKIP
 
 DOC_2017 = """HoC 2017 results, adjusted for Conservative-skewed polling
 
-Using an opinion poll which is favourable to the Conseravtives.
-https://ukpollingreport.co.uk/blog/archives/10089
+Using an opinion poll which is favourable to the Conseravtives:
+https://www.opinium.co.uk/political-polling-3rd-october-2019/
 
-Opinium: CON 37%, LAB 25%, LDEM 16%, BREX 13%, GRN 2%
+               Con   Lab   LibDem   Brexit   Green   SNP
+Opinium         38    23       15       12       4     5
 
-Election 2017: C 42.40%, L 40.00%. LD 7.40%, UKIP 1.8%, G 1.6%
-
-Difference: C -5.4%, L -15%, LD +8.6%, BX/UKIP +11.2%, G +0.4%
+               Con   Lab   LibDem   Brexit   Green   SNP
+2017 Election   42    40        7        2       1     3
+Change          -4   -17       +8      +10      +3    +2
 
 """ + data_ge2017.SOURCE
 
 def _get_data_2017():
     adjustments = {
-        CON: -0.054,
-        LAB: -0.150,
-        LD: +0.086,
-        UKIP: +0.112,
-        GREEN: +0.004,
+        CON: -0.04,
+        LAB: -0.17,
+        LD: +0.08,
+        UKIP: +0.10,
+        GREEN: +0.03,
+        SNP: +0.02,
     }
     return {
         constituency: result.adjust_for_polling(adjustments)
