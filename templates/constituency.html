@@ -1,5 +1,12 @@
 {% extends "base.html" %}
 {% block title %}{{constituency.name}} - Vote Tactically For Remain{% endblock %}
+{% block title2 %}{{constituency.name}} - Vote Tactically For Remain{% endblock %}
+{% block title3 %}{{constituency.name}} - Vote Tactically For Remain{% endblock %}
+{% block moreheaders %}
+  <meta name="description" content="Which remain party has the best chance of winning in {{ constituency.name }}?" />
+  <meta property="og:description" content="Which remain party has the best chance of winning in {{ constituency.name }}?" />
+  <meta property="article:tag" content="{{ constituency.name }}" />
+{% endblock %}
 {% block content %}
 <h1>{{constituency.name}}</h1>
 

@@ -1,8 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <link rel="stylesheet" href="{{static}}/style.css?v1" />
-    <title>{% block title %}{% endblock %} - Don't Split the Remain Vote!</title>
+<html lang="en-US" prefix="og:http://ogp.me/ns">
+  <link rel="stylesheet" href="{{static}}/style.css" />
+
+  <title>{% block title %}{% endblock %} - Don't Split the Remain Vote!</title>
+  <meta property="og:title" content="{% block title2 %}{% endblock %} - Don't Split the Remain Vote!" />
+  <meta property="twitter:title" content="{% block title3 %}{% endblock %} - Don't Split the Remain Vote!" />
+
+{% block moreheaders %}
+  <meta name="description" content="Which remain party has the best chance of winning in your constituency?" />
+  <meta property="og:description" content="Which remain party has the best chance of winning in your constituency?" />
+{% endblock %}
+
+  <link rel="canonical" href="{{ this_url }}" />
+  <meta property="og:url" content="{{ this_url }}" />
+
+  <meta property="og:type" content="article" />
+  <meta name="twitter:card" content="summary_large_image"/>
+
+  <meta property="og:site_name" content="Don't Split the Remain Vote" />
+
+  <meta property="article:tag" content="Remain" />
+  <meta property="article:tag" content="United Kingdom General Election, 2019" />
+  <meta property="article:tag" content="Polling" />
+
+  <meta property="og:image" content="{{ image_735_385 }}" />
+  <meta name="twitter:image:src" content="{{ image_735_385 }}" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="robots" content="noodp,noydir"/>
+  <meta property="og:locale" content="en" />
+
 </head>
 <body>
     <div id="banner"><a href="/"><span id="banner-dont">Dont</span><span id="banner-split">Split</span><span id="banner-the">The</span><span id="banner-remain">Remain</span><span id="banner-vote">Vote</span><span id="banner-com">.com</span></a></div>
