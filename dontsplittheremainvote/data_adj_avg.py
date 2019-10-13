@@ -70,6 +70,7 @@ The difference numbers are added the the percentage each party got in the electi
 and the results normalized to add up to 100%.
 
 """ + data_ge2017.SOURCE
+
 def _get_data_2017():
     adjustments = {
         CON: -0.07,
@@ -90,26 +91,14 @@ DATA_2017 = Dataset(
     datafunc=_get_data_2017)
 
 
-DOC_2019 = """HoC 2015 results, adjusted to polling			
+DOC_2019 = """Results of the 2019 European Parliament Election, adjusted for an average opinion poll
 
-Using the average of the opinion polls listed here:
-https://ukpollingreport.co.uk/blog/archives/10089			
+""" + RECENT_POLLING + """
+               Con   Lab   LibDem   Brexit   Green   SNP
+2019 Election    9    14       20       31      12     4
 
-Election:
-    BX 30.5
-    LD 19.6
-    L  13.7
-    G  11.8
-    C   8.8
-    SNP 3.5
-    PC  1.0
-
-Polling:
-    L  25.2
-    LD 18.0
-    C  34.4
-    BX 16.0
-    G   4.7
+               Con   Lab   LibDem   Brexit   Green   SNP
+Change         +26   +10       -1      -19      -6     0
 
 The difference numbers are added the the percentage each party got in the election,
 and the results normalized to add up to 100%.
@@ -118,11 +107,12 @@ and the results normalized to add up to 100%.
 
 def _get_data_2019():
     adjustments = {
-        LAB: 0.252 - 0.137,
-        LD: 0.180 - 0.196,
-        CON: 0.340 - 0.088,
-        UKIP: 0.160 - 0.305,
-        GREEN: 0.047 - 0.118,
+        CON: +0.26,
+        LAB: +0.10,
+        LD: -0.01,
+        UKIP: -0.19,
+        GREEN: -0.06,
+        SNP: +0.00,
     }
     return {
         constituency: result.adjust_for_polling(adjustments)
