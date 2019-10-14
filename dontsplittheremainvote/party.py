@@ -15,9 +15,9 @@ LAB = Party('Labour', remain=True, color='#DC241F', short='lab')
 LD = Party('Liberal Democrat', remain=True, color='#FAA61A', short='ld')
 SNP = Party('Scottish National Party', remain=True, color='#FFF95D', short='snp')
 CON = Party('Conservative', remain=False, color='#0087DC')
-PLAID = Party('Plaid Cymru', remain=True, color='#3F8428')
+PLAID = Party('Plaid Cymru', remain=True, color='#3F8428', short='plaid')
 DUP = Party('DUP', remain=False, color='#D46A4C')
-ALLIANCE = Party('Alliance', remain=True, color='#F6CB2F')
+ALLIANCE = Party('Alliance', remain=True, color='#F6CB2F', short='alliance')
 SF = Party('Sinn Fein', remain=True, color='#008800')
 GREEN = Party('Green', remain=True, color='#6AB023', short='green')
 UKIP = Party('UKIP / Brexit', remain=False, color='#70147A')
@@ -53,6 +53,8 @@ _MAPPINGS = {
     'Democratic Unionist Party': 'DUP',
     'Ulster Unionist Party': 'UUP',
     'UK Independence Party': 'UKIP / Brexit',
+    'Lib Dem': 'Liberal Democrat',
+    'SNP': 'Scottish National Party',
 
     # tacticalvote mis-spelling
     'Labout': 'Labour',
