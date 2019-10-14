@@ -24,7 +24,22 @@ def generate_all_constituencies():
     datasets = get_all_datasets()
     generate_datasets(datasets)
 
+def _sanity(constituency_page):
+    parties = tuple(set(oth.party for oth in constituency_page.other_site_suggestions))
+    if len(parties) > 1:
+        raise ValueError("Our external sources contracict! {}".format(constituency_page.constituency.slug))
+    if len(parties) == 1:
+        their_advice = parties[0].short
+        our_advice = constituency_page.advice.template
+        if our_advice in ('alliance-mixed.html', 'leave.html', 'remain.html'):
+            pass # no advice
+        elif our_advice.split('-')[-1].replace('.html', '') == their_advice:
+            pass # same advice
+        else:
+            raise ValueError("{} {} != {}".format(constituency_page.constituency.slug, constituency_page.advice.template, their_advice))
+
 def generate_constituency(constituency_page):
+    _sanity(constituency_page)
     url_path = '/constituency/{}.html'.format(constituency_page.constituency.slug)
     html = JINJA_ENV.get_template(constituency_page.advice.template).render(
         static=STATIC,
