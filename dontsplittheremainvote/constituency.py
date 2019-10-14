@@ -26,6 +26,12 @@ def _load_constitency_data():
             constituencies[constituency.ons_id] = constituency
     _CONSTITUENCIES.update(constituencies)
 
+def get_constitiuency_from_slug(slug):
+    for con in all_constituencies():
+        if con.slug == slug:
+            return con
+    raise ValueError(slug)
+
 def get_constitiuency(ons_id):
     if not _CONSTITUENCIES:
         _load_constitency_data()
