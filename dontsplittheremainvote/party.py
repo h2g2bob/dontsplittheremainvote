@@ -50,10 +50,17 @@ _PARTIES = {
 
 _MAPPINGS = {
     'Labour and Co-operative': 'Labour',
-    'Social Democratic and Labour Party': 'Labour',
     'Democratic Unionist Party': 'DUP',
     'Ulster Unionist Party': 'UUP',
     'UK Independence Party': 'UKIP / Brexit',
+
+    # tacticalvote mis-spelling
+    'Labout': 'Labour',
+
+    # a different party, but part of the same uk grouping
+    # and maybe with similar polling?
+    'Social Democratic and Labour Party': 'Labour',
+    'SDLP': 'Labour',
 }
 
 def get_party(code):
