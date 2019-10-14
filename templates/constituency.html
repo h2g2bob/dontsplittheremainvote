@@ -10,23 +10,6 @@
 {% block content %}
 <h1>{{constituency.name}}</h1>
 
-{#
-<div class="intro">{% block intro %}The situation in {{constituency.name}} is complicated.{% endblock %}</div>
-
-{% block partypositions %}{% endblock %}
-
-<ul class="advice">
-<li><em class="who">Voters</em>:
-  <ul>
-    <li>Register to vote</li>
-    <li>{% block voteradvice %}Watch carefully for signals from your local parties. electionleaflets.org can help you see which party is out campaigning.{% endblock %}</li>
-  </ul>
-</li>
-{% block extraadvice %}{% endblock %}
-<li><em class="who">Everyone</em>: attend the pro-europe march on 19 October.</li>
-</ul>
-#} 
-
 <div class="section advice">
   <img class="mainlogo" src="{{static}}/logo/outcome/{{advice.image}}" />
   <h2>{% block advicetitle %}{{advice.title}}{% endblock %}</h2>
