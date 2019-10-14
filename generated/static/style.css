@@ -54,7 +54,6 @@ li.constituency img.advice-image {
     vertical-align: center;
 }
 
-
 body {
   margin: 0;
   padding: 0;
@@ -148,4 +147,20 @@ form.postcode-search input {
 form.postcode-search input.postcode {
   max-width: 10em;
   width: 100%;
+}
+
+div.othersite {
+  background: #ffffff;
+  color: #000000;
+  margin: 0.3em;
+  padding-left: 1.2em;
+  padding-right: 1.2em;
+  padding-top: 0.2em;
+  padding-bottom: 0.2em;
+}
+
+div.othersite img.tick {
+  vertical-align: middle;
+  height: 5em;
+  width: 5em;
 }

@@ -34,6 +34,7 @@ def generate_constituency(constituency_page):
         datasets=constituency_page.datasets,
         outcomes=constituency_page.outcomes,
         advice=constituency_page.advice,
+        other_sites=constituency_page.other_site_suggestions,
         **constituency_page.advice.advice_kwargs)
     with open('generated' + url_path, 'w') as f:
         f.write(html)

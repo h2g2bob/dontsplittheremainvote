@@ -3,6 +3,7 @@ from .advice import outcome_frequency
 from .constituency import all_constituencies
 from .constituency import Constituency
 from .dataset import Dataset
+from .other_sites import OtherSiteSuggestion
 from .result import Result
 from typing import Dict
 from typing import List
@@ -11,6 +12,7 @@ from typing import NamedTuple
 class ConstituencyPage(NamedTuple):
     constituency: Constituency
     datasets: Dict[Dataset, Result]
+    other_site_suggestions: List[OtherSiteSuggestion]
 
     @property
     def advice(self):

@@ -20,6 +20,13 @@
   <div class="clear"></div>
 </div>
 
+{% for other_site in other_sites %}
+<div class="othersite">
+  <img class="tick" src="{{static}}/logo/tick/{{ other_site.party.short }}.png" alt="{{ other_site.party.name }} tick" />
+  <em>{{ other_site.who_suggests }}</em> <a href="{{ other_site.url }}">recomends</a> voting for <strong class="party party-{{ other_site.party.code }}">{{ other_site.party.name }}</strong>.
+</div>
+{% endfor %}
+
 <h2>Analysis</h2>
 
 <div class="section outcome-summary">

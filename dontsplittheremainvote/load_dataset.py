@@ -10,6 +10,7 @@ from .constituency import all_constituencies
 from .constituency import Constituency
 from .constituency_page import ConstituencyPage
 from .dataset import Dataset
+from .other_sites import get_other_site_suggestions
 from .result import Result
 from typing import List
 
@@ -33,6 +34,7 @@ def get_all_datasets():
 
 def datasets_by_constituency() -> List[ConstituencyPage]:
     all_datasets = get_all_datasets()
+    other_sites = get_other_site_suggestions()
     constituency_pages = []
     for constituency in all_constituencies():
         constituency_datasets = {
@@ -41,5 +43,6 @@ def datasets_by_constituency() -> List[ConstituencyPage]:
             if constituency in dataset.results_by_constituency}
         constituency_pages.append(ConstituencyPage(
             constituency=constituency,
-            datasets=constituency_datasets))
+            datasets=constituency_datasets,
+            other_site_suggestions=other_sites.get(constituency, [])))
     return constituency_pages
