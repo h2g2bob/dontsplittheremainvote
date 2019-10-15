@@ -3,8 +3,8 @@
 {% block title2 %}{{constituency.name}} - Vote Tactically For Remain{% endblock %}
 {% block title3 %}{{constituency.name}} - Vote Tactically For Remain{% endblock %}
 {% block moreheaders %}
-  <meta name="description" content="Which remain party has the best chance of winning in {{ constituency.hashtag }}?" />
-  <meta property="og:description" content="Which remain party has the best chance of winning in {{ constituency.hashtag }}?" />
+  <meta name="description" content="Which remain party has the best chance of winning in #{{ constituency.hashtag }}?" />
+  <meta property="og:description" content="Which remain party has the best chance of winning in #{{ constituency.hashtag }}?" />
   <meta property="article:tag" content="{{ constituency.name }}" />
 {% endblock %}
 {% block content %}
@@ -57,5 +57,11 @@
   </div>
 {% endfor %}
 </div>
+
+<h2>Social</h2>
+
+<ul>
+  <li><a href="https://twitter.com/intent/tweet?url={{ this_url }}&amp;text=Which+remain+party+has+the+best+chance+of+winning+in+%23{{ constituency.hashtag }}%3F">Tweet</a></li>
+</ul>
 
 {% endblock %}
