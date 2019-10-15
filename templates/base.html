@@ -1,7 +1,5 @@
 <!DOCTYPE html>
 <html lang="en" prefix="og:http://ogp.me/ns">
-  <link rel="stylesheet" href="{{static}}/style.css" />
-
   <title>{% block title %}{% endblock %} - Don't Split the Remain Vote!</title>
   <meta property="og:title" content="{% block title2 %}{% endblock %} - Don't Split the Remain Vote!" />
   <meta property="twitter:title" content="{% block title3 %}{% endblock %} - Don't Split the Remain Vote!" />
@@ -31,6 +29,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="robots" content="noodp,noydir"/>
   <meta property="og:locale" content="en" />
+
+<style type="text/css"><!--
+  {% include 'style.css' %}
+--></style>
 
 </head>
 <body>
