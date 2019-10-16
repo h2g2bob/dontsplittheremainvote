@@ -2,9 +2,17 @@ from csv import DictReader
 from typing import NamedTuple
 from collections import defaultdict
 
+COUNTRIES = {
+    'Northern Ireland',
+    'Scotland',
+    'England',
+    'Wales'}
+
 class Constituency(NamedTuple):
     ons_id: str
     name: str
+    country: str
+    region: str
 
     @property
     def slug(self):
@@ -22,7 +30,10 @@ def _load_constitency_data():
         for row in csvf:
             constituency = Constituency(
                 ons_id=row['ons_id'],
-                name=row['constituency_name'])
+                name=row['constituency_name'],
+                country=row['country_name'],
+                region=row['region_name'])
+            assert constituency.country in COUNTRIES, constituency
             constituencies[constituency.ons_id] = constituency
     _CONSTITUENCIES.update(constituencies)
 
