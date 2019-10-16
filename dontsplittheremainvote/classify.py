@@ -71,6 +71,7 @@ REMAIN_VICTORY_PLAID = _RemainVictory('plaid', 'Plaid Cymru')
 REMAIN_VICTORY_SF = _RemainVictory('sf', 'Sinn Fenn')
 REMAIN_VICTORY_GREEN = _RemainVictory('green', 'Green')
 REMAIN_VICTORY_SDLP = _RemainVictory('sdlp', 'SDLP')
+REMAIN_VICTORY_ALLIANCE = _RemainVictory('alliance', 'Alliance')
 
 ALLIANCE_NEEDED_LAB_LD = _AllianceNeeded('lab', 'ld', 'Labour')
 ALLIANCE_NEEDED_LAB_PLAID = _AllianceNeeded('lab', 'plaid', 'Labour')

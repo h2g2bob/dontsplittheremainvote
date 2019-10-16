@@ -26,10 +26,10 @@ def outcome_frequency(results: List[Result]) -> List[Tuple[ClassifyResult, float
     return classify_frequency
 
 def get_advice(results, consituency) -> Advice:
-    if consituency.slug == 'belfast-south':
-        return Advice(
-            image='error.png',
-            template='contradict.html')
+    # if consituency.slug == 'belfast-south':
+    #     return Advice(
+    #         image='error.png',
+    #         template='contradict.html')
     return _get_advice(results)
 
 def _get_advice(results) -> Advice:

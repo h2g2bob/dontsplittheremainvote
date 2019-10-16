@@ -6,6 +6,7 @@ from . import data_adj_con
 from . import data_adj_lab
 from . import data_adj_ld
 from . import data_adj_bx
+from . import data_adj_ni
 from .constituency import all_constituencies
 from .constituency import Constituency
 from .constituency_page import ConstituencyPage
@@ -26,6 +27,8 @@ def get_all_datasets():
         data_adj_lab.DATA_2017,
         data_adj_con.DATA_2017,
         data_adj_bx.DATA_2017,
+
+        data_adj_ni.DATA_2017,
 
         data_eu2019.DATA_2019,
         data_adj_avg.DATA_2019,

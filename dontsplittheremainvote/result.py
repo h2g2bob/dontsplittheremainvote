@@ -110,6 +110,8 @@ class Result(NamedTuple):
                     return classify.REMAIN_VICTORY_GREEN
             if winner == SDLP:
                     return classify.REMAIN_VICTORY_SDLP
+            if winner == ALLIANCE:
+                    return classify.REMAIN_VICTORY_ALLIANCE
             raise ValueError(winner)
 
         rainbow_alliance_share = self.rainbow_alliance_share()
