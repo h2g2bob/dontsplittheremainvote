@@ -29,7 +29,8 @@ def _get_data_2017():
     }
     return {
         constituency: result.adjust_for_polling(adjustments)
-        for constituency, result in data_ge2017.DATA_2017.results_by_constituency.items()}
+        for constituency, result in data_ge2017.DATA_2017.results_by_constituency.items()
+        if constituency.country != 'Northern Ireland'}
 
 DATA_2017 = Dataset(
     code='ge2017_avg',
