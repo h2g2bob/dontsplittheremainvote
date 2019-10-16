@@ -16,7 +16,7 @@ class ConstituencyPage(NamedTuple):
 
     @property
     def advice(self):
-        return get_advice(self.datasets.values())
+        return get_advice(self.datasets.values(), self.constituency)
 
     @property
     def outcomes(self):

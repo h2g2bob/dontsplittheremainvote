@@ -31,7 +31,7 @@ def _sanity(constituency_page):
     if len(parties) == 1:
         their_advice = parties[0].short
         our_advice = constituency_page.advice.template
-        if our_advice in ('alliance-mixed.html', 'leave.html', 'remain.html'):
+        if our_advice in ('alliance-mixed.html', 'leave.html', 'remain.html', 'contradict.html'):
             pass # no advice
         elif our_advice.split('-')[-1].replace('.html', '') == their_advice:
             pass # same advice

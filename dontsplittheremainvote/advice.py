@@ -25,7 +25,14 @@ def outcome_frequency(results: List[Result]) -> List[Tuple[ClassifyResult, float
     classify_frequency.sort(key=operator.itemgetter(1), reverse=True)
     return classify_frequency
 
-def get_advice(results) -> Advice:
+def get_advice(results, consituency) -> Advice:
+    if consituency.slug == 'belfast-south':
+        return Advice(
+            image='error.png',
+            template='contradict.html')
+    return _get_advice(results)
+
+def _get_advice(results) -> Advice:
     outcomes = group_by_frequency(results)
 
     if not any(clfy.remain_can_win for clfy in outcomes.keys()):

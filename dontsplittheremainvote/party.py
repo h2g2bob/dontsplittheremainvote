@@ -23,6 +23,7 @@ GREEN = Party('Green', remain=True, color='#6AB023', short='green')
 UKIP = Party('UKIP / Brexit', remain=False, color='#70147A')
 UUP = Party('UUP', remain=False, color='#9999FF')
 NHAP = Party('National Health Action Party', remain=True, color='#0071BB')
+SDLP = Party('SDLP', remain=True, color='#3A9E84', short='sdlp')
 INDEPENDENT = Party('Independent', remain=False, color='#CCCCCC')
 SPEAKER = Party('Speaker', remain=True, color='#888888')
 
@@ -41,6 +42,7 @@ _PARTIES = {
         UKIP,
         UUP,
         NHAP,
+        SDLP,
         INDEPENDENT,
         SPEAKER,
         Party('The Yorkshire Party', remain=False, color='#00AEEF'),
@@ -55,14 +57,10 @@ _MAPPINGS = {
     'UK Independence Party': 'UKIP / Brexit',
     'Lib Dem': 'Liberal Democrat',
     'SNP': 'Scottish National Party',
+    'Social Democratic and Labour Party': 'SDLP',
 
     # tacticalvote mis-spelling
     'Labout': 'Labour',
-
-    # a different party, but part of the same uk grouping
-    # and maybe with similar polling?
-    'Social Democratic and Labour Party': 'Labour',
-    'SDLP': 'Labour',
 }
 
 def get_party(code):

@@ -7,21 +7,22 @@ from typing import Tuple
 
 from .party import Party
 from .party import get_party
+from .party import ALLIANCE
 from .party import CON
+from .party import DUP
+from .party import GREEN
+from .party import INDEPENDENT
 from .party import LAB
 from .party import LD
+from .party import NHAP
 from .party import OTHERS
 from .party import PLAID
-from .party import SNP
-from .party import DUP
+from .party import SDLP
 from .party import SF
-from .party import ALLIANCE
-from .party import GREEN
-from .party import UUP
-from .party import NHAP
+from .party import SNP
 from .party import SPEAKER
-from .party import INDEPENDENT
 from .party import UKIP
+from .party import UUP
 from . import classify
 
 def _party_ratio_sort(party_and_ratio):
@@ -107,6 +108,8 @@ class Result(NamedTuple):
                     return classify.REMAIN_VICTORY_SF
             if winner == GREEN:
                     return classify.REMAIN_VICTORY_GREEN
+            if winner == SDLP:
+                    return classify.REMAIN_VICTORY_SDLP
             raise ValueError(winner)
 
         rainbow_alliance_share = self.rainbow_alliance_share()
@@ -145,6 +148,8 @@ class Result(NamedTuple):
                 return classify.ALLIANCE_NEEDED_LAB_GREEN
             if remain1 == LD and remain2 == SNP:
                 return classify.ALLIANCE_NEEDED_LD_SNP
+            if remain1 == SDLP and remain2 == ALLIANCE:
+                return classify.ALLIANCE_NEEDED_SDLP_ALLIANCE
             if remain1 == SF:
                 return classify.SF_ALLIANCE
             raise ValueError([remain1, remain2])
