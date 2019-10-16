@@ -120,6 +120,6 @@ def _get_data_2019():
 
 DATA_2019 = Dataset(
     code='eu2019_avg',
-    title='2019 European Parliament results (estimated), adjusted for recent opinion polls',
+    title='2019 European Parliament results, adjusted for recent opinion polls',
     longdesc=DOC_2019,
     datafunc=_get_data_2019)
