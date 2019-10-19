@@ -55,15 +55,17 @@ def generate_constituency(constituency_page):
         f.write(html)
 
 def generate_index(constituency_pages):
-    html = JINJA_ENV.get_template('constituency_index.html').render(
-        static=STATIC,
-        this_url=BASE_URL + '/',
-        image_735_385=IMAGE_LOGO_735_238,
-        constituency_pages=constituency_pages)
-    with open('generated/index.html', 'w') as f:
-        f.write(html)
-    with open('generated/constituency/index.html', 'w') as f:
-        f.write(html)
+    for output_path, template_path in [
+        ('constituency/index.html', 'constituency_index.html'),
+        ('index.html', 'constituency_index.html'),
+    ]:
+        html = JINJA_ENV.get_template(template_path).render(
+            static=STATIC,
+            this_url=BASE_URL + '/',
+            image_735_385=IMAGE_LOGO_735_238,
+            constituency_pages=constituency_pages)
+        with open('generated/' + output_path, 'w') as f:
+            f.write(html)
 
 def generate_datasets(datasets: List[Dataset]):
     html = JINJA_ENV.get_template('datasets.html').render(
