@@ -5,8 +5,9 @@ from typing import NamedTuple
 from typing import Tuple
 import operator
 
-from .result import Result
 from .classify import ClassifyResult
+from .party import LD
+from .result import Result
 
 class Advice(NamedTuple):
     image: str
@@ -30,6 +31,13 @@ def get_advice(results, consituency) -> Advice:
     #     return Advice(
     #         image='error.png',
     #         template='contradict.html')
+    if consituency.slug == 'don-valley':
+        return Advice(
+            image='error.png',
+            template='special-labour-leave.html',
+            advice_kwargs={
+                'real_remain': LD,
+                'current_mp': 'Caroline Flint'})
     return _get_advice(results)
 
 def _get_advice(results) -> Advice:
