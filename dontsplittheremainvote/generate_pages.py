@@ -1,9 +1,11 @@
 from jinja2 import Environment, FileSystemLoader
+from typing import Dict
 from typing import List
 from .dataset import Dataset
 from .load_dataset import datasets_by_constituency
 from .load_dataset import get_all_datasets
 from .constituency import all_constituencies
+from .constituency_page import ConstituencyPage
 from .generate_postcode_sqlite import make_sqlite
 
 JINJA_ENV = Environment(loader=FileSystemLoader('templates/'))
@@ -54,6 +56,15 @@ def generate_constituency(constituency_page):
     with open('generated' + url_path, 'w') as f:
         f.write(html)
 
+def region_county_constituency(constituency_pages: List[ConstituencyPage]) -> Dict[str, Dict[str, List[ConstituencyPage]]]:
+    by_region_and_county = {}
+    for cp in constituency_pages:
+        by_region_and_county \
+            .setdefault(cp.constituency.region, {}) \
+            .setdefault(cp.constituency.county, []) \
+            .append(cp)
+    return by_region_and_county
+
 def generate_index(constituency_pages):
     for output_path, template_path in [
         ('constituency/index.html', 'constituency_index.html'),
@@ -64,7 +75,7 @@ def generate_index(constituency_pages):
             static=STATIC,
             this_url=BASE_URL + '/',
             image_735_385=IMAGE_LOGO_735_238,
-            constituency_pages=constituency_pages)
+            constituency_pages=region_county_constituency(constituency_pages))
         with open('generated/' + output_path, 'w') as f:
             f.write(html)
 

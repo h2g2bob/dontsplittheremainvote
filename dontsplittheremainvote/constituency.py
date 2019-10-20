@@ -1,4 +1,5 @@
 from csv import DictReader
+from typing import List
 from typing import NamedTuple
 from collections import defaultdict
 
@@ -13,6 +14,7 @@ class Constituency(NamedTuple):
     name: str
     country: str
     region: str
+    county: str
 
     @property
     def slug(self):
@@ -32,7 +34,8 @@ def _load_constitency_data():
                 ons_id=row['ons_id'],
                 name=row['constituency_name'],
                 country=row['country_name'],
-                region=row['region_name'])
+                region=row['region_name'],
+                county=row['county_name'])
             assert constituency.country in COUNTRIES, constituency
             constituencies[constituency.ons_id] = constituency
     _CONSTITUENCIES.update(constituencies)
@@ -48,7 +51,7 @@ def get_constitiuency(ons_id):
         _load_constitency_data()
     return _CONSTITUENCIES[ons_id]
 
-def all_constituencies():
+def all_constituencies() -> List[Constituency]:
     if not _CONSTITUENCIES:
         _load_constitency_data()
     return _CONSTITUENCIES.values()

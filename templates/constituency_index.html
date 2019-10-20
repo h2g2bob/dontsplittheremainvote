@@ -1,12 +1,18 @@
 {% extends "landing.html" %}
 {% block morecontent %}
 
-<ul>
-{% for cpage in constituency_pages %}
-    <li class="constituency">
+{% for region, county_dict in constituency_pages.items()|sort %}
+  <h2 id="{{region}}">{{region}}</h2>
+  {% for county, cpage_list in county_dict.items()|sort %}
+    <h3 id="{{county}}">{{county}}</h3>
+    <ul>
+    {% for cpage in cpage_list|sort %}
+      <li class="constituency">
         <a href="/constituency/{{cpage.constituency.slug}}.html">{{cpage.constituency.name}}</a> <img class="advice-image" src="{{static}}/logo/outcome/{{cpage.advice.image}}" />
-    </li>
+      </li>
+    {% endfor %}
+    </ul>
+  {% endfor %}
 {% endfor %}
-</ul>
 
 {% endblock %}
