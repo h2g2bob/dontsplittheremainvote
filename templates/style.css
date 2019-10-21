@@ -164,3 +164,15 @@ div.othersite img.tick {
   height: 5em;
   width: 5em;
 }
+
+div.widebutton {
+  font-size: 140%;
+  margin: 0.3em;
+  padding: 0.2em;
+}
+
+div.widebutton a {
+  width: 100%;
+  text-align: left;
+  display: inline-block;
+}

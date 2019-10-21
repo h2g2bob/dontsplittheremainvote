@@ -68,7 +68,7 @@ def region_county_constituency(constituency_pages: List[ConstituencyPage]) -> Di
 def generate_index(constituency_pages):
     for output_path, template_path in [
         ('constituency/index.html', 'constituency_index.html'),
-        ('index.html', 'constituency_index.html'),
+        ('index.html', 'main_index.html'),
         ('contact.html', 'contact.html'),
     ]:
         html = JINJA_ENV.get_template(template_path).render(

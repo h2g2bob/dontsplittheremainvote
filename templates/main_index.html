@@ -1,8 +1,8 @@
 {% extends "landing.html" %}
 {% block morecontent %}
 
-<p>
-Or <a href="/constituency/">find your constituency</a>
-</p>
+{% for region, county_dict in constituency_pages.items()|sort %}
+<div class="widebutton"><a href="/constituency/#{{region}}">{{region}}</a></div>
+{% endfor %}
 
 {% endblock %}
