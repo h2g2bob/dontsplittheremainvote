@@ -64,4 +64,12 @@
   <li><a href="https://twitter.com/intent/tweet?url={{ this_url }}&amp;text=Which+remain+party+has+the+best+chance+of+winning+in+%23{{ constituency.hashtag }}%3F">Tweet</a></li>
 </ul>
 
+<h2>Nearby</h2>
+
+<ul>
+  {% for con in nearby_constituency %}
+      <li><a href="/constituency/{{con.slug}}.html">{{con.name}}</a></li>
+  {% endfor %}
+</ul>
+
 {% endblock %}

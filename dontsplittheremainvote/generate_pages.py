@@ -20,7 +20,8 @@ def generate_all_constituencies():
 
     constituency_pages = datasets_by_constituency()
     for constituency_page in constituency_pages:
-        generate_constituency(constituency_page)
+        nearby_constituencies = _nearby_constituencies(constituency_pages, constituency_page.constituency)
+        generate_constituency(constituency_page, nearby_constituencies)
     generate_index(constituency_pages)
 
     datasets = get_all_datasets()
@@ -40,7 +41,12 @@ def _sanity(constituency_page):
         else:
             raise ValueError("{} {} != {}".format(constituency_page.constituency.slug, constituency_page.advice.template, their_advice))
 
-def generate_constituency(constituency_page):
+def _nearby_constituencies(constituency_pages, constituency):
+    rcc = region_county_constituency(constituency_pages)
+    same_county = rcc[constituency.region][constituency.county]
+    return [cpg.constituency for cpg in same_county if cpg.constituency.slug != constituency.slug]
+
+def generate_constituency(constituency_page, nearby_constituencies):
     _sanity(constituency_page)
     url_path = '/constituency/{}.html'.format(constituency_page.constituency.slug)
     html = JINJA_ENV.get_template(constituency_page.advice.template).render(
@@ -52,6 +58,7 @@ def generate_constituency(constituency_page):
         outcomes=constituency_page.outcomes,
         advice=constituency_page.advice,
         other_sites=constituency_page.other_site_suggestions,
+        nearby_constituency=nearby_constituencies,
         **constituency_page.advice.advice_kwargs)
     with open('generated' + url_path, 'w') as f:
         f.write(html)
