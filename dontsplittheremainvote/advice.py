@@ -6,6 +6,7 @@ from typing import Tuple
 import operator
 
 from .classify import ClassifyResult
+from .party import LAB
 from .party import LD
 from .result import Result
 
@@ -38,7 +39,19 @@ def get_advice(results, consituency) -> Advice:
             advice_kwargs={
                 'real_remain': LD,
                 'current_mp': 'Caroline Flint'})
-    return _get_advice(results)
+
+    advice = _get_advice(results)
+
+    SLIGHT_LAB_POLL_BUT_LD_RECOMMEND = ['epping-forest', 'witham']
+    if consituency.slug in SLIGHT_LAB_POLL_BUT_LD_RECOMMEND and advice.template == 'alliance-lab.html':
+        return Advice(
+            image='difficult-alliance.png',
+            template='special-ignore-polling.html',
+            advice_kwargs={
+                'we_said': LAB,
+                'they_said': LD})
+
+    return advice
 
 def _get_advice(results) -> Advice:
     outcomes = group_by_frequency(results)
