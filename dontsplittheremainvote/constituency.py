@@ -2,6 +2,7 @@ import re
 from csv import DictReader
 from typing import List
 from typing import NamedTuple
+from typing import Tuple
 from collections import defaultdict
 
 COUNTRIES = {
@@ -16,6 +17,7 @@ class Constituency(NamedTuple):
     country: str
     region: str
     county: str
+    lng_lat: Tuple[float, float]
 
     @property
     def slug(self):
@@ -36,18 +38,37 @@ class Constituency(NamedTuple):
             'county': self.county,
         }
 
+
+def _geo():
+    lng_lats = {}
+    with open('data/locations/query.csv', 'r') as f:
+        csvf = DictReader(f)
+        for row in csvf:
+            lng, lat = re.compile(r'^Point\(([-0-9\.]+) ([-0-9\.]+)\)$').search(row['geo']).groups()
+            lng_lats[row['gss']] = (float(lng), float(lat))
+    return lng_lats
+
+
 _CONSTITUENCIES = {}
 def _load_constitency_data():
     constituencies = defaultdict(dict)
+    geo = _geo()
     with open('data/ge2017/HoC-GE2017-results-by-candidate.csv', 'r') as f:
         csvf = DictReader(f)
         for row in csvf:
+            try:
+                lng_lat = geo[row['ons_id']]
+            except KeyError:
+                print("No lng_lat coordinates: {}".format(row['ons_id']))
+                lng_lat = (0.0, 0.0)
+
             constituency = Constituency(
                 ons_id=row['ons_id'],
                 name=row['constituency_name'],
                 country=row['country_name'],
                 region=row['region_name'],
-                county=row['county_name'])
+                county=row['county_name'],
+                lng_lat=lng_lat)
             assert constituency.country in COUNTRIES, constituency
             constituencies[constituency.ons_id] = constituency
     _CONSTITUENCIES.update(constituencies)
