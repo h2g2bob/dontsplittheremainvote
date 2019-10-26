@@ -1,7 +1,7 @@
 from . import data_ge2015
 from . import data_ge2017
 from . import data_eu2019
-from . import data_adj_avg
+from . import data_adj_avg_early_oct as data_adj_avg
 from . import data_adj_con
 from . import data_adj_lab
 from . import data_adj_ld
