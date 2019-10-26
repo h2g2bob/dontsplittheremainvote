@@ -22,7 +22,9 @@ URLS=[
             '<meta content="[^"]+" name="csrf-token" />',
             'window._auth_token = "[^"]+";',
             '<input name="authenticity_token" type="hidden" value="[^"]+"/>']))),
-
+    ('unitetoremain',
+        'https://unitetoremain.org/',
+        re.compile('^')),
 ]
 
 PATH='./urlchecks/'
