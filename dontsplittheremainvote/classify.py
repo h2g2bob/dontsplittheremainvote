@@ -26,6 +26,12 @@ class ClassifyResult(NamedTuple):
     remain_can_win: bool
     alliance_helpful: bool
 
+    def as_json(self):
+        return {
+            'img': self.logo,
+            'text': self.name,
+        }
+
 
 class _RemainVictory(ClassifyResult):
     def __new__(self, shortname, longname):

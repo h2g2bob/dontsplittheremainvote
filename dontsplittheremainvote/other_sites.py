@@ -24,6 +24,13 @@ class OtherSiteSuggestion(NamedTuple):
     party: Party
     url: str
 
+    def as_json(self):
+        return {
+            'who_suggests': self.who_suggests,
+            'party': self.party.short,
+            'url': self.url,
+        }
+
 
 def _tacticalvote_uk():
     with open('data/tacticalvote/recommendations.json') as f:

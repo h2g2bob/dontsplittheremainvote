@@ -22,3 +22,14 @@ class ConstituencyPage(NamedTuple):
     def outcomes(self):
         return outcome_frequency(self.datasets.values())
 
+    def as_json(self):
+        return {
+            'constituency': self.constituency.as_json(),
+            'advice': self.advice.as_json(),
+            'outcome_frequency': [
+                [classify_result.as_json(), outcome_freq]
+                for classify_result, outcome_freq in self.outcomes],
+            'other_sites': [
+                other_site_suggestion.as_json()
+                for other_site_suggestion in self.other_site_suggestions],
+        }

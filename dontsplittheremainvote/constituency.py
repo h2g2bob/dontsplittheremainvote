@@ -25,6 +25,17 @@ class Constituency(NamedTuple):
     def hashtag(self):
         return ''.join(word.title() for word in self.name.replace(',', '').replace('.', '').split())
 
+    def as_json(self):
+        return {
+            'name': self.name,
+            'slug': self.slug,
+            'hashtag': self.hashtag,
+            'ons_id': self.ons_id,
+            'country': self.country,
+            'region': self.region,
+            'county': self.county,
+        }
+
 _CONSTITUENCIES = {}
 def _load_constitency_data():
     constituencies = defaultdict(dict)

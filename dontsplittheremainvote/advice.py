@@ -18,6 +18,12 @@ class Advice(NamedTuple):
     advice_kwargs: dict = {}
     we_recommend_party: Party = None
 
+    def as_json(self):
+        return {
+            'template': self.template,
+            'we_recommend_party': self.we_recommend_party.short if self.we_recommend_party is not None else None,
+        }
+
 
 def group_by_frequency(results: List[Result]) -> Dict[ClassifyResult, float]:
     classify_frequency = defaultdict(float)

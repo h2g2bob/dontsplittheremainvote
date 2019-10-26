@@ -1,3 +1,4 @@
+import json
 from jinja2 import Environment, FileSystemLoader
 from typing import Dict
 from typing import List
@@ -23,6 +24,7 @@ def generate_all_constituencies():
         nearby_constituencies = _nearby_constituencies(constituency_pages, constituency_page.constituency)
         generate_constituency(constituency_page, nearby_constituencies)
     generate_index(constituency_pages)
+    generate_json(constituency_pages)
 
     datasets = get_all_datasets()
     generate_datasets(datasets)
@@ -94,3 +96,17 @@ def generate_datasets(datasets: List[Dataset]):
         datasets=datasets)
     with open('generated/datasets.html', 'w') as f:
         f.write(html)
+
+def generate_json(constituency_pages: List[ConstituencyPage]):
+    constituencies_data = {
+        cpage.constituency.slug: cpage.as_json()
+        for cpage in constituency_pages
+    }
+    data = {
+        '_info':
+            'This is a representation of the internal state of DontSplit.'
+            + ' It is useful if you want to track changes between revisions'
+            + ' but I don\'t guarantee backwards compatibiltiy or a stable API!',
+        'constituencies': constituencies_data}
+    with open('generated/data.json', 'w') as f:
+        f.write(json.dumps(data, indent=2, sort_keys=True))
