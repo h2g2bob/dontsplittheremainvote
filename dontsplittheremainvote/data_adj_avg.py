@@ -111,7 +111,7 @@ DOC_2019 = """Results of the 2019 European Parliament Election, adjusted for an 
 2019 Election    9    14       20       31      12     4
 
                Con   Lab   LibDem   Brexit   Green   SNP
-Change         +26   +11       -2      -19      -5     0
+Change         +26   +11       -2      -19      -7     0
 
 The difference numbers are added the the percentage each party got in the election,
 and the results normalized to add up to 100%.
@@ -124,7 +124,7 @@ def _get_data_2019():
         LAB: +0.11,
         LD: -0.02,
         UKIP: -0.19,
-        GREEN: -0.05,
+        GREEN: -0.07,
         SNP: +0.00,
     }
     return {
