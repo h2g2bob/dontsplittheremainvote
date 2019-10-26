@@ -61,6 +61,7 @@ def generate_constituency(constituency_page, nearby_constituencies):
         advice=constituency_page.advice,
         other_sites=constituency_page.other_site_suggestions,
         nearby_constituency=nearby_constituencies,
+        known_ppc=constituency_page.known_ppc,
         **constituency_page.advice.advice_kwargs)
     with open('generated' + url_path, 'w') as f:
         f.write(html)

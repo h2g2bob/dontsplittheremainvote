@@ -4,15 +4,18 @@ from .constituency import all_constituencies
 from .constituency import Constituency
 from .dataset import Dataset
 from .other_sites import OtherSiteSuggestion
+from .ppc import PPC
 from .result import Result
 from typing import Dict
 from typing import List
 from typing import NamedTuple
+from typing import Tuple
 
 class ConstituencyPage(NamedTuple):
     constituency: Constituency
     datasets: Dict[Dataset, Result]
     other_site_suggestions: List[OtherSiteSuggestion]
+    known_ppc: List[PPC]
 
     @property
     def advice(self):
