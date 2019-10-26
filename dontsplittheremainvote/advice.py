@@ -45,15 +45,15 @@ def get_advice(results, consituency) -> Advice:
 
     advice = _get_advice(results)
 
-    # SLIGHT_LAB_POLL_BUT_LD_RECOMMEND = ['epping-forest', 'witham']
-    SLIGHT_LAB_POLL_BUT_LD_RECOMMEND = []
-    if consituency.slug in SLIGHT_LAB_POLL_BUT_LD_RECOMMEND and advice.template == 'alliance-lab.html':
-        return Advice(
-            image='difficult-alliance.png',
-            template='special-ignore-polling.html',
-            advice_kwargs={
-                'we_said': LAB,
-                'they_said': LD})
+    # Override our recomendation?
+    # SLIGHT_LAB_POLL_BUT_LD_RECOMMEND = []
+    # if consituency.slug in SLIGHT_LAB_POLL_BUT_LD_RECOMMEND and advice.template == 'alliance-lab.html':
+    #     return Advice(
+    #         image='difficult-alliance.png',
+    #         template='special-ignore-polling.html',
+    #         advice_kwargs={
+    #             'we_said': LAB,
+    #             'they_said': LD})
 
     return advice
 
