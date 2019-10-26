@@ -30,16 +30,16 @@ def generate_all_constituencies():
 def _sanity(constituency_page):
     parties = tuple(set(oth.party for oth in constituency_page.other_site_suggestions))
     if len(parties) > 1:
-        raise ValueError("Our external sources contracict! {}".format(constituency_page.constituency.slug))
-    if len(parties) == 1:
-        their_advice = parties[0].short
+        print("Our external sources contracict! {}".format(constituency_page.constituency.slug))
+    if len(parties) > 0:
+        their_advice = {p.short for p in parties}
         our_advice = constituency_page.advice.template
         if our_advice in ('alliance-mixed.html', 'leave.html', 'remain.html', 'contradict.html', 'special-ignore-polling.html', 'special-contradict-polling.html'):
             pass # no advice
-        elif our_advice.split('-')[-1].replace('.html', '') == their_advice:
+        elif our_advice.split('-')[-1].replace('.html', '') in their_advice:
             pass # same advice
         else:
-            raise ValueError("{} {} != {}".format(constituency_page.constituency.slug, constituency_page.advice.template, their_advice))
+            print("{} {} != {}".format(constituency_page.constituency.slug, constituency_page.advice.template, their_advice))
 
 def _nearby_constituencies(constituency_pages, constituency):
     rcc = region_county_constituency(constituency_pages)

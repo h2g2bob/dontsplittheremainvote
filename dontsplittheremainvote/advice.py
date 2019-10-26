@@ -51,16 +51,6 @@ def get_advice(results, consituency) -> Advice:
                 'we_said': LAB,
                 'they_said': LD})
 
-    # I don't trust tactical.vote's analysis - it's way too simplistic
-    SLIGHT_LD_BUT_LAB_DUBIOUS_RECOMMEND = ['arundel-and-south-downs', 'aylesbury', 'beaconsfield', 'beckenham', 'bexhill-and-battle']
-    if consituency.slug in SLIGHT_LD_BUT_LAB_DUBIOUS_RECOMMEND and advice.template == 'alliance-ld.html':
-        return Advice(
-            image='error.png',
-            template='special-contradict-polling.html',
-            advice_kwargs={
-                'we_said': LD,
-                'they_said': LAB})
-
     return advice
 
 def _get_advice(results) -> Advice:
