@@ -1,3 +1,4 @@
+import re
 from csv import DictReader
 from typing import List
 from typing import NamedTuple
@@ -39,6 +40,15 @@ def _load_constitency_data():
             assert constituency.country in COUNTRIES, constituency
             constituencies[constituency.ons_id] = constituency
     _CONSTITUENCIES.update(constituencies)
+
+def _normalize_consituency_name(name):
+    return re.compile('[^a-z]+').sub('', name.lower())
+
+def get_constitiuency_from_name(name):
+    for con in all_constituencies():
+        if _normalize_consituency_name(con.name) == _normalize_consituency_name(name):
+            return con
+    raise ValueError(name)
 
 def get_constitiuency_from_slug(slug):
     for con in all_constituencies():
