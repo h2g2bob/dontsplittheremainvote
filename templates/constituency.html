@@ -23,23 +23,23 @@
 {% if advice.we_recommend_party %}
 <div class="othersite">
   <img class="tick" src="{{static}}/logo/tick/{{ advice.we_recommend_party.short }}.png" alt="{{ advice.we_recommend_party.name }} tick" />
-  <em>Don't Split the Remain Vote</em> recomends voting for <strong class="party party-{{ advice.we_recommend_party.code }}">{{ advice.we_recommend_party.name }}</strong>.
+  <em>Don't Split the Remain Vote</em> recommends voting for <strong class="party party-{{ advice.we_recommend_party.code }}">{{ advice.we_recommend_party.name }}</strong>.
 </div>
 {% else %}
 <div class="othersite">
   <img class="tick" src="{{static}}/logo/tick/other.png" alt="Other tick" />
-  <em>Don't Split the Remain Vote</em> does not have a strong recomendation
+  <em>Don't Split the Remain Vote</em> does not have a strong recommendation
 </div>
 {% endif %}
 {% for other_site in other_sites %}
 <div class="othersite">
   <img class="tick" src="{{static}}/logo/tick/{{ other_site.party.short }}.png" alt="{{ other_site.party.name }} tick" />
-  <em>{{ other_site.who_suggests }}</em> <a href="{{ other_site.url }}">recomends</a> voting for <strong class="party party-{{ other_site.party.code }}">{{ other_site.party.name }}</strong>.
+  <em>{{ other_site.who_suggests }}</em> <a href="{{ other_site.url }}">recommends</a> voting for <strong class="party party-{{ other_site.party.code }}">{{ other_site.party.name }}</strong>.
 </div>
 {% endfor %}
 <div class="othersite">
   <img class="tick" src="{{static}}/logo/tick/other.png" alt="Other tick" />
-  <strong>Waiting for recomendations</strong> from <em>People's Vote</em>, <em>Remain United</em>, <em>Best for Britain</em>, <em>Unite to Remain</em> and others.
+  <strong>Waiting for recommendations</strong> from <em>People's Vote</em>, <em>Remain United</em>, <em>Best for Britain</em>, <em>Unite to Remain</em> and others.
 </div>
 
 <h2>Analysis</h2>
