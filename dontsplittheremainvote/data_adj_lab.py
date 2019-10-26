@@ -1,4 +1,5 @@
 from . import data_ge2017
+from . import data_eu2019
 from .dataset import Dataset
 from .party import LAB
 from .party import LD
@@ -33,7 +34,41 @@ def _get_data_2017():
         if constituency.country != 'Northern Ireland'}
 
 DATA_2017 = Dataset(
-    code='ge2017_avg',
+    code='ge2017_lab',
     title='2017 General Election results, adjusted for Labour-leaning opinion polls',
     longdesc=DOC_2017,
     datafunc=_get_data_2017)
+
+
+DOC_2019 = """European Parliament 2019 results, adjusted for Labour-skewed polling
+
+Using an opinion poll which is favourable to Labour.
+https://ukpollingreport.co.uk/blog/archives/10089
+
+               Con   Lab   LibDem   Brexit   Green   SNP
+Opinium         31    28       13       16       5
+
+               Con   Lab   LibDem   Brexit   Green   SNP
+2019 Election    9    14       20       31      12     4
+Change         +22   +14       -7      -15      -7
+
+""" + data_eu2019.SOURCE
+
+def _get_data_2019():
+    adjustments = {
+        CON: +0.22,
+        LAB: +0.14,
+        LD: -0.07,
+        UKIP: -0.15,
+        GREEN: -0.07,
+    }
+    return {
+        constituency: result.adjust_for_polling(adjustments)
+        for constituency, result in data_eu2019.DATA_2019.results_by_constituency.items()
+        if constituency.country != 'Northern Ireland'}
+
+DATA_2019 = Dataset(
+    code='eu2019_lab',
+    title='2019 European Parliament election results, adjusted for Labour-leaning opinion polls',
+    longdesc=DOC_2019,
+    datafunc=_get_data_2019)
