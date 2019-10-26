@@ -89,6 +89,7 @@ ALLIANCE_NEEDED_LD_PLAID = _AllianceNeeded('ld', 'plaid', 'Liberal Democrats')
 ALLIANCE_NEEDED_LD_SNP = _AllianceNeeded('ld', 'snp', 'Liberal Democrats')
 ALLIANCE_NEEDED_SNP_LAB = _AllianceNeeded('snp', 'lab', 'SNP')
 ALLIANCE_NEEDED_SNP_LD = _AllianceNeeded('snp', 'ld', 'SNP')
+ALLIANCE_NEEDED_SNP_GREEN = _AllianceNeeded('snp', 'green', 'SNP')
 ALLIANCE_NEEDED_ALLIANCE_SF = _AllianceNeeded('alliance', 'sf', 'Alliance')
 ALLIANCE_NEEDED_ALLIANCE_LD = _AllianceNeeded('alliance', 'ld', 'Alliance')
 ALLIANCE_NEEDED_PLAID_LD = _AllianceNeeded('plaid', 'ld', 'Plaid Cymru')
@@ -96,6 +97,8 @@ ALLIANCE_NEEDED_GREEN_LAB = _AllianceNeeded('green', 'lab', 'Green')
 ALLIANCE_NEEDED_GREEN_LD = _AllianceNeeded('green', 'ld', 'Green')
 ALLIANCE_NEEDED_PLAID_LAB = _AllianceNeeded('plaid', 'lab', 'Plaid Cymru')
 ALLIANCE_NEEDED_SDLP_ALLIANCE = _AllianceNeeded('sdlp', 'alliance', 'SDLP')
+ALLIANCE_NEEDED_SDLP_GREEN = _AllianceNeeded('sdlp', 'green', 'SDLP')
+ALLIANCE_NEEDED_GREEN_SNP = _AllianceNeeded('green', 'snp', 'Green')
 
 SF_ALLIANCE = ClassifyResult(
     logo='other',
