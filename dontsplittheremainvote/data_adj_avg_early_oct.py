@@ -9,7 +9,7 @@ from .party import LD
 from .party import SNP
 from .party import UKIP
 
-RECENT_POLLING = """October polling:
+RECENT_POLLING = """Early october polling:
 
                Con   Lab   LibDem   Brexit   Green   SNP
 ComRes          33    27       19       13       3     4
@@ -21,10 +21,10 @@ https://www.opinium.co.uk/political-polling-3rd-october-2019/
 https://yougov.co.uk/topics/politics/articles-reports/2019/10/11/political-trackers-8-9-oct-update
 
                Con   Lab   LibDem   Brexit   Green   SNP
-October Avg     35    24       19       12       4     4
+E October Avg   35    24       19       12       4     4
 """
 
-DOC_2015 = """Results of the 2015 General Election, adjusted for an average opinion poll
+DOC_2015 = """Results of the 2015 General Election, adjusted for early october opinion polls
 
 """ + RECENT_POLLING + """
                Con   Lab   LibDem   Brexit   Green   SNP
@@ -51,13 +51,13 @@ def _get_data_2015():
         for constituency, result in data_ge2015.DATA_2015.results_by_constituency.items()}
 
 DATA_2015 = Dataset(
-    code='ge2015_avg',
-    title='2015 General Election results, adjusted for recent opinion polls',
+    code='ge2015_avg_early',
+    title='2015 General Election results, adjusted for early october opinion polls',
     longdesc=DOC_2015,
     datafunc=_get_data_2015)
 
 
-DOC_2017 = """Results of the 2017 General Election, adjusted for an average opinion poll
+DOC_2017 = """Results of the 2017 General Election, adjusted for early october opinion polls
 
 """ + RECENT_POLLING + """
                Con   Lab   LibDem   Brexit   Green   SNP
@@ -85,13 +85,13 @@ def _get_data_2017():
         for constituency, result in data_ge2017.DATA_2017.results_by_constituency.items()}
 
 DATA_2017 = Dataset(
-    code='ge2017_avg',
-    title='2017 General Election results, adjusted for recent opinion polls',
+    code='ge2017_avg_early',
+    title='2017 General Election results, adjusted for early october opinion polls',
     longdesc=DOC_2017,
     datafunc=_get_data_2017)
 
 
-DOC_2019 = """Results of the 2019 European Parliament Election, adjusted for an average opinion poll
+DOC_2019 = """Results of the 2019 European Parliament Election, adjusted for early october opinion polls
 
 """ + RECENT_POLLING + """
                Con   Lab   LibDem   Brexit   Green   SNP
@@ -119,7 +119,7 @@ def _get_data_2019():
         for constituency, result in data_eu2019.DATA_2019.results_by_constituency.items()}
 
 DATA_2019 = Dataset(
-    code='eu2019_avg',
-    title='2019 European Parliament results, adjusted for recent opinion polls',
+    code='eu2019_avg_early',
+    title='2019 European Parliament results, adjusted for early october opinion polls',
     longdesc=DOC_2019,
     datafunc=_get_data_2019)

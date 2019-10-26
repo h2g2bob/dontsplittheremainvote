@@ -1,7 +1,8 @@
 from . import data_ge2015
 from . import data_ge2017
 from . import data_eu2019
-from . import data_adj_avg_early_oct as data_adj_avg
+from . import data_adj_avg
+from . import data_adj_avg_early_oct
 from . import data_adj_con
 from . import data_adj_lab
 from . import data_adj_ld
@@ -32,6 +33,9 @@ def get_all_datasets():
 
         data_eu2019.DATA_2019,
         data_adj_avg.DATA_2019,
+
+        data_adj_avg_early_oct.DATA_2017,
+        data_adj_avg_early_oct.DATA_2019,
     ]
     return datasets
 
