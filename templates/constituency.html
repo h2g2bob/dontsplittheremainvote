@@ -20,6 +20,17 @@
   <div class="clear"></div>
 </div>
 
+{% if advice.we_recommend_party %}
+<div class="othersite">
+  <img class="tick" src="{{static}}/logo/tick/{{ advice.we_recommend_party.short }}.png" alt="{{ advice.we_recommend_party.name }} tick" />
+  <em>Don't Split the Remain Vote</em> recomends voting for <strong class="party party-{{ advice.we_recommend_party.code }}">{{ advice.we_recommend_party.name }}</strong>.
+</div>
+{% else %}
+<div class="othersite">
+  <img class="tick" src="{{static}}/logo/tick/other.png" alt="Other tick" />
+  <em>Don't Split the Remain Vote</em> does not have a strong recomendation
+</div>
+{% endif %}
 {% for other_site in other_sites %}
 <div class="othersite">
   <img class="tick" src="{{static}}/logo/tick/{{ other_site.party.short }}.png" alt="{{ other_site.party.name }} tick" />

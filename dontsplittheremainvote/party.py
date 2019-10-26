@@ -27,28 +27,34 @@ SDLP = Party('SDLP', remain=True, color='#3A9E84', short='sdlp')
 INDEPENDENT = Party('Independent', remain=False, color='#CCCCCC')
 SPEAKER = Party('Speaker', remain=True, color='#888888')
 
-_PARTIES = {
+_ALL_PARTIES = [
+    LAB,
+    LD,
+    SNP,
+    CON,
+    PLAID,
+    DUP,
+    SF,
+    ALLIANCE,
+    GREEN,
+    UKIP,
+    UUP,
+    NHAP,
+    SDLP,
+    INDEPENDENT,
+    SPEAKER,
+    Party('The Yorkshire Party', remain=False, color='#00AEEF'),
+    OTHERS,
+]
+
+_PARTIES_BY_CODE = {
     p.code: p
-    for p in [
-        LAB,
-        LD,
-        SNP,
-        CON,
-        PLAID,
-        DUP,
-        SF,
-        ALLIANCE,
-        GREEN,
-        UKIP,
-        UUP,
-        NHAP,
-        SDLP,
-        INDEPENDENT,
-        SPEAKER,
-        Party('The Yorkshire Party', remain=False, color='#00AEEF'),
-        OTHERS,
-    ]
-}
+    for p in _ALL_PARTIES}
+
+_PARTIES_BY_SHORT = {
+    p.short: p
+    for p in _ALL_PARTIES
+    if p.short}
 
 _MAPPINGS = {
     'Labour and Co-operative': 'Labour',
@@ -65,7 +71,11 @@ _MAPPINGS = {
 
 def get_party(code):
     try:
-        return _PARTIES[_MAPPINGS.get(code, code)]
+        return _PARTIES_BY_CODE[_MAPPINGS.get(code, code)]
     except KeyError:
-        _PARTIES[code] = Party(code)
-        return _PARTIES[code]
+        try:
+            return _PARTIES_BY_SHORT[_MAPPINGS.get(code, code)]
+        except KeyError:
+            print('Adding {}'.format(code))
+            _PARTIES_BY_CODE[code] = Party(code)
+            return _PARTIES_BY_CODE[code]

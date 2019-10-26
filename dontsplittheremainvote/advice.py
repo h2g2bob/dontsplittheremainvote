@@ -6,14 +6,17 @@ from typing import Tuple
 import operator
 
 from .classify import ClassifyResult
+from .party import get_party
 from .party import LAB
 from .party import LD
+from .party import Party
 from .result import Result
 
 class Advice(NamedTuple):
     image: str
     template: str = 'constituency.html'
     advice_kwargs: dict = {}
+    we_recommend_party: Party = None
 
 
 def group_by_frequency(results: List[Result]) -> Dict[ClassifyResult, float]:
@@ -88,11 +91,13 @@ def _get_advice(results) -> Advice:
             return Advice(
                 image='difficult-alliance.png',
                 template='alliance-{}.html'.format(party),
-                advice_kwargs={'difficult_win': True})
+                advice_kwargs={'difficult_win': True},
+                we_recommend_party=get_party(party))
         return Advice(
             image='alliance-{}.png'.format(party),
             template='alliance-{}.html'.format(party),
-            advice_kwargs={'difficult_win': False})
+            advice_kwargs={'difficult_win': False},
+            we_recommend_party=get_party(party))
 
     # no single party to back
     return Advice(
