@@ -133,7 +133,7 @@ def _generate_other_sites_data(constituency_pages: List[ConstituencyPage]) -> Tu
             suggestions_here['DontSplit main'] = cpage.advice.we_recommend_party
         suggestions_by_constituency[cpage.constituency] = suggestions_here
         all_site_names |= suggestions_here.keys()
-    return tuple(all_site_names), suggestions_by_constituency
+    return tuple(sorted(all_site_names)), suggestions_by_constituency
 
 def generate_other_sites_csv(constituency_pages: List[ConstituencyPage]):
     all_site_names, all_suggestions = _generate_other_sites_data(constituency_pages)
