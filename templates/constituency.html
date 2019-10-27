@@ -23,12 +23,12 @@
 {% if advice.we_recommend_party %}
 <div class="othersite">
   <img class="tick" src="{{static}}/logo/tick/{{ advice.we_recommend_party.short }}.png" alt="{{ advice.we_recommend_party.name }} tick" />
-  <em>Don't Split the Remain Vote</em> recommends voting for <strong class="party party-{{ advice.we_recommend_party.code }}">{{ advice.we_recommend_party.name }}</strong>.
+  Don't Split the Remain Vote recommends voting for <strong class="party party-{{ advice.we_recommend_party.code }}">{{ advice.we_recommend_party.name }}</strong>.
 </div>
 {% else %}
 <div class="othersite">
   <img class="tick" src="{{static}}/logo/tick/other.png" alt="Other tick" />
-  <em>Don't Split the Remain Vote</em> does not have a strong recommendation
+  Don't Split the Remain Vote does not have a strong recommendation
 </div>
 {% endif %}
 {% for other_site in other_sites %}
