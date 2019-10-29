@@ -14,18 +14,21 @@ class PPC(NamedTuple):
 
 def candidate_data():
     candidates = defaultdict(list)
-    with open('data/democlub-early-candidates/DemoClub_PPC.csv', 'r') as f:
+    with open('data/democlub-candidates/candidates-parl.2019-12-12.csv', 'r') as f:
         csvf = DictReader(f)
         for row in csvf:
-            candidate_name = row['Candidate Name']
-            candidate_link = row['Existing Candidate Profile URL']
-            if not candidate_name:
-                continue
-            ons_id = row[''] # row[11]
+            candidate_name = row['name']
+            candidate_link = 'https://whocanivotefor.co.uk/person/{}/'.format(row['id'])
+
+            assert row['post_id'].startswith('WMC:')
+            ons_id = row['post_id'][4:]
             constituency = get_constitiuency(ons_id)
-            party = get_party(row['Party Name'])
+
+            party = get_party(row['party_name'])
+
             candidates[constituency].append(PPC(
                 party=party,
                 name=candidate_name,
                 link=candidate_link))
+    assert len(candidates) > 600
     return candidates
