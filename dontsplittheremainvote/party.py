@@ -10,7 +10,7 @@ class Party(NamedTuple):
     def name(self):
         return self.code
 
-OTHERS = Party('OTH', remain=False, color='#999999')
+OTHERS = Party('Others', remain=False, color='#999999')
 LAB = Party('Labour', remain=True, color='#DC241F', short='lab')
 LD = Party('Liberal Democrat', remain=True, color='#FAA61A', short='ld')
 SNP = Party('Scottish National Party', remain=True, color='#FFF95D', short='snp')
