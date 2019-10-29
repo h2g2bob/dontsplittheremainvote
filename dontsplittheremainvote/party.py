@@ -58,25 +58,41 @@ _PARTIES_BY_SHORT = {
     if p.short}
 
 _MAPPINGS = {
-    'Labour and Co-operative': 'Labour',
-    'Democratic Unionist Party': 'DUP',
-    'Ulster Unionist Party': 'UUP',
-    'UK Independence Party': 'UKIP / Brexit',
-    'Lib Dem': 'Liberal Democrat',
-    'SNP': 'Scottish National Party',
-    'Social Democratic and Labour Party': 'SDLP',
+    'Labour and Co-operative': LAB,
+    'Democratic Unionist Party': DUP,
+    'Ulster Unionist Party': UUP,
+    'UK Independence Party': UKIP,
+    'Lib Dem': LD,
+    'SNP': SNP,
+    'Social Democratic and Labour Party': SDLP,
 
     # tacticalvote mis-spelling
-    'Labout': 'Labour',
+    'Labout': LAB,
+
+    'Labour Party': LAB,
+    'The Brexit Party': UKIP,
+    'Liberal Democrats': LD,
+    'Scottish National Party (SNP)': SNP,
+    'Green Party': GREEN,
+    'Conservative and Unionist Party': CON,
+    'Sinn Féin': SF,
+    'Alliance Party of Northern Ireland': ALLIANCE,
+    'Social Democratic & Labour Party': SDLP,
+    'UK Independence Party (UKIP)': UKIP,
+    'The Independent Group for Change': CHANGEUK,
+    'Labour and Co-operative Party': LAB,
 }
 
 def get_party(code):
     try:
-        return _PARTIES_BY_CODE[_MAPPINGS.get(code, code)]
+        return _PARTIES_BY_CODE[code]
     except KeyError:
         try:
-            return _PARTIES_BY_SHORT[_MAPPINGS.get(code, code)]
+            return _PARTIES_BY_SHORT[code]
         except KeyError:
-            print('Adding {}'.format(code))
-            _PARTIES_BY_CODE[code] = Party(code)
-            return _PARTIES_BY_CODE[code]
+            try:
+                return _MAPPINGS[code]
+            except KeyError:
+                print('Adding {}'.format(code))
+                _PARTIES_BY_CODE[code] = Party(code)
+                return _PARTIES_BY_CODE[code]
