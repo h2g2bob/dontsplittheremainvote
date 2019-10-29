@@ -11,6 +11,7 @@ from .constituency import get_constitiuency_from_slug
 from .party import Party
 from .party import get_party
 from .party import ALLIANCE
+from .party import CHANGEUK
 from .party import INDEPENDENT
 from .party import GREEN
 from .party import LAB
@@ -37,17 +38,17 @@ class OtherSiteSuggestion(NamedTuple):
 
 def _getvoting():
     PARTIES = {
-        'Anna Soubry': INDEPENDENT,
-        'Antoinette Sandbach': INDEPENDENT,
-        'David Gauke': INDEPENDENT,
-        'Dominic Grieve': INDEPENDENT,
+        'Anna Soubry': CHANGEUK,
+        'Antoinette Sandbach': INDEPENDENT, # former conservative
+        'David Gauke': INDEPENDENT, # former conservative
+        'Dominic Grieve': INDEPENDENT, # former conservative
         'Green': GREEN,
-        'Guto Bebb': INDEPENDENT,
+        'Guto Bebb': INDEPENDENT, # former conservative
         'Lab': LAB,
         'Lib Dem': LD,
         'LibLab': None, # "Either LD or LAB"
         'none': None,
-        'Philip Hammond': INDEPENDENT,
+        'Philip Hammond': INDEPENDENT, # former conservative
         'Plaid': PLAID,
         'Pledge': None,
     }

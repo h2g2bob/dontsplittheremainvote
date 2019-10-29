@@ -1,6 +1,6 @@
 constituency,ons_id,Best for Britain,Best for Britain alignment,DontSplit main,DontSplit main alignment,Essex Against The Tories,Essex Against The Tories alignment,People's Vote (early indication),People's Vote (early indication) alignment,tactical.vote,tactical.vote alignment,tacticalvote.co.uk,tacticalvote.co.uk alignment
 aberavon,W07000049,lab,2,lab,2,,,,,lab,2,,
-aberconwy,W07000058,other,-2,,,,,,,lab,0,lab,0
+aberconwy,W07000058,ind,-2,,,,,,,lab,0,lab,0
 aberdeen-north,S14000001,,,snp,0,,,,,,,,
 aberdeen-south,S14000002,,,snp,2,,,,,snp,2,snp,2
 airdrie-and-shotts,S14000003,,,,,,,,,,,,
@@ -30,7 +30,7 @@ bassetlaw,E14000546,lab,2,lab,2,,,,,lab,2,,
 bath,E14000547,ld,3,ld,3,,,,,ld,3,ld,3
 batley-and-spen,E14000548,lab,2,lab,2,,,,,lab,2,,
 battersea,E14000549,lab,2,,,,,,,lab,2,lab,2
-beaconsfield,E14000550,other,-2,ld,-2,,,,,lab,-2,,
+beaconsfield,E14000550,ind,-2,ld,-2,,,,,lab,-2,,
 beckenham,E14000551,,,ld,-1,,,,,lab,-1,,
 bedford,E14000552,lab,2,,,,,,,lab,2,lab,2
 belfast-east,N06000001,,,alliance,2,,,,,alliance,2,alliance,2
@@ -95,7 +95,7 @@ broadland,E14000603,,,,,,,,,lab,0,,
 bromley-and-chislehurst,E14000604,,,,,,,,,lab,0,,
 bromsgrove,E14000605,,,,,,,,,lab,0,,
 broxbourne,E14000606,,,,,,,,,lab,0,,
-broxtowe,E14000607,other,-1,,,,,,,lab,-1,,
+broxtowe,E14000607,chuk,-1,,,,,,,lab,-1,,
 buckingham,E14000608,,,ld,0,,,,,,,,
 burnley,E14000609,lab,1,,,,,,,lab,1,,
 burton,E14000610,,,lab,1,,,,,lab,1,,
@@ -202,7 +202,7 @@ east-renfrewshire,S14000021,,,snp,2,,,,,snp,2,snp,2
 east-surrey,E14000681,ld,-1,,,,,,,lab,-1,,
 east-worthing-and-shoreham,E14000682,,,,,,,,,lab,0,,
 east-yorkshire,E14000683,,,,,,,,,lab,0,,
-eddisbury,E14000686,other,-1,,,,,,,lab,-1,,
+eddisbury,E14000686,ind,-1,,,,,,,lab,-1,,
 edinburgh-east,S14000022,,,,,,,,,,,,
 edinburgh-north-and-leith,S14000023,,,,,,,,,,,,
 edinburgh-south,S14000024,,,,,,,,,,,,
@@ -477,7 +477,7 @@ rotherham,E14000904,lab,2,lab,2,,,,,lab,2,,
 rother-valley,E14000903,lab,2,lab,2,,,,,lab,2,,
 rugby,E14000905,,,,,,,,,lab,0,,
 ruislip-northwood-and-pinner,E14000906,,,,,,,,,lab,0,,
-runnymede-and-weybridge,E14000907,other,-2,ld,-2,,,,,lab,-2,,
+runnymede-and-weybridge,E14000907,ind,-2,ld,-2,,,,,lab,-2,,
 rushcliffe,E14000908,,,,,,,,,lab,0,,
 rutherglen-and-hamilton-west,S14000056,,,,,,,,,,,,
 rutland-and-melton,E14000909,,,,,,,,,lab,0,,
@@ -528,7 +528,7 @@ south-swindon,E14000947,,,,,,,,,lab,0,,
 south-thanet,E14000948,,,,,,,,,lab,0,,
 south-west-bedfordshire,E14000949,,,,,,,,,lab,0,,
 south-west-devon,E14000950,,,,,,,,,lab,0,,
-south-west-hertfordshire,E14000951,other,-2,ld,-2,,,,,lab,-2,,
+south-west-hertfordshire,E14000951,ind,-2,ld,-2,,,,,lab,-2,,
 south-west-norfolk,E14000952,,,,,,,,,lab,0,,
 south-west-surrey,E14000953,,,,,,,,,other,0,,
 south-west-wiltshire,E14000954,,,,,,,,,lab,0,,
