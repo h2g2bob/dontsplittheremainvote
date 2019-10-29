@@ -11,9 +11,12 @@ from .constituency import get_constitiuency_from_slug
 from .party import Party
 from .party import get_party
 from .party import ALLIANCE
+from .party import INDEPENDENT
+from .party import GREEN
 from .party import LAB
 from .party import LD
 from .party import NHAP
+from .party import OTHERS
 from .party import PLAID
 from .party import SDLP
 from .party import SF
@@ -31,6 +34,36 @@ class OtherSiteSuggestion(NamedTuple):
             'url': self.url,
         }
 
+
+def _getvoting():
+    PARTIES = {
+        'Anna Soubry': INDEPENDENT,
+        'Antoinette Sandbach': INDEPENDENT,
+        'David Gauke': INDEPENDENT,
+        'Dominic Grieve': INDEPENDENT,
+        'Green': GREEN,
+        'Guto Bebb': INDEPENDENT,
+        'Lab': LAB,
+        'Lib Dem': LD,
+        'LibLab': None, # "Either LD or LAB"
+        'none': None,
+        'Philip Hammond': INDEPENDENT,
+        'Plaid': PLAID,
+        'Pledge': None,
+    }
+
+    with open('data/getvoting/NewData.json') as f:
+        data = json.load(f)
+        for ons_id, recomend in data.items():
+            constituency = get_constitiuency(ons_id)
+            party_name = recomend['Reco']
+            party = PARTIES[party_name]
+            if party is not None:
+                suggestion = OtherSiteSuggestion(
+                    who_suggests='Best for Britain',
+                    party=party,
+                    url='https://getvoting.org/')
+                yield constituency, suggestion
 
 def _tacticalvote_uk():
     with open('data/tacticalvote/recommendations.json') as f:
@@ -139,6 +172,8 @@ def _early_pv():
 
 def get_other_site_suggestions() -> Dict[Constituency, List[OtherSiteSuggestion]]:
     out = defaultdict(list)
+    for constituency, suggest in _getvoting():
+        out[constituency].append(suggest)
     for constituency, suggest in _tacticalvote_uk():
         out[constituency].append(suggest)
     for constituency, suggest in _tactical_dot_vote():

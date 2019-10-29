@@ -18,6 +18,11 @@
       "other_sites": [
         {
           "party": "lab",
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
+        },
+        {
+          "party": "lab",
           "url": "https://tactical.vote/aberavon",
           "who_suggests": "tactical.vote"
         }
@@ -54,6 +59,11 @@
         "slug": "aberconwy"
       },
       "other_sites": [
+        {
+          "party": "other",
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
+        },
         {
           "party": "lab",
           "url": "https://tacticalvote.co.uk/#Aberconwy",
@@ -376,6 +386,11 @@
       "other_sites": [
         {
           "party": "lab",
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
+        },
+        {
+          "party": "lab",
           "url": "https://tactical.vote/alyn-and-deeside",
           "who_suggests": "tactical.vote"
         }
@@ -527,7 +542,13 @@
         "region": "Wales",
         "slug": "arfon"
       },
-      "other_sites": [],
+      "other_sites": [
+        {
+          "party": "plaid",
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
+        }
+      ],
       "outcome_frequency": [
         [
           {
@@ -638,6 +659,11 @@
       "other_sites": [
         {
           "party": "lab",
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
+        },
+        {
+          "party": "lab",
           "url": "https://tactical.vote/ashfield",
           "who_suggests": "tactical.vote"
         }
@@ -740,6 +766,11 @@
         "slug": "ashton-under-lyne"
       },
       "other_sites": [
+        {
+          "party": "lab",
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
+        },
         {
           "party": "lab",
           "url": "https://tactical.vote/ashton-under-lyne",
@@ -970,6 +1001,11 @@
       "other_sites": [
         {
           "party": "lab",
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
+        },
+        {
+          "party": "lab",
           "url": "https://tactical.vote/barking",
           "who_suggests": "tactical.vote"
         }
@@ -999,6 +1035,11 @@
         "slug": "barnsley-central"
       },
       "other_sites": [
+        {
+          "party": "lab",
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
+        },
         {
           "party": "lab",
           "url": "https://tactical.vote/barnsley-central",
@@ -1044,6 +1085,11 @@
         "slug": "barnsley-east"
       },
       "other_sites": [
+        {
+          "party": "lab",
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
+        },
         {
           "party": "lab",
           "url": "https://tactical.vote/barnsley-east",
@@ -1231,6 +1277,11 @@
       "other_sites": [
         {
           "party": "lab",
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
+        },
+        {
+          "party": "lab",
           "url": "https://tactical.vote/bassetlaw",
           "who_suggests": "tactical.vote"
         }
@@ -1283,6 +1334,11 @@
       "other_sites": [
         {
           "party": "ld",
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
+        },
+        {
+          "party": "ld",
           "url": "https://tacticalvote.co.uk/#Bath",
           "who_suggests": "tacticalvote.co.uk"
         },
@@ -1326,6 +1382,11 @@
       "other_sites": [
         {
           "party": "lab",
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
+        },
+        {
+          "party": "lab",
           "url": "https://tactical.vote/batley-and-spen",
           "who_suggests": "tactical.vote"
         }
@@ -1362,6 +1423,11 @@
         "slug": "battersea"
       },
       "other_sites": [
+        {
+          "party": "lab",
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
+        },
         {
           "party": "lab",
           "url": "https://tacticalvote.co.uk/#Battersea",
@@ -1433,6 +1499,11 @@
         "slug": "beaconsfield"
       },
       "other_sites": [
+        {
+          "party": "other",
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
+        },
         {
           "party": "lab",
           "url": "https://tactical.vote/beaconsfield",
@@ -1509,6 +1580,11 @@
         "slug": "bedford"
       },
       "other_sites": [
+        {
+          "party": "lab",
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
+        },
         {
           "party": "lab",
           "url": "https://tacticalvote.co.uk/#Bedford",
@@ -1873,6 +1949,11 @@
       "other_sites": [
         {
           "party": "lab",
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
+        },
+        {
+          "party": "lab",
           "url": "https://tactical.vote/bethnal-green-and-bow",
           "who_suggests": "tactical.vote"
         }
@@ -2084,6 +2165,11 @@
       "other_sites": [
         {
           "party": "lab",
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
+        },
+        {
+          "party": "lab",
           "url": "https://tactical.vote/birmingham-edgbaston",
           "who_suggests": "tactical.vote"
         }
@@ -2136,6 +2222,11 @@
       "other_sites": [
         {
           "party": "lab",
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
+        },
+        {
+          "party": "lab",
           "url": "https://tactical.vote/birmingham-erdington",
           "who_suggests": "tactical.vote"
         }
@@ -2174,6 +2265,11 @@
       "other_sites": [
         {
           "party": "lab",
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
+        },
+        {
+          "party": "lab",
           "url": "https://tactical.vote/birmingham-hall-green",
           "who_suggests": "tactical.vote"
         }
@@ -2203,6 +2299,11 @@
         "slug": "birmingham-hodge-hill"
       },
       "other_sites": [
+        {
+          "party": "lab",
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
+        },
         {
           "party": "lab",
           "url": "https://tactical.vote/birmingham-hodge-hill",
@@ -2236,6 +2337,11 @@
       "other_sites": [
         {
           "party": "lab",
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
+        },
+        {
+          "party": "lab",
           "url": "https://tactical.vote/birmingham-ladywood",
           "who_suggests": "tactical.vote"
         }
@@ -2265,6 +2371,11 @@
         "slug": "birmingham-northfield"
       },
       "other_sites": [
+        {
+          "party": "lab",
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
+        },
         {
           "party": "lab",
           "url": "https://tactical.vote/birmingham-northfield",
@@ -2312,6 +2423,11 @@
       "other_sites": [
         {
           "party": "lab",
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
+        },
+        {
+          "party": "lab",
           "url": "https://tactical.vote/birmingham-perry-barr",
           "who_suggests": "tactical.vote"
         }
@@ -2341,6 +2457,11 @@
         "slug": "birmingham-selly-oak"
       },
       "other_sites": [
+        {
+          "party": "lab",
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
+        },
         {
           "party": "lab",
           "url": "https://tactical.vote/birmingham-selly-oak",
@@ -2395,6 +2516,11 @@
       "other_sites": [
         {
           "party": "lab",
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
+        },
+        {
+          "party": "lab",
           "url": "https://tactical.vote/birmingham-yardley",
           "who_suggests": "tactical.vote"
         }
@@ -2424,6 +2550,11 @@
         "slug": "bishop-auckland"
       },
       "other_sites": [
+        {
+          "party": "lab",
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
+        },
         {
           "party": "lab",
           "url": "https://tacticalvote.co.uk/#BishopAuckland",
@@ -2474,6 +2605,11 @@
       "other_sites": [
         {
           "party": "lab",
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
+        },
+        {
+          "party": "lab",
           "url": "https://tactical.vote/blackburn",
           "who_suggests": "tactical.vote"
         }
@@ -2503,6 +2639,11 @@
         "slug": "blackley-and-broughton"
       },
       "other_sites": [
+        {
+          "party": "lab",
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
+        },
         {
           "party": "lab",
           "url": "https://tactical.vote/blackley-and-broughton",
@@ -2581,6 +2722,11 @@
       "other_sites": [
         {
           "party": "lab",
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
+        },
+        {
+          "party": "lab",
           "url": "https://tactical.vote/blackpool-south",
           "who_suggests": "tactical.vote"
         }
@@ -2630,7 +2776,13 @@
         "region": "Wales",
         "slug": "blaenau-gwent"
       },
-      "other_sites": [],
+      "other_sites": [
+        {
+          "party": "lab",
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
+        }
+      ],
       "outcome_frequency": [
         [
           {
@@ -2663,6 +2815,11 @@
         "slug": "blaydon"
       },
       "other_sites": [
+        {
+          "party": "lab",
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
+        },
         {
           "party": "lab",
           "url": "https://tactical.vote/blaydon",
@@ -2708,6 +2865,11 @@
         "slug": "blyth-valley"
       },
       "other_sites": [
+        {
+          "party": "lab",
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
+        },
         {
           "party": "lab",
           "url": "https://tactical.vote/blyth-valley",
@@ -2800,6 +2962,11 @@
       "other_sites": [
         {
           "party": "lab",
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
+        },
+        {
+          "party": "lab",
           "url": "https://tactical.vote/bolsover",
           "who_suggests": "tactical.vote"
         }
@@ -2845,6 +3012,11 @@
       "other_sites": [
         {
           "party": "lab",
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
+        },
+        {
+          "party": "lab",
           "url": "https://tactical.vote/bolton-north-east",
           "who_suggests": "tactical.vote"
         }
@@ -2888,6 +3060,11 @@
         "slug": "bolton-south-east"
       },
       "other_sites": [
+        {
+          "party": "lab",
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
+        },
         {
           "party": "lab",
           "url": "https://tactical.vote/bolton-south-east",
@@ -2976,6 +3153,11 @@
         "slug": "bootle"
       },
       "other_sites": [
+        {
+          "party": "lab",
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
+        },
         {
           "party": "lab",
           "url": "https://tactical.vote/bootle",
@@ -3202,6 +3384,11 @@
       },
       "other_sites": [
         {
+          "party": "ld",
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
+        },
+        {
           "party": "lab",
           "url": "https://tactical.vote/bracknell",
           "who_suggests": "tactical.vote"
@@ -3248,6 +3435,11 @@
       "other_sites": [
         {
           "party": "lab",
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
+        },
+        {
+          "party": "lab",
           "url": "https://tactical.vote/bradford-east",
           "who_suggests": "tactical.vote"
         }
@@ -3277,6 +3469,11 @@
         "slug": "bradford-south"
       },
       "other_sites": [
+        {
+          "party": "lab",
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
+        },
         {
           "party": "lab",
           "url": "https://tactical.vote/bradford-south",
@@ -3315,6 +3512,11 @@
         "slug": "bradford-west"
       },
       "other_sites": [
+        {
+          "party": "lab",
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
+        },
         {
           "party": "lab",
           "url": "https://tactical.vote/bradford-west",
@@ -3400,6 +3602,11 @@
       "other_sites": [
         {
           "party": "ld",
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
+        },
+        {
+          "party": "ld",
           "url": "https://tacticalvote.co.uk/#BreconandRadnorshire",
           "who_suggests": "tacticalvote.co.uk"
         },
@@ -3471,6 +3678,11 @@
       "other_sites": [
         {
           "party": "lab",
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
+        },
+        {
+          "party": "lab",
           "url": "https://tactical.vote/brent-central",
           "who_suggests": "tactical.vote"
         }
@@ -3502,6 +3714,11 @@
       "other_sites": [
         {
           "party": "lab",
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
+        },
+        {
+          "party": "lab",
           "url": "https://tactical.vote/brent-north",
           "who_suggests": "tactical.vote"
         }
@@ -3531,6 +3748,11 @@
         "slug": "brentford-and-isleworth"
       },
       "other_sites": [
+        {
+          "party": "lab",
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
+        },
         {
           "party": "lab",
           "url": "https://tacticalvote.co.uk/#BrentfordandIsleworth",
@@ -3645,6 +3867,11 @@
         "slug": "bridgend"
       },
       "other_sites": [
+        {
+          "party": "lab",
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
+        },
         {
           "party": "lab",
           "url": "https://tactical.vote/bridgend",
@@ -3789,6 +4016,11 @@
       "other_sites": [
         {
           "party": "lab",
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
+        },
+        {
+          "party": "lab",
           "url": "https://tacticalvote.co.uk/#Brighton,Kemptown",
           "who_suggests": "tacticalvote.co.uk"
         },
@@ -3857,7 +4089,13 @@
         "region": "South East",
         "slug": "brighton-pavilion"
       },
-      "other_sites": [],
+      "other_sites": [
+        {
+          "party": "green",
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
+        }
+      ],
       "outcome_frequency": [
         [
           {
@@ -3883,6 +4121,11 @@
         "slug": "bristol-east"
       },
       "other_sites": [
+        {
+          "party": "lab",
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
+        },
         {
           "party": "lab",
           "url": "https://tactical.vote/bristol-east",
@@ -3935,6 +4178,11 @@
         "slug": "bristol-north-west"
       },
       "other_sites": [
+        {
+          "party": "ld",
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
+        },
         {
           "party": "lab",
           "url": "https://tacticalvote.co.uk/#BristolNorthWest",
@@ -4001,6 +4249,11 @@
       "other_sites": [
         {
           "party": "lab",
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
+        },
+        {
+          "party": "lab",
           "url": "https://tactical.vote/bristol-south",
           "who_suggests": "tactical.vote"
         }
@@ -4044,6 +4297,11 @@
         "slug": "bristol-west"
       },
       "other_sites": [
+        {
+          "party": "lab",
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
+        },
         {
           "party": "lab",
           "url": "https://tactical.vote/bristol-west",
@@ -4256,6 +4514,11 @@
       },
       "other_sites": [
         {
+          "party": "other",
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
+        },
+        {
           "party": "lab",
           "url": "https://tactical.vote/broxtowe",
           "who_suggests": "tactical.vote"
@@ -4348,6 +4611,11 @@
       "other_sites": [
         {
           "party": "lab",
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
+        },
+        {
+          "party": "lab",
           "url": "https://tactical.vote/burnley",
           "who_suggests": "tactical.vote"
         }
@@ -4436,6 +4704,11 @@
         "slug": "bury-north"
       },
       "other_sites": [
+        {
+          "party": "lab",
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
+        },
         {
           "party": "lab",
           "url": "https://tacticalvote.co.uk/#BuryNorth",
@@ -4569,6 +4842,11 @@
         "slug": "caerphilly"
       },
       "other_sites": [
+        {
+          "party": "lab",
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
+        },
         {
           "party": "lab",
           "url": "https://tactical.vote/caerphilly",
@@ -4710,6 +4988,11 @@
         "slug": "camberwell-and-peckham"
       },
       "other_sites": [
+        {
+          "party": "lab",
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
+        },
         {
           "party": "lab",
           "url": "https://tactical.vote/camberwell-and-peckham",
@@ -4879,6 +5162,11 @@
       "other_sites": [
         {
           "party": "lab",
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
+        },
+        {
+          "party": "lab",
           "url": "https://tacticalvote.co.uk/#Canterbury",
           "who_suggests": "tacticalvote.co.uk"
         },
@@ -4955,6 +5243,11 @@
       "other_sites": [
         {
           "party": "lab",
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
+        },
+        {
+          "party": "lab",
           "url": "https://tactical.vote/cardiff-central",
           "who_suggests": "tactical.vote"
         }
@@ -5005,6 +5298,11 @@
         "slug": "cardiff-north"
       },
       "other_sites": [
+        {
+          "party": "lab",
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
+        },
         {
           "party": "lab",
           "url": "https://tacticalvote.co.uk/#CardiffNorth",
@@ -5071,6 +5369,11 @@
       "other_sites": [
         {
           "party": "lab",
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
+        },
+        {
+          "party": "lab",
           "url": "https://tactical.vote/cardiff-south-and-penarth",
           "who_suggests": "tactical.vote"
         }
@@ -5114,6 +5417,11 @@
         "slug": "cardiff-west"
       },
       "other_sites": [
+        {
+          "party": "lab",
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
+        },
         {
           "party": "lab",
           "url": "https://tactical.vote/cardiff-west",
@@ -5210,7 +5518,13 @@
         "region": "Wales",
         "slug": "carmarthen-east-and-dinefwr"
       },
-      "other_sites": [],
+      "other_sites": [
+        {
+          "party": "plaid",
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
+        }
+      ],
       "outcome_frequency": [
         [
           {
@@ -5295,6 +5609,11 @@
         "slug": "carshalton-and-wallington"
       },
       "other_sites": [
+        {
+          "party": "ld",
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
+        },
         {
           "party": "ld",
           "url": "https://tactical.vote/carshalton-and-wallington",
@@ -5515,7 +5834,13 @@
         "region": "Wales",
         "slug": "ceredigion"
       },
-      "other_sites": [],
+      "other_sites": [
+        {
+          "party": "plaid",
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
+        }
+      ],
       "outcome_frequency": [
         [
           {
@@ -5899,6 +6224,11 @@
       "other_sites": [
         {
           "party": "lab",
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
+        },
+        {
+          "party": "lab",
           "url": "https://tactical.vote/chesterfield",
           "who_suggests": "tactical.vote"
         }
@@ -6167,6 +6497,11 @@
       "other_sites": [
         {
           "party": "lab",
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
+        },
+        {
+          "party": "lab",
           "url": "https://tactical.vote/chorley",
           "who_suggests": "tactical.vote"
         }
@@ -6242,6 +6577,11 @@
       },
       "other_sites": [
         {
+          "party": "ld",
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
+        },
+        {
           "party": "lab",
           "url": "https://tactical.vote/cities-of-london-and-westminster",
           "who_suggests": "tactical.vote"
@@ -6302,6 +6642,11 @@
       "other_sites": [
         {
           "party": "lab",
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
+        },
+        {
+          "party": "lab",
           "url": "https://tacticalvote.co.uk/#CityofChester",
           "who_suggests": "tacticalvote.co.uk"
         },
@@ -6357,6 +6702,11 @@
         "slug": "city-of-durham"
       },
       "other_sites": [
+        {
+          "party": "lab",
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
+        },
         {
           "party": "lab",
           "url": "https://tactical.vote/city-of-durham",
@@ -6483,6 +6833,11 @@
         "slug": "clwyd-south"
       },
       "other_sites": [
+        {
+          "party": "lab",
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
+        },
         {
           "party": "lab",
           "url": "https://tactical.vote/clwyd-south",
@@ -6683,6 +7038,11 @@
         "slug": "colne-valley"
       },
       "other_sites": [
+        {
+          "party": "lab",
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
+        },
         {
           "party": "lab",
           "url": "https://tacticalvote.co.uk/#ColneValley",
@@ -6906,6 +7266,11 @@
       "other_sites": [
         {
           "party": "lab",
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
+        },
+        {
+          "party": "lab",
           "url": "https://tactical.vote/coventry-north-east",
           "who_suggests": "tactical.vote"
         }
@@ -6935,6 +7300,11 @@
         "slug": "coventry-north-west"
       },
       "other_sites": [
+        {
+          "party": "lab",
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
+        },
         {
           "party": "lab",
           "url": "https://tactical.vote/coventry-north-west",
@@ -6973,6 +7343,11 @@
         "slug": "coventry-south"
       },
       "other_sites": [
+        {
+          "party": "lab",
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
+        },
         {
           "party": "lab",
           "url": "https://tactical.vote/coventry-south",
@@ -7058,6 +7433,11 @@
       "other_sites": [
         {
           "party": "lab",
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
+        },
+        {
+          "party": "lab",
           "url": "https://tacticalvote.co.uk/#CreweandNantwich",
           "who_suggests": "tacticalvote.co.uk"
         },
@@ -7115,6 +7495,11 @@
       "other_sites": [
         {
           "party": "lab",
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
+        },
+        {
+          "party": "lab",
           "url": "https://tacticalvote.co.uk/#CroydonCentral",
           "who_suggests": "tacticalvote.co.uk"
         },
@@ -7170,6 +7555,11 @@
         "slug": "croydon-north"
       },
       "other_sites": [
+        {
+          "party": "lab",
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
+        },
         {
           "party": "lab",
           "url": "https://tactical.vote/croydon-north",
@@ -7287,6 +7677,11 @@
       "other_sites": [
         {
           "party": "lab",
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
+        },
+        {
+          "party": "lab",
           "url": "https://tactical.vote/cynon-valley",
           "who_suggests": "tactical.vote"
         }
@@ -7323,6 +7718,11 @@
         "slug": "dagenham-and-rainham"
       },
       "other_sites": [
+        {
+          "party": "lab",
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
+        },
         {
           "party": "lab",
           "url": "https://tactical.vote/dagenham-and-rainham",
@@ -7375,6 +7775,11 @@
         "slug": "darlington"
       },
       "other_sites": [
+        {
+          "party": "lab",
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
+        },
         {
           "party": "lab",
           "url": "https://tactical.vote/darlington",
@@ -7512,6 +7917,11 @@
       "other_sites": [
         {
           "party": "lab",
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
+        },
+        {
+          "party": "lab",
           "url": "https://tactical.vote/delyn",
           "who_suggests": "tactical.vote"
         }
@@ -7562,6 +7972,11 @@
         "slug": "denton-and-reddish"
       },
       "other_sites": [
+        {
+          "party": "lab",
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
+        },
         {
           "party": "lab",
           "url": "https://tactical.vote/denton-and-reddish",
@@ -7652,6 +8067,11 @@
         "slug": "derby-south"
       },
       "other_sites": [
+        {
+          "party": "lab",
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
+        },
         {
           "party": "lab",
           "url": "https://tactical.vote/derby-south",
@@ -7775,6 +8195,11 @@
       "other_sites": [
         {
           "party": "lab",
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
+        },
+        {
+          "party": "lab",
           "url": "https://tacticalvote.co.uk/#Dewsbury",
           "who_suggests": "tacticalvote.co.uk"
         },
@@ -7824,6 +8249,11 @@
       },
       "other_sites": [
         {
+          "party": "ld",
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
+        },
+        {
           "party": "lab",
           "url": "https://tactical.vote/don-valley",
           "who_suggests": "tactical.vote"
@@ -7870,6 +8300,11 @@
       "other_sites": [
         {
           "party": "lab",
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
+        },
+        {
+          "party": "lab",
           "url": "https://tactical.vote/doncaster-central",
           "who_suggests": "tactical.vote"
         }
@@ -7913,6 +8348,11 @@
         "slug": "doncaster-north"
       },
       "other_sites": [
+        {
+          "party": "lab",
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
+        },
         {
           "party": "lab",
           "url": "https://tactical.vote/doncaster-north",
@@ -8124,6 +8564,11 @@
         "slug": "dulwich-and-west-norwood"
       },
       "other_sites": [
+        {
+          "party": "lab",
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
+        },
         {
           "party": "lab",
           "url": "https://tactical.vote/dulwich-and-west-norwood",
@@ -8347,6 +8792,11 @@
       "other_sites": [
         {
           "party": "plaid",
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
+        },
+        {
+          "party": "plaid",
           "url": "https://tacticalvote.co.uk/#DwyforMeirionnydd",
           "who_suggests": "tacticalvote.co.uk"
         },
@@ -8381,6 +8831,11 @@
         "slug": "ealing-central-and-acton"
       },
       "other_sites": [
+        {
+          "party": "lab",
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
+        },
         {
           "party": "lab",
           "url": "https://tacticalvote.co.uk/#EalingCentralandActon",
@@ -8433,6 +8888,11 @@
       "other_sites": [
         {
           "party": "lab",
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
+        },
+        {
+          "party": "lab",
           "url": "https://tactical.vote/ealing-north",
           "who_suggests": "tactical.vote"
         }
@@ -8464,6 +8924,11 @@
       "other_sites": [
         {
           "party": "lab",
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
+        },
+        {
+          "party": "lab",
           "url": "https://tactical.vote/ealing-southall",
           "who_suggests": "tactical.vote"
         }
@@ -8493,6 +8958,11 @@
         "slug": "easington"
       },
       "other_sites": [
+        {
+          "party": "lab",
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
+        },
         {
           "party": "lab",
           "url": "https://tactical.vote/easington",
@@ -8654,6 +9124,11 @@
         "slug": "east-ham"
       },
       "other_sites": [
+        {
+          "party": "lab",
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
+        },
         {
           "party": "lab",
           "url": "https://tactical.vote/east-ham",
@@ -8875,6 +9350,11 @@
         "slug": "east-surrey"
       },
       "other_sites": [
+        {
+          "party": "ld",
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
+        },
         {
           "party": "lab",
           "url": "https://tactical.vote/east-surrey",
@@ -9111,6 +9591,11 @@
       },
       "other_sites": [
         {
+          "party": "other",
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
+        },
+        {
           "party": "lab",
           "url": "https://tactical.vote/eddisbury",
           "who_suggests": "tactical.vote"
@@ -9344,6 +9829,11 @@
       "other_sites": [
         {
           "party": "lab",
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
+        },
+        {
+          "party": "lab",
           "url": "https://tactical.vote/edmonton",
           "who_suggests": "tactical.vote"
         }
@@ -9373,6 +9863,11 @@
         "slug": "ellesmere-port-and-neston"
       },
       "other_sites": [
+        {
+          "party": "lab",
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
+        },
         {
           "party": "lab",
           "url": "https://tactical.vote/ellesmere-port-and-neston",
@@ -9472,6 +9967,11 @@
       "other_sites": [
         {
           "party": "lab",
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
+        },
+        {
+          "party": "lab",
           "url": "https://tactical.vote/eltham",
           "who_suggests": "tactical.vote"
         }
@@ -9560,6 +10060,11 @@
         "slug": "enfield-southgate"
       },
       "other_sites": [
+        {
+          "party": "lab",
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
+        },
         {
           "party": "lab",
           "url": "https://tacticalvote.co.uk/#Enfield,Southgate",
@@ -9778,6 +10283,11 @@
       "other_sites": [
         {
           "party": "lab",
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
+        },
+        {
+          "party": "lab",
           "url": "https://tactical.vote/erith-and-thamesmead",
           "who_suggests": "tactical.vote"
         }
@@ -9852,6 +10362,11 @@
         "slug": "exeter"
       },
       "other_sites": [
+        {
+          "party": "lab",
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
+        },
         {
           "party": "lab",
           "url": "https://tactical.vote/exeter",
@@ -10035,6 +10550,11 @@
       "other_sites": [
         {
           "party": "lab",
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
+        },
+        {
+          "party": "lab",
           "url": "https://tactical.vote/feltham-and-heston",
           "who_suggests": "tactical.vote"
         }
@@ -10154,6 +10674,11 @@
         "slug": "finchley-and-golders-green"
       },
       "other_sites": [
+        {
+          "party": "ld",
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
+        },
         {
           "party": "lab",
           "url": "https://tacticalvote.co.uk/#FinchleyandGoldersGreen",
@@ -10446,6 +10971,11 @@
       "other_sites": [
         {
           "party": "lab",
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
+        },
+        {
+          "party": "lab",
           "url": "https://tactical.vote/garston-and-halewood",
           "who_suggests": "tactical.vote"
         }
@@ -10475,6 +11005,11 @@
         "slug": "gateshead"
       },
       "other_sites": [
+        {
+          "party": "lab",
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
+        },
         {
           "party": "lab",
           "url": "https://tactical.vote/gateshead",
@@ -10513,6 +11048,11 @@
         "slug": "gedling"
       },
       "other_sites": [
+        {
+          "party": "lab",
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
+        },
         {
           "party": "lab",
           "url": "https://tactical.vote/gedling",
@@ -10971,6 +11511,11 @@
       "other_sites": [
         {
           "party": "lab",
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
+        },
+        {
+          "party": "lab",
           "url": "https://tacticalvote.co.uk/#Gower",
           "who_suggests": "tacticalvote.co.uk"
         },
@@ -11125,6 +11670,11 @@
       "other_sites": [
         {
           "party": "lab",
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
+        },
+        {
+          "party": "lab",
           "url": "https://tactical.vote/great-grimsby",
           "who_suggests": "tactical.vote"
         }
@@ -11229,6 +11779,11 @@
       "other_sites": [
         {
           "party": "lab",
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
+        },
+        {
+          "party": "lab",
           "url": "https://tactical.vote/greenwich-and-woolwich",
           "who_suggests": "tactical.vote"
         }
@@ -11319,6 +11874,11 @@
       "other_sites": [
         {
           "party": "lab",
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
+        },
+        {
+          "party": "lab",
           "url": "https://tactical.vote/hackney-north-and-stoke-newington",
           "who_suggests": "tactical.vote"
         }
@@ -11348,6 +11908,11 @@
         "slug": "hackney-south-and-shoreditch"
       },
       "other_sites": [
+        {
+          "party": "lab",
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
+        },
         {
           "party": "lab",
           "url": "https://tactical.vote/hackney-south-and-shoreditch",
@@ -11429,6 +11994,11 @@
         "slug": "halifax"
       },
       "other_sites": [
+        {
+          "party": "lab",
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
+        },
         {
           "party": "lab",
           "url": "https://tacticalvote.co.uk/#Halifax",
@@ -11533,6 +12103,11 @@
       "other_sites": [
         {
           "party": "lab",
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
+        },
+        {
+          "party": "lab",
           "url": "https://tactical.vote/halton",
           "who_suggests": "tactical.vote"
         }
@@ -11569,6 +12144,11 @@
         "slug": "hammersmith"
       },
       "other_sites": [
+        {
+          "party": "lab",
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
+        },
         {
           "party": "lab",
           "url": "https://tactical.vote/hammersmith",
@@ -11614,6 +12194,11 @@
         "slug": "hampstead-and-kilburn"
       },
       "other_sites": [
+        {
+          "party": "lab",
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
+        },
         {
           "party": "lab",
           "url": "https://tactical.vote/hampstead-and-kilburn",
@@ -11851,6 +12436,11 @@
       "other_sites": [
         {
           "party": "lab",
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
+        },
+        {
+          "party": "lab",
           "url": "https://tactical.vote/harrow-west",
           "who_suggests": "tactical.vote"
         }
@@ -11887,6 +12477,11 @@
         "slug": "hartlepool"
       },
       "other_sites": [
+        {
+          "party": "lab",
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
+        },
         {
           "party": "lab",
           "url": "https://tactical.vote/hartlepool",
@@ -12088,6 +12683,11 @@
       "other_sites": [
         {
           "party": "lab",
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
+        },
+        {
+          "party": "lab",
           "url": "https://tactical.vote/hayes-and-harlington",
           "who_suggests": "tactical.vote"
         }
@@ -12224,6 +12824,11 @@
         "slug": "hemsworth"
       },
       "other_sites": [
+        {
+          "party": "lab",
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
+        },
         {
           "party": "lab",
           "url": "https://tactical.vote/hemsworth",
@@ -12579,6 +13184,11 @@
       "other_sites": [
         {
           "party": "lab",
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
+        },
+        {
+          "party": "lab",
           "url": "https://tactical.vote/heywood-and-middleton",
           "who_suggests": "tactical.vote"
         }
@@ -12615,6 +13225,11 @@
         "slug": "high-peak"
       },
       "other_sites": [
+        {
+          "party": "lab",
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
+        },
         {
           "party": "lab",
           "url": "https://tacticalvote.co.uk/#HighPeak",
@@ -12740,6 +13355,11 @@
       "other_sites": [
         {
           "party": "lab",
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
+        },
+        {
+          "party": "lab",
           "url": "https://tactical.vote/holborn-and-st-pancras",
           "who_suggests": "tactical.vote"
         }
@@ -12813,7 +13433,13 @@
         "region": "London",
         "slug": "hornsey-and-wood-green"
       },
-      "other_sites": [],
+      "other_sites": [
+        {
+          "party": "lab",
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
+        }
+      ],
       "outcome_frequency": [
         [
           {
@@ -12886,6 +13512,11 @@
       "other_sites": [
         {
           "party": "lab",
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
+        },
+        {
+          "party": "lab",
           "url": "https://tactical.vote/houghton-and-sunderland-south",
           "who_suggests": "tactical.vote"
         }
@@ -12929,6 +13560,11 @@
         "slug": "hove"
       },
       "other_sites": [
+        {
+          "party": "lab",
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
+        },
         {
           "party": "lab",
           "url": "https://tacticalvote.co.uk/#Hove",
@@ -12993,6 +13629,11 @@
         "slug": "huddersfield"
       },
       "other_sites": [
+        {
+          "party": "lab",
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
+        },
         {
           "party": "lab",
           "url": "https://tactical.vote/huddersfield",
@@ -13078,6 +13719,11 @@
       "other_sites": [
         {
           "party": "lab",
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
+        },
+        {
+          "party": "lab",
           "url": "https://tactical.vote/hyndburn",
           "who_suggests": "tactical.vote"
         }
@@ -13114,6 +13760,11 @@
         "slug": "ilford-north"
       },
       "other_sites": [
+        {
+          "party": "lab",
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
+        },
         {
           "party": "lab",
           "url": "https://tacticalvote.co.uk/#IlfordNorth",
@@ -13246,6 +13897,11 @@
       "other_sites": [
         {
           "party": "lab",
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
+        },
+        {
+          "party": "lab",
           "url": "https://tacticalvote.co.uk/#Ipswich",
           "who_suggests": "tacticalvote.co.uk"
         },
@@ -13374,6 +14030,11 @@
       "other_sites": [
         {
           "party": "lab",
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
+        },
+        {
+          "party": "lab",
           "url": "https://tactical.vote/islington-north",
           "who_suggests": "tactical.vote"
         }
@@ -13403,6 +14064,11 @@
         "slug": "islington-south-and-finsbury"
       },
       "other_sites": [
+        {
+          "party": "lab",
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
+        },
         {
           "party": "lab",
           "url": "https://tactical.vote/islington-south-and-finsbury",
@@ -13441,6 +14107,11 @@
         "slug": "islwyn"
       },
       "other_sites": [
+        {
+          "party": "lab",
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
+        },
         {
           "party": "lab",
           "url": "https://tactical.vote/islwyn",
@@ -13531,6 +14202,11 @@
         "slug": "keighley"
       },
       "other_sites": [
+        {
+          "party": "lab",
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
+        },
         {
           "party": "lab",
           "url": "https://tacticalvote.co.uk/#Keighley",
@@ -13640,6 +14316,11 @@
         "slug": "kensington"
       },
       "other_sites": [
+        {
+          "party": "ld",
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
+        },
         {
           "party": "lab",
           "url": "https://tacticalvote.co.uk/#Kensington",
@@ -13790,6 +14471,11 @@
       "other_sites": [
         {
           "party": "ld",
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
+        },
+        {
+          "party": "ld",
           "url": "https://tacticalvote.co.uk/#KingstonandSurbiton",
           "who_suggests": "tacticalvote.co.uk"
         },
@@ -13831,6 +14517,11 @@
         "slug": "kingston-upon-hull-east"
       },
       "other_sites": [
+        {
+          "party": "lab",
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
+        },
         {
           "party": "lab",
           "url": "https://tactical.vote/kingston-upon-hull-east",
@@ -13878,6 +14569,11 @@
       "other_sites": [
         {
           "party": "lab",
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
+        },
+        {
+          "party": "lab",
           "url": "https://tactical.vote/kingston-upon-hull-north",
           "who_suggests": "tactical.vote"
         }
@@ -13921,6 +14617,11 @@
         "slug": "kingston-upon-hull-west-and-hessle"
       },
       "other_sites": [
+        {
+          "party": "lab",
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
+        },
         {
           "party": "lab",
           "url": "https://tactical.vote/kingston-upon-hull-west-and-hessle",
@@ -14045,6 +14746,11 @@
       "other_sites": [
         {
           "party": "lab",
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
+        },
+        {
+          "party": "lab",
           "url": "https://tactical.vote/knowsley",
           "who_suggests": "tactical.vote"
         }
@@ -14132,6 +14838,11 @@
       "other_sites": [
         {
           "party": "lab",
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
+        },
+        {
+          "party": "lab",
           "url": "https://tacticalvote.co.uk/#LancasterandFleetwood",
           "who_suggests": "tacticalvote.co.uk"
         },
@@ -14196,6 +14907,11 @@
       "other_sites": [
         {
           "party": "lab",
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
+        },
+        {
+          "party": "lab",
           "url": "https://tactical.vote/leeds-central",
           "who_suggests": "tactical.vote"
         }
@@ -14225,6 +14941,11 @@
         "slug": "leeds-east"
       },
       "other_sites": [
+        {
+          "party": "lab",
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
+        },
         {
           "party": "lab",
           "url": "https://tactical.vote/leeds-east",
@@ -14263,6 +14984,11 @@
         "slug": "leeds-north-east"
       },
       "other_sites": [
+        {
+          "party": "lab",
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
+        },
         {
           "party": "lab",
           "url": "https://tactical.vote/leeds-north-east",
@@ -14307,7 +15033,13 @@
         "region": "Yorkshire and The Humber",
         "slug": "leeds-north-west"
       },
-      "other_sites": [],
+      "other_sites": [
+        {
+          "party": "lab",
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
+        }
+      ],
       "outcome_frequency": [
         [
           {
@@ -14361,6 +15093,11 @@
         "slug": "leeds-west"
       },
       "other_sites": [
+        {
+          "party": "lab",
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
+        },
         {
           "party": "lab",
           "url": "https://tactical.vote/leeds-west",
@@ -14432,6 +15169,11 @@
       "other_sites": [
         {
           "party": "lab",
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
+        },
+        {
+          "party": "lab",
           "url": "https://tactical.vote/leicester-south",
           "who_suggests": "tactical.vote"
         }
@@ -14463,6 +15205,11 @@
       "other_sites": [
         {
           "party": "lab",
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
+        },
+        {
+          "party": "lab",
           "url": "https://tactical.vote/leicester-west",
           "who_suggests": "tactical.vote"
         }
@@ -14492,6 +15239,11 @@
         "slug": "leigh"
       },
       "other_sites": [
+        {
+          "party": "lab",
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
+        },
         {
           "party": "lab",
           "url": "https://tactical.vote/leigh",
@@ -14589,6 +15341,11 @@
       "other_sites": [
         {
           "party": "lab",
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
+        },
+        {
+          "party": "lab",
           "url": "https://tactical.vote/lewisham-deptford",
           "who_suggests": "tactical.vote"
         }
@@ -14627,6 +15384,11 @@
       "other_sites": [
         {
           "party": "lab",
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
+        },
+        {
+          "party": "lab",
           "url": "https://tactical.vote/lewisham-east",
           "who_suggests": "tactical.vote"
         }
@@ -14663,6 +15425,11 @@
         "slug": "lewisham-west-and-penge"
       },
       "other_sites": [
+        {
+          "party": "lab",
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
+        },
         {
           "party": "lab",
           "url": "https://tactical.vote/lewisham-west-and-penge",
@@ -14708,6 +15475,11 @@
         "slug": "leyton-and-wanstead"
       },
       "other_sites": [
+        {
+          "party": "lab",
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
+        },
         {
           "party": "lab",
           "url": "https://tactical.vote/leyton-and-wanstead",
@@ -14793,6 +15565,11 @@
       "other_sites": [
         {
           "party": "lab",
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
+        },
+        {
+          "party": "lab",
           "url": "https://tacticalvote.co.uk/#Lincoln",
           "who_suggests": "tacticalvote.co.uk"
         },
@@ -14875,6 +15652,11 @@
       "other_sites": [
         {
           "party": "lab",
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
+        },
+        {
+          "party": "lab",
           "url": "https://tactical.vote/liverpool-riverside",
           "who_suggests": "tactical.vote"
         }
@@ -14904,6 +15686,11 @@
         "slug": "liverpool-walton"
       },
       "other_sites": [
+        {
+          "party": "lab",
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
+        },
         {
           "party": "lab",
           "url": "https://tactical.vote/liverpool-walton",
@@ -14968,6 +15755,11 @@
       "other_sites": [
         {
           "party": "lab",
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
+        },
+        {
+          "party": "lab",
           "url": "https://tactical.vote/liverpool-west-derby",
           "who_suggests": "tactical.vote"
         }
@@ -15022,6 +15814,11 @@
         "slug": "llanelli"
       },
       "other_sites": [
+        {
+          "party": "lab",
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
+        },
         {
           "party": "lab",
           "url": "https://tactical.vote/llanelli",
@@ -15429,6 +16226,11 @@
       "other_sites": [
         {
           "party": "lab",
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
+        },
+        {
+          "party": "lab",
           "url": "https://tactical.vote/makerfield",
           "who_suggests": "tactical.vote"
         }
@@ -15531,6 +16333,11 @@
       "other_sites": [
         {
           "party": "lab",
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
+        },
+        {
+          "party": "lab",
           "url": "https://tactical.vote/manchester-central",
           "who_suggests": "tactical.vote"
         }
@@ -15562,6 +16369,11 @@
       "other_sites": [
         {
           "party": "lab",
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
+        },
+        {
+          "party": "lab",
           "url": "https://tactical.vote/manchester-gorton",
           "who_suggests": "tactical.vote"
         }
@@ -15590,7 +16402,13 @@
         "region": "North West",
         "slug": "manchester-withington"
       },
-      "other_sites": [],
+      "other_sites": [
+        {
+          "party": "lab",
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
+        }
+      ],
       "outcome_frequency": [
         [
           {
@@ -15770,6 +16588,11 @@
         "slug": "merthyr-tydfil-and-rhymney"
       },
       "other_sites": [
+        {
+          "party": "lab",
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
+        },
         {
           "party": "lab",
           "url": "https://tactical.vote/merthyr-tydfil-and-rhymney",
@@ -16118,6 +16941,11 @@
       "other_sites": [
         {
           "party": "lab",
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
+        },
+        {
+          "party": "lab",
           "url": "https://tactical.vote/middlesbrough",
           "who_suggests": "tactical.vote"
         }
@@ -16368,6 +17196,11 @@
         "slug": "mitcham-and-morden"
       },
       "other_sites": [
+        {
+          "party": "lab",
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
+        },
         {
           "party": "lab",
           "url": "https://tactical.vote/mitcham-and-morden",
@@ -16773,6 +17606,11 @@
       "other_sites": [
         {
           "party": "lab",
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
+        },
+        {
+          "party": "lab",
           "url": "https://tactical.vote/neath",
           "who_suggests": "tactical.vote"
         }
@@ -16984,6 +17822,11 @@
       "other_sites": [
         {
           "party": "lab",
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
+        },
+        {
+          "party": "lab",
           "url": "https://tacticalvote.co.uk/#Newcastle-under-Lyme",
           "who_suggests": "tacticalvote.co.uk"
         },
@@ -17041,6 +17884,11 @@
       "other_sites": [
         {
           "party": "lab",
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
+        },
+        {
+          "party": "lab",
           "url": "https://tactical.vote/newcastle-upon-tyne-central",
           "who_suggests": "tactical.vote"
         }
@@ -17070,6 +17918,11 @@
         "slug": "newcastle-upon-tyne-east"
       },
       "other_sites": [
+        {
+          "party": "lab",
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
+        },
         {
           "party": "lab",
           "url": "https://tactical.vote/newcastle-upon-tyne-east",
@@ -17117,6 +17970,11 @@
       "other_sites": [
         {
           "party": "lab",
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
+        },
+        {
+          "party": "lab",
           "url": "https://tactical.vote/newcastle-upon-tyne-north",
           "who_suggests": "tactical.vote"
         }
@@ -17160,6 +18018,11 @@
         "slug": "newport-east"
       },
       "other_sites": [
+        {
+          "party": "lab",
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
+        },
         {
           "party": "lab",
           "url": "https://tactical.vote/newport-east",
@@ -17212,6 +18075,11 @@
         "slug": "newport-west"
       },
       "other_sites": [
+        {
+          "party": "lab",
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
+        },
         {
           "party": "lab",
           "url": "https://tactical.vote/newport-west",
@@ -17347,6 +18215,11 @@
         "slug": "normanton-pontefract-and-castleford"
       },
       "other_sites": [
+        {
+          "party": "lab",
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
+        },
         {
           "party": "lab",
           "url": "https://tactical.vote/normanton-pontefract-and-castleford",
@@ -17678,6 +18551,11 @@
         "slug": "north-durham"
       },
       "other_sites": [
+        {
+          "party": "lab",
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
+        },
         {
           "party": "lab",
           "url": "https://tactical.vote/north-durham",
@@ -18084,6 +18962,11 @@
       "other_sites": [
         {
           "party": "ld",
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
+        },
+        {
+          "party": "ld",
           "url": "https://tactical.vote/north-norfolk",
           "who_suggests": "tactical.vote"
         }
@@ -18316,6 +19199,11 @@
       "other_sites": [
         {
           "party": "lab",
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
+        },
+        {
+          "party": "lab",
           "url": "https://tactical.vote/north-tyneside",
           "who_suggests": "tactical.vote"
         }
@@ -18449,6 +19337,11 @@
         "slug": "north-west-durham"
       },
       "other_sites": [
+        {
+          "party": "lab",
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
+        },
         {
           "party": "lab",
           "url": "https://tactical.vote/north-west-durham",
@@ -18835,6 +19728,11 @@
       "other_sites": [
         {
           "party": "lab",
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
+        },
+        {
+          "party": "lab",
           "url": "https://tactical.vote/norwich-south",
           "who_suggests": "tactical.vote"
         }
@@ -18918,6 +19816,11 @@
       "other_sites": [
         {
           "party": "lab",
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
+        },
+        {
+          "party": "lab",
           "url": "https://tactical.vote/nottingham-north",
           "who_suggests": "tactical.vote"
         }
@@ -18947,6 +19850,11 @@
         "slug": "nottingham-south"
       },
       "other_sites": [
+        {
+          "party": "lab",
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
+        },
         {
           "party": "lab",
           "url": "https://tactical.vote/nottingham-south",
@@ -19084,6 +19992,11 @@
       "other_sites": [
         {
           "party": "lab",
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
+        },
+        {
+          "party": "lab",
           "url": "https://tactical.vote/ogmore",
           "who_suggests": "tactical.vote"
         }
@@ -19160,6 +20073,11 @@
       "other_sites": [
         {
           "party": "lab",
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
+        },
+        {
+          "party": "lab",
           "url": "https://tactical.vote/oldham-east-and-saddleworth",
           "who_suggests": "tactical.vote"
         }
@@ -19189,6 +20107,11 @@
         "slug": "oldham-west-and-royton"
       },
       "other_sites": [
+        {
+          "party": "lab",
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
+        },
         {
           "party": "lab",
           "url": "https://tactical.vote/oldham-west-and-royton",
@@ -19306,6 +20229,11 @@
       "other_sites": [
         {
           "party": "lab",
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
+        },
+        {
+          "party": "lab",
           "url": "https://tactical.vote/oxford-east",
           "who_suggests": "tactical.vote"
         }
@@ -19342,6 +20270,11 @@
         "slug": "oxford-west-and-abingdon"
       },
       "other_sites": [
+        {
+          "party": "ld",
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
+        },
         {
           "party": "ld",
           "url": "https://tacticalvote.co.uk/#OxfordWestandAbingdon",
@@ -19629,6 +20562,11 @@
       "other_sites": [
         {
           "party": "lab",
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
+        },
+        {
+          "party": "lab",
           "url": "https://tacticalvote.co.uk/#Peterborough",
           "who_suggests": "tacticalvote.co.uk"
         },
@@ -19729,6 +20667,11 @@
       "other_sites": [
         {
           "party": "lab",
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
+        },
+        {
+          "party": "lab",
           "url": "https://tacticalvote.co.uk/#Plymouth,SuttonandDevonport",
           "who_suggests": "tacticalvote.co.uk"
         },
@@ -19791,6 +20734,11 @@
         "slug": "pontypridd"
       },
       "other_sites": [
+        {
+          "party": "lab",
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
+        },
         {
           "party": "lab",
           "url": "https://tactical.vote/pontypridd",
@@ -19883,6 +20831,11 @@
       "other_sites": [
         {
           "party": "lab",
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
+        },
+        {
+          "party": "lab",
           "url": "https://tactical.vote/poplar-and-limehouse",
           "who_suggests": "tactical.vote"
         }
@@ -19964,6 +20917,11 @@
         "slug": "portsmouth-south"
       },
       "other_sites": [
+        {
+          "party": "lab",
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
+        },
         {
           "party": "lab",
           "url": "https://tactical.vote/portsmouth-south",
@@ -20101,6 +21059,11 @@
         "slug": "preston"
       },
       "other_sites": [
+        {
+          "party": "lab",
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
+        },
         {
           "party": "lab",
           "url": "https://tactical.vote/preston",
@@ -20309,6 +21272,11 @@
       "other_sites": [
         {
           "party": "lab",
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
+        },
+        {
+          "party": "lab",
           "url": "https://tacticalvote.co.uk/#ReadingEast",
           "who_suggests": "tacticalvote.co.uk"
         },
@@ -20423,6 +21391,11 @@
         "slug": "redcar"
       },
       "other_sites": [
+        {
+          "party": "lab",
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
+        },
         {
           "party": "lab",
           "url": "https://tactical.vote/redcar",
@@ -20550,7 +21523,13 @@
         "region": "Wales",
         "slug": "rhondda"
       },
-      "other_sites": [],
+      "other_sites": [
+        {
+          "party": "lab",
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
+        }
+      ],
       "outcome_frequency": [
         [
           {
@@ -20730,6 +21709,11 @@
         "slug": "rochdale"
       },
       "other_sites": [
+        {
+          "party": "lab",
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
+        },
         {
           "party": "lab",
           "url": "https://tactical.vote/rochdale",
@@ -21029,6 +22013,11 @@
       "other_sites": [
         {
           "party": "lab",
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
+        },
+        {
+          "party": "lab",
           "url": "https://tactical.vote/rother-valley",
           "who_suggests": "tactical.vote"
         }
@@ -21079,6 +22068,11 @@
         "slug": "rotherham"
       },
       "other_sites": [
+        {
+          "party": "lab",
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
+        },
         {
           "party": "lab",
           "url": "https://tactical.vote/rotherham",
@@ -21221,6 +22215,11 @@
         "slug": "runnymede-and-weybridge"
       },
       "other_sites": [
+        {
+          "party": "other",
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
+        },
         {
           "party": "lab",
           "url": "https://tactical.vote/runnymede-and-weybridge",
@@ -21440,6 +22439,11 @@
       "other_sites": [
         {
           "party": "lab",
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
+        },
+        {
+          "party": "lab",
           "url": "https://tactical.vote/salford-and-eccles",
           "who_suggests": "tactical.vote"
         }
@@ -21568,6 +22572,11 @@
       "other_sites": [
         {
           "party": "lab",
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
+        },
+        {
+          "party": "lab",
           "url": "https://tactical.vote/scunthorpe",
           "who_suggests": "tactical.vote"
         }
@@ -21627,6 +22636,11 @@
       "other_sites": [
         {
           "party": "lab",
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
+        },
+        {
+          "party": "lab",
           "url": "https://tactical.vote/sedgefield",
           "who_suggests": "tactical.vote"
         }
@@ -21670,6 +22684,11 @@
         "slug": "sefton-central"
       },
       "other_sites": [
+        {
+          "party": "lab",
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
+        },
         {
           "party": "lab",
           "url": "https://tactical.vote/sefton-central",
@@ -21807,6 +22826,11 @@
       "other_sites": [
         {
           "party": "lab",
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
+        },
+        {
+          "party": "lab",
           "url": "https://tactical.vote/sheffield-brightside-and-hillsborough",
           "who_suggests": "tactical.vote"
         }
@@ -21836,6 +22860,11 @@
         "slug": "sheffield-central"
       },
       "other_sites": [
+        {
+          "party": "lab",
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
+        },
         {
           "party": "lab",
           "url": "https://tactical.vote/sheffield-central",
@@ -21908,6 +22937,11 @@
       "other_sites": [
         {
           "party": "lab",
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
+        },
+        {
+          "party": "lab",
           "url": "https://tactical.vote/sheffield-heeley",
           "who_suggests": "tactical.vote"
         }
@@ -21951,6 +22985,11 @@
         "slug": "sheffield-south-east"
       },
       "other_sites": [
+        {
+          "party": "lab",
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
+        },
         {
           "party": "lab",
           "url": "https://tactical.vote/sheffield-south-east",
@@ -22254,6 +23293,11 @@
       "other_sites": [
         {
           "party": "lab",
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
+        },
+        {
+          "party": "lab",
           "url": "https://tactical.vote/slough",
           "who_suggests": "tactical.vote"
         }
@@ -22476,6 +23520,11 @@
         "slug": "south-cambridgeshire"
       },
       "other_sites": [
+        {
+          "party": "ld",
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
+        },
         {
           "party": "lab",
           "url": "https://tactical.vote/south-cambridgeshire",
@@ -22974,6 +24023,11 @@
       "other_sites": [
         {
           "party": "lab",
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
+        },
+        {
+          "party": "lab",
           "url": "https://tactical.vote/south-shields",
           "who_suggests": "tactical.vote"
         }
@@ -23295,6 +24349,11 @@
       },
       "other_sites": [
         {
+          "party": "other",
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
+        },
+        {
           "party": "lab",
           "url": "https://tactical.vote/south-west-hertfordshire",
           "who_suggests": "tactical.vote"
@@ -23545,6 +24604,11 @@
         "slug": "southampton-test"
       },
       "other_sites": [
+        {
+          "party": "lab",
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
+        },
         {
           "party": "lab",
           "url": "https://tactical.vote/southampton-test",
@@ -23850,6 +24914,11 @@
       "other_sites": [
         {
           "party": "lab",
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
+        },
+        {
+          "party": "lab",
           "url": "https://tactical.vote/st-helens-north",
           "who_suggests": "tactical.vote"
         }
@@ -23886,6 +24955,11 @@
         "slug": "st-helens-south-and-whiston"
       },
       "other_sites": [
+        {
+          "party": "lab",
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
+        },
         {
           "party": "lab",
           "url": "https://tactical.vote/st-helens-south-and-whiston",
@@ -24078,6 +25152,11 @@
       "other_sites": [
         {
           "party": "lab",
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
+        },
+        {
+          "party": "lab",
           "url": "https://tactical.vote/stalybridge-and-hyde",
           "who_suggests": "tactical.vote"
         }
@@ -24251,6 +25330,11 @@
       "other_sites": [
         {
           "party": "lab",
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
+        },
+        {
+          "party": "lab",
           "url": "https://tactical.vote/stockton-north",
           "who_suggests": "tactical.vote"
         }
@@ -24294,6 +25378,11 @@
         "slug": "stockton-south"
       },
       "other_sites": [
+        {
+          "party": "lab",
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
+        },
         {
           "party": "lab",
           "url": "https://tacticalvote.co.uk/#StocktonSouth",
@@ -24353,6 +25442,11 @@
       "other_sites": [
         {
           "party": "lab",
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
+        },
+        {
+          "party": "lab",
           "url": "https://tactical.vote/stoke-on-trent-central",
           "who_suggests": "tactical.vote"
         }
@@ -24389,6 +25483,11 @@
         "slug": "stoke-on-trent-north"
       },
       "other_sites": [
+        {
+          "party": "lab",
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
+        },
         {
           "party": "lab",
           "url": "https://tactical.vote/stoke-on-trent-north",
@@ -24704,6 +25803,11 @@
       "other_sites": [
         {
           "party": "lab",
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
+        },
+        {
+          "party": "lab",
           "url": "https://tactical.vote/stretford-and-urmston",
           "who_suggests": "tactical.vote"
         }
@@ -24733,6 +25837,11 @@
         "slug": "stroud"
       },
       "other_sites": [
+        {
+          "party": "lab",
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
+        },
         {
           "party": "lab",
           "url": "https://tacticalvote.co.uk/#Stroud",
@@ -24861,6 +25970,11 @@
         "slug": "sunderland-central"
       },
       "other_sites": [
+        {
+          "party": "lab",
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
+        },
         {
           "party": "lab",
           "url": "https://tactical.vote/sunderland-central",
@@ -25055,6 +26169,11 @@
       "other_sites": [
         {
           "party": "lab",
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
+        },
+        {
+          "party": "lab",
           "url": "https://tactical.vote/swansea-east",
           "who_suggests": "tactical.vote"
         }
@@ -25091,6 +26210,11 @@
         "slug": "swansea-west"
       },
       "other_sites": [
+        {
+          "party": "lab",
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
+        },
         {
           "party": "lab",
           "url": "https://tactical.vote/swansea-west",
@@ -25689,6 +26813,11 @@
       "other_sites": [
         {
           "party": "lab",
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
+        },
+        {
+          "party": "lab",
           "url": "https://tactical.vote/tooting",
           "who_suggests": "tactical.vote"
         }
@@ -25791,6 +26920,11 @@
       "other_sites": [
         {
           "party": "lab",
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
+        },
+        {
+          "party": "lab",
           "url": "https://tactical.vote/torfaen",
           "who_suggests": "tactical.vote"
         }
@@ -25880,6 +27014,11 @@
       },
       "other_sites": [
         {
+          "party": "ld",
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
+        },
+        {
           "party": "lab",
           "url": "https://tactical.vote/totnes",
           "who_suggests": "tactical.vote"
@@ -25924,6 +27063,11 @@
         "slug": "tottenham"
       },
       "other_sites": [
+        {
+          "party": "lab",
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
+        },
         {
           "party": "lab",
           "url": "https://tactical.vote/tottenham",
@@ -26068,6 +27212,11 @@
       "other_sites": [
         {
           "party": "ld",
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
+        },
+        {
+          "party": "ld",
           "url": "https://tacticalvote.co.uk/#Twickenham",
           "who_suggests": "tacticalvote.co.uk"
         },
@@ -26109,6 +27258,11 @@
         "slug": "tynemouth"
       },
       "other_sites": [
+        {
+          "party": "lab",
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
+        },
         {
           "party": "lab",
           "url": "https://tactical.vote/tynemouth",
@@ -26244,6 +27398,11 @@
       "other_sites": [
         {
           "party": "lab",
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
+        },
+        {
+          "party": "lab",
           "url": "https://tacticalvote.co.uk/#ValeofClwyd",
           "who_suggests": "tacticalvote.co.uk"
         },
@@ -26364,7 +27523,13 @@
         "region": "London",
         "slug": "vauxhall"
       },
-      "other_sites": [],
+      "other_sites": [
+        {
+          "party": "lab",
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
+        }
+      ],
       "outcome_frequency": [
         [
           {
@@ -26397,6 +27562,11 @@
         "slug": "wakefield"
       },
       "other_sites": [
+        {
+          "party": "lab",
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
+        },
         {
           "party": "lab",
           "url": "https://tactical.vote/wakefield",
@@ -26454,6 +27624,11 @@
         "slug": "wallasey"
       },
       "other_sites": [
+        {
+          "party": "lab",
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
+        },
         {
           "party": "lab",
           "url": "https://tactical.vote/wallasey",
@@ -26551,6 +27726,11 @@
       "other_sites": [
         {
           "party": "lab",
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
+        },
+        {
+          "party": "lab",
           "url": "https://tactical.vote/walsall-south",
           "who_suggests": "tactical.vote"
         }
@@ -26589,6 +27769,11 @@
       "other_sites": [
         {
           "party": "lab",
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
+        },
+        {
+          "party": "lab",
           "url": "https://tactical.vote/walthamstow",
           "who_suggests": "tactical.vote"
         }
@@ -26618,6 +27803,11 @@
         "slug": "wansbeck"
       },
       "other_sites": [
+        {
+          "party": "lab",
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
+        },
         {
           "party": "lab",
           "url": "https://tactical.vote/wansbeck",
@@ -26710,6 +27900,11 @@
       "other_sites": [
         {
           "party": "lab",
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
+        },
+        {
+          "party": "lab",
           "url": "https://tactical.vote/warley",
           "who_suggests": "tactical.vote"
         }
@@ -26739,6 +27934,11 @@
         "slug": "warrington-north"
       },
       "other_sites": [
+        {
+          "party": "lab",
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
+        },
         {
           "party": "lab",
           "url": "https://tactical.vote/warrington-north",
@@ -26777,6 +27977,11 @@
         "slug": "warrington-south"
       },
       "other_sites": [
+        {
+          "party": "lab",
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
+        },
         {
           "party": "lab",
           "url": "https://tacticalvote.co.uk/#WarringtonSouth",
@@ -26834,6 +28039,11 @@
         "slug": "warwick-and-leamington"
       },
       "other_sites": [
+        {
+          "party": "lab",
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
+        },
         {
           "party": "lab",
           "url": "https://tacticalvote.co.uk/#WarwickandLeamington",
@@ -26905,6 +28115,11 @@
         "slug": "washington-and-sunderland-west"
       },
       "other_sites": [
+        {
+          "party": "lab",
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
+        },
         {
           "party": "lab",
           "url": "https://tactical.vote/washington-and-sunderland-west",
@@ -27099,6 +28314,11 @@
         "slug": "weaver-vale"
       },
       "other_sites": [
+        {
+          "party": "lab",
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
+        },
         {
           "party": "lab",
           "url": "https://tacticalvote.co.uk/#WeaverVale",
@@ -27315,6 +28535,11 @@
       "other_sites": [
         {
           "party": "lab",
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
+        },
+        {
+          "party": "lab",
           "url": "https://tactical.vote/wentworth-and-dearne",
           "who_suggests": "tactical.vote"
         }
@@ -27412,6 +28637,11 @@
       "other_sites": [
         {
           "party": "lab",
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
+        },
+        {
+          "party": "lab",
           "url": "https://tactical.vote/west-bromwich-east",
           "who_suggests": "tactical.vote"
         }
@@ -27448,6 +28678,11 @@
         "slug": "west-bromwich-west"
       },
       "other_sites": [
+        {
+          "party": "lab",
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
+        },
         {
           "party": "lab",
           "url": "https://tactical.vote/west-bromwich-west",
@@ -27551,6 +28786,11 @@
       "other_sites": [
         {
           "party": "lab",
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
+        },
+        {
+          "party": "lab",
           "url": "https://tactical.vote/west-ham",
           "who_suggests": "tactical.vote"
         }
@@ -27580,6 +28820,11 @@
         "slug": "west-lancashire"
       },
       "other_sites": [
+        {
+          "party": "lab",
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
+        },
         {
           "party": "lab",
           "url": "https://tactical.vote/west-lancashire",
@@ -27741,6 +28986,11 @@
       "other_sites": [
         {
           "party": "lab",
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
+        },
+        {
+          "party": "lab",
           "url": "https://tactical.vote/westminster-north",
           "who_suggests": "tactical.vote"
         }
@@ -27784,6 +29034,11 @@
         "slug": "westmorland-and-lonsdale"
       },
       "other_sites": [
+        {
+          "party": "ld",
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
+        },
         {
           "party": "ld",
           "url": "https://tactical.vote/westmorland-and-lonsdale",
@@ -27874,6 +29129,11 @@
         "slug": "wigan"
       },
       "other_sites": [
+        {
+          "party": "lab",
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
+        },
         {
           "party": "lab",
           "url": "https://tactical.vote/wigan",
@@ -28063,6 +29323,11 @@
       "other_sites": [
         {
           "party": "lab",
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
+        },
+        {
+          "party": "lab",
           "url": "https://tactical.vote/wirral-south",
           "who_suggests": "tactical.vote"
         }
@@ -28113,6 +29378,11 @@
         "slug": "wirral-west"
       },
       "other_sites": [
+        {
+          "party": "lab",
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
+        },
         {
           "party": "lab",
           "url": "https://tacticalvote.co.uk/#WirralWest",
@@ -28385,6 +29655,11 @@
       "other_sites": [
         {
           "party": "lab",
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
+        },
+        {
+          "party": "lab",
           "url": "https://tactical.vote/wolverhampton-north-east",
           "who_suggests": "tactical.vote"
         }
@@ -28430,6 +29705,11 @@
       "other_sites": [
         {
           "party": "lab",
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
+        },
+        {
+          "party": "lab",
           "url": "https://tactical.vote/wolverhampton-south-east",
           "who_suggests": "tactical.vote"
         }
@@ -28466,6 +29746,11 @@
         "slug": "wolverhampton-south-west"
       },
       "other_sites": [
+        {
+          "party": "lab",
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
+        },
         {
           "party": "lab",
           "url": "https://tacticalvote.co.uk/#WolverhamptonSouthWest",
@@ -28577,6 +29862,11 @@
       "other_sites": [
         {
           "party": "lab",
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
+        },
+        {
+          "party": "lab",
           "url": "https://tactical.vote/workington",
           "who_suggests": "tactical.vote"
         }
@@ -28627,6 +29917,11 @@
         "slug": "worsley-and-eccles-south"
       },
       "other_sites": [
+        {
+          "party": "lab",
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
+        },
         {
           "party": "lab",
           "url": "https://tactical.vote/worsley-and-eccles-south",
@@ -28710,6 +30005,11 @@
         "slug": "wrexham"
       },
       "other_sites": [
+        {
+          "party": "lab",
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
+        },
         {
           "party": "lab",
           "url": "https://tactical.vote/wrexham",
@@ -28927,6 +30227,11 @@
       "other_sites": [
         {
           "party": "lab",
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
+        },
+        {
+          "party": "lab",
           "url": "https://tactical.vote/wythenshawe-and-sale-east",
           "who_suggests": "tactical.vote"
         }
@@ -29022,6 +30327,11 @@
       "other_sites": [
         {
           "party": "lab",
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
+        },
+        {
+          "party": "lab",
           "url": "https://tactical.vote/ynys-mon",
           "who_suggests": "tactical.vote"
         }
@@ -29058,6 +30368,11 @@
         "slug": "york-central"
       },
       "other_sites": [
+        {
+          "party": "lab",
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
+        },
         {
           "party": "lab",
           "url": "https://tactical.vote/york-central",
