@@ -36,12 +36,12 @@ def outcome_frequency(results: List[Result]) -> List[Tuple[ClassifyResult, float
     classify_frequency.sort(key=operator.itemgetter(1), reverse=True)
     return classify_frequency
 
-def get_advice(results, consituency) -> Advice:
-    # if consituency.slug == 'belfast-south':
+def get_advice(results, constituency) -> Advice:
+    # if constituency.slug == 'belfast-south':
     #     return Advice(
     #         image='error.png',
     #         template='contradict.html')
-    if consituency.slug == 'don-valley':
+    if constituency.slug == 'don-valley':
         return Advice(
             image='error.png',
             template='special-labour-leave.html',
@@ -53,7 +53,7 @@ def get_advice(results, consituency) -> Advice:
 
     # Override our recomendation?
     # SLIGHT_LAB_POLL_BUT_LD_RECOMMEND = []
-    # if consituency.slug in SLIGHT_LAB_POLL_BUT_LD_RECOMMEND and advice.template == 'alliance-lab.html':
+    # if constituency.slug in SLIGHT_LAB_POLL_BUT_LD_RECOMMEND and advice.template == 'alliance-lab.html':
     #     return Advice(
     #         image='difficult-alliance.png',
     #         template='special-ignore-polling.html',
@@ -77,7 +77,7 @@ def _get_advice(results) -> Advice:
             template='remain.html')
 
     if not any(clfy.alliance_helpful for clfy in outcomes.keys()):
-        # eg: speaker's consituency and other strange edge-cases
+        # eg: speaker's constituency and other strange edge-cases
         return Advice(
             image='other.png',
             template='other.html')
