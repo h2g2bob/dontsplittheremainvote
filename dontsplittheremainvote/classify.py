@@ -6,6 +6,7 @@ from typing import NamedTuple
 from typing import Optional
 from typing import Tuple
 
+from .party import get_party
 from .party import ALLIANCE
 from .party import CON
 from .party import DUP
@@ -27,6 +28,11 @@ class ClassifyResult(NamedTuple):
     remain_allicance_leader: Optional[str]
     remain_can_win: bool
     alliance_helpful: bool
+
+    def remain_allicance_leader_as_party(self):
+        if self.remain_allicance_leader is None:
+            return None
+        return get_party(self.remain_allicance_leader)
 
     def as_json(self):
         return {

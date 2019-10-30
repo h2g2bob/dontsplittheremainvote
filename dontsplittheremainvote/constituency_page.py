@@ -6,6 +6,7 @@ from .dataset import Dataset
 from .other_sites import OtherSiteSuggestion
 from .ppc import PPC
 from .result import Result
+from collections import defaultdict
 from typing import Dict
 from typing import List
 from typing import NamedTuple
@@ -24,6 +25,26 @@ class ConstituencyPage(NamedTuple):
     @property
     def outcomes(self):
         return outcome_frequency(self.datasets.values())
+
+    def most_winning_remain_party(self):
+        """Which remain party has the most "wins" or "wins if we have an alliance"
+        (This gives a weak suggestion of who we would suggest people vote for)
+        """
+        remain_wins_per_party = defaultdict(int)
+        for result in self.datasets.values():
+            main_remain_party = result.classify.remain_allicance_leader_as_party()
+            if main_remain_party is not None:
+                remain_wins_per_party[main_remain_party] += 1
+        total = float(sum(remain_wins_per_party.values()))
+        over_half_remain_wins = [
+            party
+            for party, count in remain_wins_per_party.items()
+            if count / total > 0.5]
+        if over_half_remain_wins:
+            [main_remain_party] = over_half_remain_wins
+            return main_remain_party
+        else:
+            return None
 
     def as_json(self):
         return {
