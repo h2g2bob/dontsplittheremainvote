@@ -172,15 +172,25 @@ def _early_pv():
                     url='https://www.theneweuropean.co.uk/top-stories/tactical-voting-for-a-second-referendum-general-election-1-6261308')]
 
 def get_other_site_suggestions() -> Dict[Constituency, List[OtherSiteSuggestion]]:
+    # This is actually ordered, because a python dict is secretly an OrderedDict
     out = defaultdict(list)
-    for constituency, suggest in _getvoting():
-        out[constituency].append(suggest)
+
+    # trusted, hand-picked
     for constituency, suggest in _tacticalvote_uk():
-        out[constituency].append(suggest)
-    for constituency, suggest in _tactical_dot_vote():
         out[constituency].append(suggest)
     for constituency, suggest in _early_pv():
         out[constituency].append(suggest)
+
+    # heavy GE2017 bias (LAB):
+    for constituency, suggest in _tactical_dot_vote():
+        out[constituency].append(suggest)
+
+    # heavy EP2019 bias (LD):
+    for constituency, suggest in _getvoting():
+        out[constituency].append(suggest)
+
+    # smaller sites:
     for constituency, suggest in _essex_against_tories():
         out[constituency].append(suggest)
+
     return dict(out)

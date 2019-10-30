@@ -1270,13 +1270,13 @@
       "other_sites": [
         {
           "party": "ld",
-          "url": "https://getvoting.org/",
-          "who_suggests": "Best for Britain"
+          "url": "https://tacticalvote.co.uk/#Bath",
+          "who_suggests": "tacticalvote.co.uk"
         },
         {
           "party": "ld",
-          "url": "https://tacticalvote.co.uk/#Bath",
-          "who_suggests": "tacticalvote.co.uk"
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
         },
         {
           "party": "ld",
@@ -1361,13 +1361,13 @@
       "other_sites": [
         {
           "party": "lab",
-          "url": "https://getvoting.org/",
-          "who_suggests": "Best for Britain"
+          "url": "https://tacticalvote.co.uk/#Battersea",
+          "who_suggests": "tacticalvote.co.uk"
         },
         {
           "party": "lab",
-          "url": "https://tacticalvote.co.uk/#Battersea",
-          "who_suggests": "tacticalvote.co.uk"
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
         },
         {
           "party": "lab",
@@ -1516,13 +1516,13 @@
       "other_sites": [
         {
           "party": "lab",
-          "url": "https://getvoting.org/",
-          "who_suggests": "Best for Britain"
+          "url": "https://tacticalvote.co.uk/#Bedford",
+          "who_suggests": "tacticalvote.co.uk"
         },
         {
           "party": "lab",
-          "url": "https://tacticalvote.co.uk/#Bedford",
-          "who_suggests": "tacticalvote.co.uk"
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
         },
         {
           "party": "lab",
@@ -2454,23 +2454,23 @@
       "other_sites": [
         {
           "party": "lab",
-          "url": "https://getvoting.org/",
-          "who_suggests": "Best for Britain"
-        },
-        {
-          "party": "lab",
           "url": "https://tacticalvote.co.uk/#BishopAuckland",
           "who_suggests": "tacticalvote.co.uk"
         },
         {
           "party": "lab",
-          "url": "https://tactical.vote/bishop-auckland",
-          "who_suggests": "tactical.vote"
+          "url": "https://www.theneweuropean.co.uk/top-stories/tactical-voting-for-a-second-referendum-general-election-1-6261308",
+          "who_suggests": "People's Vote (early indication)"
         },
         {
           "party": "lab",
-          "url": "https://www.theneweuropean.co.uk/top-stories/tactical-voting-for-a-second-referendum-general-election-1-6261308",
-          "who_suggests": "People's Vote (early indication)"
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
+        },
+        {
+          "party": "lab",
+          "url": "https://tactical.vote/bishop-auckland",
+          "who_suggests": "tactical.vote"
         }
       ],
       "outcome_frequency": [
@@ -3493,13 +3493,13 @@
       "other_sites": [
         {
           "party": "ld",
-          "url": "https://getvoting.org/",
-          "who_suggests": "Best for Britain"
+          "url": "https://tacticalvote.co.uk/#BreconandRadnorshire",
+          "who_suggests": "tacticalvote.co.uk"
         },
         {
           "party": "ld",
-          "url": "https://tacticalvote.co.uk/#BreconandRadnorshire",
-          "who_suggests": "tacticalvote.co.uk"
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
         },
         {
           "party": "ld",
@@ -3627,13 +3627,13 @@
       "other_sites": [
         {
           "party": "lab",
-          "url": "https://getvoting.org/",
-          "who_suggests": "Best for Britain"
+          "url": "https://tacticalvote.co.uk/#BrentfordandIsleworth",
+          "who_suggests": "tacticalvote.co.uk"
         },
         {
           "party": "lab",
-          "url": "https://tacticalvote.co.uk/#BrentfordandIsleworth",
-          "who_suggests": "tacticalvote.co.uk"
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
         },
         {
           "party": "lab",
@@ -3889,13 +3889,13 @@
       "other_sites": [
         {
           "party": "lab",
-          "url": "https://getvoting.org/",
-          "who_suggests": "Best for Britain"
+          "url": "https://tacticalvote.co.uk/#Brighton,Kemptown",
+          "who_suggests": "tacticalvote.co.uk"
         },
         {
           "party": "lab",
-          "url": "https://tacticalvote.co.uk/#Brighton,Kemptown",
-          "who_suggests": "tacticalvote.co.uk"
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
         },
         {
           "party": "lab",
@@ -4031,14 +4031,14 @@
       },
       "other_sites": [
         {
-          "party": "ld",
-          "url": "https://getvoting.org/",
-          "who_suggests": "Best for Britain"
-        },
-        {
           "party": "lab",
           "url": "https://tacticalvote.co.uk/#BristolNorthWest",
           "who_suggests": "tacticalvote.co.uk"
+        },
+        {
+          "party": "ld",
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
         },
         {
           "party": "lab",
@@ -4554,13 +4554,13 @@
       "other_sites": [
         {
           "party": "lab",
-          "url": "https://getvoting.org/",
-          "who_suggests": "Best for Britain"
+          "url": "https://tacticalvote.co.uk/#BuryNorth",
+          "who_suggests": "tacticalvote.co.uk"
         },
         {
           "party": "lab",
-          "url": "https://tacticalvote.co.uk/#BuryNorth",
-          "who_suggests": "tacticalvote.co.uk"
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
         },
         {
           "party": "lab",
@@ -4994,23 +4994,23 @@
       "other_sites": [
         {
           "party": "lab",
-          "url": "https://getvoting.org/",
-          "who_suggests": "Best for Britain"
-        },
-        {
-          "party": "lab",
           "url": "https://tacticalvote.co.uk/#Canterbury",
           "who_suggests": "tacticalvote.co.uk"
         },
         {
           "party": "lab",
-          "url": "https://tactical.vote/canterbury",
-          "who_suggests": "tactical.vote"
+          "url": "https://www.theneweuropean.co.uk/top-stories/tactical-voting-for-a-second-referendum-general-election-1-6261308",
+          "who_suggests": "People's Vote (early indication)"
         },
         {
           "party": "lab",
-          "url": "https://www.theneweuropean.co.uk/top-stories/tactical-voting-for-a-second-referendum-general-election-1-6261308",
-          "who_suggests": "People's Vote (early indication)"
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
+        },
+        {
+          "party": "lab",
+          "url": "https://tactical.vote/canterbury",
+          "who_suggests": "tactical.vote"
         }
       ],
       "outcome_frequency": [
@@ -5111,13 +5111,13 @@
       "other_sites": [
         {
           "party": "lab",
-          "url": "https://getvoting.org/",
-          "who_suggests": "Best for Britain"
+          "url": "https://tacticalvote.co.uk/#CardiffNorth",
+          "who_suggests": "tacticalvote.co.uk"
         },
         {
           "party": "lab",
-          "url": "https://tacticalvote.co.uk/#CardiffNorth",
-          "who_suggests": "tacticalvote.co.uk"
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
         },
         {
           "party": "lab",
@@ -5387,6 +5387,11 @@
       "other_sites": [
         {
           "party": "ld",
+          "url": "https://www.theneweuropean.co.uk/top-stories/tactical-voting-for-a-second-referendum-general-election-1-6261308",
+          "who_suggests": "People's Vote (early indication)"
+        },
+        {
+          "party": "ld",
           "url": "https://getvoting.org/",
           "who_suggests": "Best for Britain"
         },
@@ -5394,11 +5399,6 @@
           "party": "ld",
           "url": "https://tactical.vote/carshalton-and-wallington",
           "who_suggests": "tactical.vote"
-        },
-        {
-          "party": "ld",
-          "url": "https://www.theneweuropean.co.uk/top-stories/tactical-voting-for-a-second-referendum-general-election-1-6261308",
-          "who_suggests": "People's Vote (early indication)"
         }
       ],
       "outcome_frequency": [
@@ -5749,23 +5749,23 @@
       "other_sites": [
         {
           "party": "ld",
-          "url": "https://getvoting.org/",
-          "who_suggests": "Best for Britain"
-        },
-        {
-          "party": "ld",
           "url": "https://tacticalvote.co.uk/#Cheadle",
           "who_suggests": "tacticalvote.co.uk"
         },
         {
           "party": "ld",
-          "url": "https://tactical.vote/cheadle",
-          "who_suggests": "tactical.vote"
+          "url": "https://www.theneweuropean.co.uk/top-stories/tactical-voting-for-a-second-referendum-general-election-1-6261308",
+          "who_suggests": "People's Vote (early indication)"
         },
         {
           "party": "ld",
-          "url": "https://www.theneweuropean.co.uk/top-stories/tactical-voting-for-a-second-referendum-general-election-1-6261308",
-          "who_suggests": "People's Vote (early indication)"
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
+        },
+        {
+          "party": "ld",
+          "url": "https://tactical.vote/cheadle",
+          "who_suggests": "tactical.vote"
         }
       ],
       "outcome_frequency": [
@@ -5907,13 +5907,13 @@
       "other_sites": [
         {
           "party": "ld",
-          "url": "https://getvoting.org/",
-          "who_suggests": "Best for Britain"
+          "url": "https://tacticalvote.co.uk/#Cheltenham",
+          "who_suggests": "tacticalvote.co.uk"
         },
         {
           "party": "ld",
-          "url": "https://tacticalvote.co.uk/#Cheltenham",
-          "who_suggests": "tacticalvote.co.uk"
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
         },
         {
           "party": "ld",
@@ -6103,13 +6103,13 @@
         },
         {
           "party": "lab",
-          "url": "https://tactical.vote/chingford-and-woodford-green",
-          "who_suggests": "tactical.vote"
+          "url": "https://www.theneweuropean.co.uk/top-stories/tactical-voting-for-a-second-referendum-general-election-1-6261308",
+          "who_suggests": "People's Vote (early indication)"
         },
         {
           "party": "lab",
-          "url": "https://www.theneweuropean.co.uk/top-stories/tactical-voting-for-a-second-referendum-general-election-1-6261308",
-          "who_suggests": "People's Vote (early indication)"
+          "url": "https://tactical.vote/chingford-and-woodford-green",
+          "who_suggests": "tactical.vote"
         }
       ],
       "outcome_frequency": [
@@ -6403,13 +6403,13 @@
       "other_sites": [
         {
           "party": "lab",
-          "url": "https://getvoting.org/",
-          "who_suggests": "Best for Britain"
+          "url": "https://tacticalvote.co.uk/#CityofChester",
+          "who_suggests": "tacticalvote.co.uk"
         },
         {
           "party": "lab",
-          "url": "https://tacticalvote.co.uk/#CityofChester",
-          "who_suggests": "tacticalvote.co.uk"
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
         },
         {
           "party": "lab",
@@ -6757,13 +6757,13 @@
       "other_sites": [
         {
           "party": "lab",
-          "url": "https://getvoting.org/",
-          "who_suggests": "Best for Britain"
+          "url": "https://tacticalvote.co.uk/#ColneValley",
+          "who_suggests": "tacticalvote.co.uk"
         },
         {
           "party": "lab",
-          "url": "https://tacticalvote.co.uk/#ColneValley",
-          "who_suggests": "tacticalvote.co.uk"
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
         },
         {
           "party": "lab",
@@ -6926,13 +6926,13 @@
         },
         {
           "party": "lab",
-          "url": "https://tactical.vote/corby",
-          "who_suggests": "tactical.vote"
+          "url": "https://www.theneweuropean.co.uk/top-stories/tactical-voting-for-a-second-referendum-general-election-1-6261308",
+          "who_suggests": "People's Vote (early indication)"
         },
         {
           "party": "lab",
-          "url": "https://www.theneweuropean.co.uk/top-stories/tactical-voting-for-a-second-referendum-general-election-1-6261308",
-          "who_suggests": "People's Vote (early indication)"
+          "url": "https://tactical.vote/corby",
+          "who_suggests": "tactical.vote"
         }
       ],
       "outcome_frequency": [
@@ -7143,13 +7143,13 @@
       "other_sites": [
         {
           "party": "lab",
-          "url": "https://getvoting.org/",
-          "who_suggests": "Best for Britain"
+          "url": "https://tacticalvote.co.uk/#CreweandNantwich",
+          "who_suggests": "tacticalvote.co.uk"
         },
         {
           "party": "lab",
-          "url": "https://tacticalvote.co.uk/#CreweandNantwich",
-          "who_suggests": "tacticalvote.co.uk"
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
         },
         {
           "party": "lab",
@@ -7205,13 +7205,13 @@
       "other_sites": [
         {
           "party": "lab",
-          "url": "https://getvoting.org/",
-          "who_suggests": "Best for Britain"
+          "url": "https://tacticalvote.co.uk/#CroydonCentral",
+          "who_suggests": "tacticalvote.co.uk"
         },
         {
           "party": "lab",
-          "url": "https://tacticalvote.co.uk/#CroydonCentral",
-          "who_suggests": "tacticalvote.co.uk"
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
         },
         {
           "party": "lab",
@@ -7883,13 +7883,13 @@
       "other_sites": [
         {
           "party": "lab",
-          "url": "https://getvoting.org/",
-          "who_suggests": "Best for Britain"
+          "url": "https://tacticalvote.co.uk/#Dewsbury",
+          "who_suggests": "tacticalvote.co.uk"
         },
         {
           "party": "lab",
-          "url": "https://tacticalvote.co.uk/#Dewsbury",
-          "who_suggests": "tacticalvote.co.uk"
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
         },
         {
           "party": "lab",
@@ -8452,13 +8452,13 @@
       "other_sites": [
         {
           "party": "plaid",
-          "url": "https://getvoting.org/",
-          "who_suggests": "Best for Britain"
+          "url": "https://tacticalvote.co.uk/#DwyforMeirionnydd",
+          "who_suggests": "tacticalvote.co.uk"
         },
         {
           "party": "plaid",
-          "url": "https://tacticalvote.co.uk/#DwyforMeirionnydd",
-          "who_suggests": "tacticalvote.co.uk"
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
         },
         {
           "party": "plaid",
@@ -8493,13 +8493,13 @@
       "other_sites": [
         {
           "party": "lab",
-          "url": "https://getvoting.org/",
-          "who_suggests": "Best for Britain"
+          "url": "https://tacticalvote.co.uk/#EalingCentralandActon",
+          "who_suggests": "tacticalvote.co.uk"
         },
         {
           "party": "lab",
-          "url": "https://tacticalvote.co.uk/#EalingCentralandActon",
-          "who_suggests": "tacticalvote.co.uk"
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
         },
         {
           "party": "lab",
@@ -9148,13 +9148,13 @@
       "other_sites": [
         {
           "party": "ld",
-          "url": "https://getvoting.org/",
-          "who_suggests": "Best for Britain"
+          "url": "https://tacticalvote.co.uk/#Eastbourne",
+          "who_suggests": "tacticalvote.co.uk"
         },
         {
           "party": "ld",
-          "url": "https://tacticalvote.co.uk/#Eastbourne",
-          "who_suggests": "tacticalvote.co.uk"
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
         },
         {
           "party": "ld",
@@ -9210,13 +9210,13 @@
       "other_sites": [
         {
           "party": "ld",
-          "url": "https://getvoting.org/",
-          "who_suggests": "Best for Britain"
+          "url": "https://tacticalvote.co.uk/#Eastleigh",
+          "who_suggests": "tacticalvote.co.uk"
         },
         {
           "party": "ld",
-          "url": "https://tacticalvote.co.uk/#Eastleigh",
-          "who_suggests": "tacticalvote.co.uk"
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
         },
         {
           "party": "ld",
@@ -9719,23 +9719,23 @@
       "other_sites": [
         {
           "party": "lab",
-          "url": "https://getvoting.org/",
-          "who_suggests": "Best for Britain"
-        },
-        {
-          "party": "lab",
           "url": "https://tacticalvote.co.uk/#Enfield,Southgate",
           "who_suggests": "tacticalvote.co.uk"
         },
         {
           "party": "lab",
-          "url": "https://tactical.vote/enfield-southgate",
-          "who_suggests": "tactical.vote"
+          "url": "https://www.theneweuropean.co.uk/top-stories/tactical-voting-for-a-second-referendum-general-election-1-6261308",
+          "who_suggests": "People's Vote (early indication)"
         },
         {
           "party": "lab",
-          "url": "https://www.theneweuropean.co.uk/top-stories/tactical-voting-for-a-second-referendum-general-election-1-6261308",
-          "who_suggests": "People's Vote (early indication)"
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
+        },
+        {
+          "party": "lab",
+          "url": "https://tactical.vote/enfield-southgate",
+          "who_suggests": "tactical.vote"
         }
       ],
       "outcome_frequency": [
@@ -10343,14 +10343,14 @@
       },
       "other_sites": [
         {
-          "party": "ld",
-          "url": "https://getvoting.org/",
-          "who_suggests": "Best for Britain"
-        },
-        {
           "party": "lab",
           "url": "https://tacticalvote.co.uk/#FinchleyandGoldersGreen",
           "who_suggests": "tacticalvote.co.uk"
+        },
+        {
+          "party": "ld",
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
         },
         {
           "party": "lab",
@@ -10716,6 +10716,11 @@
       "other_sites": [
         {
           "party": "lab",
+          "url": "https://www.theneweuropean.co.uk/top-stories/tactical-voting-for-a-second-referendum-general-election-1-6261308",
+          "who_suggests": "People's Vote (early indication)"
+        },
+        {
+          "party": "lab",
           "url": "https://getvoting.org/",
           "who_suggests": "Best for Britain"
         },
@@ -10723,11 +10728,6 @@
           "party": "lab",
           "url": "https://tactical.vote/gedling",
           "who_suggests": "tactical.vote"
-        },
-        {
-          "party": "lab",
-          "url": "https://www.theneweuropean.co.uk/top-stories/tactical-voting-for-a-second-referendum-general-election-1-6261308",
-          "who_suggests": "People's Vote (early indication)"
         }
       ],
       "outcome_frequency": [
@@ -11156,13 +11156,13 @@
       "other_sites": [
         {
           "party": "lab",
-          "url": "https://getvoting.org/",
-          "who_suggests": "Best for Britain"
+          "url": "https://tacticalvote.co.uk/#Gower",
+          "who_suggests": "tacticalvote.co.uk"
         },
         {
           "party": "lab",
-          "url": "https://tacticalvote.co.uk/#Gower",
-          "who_suggests": "tacticalvote.co.uk"
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
         },
         {
           "party": "lab",
@@ -11616,13 +11616,13 @@
       "other_sites": [
         {
           "party": "lab",
-          "url": "https://getvoting.org/",
-          "who_suggests": "Best for Britain"
+          "url": "https://tacticalvote.co.uk/#Halifax",
+          "who_suggests": "tacticalvote.co.uk"
         },
         {
           "party": "lab",
-          "url": "https://tacticalvote.co.uk/#Halifax",
-          "who_suggests": "tacticalvote.co.uk"
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
         },
         {
           "party": "lab",
@@ -12345,23 +12345,23 @@
       "other_sites": [
         {
           "party": "ld",
-          "url": "https://getvoting.org/",
-          "who_suggests": "Best for Britain"
-        },
-        {
-          "party": "ld",
           "url": "https://tacticalvote.co.uk/#HazelGrove",
           "who_suggests": "tacticalvote.co.uk"
         },
         {
           "party": "ld",
-          "url": "https://tactical.vote/hazel-grove",
-          "who_suggests": "tactical.vote"
+          "url": "https://www.theneweuropean.co.uk/top-stories/tactical-voting-for-a-second-referendum-general-election-1-6261308",
+          "who_suggests": "People's Vote (early indication)"
         },
         {
           "party": "ld",
-          "url": "https://www.theneweuropean.co.uk/top-stories/tactical-voting-for-a-second-referendum-general-election-1-6261308",
-          "who_suggests": "People's Vote (early indication)"
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
+        },
+        {
+          "party": "ld",
+          "url": "https://tactical.vote/hazel-grove",
+          "who_suggests": "tactical.vote"
         }
       ],
       "outcome_frequency": [
@@ -12504,24 +12504,24 @@
       },
       "other_sites": [
         {
-          "party": "ld",
-          "url": "https://getvoting.org/",
-          "who_suggests": "Best for Britain"
-        },
-        {
           "party": "lab",
           "url": "https://tacticalvote.co.uk/#Hendon",
           "who_suggests": "tacticalvote.co.uk"
         },
         {
           "party": "lab",
-          "url": "https://tactical.vote/hendon",
-          "who_suggests": "tactical.vote"
+          "url": "https://www.theneweuropean.co.uk/top-stories/tactical-voting-for-a-second-referendum-general-election-1-6261308",
+          "who_suggests": "People's Vote (early indication)"
+        },
+        {
+          "party": "ld",
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
         },
         {
           "party": "lab",
-          "url": "https://www.theneweuropean.co.uk/top-stories/tactical-voting-for-a-second-referendum-general-election-1-6261308",
-          "who_suggests": "People's Vote (early indication)"
+          "url": "https://tactical.vote/hendon",
+          "who_suggests": "tactical.vote"
         }
       ],
       "outcome_frequency": [
@@ -12879,13 +12879,13 @@
       "other_sites": [
         {
           "party": "lab",
-          "url": "https://getvoting.org/",
-          "who_suggests": "Best for Britain"
+          "url": "https://tacticalvote.co.uk/#HighPeak",
+          "who_suggests": "tacticalvote.co.uk"
         },
         {
           "party": "lab",
-          "url": "https://tacticalvote.co.uk/#HighPeak",
-          "who_suggests": "tacticalvote.co.uk"
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
         },
         {
           "party": "lab",
@@ -13210,13 +13210,13 @@
       "other_sites": [
         {
           "party": "lab",
-          "url": "https://getvoting.org/",
-          "who_suggests": "Best for Britain"
+          "url": "https://tacticalvote.co.uk/#Hove",
+          "who_suggests": "tacticalvote.co.uk"
         },
         {
           "party": "lab",
-          "url": "https://tacticalvote.co.uk/#Hove",
-          "who_suggests": "tacticalvote.co.uk"
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
         },
         {
           "party": "lab",
@@ -13408,13 +13408,13 @@
       "other_sites": [
         {
           "party": "lab",
-          "url": "https://getvoting.org/",
-          "who_suggests": "Best for Britain"
+          "url": "https://tacticalvote.co.uk/#IlfordNorth",
+          "who_suggests": "tacticalvote.co.uk"
         },
         {
           "party": "lab",
-          "url": "https://tacticalvote.co.uk/#IlfordNorth",
-          "who_suggests": "tacticalvote.co.uk"
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
         },
         {
           "party": "lab",
@@ -13543,23 +13543,23 @@
       "other_sites": [
         {
           "party": "lab",
-          "url": "https://getvoting.org/",
-          "who_suggests": "Best for Britain"
-        },
-        {
-          "party": "lab",
           "url": "https://tacticalvote.co.uk/#Ipswich",
           "who_suggests": "tacticalvote.co.uk"
         },
         {
           "party": "lab",
-          "url": "https://tactical.vote/ipswich",
-          "who_suggests": "tactical.vote"
+          "url": "https://www.theneweuropean.co.uk/top-stories/tactical-voting-for-a-second-referendum-general-election-1-6261308",
+          "who_suggests": "People's Vote (early indication)"
         },
         {
           "party": "lab",
-          "url": "https://www.theneweuropean.co.uk/top-stories/tactical-voting-for-a-second-referendum-general-election-1-6261308",
-          "who_suggests": "People's Vote (early indication)"
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
+        },
+        {
+          "party": "lab",
+          "url": "https://tactical.vote/ipswich",
+          "who_suggests": "tactical.vote"
         }
       ],
       "outcome_frequency": [
@@ -13836,13 +13836,13 @@
       "other_sites": [
         {
           "party": "lab",
-          "url": "https://getvoting.org/",
-          "who_suggests": "Best for Britain"
+          "url": "https://tacticalvote.co.uk/#Keighley",
+          "who_suggests": "tacticalvote.co.uk"
         },
         {
           "party": "lab",
-          "url": "https://tacticalvote.co.uk/#Keighley",
-          "who_suggests": "tacticalvote.co.uk"
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
         },
         {
           "party": "lab",
@@ -13947,14 +13947,14 @@
       },
       "other_sites": [
         {
-          "party": "ld",
-          "url": "https://getvoting.org/",
-          "who_suggests": "Best for Britain"
-        },
-        {
           "party": "lab",
           "url": "https://tacticalvote.co.uk/#Kensington",
           "who_suggests": "tacticalvote.co.uk"
+        },
+        {
+          "party": "ld",
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
         },
         {
           "party": "lab",
@@ -14094,13 +14094,13 @@
       "other_sites": [
         {
           "party": "ld",
-          "url": "https://getvoting.org/",
-          "who_suggests": "Best for Britain"
+          "url": "https://tacticalvote.co.uk/#KingstonandSurbiton",
+          "who_suggests": "tacticalvote.co.uk"
         },
         {
           "party": "ld",
-          "url": "https://tacticalvote.co.uk/#KingstonandSurbiton",
-          "who_suggests": "tacticalvote.co.uk"
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
         },
         {
           "party": "ld",
@@ -14461,13 +14461,13 @@
       "other_sites": [
         {
           "party": "lab",
-          "url": "https://getvoting.org/",
-          "who_suggests": "Best for Britain"
+          "url": "https://tacticalvote.co.uk/#LancasterandFleetwood",
+          "who_suggests": "tacticalvote.co.uk"
         },
         {
           "party": "lab",
-          "url": "https://tacticalvote.co.uk/#LancasterandFleetwood",
-          "who_suggests": "tacticalvote.co.uk"
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
         },
         {
           "party": "lab",
@@ -14912,13 +14912,13 @@
       "other_sites": [
         {
           "party": "ld",
-          "url": "https://getvoting.org/",
-          "who_suggests": "Best for Britain"
+          "url": "https://tacticalvote.co.uk/#Lewes",
+          "who_suggests": "tacticalvote.co.uk"
         },
         {
           "party": "ld",
-          "url": "https://tacticalvote.co.uk/#Lewes",
-          "who_suggests": "tacticalvote.co.uk"
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
         },
         {
           "party": "ld",
@@ -15189,13 +15189,13 @@
       "other_sites": [
         {
           "party": "lab",
-          "url": "https://getvoting.org/",
-          "who_suggests": "Best for Britain"
+          "url": "https://tacticalvote.co.uk/#Lincoln",
+          "who_suggests": "tacticalvote.co.uk"
         },
         {
           "party": "lab",
-          "url": "https://tacticalvote.co.uk/#Lincoln",
-          "who_suggests": "tacticalvote.co.uk"
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
         },
         {
           "party": "lab",
@@ -17440,13 +17440,13 @@
       "other_sites": [
         {
           "party": "lab",
-          "url": "https://getvoting.org/",
-          "who_suggests": "Best for Britain"
+          "url": "https://tacticalvote.co.uk/#Newcastle-under-Lyme",
+          "who_suggests": "tacticalvote.co.uk"
         },
         {
           "party": "lab",
-          "url": "https://tacticalvote.co.uk/#Newcastle-under-Lyme",
-          "who_suggests": "tacticalvote.co.uk"
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
         },
         {
           "party": "lab",
@@ -17924,13 +17924,13 @@
       "other_sites": [
         {
           "party": "ld",
-          "url": "https://getvoting.org/",
-          "who_suggests": "Best for Britain"
+          "url": "https://tacticalvote.co.uk/#NorthCornwall",
+          "who_suggests": "tacticalvote.co.uk"
         },
         {
           "party": "ld",
-          "url": "https://tacticalvote.co.uk/#NorthCornwall",
-          "who_suggests": "tacticalvote.co.uk"
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
         },
         {
           "party": "ld",
@@ -17993,23 +17993,23 @@
       "other_sites": [
         {
           "party": "ld",
-          "url": "https://getvoting.org/",
-          "who_suggests": "Best for Britain"
-        },
-        {
-          "party": "ld",
           "url": "https://tacticalvote.co.uk/#NorthDevon",
           "who_suggests": "tacticalvote.co.uk"
         },
         {
           "party": "ld",
-          "url": "https://tactical.vote/north-devon",
-          "who_suggests": "tactical.vote"
+          "url": "https://www.theneweuropean.co.uk/top-stories/tactical-voting-for-a-second-referendum-general-election-1-6261308",
+          "who_suggests": "People's Vote (early indication)"
         },
         {
           "party": "ld",
-          "url": "https://www.theneweuropean.co.uk/top-stories/tactical-voting-for-a-second-referendum-general-election-1-6261308",
-          "who_suggests": "People's Vote (early indication)"
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
+        },
+        {
+          "party": "ld",
+          "url": "https://tactical.vote/north-devon",
+          "who_suggests": "tactical.vote"
         }
       ],
       "outcome_frequency": [
@@ -19895,23 +19895,23 @@
       "other_sites": [
         {
           "party": "ld",
-          "url": "https://getvoting.org/",
-          "who_suggests": "Best for Britain"
-        },
-        {
-          "party": "ld",
           "url": "https://tacticalvote.co.uk/#OxfordWestandAbingdon",
           "who_suggests": "tacticalvote.co.uk"
         },
         {
           "party": "ld",
-          "url": "https://tactical.vote/oxford-west-and-abingdon",
-          "who_suggests": "tactical.vote"
+          "url": "https://www.theneweuropean.co.uk/top-stories/tactical-voting-for-a-second-referendum-general-election-1-6261308",
+          "who_suggests": "People's Vote (early indication)"
         },
         {
           "party": "ld",
-          "url": "https://www.theneweuropean.co.uk/top-stories/tactical-voting-for-a-second-referendum-general-election-1-6261308",
-          "who_suggests": "People's Vote (early indication)"
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
+        },
+        {
+          "party": "ld",
+          "url": "https://tactical.vote/oxford-west-and-abingdon",
+          "who_suggests": "tactical.vote"
         }
       ],
       "outcome_frequency": [
@@ -20176,13 +20176,13 @@
       "other_sites": [
         {
           "party": "lab",
-          "url": "https://getvoting.org/",
-          "who_suggests": "Best for Britain"
+          "url": "https://tacticalvote.co.uk/#Peterborough",
+          "who_suggests": "tacticalvote.co.uk"
         },
         {
           "party": "lab",
-          "url": "https://tacticalvote.co.uk/#Peterborough",
-          "who_suggests": "tacticalvote.co.uk"
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
         },
         {
           "party": "lab",
@@ -20274,13 +20274,13 @@
       "other_sites": [
         {
           "party": "lab",
-          "url": "https://getvoting.org/",
-          "who_suggests": "Best for Britain"
+          "url": "https://tacticalvote.co.uk/#Plymouth,SuttonandDevonport",
+          "who_suggests": "tacticalvote.co.uk"
         },
         {
           "party": "lab",
-          "url": "https://tacticalvote.co.uk/#Plymouth,SuttonandDevonport",
-          "who_suggests": "tacticalvote.co.uk"
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
         },
         {
           "party": "lab",
@@ -20831,13 +20831,13 @@
       "other_sites": [
         {
           "party": "lab",
-          "url": "https://getvoting.org/",
-          "who_suggests": "Best for Britain"
+          "url": "https://tacticalvote.co.uk/#ReadingEast",
+          "who_suggests": "tacticalvote.co.uk"
         },
         {
           "party": "lab",
-          "url": "https://tacticalvote.co.uk/#ReadingEast",
-          "who_suggests": "tacticalvote.co.uk"
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
         },
         {
           "party": "lab",
@@ -21216,6 +21216,11 @@
       "other_sites": [
         {
           "party": "ld",
+          "url": "https://www.theneweuropean.co.uk/top-stories/tactical-voting-for-a-second-referendum-general-election-1-6261308",
+          "who_suggests": "People's Vote (early indication)"
+        },
+        {
+          "party": "ld",
           "url": "https://getvoting.org/",
           "who_suggests": "Best for Britain"
         },
@@ -21223,11 +21228,6 @@
           "party": "ld",
           "url": "https://tactical.vote/richmond-park",
           "who_suggests": "tactical.vote"
-        },
-        {
-          "party": "ld",
-          "url": "https://www.theneweuropean.co.uk/top-stories/tactical-voting-for-a-second-referendum-general-election-1-6261308",
-          "who_suggests": "People's Vote (early indication)"
         }
       ],
       "outcome_frequency": [
@@ -24407,6 +24407,11 @@
       "other_sites": [
         {
           "party": "ld",
+          "url": "https://www.theneweuropean.co.uk/top-stories/tactical-voting-for-a-second-referendum-general-election-1-6261308",
+          "who_suggests": "People's Vote (early indication)"
+        },
+        {
+          "party": "ld",
           "url": "https://getvoting.org/",
           "who_suggests": "Best for Britain"
         },
@@ -24414,11 +24419,6 @@
           "party": "ld",
           "url": "https://tactical.vote/st-albans",
           "who_suggests": "tactical.vote"
-        },
-        {
-          "party": "ld",
-          "url": "https://www.theneweuropean.co.uk/top-stories/tactical-voting-for-a-second-referendum-general-election-1-6261308",
-          "who_suggests": "People's Vote (early indication)"
         }
       ],
       "outcome_frequency": [
@@ -24605,23 +24605,23 @@
       "other_sites": [
         {
           "party": "ld",
-          "url": "https://getvoting.org/",
-          "who_suggests": "Best for Britain"
-        },
-        {
-          "party": "ld",
           "url": "https://tacticalvote.co.uk/#StIves",
           "who_suggests": "tacticalvote.co.uk"
         },
         {
           "party": "ld",
-          "url": "https://tactical.vote/st-ives",
-          "who_suggests": "tactical.vote"
+          "url": "https://www.theneweuropean.co.uk/top-stories/tactical-voting-for-a-second-referendum-general-election-1-6261308",
+          "who_suggests": "People's Vote (early indication)"
         },
         {
           "party": "ld",
-          "url": "https://www.theneweuropean.co.uk/top-stories/tactical-voting-for-a-second-referendum-general-election-1-6261308",
-          "who_suggests": "People's Vote (early indication)"
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
+        },
+        {
+          "party": "ld",
+          "url": "https://tactical.vote/st-ives",
+          "who_suggests": "tactical.vote"
         }
       ],
       "outcome_frequency": [
@@ -24976,13 +24976,13 @@
       "other_sites": [
         {
           "party": "lab",
-          "url": "https://getvoting.org/",
-          "who_suggests": "Best for Britain"
+          "url": "https://tacticalvote.co.uk/#StocktonSouth",
+          "who_suggests": "tacticalvote.co.uk"
         },
         {
           "party": "lab",
-          "url": "https://tacticalvote.co.uk/#StocktonSouth",
-          "who_suggests": "tacticalvote.co.uk"
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
         },
         {
           "party": "lab",
@@ -25438,23 +25438,23 @@
       "other_sites": [
         {
           "party": "lab",
-          "url": "https://getvoting.org/",
-          "who_suggests": "Best for Britain"
-        },
-        {
-          "party": "lab",
           "url": "https://tacticalvote.co.uk/#Stroud",
           "who_suggests": "tacticalvote.co.uk"
         },
         {
           "party": "lab",
-          "url": "https://tactical.vote/stroud",
-          "who_suggests": "tactical.vote"
+          "url": "https://www.theneweuropean.co.uk/top-stories/tactical-voting-for-a-second-referendum-general-election-1-6261308",
+          "who_suggests": "People's Vote (early indication)"
         },
         {
           "party": "lab",
-          "url": "https://www.theneweuropean.co.uk/top-stories/tactical-voting-for-a-second-referendum-general-election-1-6261308",
-          "who_suggests": "People's Vote (early indication)"
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
+        },
+        {
+          "party": "lab",
+          "url": "https://tactical.vote/stroud",
+          "who_suggests": "tactical.vote"
         }
       ],
       "outcome_frequency": [
@@ -25655,13 +25655,13 @@
       "other_sites": [
         {
           "party": "ld",
-          "url": "https://getvoting.org/",
-          "who_suggests": "Best for Britain"
+          "url": "https://tacticalvote.co.uk/#SuttonandCheam",
+          "who_suggests": "tacticalvote.co.uk"
         },
         {
           "party": "ld",
-          "url": "https://tacticalvote.co.uk/#SuttonandCheam",
-          "who_suggests": "tacticalvote.co.uk"
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
         },
         {
           "party": "ld",
@@ -25934,13 +25934,13 @@
       "other_sites": [
         {
           "party": "ld",
-          "url": "https://getvoting.org/",
-          "who_suggests": "Best for Britain"
+          "url": "https://tacticalvote.co.uk/#TauntonDeane",
+          "who_suggests": "tacticalvote.co.uk"
         },
         {
           "party": "ld",
-          "url": "https://tacticalvote.co.uk/#TauntonDeane",
-          "who_suggests": "tacticalvote.co.uk"
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
         },
         {
           "party": "ld",
@@ -26218,13 +26218,13 @@
       "other_sites": [
         {
           "party": "ld",
-          "url": "https://getvoting.org/",
-          "who_suggests": "Best for Britain"
+          "url": "https://tacticalvote.co.uk/#ThornburyandYate",
+          "who_suggests": "tacticalvote.co.uk"
         },
         {
           "party": "ld",
-          "url": "https://tacticalvote.co.uk/#ThornburyandYate",
-          "who_suggests": "tacticalvote.co.uk"
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
         },
         {
           "party": "ld",
@@ -26485,13 +26485,13 @@
       "other_sites": [
         {
           "party": "ld",
-          "url": "https://getvoting.org/",
-          "who_suggests": "Best for Britain"
+          "url": "https://tacticalvote.co.uk/#Torbay",
+          "who_suggests": "tacticalvote.co.uk"
         },
         {
           "party": "ld",
-          "url": "https://tacticalvote.co.uk/#Torbay",
-          "who_suggests": "tacticalvote.co.uk"
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
         },
         {
           "party": "ld",
@@ -26826,13 +26826,13 @@
       "other_sites": [
         {
           "party": "ld",
-          "url": "https://getvoting.org/",
-          "who_suggests": "Best for Britain"
+          "url": "https://tacticalvote.co.uk/#Twickenham",
+          "who_suggests": "tacticalvote.co.uk"
         },
         {
           "party": "ld",
-          "url": "https://tacticalvote.co.uk/#Twickenham",
-          "who_suggests": "tacticalvote.co.uk"
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
         },
         {
           "party": "ld",
@@ -27012,13 +27012,13 @@
       "other_sites": [
         {
           "party": "lab",
-          "url": "https://getvoting.org/",
-          "who_suggests": "Best for Britain"
+          "url": "https://tacticalvote.co.uk/#ValeofClwyd",
+          "who_suggests": "tacticalvote.co.uk"
         },
         {
           "party": "lab",
-          "url": "https://tacticalvote.co.uk/#ValeofClwyd",
-          "who_suggests": "tacticalvote.co.uk"
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
         },
         {
           "party": "lab",
@@ -27157,6 +27157,11 @@
       "other_sites": [
         {
           "party": "lab",
+          "url": "https://www.theneweuropean.co.uk/top-stories/tactical-voting-for-a-second-referendum-general-election-1-6261308",
+          "who_suggests": "People's Vote (early indication)"
+        },
+        {
+          "party": "lab",
           "url": "https://getvoting.org/",
           "who_suggests": "Best for Britain"
         },
@@ -27164,11 +27169,6 @@
           "party": "lab",
           "url": "https://tactical.vote/wakefield",
           "who_suggests": "tactical.vote"
-        },
-        {
-          "party": "lab",
-          "url": "https://www.theneweuropean.co.uk/top-stories/tactical-voting-for-a-second-referendum-general-election-1-6261308",
-          "who_suggests": "People's Vote (early indication)"
         }
       ],
       "outcome_frequency": [
@@ -27563,13 +27563,13 @@
       "other_sites": [
         {
           "party": "lab",
-          "url": "https://getvoting.org/",
-          "who_suggests": "Best for Britain"
+          "url": "https://tacticalvote.co.uk/#WarringtonSouth",
+          "who_suggests": "tacticalvote.co.uk"
         },
         {
           "party": "lab",
-          "url": "https://tacticalvote.co.uk/#WarringtonSouth",
-          "who_suggests": "tacticalvote.co.uk"
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
         },
         {
           "party": "lab",
@@ -27618,13 +27618,13 @@
       "other_sites": [
         {
           "party": "lab",
-          "url": "https://getvoting.org/",
-          "who_suggests": "Best for Britain"
+          "url": "https://tacticalvote.co.uk/#WarwickandLeamington",
+          "who_suggests": "tacticalvote.co.uk"
         },
         {
           "party": "lab",
-          "url": "https://tacticalvote.co.uk/#WarwickandLeamington",
-          "who_suggests": "tacticalvote.co.uk"
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
         },
         {
           "party": "lab",
@@ -27889,23 +27889,23 @@
       "other_sites": [
         {
           "party": "lab",
-          "url": "https://getvoting.org/",
-          "who_suggests": "Best for Britain"
-        },
-        {
-          "party": "lab",
           "url": "https://tacticalvote.co.uk/#WeaverVale",
           "who_suggests": "tacticalvote.co.uk"
         },
         {
           "party": "lab",
-          "url": "https://tactical.vote/weaver-vale",
-          "who_suggests": "tactical.vote"
+          "url": "https://www.theneweuropean.co.uk/top-stories/tactical-voting-for-a-second-referendum-general-election-1-6261308",
+          "who_suggests": "People's Vote (early indication)"
         },
         {
           "party": "lab",
-          "url": "https://www.theneweuropean.co.uk/top-stories/tactical-voting-for-a-second-referendum-general-election-1-6261308",
-          "who_suggests": "People's Vote (early indication)"
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
+        },
+        {
+          "party": "lab",
+          "url": "https://tactical.vote/weaver-vale",
+          "who_suggests": "tactical.vote"
         }
       ],
       "outcome_frequency": [
@@ -27994,23 +27994,23 @@
       "other_sites": [
         {
           "party": "ld",
-          "url": "https://getvoting.org/",
-          "who_suggests": "Best for Britain"
-        },
-        {
-          "party": "ld",
           "url": "https://tacticalvote.co.uk/#Wells",
           "who_suggests": "tacticalvote.co.uk"
         },
         {
           "party": "ld",
-          "url": "https://tactical.vote/wells",
-          "who_suggests": "tactical.vote"
+          "url": "https://www.theneweuropean.co.uk/top-stories/tactical-voting-for-a-second-referendum-general-election-1-6261308",
+          "who_suggests": "People's Vote (early indication)"
         },
         {
           "party": "ld",
-          "url": "https://www.theneweuropean.co.uk/top-stories/tactical-voting-for-a-second-referendum-general-election-1-6261308",
-          "who_suggests": "People's Vote (early indication)"
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
+        },
+        {
+          "party": "ld",
+          "url": "https://tactical.vote/wells",
+          "who_suggests": "tactical.vote"
         }
       ],
       "outcome_frequency": [
@@ -28939,13 +28939,13 @@
       "other_sites": [
         {
           "party": "lab",
-          "url": "https://getvoting.org/",
-          "who_suggests": "Best for Britain"
+          "url": "https://tacticalvote.co.uk/#WirralWest",
+          "who_suggests": "tacticalvote.co.uk"
         },
         {
           "party": "lab",
-          "url": "https://tacticalvote.co.uk/#WirralWest",
-          "who_suggests": "tacticalvote.co.uk"
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
         },
         {
           "party": "lab",
@@ -29299,13 +29299,13 @@
       "other_sites": [
         {
           "party": "lab",
-          "url": "https://getvoting.org/",
-          "who_suggests": "Best for Britain"
+          "url": "https://tacticalvote.co.uk/#WolverhamptonSouthWest",
+          "who_suggests": "tacticalvote.co.uk"
         },
         {
           "party": "lab",
-          "url": "https://tacticalvote.co.uk/#WolverhamptonSouthWest",
-          "who_suggests": "tacticalvote.co.uk"
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
         },
         {
           "party": "lab",
@@ -29763,13 +29763,13 @@
       "other_sites": [
         {
           "party": "ld",
-          "url": "https://getvoting.org/",
-          "who_suggests": "Best for Britain"
+          "url": "https://tacticalvote.co.uk/#Yeovil",
+          "who_suggests": "tacticalvote.co.uk"
         },
         {
           "party": "ld",
-          "url": "https://tacticalvote.co.uk/#Yeovil",
-          "who_suggests": "tacticalvote.co.uk"
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
         },
         {
           "party": "ld",
