@@ -115,69 +115,24 @@ class Result(NamedTuple):
             raise ValueError(winner)
 
         rainbow_alliance_share = self.rainbow_alliance_share()
-        if rainbow_alliance_share > 0.5:
-            remainers = [party for party, _ratio in self.remainers()]
-            [remain1, remain2] = remainers[:2]
-            if remain1 == LAB and remain2 == LD:
-                return classify.ALLIANCE_NEEDED_LAB_LD
-            if remain1 == LAB and remain2 == PLAID:
-                return classify.ALLIANCE_NEEDED_LAB_PLAID
-            if remain1 == LAB and remain2 == ALLIANCE:
-                return classify.ALLIANCE_NEEDED_LAB_ALLIANCE
-            if remain1 == LD and remain2 == LAB:
-                return classify.ALLIANCE_NEEDED_LD_LAB
-            if remain1 == LD and remain2 == GREEN:
-                return classify.ALLIANCE_NEEDED_LD_GREEN
-            if remain1 == LD and remain2 == PLAID:
-                return classify.ALLIANCE_NEEDED_LD_PLAID
-            if remain1 == SNP and remain2 == LAB:
-                return classify.ALLIANCE_NEEDED_SNP_LAB
-            if remain1 == SNP and remain2 == LD:
-                return classify.ALLIANCE_NEEDED_SNP_LD
-            if remain1 == SNP and remain2 == GREEN:
-                return classify.ALLIANCE_NEEDED_SNP_GREEN
-            if remain1 == ALLIANCE and remain2 == SF:
-                return classify.ALLIANCE_NEEDED_ALLIANCE_SF
-            if remain1 == ALLIANCE and remain2 == LD:
-                return classify.ALLIANCE_NEEDED_ALLIANCE_LD
-            if remain1 == PLAID and remain2 == LD:
-                return classify.ALLIANCE_NEEDED_PLAID_LD
-            if remain1 == GREEN and remain2 == LAB:
-                return classify.ALLIANCE_NEEDED_GREEN_LAB
-            if remain1 == PLAID and remain2 == LAB:
-                return classify.ALLIANCE_NEEDED_PLAID_LAB
-            if remain1 == GREEN and remain2 == LD:
-                return classify.ALLIANCE_NEEDED_GREEN_LD
-            if remain1 == LAB and remain2 == GREEN:
-                return classify.ALLIANCE_NEEDED_LAB_GREEN
-            if remain1 == LD and remain2 == SNP:
-                return classify.ALLIANCE_NEEDED_LD_SNP
-            if remain1 == SDLP and remain2 == ALLIANCE:
-                return classify.ALLIANCE_NEEDED_SDLP_ALLIANCE
-            if remain1 == SDLP and remain2 == GREEN:
-                return classify.ALLIANCE_NEEDED_SDLP_GREEN
-            if remain1 == GREEN and remain2 == SNP:
-                return classify.ALLIANCE_NEEDED_GREEN_SNP
-            if remain1 == SF:
-                return classify.SF_ALLIANCE
-            raise ValueError([remain1, remain2])
-
         if rainbow_alliance_share > self.winner_share():
             [remain1, _ratio] = self.remainers()[0]
             if remain1 == LAB:
-                return classify.DIFFICULT_ALLIANCE_LAB
+                return classify.ALLIANCE_LAB
             if remain1 == LD:
-                return classify.DIFFICULT_ALLIANCE_LD
+                return classify.ALLIANCE_LD
             if remain1 == SNP:
-                return classify.DIFFICULT_ALLIANCE_SNP
+                return classify.ALLIANCE_SNP
             if remain1 == ALLIANCE:
-                return classify.DIFFICULT_ALLIANCE_ALLIANCE
+                return classify.ALLIANCE_ALLIANCE
             if remain1 == GREEN:
-                return classify.DIFFICULT_ALLIANCE_GREEN
+                return classify.ALLIANCE_GREEN
             if remain1 == NHAP:
-                return classify.DIFFICULT_ALLIANCE_NHAP
+                return classify.ALLIANCE_NHAP
             if remain1 == PLAID:
-                return classify.DIFFICULT_ALLIANCE_PLAID
+                return classify.ALLIANCE_PLAID
+            if remain1 == SDLP:
+                return classify.ALLIANCE_SDLP
             if remain1 == SF:
                 return classify.SF_ALLIANCE
             raise ValueError(remain1)
