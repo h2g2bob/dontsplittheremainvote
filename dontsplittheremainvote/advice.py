@@ -55,7 +55,6 @@ def get_advice(results, constituency) -> Advice:
 
     INDEPENDENT_REMAIN = {
         'broxtowe': CHANGEUK,
-        'aberconwy': INDEPENDENT,
         'beaconsfield': INDEPENDENT,
         'eddisbury': INDEPENDENT,
         'runnymede-and-weybridge': INDEPENDENT,

@@ -46,7 +46,7 @@
     },
     "aberconwy": {
       "advice": {
-        "template": "special-independent-remain.html",
+        "template": "alliance-mixed.html",
         "we_recommend_party": null
       },
       "constituency": {
@@ -59,11 +59,6 @@
         "slug": "aberconwy"
       },
       "other_sites": [
-        {
-          "party": "ind",
-          "url": "https://getvoting.org/",
-          "who_suggests": "Best for Britain"
-        },
         {
           "party": "lab",
           "url": "https://tacticalvote.co.uk/#Aberconwy",
