@@ -9,6 +9,8 @@ from .classify import ClassifyResult
 from .party import get_party
 from .party import LAB
 from .party import LD
+from .party import CHANGEUK
+from .party import INDEPENDENT
 from .party import Party
 from .result import Result
 
@@ -50,6 +52,21 @@ def get_advice(results, constituency) -> Advice:
                 'current_mp': 'Caroline Flint'})
 
     advice = _get_advice(results)
+
+    INDEPENDENT_REMAIN = {
+        'broxtowe': CHANGEUK,
+        'aberconwy': INDEPENDENT,
+        'beaconsfield': INDEPENDENT,
+        'eddisbury': INDEPENDENT,
+        'runnymede-and-weybridge': INDEPENDENT,
+        'south-west-hertfordshire': INDEPENDENT,
+    }
+    if constituency.slug in INDEPENDENT_REMAIN:
+        return Advice(
+            image='other.png',
+            template='special-independent-remain.html',
+            advice_kwargs={
+                'party': INDEPENDENT_REMAIN[constituency.slug]})
 
     # Override our recomendation?
     # SLIGHT_LAB_POLL_BUT_LD_RECOMMEND = []

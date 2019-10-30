@@ -46,7 +46,7 @@
     },
     "aberconwy": {
       "advice": {
-        "template": "alliance-mixed.html",
+        "template": "special-independent-remain.html",
         "we_recommend_party": null
       },
       "constituency": {
@@ -1486,8 +1486,8 @@
     },
     "beaconsfield": {
       "advice": {
-        "template": "alliance-ld.html",
-        "we_recommend_party": "ld"
+        "template": "special-independent-remain.html",
+        "we_recommend_party": null
       },
       "constituency": {
         "country": "England",
@@ -4500,7 +4500,7 @@
     },
     "broxtowe": {
       "advice": {
-        "template": "alliance-mixed.html",
+        "template": "special-independent-remain.html",
         "we_recommend_party": null
       },
       "constituency": {
@@ -9577,7 +9577,7 @@
     },
     "eddisbury": {
       "advice": {
-        "template": "alliance-mixed.html",
+        "template": "special-independent-remain.html",
         "we_recommend_party": null
       },
       "constituency": {
@@ -22202,8 +22202,8 @@
     },
     "runnymede-and-weybridge": {
       "advice": {
-        "template": "alliance-ld.html",
-        "we_recommend_party": "ld"
+        "template": "special-independent-remain.html",
+        "we_recommend_party": null
       },
       "constituency": {
         "country": "England",
@@ -24335,8 +24335,8 @@
     },
     "south-west-hertfordshire": {
       "advice": {
-        "template": "alliance-ld.html",
-        "we_recommend_party": "ld"
+        "template": "special-independent-remain.html",
+        "we_recommend_party": null
       },
       "constituency": {
         "country": "England",
