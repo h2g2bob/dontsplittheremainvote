@@ -176,3 +176,7 @@ div.widebutton a {
   text-align: left;
   display: inline-block;
 }
+
+div.indent {
+  margin-left: 1em;
+}
