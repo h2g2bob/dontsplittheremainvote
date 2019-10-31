@@ -25,7 +25,7 @@
 		"Variation": "1"
 	},
 	"W07000058": {
-		"Reco": "Pledge",
+		"Reco": "Lab",
 		"ShowMRP": "0",
 		"Variation": "2"
 	},
@@ -1215,7 +1215,7 @@
 		"Variation": "1"
 	},
 	"E14000600": {
-		"Reco": "Lib Dem",
+		"Reco": "Lab",
 		"ShowMRP": "1",
 		"Variation": "1"
 	},
@@ -1705,7 +1705,7 @@
 		"Variation": "2"
 	},
 	"E14000531": {
-		"Reco": "Pledge",
+		"Reco": "Lab",
 		"ShowMRP": "0",
 		"Variation": "2"
 	},
@@ -1715,7 +1715,7 @@
 		"Variation": "2"
 	},
 	"E14000533": {
-		"Reco": "Pledge",
+		"Reco": "Lab",
 		"ShowMRP": "0",
 		"Variation": "2"
 	},
@@ -1725,7 +1725,7 @@
 		"Variation": "2"
 	},
 	"E14000536": {
-		"Reco": "Pledge",
+		"Reco": "Lab",
 		"ShowMRP": "0",
 		"Variation": "2"
 	},
@@ -1735,17 +1735,17 @@
 		"Variation": "2"
 	},
 	"E14000539": {
-		"Reco": "Pledge",
+		"Reco": "Lab",
 		"ShowMRP": "0",
 		"Variation": "2"
 	},
 	"E14000543": {
-		"Reco": "Pledge",
+		"Reco": "Lab",
 		"ShowMRP": "0",
 		"Variation": "2"
 	},
 	"E14000544": {
-		"Reco": "Pledge",
+		"Reco": "Lab",
 		"ShowMRP": "0",
 		"Variation": "2"
 	},
@@ -1765,7 +1765,7 @@
 		"Variation": "2"
 	},
 	"E14000556": {
-		"Reco": "Pledge",
+		"Reco": "Lab",
 		"ShowMRP": "0",
 		"Variation": "2"
 	},
@@ -1775,17 +1775,17 @@
 		"Variation": "2"
 	},
 	"E14000558": {
-		"Reco": "Pledge",
+		"Reco": "Lab",
 		"ShowMRP": "0",
 		"Variation": "2"
 	},
 	"E14000559": {
-		"Reco": "Pledge",
+		"Reco": "Lab",
 		"ShowMRP": "0",
 		"Variation": "2"
 	},
 	"E14000572": {
-		"Reco": "Pledge",
+		"Reco": "Lab",
 		"ShowMRP": "0",
 		"Variation": "2"
 	},
@@ -1795,12 +1795,12 @@
 		"Variation": "2"
 	},
 	"E14000580": {
-		"Reco": "Pledge",
+		"Reco": "Lab",
 		"ShowMRP": "0",
 		"Variation": "2"
 	},
 	"E14000582": {
-		"Reco": "Pledge",
+		"Reco": "Lab",
 		"ShowMRP": "0",
 		"Variation": "2"
 	},
@@ -1810,17 +1810,17 @@
 		"Variation": "2"
 	},
 	"E14000584": {
-		"Reco": "Pledge",
+		"Reco": "Lab",
 		"ShowMRP": "0",
 		"Variation": "2"
 	},
 	"E14000585": {
-		"Reco": "Pledge",
+		"Reco": "Lab",
 		"ShowMRP": "0",
 		"Variation": "2"
 	},
 	"E14000590": {
-		"Reco": "Pledge",
+		"Reco": "Lab",
 		"ShowMRP": "0",
 		"Variation": "2"
 	},
@@ -1835,7 +1835,7 @@
 		"Variation": "2"
 	},
 	"E14000596": {
-		"Reco": "Pledge",
+		"Reco": "Lab",
 		"ShowMRP": "0",
 		"Variation": "2"
 	},
@@ -1845,7 +1845,7 @@
 		"Variation": "2"
 	},
 	"E14000604": {
-		"Reco": "Pledge",
+		"Reco": "Lab",
 		"ShowMRP": "0",
 		"Variation": "2"
 	},
@@ -1855,22 +1855,22 @@
 		"Variation": "2"
 	},
 	"E14000606": {
-		"Reco": "Pledge",
+		"Reco": "Lab",
 		"ShowMRP": "0",
 		"Variation": "2"
 	},
 	"E14000608": {
-		"Reco": "Pledge",
+		"Reco": "Green",
 		"ShowMRP": "0",
 		"Variation": "2"
 	},
 	"E14000610": {
-		"Reco": "Pledge",
+		"Reco": "Lab",
 		"ShowMRP": "0",
 		"Variation": "2"
 	},
 	"E14000612": {
-		"Reco": "Pledge",
+		"Reco": "Lab",
 		"ShowMRP": "0",
 		"Variation": "2"
 	},
@@ -1880,22 +1880,22 @@
 		"Variation": "2"
 	},
 	"E14000614": {
-		"Reco": "Pledge",
+		"Reco": "Lab",
 		"ShowMRP": "0",
 		"Variation": "2"
 	},
 	"E14000616": {
-		"Reco": "Pledge",
+		"Reco": "Lab",
 		"ShowMRP": "0",
 		"Variation": "2"
 	},
 	"E14000618": {
-		"Reco": "Pledge",
+		"Reco": "Lab",
 		"ShowMRP": "0",
 		"Variation": "2"
 	},
 	"E14000620": {
-		"Reco": "Pledge",
+		"Reco": "Lab",
 		"ShowMRP": "0",
 		"Variation": "2"
 	},
@@ -1915,12 +1915,12 @@
 		"Variation": "2"
 	},
 	"E14000625": {
-		"Reco": "Pledge",
+		"Reco": "Lab",
 		"ShowMRP": "0",
 		"Variation": "2"
 	},
 	"E14000626": {
-		"Reco": "Pledge",
+		"Reco": "Lab",
 		"ShowMRP": "0",
 		"Variation": "2"
 	},
@@ -1955,7 +1955,7 @@
 		"Variation": "2"
 	},
 	"E14000634": {
-		"Reco": "Pledge",
+		"Reco": "Lab",
 		"ShowMRP": "0",
 		"Variation": "2"
 	},
@@ -1965,7 +1965,7 @@
 		"Variation": "2"
 	},
 	"E14000636": {
-		"Reco": "Pledge",
+		"Reco": "Lab",
 		"ShowMRP": "0",
 		"Variation": "2"
 	},
@@ -1975,12 +1975,12 @@
 		"Variation": "2"
 	},
 	"E14000642": {
-		"Reco": "Pledge",
+		"Reco": "Lab",
 		"ShowMRP": "0",
 		"Variation": "2"
 	},
 	"E14000643": {
-		"Reco": "Pledge",
+		"Reco": "Lab",
 		"ShowMRP": "0",
 		"Variation": "2"
 	},
@@ -1990,22 +1990,22 @@
 		"Variation": "2"
 	},
 	"E14000646": {
-		"Reco": "Pledge",
+		"Reco": "Lab",
 		"ShowMRP": "0",
 		"Variation": "2"
 	},
 	"E14000647": {
-		"Reco": "Pledge",
+		"Reco": "Lab",
 		"ShowMRP": "0",
 		"Variation": "2"
 	},
 	"E14000648": {
-		"Reco": "Pledge",
+		"Reco": "Lab",
 		"ShowMRP": "0",
 		"Variation": "2"
 	},
 	"E14000652": {
-		"Reco": "Pledge",
+		"Reco": "Lab",
 		"ShowMRP": "0",
 		"Variation": "2"
 	},
@@ -2015,7 +2015,7 @@
 		"Variation": "2"
 	},
 	"E14000659": {
-		"Reco": "Pledge",
+		"Reco": "Lab",
 		"ShowMRP": "0",
 		"Variation": "2"
 	},
@@ -2025,7 +2025,7 @@
 		"Variation": "2"
 	},
 	"E14000662": {
-		"Reco": "Pledge",
+		"Reco": "Lab",
 		"ShowMRP": "0",
 		"Variation": "2"
 	},
@@ -2040,22 +2040,22 @@
 		"Variation": "2"
 	},
 	"E14000670": {
-		"Reco": "Pledge",
+		"Reco": "Lab",
 		"ShowMRP": "0",
 		"Variation": "2"
 	},
 	"E14000671": {
-		"Reco": "Pledge",
+		"Reco": "Lab",
 		"ShowMRP": "0",
 		"Variation": "2"
 	},
 	"E14000672": {
-		"Reco": "Pledge",
+		"Reco": "Lab",
 		"ShowMRP": "0",
 		"Variation": "2"
 	},
 	"E14000678": {
-		"Reco": "Pledge",
+		"Reco": "Claire Wright",
 		"ShowMRP": "0",
 		"Variation": "2"
 	},
@@ -2065,7 +2065,7 @@
 		"Variation": "2"
 	},
 	"E14000682": {
-		"Reco": "Pledge",
+		"Reco": "Lab",
 		"ShowMRP": "0",
 		"Variation": "2"
 	},
@@ -2075,7 +2075,7 @@
 		"Variation": "2"
 	},
 	"E14000684": {
-		"Reco": "Lib Dem",
+		"Reco": "Pledge",
 		"ShowMRP": "0",
 		"Variation": "2"
 	},
@@ -2090,12 +2090,12 @@
 		"Variation": "2"
 	},
 	"E14000691": {
-		"Reco": "Pledge",
+		"Reco": "Lab",
 		"ShowMRP": "0",
 		"Variation": "2"
 	},
 	"E14000693": {
-		"Reco": "Pledge",
+		"Reco": "Lab",
 		"ShowMRP": "0",
 		"Variation": "2"
 	},
@@ -2105,7 +2105,7 @@
 		"Variation": "2"
 	},
 	"E14000695": {
-		"Reco": "Pledge",
+		"Reco": "Lab",
 		"ShowMRP": "0",
 		"Variation": "2"
 	},
@@ -2135,32 +2135,32 @@
 		"Variation": "2"
 	},
 	"E14000705": {
-		"Reco": "Pledge",
+		"Reco": "Lab",
 		"ShowMRP": "0",
 		"Variation": "2"
 	},
 	"E14000706": {
-		"Reco": "Pledge",
+		"Reco": "Lab",
 		"ShowMRP": "0",
 		"Variation": "2"
 	},
 	"E14000707": {
-		"Reco": "Pledge",
+		"Reco": "Lab",
 		"ShowMRP": "0",
 		"Variation": "2"
 	},
 	"E14000711": {
-		"Reco": "Pledge",
+		"Reco": "Lab",
 		"ShowMRP": "0",
 		"Variation": "2"
 	},
 	"E14000712": {
-		"Reco": "Pledge",
+		"Reco": "Lab",
 		"ShowMRP": "0",
 		"Variation": "2"
 	},
 	"E14000713": {
-		"Reco": "Pledge",
+		"Reco": "Lab",
 		"ShowMRP": "0",
 		"Variation": "2"
 	},
@@ -2170,12 +2170,12 @@
 		"Variation": "2"
 	},
 	"E14000715": {
-		"Reco": "Pledge",
+		"Reco": "Lab",
 		"ShowMRP": "0",
 		"Variation": "2"
 	},
 	"E14000717": {
-		"Reco": "Pledge",
+		"Reco": "Lab",
 		"ShowMRP": "0",
 		"Variation": "2"
 	},
@@ -2185,7 +2185,7 @@
 		"Variation": "2"
 	},
 	"E14000722": {
-		"Reco": "Pledge",
+		"Reco": "Lab",
 		"ShowMRP": "0",
 		"Variation": "2"
 	},
@@ -2200,7 +2200,7 @@
 		"Variation": "2"
 	},
 	"E14000729": {
-		"Reco": "Pledge",
+		"Reco": "Lab",
 		"ShowMRP": "0",
 		"Variation": "2"
 	},
@@ -2210,17 +2210,17 @@
 		"Variation": "2"
 	},
 	"E14000731": {
-		"Reco": "Pledge",
+		"Reco": "Lab",
 		"ShowMRP": "0",
 		"Variation": "2"
 	},
 	"E14000734": {
-		"Reco": "Pledge",
+		"Reco": "Lab",
 		"ShowMRP": "0",
 		"Variation": "2"
 	},
 	"E14000735": {
-		"Reco": "Pledge",
+		"Reco": "Lab",
 		"ShowMRP": "0",
 		"Variation": "2"
 	},
@@ -2275,7 +2275,7 @@
 		"Variation": "2"
 	},
 	"E14000751": {
-		"Reco": "Pledge",
+		"Reco": "Lab",
 		"ShowMRP": "0",
 		"Variation": "2"
 	},
@@ -2290,17 +2290,17 @@
 		"Variation": "2"
 	},
 	"E14000760": {
-		"Reco": "Pledge",
+		"Reco": "Lab",
 		"ShowMRP": "0",
 		"Variation": "2"
 	},
 	"E14000762": {
-		"Reco": "Pledge",
+		"Reco": "Green",
 		"ShowMRP": "0",
 		"Variation": "2"
 	},
 	"E14000765": {
-		"Reco": "Pledge",
+		"Reco": "Lab",
 		"ShowMRP": "0",
 		"Variation": "2"
 	},
@@ -2310,17 +2310,17 @@
 		"Variation": "2"
 	},
 	"E14000769": {
-		"Reco": "Pledge",
+		"Reco": "Lab",
 		"ShowMRP": "0",
 		"Variation": "2"
 	},
 	"E14000774": {
-		"Reco": "Pledge",
+		"Reco": "Lab",
 		"ShowMRP": "0",
 		"Variation": "2"
 	},
 	"E14000782": {
-		"Reco": "Lib Dem",
+		"Reco": "Lab",
 		"ShowMRP": "0",
 		"Variation": "2"
 	},
@@ -2335,17 +2335,17 @@
 		"Variation": "2"
 	},
 	"E14000795": {
-		"Reco": "Pledge",
+		"Reco": "Lab",
 		"ShowMRP": "0",
 		"Variation": "2"
 	},
 	"E14000797": {
-		"Reco": "Pledge",
+		"Reco": "Lab",
 		"ShowMRP": "0",
 		"Variation": "2"
 	},
 	"E14000798": {
-		"Reco": "Pledge",
+		"Reco": "Lab",
 		"ShowMRP": "0",
 		"Variation": "2"
 	},
@@ -2355,12 +2355,12 @@
 		"Variation": "2"
 	},
 	"E14000800": {
-		"Reco": "Pledge",
+		"Reco": "Lab",
 		"ShowMRP": "0",
 		"Variation": "2"
 	},
 	"E14000801": {
-		"Reco": "Pledge",
+		"Reco": "Lab",
 		"ShowMRP": "0",
 		"Variation": "2"
 	},
@@ -2385,7 +2385,7 @@
 		"Variation": "2"
 	},
 	"E14000810": {
-		"Reco": "Pledge",
+		"Reco": "Lab",
 		"ShowMRP": "0",
 		"Variation": "2"
 	},
@@ -2395,7 +2395,7 @@
 		"Variation": "2"
 	},
 	"E14000812": {
-		"Reco": "Pledge",
+		"Reco": "Lab",
 		"ShowMRP": "0",
 		"Variation": "2"
 	},
@@ -2405,7 +2405,7 @@
 		"Variation": "2"
 	},
 	"E14000814": {
-		"Reco": "Pledge",
+		"Reco": "Lab",
 		"ShowMRP": "0",
 		"Variation": "2"
 	},
@@ -2430,17 +2430,17 @@
 		"Variation": "2"
 	},
 	"E14000820": {
-		"Reco": "Pledge",
+		"Reco": "Lab",
 		"ShowMRP": "0",
 		"Variation": "2"
 	},
 	"E14000821": {
-		"Reco": "Pledge",
+		"Reco": "Lab",
 		"ShowMRP": "0",
 		"Variation": "2"
 	},
 	"E14000822": {
-		"Reco": "Pledge",
+		"Reco": "Lab",
 		"ShowMRP": "0",
 		"Variation": "2"
 	},
@@ -2450,12 +2450,12 @@
 		"Variation": "2"
 	},
 	"E14000825": {
-		"Reco": "Pledge",
+		"Reco": "Lab",
 		"ShowMRP": "0",
 		"Variation": "2"
 	},
 	"E14000826": {
-		"Reco": "Pledge",
+		"Reco": "Lab",
 		"ShowMRP": "0",
 		"Variation": "2"
 	},
@@ -2510,7 +2510,7 @@
 		"Variation": "2"
 	},
 	"E14000843": {
-		"Reco": "Pledge",
+		"Reco": "Lab",
 		"ShowMRP": "0",
 		"Variation": "2"
 	},
@@ -2535,7 +2535,7 @@
 		"Variation": "2"
 	},
 	"E14000849": {
-		"Reco": "Pledge",
+		"Reco": "Lab",
 		"ShowMRP": "0",
 		"Variation": "2"
 	},
@@ -2545,17 +2545,17 @@
 		"Variation": "2"
 	},
 	"E14000851": {
-		"Reco": "Pledge",
+		"Reco": "Lab",
 		"ShowMRP": "0",
 		"Variation": "2"
 	},
 	"E14000852": {
-		"Reco": "Pledge",
+		"Reco": "Lab",
 		"ShowMRP": "0",
 		"Variation": "2"
 	},
 	"E14000854": {
-		"Reco": "Pledge",
+		"Reco": "Lab",
 		"ShowMRP": "0",
 		"Variation": "2"
 	},
@@ -2570,12 +2570,12 @@
 		"Variation": "2"
 	},
 	"E14000858": {
-		"Reco": "Pledge",
+		"Reco": "Lab",
 		"ShowMRP": "0",
 		"Variation": "2"
 	},
 	"E14000859": {
-		"Reco": "Pledge",
+		"Reco": "Lab",
 		"ShowMRP": "0",
 		"Variation": "2"
 	},
@@ -2585,32 +2585,32 @@
 		"Variation": "2"
 	},
 	"E14000861": {
-		"Reco": "Pledge",
+		"Reco": "Lab",
 		"ShowMRP": "0",
 		"Variation": "2"
 	},
 	"E14000862": {
-		"Reco": "Pledge",
+		"Reco": "Lab",
 		"ShowMRP": "0",
 		"Variation": "2"
 	},
 	"E14000863": {
-		"Reco": "Pledge",
+		"Reco": "Lab",
 		"ShowMRP": "0",
 		"Variation": "2"
 	},
 	"E14000865": {
-		"Reco": "Pledge",
+		"Reco": "Lab",
 		"ShowMRP": "0",
 		"Variation": "2"
 	},
 	"E14000868": {
-		"Reco": "Pledge",
+		"Reco": "Lab",
 		"ShowMRP": "0",
 		"Variation": "2"
 	},
 	"E14000869": {
-		"Reco": "Pledge",
+		"Reco": "Lab",
 		"ShowMRP": "0",
 		"Variation": "2"
 	},
@@ -2620,12 +2620,12 @@
 		"Variation": "2"
 	},
 	"E14000875": {
-		"Reco": "Pledge",
+		"Reco": "Lab",
 		"ShowMRP": "0",
 		"Variation": "2"
 	},
 	"E14000876": {
-		"Reco": "Pledge",
+		"Reco": "Lab",
 		"ShowMRP": "0",
 		"Variation": "2"
 	},
@@ -2635,7 +2635,7 @@
 		"Variation": "2"
 	},
 	"E14000879": {
-		"Reco": "Pledge",
+		"Reco": "Lab",
 		"ShowMRP": "0",
 		"Variation": "2"
 	},
@@ -2645,12 +2645,12 @@
 		"Variation": "2"
 	},
 	"E14000883": {
-		"Reco": "Pledge",
+		"Reco": "Lab",
 		"ShowMRP": "0",
 		"Variation": "2"
 	},
 	"E14000886": {
-		"Reco": "Pledge",
+		"Reco": "Lab",
 		"ShowMRP": "0",
 		"Variation": "2"
 	},
@@ -2665,12 +2665,12 @@
 		"Variation": "2"
 	},
 	"E14000890": {
-		"Reco": "Pledge",
+		"Reco": "Lab",
 		"ShowMRP": "0",
 		"Variation": "2"
 	},
 	"E14000892": {
-		"Reco": "Pledge",
+		"Reco": "Lab",
 		"ShowMRP": "0",
 		"Variation": "2"
 	},
@@ -2680,7 +2680,7 @@
 		"Variation": "2"
 	},
 	"E14000894": {
-		"Reco": "Pledge",
+		"Reco": "Lab",
 		"ShowMRP": "0",
 		"Variation": "2"
 	},
@@ -2695,17 +2695,17 @@
 		"Variation": "2"
 	},
 	"E14000898": {
-		"Reco": "Pledge",
+		"Reco": "Lab",
 		"ShowMRP": "0",
 		"Variation": "2"
 	},
 	"E14000899": {
-		"Reco": "Pledge",
+		"Reco": "Lab",
 		"ShowMRP": "0",
 		"Variation": "2"
 	},
 	"E14000900": {
-		"Reco": "Pledge",
+		"Reco": "Lab",
 		"ShowMRP": "0",
 		"Variation": "2"
 	},
@@ -2715,12 +2715,12 @@
 		"Variation": "2"
 	},
 	"E14000902": {
-		"Reco": "Pledge",
+		"Reco": "Lab",
 		"ShowMRP": "0",
 		"Variation": "2"
 	},
 	"E14000905": {
-		"Reco": "Pledge",
+		"Reco": "Lab",
 		"ShowMRP": "0",
 		"Variation": "2"
 	},
@@ -2750,12 +2750,12 @@
 		"Variation": "2"
 	},
 	"E14000913": {
-		"Reco": "Pledge",
+		"Reco": "Lab",
 		"ShowMRP": "0",
 		"Variation": "2"
 	},
 	"E14000917": {
-		"Reco": "Pledge",
+		"Reco": "Lab",
 		"ShowMRP": "0",
 		"Variation": "2"
 	},
@@ -2770,22 +2770,22 @@
 		"Variation": "2"
 	},
 	"E14000924": {
-		"Reco": "Pledge",
+		"Reco": "Lab",
 		"ShowMRP": "0",
 		"Variation": "2"
 	},
 	"E14000925": {
-		"Reco": "Pledge",
+		"Reco": "Lab",
 		"ShowMRP": "0",
 		"Variation": "2"
 	},
 	"E14000926": {
-		"Reco": "Pledge",
+		"Reco": "Lab",
 		"ShowMRP": "0",
 		"Variation": "2"
 	},
 	"E14000927": {
-		"Reco": "Pledge",
+		"Reco": "Lab",
 		"ShowMRP": "0",
 		"Variation": "2"
 	},
@@ -2810,17 +2810,17 @@
 		"Variation": "2"
 	},
 	"E14000933": {
-		"Reco": "Pledge",
+		"Reco": "Lab",
 		"ShowMRP": "0",
 		"Variation": "2"
 	},
 	"E14000935": {
-		"Reco": "Pledge",
+		"Reco": "Lab",
 		"ShowMRP": "0",
 		"Variation": "2"
 	},
 	"E14000936": {
-		"Reco": "Pledge",
+		"Reco": "Lab",
 		"ShowMRP": "0",
 		"Variation": "2"
 	},
@@ -2855,12 +2855,12 @@
 		"Variation": "2"
 	},
 	"E14000943": {
-		"Reco": "Pledge",
+		"Reco": "Lab",
 		"ShowMRP": "0",
 		"Variation": "2"
 	},
 	"E14000945": {
-		"Reco": "Pledge",
+		"Reco": "Lab",
 		"ShowMRP": "0",
 		"Variation": "2"
 	},
@@ -2870,12 +2870,12 @@
 		"Variation": "2"
 	},
 	"E14000947": {
-		"Reco": "Pledge",
+		"Reco": "Lab",
 		"ShowMRP": "0",
 		"Variation": "2"
 	},
 	"E14000948": {
-		"Reco": "Pledge",
+		"Reco": "Lab",
 		"ShowMRP": "0",
 		"Variation": "2"
 	},
@@ -2890,7 +2890,7 @@
 		"Variation": "2"
 	},
 	"E14000952": {
-		"Reco": "Pledge",
+		"Reco": "Lab",
 		"ShowMRP": "0",
 		"Variation": "2"
 	},
@@ -2905,12 +2905,12 @@
 		"Variation": "2"
 	},
 	"E14000955": {
-		"Reco": "Pledge",
+		"Reco": "Lab",
 		"ShowMRP": "0",
 		"Variation": "2"
 	},
 	"E14000957": {
-		"Reco": "Pledge",
+		"Reco": "Lab",
 		"ShowMRP": "0",
 		"Variation": "2"
 	},
@@ -2940,27 +2940,27 @@
 		"Variation": "2"
 	},
 	"E14000965": {
-		"Reco": "Pledge",
+		"Reco": "Lab",
 		"ShowMRP": "0",
 		"Variation": "2"
 	},
 	"E14000966": {
-		"Reco": "Pledge",
+		"Reco": "Lab",
 		"ShowMRP": "0",
 		"Variation": "2"
 	},
 	"E14000968": {
-		"Reco": "Pledge",
+		"Reco": "Lab",
 		"ShowMRP": "0",
 		"Variation": "2"
 	},
 	"E14000969": {
-		"Reco": "Pledge",
+		"Reco": "Lab",
 		"ShowMRP": "0",
 		"Variation": "2"
 	},
 	"E14000974": {
-		"Reco": "Pledge",
+		"Reco": "Lab",
 		"ShowMRP": "0",
 		"Variation": "2"
 	},
@@ -2970,7 +2970,7 @@
 		"Variation": "2"
 	},
 	"E14000976": {
-		"Reco": "Pledge",
+		"Reco": "Lab",
 		"ShowMRP": "0",
 		"Variation": "2"
 	},
@@ -2980,7 +2980,7 @@
 		"Variation": "2"
 	},
 	"E14000978": {
-		"Reco": "Pledge",
+		"Reco": "Lab",
 		"ShowMRP": "0",
 		"Variation": "2"
 	},
@@ -3005,7 +3005,7 @@
 		"Variation": "2"
 	},
 	"E14000986": {
-		"Reco": "Pledge",
+		"Reco": "Lab",
 		"ShowMRP": "0",
 		"Variation": "2"
 	},
@@ -3020,7 +3020,7 @@
 		"Variation": "2"
 	},
 	"E14000989": {
-		"Reco": "Pledge",
+		"Reco": "Lab",
 		"ShowMRP": "0",
 		"Variation": "2"
 	},
@@ -3050,7 +3050,7 @@
 		"Variation": "2"
 	},
 	"E14000995": {
-		"Reco": "Pledge",
+		"Reco": "Lab",
 		"ShowMRP": "0",
 		"Variation": "2"
 	},
@@ -3085,12 +3085,12 @@
 		"Variation": "2"
 	},
 	"E14001007": {
-		"Reco": "Pledge",
+		"Reco": "Lab",
 		"ShowMRP": "0",
 		"Variation": "2"
 	},
 	"E14001011": {
-		"Reco": "Pledge",
+		"Reco": "Lab",
 		"ShowMRP": "0",
 		"Variation": "2"
 	},
@@ -3105,7 +3105,7 @@
 		"Variation": "2"
 	},
 	"E14001022": {
-		"Reco": "Pledge",
+		"Reco": "Lab",
 		"ShowMRP": "0",
 		"Variation": "2"
 	},
@@ -3115,7 +3115,7 @@
 		"Variation": "2"
 	},
 	"E14001025": {
-		"Reco": "Pledge",
+		"Reco": "Lab",
 		"ShowMRP": "0",
 		"Variation": "2"
 	},
@@ -3125,7 +3125,7 @@
 		"Variation": "2"
 	},
 	"E14001027": {
-		"Reco": "Pledge",
+		"Reco": "Lab",
 		"ShowMRP": "0",
 		"Variation": "2"
 	},
@@ -3135,7 +3135,7 @@
 		"Variation": "2"
 	},
 	"E14001034": {
-		"Reco": "Pledge",
+		"Reco": "Lab",
 		"ShowMRP": "0",
 		"Variation": "2"
 	},
@@ -3185,7 +3185,7 @@
 		"Variation": "2"
 	},
 	"E14001052": {
-		"Reco": "Pledge",
+		"Reco": "Lab",
 		"ShowMRP": "0",
 		"Variation": "2"
 	},
@@ -3195,17 +3195,17 @@
 		"Variation": "2"
 	},
 	"E14001056": {
-		"Reco": "Pledge",
+		"Reco": "Lab",
 		"ShowMRP": "0",
 		"Variation": "2"
 	},
 	"E14001057": {
-		"Reco": "Pledge",
+		"Reco": "Lab",
 		"ShowMRP": "0",
 		"Variation": "2"
 	},
 	"E14001058": {
-		"Reco": "Pledge",
+		"Reco": "Lab",
 		"ShowMRP": "0",
 		"Variation": "2"
 	},
@@ -3220,12 +3220,12 @@
 		"Variation": "2"
 	},
 	"W07000054": {
-		"Reco": "Pledge",
+		"Reco": "Lab",
 		"ShowMRP": "0",
 		"Variation": "2"
 	},
 	"W07000059": {
-		"Reco": "Pledge",
+		"Reco": "Lab",
 		"ShowMRP": "0",
 		"Variation": "2"
 	},
@@ -3235,17 +3235,17 @@
 		"Variation": "2"
 	},
 	"W07000065": {
-		"Reco": "Pledge",
+		"Reco": "Lab",
 		"ShowMRP": "0",
 		"Variation": "2"
 	},
 	"W07000066": {
-		"Reco": "Pledge",
+		"Reco": "Lab",
 		"ShowMRP": "0",
 		"Variation": "2"
 	},
 	"W07000078": {
-		"Reco": "Pledge",
+		"Reco": "Lab",
 		"ShowMRP": "0",
 		"Variation": "2"
 	}

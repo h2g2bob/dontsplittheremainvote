@@ -40,6 +40,7 @@ def _getvoting():
     PARTIES = {
         'Anna Soubry': CHANGEUK,
         'Antoinette Sandbach': INDEPENDENT, # former conservative
+        'Claire Wright': INDEPENDENT,
         'David Gauke': INDEPENDENT, # former conservative
         'Dominic Grieve': INDEPENDENT, # former conservative
         'Green': GREEN,
