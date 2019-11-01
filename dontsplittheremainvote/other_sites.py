@@ -91,8 +91,8 @@ def _tactical_dot_vote():
         '<span class="social-democratic-and-labour-party recommendation-sm">Social Democratic and Labour Party</span>': SDLP,
         '<span class="plaid-cymru recommendation-sm">Plaid Cymru</span>': PLAID,
         '<span class="national-health-action-party recommendation-sm">National Health Action Party</span>': NHAP,
-
-
+        '<span class="green recommendation-sm">Green</span>': GREEN,
+        '<span class="independent recommendation-sm">Independent</span>': INDEPENDENT,
     }
     with open('data/tactical_dot_vote/all.html') as f:
         [table] = re.compile(r'<table class="table">(.*)</table>').findall(f.read())
