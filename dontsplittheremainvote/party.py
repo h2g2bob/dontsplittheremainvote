@@ -81,6 +81,10 @@ _MAPPINGS = {
     'UK Independence Party (UKIP)': UKIP,
     'The Independent Group for Change': CHANGEUK,
     'Labour and Co-operative Party': LAB,
+    'Plaid Cymru - The Party of Wales': PLAID,
+    'Scottish Green Party': GREEN,
+    'Alliance - Alliance Party of Northern Ireland': ALLIANCE,
+    'SDLP (Social Democratic & Labour Party)': SDLP,
 }
 
 def get_party(code):
