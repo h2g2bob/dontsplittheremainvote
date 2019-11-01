@@ -42,7 +42,7 @@ def _nearby_constituencies(constituency_pages, constituency):
 def generate_constituency(constituency_page, nearby_constituencies):
     url_path = '/constituency/{}.html'.format(constituency_page.constituency.slug)
 
-    html = JINJA_ENV.get_template(constituency_page.advice.template).render(
+    html = JINJA_ENV.get_template(constituency_page.aggregation.template).render(
         static=STATIC,
         this_url=BASE_URL + url_path,
         image_735_385=IMAGE_LOGO_735_238,
@@ -52,9 +52,9 @@ def generate_constituency(constituency_page, nearby_constituencies):
         other_sites=constituency_page.other_site_suggestions,
         nearby_constituency=nearby_constituencies,
         known_ppc=constituency_page.known_ppc,
-        analysis=constituency_page.advice,
-        aggregation=constituency_page.advice,
-        **constituency_page.advice.advice_kwargs)
+        analysis=constituency_page.analysis,
+        aggregation=constituency_page.aggregation,
+        **constituency_page.aggregation.advice_kwargs)
     with open('generated' + url_path, 'w') as f:
         f.write(html)
 
@@ -117,7 +117,7 @@ def _generate_other_sites_data(constituency_pages: List[ConstituencyPage]) -> Tu
             sug.who_suggests: sug.party
             for sug in cpage.other_site_suggestions}
 
-        we_recommend_party = cpage.advice.we_recommend_party
+        we_recommend_party = cpage.analysis.we_recommend_party
         if we_recommend_party is not None:
             suggestions_here['DontSplit main'] = we_recommend_party
 

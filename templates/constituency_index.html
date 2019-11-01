@@ -8,7 +8,7 @@
     <ul>
     {% for cpage in cpage_list|sort %}
       <li class="constituency">
-        <a href="/constituency/{{cpage.constituency.slug}}.html">{{cpage.constituency.name}}</a> <img class="advice-image" src="{{static}}/logo/outcome/{{cpage.advice.image}}" />
+        <a href="/constituency/{{cpage.constituency.slug}}.html">{{cpage.constituency.name}}</a> <img class="advice-image" src="{{static}}/logo/outcome/{{cpage.aggregation.image}}" />
       </li>
     {% endfor %}
     </ul>
