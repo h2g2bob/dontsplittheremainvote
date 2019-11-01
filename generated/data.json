@@ -3227,6 +3227,13 @@
         ],
         [
           {
+            "img": "difficult-alliance-ld",
+            "text": "Remain can win if we work together. The largest party is Liberal Democrat."
+          },
+          0.08333333333333333
+        ],
+        [
+          {
             "img": "leave-victory-con",
             "text": "Largest party is Conservative. An alliance would not have helped here."
           },
@@ -3236,13 +3243,6 @@
           {
             "img": "remain-victory-lab",
             "text": "Remain win: Labour"
-          },
-          0.08333333333333333
-        ],
-        [
-          {
-            "img": "difficult-alliance-ld",
-            "text": "Remain can win if we work together. The largest party is Liberal Democrat."
           },
           0.08333333333333333
         ]
@@ -4846,15 +4846,15 @@
         ],
         [
           {
-            "img": "difficult-alliance-lab",
-            "text": "Remain can win if we work together. The largest party is Labour."
+            "img": "leave-victory-ukip",
+            "text": "Largest party is UKIP / Brexit. An alliance would not have helped here."
           },
           0.08333333333333333
         ],
         [
           {
-            "img": "leave-victory-ukip",
-            "text": "Largest party is UKIP / Brexit. An alliance would not have helped here."
+            "img": "difficult-alliance-lab",
+            "text": "Remain can win if we work together. The largest party is Labour."
           },
           0.08333333333333333
         ]
@@ -5240,15 +5240,15 @@
         ],
         [
           {
-            "img": "remain-victory-lab",
-            "text": "Remain win: Labour"
+            "img": "leave-victory-ukip",
+            "text": "Largest party is UKIP / Brexit. An alliance would not have helped here."
           },
           0.08333333333333333
         ],
         [
           {
-            "img": "leave-victory-ukip",
-            "text": "Largest party is UKIP / Brexit. An alliance would not have helped here."
+            "img": "remain-victory-lab",
+            "text": "Remain win: Labour"
           },
           0.08333333333333333
         ]
@@ -5322,15 +5322,15 @@
         ],
         [
           {
-            "img": "difficult-alliance-lab",
-            "text": "Remain can win if we work together. The largest party is Labour."
+            "img": "leave-victory-ukip",
+            "text": "Largest party is UKIP / Brexit. An alliance would not have helped here."
           },
           0.16666666666666666
         ],
         [
           {
-            "img": "leave-victory-ukip",
-            "text": "Largest party is UKIP / Brexit. An alliance would not have helped here."
+            "img": "difficult-alliance-lab",
+            "text": "Remain can win if we work together. The largest party is Labour."
           },
           0.16666666666666666
         ]
@@ -6653,15 +6653,15 @@
         ],
         [
           {
-            "img": "remain-victory-lab",
-            "text": "Remain win: Labour"
+            "img": "remain-victory-ld",
+            "text": "Remain win: Liberal Democrats"
           },
           0.08333333333333333
         ],
         [
           {
-            "img": "remain-victory-ld",
-            "text": "Remain win: Liberal Democrats"
+            "img": "remain-victory-lab",
+            "text": "Remain win: Labour"
           },
           0.08333333333333333
         ]
@@ -7809,15 +7809,15 @@
         ],
         [
           {
-            "img": "difficult-alliance-lab",
-            "text": "Remain can win if we work together. The largest party is Labour."
+            "img": "difficult-alliance-ld",
+            "text": "Remain can win if we work together. The largest party is Liberal Democrat."
           },
           0.16666666666666666
         ],
         [
           {
-            "img": "difficult-alliance-ld",
-            "text": "Remain can win if we work together. The largest party is Liberal Democrat."
+            "img": "difficult-alliance-lab",
+            "text": "Remain can win if we work together. The largest party is Labour."
           },
           0.16666666666666666
         ],
@@ -11091,15 +11091,15 @@
         ],
         [
           {
-            "img": "remain-victory-lab",
-            "text": "Remain win: Labour"
+            "img": "remain-victory-ld",
+            "text": "Remain win: Liberal Democrats"
           },
           0.08333333333333333
         ],
         [
           {
-            "img": "remain-victory-ld",
-            "text": "Remain win: Liberal Democrats"
+            "img": "remain-victory-lab",
+            "text": "Remain win: Labour"
           },
           0.08333333333333333
         ]
@@ -11141,15 +11141,15 @@
         ],
         [
           {
-            "img": "difficult-alliance-ld",
-            "text": "Remain can win if we work together. The largest party is Liberal Democrat."
+            "img": "difficult-alliance-lab",
+            "text": "Remain can win if we work together. The largest party is Labour."
           },
           0.16666666666666666
         ],
         [
           {
-            "img": "difficult-alliance-lab",
-            "text": "Remain can win if we work together. The largest party is Labour."
+            "img": "difficult-alliance-ld",
+            "text": "Remain can win if we work together. The largest party is Liberal Democrat."
           },
           0.16666666666666666
         ],
@@ -13409,15 +13409,15 @@
         ],
         [
           {
-            "img": "remain-victory-lab",
-            "text": "Remain win: Labour"
+            "img": "remain-victory-ld",
+            "text": "Remain win: Liberal Democrats"
           },
           0.08333333333333333
         ],
         [
           {
-            "img": "remain-victory-ld",
-            "text": "Remain win: Liberal Democrats"
+            "img": "remain-victory-lab",
+            "text": "Remain win: Labour"
           },
           0.08333333333333333
         ]
@@ -13673,15 +13673,15 @@
         ],
         [
           {
-            "img": "difficult-alliance-lab",
-            "text": "Remain can win if we work together. The largest party is Labour."
+            "img": "remain-victory-ld",
+            "text": "Remain win: Liberal Democrats"
           },
           0.08333333333333333
         ],
         [
           {
-            "img": "remain-victory-ld",
-            "text": "Remain win: Liberal Democrats"
+            "img": "difficult-alliance-lab",
+            "text": "Remain can win if we work together. The largest party is Labour."
           },
           0.08333333333333333
         ]
@@ -14930,15 +14930,15 @@
         ],
         [
           {
-            "img": "difficult-alliance-ld",
-            "text": "Remain can win if we work together. The largest party is Liberal Democrat."
+            "img": "remain-victory-ld",
+            "text": "Remain win: Liberal Democrats"
           },
           0.16666666666666666
         ],
         [
           {
-            "img": "remain-victory-ld",
-            "text": "Remain win: Liberal Democrats"
+            "img": "difficult-alliance-ld",
+            "text": "Remain can win if we work together. The largest party is Liberal Democrat."
           },
           0.16666666666666666
         ]
@@ -17793,15 +17793,15 @@
         ],
         [
           {
-            "img": "leave-victory-con",
-            "text": "Largest party is Conservative. An alliance would not have helped here."
+            "img": "leave-victory-ukip",
+            "text": "Largest party is UKIP / Brexit. An alliance would not have helped here."
           },
           0.08333333333333333
         ],
         [
           {
-            "img": "leave-victory-ukip",
-            "text": "Largest party is UKIP / Brexit. An alliance would not have helped here."
+            "img": "leave-victory-con",
+            "text": "Largest party is Conservative. An alliance would not have helped here."
           },
           0.08333333333333333
         ],
@@ -18250,15 +18250,15 @@
         ],
         [
           {
-            "img": "remain-victory-lab",
-            "text": "Remain win: Labour"
+            "img": "difficult-alliance-ld",
+            "text": "Remain can win if we work together. The largest party is Liberal Democrat."
           },
           0.08333333333333333
         ],
         [
           {
-            "img": "difficult-alliance-ld",
-            "text": "Remain can win if we work together. The largest party is Liberal Democrat."
+            "img": "remain-victory-lab",
+            "text": "Remain win: Labour"
           },
           0.08333333333333333
         ]
@@ -18312,15 +18312,15 @@
         ],
         [
           {
-            "img": "remain-victory-lab",
-            "text": "Remain win: Labour"
+            "img": "leave-victory-ukip",
+            "text": "Largest party is UKIP / Brexit. An alliance would not have helped here."
           },
           0.08333333333333333
         ],
         [
           {
-            "img": "leave-victory-ukip",
-            "text": "Largest party is UKIP / Brexit. An alliance would not have helped here."
+            "img": "remain-victory-lab",
+            "text": "Remain win: Labour"
           },
           0.08333333333333333
         ]
@@ -20154,15 +20154,15 @@
         ],
         [
           {
-            "img": "difficult-alliance-lab",
-            "text": "Remain can win if we work together. The largest party is Labour."
+            "img": "leave-victory-ukip",
+            "text": "Largest party is UKIP / Brexit. An alliance would not have helped here."
           },
           0.16666666666666666
         ],
         [
           {
-            "img": "leave-victory-ukip",
-            "text": "Largest party is UKIP / Brexit. An alliance would not have helped here."
+            "img": "difficult-alliance-lab",
+            "text": "Remain can win if we work together. The largest party is Labour."
           },
           0.16666666666666666
         ]
@@ -20633,15 +20633,15 @@
         ],
         [
           {
-            "img": "remain-victory-lab",
-            "text": "Remain win: Labour"
+            "img": "difficult-alliance-ld",
+            "text": "Remain can win if we work together. The largest party is Liberal Democrat."
           },
           0.08333333333333333
         ],
         [
           {
-            "img": "difficult-alliance-ld",
-            "text": "Remain can win if we work together. The largest party is Liberal Democrat."
+            "img": "remain-victory-lab",
+            "text": "Remain win: Labour"
           },
           0.08333333333333333
         ]
@@ -22018,15 +22018,15 @@
         ],
         [
           {
-            "img": "remain-victory-lab",
-            "text": "Remain win: Labour"
+            "img": "difficult-alliance-plaid",
+            "text": "Remain can win if we work together. The largest party is Plaid Cymru."
           },
           0.08333333333333333
         ],
         [
           {
-            "img": "difficult-alliance-plaid",
-            "text": "Remain can win if we work together. The largest party is Plaid Cymru."
+            "img": "remain-victory-lab",
+            "text": "Remain win: Labour"
           },
           0.08333333333333333
         ]
@@ -23233,15 +23233,15 @@
         ],
         [
           {
-            "img": "difficult-alliance-lab",
-            "text": "Remain can win if we work together. The largest party is Labour."
+            "img": "difficult-alliance-ld",
+            "text": "Remain can win if we work together. The largest party is Liberal Democrat."
           },
           0.16666666666666666
         ],
         [
           {
-            "img": "difficult-alliance-ld",
-            "text": "Remain can win if we work together. The largest party is Liberal Democrat."
+            "img": "difficult-alliance-lab",
+            "text": "Remain can win if we work together. The largest party is Labour."
           },
           0.16666666666666666
         ],
@@ -24702,15 +24702,15 @@
         ],
         [
           {
-            "img": "difficult-alliance-ld",
-            "text": "Remain can win if we work together. The largest party is Liberal Democrat."
+            "img": "remain-victory-ld",
+            "text": "Remain win: Liberal Democrats"
           },
           0.3333333333333333
         ],
         [
           {
-            "img": "remain-victory-ld",
-            "text": "Remain win: Liberal Democrats"
+            "img": "difficult-alliance-ld",
+            "text": "Remain can win if we work together. The largest party is Liberal Democrat."
           },
           0.3333333333333333
         ]
@@ -24802,15 +24802,15 @@
         ],
         [
           {
-            "img": "difficult-alliance-lab",
-            "text": "Remain can win if we work together. The largest party is Labour."
+            "img": "difficult-alliance-ld",
+            "text": "Remain can win if we work together. The largest party is Liberal Democrat."
           },
           0.16666666666666666
         ],
         [
           {
-            "img": "difficult-alliance-ld",
-            "text": "Remain can win if we work together. The largest party is Liberal Democrat."
+            "img": "difficult-alliance-lab",
+            "text": "Remain can win if we work together. The largest party is Labour."
           },
           0.16666666666666666
         ],
@@ -25796,15 +25796,15 @@
         ],
         [
           {
-            "img": "remain-victory-lab",
-            "text": "Remain win: Labour"
+            "img": "difficult-alliance-ld",
+            "text": "Remain can win if we work together. The largest party is Liberal Democrat."
           },
           0.08333333333333333
         ],
         [
           {
-            "img": "difficult-alliance-ld",
-            "text": "Remain can win if we work together. The largest party is Liberal Democrat."
+            "img": "remain-victory-lab",
+            "text": "Remain win: Labour"
           },
           0.08333333333333333
         ]
@@ -27883,15 +27883,15 @@
         ],
         [
           {
-            "img": "difficult-alliance-lab",
-            "text": "Remain can win if we work together. The largest party is Labour."
+            "img": "leave-victory-ukip",
+            "text": "Largest party is UKIP / Brexit. An alliance would not have helped here."
           },
           0.08333333333333333
         ],
         [
           {
-            "img": "leave-victory-ukip",
-            "text": "Largest party is UKIP / Brexit. An alliance would not have helped here."
+            "img": "difficult-alliance-lab",
+            "text": "Remain can win if we work together. The largest party is Labour."
           },
           0.08333333333333333
         ]
@@ -28862,15 +28862,15 @@
         ],
         [
           {
-            "img": "remain-victory-lab",
-            "text": "Remain win: Labour"
+            "img": "difficult-alliance-ld",
+            "text": "Remain can win if we work together. The largest party is Liberal Democrat."
           },
           0.08333333333333333
         ],
         [
           {
-            "img": "difficult-alliance-ld",
-            "text": "Remain can win if we work together. The largest party is Liberal Democrat."
+            "img": "remain-victory-lab",
+            "text": "Remain win: Labour"
           },
           0.08333333333333333
         ]
@@ -29907,15 +29907,15 @@
         ],
         [
           {
-            "img": "difficult-alliance-lab",
-            "text": "Remain can win if we work together. The largest party is Labour."
+            "img": "difficult-alliance-ld",
+            "text": "Remain can win if we work together. The largest party is Liberal Democrat."
           },
           0.3333333333333333
         ],
         [
           {
-            "img": "difficult-alliance-ld",
-            "text": "Remain can win if we work together. The largest party is Liberal Democrat."
+            "img": "difficult-alliance-lab",
+            "text": "Remain can win if we work together. The largest party is Labour."
           },
           0.3333333333333333
         ]
@@ -30635,15 +30635,15 @@
       "outcome_frequency": [
         [
           {
-            "img": "difficult-alliance-ld",
-            "text": "Remain can win if we work together. The largest party is Liberal Democrat."
+            "img": "remain-victory-ld",
+            "text": "Remain win: Liberal Democrats"
           },
           0.3333333333333333
         ],
         [
           {
-            "img": "remain-victory-ld",
-            "text": "Remain win: Liberal Democrats"
+            "img": "difficult-alliance-ld",
+            "text": "Remain can win if we work together. The largest party is Liberal Democrat."
           },
           0.3333333333333333
         ],
@@ -31119,15 +31119,15 @@
         ],
         [
           {
-            "img": "difficult-alliance-lab",
-            "text": "Remain can win if we work together. The largest party is Labour."
+            "img": "leave-victory-ukip",
+            "text": "Largest party is UKIP / Brexit. An alliance would not have helped here."
           },
           0.08333333333333333
         ],
         [
           {
-            "img": "leave-victory-ukip",
-            "text": "Largest party is UKIP / Brexit. An alliance would not have helped here."
+            "img": "difficult-alliance-lab",
+            "text": "Remain can win if we work together. The largest party is Labour."
           },
           0.08333333333333333
         ]
