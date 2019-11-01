@@ -56,6 +56,7 @@ def _nearby_constituencies(constituency_pages, constituency):
 def generate_constituency(constituency_page, nearby_constituencies):
     _sanity(constituency_page)
     url_path = '/constituency/{}.html'.format(constituency_page.constituency.slug)
+
     html = JINJA_ENV.get_template(constituency_page.advice.template).render(
         static=STATIC,
         this_url=BASE_URL + url_path,
@@ -63,10 +64,11 @@ def generate_constituency(constituency_page, nearby_constituencies):
         constituency=constituency_page.constituency,
         datasets=constituency_page.datasets,
         outcomes=constituency_page.outcomes,
-        advice=constituency_page.advice,
         other_sites=constituency_page.other_site_suggestions,
         nearby_constituency=nearby_constituencies,
         known_ppc=constituency_page.known_ppc,
+        analysis=constituency_page.advice,
+        aggregation=constituency_page.advice,
         **constituency_page.advice.advice_kwargs)
     with open('generated' + url_path, 'w') as f:
         f.write(html)
