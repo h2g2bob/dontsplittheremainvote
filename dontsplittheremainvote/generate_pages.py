@@ -34,27 +34,12 @@ def generate_all_constituencies():
     datasets = get_all_datasets()
     generate_datasets(datasets)
 
-def _sanity(constituency_page):
-    parties = tuple(set(oth.party for oth in constituency_page.other_site_suggestions))
-    if len(parties) > 1:
-        print("Our external sources contracict! {}".format(constituency_page.constituency.slug))
-    if len(parties) > 0:
-        their_advice = {p.short for p in parties}
-        our_advice = constituency_page.advice.template
-        if our_advice in ('alliance-mixed.html', 'leave.html', 'remain.html', 'contradict.html', 'special-ignore-polling.html', 'special-contradict-polling.html'):
-            pass # no advice
-        elif our_advice.split('-')[-1].replace('.html', '') in their_advice:
-            pass # same advice
-        else:
-            print("{} {} != {}".format(constituency_page.constituency.slug, constituency_page.advice.template, their_advice))
-
 def _nearby_constituencies(constituency_pages, constituency):
     rcc = region_county_constituency(constituency_pages)
     same_county = rcc[constituency.region][constituency.county]
     return [cpg.constituency for cpg in same_county if cpg.constituency.slug != constituency.slug]
 
 def generate_constituency(constituency_page, nearby_constituencies):
-    _sanity(constituency_page)
     url_path = '/constituency/{}.html'.format(constituency_page.constituency.slug)
 
     html = JINJA_ENV.get_template(constituency_page.advice.template).render(
