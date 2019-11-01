@@ -4228,6 +4228,11 @@
       "other_sites": [
         {
           "party": "green",
+          "url": "https://tacticalvote.co.uk/#Brighton,Pavilion",
+          "who_suggests": "tacticalvote.co.uk"
+        },
+        {
+          "party": "green",
           "url": "https://tactical.vote/brighton-pavilion",
           "who_suggests": "tactical.vote"
         },
@@ -9312,6 +9317,11 @@
         "slug": "east-devon"
       },
       "other_sites": [
+        {
+          "party": "other",
+          "url": "https://tacticalvote.co.uk/#EastDevon",
+          "who_suggests": "tacticalvote.co.uk"
+        },
         {
           "party": "ind",
           "url": "https://tactical.vote/east-devon",
@@ -28399,11 +28409,6 @@
         "slug": "totnes"
       },
       "other_sites": [
-        {
-          "party": "lab",
-          "url": "https://tactical.vote/totnes",
-          "who_suggests": "tactical.vote"
-        },
         {
           "party": "ld",
           "url": "https://getvoting.org/",
