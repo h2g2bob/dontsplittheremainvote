@@ -35,7 +35,7 @@ class ConstituencyPage(NamedTuple):
         possible = tuple(suggest.party for suggest in self.other_sites_plus_dontsplit)
         if len(possible) < 2:
             return Advice(
-                image='other.png',
+                image='difficult-alliance.png',
                 template='pending.html')
 
         possible_set = set(possible)
@@ -47,7 +47,7 @@ class ConstituencyPage(NamedTuple):
                 image='alliance-{}.png'.format(party.short),
                 template='alliance-{}.html'.format(party.short))
         return Advice(
-            image='error.png',
+            image='difficult-alliance.png',
             template='contradict.html')
 
     @property
