@@ -4,6 +4,7 @@ from .advice import outcome_frequency
 from .constituency import all_constituencies
 from .constituency import Constituency
 from .dataset import Dataset
+from .other_sites import Aggregation
 from .other_sites import OtherSiteSuggestion
 from .other_sites import dontsplit_suggestion
 from .ppc import PPC
@@ -28,14 +29,13 @@ class ConstituencyPage(NamedTuple):
         return get_advice(self.datasets.values(), self.constituency)
 
     @property
-    def aggregation(self) -> Advice:
+    def aggregation(self) -> Aggregation:
         """From the list of other_site suggestions (plus our own
         suggestion), return an Advice of who to vote for.
         """
         possible = tuple(suggest.party for suggest in self.other_sites_plus_dontsplit)
         if len(possible) < 2:
-            return Advice(
-                image='difficult-alliance.png',
+            return Aggregation(
                 template='pending.html')
 
         possible_set = set(possible)
@@ -43,11 +43,10 @@ class ConstituencyPage(NamedTuple):
             [party] = possible_set
             if party.short == 'other':
                 raise ValueError((self.other_sites_plus_dontsplit, self.constituency))
-            return Advice(
-                image='alliance-{}.png'.format(party.short),
+            return Aggregation(
+                party=party,
                 template='vote-{}.html'.format(party.short))
-        return Advice(
-            image='difficult-alliance.png',
+        return Aggregation(
             template='contradict.html')
 
     @property

@@ -36,6 +36,18 @@ class OtherSiteSuggestion(NamedTuple):
         }
 
 
+class Aggregation(NamedTuple):
+    """The advice box at the top of the page"""
+    template: str
+    party: Party = None
+
+    def as_json(self):
+        return {
+            'template': self.template,
+            'party': self.party.short if self.party is not None else None,
+        }
+
+
 def dontsplit_suggestion(party: Party, constituency: Constituency) -> OtherSiteSuggestion:
     return OtherSiteSuggestion(
             who_suggests='Don\'t Split the Remain Vote',
