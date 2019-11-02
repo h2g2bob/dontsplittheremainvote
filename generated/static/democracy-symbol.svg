@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Generator: Adobe Illustrator 15.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.1"
+   id="Layer_1"
+   x="0px"
+   y="0px"
+   width="400"
+   height="400"
+   viewBox="0 0 399.99998 400"
+   enable-background="new 0 0 595.28 595.276"
+   xml:space="preserve"
+   sodipodi:docname="democracy-symbol.svg"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
+   inkscape:export-filename="/home/user/code/dontsplittheremainvote/generated/static/democracy-symbol.png"
+   inkscape:export-xdpi="48"
+   inkscape:export-ydpi="48"><metadata
+   id="metadata15"><rdf:RDF><cc:Work
+       rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
+         rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title></dc:title></cc:Work></rdf:RDF></metadata><defs
+   id="defs13" /><sodipodi:namedview
+   pagecolor="#ffffff"
+   bordercolor="#666666"
+   borderopacity="1"
+   objecttolerance="10"
+   gridtolerance="10"
+   guidetolerance="10"
+   inkscape:pageopacity="0"
+   inkscape:pageshadow="2"
+   inkscape:window-width="1366"
+   inkscape:window-height="669"
+   id="namedview11"
+   showgrid="false"
+   inkscape:zoom="0.39645475"
+   inkscape:cx="-2041.8451"
+   inkscape:cy="277.45916"
+   inkscape:window-x="0"
+   inkscape:window-y="28"
+   inkscape:window-maximized="1"
+   inkscape:current-layer="Layer_1" />
+<g
+   id="g4"
+   transform="translate(-97.4,-97.293)">
+	<path
+   d="m 297.4,157.433 c 37.358,0 72.48,14.548 98.896,40.964 26.416,26.416 40.964,61.538 40.964,98.896 0,37.358 -14.548,72.48 -40.964,98.896 -26.416,26.416 -61.538,40.964 -98.896,40.964 -37.358,0 -72.48,-14.548 -98.896,-40.964 -26.416,-26.416 -40.964,-61.538 -40.964,-98.896 0,-37.358 14.548,-72.48 40.964,-98.896 26.416,-26.416 61.538,-40.964 98.896,-40.964 m 0,-27 c -92.154,0 -166.86,74.706 -166.86,166.86 0,92.154 74.706,166.86 166.86,166.86 92.155,0 166.86,-74.706 166.86,-166.86 0,-92.154 -74.705,-166.86 -166.86,-166.86 z"
+   id="path2"
+   inkscape:connector-curvature="0" />
+</g>
+<g
+   id="g8"
+   transform="translate(-97.4,-97.293)">
+	<path
+   d="m 369.22,225.473 v 143.64 H 225.58 v -143.64 h 143.64 m 27,-27 H 198.58 v 197.64 h 197.64 z"
+   id="path6"
+   inkscape:connector-curvature="0" />
+</g>
+</svg>
