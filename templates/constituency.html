@@ -40,38 +40,11 @@
 
 <div class="widebutton"><a href="https://www.gov.uk/register-to-vote">gov.uk/register-to-vote</a></div>
 
-<h2 id="Analysis">Analysis</h2>
-
-<div class="section analysis">
-{% include 'analysis/' + analysis.template %}
-</div>
-
-<div class="section outcome-summary">
-  <h3>Possible election results</h3>
-{% for outcome, percent in outcomes %}
-  <div class="outcome">
-    <img class="logo" src="{{static}}/logo/{{outcome.logo}}.png" />
-    {{(percent * 100)|round|int}}%
-    {{outcome.name}}
-    <br style="clear: both" />
-  </div>
-{% endfor %}
-</div>
-
-<h3>Detailed scenarios</h3>
+<h2>Election results</h2>
 
 <div class="section scenarios">
-{% for dataset, result in datasets.items() %}
-  <div class="scenario">
-    <h4><a href="/datasets.html#{{dataset.code}}">{{dataset.title}}</a></h4>
-    <img class="logo" src="{{static}}/logo/{{result.classify.logo}}.png" />
-    <div class="beside-logo">
-      <div>{{result.classify.name}}</div>
-      <div class="barchart">{% for party, vote in result.remainers() %}<span class="bar" title="{{party.name}}" style="background: {{party.color}}; width: {{(100 * vote)|int}}%">&nbsp;</span>{% endfor %}</div>
-      <div class="barchart">{% for party, vote in result.leavers() %}<span class="bar" title="{{party.name}}" style="background: {{party.color}}; width: {{(100 * vote)|int}}%">&nbsp;</span>{% endfor %}</div>
-    </div>
-    <br style="clear: both" />
-  </div>
+{% for dataset, result in datasets_election.items() %}
+  {% include 'scenario.html' %}
 {% endfor %}
 </div>
 
@@ -86,6 +59,35 @@
 {% else %}
 No candidates announced yet.
 {% endif %}
+
+<h2 id="Analysis">Our own recommendation</h2>
+
+<div class="section analysis">
+{% include 'analysis/' + analysis.template %}
+</div>
+
+<div id="more-scenarios-link" style="padding: 0.2em;"><a href="#" onclick="document.getElementById('more-scenarios').style=display=''; document.getElementById('more-scenarios-link').style.display='none'; return false" style="width: 50%; display: inline-block;">Why we think this &mdash; election results adjusted for polling</a></div>
+<div id="more-scenarios" style="display: none;">
+
+<h3>Which outcomes are possible?</h3>
+<div class="section outcome-summary">
+{% for outcome, percent in outcomes %}
+  <div class="outcome">
+    <img class="logo" src="{{static}}/logo/{{outcome.logo}}.png" />
+    {{(percent * 100)|round|int}}%
+    {{outcome.name}}
+    <br style="clear: both" />
+  </div>
+{% endfor %}
+</div>
+
+<div class="section scenarios">
+{% for dataset, result in datasets_polling.items() %}
+  {% include 'scenario.html' %}
+{% endfor %}
+</div>
+
+</div>{# end hidden section #}
 
 <h2>Social</h2>
 

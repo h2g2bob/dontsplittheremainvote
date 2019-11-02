@@ -54,5 +54,6 @@ def _results_by_constituency() -> Dict[Constituency, Result]:
 DATA_2019 = Dataset(
     code='eu2019',
     title='European Parliament 2019',
+    election_result=True,
     longdesc=DOC,
     datafunc=_results_by_constituency)

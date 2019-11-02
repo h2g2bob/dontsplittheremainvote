@@ -38,5 +38,6 @@ def _results_by_constituency() -> Dict[Constituency, Result]:
 DATA_2017 = Dataset(
     code='ge2017',
     title='General Election 2017',
+    election_result=True,
     longdesc=DOC,
     datafunc=_results_by_constituency)

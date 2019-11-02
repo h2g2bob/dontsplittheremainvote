@@ -22,6 +22,20 @@ class ConstituencyPage(NamedTuple):
     known_ppc: List[PPC]
 
     @property
+    def datasets_election(self):
+        return {
+            dset: result
+            for (dset, result) in self.datasets.items()
+            if dset.election_result}
+
+    @property
+    def datasets_polling(self):
+        return {
+            dset: result
+            for (dset, result) in self.datasets.items()
+            if not dset.election_result}
+
+    @property
     def analysis(self) -> Analysis:
         """From the set of results/outcomes we modelled, return
         an Advice of who to vote for.
