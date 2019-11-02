@@ -9159,7 +9159,7 @@
       },
       "analysis": {
         "template": "special-labour-leave.html",
-        "we_recommend_party": null
+        "we_recommend_party": "ld"
       },
       "constituency": {
         "country": "England",

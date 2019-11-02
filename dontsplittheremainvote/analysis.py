@@ -15,9 +15,7 @@ from .party import Party
 from .result import Result
 
 class Analysis(NamedTuple):
-    image: str
     template: str = 'constituency.html'
-    advice_kwargs: dict = {}
     we_recommend_party: Party = None
 
     def as_json(self):
@@ -39,17 +37,10 @@ def outcome_frequency(results: List[Result]) -> List[Tuple[ClassifyResult, float
     return classify_frequency
 
 def get_analysis(results, constituency) -> Analysis:
-    # if constituency.slug == 'belfast-south':
-    #     return Analysis(
-    #         image='error.png',
-    #         template='contradict.html')
     if constituency.slug == 'don-valley':
         return Analysis(
-            image='error.png',
             template='special-labour-leave.html',
-            advice_kwargs={
-                'real_remain': LD,
-                'current_mp': 'Caroline Flint'})
+            we_recommend_party=LD)
 
     advice = _get_analysis(results)
 
@@ -62,20 +53,7 @@ def get_analysis(results, constituency) -> Analysis:
     }
     if constituency.slug in INDEPENDENT_REMAIN:
         return Analysis(
-            image='other.png',
-            template='special-independent-remain.html',
-            advice_kwargs={
-                'party': INDEPENDENT_REMAIN[constituency.slug]})
-
-    # Override our recomendation?
-    # SLIGHT_LAB_POLL_BUT_LD_RECOMMEND = []
-    # if constituency.slug in SLIGHT_LAB_POLL_BUT_LD_RECOMMEND and advice.template == 'alliance-lab.html':
-    #     return Advice(
-    #         image='difficult-alliance.png',
-    #         template='special-ignore-polling.html',
-    #         advice_kwargs={
-    #             'we_said': LAB,
-    #             'they_said': LD})
+            template='special-independent-remain.html')
 
     return advice
 
@@ -84,18 +62,15 @@ def _get_analysis(results) -> Analysis:
 
     if not any(clfy.remain_can_win for clfy in outcomes.keys()):
         return Analysis(
-            image='leave.png',
             template='leave.html')
 
     if all(clfy.remain_can_win and not clfy.alliance_helpful for clfy in outcomes.keys()):
         return Analysis(
-            image='remain.png',
             template='remain.html')
 
     if not any(clfy.alliance_helpful for clfy in outcomes.keys()):
         # eg: speaker's constituency and other strange edge-cases
         return Analysis(
-            image='other.png',
             template='remain-or-leave-no-alliance.html')
 
     leading_remain_party = set(
@@ -112,15 +87,12 @@ def _get_analysis(results) -> Analysis:
         party = tuple(leading_remain_party)[0]
         if chance_of_success < 0.5:
             return Analysis(
-                image='difficult-alliance.png',
                 template='no-conflict-hard.html',
                 we_recommend_party=get_party(party))
         return Analysis(
-            image='alliance-{}.png'.format(party),
             template='no-conflict-easy.html',
             we_recommend_party=get_party(party))
 
     # no single party to back
     return Analysis(
-        image='difficult-alliance.png',
         template='alliance-mixed.html')
