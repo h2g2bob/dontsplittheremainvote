@@ -12,6 +12,12 @@
 
 {% include 'agg/' + aggregation.template %}
 
+{% for other_site in other_sites %}
+<div class="othersite">
+  <img class="tick" src="{{static}}/logo/tick/{{ other_site.party.short }}.png" alt="{{ other_site.party.name }} tick" />
+  <em>{{ other_site.who_suggests }}</em> <a href="{{ other_site.url }}">recommends</a> voting for <strong class="party party-{{ other_site.party.code }}">{{ other_site.party.name }}</strong>.
+</div>
+{% endfor %}
 {% if analysis.we_recommend_party %}
 <div class="othersite">
   <img class="tick" src="{{static}}/logo/tick/{{ analysis.we_recommend_party.short }}.png" alt="{{ analysis.we_recommend_party.name }} tick" />
@@ -23,12 +29,6 @@
   Don't Split the Remain Vote does not have a strong recommendation
 </div>
 {% endif %}
-{% for other_site in other_sites %}
-<div class="othersite">
-  <img class="tick" src="{{static}}/logo/tick/{{ other_site.party.short }}.png" alt="{{ other_site.party.name }} tick" />
-  <em>{{ other_site.who_suggests }}</em> <a href="{{ other_site.url }}">recommends</a> voting for <strong class="party party-{{ other_site.party.code }}">{{ other_site.party.name }}</strong>.
-</div>
-{% endfor %}
 <div class="othersite">
   <img class="tick" src="{{static}}/logo/tick/other.png" alt="Other tick" />
   <strong>Waiting for recommendations</strong> from <em>People's Vote</em>, <em>Remain United</em>, <em>Unite to Remain</em> and others.
