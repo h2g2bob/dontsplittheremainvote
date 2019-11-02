@@ -3,7 +3,7 @@
   "constituencies": {
     "aberavon": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -55,7 +55,7 @@
     },
     "aberconwy": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -114,7 +114,7 @@
     },
     "aberdeen-north": {
       "aggregation": {
-        "template": "alliance-snp.html",
+        "template": "vote-snp.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -156,7 +156,7 @@
     },
     "aberdeen-south": {
       "aggregation": {
-        "template": "alliance-snp.html",
+        "template": "vote-snp.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -292,7 +292,7 @@
     },
     "aldridge-brownhills": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -400,7 +400,7 @@
     },
     "alyn-and-deeside": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -466,7 +466,7 @@
     },
     "amber-valley": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -520,7 +520,7 @@
     },
     "angus": {
       "aggregation": {
-        "template": "alliance-snp.html",
+        "template": "vote-snp.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -602,7 +602,7 @@
     },
     "argyll-and-bute": {
       "aggregation": {
-        "template": "alliance-snp.html",
+        "template": "vote-snp.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -696,7 +696,7 @@
     },
     "ashfield": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -762,7 +762,7 @@
     },
     "ashford": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -823,7 +823,7 @@
     },
     "ashton-under-lyne": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -929,7 +929,7 @@
     },
     "ayr-carrick-and-cumnock": {
       "aggregation": {
-        "template": "alliance-snp.html",
+        "template": "vote-snp.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -976,7 +976,7 @@
     },
     "banbury": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -1030,7 +1030,7 @@
     },
     "banff-and-buchan": {
       "aggregation": {
-        "template": "alliance-snp.html",
+        "template": "vote-snp.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -1077,7 +1077,7 @@
     },
     "barking": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -1122,7 +1122,7 @@
     },
     "barnsley-central": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -1181,7 +1181,7 @@
     },
     "barnsley-east": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -1240,7 +1240,7 @@
     },
     "barrow-and-furness": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -1299,7 +1299,7 @@
     },
     "basildon-and-billericay": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -1405,7 +1405,7 @@
     },
     "bassetlaw": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -1464,7 +1464,7 @@
     },
     "bath": {
       "aggregation": {
-        "template": "alliance-ld.html",
+        "template": "vote-ld.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -1516,7 +1516,7 @@
     },
     "batley-and-spen": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -1568,7 +1568,7 @@
     },
     "battersea": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -1735,7 +1735,7 @@
     },
     "bedford": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -1794,7 +1794,7 @@
     },
     "belfast-east": {
       "aggregation": {
-        "template": "alliance-alliance.html",
+        "template": "vote-alliance.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -1883,7 +1883,7 @@
     },
     "belfast-south": {
       "aggregation": {
-        "template": "alliance-sdlp.html",
+        "template": "vote-sdlp.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -2062,7 +2062,7 @@
     },
     "berwickshire-roxburgh-and-selkirk": {
       "aggregation": {
-        "template": "alliance-snp.html",
+        "template": "vote-snp.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -2111,7 +2111,7 @@
     },
     "bethnal-green-and-bow": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -2156,7 +2156,7 @@
     },
     "beverley-and-holderness": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -2278,7 +2278,7 @@
     },
     "bexleyheath-and-crayford": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -2332,7 +2332,7 @@
     },
     "birkenhead": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -2372,7 +2372,7 @@
     },
     "birmingham-edgbaston": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -2438,7 +2438,7 @@
     },
     "birmingham-erdington": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -2490,7 +2490,7 @@
     },
     "birmingham-hall-green": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -2535,7 +2535,7 @@
     },
     "birmingham-hodge-hill": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -2580,7 +2580,7 @@
     },
     "birmingham-ladywood": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -2625,7 +2625,7 @@
     },
     "birmingham-northfield": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -2677,7 +2677,7 @@
     },
     "birmingham-perry-barr": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -2722,7 +2722,7 @@
     },
     "birmingham-selly-oak": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -2781,7 +2781,7 @@
     },
     "birmingham-yardley": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -2826,7 +2826,7 @@
     },
     "bishop-auckland": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -2883,7 +2883,7 @@
     },
     "blackburn": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -2928,7 +2928,7 @@
     },
     "blackley-and-broughton": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -2973,7 +2973,7 @@
     },
     "blackpool-north-and-cleveleys": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -3027,7 +3027,7 @@
     },
     "blackpool-south": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -3086,7 +3086,7 @@
     },
     "blaenau-gwent": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -3128,7 +3128,7 @@
     },
     "blaydon": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -3187,7 +3187,7 @@
     },
     "blyth-valley": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -3300,7 +3300,7 @@
     },
     "bolsover": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -3359,7 +3359,7 @@
     },
     "bolton-north-east": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -3411,7 +3411,7 @@
     },
     "bolton-south-east": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -3456,7 +3456,7 @@
     },
     "bolton-west": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -3522,7 +3522,7 @@
     },
     "bootle": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -3567,7 +3567,7 @@
     },
     "boston-and-skegness": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -3675,7 +3675,7 @@
     },
     "bournemouth-east": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -3729,7 +3729,7 @@
     },
     "bournemouth-west": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -3844,7 +3844,7 @@
     },
     "bradford-east": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -3889,7 +3889,7 @@
     },
     "bradford-south": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -3941,7 +3941,7 @@
     },
     "bradford-west": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -3986,7 +3986,7 @@
     },
     "braintree": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -4047,7 +4047,7 @@
     },
     "brecon-and-radnorshire": {
       "aggregation": {
-        "template": "alliance-ld.html",
+        "template": "vote-ld.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -4113,7 +4113,7 @@
     },
     "brent-central": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -4158,7 +4158,7 @@
     },
     "brent-north": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -4203,7 +4203,7 @@
     },
     "brentford-and-isleworth": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -4335,7 +4335,7 @@
     },
     "bridgend": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -4448,7 +4448,7 @@
     },
     "brigg-and-goole": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -4495,7 +4495,7 @@
     },
     "brighton-kemptown": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -4561,7 +4561,7 @@
     },
     "brighton-pavilion": {
       "aggregation": {
-        "template": "alliance-green.html",
+        "template": "vote-green.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -4606,7 +4606,7 @@
     },
     "bristol-east": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -4665,7 +4665,7 @@
     },
     "bristol-north-west": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -4731,7 +4731,7 @@
     },
     "bristol-south": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -4790,7 +4790,7 @@
     },
     "bristol-west": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -4896,7 +4896,7 @@
     },
     "bromley-and-chislehurst": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -5004,7 +5004,7 @@
     },
     "broxbourne": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -5154,7 +5154,7 @@
     },
     "burnley": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -5213,7 +5213,7 @@
     },
     "burton": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -5267,7 +5267,7 @@
     },
     "bury-north": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -5319,7 +5319,7 @@
     },
     "bury-south": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -5420,7 +5420,7 @@
     },
     "caerphilly": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -5528,7 +5528,7 @@
     },
     "calder-valley": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -5587,7 +5587,7 @@
     },
     "camberwell-and-peckham": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -5632,7 +5632,7 @@
     },
     "camborne-and-redruth": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -5729,7 +5729,7 @@
     },
     "cannock-chase": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -5783,7 +5783,7 @@
     },
     "canterbury": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -5847,7 +5847,7 @@
     },
     "cardiff-central": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -5913,7 +5913,7 @@
     },
     "cardiff-north": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -5972,7 +5972,7 @@
     },
     "cardiff-south-and-penarth": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -6031,7 +6031,7 @@
     },
     "cardiff-west": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -6090,7 +6090,7 @@
     },
     "carlisle": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -6144,7 +6144,7 @@
     },
     "carmarthen-east-and-dinefwr": {
       "aggregation": {
-        "template": "alliance-plaid.html",
+        "template": "vote-plaid.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -6191,7 +6191,7 @@
     },
     "carmarthen-west-and-south-pembrokeshire": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -6238,7 +6238,7 @@
     },
     "carshalton-and-wallington": {
       "aggregation": {
-        "template": "alliance-ld.html",
+        "template": "vote-ld.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -6354,7 +6354,7 @@
     },
     "central-ayrshire": {
       "aggregation": {
-        "template": "alliance-snp.html",
+        "template": "vote-snp.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -6551,7 +6551,7 @@
     },
     "charnwood": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -6598,7 +6598,7 @@
     },
     "chatham-and-aylesford": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -6652,7 +6652,7 @@
     },
     "cheadle": {
       "aggregation": {
-        "template": "alliance-ld.html",
+        "template": "vote-ld.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -6822,7 +6822,7 @@
     },
     "cheltenham": {
       "aggregation": {
-        "template": "alliance-ld.html",
+        "template": "vote-ld.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -6928,7 +6928,7 @@
     },
     "chesterfield": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -7034,7 +7034,7 @@
     },
     "chingford-and-woodford-green": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -7098,7 +7098,7 @@
     },
     "chippenham": {
       "aggregation": {
-        "template": "alliance-ld.html",
+        "template": "vote-ld.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -7145,7 +7145,7 @@
     },
     "chipping-barnet": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -7218,7 +7218,7 @@
     },
     "chorley": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -7378,7 +7378,7 @@
     },
     "city-of-chester": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -7437,7 +7437,7 @@
     },
     "city-of-durham": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -7489,7 +7489,7 @@
     },
     "clacton": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -7541,7 +7541,7 @@
     },
     "cleethorpes": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -7588,7 +7588,7 @@
     },
     "clwyd-south": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -7640,7 +7640,7 @@
     },
     "clwyd-west": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -7789,7 +7789,7 @@
     },
     "colne-valley": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -7855,7 +7855,7 @@
     },
     "congleton": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -7909,7 +7909,7 @@
     },
     "copeland": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -7975,7 +7975,7 @@
     },
     "corby": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -8039,7 +8039,7 @@
     },
     "coventry-north-east": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -8084,7 +8084,7 @@
     },
     "coventry-north-west": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -8136,7 +8136,7 @@
     },
     "coventry-south": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -8195,7 +8195,7 @@
     },
     "crawley": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -8242,7 +8242,7 @@
     },
     "crewe-and-nantwich": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -8308,7 +8308,7 @@
     },
     "croydon-central": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -8367,7 +8367,7 @@
     },
     "croydon-north": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -8508,7 +8508,7 @@
     },
     "cynon-valley": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -8560,7 +8560,7 @@
     },
     "dagenham-and-rainham": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -8619,7 +8619,7 @@
     },
     "darlington": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -8671,7 +8671,7 @@
     },
     "dartford": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -8779,7 +8779,7 @@
     },
     "delyn": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -8838,7 +8838,7 @@
     },
     "denton-and-reddish": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -8890,7 +8890,7 @@
     },
     "derby-north": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -8949,7 +8949,7 @@
     },
     "derby-south": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -9102,7 +9102,7 @@
     },
     "dewsbury": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -9213,7 +9213,7 @@
     },
     "doncaster-central": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -9272,7 +9272,7 @@
     },
     "doncaster-north": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -9338,7 +9338,7 @@
     },
     "dover": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -9404,7 +9404,7 @@
     },
     "dudley-north": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -9470,7 +9470,7 @@
     },
     "dudley-south": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -9524,7 +9524,7 @@
     },
     "dulwich-and-west-norwood": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -9576,7 +9576,7 @@
     },
     "dumfries-and-galloway": {
       "aggregation": {
-        "template": "alliance-snp.html",
+        "template": "vote-snp.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -9618,7 +9618,7 @@
     },
     "dumfriesshire-clydesdale-and-tweeddale": {
       "aggregation": {
-        "template": "alliance-snp.html",
+        "template": "vote-snp.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -9665,7 +9665,7 @@
     },
     "dundee-east": {
       "aggregation": {
-        "template": "alliance-snp.html",
+        "template": "vote-snp.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -9769,7 +9769,7 @@
     },
     "dwyfor-meirionnydd": {
       "aggregation": {
-        "template": "alliance-plaid.html",
+        "template": "vote-plaid.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -9814,7 +9814,7 @@
     },
     "ealing-central-and-acton": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -9873,7 +9873,7 @@
     },
     "ealing-north": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -9918,7 +9918,7 @@
     },
     "ealing-southall": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -9963,7 +9963,7 @@
     },
     "easington": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -10022,7 +10022,7 @@
     },
     "east-antrim": {
       "aggregation": {
-        "template": "alliance-alliance.html",
+        "template": "vote-alliance.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -10166,7 +10166,7 @@
     },
     "east-ham": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -10384,7 +10384,7 @@
     },
     "east-renfrewshire": {
       "aggregation": {
-        "template": "alliance-snp.html",
+        "template": "vote-snp.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -10485,7 +10485,7 @@
     },
     "east-worthing-and-shoreham": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -10586,7 +10586,7 @@
     },
     "eastbourne": {
       "aggregation": {
-        "template": "alliance-ld.html",
+        "template": "vote-ld.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -10647,7 +10647,7 @@
     },
     "eastleigh": {
       "aggregation": {
-        "template": "alliance-ld.html",
+        "template": "vote-ld.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -10879,7 +10879,7 @@
     },
     "edinburgh-south-west": {
       "aggregation": {
-        "template": "alliance-snp.html",
+        "template": "vote-snp.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -10982,7 +10982,7 @@
     },
     "edmonton": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -11027,7 +11027,7 @@
     },
     "ellesmere-port-and-neston": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -11147,7 +11147,7 @@
     },
     "eltham": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -11206,7 +11206,7 @@
     },
     "enfield-north": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -11253,7 +11253,7 @@
     },
     "enfield-southgate": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -11444,7 +11444,7 @@
     },
     "erewash": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -11498,7 +11498,7 @@
     },
     "erith-and-thamesmead": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -11597,7 +11597,7 @@
     },
     "exeter": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -11820,7 +11820,7 @@
     },
     "feltham-and-heston": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -12090,7 +12090,7 @@
     },
     "forest-of-dean": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -12187,7 +12187,7 @@
     },
     "fylde": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -12241,7 +12241,7 @@
     },
     "gainsborough": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -12288,7 +12288,7 @@
     },
     "garston-and-halewood": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -12333,7 +12333,7 @@
     },
     "gateshead": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -12385,7 +12385,7 @@
     },
     "gedling": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -12442,7 +12442,7 @@
     },
     "gillingham-and-rainham": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -12773,7 +12773,7 @@
     },
     "gloucester": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -12827,7 +12827,7 @@
     },
     "gordon": {
       "aggregation": {
-        "template": "alliance-snp.html",
+        "template": "vote-snp.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -12874,7 +12874,7 @@
     },
     "gosport": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -12921,7 +12921,7 @@
     },
     "gower": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -13027,7 +13027,7 @@
     },
     "gravesham": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -13081,7 +13081,7 @@
     },
     "great-grimsby": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -13147,7 +13147,7 @@
     },
     "great-yarmouth": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -13201,7 +13201,7 @@
     },
     "greenwich-and-woolwich": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -13253,7 +13253,7 @@
     },
     "guildford": {
       "aggregation": {
-        "template": "alliance-ld.html",
+        "template": "vote-ld.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -13307,7 +13307,7 @@
     },
     "hackney-north-and-stoke-newington": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -13352,7 +13352,7 @@
     },
     "hackney-south-and-shoreditch": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -13397,7 +13397,7 @@
     },
     "halesowen-and-rowley-regis": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -13456,7 +13456,7 @@
     },
     "halifax": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -13569,7 +13569,7 @@
     },
     "halton": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -13621,7 +13621,7 @@
     },
     "hammersmith": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -13680,7 +13680,7 @@
     },
     "hampstead-and-kilburn": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -13793,7 +13793,7 @@
     },
     "harlow": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -13852,7 +13852,7 @@
     },
     "harrogate-and-knaresborough": {
       "aggregation": {
-        "template": "alliance-ld.html",
+        "template": "vote-ld.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -13899,7 +13899,7 @@
     },
     "harrow-east": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -13958,7 +13958,7 @@
     },
     "harrow-west": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -14010,7 +14010,7 @@
     },
     "hartlepool": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -14062,7 +14062,7 @@
     },
     "harwich-and-north-essex": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -14123,7 +14123,7 @@
     },
     "hastings-and-rye": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -14250,7 +14250,7 @@
     },
     "hayes-and-harlington": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -14295,7 +14295,7 @@
     },
     "hazel-grove": {
       "aggregation": {
-        "template": "alliance-ld.html",
+        "template": "vote-ld.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -14413,7 +14413,7 @@
     },
     "hemsworth": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -14827,7 +14827,7 @@
     },
     "heywood-and-middleton": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -14879,7 +14879,7 @@
     },
     "high-peak": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -15006,7 +15006,7 @@
     },
     "holborn-and-st-pancras": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -15058,7 +15058,7 @@
     },
     "hornchurch-and-upminster": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -15194,7 +15194,7 @@
     },
     "houghton-and-sunderland-south": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -15253,7 +15253,7 @@
     },
     "hove": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -15319,7 +15319,7 @@
     },
     "huddersfield": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -15425,7 +15425,7 @@
     },
     "hyndburn": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -15477,7 +15477,7 @@
     },
     "ilford-north": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -15529,7 +15529,7 @@
     },
     "ilford-south": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -15604,7 +15604,7 @@
     },
     "inverness-nairn-badenoch-and-strathspey": {
       "aggregation": {
-        "template": "alliance-snp.html",
+        "template": "vote-snp.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -15644,7 +15644,7 @@
     },
     "ipswich": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -15783,7 +15783,7 @@
     },
     "islington-north": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -15828,7 +15828,7 @@
     },
     "islington-south-and-finsbury": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -15880,7 +15880,7 @@
     },
     "islwyn": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -15932,7 +15932,7 @@
     },
     "jarrow": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -15991,7 +15991,7 @@
     },
     "keighley": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -16184,7 +16184,7 @@
     },
     "kettering": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -16280,7 +16280,7 @@
     },
     "kingston-and-surbiton": {
       "aggregation": {
-        "template": "alliance-ld.html",
+        "template": "vote-ld.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -16332,7 +16332,7 @@
     },
     "kingston-upon-hull-east": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -16391,7 +16391,7 @@
     },
     "kingston-upon-hull-north": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -16450,7 +16450,7 @@
     },
     "kingston-upon-hull-west-and-hessle": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -16509,7 +16509,7 @@
     },
     "kingswood": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -16605,7 +16605,7 @@
     },
     "knowsley": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -16679,7 +16679,7 @@
     },
     "lanark-and-hamilton-east": {
       "aggregation": {
-        "template": "alliance-snp.html",
+        "template": "vote-snp.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -16719,7 +16719,7 @@
     },
     "lancaster-and-fleetwood": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -16785,7 +16785,7 @@
     },
     "leeds-central": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -16830,7 +16830,7 @@
     },
     "leeds-east": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -16882,7 +16882,7 @@
     },
     "leeds-north-east": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -17004,7 +17004,7 @@
     },
     "leeds-west": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -17056,7 +17056,7 @@
     },
     "leicester-east": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -17101,7 +17101,7 @@
     },
     "leicester-south": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -17146,7 +17146,7 @@
     },
     "leicester-west": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -17191,7 +17191,7 @@
     },
     "leigh": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -17250,7 +17250,7 @@
     },
     "lewes": {
       "aggregation": {
-        "template": "alliance-ld.html",
+        "template": "vote-ld.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -17302,7 +17302,7 @@
     },
     "lewisham-deptford": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -17354,7 +17354,7 @@
     },
     "lewisham-east": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -17406,7 +17406,7 @@
     },
     "lewisham-west-and-penge": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -17465,7 +17465,7 @@
     },
     "leyton-and-wanstead": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -17571,7 +17571,7 @@
     },
     "lincoln": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -17665,7 +17665,7 @@
     },
     "liverpool-riverside": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -17710,7 +17710,7 @@
     },
     "liverpool-walton": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -17755,7 +17755,7 @@
     },
     "liverpool-wavertree": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -17795,7 +17795,7 @@
     },
     "liverpool-west-derby": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -17875,7 +17875,7 @@
     },
     "llanelli": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -17927,7 +17927,7 @@
     },
     "loughborough": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -17981,7 +17981,7 @@
     },
     "louth-and-horncastle": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -18082,7 +18082,7 @@
     },
     "luton-north": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -18129,7 +18129,7 @@
     },
     "luton-south": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -18338,7 +18338,7 @@
     },
     "makerfield": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -18463,7 +18463,7 @@
     },
     "manchester-central": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -18508,7 +18508,7 @@
     },
     "manchester-gorton": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -18595,7 +18595,7 @@
     },
     "mansfield": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -18715,7 +18715,7 @@
     },
     "meriden": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -18769,7 +18769,7 @@
     },
     "merthyr-tydfil-and-rhymney": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -18875,7 +18875,7 @@
     },
     "mid-derbyshire": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -18929,7 +18929,7 @@
     },
     "mid-dorset-and-north-poole": {
       "aggregation": {
-        "template": "alliance-ld.html",
+        "template": "vote-ld.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -19173,7 +19173,7 @@
     },
     "middlesbrough": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -19225,7 +19225,7 @@
     },
     "middlesbrough-south-and-east-cleveland": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -19340,7 +19340,7 @@
     },
     "milton-keynes-north": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -19401,7 +19401,7 @@
     },
     "milton-keynes-south": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -19462,7 +19462,7 @@
     },
     "mitcham-and-morden": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -19507,7 +19507,7 @@
     },
     "mole-valley": {
       "aggregation": {
-        "template": "alliance-ld.html",
+        "template": "vote-ld.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -19561,7 +19561,7 @@
     },
     "monmouth": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -19615,7 +19615,7 @@
     },
     "montgomeryshire": {
       "aggregation": {
-        "template": "alliance-ld.html",
+        "template": "vote-ld.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -19676,7 +19676,7 @@
     },
     "moray": {
       "aggregation": {
-        "template": "alliance-snp.html",
+        "template": "vote-snp.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -19723,7 +19723,7 @@
     },
     "morecambe-and-lunesdale": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -19784,7 +19784,7 @@
     },
     "morley-and-outwood": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -19914,7 +19914,7 @@
     },
     "neath": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -20128,7 +20128,7 @@
     },
     "newbury": {
       "aggregation": {
-        "template": "alliance-ld.html",
+        "template": "vote-ld.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -20175,7 +20175,7 @@
     },
     "newcastle-under-lyme": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -20234,7 +20234,7 @@
     },
     "newcastle-upon-tyne-central": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -20279,7 +20279,7 @@
     },
     "newcastle-upon-tyne-east": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -20338,7 +20338,7 @@
     },
     "newcastle-upon-tyne-north": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -20397,7 +20397,7 @@
     },
     "newport-east": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -20449,7 +20449,7 @@
     },
     "newport-west": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -20604,7 +20604,7 @@
     },
     "normanton-pontefract-and-castleford": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -20698,7 +20698,7 @@
     },
     "north-ayrshire-and-arran": {
       "aggregation": {
-        "template": "alliance-snp.html",
+        "template": "vote-snp.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -20738,7 +20738,7 @@
     },
     "north-cornwall": {
       "aggregation": {
-        "template": "alliance-ld.html",
+        "template": "vote-ld.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -20811,7 +20811,7 @@
     },
     "north-devon": {
       "aggregation": {
-        "template": "alliance-ld.html",
+        "template": "vote-ld.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -20986,7 +20986,7 @@
     },
     "north-durham": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -21146,7 +21146,7 @@
     },
     "north-east-derbyshire": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -21470,7 +21470,7 @@
     },
     "north-norfolk": {
       "aggregation": {
-        "template": "alliance-ld.html",
+        "template": "vote-ld.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -21522,7 +21522,7 @@
     },
     "north-shropshire": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -21630,7 +21630,7 @@
     },
     "north-swindon": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -21684,7 +21684,7 @@
     },
     "north-thanet": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -21738,7 +21738,7 @@
     },
     "north-tyneside": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -21790,7 +21790,7 @@
     },
     "north-warwickshire": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -21905,7 +21905,7 @@
     },
     "north-west-durham": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -22011,7 +22011,7 @@
     },
     "north-west-leicestershire": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -22072,7 +22072,7 @@
     },
     "north-west-norfolk": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -22133,7 +22133,7 @@
     },
     "north-wiltshire": {
       "aggregation": {
-        "template": "alliance-ld.html",
+        "template": "vote-ld.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -22180,7 +22180,7 @@
     },
     "northampton-north": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -22239,7 +22239,7 @@
     },
     "northampton-south": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -22293,7 +22293,7 @@
     },
     "norwich-north": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -22359,7 +22359,7 @@
     },
     "norwich-south": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -22425,7 +22425,7 @@
     },
     "nottingham-east": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -22465,7 +22465,7 @@
     },
     "nottingham-north": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -22510,7 +22510,7 @@
     },
     "nottingham-south": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -22569,7 +22569,7 @@
     },
     "nuneaton": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -22623,7 +22623,7 @@
     },
     "ochil-and-south-perthshire": {
       "aggregation": {
-        "template": "alliance-snp.html",
+        "template": "vote-snp.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -22670,7 +22670,7 @@
     },
     "ogmore": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -22722,7 +22722,7 @@
     },
     "old-bexley-and-sidcup": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -22769,7 +22769,7 @@
     },
     "oldham-east-and-saddleworth": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -22814,7 +22814,7 @@
     },
     "oldham-west-and-royton": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -22956,7 +22956,7 @@
     },
     "oxford-east": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -23008,7 +23008,7 @@
     },
     "oxford-west-and-abingdon": {
       "aggregation": {
-        "template": "alliance-ld.html",
+        "template": "vote-ld.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -23135,7 +23135,7 @@
     },
     "pendle": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -23189,7 +23189,7 @@
     },
     "penistone-and-stocksbridge": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -23297,7 +23297,7 @@
     },
     "perth-and-north-perthshire": {
       "aggregation": {
-        "template": "alliance-snp.html",
+        "template": "vote-snp.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -23344,7 +23344,7 @@
     },
     "peterborough": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -23396,7 +23396,7 @@
     },
     "plymouth-moor-view": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -23455,7 +23455,7 @@
     },
     "plymouth-sutton-and-devonport": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -23514,7 +23514,7 @@
     },
     "pontypridd": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -23627,7 +23627,7 @@
     },
     "poplar-and-limehouse": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -23672,7 +23672,7 @@
     },
     "portsmouth-north": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -23733,7 +23733,7 @@
     },
     "portsmouth-south": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -23794,7 +23794,7 @@
     },
     "preseli-pembrokeshire": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -23860,7 +23860,7 @@
     },
     "preston": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -23905,7 +23905,7 @@
     },
     "pudsey": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -24086,7 +24086,7 @@
     },
     "reading-east": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -24152,7 +24152,7 @@
     },
     "reading-west": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -24206,7 +24206,7 @@
     },
     "redcar": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -24265,7 +24265,7 @@
     },
     "redditch": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -24408,7 +24408,7 @@
     },
     "ribble-valley": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -24523,7 +24523,7 @@
     },
     "richmond-park": {
       "aggregation": {
-        "template": "alliance-ld.html",
+        "template": "vote-ld.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -24587,7 +24587,7 @@
     },
     "rochdale": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -24632,7 +24632,7 @@
     },
     "rochester-and-strood": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -24691,7 +24691,7 @@
     },
     "rochford-and-southend-east": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -24750,7 +24750,7 @@
     },
     "romford": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -24804,7 +24804,7 @@
     },
     "romsey-and-southampton-north": {
       "aggregation": {
-        "template": "alliance-ld.html",
+        "template": "vote-ld.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -24858,7 +24858,7 @@
     },
     "ross-skye-and-lochaber": {
       "aggregation": {
-        "template": "alliance-snp.html",
+        "template": "vote-snp.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -24898,7 +24898,7 @@
     },
     "rossendale-and-darwen": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -24945,7 +24945,7 @@
     },
     "rother-valley": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -25004,7 +25004,7 @@
     },
     "rotherham": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -25056,7 +25056,7 @@
     },
     "rugby": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -25434,7 +25434,7 @@
     },
     "salford-and-eccles": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -25533,7 +25533,7 @@
     },
     "scarborough-and-whitby": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -25587,7 +25587,7 @@
     },
     "scunthorpe": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -25653,7 +25653,7 @@
     },
     "sedgefield": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -25712,7 +25712,7 @@
     },
     "sefton-central": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -25771,7 +25771,7 @@
     },
     "selby-and-ainsty": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -25879,7 +25879,7 @@
     },
     "sheffield-brightside-and-hillsborough": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -25924,7 +25924,7 @@
     },
     "sheffield-central": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -26023,7 +26023,7 @@
     },
     "sheffield-heeley": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -26082,7 +26082,7 @@
     },
     "sheffield-south-east": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -26141,7 +26141,7 @@
     },
     "sherwood": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -26195,7 +26195,7 @@
     },
     "shipley": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -26249,7 +26249,7 @@
     },
     "shrewsbury-and-atcham": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -26303,7 +26303,7 @@
     },
     "sittingbourne-and-sheppey": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -26451,7 +26451,7 @@
     },
     "slough": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -26557,7 +26557,7 @@
     },
     "somerton-and-frome": {
       "aggregation": {
-        "template": "alliance-ld.html",
+        "template": "vote-ld.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -26654,7 +26654,7 @@
     },
     "south-basildon-and-east-thurrock": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -26760,7 +26760,7 @@
     },
     "south-derbyshire": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -26814,7 +26814,7 @@
     },
     "south-dorset": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -27235,7 +27235,7 @@
     },
     "south-ribble": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -27289,7 +27289,7 @@
     },
     "south-shields": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -27341,7 +27341,7 @@
     },
     "south-staffordshire": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -27442,7 +27442,7 @@
     },
     "south-swindon": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -27496,7 +27496,7 @@
     },
     "south-thanet": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -27726,7 +27726,7 @@
     },
     "south-west-norfolk": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -27883,7 +27883,7 @@
     },
     "southampton-itchen": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -27942,7 +27942,7 @@
     },
     "southampton-test": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -28001,7 +28001,7 @@
     },
     "southend-west": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -28177,7 +28177,7 @@
     },
     "st-albans": {
       "aggregation": {
-        "template": "alliance-ld.html",
+        "template": "vote-ld.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -28297,7 +28297,7 @@
     },
     "st-helens-north": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -28349,7 +28349,7 @@
     },
     "st-helens-south-and-whiston": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -28401,7 +28401,7 @@
     },
     "st-ives": {
       "aggregation": {
-        "template": "alliance-ld.html",
+        "template": "vote-ld.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -28465,7 +28465,7 @@
     },
     "stafford": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -28526,7 +28526,7 @@
     },
     "staffordshire-moorlands": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -28573,7 +28573,7 @@
     },
     "stalybridge-and-hyde": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -28625,7 +28625,7 @@
     },
     "stevenage": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -28679,7 +28679,7 @@
     },
     "stirling": {
       "aggregation": {
-        "template": "alliance-snp.html",
+        "template": "vote-snp.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -28726,7 +28726,7 @@
     },
     "stockport": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -28780,7 +28780,7 @@
     },
     "stockton-north": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -28839,7 +28839,7 @@
     },
     "stockton-south": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -28905,7 +28905,7 @@
     },
     "stoke-on-trent-central": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -28957,7 +28957,7 @@
     },
     "stoke-on-trent-north": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -29016,7 +29016,7 @@
     },
     "stoke-on-trent-south": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -29143,7 +29143,7 @@
     },
     "stourbridge": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -29279,7 +29279,7 @@
     },
     "streatham": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -29326,7 +29326,7 @@
     },
     "stretford-and-urmston": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -29371,7 +29371,7 @@
     },
     "stroud": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -29503,7 +29503,7 @@
     },
     "sunderland-central": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -29609,7 +29609,7 @@
     },
     "sutton-and-cheam": {
       "aggregation": {
-        "template": "alliance-ld.html",
+        "template": "vote-ld.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -29722,7 +29722,7 @@
     },
     "swansea-east": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -29774,7 +29774,7 @@
     },
     "swansea-west": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -29833,7 +29833,7 @@
     },
     "tamworth": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -29927,7 +29927,7 @@
     },
     "taunton-deane": {
       "aggregation": {
-        "template": "alliance-ld.html",
+        "template": "vote-ld.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -29986,7 +29986,7 @@
     },
     "telford": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -30240,7 +30240,7 @@
     },
     "thornbury-and-yate": {
       "aggregation": {
-        "template": "alliance-ld.html",
+        "template": "vote-ld.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -30299,7 +30299,7 @@
     },
     "thurrock": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -30478,7 +30478,7 @@
     },
     "tooting": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -30537,7 +30537,7 @@
     },
     "torbay": {
       "aggregation": {
-        "template": "alliance-ld.html",
+        "template": "vote-ld.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -30603,7 +30603,7 @@
     },
     "torfaen": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -30765,7 +30765,7 @@
     },
     "tottenham": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -30911,7 +30911,7 @@
     },
     "twickenham": {
       "aggregation": {
-        "template": "alliance-ld.html",
+        "template": "vote-ld.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -30963,7 +30963,7 @@
     },
     "tynemouth": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -31064,7 +31064,7 @@
     },
     "uxbridge-and-south-ruislip": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -31123,7 +31123,7 @@
     },
     "vale-of-clwyd": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -31182,7 +31182,7 @@
     },
     "vale-of-glamorgan": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -31243,7 +31243,7 @@
     },
     "vauxhall": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -31290,7 +31290,7 @@
     },
     "wakefield": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -31354,7 +31354,7 @@
     },
     "wallasey": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -31406,7 +31406,7 @@
     },
     "walsall-north": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -31472,7 +31472,7 @@
     },
     "walsall-south": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -31524,7 +31524,7 @@
     },
     "walthamstow": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -31569,7 +31569,7 @@
     },
     "wansbeck": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -31675,7 +31675,7 @@
     },
     "warley": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -31720,7 +31720,7 @@
     },
     "warrington-north": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -31772,7 +31772,7 @@
     },
     "warrington-south": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -31831,7 +31831,7 @@
     },
     "warwick-and-leamington": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -31904,7 +31904,7 @@
     },
     "washington-and-sunderland-west": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -32024,7 +32024,7 @@
     },
     "waveney": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -32132,7 +32132,7 @@
     },
     "weaver-vale": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -32196,7 +32196,7 @@
     },
     "wellingborough": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -32250,7 +32250,7 @@
     },
     "wells": {
       "aggregation": {
-        "template": "alliance-ld.html",
+        "template": "vote-ld.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -32314,7 +32314,7 @@
     },
     "welwyn-hatfield": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -32368,7 +32368,7 @@
     },
     "wentworth-and-dearne": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -32427,7 +32427,7 @@
     },
     "west-aberdeenshire-and-kincardine": {
       "aggregation": {
-        "template": "alliance-snp.html",
+        "template": "vote-snp.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -32469,7 +32469,7 @@
     },
     "west-bromwich-east": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -32521,7 +32521,7 @@
     },
     "west-bromwich-west": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -32573,7 +32573,7 @@
     },
     "west-dorset": {
       "aggregation": {
-        "template": "alliance-ld.html",
+        "template": "vote-ld.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -32649,7 +32649,7 @@
     },
     "west-ham": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -32694,7 +32694,7 @@
     },
     "west-lancashire": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -32746,7 +32746,7 @@
     },
     "west-suffolk": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -32889,7 +32889,7 @@
     },
     "westminster-north": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -32948,7 +32948,7 @@
     },
     "westmorland-and-lonsdale": {
       "aggregation": {
-        "template": "alliance-ld.html",
+        "template": "vote-ld.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -33061,7 +33061,7 @@
     },
     "wigan": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -33174,7 +33174,7 @@
     },
     "winchester": {
       "aggregation": {
-        "template": "alliance-ld.html",
+        "template": "vote-ld.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -33275,7 +33275,7 @@
     },
     "wirral-south": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -33334,7 +33334,7 @@
     },
     "wirral-west": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -33621,7 +33621,7 @@
     },
     "wolverhampton-north-east": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -33680,7 +33680,7 @@
     },
     "wolverhampton-south-east": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -33732,7 +33732,7 @@
     },
     "wolverhampton-south-west": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -33784,7 +33784,7 @@
     },
     "worcester": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -33838,7 +33838,7 @@
     },
     "workington": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -33897,7 +33897,7 @@
     },
     "worsley-and-eccles-south": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -34003,7 +34003,7 @@
     },
     "wrexham": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -34062,7 +34062,7 @@
     },
     "wycombe": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -34116,7 +34116,7 @@
     },
     "wyre-and-preston-north": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -34170,7 +34170,7 @@
     },
     "wyre-forest": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -34231,7 +34231,7 @@
     },
     "wythenshawe-and-sale-east": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -34276,7 +34276,7 @@
     },
     "yeovil": {
       "aggregation": {
-        "template": "alliance-ld.html",
+        "template": "vote-ld.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -34349,7 +34349,7 @@
     },
     "ynys-mon": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {
@@ -34401,7 +34401,7 @@
     },
     "york-central": {
       "aggregation": {
-        "template": "alliance-lab.html",
+        "template": "vote-lab.html",
         "we_recommend_party": null
       },
       "analysis": {

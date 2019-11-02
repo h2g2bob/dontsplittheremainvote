@@ -42,7 +42,7 @@ def _nearby_constituencies(constituency_pages, constituency):
 def generate_constituency(constituency_page, nearby_constituencies):
     url_path = '/constituency/{}.html'.format(constituency_page.constituency.slug)
 
-    html = JINJA_ENV.get_template(constituency_page.aggregation.template).render(
+    html = JINJA_ENV.get_template('constituency.html').render(
         static=STATIC,
         this_url=BASE_URL + url_path,
         image_735_385=IMAGE_LOGO_735_238,
@@ -53,8 +53,7 @@ def generate_constituency(constituency_page, nearby_constituencies):
         nearby_constituency=nearby_constituencies,
         known_ppc=constituency_page.known_ppc,
         analysis=constituency_page.analysis,
-        aggregation=constituency_page.aggregation,
-        **constituency_page.aggregation.advice_kwargs)
+        aggregation=constituency_page.aggregation)
     with open('generated' + url_path, 'w') as f:
         f.write(html)
 

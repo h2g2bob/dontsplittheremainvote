@@ -45,7 +45,7 @@ class ConstituencyPage(NamedTuple):
                 raise ValueError((self.other_sites_plus_dontsplit, self.constituency))
             return Advice(
                 image='alliance-{}.png'.format(party.short),
-                template='alliance-{}.html'.format(party.short))
+                template='vote-{}.html'.format(party.short))
         return Advice(
             image='difficult-alliance.png',
             template='contradict.html')
