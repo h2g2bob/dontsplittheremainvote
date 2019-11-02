@@ -10,7 +10,7 @@ from .party import UUP
 DOC_2017 = """HoC 2017 results, adjusted for Northern Ireland polling
 
 Using the LucidTalk August 2019 opinion poll, which is focused
-on Northen Ireland:
+on Northern Ireland:
 https://www.electoralcalculus.co.uk/polls_ni.html
 
                DUP    SF   SDLP   UUP   Al'nce   Green
@@ -38,6 +38,6 @@ def _get_data_2017():
 
 DATA_2017 = Dataset(
     code='ge2017_ni',
-    title='2017 General Election results, adjusted for Northen Ireland polling',
+    title='2017 General Election results, adjusted for Northern Ireland polling',
     longdesc=DOC_2017,
     datafunc=_get_data_2017)
