@@ -105,7 +105,7 @@ SF_ALLIANCE = ClassifyResult(
 
 LEAVE_VICTORY_CON = _LeaveVictory('con', 'Conservative')
 LEAVE_VICTORY_DUP= _LeaveVictory('dup', 'DUP')
-LEAVE_VICTORY_UUP = _LeaveVictory('dup', 'UUP')
+LEAVE_VICTORY_UUP = _LeaveVictory('uup', 'UUP')
 LEAVE_VICTORY_UKIP = _LeaveVictory('ukip', 'UKIP / Brexit')
 
 OTHER = ClassifyResult(
