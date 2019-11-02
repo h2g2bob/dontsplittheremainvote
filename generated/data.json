@@ -19902,11 +19902,11 @@
     "new-forest-east": {
       "aggregation": {
         "party": null,
-        "template": "contradict.html"
+        "template": "pending.html"
       },
       "analysis": {
-        "template": "no-conflict-hard.html",
-        "we_recommend_party": "lab"
+        "template": "suppressed-manual-avoid-split.html",
+        "we_recommend_party": null
       },
       "constituency": {
         "country": "England",

@@ -386,7 +386,7 @@ newcastle-under-lyme,E14000834,lab,3,lab,3,,,,,lab,3,lab,3
 newcastle-upon-tyne-central,E14000831,lab,2,,,,,,,lab,2,lab,2
 newcastle-upon-tyne-east,E14000832,lab,2,,,,,,,lab,2,lab,2
 newcastle-upon-tyne-north,E14000833,lab,2,,,,,,,lab,2,lab,2
-new-forest-east,E14000827,ld,-1,lab,-1,,,,,,,,
+new-forest-east,E14000827,ld,0,,,,,,,,,,
 new-forest-west,E14000828,ld,0,,,,,,,,,,
 newport-east,W07000055,lab,3,lab,3,,,,,lab,3,lab,3
 newport-west,W07000056,lab,2,,,,,,,lab,2,lab,2

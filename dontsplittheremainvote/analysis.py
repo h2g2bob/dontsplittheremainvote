@@ -88,6 +88,13 @@ def get_analysis(datasets, constituency) -> Analysis:
                 template='suppressed-too-far-behind-2017.html',
                 suppressed_party=advice.we_recommend_party)
 
+        # We conflict with the only other suggestion in
+        # https://dontsplittheremainvote.com/constituency/new-forest-east.html
+        if constituency.slug == 'new-forest-east':
+            return Analysis(
+                template='suppressed-manual-avoid-split.html',
+                suppressed_party=advice.we_recommend_party)
+
     return advice
 
 def _get_analysis(results) -> Analysis:
