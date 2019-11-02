@@ -121,10 +121,6 @@ def _generate_other_sites_data(constituency_pages: List[ConstituencyPage]) -> Tu
         if we_recommend_party is not None:
             suggestions_here['DontSplit main'] = we_recommend_party
 
-        weak_suggestion = cpage.most_winning_remain_party()
-        if weak_suggestion is not None:
-            suggestions_here['DontSplit weak suggestion'] = weak_suggestion
-
         suggestions_by_constituency[cpage.constituency] = suggestions_here
         all_site_names |= suggestions_here.keys()
     return tuple(sorted(all_site_names)), suggestions_by_constituency
