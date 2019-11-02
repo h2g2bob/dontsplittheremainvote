@@ -5,6 +5,7 @@ from .constituency import all_constituencies
 from .constituency import Constituency
 from .dataset import Dataset
 from .other_sites import OtherSiteSuggestion
+from .other_sites import dontsplit_suggestion
 from .ppc import PPC
 from .result import Result
 from collections import defaultdict
@@ -31,7 +32,32 @@ class ConstituencyPage(NamedTuple):
         """From the list of other_site suggestions (plus our own
         suggestion), return an Advice of who to vote for.
         """
-        return get_advice(self.datasets.values(), self.constituency)
+        possible = tuple(suggest.party for suggest in self.other_sites_plus_dontsplit)
+        if len(possible) < 2:
+            return Advice(
+                image='other.png',
+                template='pending.html')
+
+        possible_set = set(possible)
+        if len(possible_set) == 1:
+            [party] = possible_set
+            if party.short == 'other':
+                raise ValueError((self.other_sites_plus_dontsplit, self.constituency))
+            return Advice(
+                image='alliance-{}.png'.format(party.short),
+                template='alliance-{}.html'.format(party.short))
+        return Advice(
+            image='error.png',
+            template='contradict.html')
+
+    @property
+    def other_sites_plus_dontsplit(self) -> List[OtherSiteSuggestion]:
+        analysis = self.analysis
+        if analysis.we_recommend_party is not None:
+                our_site_suggestion = [dontsplit_suggestion(analysis.we_recommend_party, self.constituency)]
+        else:
+                our_site_suggestion = []
+        return self.other_site_suggestions + our_site_suggestion
 
     @property
     def outcomes(self):

@@ -34,9 +34,9 @@ beaconsfield,E14000550,ind,-2,,,ld,-2,,,,,lab,-2,,
 beckenham,E14000551,ld,1,ld,1,ld,1,,,,,lab,-3,,
 bedford,E14000552,lab,3,,,lab,3,,,,,lab,3,lab,3
 belfast-east,N06000001,,,alliance,3,alliance,3,,,,,alliance,3,alliance,3
-belfast-north,N06000002,,,,,,,,,,,other,0,,
+belfast-north,N06000002,,,,,,,,,,,sf,0,,
 belfast-south,N06000003,,,,,sdlp,2,,,,,sdlp,2,sdlp,2
-belfast-west,N06000004,,,,,other,-1,,,,,other,-1,,
+belfast-west,N06000004,,,,,sf,1,,,,,sf,1,,
 bermondsey-and-old-southwark,E14000553,,,,,ld,0,,,,,,,,
 berwickshire-roxburgh-and-selkirk,S14000008,,,snp,2,snp,2,,,,,snp,2,,
 berwick-upon-tweed,E14000554,ld,0,,,ld,0,,,,,lab,-2,,
@@ -196,7 +196,7 @@ east-ham,E14000679,lab,3,,,lab,3,,,,,lab,3,lab,3
 east-hampshire,E14000680,ld,1,ld,1,ld,1,,,,,lab,-3,,
 east-kilbride-strathaven-and-lesmahagow,S14000019,,,,,snp,1,,,,,snp,1,,
 eastleigh,E14000685,ld,4,ld,4,ld,4,,,,,ld,4,ld,4
-east-londonderry,N06000006,,,,,,,,,,,other,0,,
+east-londonderry,N06000006,,,,,,,,,,,sf,0,,
 east-lothian,S14000020,,,,,snp,-1,,,,,lab,-1,,
 east-renfrewshire,S14000021,,,snp,3,snp,3,,,,,snp,3,snp,3
 east-surrey,E14000681,ld,0,,,ld,0,,,,,lab,-2,,
@@ -224,12 +224,12 @@ falkirk,S14000028,,,,,snp,1,,,,,snp,1,,
 fareham,E14000699,ld,0,,,ld,0,,,,,lab,-2,,
 faversham-and-mid-kent,E14000700,ld,0,,,ld,0,,,,,lab,-2,,
 feltham-and-heston,E14000701,lab,3,,,lab,3,,,,,lab,3,lab,3
-fermanagh-and-south-tyrone,N06000007,,,,,other,-1,,,,,other,-1,,
+fermanagh-and-south-tyrone,N06000007,,,,,sf,1,,,,,sf,1,,
 filton-and-bradley-stoke,E14000702,ld,-2,,,lab,0,,,,,lab,0,,
 finchley-and-golders-green,E14000703,ld,-2,,,lab,0,,,,,lab,0,,
 folkestone-and-hythe,E14000704,ld,-1,,,,,,,,,lab,-1,,
 forest-of-dean,E14000705,lab,2,,,lab,2,,,,,lab,2,,
-foyle,N06000008,,,,,other,0,,,,,,,,
+foyle,N06000008,,,,,sf,0,,,,,,,,
 fylde,E14000706,lab,3,lab,3,lab,3,,,,,lab,3,,
 gainsborough,E14000707,lab,1,,,,,,,,,lab,1,,
 garston-and-halewood,E14000708,lab,3,,,lab,3,,,,,lab,3,lab,3
@@ -366,7 +366,7 @@ mid-dorset-and-north-poole,E14000815,ld,2,,,ld,2,,,,,ld,2,,
 midlothian,S14000045,,,,,snp,-1,,,,,lab,-1,,
 mid-norfolk,E14000816,ld,-3,lab,1,lab,1,,,,,lab,1,,
 mid-sussex,E14000817,ld,1,ld,1,ld,1,,,,,lab,-3,,
-mid-ulster,N06000010,,,,,other,-1,,,,,other,-1,,
+mid-ulster,N06000010,,,,,sf,1,,,,,sf,1,,
 mid-worcestershire,E14000818,ld,-1,,,,,,,,,lab,-1,,
 milton-keynes-north,E14000821,lab,2,,,lab,2,,,,,lab,2,,
 milton-keynes-south,E14000822,lab,2,,,lab,2,,,,,lab,2,,
@@ -390,12 +390,12 @@ new-forest-east,E14000827,ld,-3,lab,1,lab,1,,,,,lab,1,,
 new-forest-west,E14000828,ld,1,ld,1,ld,1,,,,,lab,-3,,
 newport-east,W07000055,lab,4,lab,4,lab,4,,,,,lab,4,lab,4
 newport-west,W07000056,lab,3,,,lab,3,,,,,lab,3,lab,3
-newry-and-armagh,N06000011,,,,,other,-1,,,,,other,-1,,
+newry-and-armagh,N06000011,,,,,sf,1,,,,,sf,1,,
 newton-abbot,E14000835,ld,0,,,ld,0,,,,,lab,-2,,
 normanton-pontefract-and-castleford,E14000836,lab,4,lab,4,lab,4,,,,,lab,4,lab,4
 northampton-north,E14000861,lab,4,lab,4,lab,4,,,,,lab,4,lab,4
 northampton-south,E14000862,lab,3,lab,3,lab,3,,,,,lab,3,,
-north-antrim,N06000012,,,,,,,,,,,other,0,,
+north-antrim,N06000012,,,,,,,,,,,sf,0,,
 north-ayrshire-and-arran,S14000048,,,,,snp,2,,,,,snp,2,snp,2
 north-cornwall,E14000837,ld,3,,,ld,3,,,,,ld,3,ld,3
 north-devon,E14000838,ld,4,,,ld,4,,,ld,4,ld,4,ld,4
@@ -511,7 +511,7 @@ south-basildon-and-east-thurrock,E14000933,lab,2,,,,,lab,2,,,lab,2,,
 south-cambridgeshire,E14000934,ld,1,ld,1,ld,1,,,,,lab,-3,,
 south-derbyshire,E14000935,lab,3,lab,3,lab,3,,,,,lab,3,,
 south-dorset,E14000936,lab,1,,,,,,,,,lab,1,,
-south-down,N06000015,,,,,other,0,,,,,,,,
+south-down,N06000015,,,,,sf,0,,,,,,,,
 south-east-cambridgeshire,E14000937,ld,1,ld,1,ld,1,,,,,lab,-3,,
 south-east-cornwall,E14000938,ld,0,,,ld,0,,,,,lab,-2,,
 southend-west,E14000957,lab,2,,,lab,2,,,,,lab,2,,
@@ -585,7 +585,7 @@ truro-and-falmouth,E14001003,ld,0,,,ld,0,,,,,lab,-2,,
 tunbridge-wells,E14001004,ld,1,ld,1,ld,1,,,,,lab,-3,,
 twickenham,E14001005,ld,4,ld,4,ld,4,,,,,ld,4,ld,4
 tynemouth,E14001006,lab,3,,,lab,3,,,,,lab,3,lab,3
-upper-bann,N06000017,,,,,,,,,,,other,0,,
+upper-bann,N06000017,,,,,,,,,,,sf,0,,
 uxbridge-and-south-ruislip,E14001007,lab,3,,,lab,3,,,,,lab,3,lab,3
 vale-of-clwyd,W07000060,lab,3,,,lab,3,,,,,lab,3,lab,3
 vale-of-glamorgan,W07000078,lab,2,,,lab,2,,,,,lab,2,,
@@ -621,7 +621,7 @@ westminster-north,E14001036,lab,3,,,lab,3,,,,,lab,3,lab,3
 westmorland-and-lonsdale,E14001037,ld,4,ld,4,ld,4,,,,,ld,4,ld,4
 weston-super-mare,E14001038,ld,-2,,,lab,0,,,,,lab,0,,
 west-suffolk,E14001034,lab,2,,,lab,2,,,,,lab,2,,
-west-tyrone,N06000018,,,,,other,-1,,,,,other,-1,,
+west-tyrone,N06000018,,,,,sf,1,,,,,sf,1,,
 west-worcestershire,E14001035,ld,1,ld,1,ld,1,,,,,lab,-3,,
 wigan,E14001039,lab,4,lab,4,lab,4,,,,,lab,4,lab,4
 wimbledon,E14001040,ld,0,,,ld,0,,,,,lab,-2,,

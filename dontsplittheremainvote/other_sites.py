@@ -36,6 +36,12 @@ class OtherSiteSuggestion(NamedTuple):
         }
 
 
+def dontsplit_suggestion(party: Party, constituency: Constituency) -> OtherSiteSuggestion:
+    return OtherSiteSuggestion(
+            who_suggests='Don\'t Split the Remain Vote',
+            party=party,
+            url='https://dontsplittheremainvote.com/constituency/{}.html#Analysis'.format(constituency.slug))
+
 def _getvoting():
     PARTIES = {
         'Anna Soubry': CHANGEUK,
