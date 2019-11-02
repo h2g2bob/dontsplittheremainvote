@@ -96,7 +96,7 @@ def _get_analysis(results) -> Analysis:
         # eg: speaker's constituency and other strange edge-cases
         return Analysis(
             image='other.png',
-            template='other.html')
+            template='remain-or-leave-no-alliance.html')
 
     leading_remain_party = set(
         clfy.remain_allicance_leader
@@ -113,13 +113,11 @@ def _get_analysis(results) -> Analysis:
         if chance_of_success < 0.5:
             return Analysis(
                 image='difficult-alliance.png',
-                template='alliance-{}.html'.format(party),
-                advice_kwargs={'difficult_win': True},
+                template='no-conflict-hard.html',
                 we_recommend_party=get_party(party))
         return Analysis(
             image='alliance-{}.png'.format(party),
-            template='alliance-{}.html'.format(party),
-            advice_kwargs={'difficult_win': False},
+            template='no-conflict-easy.html',
             we_recommend_party=get_party(party))
 
     # no single party to back

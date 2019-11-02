@@ -1,8 +1,8 @@
 <ul class="checklist">
   {% if analysis.we_recommend_party %}
-    <li>DontSplit recommends voting for <strong class="party-{{analysis.we_recommend_party.short}}">{{analysis.we_recommend_party.name}}</strong>.</li>
+    <li>Our analysis of past elections recommends voting for <strong class="party-{{analysis.we_recommend_party.short}}">{{analysis.we_recommend_party.name}}</strong>.</li>
   {% else %}
-    <li>DontSplit does not have a recommendation in this constituency.</li>
+    <li>Our analysis of past elections does not give a recommendation in this constituency.</li>
   {% endif %}
   {% block analysisblock %}
   {% endblock %}
