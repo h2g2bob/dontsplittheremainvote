@@ -1,7 +1,0 @@
-{% extends "constituency.html" %}
-{% block advicetitle %}Campaign groups recommend voting {{ they_said.name }}{% endblock %}
-{% block adviceblock %}
-  <li>Polling suggests {{ we_said.name }} has a slight advantage here.</li>
-  <li>However, campaign groups suggest voting {{ they_said.name }} instead.</li>
-  <li>Vote <em class="{{they_said.short}}">{{ they_said.name }}</em>, but check back occasionally in case advice changes.</li>
-{% endblock %}
