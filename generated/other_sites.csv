@@ -188,7 +188,7 @@ ealing-central-and-acton,E14000674,lab,2,,,,,,,lab,2,lab,2
 ealing-north,E14000675,lab,2,,,,,,,lab,2,lab,2
 ealing-southall,E14000676,lab,2,,,,,,,lab,2,lab,2
 easington,E14000677,lab,3,lab,3,,,,,lab,3,lab,3
-east-antrim,N06000005,,,alliance,1,,,,,alliance,1,,
+east-antrim,N06000005,,,,,,,,,alliance,0,,
 eastbourne,E14000684,,,,,,,,,ld,1,ld,1
 east-devon,E14000678,ind,0,,,,,,,ind,0,other,-2
 east-dunbartonshire,S14000018,,,,,,,,,,,,
@@ -204,7 +204,7 @@ east-worthing-and-shoreham,E14000682,lab,1,,,,,,,lab,1,,
 east-yorkshire,E14000683,ld,-1,,,,,,,lab,-1,,
 eddisbury,E14000686,ind,-1,,,,,,,lab,-1,,
 edinburgh-east,S14000022,,,,,,,,,snp,0,,
-edinburgh-north-and-leith,S14000023,,,,,,,,,snp,0,,
+edinburgh-north-and-leith,S14000023,,,snp,1,,,,,snp,1,,
 edinburgh-south,S14000024,,,,,,,,,lab,0,,
 edinburgh-south-west,S14000025,,,snp,2,,,,,snp,2,snp,2
 edinburgh-west,S14000026,,,,,,,,,ld,0,,
@@ -472,7 +472,7 @@ rochford-and-southend-east,E14000899,lab,3,lab,3,lab,3,,,lab,3,,
 romford,E14000900,lab,2,lab,2,,,,,lab,2,,
 romsey-and-southampton-north,E14000901,ld,2,ld,2,,,,,ld,2,,
 rossendale-and-darwen,E14000902,lab,2,lab,2,,,,,lab,2,,
-ross-skye-and-lochaber,S14000055,,,,,,,,,snp,1,snp,1
+ross-skye-and-lochaber,S14000055,,,snp,2,,,,,snp,2,snp,2
 rotherham,E14000904,lab,3,lab,3,,,,,lab,3,lab,3
 rother-valley,E14000903,lab,3,lab,3,,,,,lab,3,lab,3
 rugby,E14000905,lab,1,,,,,,,lab,1,,
