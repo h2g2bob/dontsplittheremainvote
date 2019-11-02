@@ -1642,7 +1642,7 @@
     "beaconsfield": {
       "aggregation": {
         "party": null,
-        "template": "contradict.html"
+        "template": "pending.html"
       },
       "analysis": {
         "template": "special-independent-remain.html",
@@ -1658,11 +1658,6 @@
         "slug": "beaconsfield"
       },
       "other_sites": [
-        {
-          "party": "lab",
-          "url": "https://tactical.vote/beaconsfield",
-          "who_suggests": "tactical.vote"
-        },
         {
           "party": "ind",
           "url": "https://getvoting.org/",
@@ -4269,8 +4264,8 @@
     },
     "brentwood-and-ongar": {
       "aggregation": {
-        "party": null,
-        "template": "contradict.html"
+        "party": "ld",
+        "template": "vote-ld.html"
       },
       "analysis": {
         "template": "alliance-mixed.html",
@@ -4286,11 +4281,6 @@
         "slug": "brentwood-and-ongar"
       },
       "other_sites": [
-        {
-          "party": "lab",
-          "url": "https://tactical.vote/brentwood-and-ongar",
-          "who_suggests": "tactical.vote"
-        },
         {
           "party": "ld",
           "url": "https://getvoting.org/",
@@ -6320,11 +6310,6 @@
       },
       "other_sites": [
         {
-          "party": "lab",
-          "url": "https://tactical.vote/castle-point",
-          "who_suggests": "tactical.vote"
-        },
-        {
           "party": "ld",
           "url": "https://getvoting.org/",
           "who_suggests": "Best for Britain"
@@ -6874,8 +6859,8 @@
     },
     "chesham-and-amersham": {
       "aggregation": {
-        "party": null,
-        "template": "contradict.html"
+        "party": "ld",
+        "template": "vote-ld.html"
       },
       "analysis": {
         "template": "no-conflict-hard.html",
@@ -6891,11 +6876,6 @@
         "slug": "chesham-and-amersham"
       },
       "other_sites": [
-        {
-          "party": "lab",
-          "url": "https://tactical.vote/chesham-and-amersham",
-          "who_suggests": "tactical.vote"
-        },
         {
           "party": "ld",
           "url": "https://getvoting.org/",
@@ -7271,7 +7251,7 @@
     "christchurch": {
       "aggregation": {
         "party": null,
-        "template": "contradict.html"
+        "template": "pending.html"
       },
       "analysis": {
         "template": "leave.html",
@@ -7287,11 +7267,6 @@
         "slug": "christchurch"
       },
       "other_sites": [
-        {
-          "party": "lab",
-          "url": "https://tactical.vote/christchurch",
-          "who_suggests": "tactical.vote"
-        },
         {
           "party": "ld",
           "url": "https://getvoting.org/",
@@ -9049,7 +9024,7 @@
     "devizes": {
       "aggregation": {
         "party": null,
-        "template": "contradict.html"
+        "template": "pending.html"
       },
       "analysis": {
         "template": "alliance-mixed.html",
@@ -9065,11 +9040,6 @@
         "slug": "devizes"
       },
       "other_sites": [
-        {
-          "party": "lab",
-          "url": "https://tactical.vote/devizes",
-          "who_suggests": "tactical.vote"
-        },
         {
           "party": "ld",
           "url": "https://getvoting.org/",
@@ -10211,8 +10181,8 @@
     },
     "east-hampshire": {
       "aggregation": {
-        "party": null,
-        "template": "contradict.html"
+        "party": "ld",
+        "template": "vote-ld.html"
       },
       "analysis": {
         "template": "no-conflict-hard.html",
@@ -10228,11 +10198,6 @@
         "slug": "east-hampshire"
       },
       "other_sites": [
-        {
-          "party": "lab",
-          "url": "https://tactical.vote/east-hampshire",
-          "who_suggests": "tactical.vote"
-        },
         {
           "party": "ld",
           "url": "https://getvoting.org/",
@@ -10432,7 +10397,7 @@
     "east-surrey": {
       "aggregation": {
         "party": null,
-        "template": "contradict.html"
+        "template": "pending.html"
       },
       "analysis": {
         "template": "alliance-mixed.html",
@@ -10448,11 +10413,6 @@
         "slug": "east-surrey"
       },
       "other_sites": [
-        {
-          "party": "lab",
-          "url": "https://tactical.vote/east-surrey",
-          "who_suggests": "tactical.vote"
-        },
         {
           "party": "ld",
           "url": "https://getvoting.org/",
@@ -18223,8 +18183,8 @@
     },
     "maidenhead": {
       "aggregation": {
-        "party": null,
-        "template": "contradict.html"
+        "party": "ld",
+        "template": "vote-ld.html"
       },
       "analysis": {
         "template": "no-conflict-hard.html",
@@ -18240,11 +18200,6 @@
         "slug": "maidenhead"
       },
       "other_sites": [
-        {
-          "party": "lab",
-          "url": "https://tactical.vote/maidenhead",
-          "who_suggests": "tactical.vote"
-        },
         {
           "party": "ld",
           "url": "https://getvoting.org/",
@@ -18397,8 +18352,8 @@
     },
     "maldon": {
       "aggregation": {
-        "party": null,
-        "template": "contradict.html"
+        "party": "ld",
+        "template": "vote-ld.html"
       },
       "analysis": {
         "template": "alliance-mixed.html",
@@ -18414,11 +18369,6 @@
         "slug": "maldon"
       },
       "other_sites": [
-        {
-          "party": "lab",
-          "url": "https://tactical.vote/maldon",
-          "who_suggests": "tactical.vote"
-        },
         {
           "party": "ld",
           "url": "https://getvoting.org/",
@@ -18661,8 +18611,8 @@
     },
     "meon-valley": {
       "aggregation": {
-        "party": null,
-        "template": "contradict.html"
+        "party": "ld",
+        "template": "vote-ld.html"
       },
       "analysis": {
         "template": "no-conflict-hard.html",
@@ -18678,11 +18628,6 @@
         "slug": "meon-valley"
       },
       "other_sites": [
-        {
-          "party": "lab",
-          "url": "https://tactical.vote/meon-valley",
-          "who_suggests": "tactical.vote"
-        },
         {
           "party": "ld",
           "url": "https://getvoting.org/",
@@ -19127,7 +19072,7 @@
     "mid-worcestershire": {
       "aggregation": {
         "party": null,
-        "template": "contradict.html"
+        "template": "pending.html"
       },
       "analysis": {
         "template": "leave.html",
@@ -19143,11 +19088,6 @@
         "slug": "mid-worcestershire"
       },
       "other_sites": [
-        {
-          "party": "lab",
-          "url": "https://tactical.vote/mid-worcestershire",
-          "who_suggests": "tactical.vote"
-        },
         {
           "party": "ld",
           "url": "https://getvoting.org/",
@@ -19524,11 +19464,6 @@
         "slug": "mole-valley"
       },
       "other_sites": [
-        {
-          "party": "ld",
-          "url": "https://tactical.vote/mole-valley",
-          "who_suggests": "tactical.vote"
-        },
         {
           "party": "ld",
           "url": "https://getvoting.org/",
@@ -19984,11 +19919,6 @@
       },
       "other_sites": [
         {
-          "party": "lab",
-          "url": "https://tactical.vote/new-forest-east",
-          "who_suggests": "tactical.vote"
-        },
-        {
           "party": "ld",
           "url": "https://getvoting.org/",
           "who_suggests": "Best for Britain"
@@ -20020,8 +19950,8 @@
     },
     "new-forest-west": {
       "aggregation": {
-        "party": null,
-        "template": "contradict.html"
+        "party": "ld",
+        "template": "vote-ld.html"
       },
       "analysis": {
         "template": "no-conflict-hard.html",
@@ -20037,11 +19967,6 @@
         "slug": "new-forest-west"
       },
       "other_sites": [
-        {
-          "party": "lab",
-          "url": "https://tactical.vote/new-forest-west",
-          "who_suggests": "tactical.vote"
-        },
         {
           "party": "ld",
           "url": "https://getvoting.org/",
@@ -20145,11 +20070,6 @@
         "slug": "newbury"
       },
       "other_sites": [
-        {
-          "party": "ld",
-          "url": "https://tactical.vote/newbury",
-          "who_suggests": "tactical.vote"
-        },
         {
           "party": "ld",
           "url": "https://getvoting.org/",
@@ -20890,7 +20810,7 @@
     "north-dorset": {
       "aggregation": {
         "party": null,
-        "template": "contradict.html"
+        "template": "pending.html"
       },
       "analysis": {
         "template": "alliance-mixed.html",
@@ -20906,11 +20826,6 @@
         "slug": "north-dorset"
       },
       "other_sites": [
-        {
-          "party": "lab",
-          "url": "https://tactical.vote/north-dorset",
-          "who_suggests": "tactical.vote"
-        },
         {
           "party": "ld",
           "url": "https://getvoting.org/",
@@ -21268,8 +21183,8 @@
     },
     "north-east-hampshire": {
       "aggregation": {
-        "party": null,
-        "template": "contradict.html"
+        "party": "ld",
+        "template": "vote-ld.html"
       },
       "analysis": {
         "template": "no-conflict-hard.html",
@@ -21285,11 +21200,6 @@
         "slug": "north-east-hampshire"
       },
       "other_sites": [
-        {
-          "party": "lab",
-          "url": "https://tactical.vote/north-east-hampshire",
-          "who_suggests": "tactical.vote"
-        },
         {
           "party": "ld",
           "url": "https://getvoting.org/",
@@ -21417,7 +21327,7 @@
     "north-herefordshire": {
       "aggregation": {
         "party": null,
-        "template": "contradict.html"
+        "template": "pending.html"
       },
       "analysis": {
         "template": "alliance-mixed.html",
@@ -21433,11 +21343,6 @@
         "slug": "north-herefordshire"
       },
       "other_sites": [
-        {
-          "party": "lab",
-          "url": "https://tactical.vote/north-herefordshire",
-          "who_suggests": "tactical.vote"
-        },
         {
           "party": "ld",
           "url": "https://getvoting.org/",
@@ -22150,11 +22055,6 @@
         "slug": "north-wiltshire"
       },
       "other_sites": [
-        {
-          "party": "ld",
-          "url": "https://tactical.vote/north-wiltshire",
-          "who_suggests": "tactical.vote"
-        },
         {
           "party": "ld",
           "url": "https://getvoting.org/",
@@ -24040,7 +23940,7 @@
     "rayleigh-and-wickford": {
       "aggregation": {
         "party": null,
-        "template": "contradict.html"
+        "template": "pending.html"
       },
       "analysis": {
         "template": "leave.html",
@@ -24056,11 +23956,6 @@
         "slug": "rayleigh-and-wickford"
       },
       "other_sites": [
-        {
-          "party": "lab",
-          "url": "https://tactical.vote/rayleigh-and-wickford",
-          "who_suggests": "tactical.vote"
-        },
         {
           "party": "ld",
           "url": "https://getvoting.org/",
@@ -24486,11 +24381,6 @@
         "slug": "richmond-(yorks)"
       },
       "other_sites": [
-        {
-          "party": "lab",
-          "url": "https://tactical.vote/richmond-yorks",
-          "who_suggests": "tactical.vote"
-        },
         {
           "party": "ld",
           "url": "https://getvoting.org/",
@@ -25329,7 +25219,7 @@
     "rutland-and-melton": {
       "aggregation": {
         "party": null,
-        "template": "contradict.html"
+        "template": "pending.html"
       },
       "analysis": {
         "template": "alliance-mixed.html",
@@ -25345,11 +25235,6 @@
         "slug": "rutland-and-melton"
       },
       "other_sites": [
-        {
-          "party": "lab",
-          "url": "https://tactical.vote/rutland-and-melton",
-          "who_suggests": "tactical.vote"
-        },
         {
           "party": "ld",
           "url": "https://getvoting.org/",
@@ -25382,8 +25267,8 @@
     },
     "saffron-walden": {
       "aggregation": {
-        "party": null,
-        "template": "contradict.html"
+        "party": "ld",
+        "template": "vote-ld.html"
       },
       "analysis": {
         "template": "no-conflict-hard.html",
@@ -25399,11 +25284,6 @@
         "slug": "saffron-walden"
       },
       "other_sites": [
-        {
-          "party": "lab",
-          "url": "https://tactical.vote/saffron-walden",
-          "who_suggests": "tactical.vote"
-        },
         {
           "party": "ld",
           "url": "https://getvoting.org/",
@@ -25832,8 +25712,8 @@
     },
     "sevenoaks": {
       "aggregation": {
-        "party": null,
-        "template": "contradict.html"
+        "party": "ld",
+        "template": "vote-ld.html"
       },
       "analysis": {
         "template": "no-conflict-hard.html",
@@ -25849,11 +25729,6 @@
         "slug": "sevenoaks"
       },
       "other_sites": [
-        {
-          "party": "lab",
-          "url": "https://tactical.vote/sevenoaks",
-          "who_suggests": "tactical.vote"
-        },
         {
           "party": "ld",
           "url": "https://getvoting.org/",
@@ -27020,7 +26895,7 @@
     "south-holland-and-the-deepings": {
       "aggregation": {
         "party": null,
-        "template": "contradict.html"
+        "template": "pending.html"
       },
       "analysis": {
         "template": "leave.html",
@@ -27036,11 +26911,6 @@
         "slug": "south-holland-and-the-deepings"
       },
       "other_sites": [
-        {
-          "party": "lab",
-          "url": "https://tactical.vote/south-holland-and-the-deepings",
-          "who_suggests": "tactical.vote"
-        },
         {
           "party": "ld",
           "url": "https://getvoting.org/",
@@ -27341,8 +27211,8 @@
     },
     "south-staffordshire": {
       "aggregation": {
-        "party": "lab",
-        "template": "vote-lab.html"
+        "party": null,
+        "template": "pending.html"
       },
       "analysis": {
         "template": "leave.html",
@@ -27358,11 +27228,6 @@
         "slug": "south-staffordshire"
       },
       "other_sites": [
-        {
-          "party": "lab",
-          "url": "https://tactical.vote/south-staffordshire",
-          "who_suggests": "tactical.vote"
-        },
         {
           "party": "lab",
           "url": "https://getvoting.org/",
@@ -29232,8 +29097,8 @@
     },
     "stratford-on-avon": {
       "aggregation": {
-        "party": null,
-        "template": "contradict.html"
+        "party": "ld",
+        "template": "vote-ld.html"
       },
       "analysis": {
         "template": "no-conflict-hard.html",
@@ -29249,11 +29114,6 @@
         "slug": "stratford-on-avon"
       },
       "other_sites": [
-        {
-          "party": "lab",
-          "url": "https://tactical.vote/stratford-on-avon",
-          "who_suggests": "tactical.vote"
-        },
         {
           "party": "ld",
           "url": "https://getvoting.org/",
@@ -29556,7 +29416,7 @@
     "surrey-heath": {
       "aggregation": {
         "party": null,
-        "template": "contradict.html"
+        "template": "pending.html"
       },
       "analysis": {
         "template": "alliance-mixed.html",
@@ -29572,11 +29432,6 @@
         "slug": "surrey-heath"
       },
       "other_sites": [
-        {
-          "party": "lab",
-          "url": "https://tactical.vote/surrey-heath",
-          "who_suggests": "tactical.vote"
-        },
         {
           "party": "ld",
           "url": "https://getvoting.org/",
@@ -30092,8 +29947,8 @@
     },
     "the-cotswolds": {
       "aggregation": {
-        "party": null,
-        "template": "contradict.html"
+        "party": "ld",
+        "template": "vote-ld.html"
       },
       "analysis": {
         "template": "no-conflict-hard.html",
@@ -30109,11 +29964,6 @@
         "slug": "the-cotswolds"
       },
       "other_sites": [
-        {
-          "party": "lab",
-          "url": "https://tactical.vote/the-cotswolds",
-          "who_suggests": "tactical.vote"
-        },
         {
           "party": "ld",
           "url": "https://getvoting.org/",
@@ -30431,8 +30281,8 @@
     },
     "tonbridge-and-malling": {
       "aggregation": {
-        "party": null,
-        "template": "contradict.html"
+        "party": "ld",
+        "template": "vote-ld.html"
       },
       "analysis": {
         "template": "no-conflict-hard.html",
@@ -30448,11 +30298,6 @@
         "slug": "tonbridge-and-malling"
       },
       "other_sites": [
-        {
-          "party": "lab",
-          "url": "https://tactical.vote/tonbridge-and-malling",
-          "who_suggests": "tactical.vote"
-        },
         {
           "party": "ld",
           "url": "https://getvoting.org/",
@@ -33228,8 +33073,8 @@
     },
     "windsor": {
       "aggregation": {
-        "party": null,
-        "template": "contradict.html"
+        "party": "ld",
+        "template": "vote-ld.html"
       },
       "analysis": {
         "template": "no-conflict-hard.html",
@@ -33245,11 +33090,6 @@
         "slug": "windsor"
       },
       "other_sites": [
-        {
-          "party": "lab",
-          "url": "https://tactical.vote/windsor",
-          "who_suggests": "tactical.vote"
-        },
         {
           "party": "ld",
           "url": "https://getvoting.org/",
