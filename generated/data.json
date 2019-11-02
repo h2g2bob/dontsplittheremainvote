@@ -653,8 +653,8 @@
         "template": "contradict.html"
       },
       "analysis": {
-        "template": "no-conflict-hard.html",
-        "we_recommend_party": "ld"
+        "template": "suppressed-too-far-behind-2017.html",
+        "we_recommend_party": null
       },
       "constituency": {
         "country": "England",
@@ -1687,8 +1687,8 @@
         "template": "contradict.html"
       },
       "analysis": {
-        "template": "no-conflict-hard.html",
-        "we_recommend_party": "ld"
+        "template": "suppressed-too-far-behind-2017.html",
+        "we_recommend_party": null
       },
       "constituency": {
         "country": "England",
@@ -3245,8 +3245,8 @@
         "template": "contradict.html"
       },
       "analysis": {
-        "template": "no-conflict-hard.html",
-        "we_recommend_party": "ld"
+        "template": "suppressed-too-far-behind-2017.html",
+        "we_recommend_party": null
       },
       "constituency": {
         "country": "England",
@@ -5103,11 +5103,11 @@
     "buckingham": {
       "aggregation": {
         "party": null,
-        "template": "contradict.html"
+        "template": "pending.html"
       },
       "analysis": {
-        "template": "no-conflict-hard.html",
-        "we_recommend_party": "ld"
+        "template": "special-speker-constituency.html",
+        "we_recommend_party": null
       },
       "constituency": {
         "country": "England",
@@ -6698,8 +6698,8 @@
         "template": "contradict.html"
       },
       "analysis": {
-        "template": "no-conflict-hard.html",
-        "we_recommend_party": "ld"
+        "template": "suppressed-too-far-behind-2017.html",
+        "we_recommend_party": null
       },
       "constituency": {
         "country": "England",
@@ -16021,8 +16021,8 @@
         "template": "contradict.html"
       },
       "analysis": {
-        "template": "no-conflict-hard.html",
-        "we_recommend_party": "ld"
+        "template": "suppressed-too-far-behind-2017.html",
+        "we_recommend_party": null
       },
       "constituency": {
         "country": "England",
@@ -19950,12 +19950,12 @@
     },
     "new-forest-west": {
       "aggregation": {
-        "party": "ld",
-        "template": "vote-ld.html"
+        "party": null,
+        "template": "pending.html"
       },
       "analysis": {
-        "template": "no-conflict-hard.html",
-        "we_recommend_party": "ld"
+        "template": "suppressed-too-far-behind-2017.html",
+        "we_recommend_party": null
       },
       "constituency": {
         "country": "England",
@@ -21229,8 +21229,8 @@
         "template": "contradict.html"
       },
       "analysis": {
-        "template": "no-conflict-hard.html",
-        "we_recommend_party": "ld"
+        "template": "suppressed-too-far-behind-2017.html",
+        "we_recommend_party": null
       },
       "constituency": {
         "country": "England",
@@ -21492,8 +21492,8 @@
         "template": "contradict.html"
       },
       "analysis": {
-        "template": "no-conflict-hard.html",
-        "we_recommend_party": "ld"
+        "template": "suppressed-too-far-behind-2017.html",
+        "we_recommend_party": null
       },
       "constituency": {
         "country": "England",
@@ -24218,8 +24218,8 @@
         "template": "contradict.html"
       },
       "analysis": {
-        "template": "no-conflict-hard.html",
-        "we_recommend_party": "ld"
+        "template": "suppressed-too-far-behind-2017.html",
+        "we_recommend_party": null
       },
       "constituency": {
         "country": "England",
@@ -25370,8 +25370,8 @@
         "template": "contradict.html"
       },
       "analysis": {
-        "template": "no-conflict-hard.html",
-        "we_recommend_party": "ld"
+        "template": "suppressed-too-far-behind-2017.html",
+        "we_recommend_party": null
       },
       "constituency": {
         "country": "England",
@@ -25712,12 +25712,12 @@
     },
     "sevenoaks": {
       "aggregation": {
-        "party": "ld",
-        "template": "vote-ld.html"
+        "party": null,
+        "template": "pending.html"
       },
       "analysis": {
-        "template": "no-conflict-hard.html",
-        "we_recommend_party": "ld"
+        "template": "suppressed-too-far-behind-2017.html",
+        "we_recommend_party": null
       },
       "constituency": {
         "country": "England",
@@ -26483,8 +26483,8 @@
         "template": "pending.html"
       },
       "analysis": {
-        "template": "no-conflict-hard.html",
-        "we_recommend_party": "alliance"
+        "template": "suppressed-too-far-behind-2017.html",
+        "we_recommend_party": null
       },
       "constituency": {
         "country": "Northern Ireland",
@@ -29739,8 +29739,8 @@
         "template": "contradict.html"
       },
       "analysis": {
-        "template": "no-conflict-hard.html",
-        "we_recommend_party": "ld"
+        "template": "suppressed-too-far-behind-2017.html",
+        "we_recommend_party": null
       },
       "constituency": {
         "country": "England",
@@ -30281,12 +30281,12 @@
     },
     "tonbridge-and-malling": {
       "aggregation": {
-        "party": "ld",
-        "template": "vote-ld.html"
+        "party": null,
+        "template": "pending.html"
       },
       "analysis": {
-        "template": "no-conflict-hard.html",
-        "we_recommend_party": "ld"
+        "template": "suppressed-too-far-behind-2017.html",
+        "we_recommend_party": null
       },
       "constituency": {
         "country": "England",
@@ -30713,8 +30713,8 @@
         "template": "contradict.html"
       },
       "analysis": {
-        "template": "no-conflict-hard.html",
-        "we_recommend_party": "ld"
+        "template": "suppressed-too-far-behind-2017.html",
+        "we_recommend_party": null
       },
       "constituency": {
         "country": "England",
@@ -32691,8 +32691,8 @@
         "template": "contradict.html"
       },
       "analysis": {
-        "template": "no-conflict-hard.html",
-        "we_recommend_party": "ld"
+        "template": "suppressed-too-far-behind-2017.html",
+        "we_recommend_party": null
       },
       "constituency": {
         "country": "England",
@@ -33073,12 +33073,12 @@
     },
     "windsor": {
       "aggregation": {
-        "party": "ld",
-        "template": "vote-ld.html"
+        "party": null,
+        "template": "pending.html"
       },
       "analysis": {
-        "template": "no-conflict-hard.html",
-        "we_recommend_party": "ld"
+        "template": "suppressed-too-far-behind-2017.html",
+        "we_recommend_party": null
       },
       "constituency": {
         "country": "England",

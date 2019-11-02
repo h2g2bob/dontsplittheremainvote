@@ -40,7 +40,7 @@ class ConstituencyPage(NamedTuple):
         """From the set of results/outcomes we modelled, return
         an Advice of who to vote for.
         """
-        return get_analysis(self.datasets.values(), self.constituency)
+        return get_analysis(self.datasets, self.constituency)
 
     @property
     def aggregation(self) -> Aggregation:

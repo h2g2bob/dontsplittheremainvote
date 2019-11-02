@@ -12,7 +12,7 @@ amber-valley,E14000533,lab,3,lab,3,lab,3,,,,,lab,3,,
 angus,S14000004,,,snp,3,snp,3,,,,,snp,3,snp,3
 arfon,W07000057,plaid,1,,,plaid,1,,,,,,,,
 argyll-and-bute,S14000005,,,snp,3,snp,3,,,,,snp,3,snp,3
-arundel-and-south-downs,E14000534,ld,1,ld,1,ld,1,,,,,lab,-3,,
+arundel-and-south-downs,E14000534,ld,0,,,ld,0,,,,,lab,-2,,
 ashfield,E14000535,lab,4,lab,4,lab,4,,,,,lab,4,lab,4
 ashford,E14000536,lab,2,,,lab,2,,,,,lab,2,,
 ashton-under-lyne,E14000537,lab,4,lab,4,lab,4,,,,,lab,4,lab,4
@@ -31,7 +31,7 @@ bath,E14000547,ld,4,ld,4,ld,4,,,,,ld,4,ld,4
 batley-and-spen,E14000548,lab,4,lab,4,lab,4,,,,,lab,4,lab,4
 battersea,E14000549,lab,3,,,lab,3,,,,,lab,3,lab,3
 beaconsfield,E14000550,ind,-1,,,ld,-1,,,,,,,,
-beckenham,E14000551,ld,1,ld,1,ld,1,,,,,lab,-3,,
+beckenham,E14000551,ld,0,,,ld,0,,,,,lab,-2,,
 bedford,E14000552,lab,3,,,lab,3,,,,,lab,3,lab,3
 belfast-east,N06000001,,,alliance,3,alliance,3,,,,,alliance,3,alliance,3
 belfast-north,N06000002,,,,,,,,,,,sf,0,,
@@ -62,7 +62,7 @@ blackpool-south,E14000573,lab,4,lab,4,lab,4,,,,,lab,4,lab,4
 blaenau-gwent,W07000072,lab,2,lab,2,lab,2,,,,,,,,
 blaydon,E14000574,lab,3,,,lab,3,,,,,lab,3,lab,3
 blyth-valley,E14000575,lab,4,lab,4,lab,4,,,,,lab,4,lab,4
-bognor-regis-and-littlehampton,E14000576,ld,1,ld,1,ld,1,,,,,lab,-3,,
+bognor-regis-and-littlehampton,E14000576,ld,0,,,ld,0,,,,,lab,-2,,
 bolsover,E14000577,lab,4,lab,4,lab,4,,,,,lab,4,lab,4
 bolton-north-east,E14000578,lab,4,lab,4,lab,4,,,,,lab,4,lab,4
 bolton-south-east,E14000579,lab,3,,,lab,3,,,,,lab,3,lab,3
@@ -96,7 +96,7 @@ bromley-and-chislehurst,E14000604,lab,0,,,ld,-2,,,,,lab,0,,
 bromsgrove,E14000605,ld,0,,,ld,0,,,,,lab,-2,,
 broxbourne,E14000606,lab,1,,,,,,,,,lab,1,,
 broxtowe,E14000607,chuk,-2,,,lab,0,,,,,lab,0,,
-buckingham,E14000608,green,-2,ld,0,ld,0,,,,,,,,
+buckingham,E14000608,green,-1,,,ld,-1,,,,,,,,
 burnley,E14000609,lab,3,,,lab,3,,,,,lab,3,lab,3
 burton,E14000610,lab,3,lab,3,lab,3,,,,,lab,3,,
 bury-north,E14000611,lab,4,lab,4,lab,4,,,,,lab,4,lab,4
@@ -126,7 +126,7 @@ ceredigion,W07000064,plaid,-1,,,ld,-1,,,,,,,,
 charnwood,E14000625,lab,1,,,,,,,,,lab,1,,
 chatham-and-aylesford,E14000626,lab,3,lab,3,lab,3,,,,,lab,3,,
 cheadle,E14000627,ld,5,ld,5,ld,5,,,ld,5,ld,5,ld,5
-chelmsford,E14000628,ld,2,ld,2,ld,2,ld,2,,,lab,-4,,
+chelmsford,E14000628,ld,1,,,ld,1,ld,1,,,lab,-3,,
 chelsea-and-fulham,E14000629,ld,0,,,ld,0,,,,,lab,-2,,
 cheltenham,E14000630,ld,4,ld,4,ld,4,,,,,ld,4,ld,4
 chesham-and-amersham,E14000631,ld,2,ld,2,ld,2,,,,,,,,
@@ -304,7 +304,7 @@ islington-south-and-finsbury,E14000764,lab,3,,,lab,3,,,,,lab,3,lab,3
 islwyn,W07000077,lab,4,lab,4,lab,4,,,,,lab,4,lab,4
 jarrow,E14000765,lab,4,lab,4,lab,4,,,,,lab,4,lab,4
 keighley,E14000766,lab,3,,,lab,3,,,,,lab,3,lab,3
-kenilworth-and-southam,E14000767,ld,1,ld,1,ld,1,,,,,lab,-3,,
+kenilworth-and-southam,E14000767,ld,0,,,ld,0,,,,,lab,-2,,
 kensington,E14000768,ld,-3,,,lab,1,,,,,lab,1,lab,1
 kettering,E14000769,lab,2,,,lab,2,,,,,lab,2,,
 kilmarnock-and-loudoun,S14000040,,,,,snp,1,,,,,snp,1,,
@@ -387,7 +387,7 @@ newcastle-upon-tyne-central,E14000831,lab,3,,,lab,3,,,,,lab,3,lab,3
 newcastle-upon-tyne-east,E14000832,lab,3,,,lab,3,,,,,lab,3,lab,3
 newcastle-upon-tyne-north,E14000833,lab,3,,,lab,3,,,,,lab,3,lab,3
 new-forest-east,E14000827,ld,-2,lab,0,lab,0,,,,,,,,
-new-forest-west,E14000828,ld,2,ld,2,ld,2,,,,,,,,
+new-forest-west,E14000828,ld,1,,,ld,1,,,,,,,,
 newport-east,W07000055,lab,4,lab,4,lab,4,,,,,lab,4,lab,4
 newport-west,W07000056,lab,3,,,lab,3,,,,,lab,3,lab,3
 newry-and-armagh,N06000011,,,,,sf,1,,,,,sf,1,,
@@ -407,12 +407,12 @@ north-east-cambridgeshire,E14000842,ld,-1,,,,,,,,,lab,-1,,
 north-east-derbyshire,E14000843,lab,4,lab,4,lab,4,,,,,lab,4,lab,4
 north-east-fife,S14000049,,,,,ld,-1,,,,,snp,-1,,
 north-east-hampshire,E14000844,ld,2,ld,2,ld,2,,,,,,,,
-north-east-hertfordshire,E14000845,ld,1,ld,1,ld,1,,,,,lab,-3,,
+north-east-hertfordshire,E14000845,ld,0,,,ld,0,,,,,lab,-2,,
 north-east-somerset,E14000846,ld,0,,,ld,0,,,,,lab,-2,,
 north-herefordshire,E14000847,ld,1,,,ld,1,,,,,,,,
 north-norfolk,E14000848,ld,4,ld,4,ld,4,,,,,ld,4,ld,4
 north-shropshire,E14000849,lab,2,,,lab,2,,,,,lab,2,,
-north-somerset,E14000850,ld,1,ld,1,ld,1,,,,,lab,-3,,
+north-somerset,E14000850,ld,0,,,ld,0,,,,,lab,-2,,
 north-swindon,E14000851,lab,2,,,lab,2,,,,,lab,2,,
 north-thanet,E14000852,lab,3,lab,3,lab,3,,,,,lab,3,,
 north-tyneside,E14000853,lab,4,lab,4,lab,4,,,,,lab,4,lab,4
@@ -461,7 +461,7 @@ reading-east,E14000889,lab,3,,,lab,3,,,,,lab,3,lab,3
 reading-west,E14000890,lab,2,,,lab,2,,,,,lab,2,,
 redcar,E14000891,lab,4,lab,4,lab,4,,,,,lab,4,lab,4
 redditch,E14000892,lab,3,lab,3,lab,3,,,,,lab,3,,
-reigate,E14000893,ld,1,ld,1,ld,1,,,,,lab,-3,,
+reigate,E14000893,ld,0,,,ld,0,,,,,lab,-2,,
 rhondda,W07000052,lab,1,,,lab,1,,,,,,,,
 ribble-valley,E14000894,lab,2,,,lab,2,,,,,lab,2,,
 richmond-park,E14000896,ld,5,ld,5,ld,5,,,ld,5,ld,5,ld,5
@@ -483,13 +483,13 @@ rutherglen-and-hamilton-west,S14000056,,,,,snp,-1,,,,,lab,-1,,
 rutland-and-melton,E14000909,ld,1,,,ld,1,,,,,,,,
 saffron-walden,E14000910,ld,3,ld,3,ld,3,ld,3,,,,,,
 salford-and-eccles,E14000911,lab,4,lab,4,lab,4,,,,,lab,4,lab,4
-salisbury,E14000912,ld,1,ld,1,ld,1,,,,,lab,-3,,
+salisbury,E14000912,ld,0,,,ld,0,,,,,lab,-2,,
 scarborough-and-whitby,E14000913,lab,3,lab,3,lab,3,,,,,lab,3,,
 scunthorpe,E14000914,lab,4,lab,4,lab,4,,,,,lab,4,lab,4
 sedgefield,E14000915,lab,4,lab,4,lab,4,,,,,lab,4,lab,4
 sefton-central,E14000916,lab,3,,,lab,3,,,,,lab,3,lab,3
 selby-and-ainsty,E14000917,lab,2,,,lab,2,,,,,lab,2,,
-sevenoaks,E14000918,ld,2,ld,2,ld,2,,,,,,,,
+sevenoaks,E14000918,ld,1,,,ld,1,,,,,,,,
 sheffield-brightside-and-hillsborough,E14000921,lab,3,,,lab,3,,,,,lab,3,lab,3
 sheffield-central,E14000919,lab,3,,,lab,3,,,,,lab,3,lab,3
 sheffield-hallam,E14000922,ld,0,,,ld,0,,,,,lab,-2,,
@@ -506,7 +506,7 @@ solihull,E14000931,ld,-1,,,,,,,,,lab,-1,,
 somerton-and-frome,E14000932,ld,3,ld,3,ld,3,,,,,ld,3,,
 southampton-itchen,E14000955,lab,3,,,lab,3,,,,,lab,3,lab,3
 southampton-test,E14000956,lab,3,,,lab,3,,,,,lab,3,lab,3
-south-antrim,N06000014,,,alliance,1,alliance,1,,,,,,,,
+south-antrim,N06000014,,,,,alliance,0,,,,,,,,
 south-basildon-and-east-thurrock,E14000933,lab,2,,,,,lab,2,,,lab,2,,
 south-cambridgeshire,E14000934,ld,1,ld,1,ld,1,,,,,lab,-3,,
 south-derbyshire,E14000935,lab,3,lab,3,lab,3,,,,,lab,3,,
@@ -564,7 +564,7 @@ sutton-coldfield,E14000985,ld,0,,,ld,0,,,,,lab,-2,,
 swansea-east,W07000048,lab,4,lab,4,lab,4,,,,,lab,4,lab,4
 swansea-west,W07000047,lab,3,,,lab,3,,,,,lab,3,lab,3
 tamworth,E14000986,lab,1,,,,,,,,,lab,1,,
-tatton,E14000987,ld,1,ld,1,ld,1,,,,,lab,-3,,
+tatton,E14000987,ld,0,,,ld,0,,,,,lab,-2,,
 taunton-deane,E14000988,ld,4,ld,4,ld,4,,,,,ld,4,ld,4
 telford,E14000989,lab,4,lab,4,lab,4,,,,,lab,4,lab,4
 tewkesbury,E14000990,ld,1,ld,1,ld,1,,,,,lab,-3,,
@@ -574,7 +574,7 @@ thirsk-and-malton,E14000993,ld,-1,,,,,,,,,lab,-1,,
 thornbury-and-yate,E14000994,ld,4,ld,4,ld,4,,,,,ld,4,ld,4
 thurrock,E14000995,lab,5,lab,5,lab,5,lab,5,,,lab,5,lab,5
 tiverton-and-honiton,E14000996,ld,0,,,ld,0,,,,,lab,-2,,
-tonbridge-and-malling,E14000997,ld,2,ld,2,ld,2,,,,,,,,
+tonbridge-and-malling,E14000997,ld,1,,,ld,1,,,,,,,,
 tooting,E14000998,lab,3,,,lab,3,,,,,lab,3,lab,3
 torbay,E14000999,ld,4,ld,4,ld,4,,,,,ld,4,ld,4
 torfaen,W07000053,lab,4,lab,4,lab,4,,,,,lab,4,lab,4
@@ -582,7 +582,7 @@ torridge-and-west-devon,E14001000,ld,0,,,ld,0,,,,,lab,-2,,
 totnes,E14001001,ld,1,,,ld,1,,,,,,,,
 tottenham,E14001002,lab,3,,,lab,3,,,,,lab,3,lab,3
 truro-and-falmouth,E14001003,ld,0,,,ld,0,,,,,lab,-2,,
-tunbridge-wells,E14001004,ld,1,ld,1,ld,1,,,,,lab,-3,,
+tunbridge-wells,E14001004,ld,0,,,ld,0,,,,,lab,-2,,
 twickenham,E14001005,ld,4,ld,4,ld,4,,,,,ld,4,ld,4
 tynemouth,E14001006,lab,3,,,lab,3,,,,,lab,3,lab,3
 upper-bann,N06000017,,,,,,,,,,,sf,0,,
@@ -622,11 +622,11 @@ westmorland-and-lonsdale,E14001037,ld,4,ld,4,ld,4,,,,,ld,4,ld,4
 weston-super-mare,E14001038,ld,-2,,,lab,0,,,,,lab,0,,
 west-suffolk,E14001034,lab,2,,,lab,2,,,,,lab,2,,
 west-tyrone,N06000018,,,,,sf,1,,,,,sf,1,,
-west-worcestershire,E14001035,ld,1,ld,1,ld,1,,,,,lab,-3,,
+west-worcestershire,E14001035,ld,0,,,ld,0,,,,,lab,-2,,
 wigan,E14001039,lab,4,lab,4,lab,4,,,,,lab,4,lab,4
 wimbledon,E14001040,ld,0,,,ld,0,,,,,lab,-2,,
 winchester,E14001041,ld,3,ld,3,ld,3,,,,,ld,3,,
-windsor,E14001042,ld,2,ld,2,ld,2,,,,,,,,
+windsor,E14001042,ld,1,,,ld,1,,,,,,,,
 wirral-south,E14001043,lab,3,,,lab,3,,,,,lab,3,lab,3
 wirral-west,E14001044,lab,3,,,lab,3,,,,,lab,3,lab,3
 witham,E14001045,ld,0,,,,,ld,0,,,lab,-2,,
