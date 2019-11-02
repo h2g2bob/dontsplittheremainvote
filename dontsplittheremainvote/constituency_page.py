@@ -1,6 +1,6 @@
-from .advice import Advice
-from .advice import get_advice
-from .advice import outcome_frequency
+from .analysis import Analysis
+from .analysis import get_analysis
+from .analysis import outcome_frequency
 from .constituency import all_constituencies
 from .constituency import Constituency
 from .dataset import Dataset
@@ -22,11 +22,11 @@ class ConstituencyPage(NamedTuple):
     known_ppc: List[PPC]
 
     @property
-    def analysis(self) -> Advice:
+    def analysis(self) -> Analysis:
         """From the set of results/outcomes we modelled, return
         an Advice of who to vote for.
         """
-        return get_advice(self.datasets.values(), self.constituency)
+        return get_analysis(self.datasets.values(), self.constituency)
 
     @property
     def aggregation(self) -> Aggregation:
