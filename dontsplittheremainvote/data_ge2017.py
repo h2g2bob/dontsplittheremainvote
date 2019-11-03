@@ -2,6 +2,8 @@ from csv import DictReader
 from collections import defaultdict
 from typing import Dict
 from .party import get_party
+from .party import CLAIREWRIGHT
+from .party import INDEPENDENT
 from .constituency import Constituency
 from .constituency import get_constitiuency
 from .result import Result
@@ -25,14 +27,16 @@ def _results_by_constituency() -> Dict[Constituency, Result]:
         csvf = DictReader(f)
         for row in csvf:
             constituency = row['ons_id']
-            party = row['party_name']
+            party = get_party(row['party_name'])
+            if party == INDEPENDENT and row['firstname'] == 'Claire' and row['surname'] == 'Wright':
+                party = CLAIREWRIGHT
             votes = float(row['share'])
             raw_data[constituency][party] = votes
 
     return {
         get_constitiuency(constituency_id): Result({
-            get_party(party_name): vote_share
-            for party_name, vote_share in constituency_results.items()})
+            party: vote_share
+            for party, vote_share in constituency_results.items()})
         for constituency_id, constituency_results in raw_data.items()}
 
 DATA_2017 = Dataset(

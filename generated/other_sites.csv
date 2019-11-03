@@ -190,7 +190,7 @@ ealing-southall,E14000676,lab,2,,,,,,,lab,2,lab,2
 easington,E14000677,lab,3,lab,3,,,,,lab,3,lab,3
 east-antrim,N06000005,,,,,,,,,alliance,0,,
 eastbourne,E14000684,,,,,,,,,ld,1,ld,1
-east-devon,E14000678,ind,0,,,,,,,ind,0,other,-2
+east-devon,E14000678,ind-wright,2,,,,,,,ind-wright,2,ind-wright,2
 east-dunbartonshire,S14000018,,,,,,,,,,,,
 east-ham,E14000679,lab,2,,,,,,,lab,2,lab,2
 east-hampshire,E14000680,ld,1,ld,1,,,,,,,,

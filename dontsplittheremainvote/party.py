@@ -25,6 +25,7 @@ UKIP = Party('UKIP / Brexit', remain=False, color='#70147A')
 UUP = Party('UUP', remain=False, color='#9999FF')
 NHAP = Party('National Health Action Party', remain=True, color='#0071BB')
 SDLP = Party('SDLP', remain=True, color='#3A9E84', short='sdlp')
+CLAIREWRIGHT = Party('Claire Wright', remain=True, color='#00bd93', short='ind-wright')
 INDEPENDENT = Party('Independent', remain=False, color='#e7e7e7', short='ind')
 SPEAKER = Party('Speaker', remain=True, color='#888888')
 
@@ -42,6 +43,7 @@ _ALL_PARTIES = [
     UUP,
     NHAP,
     SDLP,
+    CLAIREWRIGHT,
     INDEPENDENT,
     SPEAKER,
     Party('The Yorkshire Party', remain=False, color='#00AEEF'),

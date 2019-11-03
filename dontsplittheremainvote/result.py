@@ -8,6 +8,7 @@ from typing import Tuple
 from .party import Party
 from .party import get_party
 from .party import ALLIANCE
+from .party import CLAIREWRIGHT
 from .party import CON
 from .party import DUP
 from .party import GREEN
@@ -112,6 +113,8 @@ class Result(NamedTuple):
                     return classify.REMAIN_VICTORY_SDLP
             if winner == ALLIANCE:
                     return classify.REMAIN_VICTORY_ALLIANCE
+            if winner == CLAIREWRIGHT:
+                    return classify.REMAIN_VICTORY_CLAIREWRIGHT
             raise ValueError(winner)
 
         rainbow_alliance_share = self.rainbow_alliance_share()
@@ -133,6 +136,8 @@ class Result(NamedTuple):
                 return classify.ALLIANCE_PLAID
             if remain1 == SDLP:
                 return classify.ALLIANCE_SDLP
+            if remain1 == CLAIREWRIGHT:
+                return classify.ALLIANCE_CLAIREWRIGHT
             if remain1 == SF:
                 return classify.SF_ALLIANCE
             raise ValueError(remain1)

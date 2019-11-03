@@ -11,6 +11,7 @@ from .constituency import get_constitiuency_from_slug
 from .party import Party
 from .party import get_party
 from .party import ALLIANCE
+from .party import CLAIREWRIGHT
 from .party import CHANGEUK
 from .party import INDEPENDENT
 from .party import GREEN
@@ -58,7 +59,7 @@ def _getvoting():
     PARTIES = {
         'Anna Soubry': CHANGEUK,
         'Antoinette Sandbach': INDEPENDENT, # former conservative
-        'Claire Wright': INDEPENDENT,
+        'Claire Wright': CLAIREWRIGHT,
         'David Gauke': INDEPENDENT, # former conservative
         'Dominic Grieve': INDEPENDENT, # former conservative
         'Green': GREEN,
@@ -122,12 +123,18 @@ def _tactical_dot_vote():
         for row in tr_list:
             url, name, recommendation = re.compile(r'<td><a href="([^"]+)">([^<>]+)</a></td><td>.*?</td><td>(.*?)</td>').search(row).groups()
             party = PARTY_RECOMEND[recommendation]
+
             if party is not None:
+                constituency = get_constitiuency_from_name(name)
+
+                if constituency.slug == 'east-devon' and party == INDEPENDENT:
+                    party = CLAIREWRIGHT
+
                 suggestion = OtherSiteSuggestion(
                     who_suggests='tactical.vote',
                     party=party,
                     url='https://tactical.vote/{}'.format(url))
-                yield get_constitiuency_from_name(name), suggestion
+                yield constituency, suggestion
 
 def _essex_against_tories():
     results = [

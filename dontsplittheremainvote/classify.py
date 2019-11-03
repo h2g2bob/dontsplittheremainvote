@@ -8,6 +8,7 @@ from typing import Tuple
 
 from .party import get_party
 from .party import ALLIANCE
+from .party import CLAIREWRIGHT
 from .party import CON
 from .party import DUP
 from .party import GREEN
@@ -86,8 +87,10 @@ REMAIN_VICTORY_SF = _RemainVictory('sf', 'Sinn Fenn')
 REMAIN_VICTORY_GREEN = _RemainVictory('green', 'Green')
 REMAIN_VICTORY_SDLP = _RemainVictory('sdlp', 'SDLP')
 REMAIN_VICTORY_ALLIANCE = _RemainVictory('alliance', 'Alliance')
+REMAIN_VICTORY_CLAIREWRIGHT = _RemainVictory('ind-wright', 'Claire Wright')
 
 ALLIANCE_ALLIANCE = _NeedAlliance(ALLIANCE)
+ALLIANCE_CLAIREWRIGHT = _NeedAlliance(CLAIREWRIGHT)
 ALLIANCE_GREEN = _NeedAlliance(GREEN)
 ALLIANCE_LAB = _NeedAlliance(LAB)
 ALLIANCE_LD = _NeedAlliance(LD)

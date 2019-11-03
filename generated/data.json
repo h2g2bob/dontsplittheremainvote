@@ -10083,8 +10083,8 @@
     },
     "east-devon": {
       "aggregation": {
-        "party": null,
-        "template": "contradict.html"
+        "party": "ind-wright",
+        "template": "vote-ind-wright.html"
       },
       "analysis": {
         "template": "alliance-mixed.html",
@@ -10101,17 +10101,17 @@
       },
       "other_sites": [
         {
-          "party": "other",
+          "party": "ind-wright",
           "url": "https://tacticalvote.co.uk/#EastDevon",
           "who_suggests": "tacticalvote.co.uk"
         },
         {
-          "party": "ind",
+          "party": "ind-wright",
           "url": "https://tactical.vote/east-devon",
           "who_suggests": "tactical.vote"
         },
         {
-          "party": "ind",
+          "party": "ind-wright",
           "url": "https://getvoting.org/",
           "who_suggests": "Best for Britain"
         }
@@ -10119,10 +10119,17 @@
       "outcome_frequency": [
         [
           {
+            "img": "difficult-alliance-ind-wright",
+            "text": "Remain can win if we work together. The largest party is Claire Wright."
+          },
+          0.3333333333333333
+        ],
+        [
+          {
             "img": "leave-victory-con",
             "text": "Largest party is Conservative. An alliance would not have helped here."
           },
-          0.6666666666666666
+          0.25
         ],
         [
           {
@@ -10130,6 +10137,13 @@
             "text": "Remain can win if we work together. The largest party is Liberal Democrat."
           },
           0.25
+        ],
+        [
+          {
+            "img": "remain-victory-ind-wright",
+            "text": "Remain win: Claire Wright"
+          },
+          0.08333333333333333
         ],
         [
           {
