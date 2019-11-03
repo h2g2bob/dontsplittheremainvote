@@ -10,8 +10,6 @@ from .party import SNP
 from .party import UKIP
 
 RECENT_POLLING = """\
-Early October polling:
-
 Late October polling:
 
                Con   Lab   LibDem   Brexit   Green   SNP
