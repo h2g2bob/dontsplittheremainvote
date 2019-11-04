@@ -4,6 +4,7 @@ from jinja2 import Environment, FileSystemLoader
 from typing import Dict
 from typing import List
 from typing import Tuple
+from . import data_ge2017
 from .dataset import Dataset
 from .load_dataset import datasets_by_constituency
 from .load_dataset import get_all_datasets
@@ -127,17 +128,23 @@ def _generate_other_sites_data(constituency_pages: List[ConstituencyPage]) -> Tu
 
 def generate_other_sites_csv(constituency_pages: List[ConstituencyPage]):
     all_site_names, all_suggestions = _generate_other_sites_data(constituency_pages)
+    result_2017_by_con = {
+        cpage.constituency: cpage.datasets[data_ge2017.DATA_2017]
+        for cpage in constituency_pages}
     with open('generated/other_sites.csv', 'w') as f:
         writer = csv.writer(f)
 
-        headers = ['constituency', 'ons_id']
+        headers = ['constituency', 'ons_id', 'remain_pct_2017']
         for site_name in all_site_names:
             headers.append(site_name)
             headers.append(site_name + " alignment")
         writer.writerow(headers)
 
         for constituency, con_sugg in all_suggestions.items():
-            data = [constituency.slug, constituency.ons_id]
+            data = [
+                constituency.slug,
+                constituency.ons_id,
+                result_2017_by_con[constituency].rainbow_alliance_share()]
             for site_name in all_site_names:
                 try:
                     party = con_sugg[site_name]
