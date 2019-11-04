@@ -43,7 +43,7 @@ def get_analysis(datasets, constituency) -> Analysis:
     if constituency.slug == 'don-valley':
         return Analysis(
             template='special-labour-leave.html',
-            we_recommend_party=LD)
+            we_recommend_party=None)
 
     if constituency.slug == 'buckingham':
         return Analysis(
