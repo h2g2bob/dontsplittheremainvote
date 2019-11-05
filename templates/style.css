@@ -180,3 +180,7 @@ div.widebutton a {
 div.indent {
   margin-left: 1em;
 }
+
+summary {
+  cursor: pointer;
+}

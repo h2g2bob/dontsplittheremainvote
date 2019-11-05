@@ -66,8 +66,8 @@ No candidates announced yet.
 {% include 'analysis/' + analysis.template %}
 </div>
 
-<div id="more-scenarios-link" style="padding: 0.2em;"><a href="#" onclick="document.getElementById('more-scenarios').style=display=''; document.getElementById('more-scenarios-link').style.display='none'; return false" style="width: 50%; display: inline-block;">Why we think this &mdash; election results adjusted for polling</a></div>
-<div id="more-scenarios" style="display: none;">
+<details>
+  <summary>Why we think this &mdash; election results adjusted for polling</summary>
 
 <h3>Which outcomes are possible?</h3>
 <div class="section outcome-summary">
@@ -87,7 +87,7 @@ No candidates announced yet.
 {% endfor %}
 </div>
 
-</div>{# end hidden section #}
+</details>{# end hidden section #}
 
 <h2>Social</h2>
 
