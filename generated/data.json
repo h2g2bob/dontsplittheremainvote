@@ -311,6 +311,11 @@
       "other_sites": [
         {
           "party": "lab",
+          "url": "https://tacticalvote.co.uk/#Aldridge-Brownhills",
+          "who_suggests": "tacticalvote.co.uk"
+        },
+        {
+          "party": "lab",
           "url": "https://tactical.vote/aldridge-brownhills",
           "who_suggests": "tactical.vote"
         },
@@ -483,6 +488,11 @@
         "slug": "amber-valley"
       },
       "other_sites": [
+        {
+          "party": "lab",
+          "url": "https://tacticalvote.co.uk/#AmberValley",
+          "who_suggests": "tacticalvote.co.uk"
+        },
         {
           "party": "lab",
           "url": "https://tactical.vote/amber-valley",
@@ -781,6 +791,11 @@
       "other_sites": [
         {
           "party": "lab",
+          "url": "https://tacticalvote.co.uk/#Ashford",
+          "who_suggests": "tacticalvote.co.uk"
+        },
+        {
+          "party": "lab",
           "url": "https://tactical.vote/ashford",
           "who_suggests": "tactical.vote"
         },
@@ -993,6 +1008,11 @@
         "slug": "banbury"
       },
       "other_sites": [
+        {
+          "party": "lab",
+          "url": "https://tacticalvote.co.uk/#Banbury",
+          "who_suggests": "tacticalvote.co.uk"
+        },
         {
           "party": "lab",
           "url": "https://tactical.vote/banbury",
@@ -1323,6 +1343,11 @@
         "slug": "basildon-and-billericay"
       },
       "other_sites": [
+        {
+          "party": "lab",
+          "url": "https://tacticalvote.co.uk/#BasildonandBillericay",
+          "who_suggests": "tacticalvote.co.uk"
+        },
         {
           "party": "lab",
           "url": "https://tactical.vote/basildon-and-billericay",
@@ -1857,8 +1882,8 @@
     },
     "belfast-north": {
       "aggregation": {
-        "party": null,
-        "template": "pending.html"
+        "party": "sf",
+        "template": "vote-sf.html"
       },
       "analysis": {
         "template": "leave.html",
@@ -1874,6 +1899,11 @@
         "slug": "belfast-north"
       },
       "other_sites": [
+        {
+          "party": "sf",
+          "url": "https://tacticalvote.co.uk/#BelfastNorth",
+          "who_suggests": "tacticalvote.co.uk"
+        },
         {
           "party": "sf",
           "url": "https://tactical.vote/belfast-north",
@@ -1947,7 +1977,7 @@
     "belfast-west": {
       "aggregation": {
         "party": null,
-        "template": "pending.html"
+        "template": "contradict.html"
       },
       "analysis": {
         "template": "remain.html",
@@ -1963,6 +1993,11 @@
         "slug": "belfast-west"
       },
       "other_sites": [
+        {
+          "party": "other",
+          "url": "https://tacticalvote.co.uk/#BelfastWest",
+          "who_suggests": "tacticalvote.co.uk"
+        },
         {
           "party": "sf",
           "url": "https://tactical.vote/belfast-west",
@@ -2184,6 +2219,11 @@
       "other_sites": [
         {
           "party": "lab",
+          "url": "https://tacticalvote.co.uk/#BeverleyandHolderness",
+          "who_suggests": "tacticalvote.co.uk"
+        },
+        {
+          "party": "lab",
           "url": "https://tactical.vote/beverley-and-holderness",
           "who_suggests": "tactical.vote"
         },
@@ -2304,6 +2344,11 @@
         "slug": "bexleyheath-and-crayford"
       },
       "other_sites": [
+        {
+          "party": "lab",
+          "url": "https://tacticalvote.co.uk/#BexleyheathandCrayford",
+          "who_suggests": "tacticalvote.co.uk"
+        },
         {
           "party": "lab",
           "url": "https://tactical.vote/bexleyheath-and-crayford",
@@ -3008,6 +3053,11 @@
       "other_sites": [
         {
           "party": "lab",
+          "url": "https://tacticalvote.co.uk/#BlackpoolNorthandCleveleys",
+          "who_suggests": "tacticalvote.co.uk"
+        },
+        {
+          "party": "lab",
           "url": "https://tactical.vote/blackpool-north-and-cleveleys",
           "who_suggests": "tactical.vote"
         },
@@ -3616,6 +3666,11 @@
       "other_sites": [
         {
           "party": "lab",
+          "url": "https://tacticalvote.co.uk/#BostonandSkegness",
+          "who_suggests": "tacticalvote.co.uk"
+        },
+        {
+          "party": "lab",
           "url": "https://tactical.vote/boston-and-skegness",
           "who_suggests": "tactical.vote"
         },
@@ -3724,6 +3779,11 @@
       "other_sites": [
         {
           "party": "lab",
+          "url": "https://tacticalvote.co.uk/#BournemouthEast",
+          "who_suggests": "tacticalvote.co.uk"
+        },
+        {
+          "party": "lab",
           "url": "https://tactical.vote/bournemouth-east",
           "who_suggests": "tactical.vote"
         },
@@ -3776,6 +3836,11 @@
         "slug": "bournemouth-west"
       },
       "other_sites": [
+        {
+          "party": "lab",
+          "url": "https://tacticalvote.co.uk/#BournemouthWest",
+          "who_suggests": "tacticalvote.co.uk"
+        },
         {
           "party": "lab",
           "url": "https://tactical.vote/bournemouth-west",
@@ -4033,6 +4098,11 @@
         "slug": "braintree"
       },
       "other_sites": [
+        {
+          "party": "lab",
+          "url": "https://tacticalvote.co.uk/#Braintree",
+          "who_suggests": "tacticalvote.co.uk"
+        },
         {
           "party": "lab",
           "url": "https://tactical.vote/braintree",
@@ -4492,6 +4562,11 @@
       "other_sites": [
         {
           "party": "lab",
+          "url": "https://tacticalvote.co.uk/#BriggandGoole",
+          "who_suggests": "tacticalvote.co.uk"
+        },
+        {
+          "party": "lab",
           "url": "https://tactical.vote/brigg-and-goole",
           "who_suggests": "tactical.vote"
         },
@@ -4940,6 +5015,11 @@
       "other_sites": [
         {
           "party": "lab",
+          "url": "https://tacticalvote.co.uk/#BromleyandChislehurst",
+          "who_suggests": "tacticalvote.co.uk"
+        },
+        {
+          "party": "lab",
           "url": "https://tactical.vote/bromley-and-chislehurst",
           "who_suggests": "tactical.vote"
         },
@@ -5046,6 +5126,11 @@
         "slug": "broxbourne"
       },
       "other_sites": [
+        {
+          "party": "lab",
+          "url": "https://tacticalvote.co.uk/#Broxbourne",
+          "who_suggests": "tacticalvote.co.uk"
+        },
         {
           "party": "lab",
           "url": "https://tactical.vote/broxbourne",
@@ -5255,6 +5340,11 @@
         "slug": "burton"
       },
       "other_sites": [
+        {
+          "party": "lab",
+          "url": "https://tacticalvote.co.uk/#Burton",
+          "who_suggests": "tacticalvote.co.uk"
+        },
         {
           "party": "lab",
           "url": "https://tactical.vote/burton",
@@ -5683,6 +5773,11 @@
       "other_sites": [
         {
           "party": "lab",
+          "url": "https://tacticalvote.co.uk/#CamborneandRedruth",
+          "who_suggests": "tacticalvote.co.uk"
+        },
+        {
+          "party": "lab",
           "url": "https://tactical.vote/camborne-and-redruth",
           "who_suggests": "tactical.vote"
         },
@@ -5778,6 +5873,11 @@
         "slug": "cannock-chase"
       },
       "other_sites": [
+        {
+          "party": "lab",
+          "url": "https://tacticalvote.co.uk/#CannockChase",
+          "who_suggests": "tacticalvote.co.uk"
+        },
         {
           "party": "lab",
           "url": "https://tactical.vote/cannock-chase",
@@ -6141,6 +6241,11 @@
       "other_sites": [
         {
           "party": "lab",
+          "url": "https://tacticalvote.co.uk/#Carlisle",
+          "who_suggests": "tacticalvote.co.uk"
+        },
+        {
+          "party": "lab",
           "url": "https://tactical.vote/carlisle",
           "who_suggests": "tactical.vote"
         },
@@ -6240,6 +6345,11 @@
         "slug": "carmarthen-west-and-south-pembrokeshire"
       },
       "other_sites": [
+        {
+          "party": "lab",
+          "url": "https://tacticalvote.co.uk/#CarmarthenWestandSouthPembrokeshire",
+          "who_suggests": "tacticalvote.co.uk"
+        },
         {
           "party": "lab",
           "url": "https://tactical.vote/carmarthen-west-and-south-pembrokeshire",
@@ -6604,6 +6714,11 @@
       "other_sites": [
         {
           "party": "lab",
+          "url": "https://tacticalvote.co.uk/#Charnwood",
+          "who_suggests": "tacticalvote.co.uk"
+        },
+        {
+          "party": "lab",
           "url": "https://tactical.vote/charnwood",
           "who_suggests": "tactical.vote"
         },
@@ -6649,6 +6764,11 @@
         "slug": "chatham-and-aylesford"
       },
       "other_sites": [
+        {
+          "party": "lab",
+          "url": "https://tacticalvote.co.uk/#ChathamandAylesford",
+          "who_suggests": "tacticalvote.co.uk"
+        },
         {
           "party": "lab",
           "url": "https://tactical.vote/chatham-and-aylesford",
@@ -7146,6 +7266,11 @@
       "other_sites": [
         {
           "party": "ld",
+          "url": "https://tacticalvote.co.uk/#Chippenham",
+          "who_suggests": "tacticalvote.co.uk"
+        },
+        {
+          "party": "ld",
           "url": "https://tactical.vote/chippenham",
           "who_suggests": "tactical.vote"
         },
@@ -7247,8 +7372,8 @@
     },
     "chorley": {
       "aggregation": {
-        "party": "lab",
-        "template": "vote-lab.html"
+        "party": null,
+        "template": "contradict.html"
       },
       "analysis": {
         "template": "no-conflict-easy.html",
@@ -7265,7 +7390,7 @@
       },
       "other_sites": [
         {
-          "party": "lab",
+          "party": "other",
           "url": "https://tacticalvote.co.uk/#Chorley",
           "who_suggests": "tacticalvote.co.uk"
         },
@@ -7532,6 +7657,11 @@
       "other_sites": [
         {
           "party": "lab",
+          "url": "https://tacticalvote.co.uk/#Clacton",
+          "who_suggests": "tacticalvote.co.uk"
+        },
+        {
+          "party": "lab",
           "url": "https://tactical.vote/clacton",
           "who_suggests": "tactical.vote"
         },
@@ -7582,6 +7712,11 @@
         "slug": "cleethorpes"
       },
       "other_sites": [
+        {
+          "party": "lab",
+          "url": "https://tacticalvote.co.uk/#Cleethorpes",
+          "who_suggests": "tacticalvote.co.uk"
+        },
         {
           "party": "lab",
           "url": "https://tactical.vote/cleethorpes",
@@ -7681,6 +7816,11 @@
         "slug": "clwyd-west"
       },
       "other_sites": [
+        {
+          "party": "lab",
+          "url": "https://tacticalvote.co.uk/#ClwydWest",
+          "who_suggests": "tacticalvote.co.uk"
+        },
         {
           "party": "lab",
           "url": "https://tactical.vote/clwyd-west",
@@ -7889,6 +8029,11 @@
         "slug": "congleton"
       },
       "other_sites": [
+        {
+          "party": "lab",
+          "url": "https://tacticalvote.co.uk/#Congleton",
+          "who_suggests": "tacticalvote.co.uk"
+        },
         {
           "party": "lab",
           "url": "https://tactical.vote/congleton",
@@ -8229,6 +8374,11 @@
         "slug": "crawley"
       },
       "other_sites": [
+        {
+          "party": "lab",
+          "url": "https://tacticalvote.co.uk/#Crawley",
+          "who_suggests": "tacticalvote.co.uk"
+        },
         {
           "party": "lab",
           "url": "https://tactical.vote/crawley",
@@ -8705,6 +8855,11 @@
         "slug": "dartford"
       },
       "other_sites": [
+        {
+          "party": "lab",
+          "url": "https://tacticalvote.co.uk/#Dartford",
+          "who_suggests": "tacticalvote.co.uk"
+        },
         {
           "party": "lab",
           "url": "https://tactical.vote/dartford",
@@ -9499,6 +9654,11 @@
         "slug": "dudley-south"
       },
       "other_sites": [
+        {
+          "party": "lab",
+          "url": "https://tacticalvote.co.uk/#DudleySouth",
+          "who_suggests": "tacticalvote.co.uk"
+        },
         {
           "party": "lab",
           "url": "https://tactical.vote/dudley-south",
@@ -10527,6 +10687,11 @@
       "other_sites": [
         {
           "party": "lab",
+          "url": "https://tacticalvote.co.uk/#EastWorthingandShoreham",
+          "who_suggests": "tacticalvote.co.uk"
+        },
+        {
+          "party": "lab",
           "url": "https://tactical.vote/east-worthing-and-shoreham",
           "who_suggests": "tactical.vote"
         },
@@ -11380,6 +11545,11 @@
       "other_sites": [
         {
           "party": "lab",
+          "url": "https://tacticalvote.co.uk/#EppingForest",
+          "who_suggests": "tacticalvote.co.uk"
+        },
+        {
+          "party": "lab",
           "url": "https://tactical.vote/epping-forest",
           "who_suggests": "tactical.vote"
         },
@@ -11491,6 +11661,11 @@
         "slug": "erewash"
       },
       "other_sites": [
+        {
+          "party": "lab",
+          "url": "https://tacticalvote.co.uk/#Erewash",
+          "who_suggests": "tacticalvote.co.uk"
+        },
         {
           "party": "lab",
           "url": "https://tactical.vote/erewash",
@@ -12139,6 +12314,11 @@
       "other_sites": [
         {
           "party": "lab",
+          "url": "https://tacticalvote.co.uk/#ForestofDean",
+          "who_suggests": "tacticalvote.co.uk"
+        },
+        {
+          "party": "lab",
           "url": "https://tactical.vote/forest-of-dean",
           "who_suggests": "tactical.vote"
         },
@@ -12236,6 +12416,11 @@
       "other_sites": [
         {
           "party": "lab",
+          "url": "https://tacticalvote.co.uk/#Fylde",
+          "who_suggests": "tacticalvote.co.uk"
+        },
+        {
+          "party": "lab",
           "url": "https://tactical.vote/fylde",
           "who_suggests": "tactical.vote"
         },
@@ -12288,6 +12473,11 @@
         "slug": "gainsborough"
       },
       "other_sites": [
+        {
+          "party": "lab",
+          "url": "https://tacticalvote.co.uk/#Gainsborough",
+          "who_suggests": "tacticalvote.co.uk"
+        },
         {
           "party": "lab",
           "url": "https://tactical.vote/gainsborough",
@@ -12489,6 +12679,11 @@
         "slug": "gillingham-and-rainham"
       },
       "other_sites": [
+        {
+          "party": "lab",
+          "url": "https://tacticalvote.co.uk/#GillinghamandRainham",
+          "who_suggests": "tacticalvote.co.uk"
+        },
         {
           "party": "lab",
           "url": "https://tactical.vote/gillingham-and-rainham",
@@ -12822,6 +13017,11 @@
       "other_sites": [
         {
           "party": "lab",
+          "url": "https://tacticalvote.co.uk/#Gloucester",
+          "who_suggests": "tacticalvote.co.uk"
+        },
+        {
+          "party": "lab",
           "url": "https://tactical.vote/gloucester",
           "who_suggests": "tactical.vote"
         },
@@ -12921,6 +13121,11 @@
         "slug": "gosport"
       },
       "other_sites": [
+        {
+          "party": "lab",
+          "url": "https://tacticalvote.co.uk/#Gosport",
+          "who_suggests": "tacticalvote.co.uk"
+        },
         {
           "party": "lab",
           "url": "https://tactical.vote/gosport",
@@ -13076,6 +13281,11 @@
       "other_sites": [
         {
           "party": "lab",
+          "url": "https://tacticalvote.co.uk/#Gravesham",
+          "who_suggests": "tacticalvote.co.uk"
+        },
+        {
+          "party": "lab",
           "url": "https://tactical.vote/gravesham",
           "who_suggests": "tactical.vote"
         },
@@ -13194,6 +13404,11 @@
         "slug": "great-yarmouth"
       },
       "other_sites": [
+        {
+          "party": "lab",
+          "url": "https://tacticalvote.co.uk/#GreatYarmouth",
+          "who_suggests": "tacticalvote.co.uk"
+        },
         {
           "party": "lab",
           "url": "https://tactical.vote/great-yarmouth",
@@ -13842,6 +14057,11 @@
       "other_sites": [
         {
           "party": "lab",
+          "url": "https://tacticalvote.co.uk/#Harlow",
+          "who_suggests": "tacticalvote.co.uk"
+        },
+        {
+          "party": "lab",
           "url": "https://tactical.vote/harlow",
           "who_suggests": "tactical.vote"
         },
@@ -14116,6 +14336,11 @@
         "slug": "harwich-and-north-essex"
       },
       "other_sites": [
+        {
+          "party": "lab",
+          "url": "https://tacticalvote.co.uk/#HarwichandNorthEssex",
+          "who_suggests": "tacticalvote.co.uk"
+        },
         {
           "party": "lab",
           "url": "https://tactical.vote/harwich-and-north-essex",
@@ -15112,6 +15337,11 @@
         "slug": "hornchurch-and-upminster"
       },
       "other_sites": [
+        {
+          "party": "lab",
+          "url": "https://tacticalvote.co.uk/#HornchurchandUpminster",
+          "who_suggests": "tacticalvote.co.uk"
+        },
         {
           "party": "lab",
           "url": "https://tactical.vote/hornchurch-and-upminster",
@@ -16240,6 +16470,11 @@
       "other_sites": [
         {
           "party": "lab",
+          "url": "https://tacticalvote.co.uk/#Kettering",
+          "who_suggests": "tacticalvote.co.uk"
+        },
+        {
+          "party": "lab",
           "url": "https://tactical.vote/kettering",
           "who_suggests": "tactical.vote"
         },
@@ -16563,6 +16798,11 @@
         "slug": "kingswood"
       },
       "other_sites": [
+        {
+          "party": "lab",
+          "url": "https://tacticalvote.co.uk/#Kingswood",
+          "who_suggests": "tacticalvote.co.uk"
+        },
         {
           "party": "lab",
           "url": "https://tactical.vote/kingswood",
@@ -17997,6 +18237,11 @@
       "other_sites": [
         {
           "party": "lab",
+          "url": "https://tacticalvote.co.uk/#Loughborough",
+          "who_suggests": "tacticalvote.co.uk"
+        },
+        {
+          "party": "lab",
           "url": "https://tactical.vote/loughborough",
           "who_suggests": "tactical.vote"
         },
@@ -18049,6 +18294,11 @@
         "slug": "louth-and-horncastle"
       },
       "other_sites": [
+        {
+          "party": "lab",
+          "url": "https://tacticalvote.co.uk/#LouthandHorncastle",
+          "who_suggests": "tacticalvote.co.uk"
+        },
         {
           "party": "lab",
           "url": "https://tactical.vote/louth-and-horncastle",
@@ -18770,6 +19020,11 @@
       "other_sites": [
         {
           "party": "lab",
+          "url": "https://tacticalvote.co.uk/#Meriden",
+          "who_suggests": "tacticalvote.co.uk"
+        },
+        {
+          "party": "lab",
           "url": "https://tactical.vote/meriden",
           "who_suggests": "tactical.vote"
         },
@@ -18930,6 +19185,11 @@
       "other_sites": [
         {
           "party": "lab",
+          "url": "https://tacticalvote.co.uk/#MidDerbyshire",
+          "who_suggests": "tacticalvote.co.uk"
+        },
+        {
+          "party": "lab",
           "url": "https://tactical.vote/mid-derbyshire",
           "who_suggests": "tactical.vote"
         },
@@ -18982,6 +19242,11 @@
         "slug": "mid-dorset-and-north-poole"
       },
       "other_sites": [
+        {
+          "party": "ld",
+          "url": "https://tacticalvote.co.uk/#MidDorsetandNorthPoole",
+          "who_suggests": "tacticalvote.co.uk"
+        },
         {
           "party": "ld",
           "url": "https://tactical.vote/mid-dorset-and-north-poole",
@@ -19390,6 +19655,11 @@
       "other_sites": [
         {
           "party": "lab",
+          "url": "https://tacticalvote.co.uk/#MiltonKeynesNorth",
+          "who_suggests": "tacticalvote.co.uk"
+        },
+        {
+          "party": "lab",
           "url": "https://tactical.vote/milton-keynes-north",
           "who_suggests": "tactical.vote"
         },
@@ -19449,6 +19719,11 @@
         "slug": "milton-keynes-south"
       },
       "other_sites": [
+        {
+          "party": "lab",
+          "url": "https://tacticalvote.co.uk/#MiltonKeynesSouth",
+          "who_suggests": "tacticalvote.co.uk"
+        },
         {
           "party": "lab",
           "url": "https://tactical.vote/milton-keynes-south",
@@ -19557,6 +19832,11 @@
       "other_sites": [
         {
           "party": "ld",
+          "url": "https://tacticalvote.co.uk/#MoleValley",
+          "who_suggests": "tacticalvote.co.uk"
+        },
+        {
+          "party": "ld",
           "url": "https://getvoting.org/",
           "who_suggests": "Best for Britain"
         }
@@ -19604,6 +19884,11 @@
         "slug": "monmouth"
       },
       "other_sites": [
+        {
+          "party": "lab",
+          "url": "https://tacticalvote.co.uk/#Monmouth",
+          "who_suggests": "tacticalvote.co.uk"
+        },
         {
           "party": "lab",
           "url": "https://tactical.vote/monmouth",
@@ -19658,6 +19943,11 @@
         "slug": "montgomeryshire"
       },
       "other_sites": [
+        {
+          "party": "ld",
+          "url": "https://tacticalvote.co.uk/#Montgomeryshire",
+          "who_suggests": "tacticalvote.co.uk"
+        },
         {
           "party": "ld",
           "url": "https://tactical.vote/montgomeryshire",
@@ -19766,6 +20056,11 @@
         "slug": "morecambe-and-lunesdale"
       },
       "other_sites": [
+        {
+          "party": "lab",
+          "url": "https://tacticalvote.co.uk/#MorecambeandLunesdale",
+          "who_suggests": "tacticalvote.co.uk"
+        },
         {
           "party": "lab",
           "url": "https://tactical.vote/morecambe-and-lunesdale",
@@ -20161,6 +20456,11 @@
         "slug": "newbury"
       },
       "other_sites": [
+        {
+          "party": "ld",
+          "url": "https://tacticalvote.co.uk/#Newbury",
+          "who_suggests": "tacticalvote.co.uk"
+        },
         {
           "party": "ld",
           "url": "https://getvoting.org/",
@@ -21558,6 +21858,11 @@
       "other_sites": [
         {
           "party": "lab",
+          "url": "https://tacticalvote.co.uk/#NorthShropshire",
+          "who_suggests": "tacticalvote.co.uk"
+        },
+        {
+          "party": "lab",
           "url": "https://tactical.vote/north-shropshire",
           "who_suggests": "tactical.vote"
         },
@@ -21666,6 +21971,11 @@
       "other_sites": [
         {
           "party": "lab",
+          "url": "https://tacticalvote.co.uk/#NorthSwindon",
+          "who_suggests": "tacticalvote.co.uk"
+        },
+        {
+          "party": "lab",
           "url": "https://tactical.vote/north-swindon",
           "who_suggests": "tactical.vote"
         },
@@ -21718,6 +22028,11 @@
         "slug": "north-thanet"
       },
       "other_sites": [
+        {
+          "party": "lab",
+          "url": "https://tacticalvote.co.uk/#NorthThanet",
+          "who_suggests": "tacticalvote.co.uk"
+        },
         {
           "party": "lab",
           "url": "https://tactical.vote/north-thanet",
@@ -21824,6 +22139,11 @@
         "slug": "north-warwickshire"
       },
       "other_sites": [
+        {
+          "party": "lab",
+          "url": "https://tacticalvote.co.uk/#NorthWarwickshire",
+          "who_suggests": "tacticalvote.co.uk"
+        },
         {
           "party": "lab",
           "url": "https://tactical.vote/north-warwickshire",
@@ -22047,6 +22367,11 @@
       "other_sites": [
         {
           "party": "lab",
+          "url": "https://tacticalvote.co.uk/#NorthWestLeicestershire",
+          "who_suggests": "tacticalvote.co.uk"
+        },
+        {
+          "party": "lab",
           "url": "https://tactical.vote/north-west-leicestershire",
           "who_suggests": "tactical.vote"
         },
@@ -22108,6 +22433,11 @@
       "other_sites": [
         {
           "party": "lab",
+          "url": "https://tacticalvote.co.uk/#NorthWestNorfolk",
+          "who_suggests": "tacticalvote.co.uk"
+        },
+        {
+          "party": "lab",
           "url": "https://tactical.vote/north-west-norfolk",
           "who_suggests": "tactical.vote"
         },
@@ -22167,6 +22497,11 @@
         "slug": "north-wiltshire"
       },
       "other_sites": [
+        {
+          "party": "ld",
+          "url": "https://tacticalvote.co.uk/#NorthWiltshire",
+          "who_suggests": "tacticalvote.co.uk"
+        },
         {
           "party": "ld",
           "url": "https://getvoting.org/",
@@ -22268,6 +22603,11 @@
         "slug": "northampton-south"
       },
       "other_sites": [
+        {
+          "party": "lab",
+          "url": "https://tacticalvote.co.uk/#NorthamptonSouth",
+          "who_suggests": "tacticalvote.co.uk"
+        },
         {
           "party": "lab",
           "url": "https://tactical.vote/northampton-south",
@@ -22600,6 +22940,11 @@
       "other_sites": [
         {
           "party": "lab",
+          "url": "https://tacticalvote.co.uk/#Nuneaton",
+          "who_suggests": "tacticalvote.co.uk"
+        },
+        {
+          "party": "lab",
           "url": "https://tactical.vote/nuneaton",
           "who_suggests": "tactical.vote"
         },
@@ -22751,6 +23096,11 @@
         "slug": "old-bexley-and-sidcup"
       },
       "other_sites": [
+        {
+          "party": "lab",
+          "url": "https://tacticalvote.co.uk/#OldBexleyandSidcup",
+          "who_suggests": "tacticalvote.co.uk"
+        },
         {
           "party": "lab",
           "url": "https://tactical.vote/old-bexley-and-sidcup",
@@ -23171,6 +23521,11 @@
         "slug": "pendle"
       },
       "other_sites": [
+        {
+          "party": "lab",
+          "url": "https://tacticalvote.co.uk/#Pendle",
+          "who_suggests": "tacticalvote.co.uk"
+        },
         {
           "party": "lab",
           "url": "https://tactical.vote/pendle",
@@ -23710,6 +24065,11 @@
       "other_sites": [
         {
           "party": "lab",
+          "url": "https://tacticalvote.co.uk/#PortsmouthNorth",
+          "who_suggests": "tacticalvote.co.uk"
+        },
+        {
+          "party": "lab",
           "url": "https://tactical.vote/portsmouth-north",
           "who_suggests": "tactical.vote"
         },
@@ -24185,6 +24545,11 @@
       "other_sites": [
         {
           "party": "lab",
+          "url": "https://tacticalvote.co.uk/#ReadingWest",
+          "who_suggests": "tacticalvote.co.uk"
+        },
+        {
+          "party": "lab",
           "url": "https://tactical.vote/reading-west",
           "who_suggests": "tactical.vote"
         },
@@ -24303,6 +24668,11 @@
         "slug": "redditch"
       },
       "other_sites": [
+        {
+          "party": "lab",
+          "url": "https://tacticalvote.co.uk/#Redditch",
+          "who_suggests": "tacticalvote.co.uk"
+        },
         {
           "party": "lab",
           "url": "https://tactical.vote/redditch",
@@ -24446,6 +24816,11 @@
         "slug": "ribble-valley"
       },
       "other_sites": [
+        {
+          "party": "lab",
+          "url": "https://tacticalvote.co.uk/#RibbleValley",
+          "who_suggests": "tacticalvote.co.uk"
+        },
         {
           "party": "lab",
           "url": "https://tactical.vote/ribble-valley",
@@ -24726,6 +25101,11 @@
       "other_sites": [
         {
           "party": "lab",
+          "url": "https://tacticalvote.co.uk/#RochfordandSouthendEast",
+          "who_suggests": "tacticalvote.co.uk"
+        },
+        {
+          "party": "lab",
           "url": "https://tactical.vote/rochford-and-southend-east",
           "who_suggests": "tactical.vote"
         },
@@ -24785,6 +25165,11 @@
       "other_sites": [
         {
           "party": "lab",
+          "url": "https://tacticalvote.co.uk/#Romford",
+          "who_suggests": "tacticalvote.co.uk"
+        },
+        {
+          "party": "lab",
           "url": "https://tactical.vote/romford",
           "who_suggests": "tactical.vote"
         },
@@ -24837,6 +25222,11 @@
         "slug": "romsey-and-southampton-north"
       },
       "other_sites": [
+        {
+          "party": "ld",
+          "url": "https://tacticalvote.co.uk/#RomseyandSouthamptonNorth",
+          "who_suggests": "tacticalvote.co.uk"
+        },
         {
           "party": "ld",
           "url": "https://tactical.vote/romsey-and-southampton-north",
@@ -24938,6 +25328,11 @@
         "slug": "rossendale-and-darwen"
       },
       "other_sites": [
+        {
+          "party": "lab",
+          "url": "https://tacticalvote.co.uk/#RossendaleandDarwen",
+          "who_suggests": "tacticalvote.co.uk"
+        },
         {
           "party": "lab",
           "url": "https://tactical.vote/rossendale-and-darwen",
@@ -25103,6 +25498,11 @@
         "slug": "rugby"
       },
       "other_sites": [
+        {
+          "party": "lab",
+          "url": "https://tacticalvote.co.uk/#Rugby",
+          "who_suggests": "tacticalvote.co.uk"
+        },
         {
           "party": "lab",
           "url": "https://tactical.vote/rugby",
@@ -25572,6 +25972,11 @@
       "other_sites": [
         {
           "party": "lab",
+          "url": "https://tacticalvote.co.uk/#ScarboroughandWhitby",
+          "who_suggests": "tacticalvote.co.uk"
+        },
+        {
+          "party": "lab",
           "url": "https://tactical.vote/scarborough-and-whitby",
           "who_suggests": "tactical.vote"
         },
@@ -25808,6 +26213,11 @@
         "slug": "selby-and-ainsty"
       },
       "other_sites": [
+        {
+          "party": "lab",
+          "url": "https://tacticalvote.co.uk/#SelbyandAinsty",
+          "who_suggests": "tacticalvote.co.uk"
+        },
         {
           "party": "lab",
           "url": "https://tactical.vote/selby-and-ainsty",
@@ -26182,6 +26592,11 @@
       "other_sites": [
         {
           "party": "lab",
+          "url": "https://tacticalvote.co.uk/#Sherwood",
+          "who_suggests": "tacticalvote.co.uk"
+        },
+        {
+          "party": "lab",
           "url": "https://tactical.vote/sherwood",
           "who_suggests": "tactical.vote"
         },
@@ -26234,6 +26649,11 @@
         "slug": "shipley"
       },
       "other_sites": [
+        {
+          "party": "lab",
+          "url": "https://tacticalvote.co.uk/#Shipley",
+          "who_suggests": "tacticalvote.co.uk"
+        },
         {
           "party": "lab",
           "url": "https://tactical.vote/shipley",
@@ -26290,6 +26710,11 @@
       "other_sites": [
         {
           "party": "lab",
+          "url": "https://tacticalvote.co.uk/#ShrewsburyandAtcham",
+          "who_suggests": "tacticalvote.co.uk"
+        },
+        {
+          "party": "lab",
           "url": "https://tactical.vote/shrewsbury-and-atcham",
           "who_suggests": "tactical.vote"
         },
@@ -26342,6 +26767,11 @@
         "slug": "sittingbourne-and-sheppey"
       },
       "other_sites": [
+        {
+          "party": "lab",
+          "url": "https://tacticalvote.co.uk/#SittingbourneandSheppey",
+          "who_suggests": "tacticalvote.co.uk"
+        },
         {
           "party": "lab",
           "url": "https://tactical.vote/sittingbourne-and-sheppey",
@@ -26598,6 +27028,11 @@
       "other_sites": [
         {
           "party": "ld",
+          "url": "https://tacticalvote.co.uk/#SomertonandFrome",
+          "who_suggests": "tacticalvote.co.uk"
+        },
+        {
+          "party": "ld",
           "url": "https://tactical.vote/somerton-and-frome",
           "who_suggests": "tactical.vote"
         },
@@ -26693,6 +27128,11 @@
         "slug": "south-basildon-and-east-thurrock"
       },
       "other_sites": [
+        {
+          "party": "lab",
+          "url": "https://tacticalvote.co.uk/#SouthBasildonandEastThurrock",
+          "who_suggests": "tacticalvote.co.uk"
+        },
         {
           "party": "lab",
           "url": "https://tactical.vote/south-basildon-and-east-thurrock",
@@ -26801,6 +27241,11 @@
       "other_sites": [
         {
           "party": "lab",
+          "url": "https://tacticalvote.co.uk/#SouthDerbyshire",
+          "who_suggests": "tacticalvote.co.uk"
+        },
+        {
+          "party": "lab",
           "url": "https://tactical.vote/south-derbyshire",
           "who_suggests": "tactical.vote"
         },
@@ -26853,6 +27298,11 @@
         "slug": "south-dorset"
       },
       "other_sites": [
+        {
+          "party": "lab",
+          "url": "https://tacticalvote.co.uk/#SouthDorset",
+          "who_suggests": "tacticalvote.co.uk"
+        },
         {
           "party": "lab",
           "url": "https://tactical.vote/south-dorset",
@@ -27271,6 +27721,11 @@
       "other_sites": [
         {
           "party": "lab",
+          "url": "https://tacticalvote.co.uk/#SouthRibble",
+          "who_suggests": "tacticalvote.co.uk"
+        },
+        {
+          "party": "lab",
           "url": "https://tactical.vote/south-ribble",
           "who_suggests": "tactical.vote"
         },
@@ -27358,8 +27813,8 @@
     },
     "south-staffordshire": {
       "aggregation": {
-        "party": null,
-        "template": "pending.html"
+        "party": "lab",
+        "template": "vote-lab.html"
       },
       "analysis": {
         "template": "leave.html",
@@ -27375,6 +27830,11 @@
         "slug": "south-staffordshire"
       },
       "other_sites": [
+        {
+          "party": "lab",
+          "url": "https://tacticalvote.co.uk/#SouthStaffordshire",
+          "who_suggests": "tacticalvote.co.uk"
+        },
         {
           "party": "lab",
           "url": "https://getvoting.org/",
@@ -27473,6 +27933,11 @@
       "other_sites": [
         {
           "party": "lab",
+          "url": "https://tacticalvote.co.uk/#SouthSwindon",
+          "who_suggests": "tacticalvote.co.uk"
+        },
+        {
+          "party": "lab",
           "url": "https://tactical.vote/south-swindon",
           "who_suggests": "tactical.vote"
         },
@@ -27525,6 +27990,11 @@
         "slug": "south-thanet"
       },
       "other_sites": [
+        {
+          "party": "lab",
+          "url": "https://tacticalvote.co.uk/#SouthThanet",
+          "who_suggests": "tacticalvote.co.uk"
+        },
         {
           "party": "lab",
           "url": "https://tactical.vote/south-thanet",
@@ -27755,6 +28225,11 @@
         "slug": "south-west-norfolk"
       },
       "other_sites": [
+        {
+          "party": "lab",
+          "url": "https://tacticalvote.co.uk/#SouthWestNorfolk",
+          "who_suggests": "tacticalvote.co.uk"
+        },
         {
           "party": "lab",
           "url": "https://tactical.vote/south-west-norfolk",
@@ -28032,6 +28507,11 @@
       "other_sites": [
         {
           "party": "lab",
+          "url": "https://tacticalvote.co.uk/#SouthendWest",
+          "who_suggests": "tacticalvote.co.uk"
+        },
+        {
+          "party": "lab",
           "url": "https://tactical.vote/southend-west",
           "who_suggests": "tactical.vote"
         },
@@ -28206,6 +28686,11 @@
         "slug": "st-albans"
       },
       "other_sites": [
+        {
+          "party": "ld",
+          "url": "https://tacticalvote.co.uk/#StAlbans",
+          "who_suggests": "tacticalvote.co.uk"
+        },
         {
           "party": "ld",
           "url": "https://www.theneweuropean.co.uk/top-stories/tactical-voting-for-a-second-referendum-general-election-1-6261308",
@@ -28496,6 +28981,11 @@
       "other_sites": [
         {
           "party": "lab",
+          "url": "https://tacticalvote.co.uk/#Stafford",
+          "who_suggests": "tacticalvote.co.uk"
+        },
+        {
+          "party": "lab",
           "url": "https://tactical.vote/stafford",
           "who_suggests": "tactical.vote"
         },
@@ -28555,6 +29045,11 @@
         "slug": "staffordshire-moorlands"
       },
       "other_sites": [
+        {
+          "party": "lab",
+          "url": "https://tacticalvote.co.uk/#StaffordshireMoorlands",
+          "who_suggests": "tacticalvote.co.uk"
+        },
         {
           "party": "lab",
           "url": "https://tactical.vote/staffordshire-moorlands",
@@ -28654,6 +29149,11 @@
         "slug": "stevenage"
       },
       "other_sites": [
+        {
+          "party": "lab",
+          "url": "https://tacticalvote.co.uk/#Stevenage",
+          "who_suggests": "tacticalvote.co.uk"
+        },
         {
           "party": "lab",
           "url": "https://tactical.vote/stevenage",
@@ -29179,6 +29679,11 @@
         "slug": "stourbridge"
       },
       "other_sites": [
+        {
+          "party": "lab",
+          "url": "https://tacticalvote.co.uk/#Stourbridge",
+          "who_suggests": "tacticalvote.co.uk"
+        },
         {
           "party": "lab",
           "url": "https://tactical.vote/stourbridge",
@@ -29859,6 +30364,11 @@
         "slug": "tamworth"
       },
       "other_sites": [
+        {
+          "party": "lab",
+          "url": "https://tacticalvote.co.uk/#Tamworth",
+          "who_suggests": "tacticalvote.co.uk"
+        },
         {
           "party": "lab",
           "url": "https://tactical.vote/tamworth",
@@ -31207,6 +31717,11 @@
       "other_sites": [
         {
           "party": "lab",
+          "url": "https://tacticalvote.co.uk/#ValeofGlamorgan",
+          "who_suggests": "tacticalvote.co.uk"
+        },
+        {
+          "party": "lab",
           "url": "https://tactical.vote/vale-of-glamorgan",
           "who_suggests": "tactical.vote"
         },
@@ -32049,6 +32564,11 @@
       "other_sites": [
         {
           "party": "lab",
+          "url": "https://tacticalvote.co.uk/#Waveney",
+          "who_suggests": "tacticalvote.co.uk"
+        },
+        {
+          "party": "lab",
           "url": "https://tactical.vote/waveney",
           "who_suggests": "tactical.vote"
         },
@@ -32221,6 +32741,11 @@
       "other_sites": [
         {
           "party": "lab",
+          "url": "https://tacticalvote.co.uk/#Wellingborough",
+          "who_suggests": "tacticalvote.co.uk"
+        },
+        {
+          "party": "lab",
           "url": "https://tactical.vote/wellingborough",
           "who_suggests": "tactical.vote"
         },
@@ -32337,6 +32862,11 @@
         "slug": "welwyn-hatfield"
       },
       "other_sites": [
+        {
+          "party": "lab",
+          "url": "https://tacticalvote.co.uk/#WelwynHatfield",
+          "who_suggests": "tacticalvote.co.uk"
+        },
         {
           "party": "lab",
           "url": "https://tactical.vote/welwyn-hatfield",
@@ -32605,6 +33135,11 @@
       "other_sites": [
         {
           "party": "ld",
+          "url": "https://tacticalvote.co.uk/#WestDorset",
+          "who_suggests": "tacticalvote.co.uk"
+        },
+        {
+          "party": "ld",
           "url": "https://tactical.vote/west-dorset",
           "who_suggests": "tactical.vote"
         },
@@ -32776,6 +33311,11 @@
         "slug": "west-suffolk"
       },
       "other_sites": [
+        {
+          "party": "lab",
+          "url": "https://tacticalvote.co.uk/#WestSuffolk",
+          "who_suggests": "tacticalvote.co.uk"
+        },
         {
           "party": "lab",
           "url": "https://tactical.vote/west-suffolk",
@@ -33204,6 +33744,11 @@
         "slug": "winchester"
       },
       "other_sites": [
+        {
+          "party": "ld",
+          "url": "https://tacticalvote.co.uk/#Winchester",
+          "who_suggests": "tacticalvote.co.uk"
+        },
         {
           "party": "ld",
           "url": "https://tactical.vote/winchester",
@@ -33811,6 +34356,11 @@
       "other_sites": [
         {
           "party": "lab",
+          "url": "https://tacticalvote.co.uk/#Worcester",
+          "who_suggests": "tacticalvote.co.uk"
+        },
+        {
+          "party": "lab",
           "url": "https://tactical.vote/worcester",
           "who_suggests": "tactical.vote"
         },
@@ -34150,6 +34700,11 @@
       "other_sites": [
         {
           "party": "lab",
+          "url": "https://tacticalvote.co.uk/#WyreandPrestonNorth",
+          "who_suggests": "tacticalvote.co.uk"
+        },
+        {
+          "party": "lab",
           "url": "https://tactical.vote/wyre-and-preston-north",
           "who_suggests": "tactical.vote"
         },
@@ -34202,6 +34757,11 @@
         "slug": "wyre-forest"
       },
       "other_sites": [
+        {
+          "party": "lab",
+          "url": "https://tacticalvote.co.uk/#WyreForest",
+          "who_suggests": "tacticalvote.co.uk"
+        },
         {
           "party": "lab",
           "url": "https://tactical.vote/wyre-forest",
