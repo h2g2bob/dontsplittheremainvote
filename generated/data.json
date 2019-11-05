@@ -10800,6 +10800,11 @@
           "party": "ld",
           "url": "https://tactical.vote/eastbourne",
           "who_suggests": "tactical.vote"
+        },
+        {
+          "party": "ld",
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
         }
       ],
       "outcome_frequency": [
@@ -17359,11 +17364,6 @@
           "party": "lab",
           "url": "https://tactical.vote/leicester-east",
           "who_suggests": "tactical.vote"
-        },
-        {
-          "party": "lab",
-          "url": "https://getvoting.org/",
-          "who_suggests": "Best for Britain"
         }
       ],
       "outcome_frequency": [

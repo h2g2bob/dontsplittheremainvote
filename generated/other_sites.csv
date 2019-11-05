@@ -189,7 +189,7 @@ ealing-north,E14000675,0.6837916063675832,lab,2,,,,,,,lab,2,lab,2
 ealing-southall,E14000676,0.7675047070550449,lab,2,,,,,,,lab,2,lab,2
 easington,E14000677,0.6366736332636674,lab,3,lab,3,,,,,lab,3,lab,3
 east-antrim,N06000005,0.2826993157328999,,,,,,,,,alliance,0,,
-eastbourne,E14000684,0.5502438174851968,,,,,,,,,ld,1,ld,1
+eastbourne,E14000684,0.5502438174851968,ld,2,,,,,,,ld,2,ld,2
 east-devon,E14000678,0.4901295087940115,ind-wright,2,,,,,,,ind-wright,2,ind-wright,2
 east-dunbartonshire,S14000018,0.8539989575490821,,,,,,,,,,,,
 east-ham,E14000679,0.8320943619444493,lab,2,,,,,,,lab,2,lab,2
@@ -323,7 +323,7 @@ leeds-east,E14000778,0.613595231775295,lab,3,lab,3,,,,,lab,3,lab,3
 leeds-north-east,E14000779,0.6677107115228589,lab,2,,,,,,,lab,2,lab,2
 leeds-north-west,E14000780,0.790891611035496,,,,,,,,,lab,0,,
 leeds-west,E14000781,0.6853347225840063,lab,3,lab,3,,,,,lab,3,lab,3
-leicester-east,E14000782,0.7158744086677857,lab,2,,,,,,,lab,2,lab,2
+leicester-east,E14000782,0.7158744086677857,,,,,,,,,lab,1,lab,1
 leicester-south,E14000783,0.7843102321990616,lab,2,,,,,,,lab,2,lab,2
 leicester-west,E14000784,0.6295318831307315,lab,2,,,,,,,lab,2,lab,2
 leigh,E14000785,0.5823697572214874,lab,3,lab,3,,,,,lab,3,lab,3

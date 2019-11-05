@@ -114,7 +114,7 @@ def _tactical_dot_vote():
         '<span class="independent recommendation-sm">Independent</span>': INDEPENDENT,
     }
     with open('data/tactical_dot_vote/all.html') as f:
-        [table] = re.compile(r'<table class="table">(.*)</table>').findall(f.read())
+        [table] = re.compile(r'<table class="table">(.*)</table>', re.DOTALL).findall(f.read())
         tr_list = [
             tr
             for tr in re.compile(r'<tr>(.*?)</tr>').findall(table)
