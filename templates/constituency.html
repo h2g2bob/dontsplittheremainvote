@@ -33,10 +33,13 @@
   <img class="tick" src="{{static}}/logo/tick/other.png" alt="Other tick" />
   <strong>Waiting for recommendations</strong> from <em>People's Vote</em>, <em>Remain United</em>, <em>Unite to Remain</em> and others.
 </div>
+
+{% if aggregation.provisional %}
 <div class="othersite">
   <img class="tick" src="{{static}}/logo/tick/clock.png" alt="Clock" />
   <strong>Recommendations can change</strong>. Please check the site occasionally as the election campaign progresses.
 </div>
+{% endif %}
 
 <div class="widebutton"><a href="https://www.gov.uk/register-to-vote">gov.uk/register-to-vote</a></div>
 
