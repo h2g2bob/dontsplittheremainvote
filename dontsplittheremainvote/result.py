@@ -87,6 +87,9 @@ class Result(NamedTuple):
         total_remain_vote = sum(ratio for _party, ratio in self.remainers())
         return total_remain_vote
 
+    def description(self) -> str:
+        return self.classify.describe(self)
+
     @property
     def classify(self) -> classify.ClassifyResult:
         winner = self.winner()

@@ -59,7 +59,8 @@ class ConstituencyPage(NamedTuple):
                 raise ValueError((self.other_sites_plus_dontsplit, self.constituency))
             return Aggregation(
                 party=party,
-                template='vote-{}.html'.format(party.short))
+                template='vote-{}.html'.format(party.short),
+                provisional=False)
         return Aggregation(
             template='contradict.html')
 

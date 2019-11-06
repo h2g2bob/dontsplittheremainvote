@@ -41,6 +41,7 @@ class Aggregation(NamedTuple):
     """The advice box at the top of the page"""
     template: str
     party: Party = None
+    provisional: bool = True
 
     def as_json(self):
         return {
