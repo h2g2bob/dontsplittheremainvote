@@ -1,9 +1,6 @@
 <div class="section advice">
   <img class="mainlogo" src="{{static}}/logo/{% block image %}outcome/difficult-alliance.png{% endblock %}" />
   <h2>{% block advicetitle %}{{aggregation.title}}{% endblock %}</h2>
-  <ul class="checklist">
-    <li><a href="https://www.gov.uk/register-to-vote">Register to Vote</a> today</li>
-    {% block adviceblock %}{% endblock %}
-  </ul>
+  {% block adviceblock %}{% endblock %}
   <div class="clear"></div>
 </div>
