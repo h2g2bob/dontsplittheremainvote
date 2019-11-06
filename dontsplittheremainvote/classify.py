@@ -59,7 +59,7 @@ class _LeaveVictory(ClassifyResult):
     def __new__(self, shortname, longname):
         return super().__new__(self,
             logo=f'leave-victory-{shortname}',
-            name=f'Largest party is {longname}. An alliance would not have helped here.',
+            name=f'Leave win: {longname}',
             remain_allicance_leader=None,
             remain_can_win=False,
             alliance_helpful=False)
