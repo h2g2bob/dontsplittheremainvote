@@ -60,7 +60,7 @@ class ConstituencyPage(NamedTuple):
             return Aggregation(
                 party=party,
                 template='vote-{}.html'.format(party.short),
-                provisional=False)
+                provisional=len(possible) < 3)
         return Aggregation(
             template='contradict.html')
 
