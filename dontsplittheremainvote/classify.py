@@ -35,6 +35,9 @@ class ClassifyResult(NamedTuple):
             return None
         return get_party(self.remain_allicance_leader)
 
+    def describe(self, _result):
+        return self.name
+
     def as_json(self):
         return {
             'img': self.logo,
@@ -69,6 +72,20 @@ class _NeedAlliance(ClassifyResult):
             remain_allicance_leader=party.short,
             remain_can_win=True,
             alliance_helpful=True)
+
+    def describe(self, result):
+        remainers = [pty for pty, _share in result.remainers()]
+        big_remain, other_remain_parties = remainers[0], remainers[1:]
+        if len(other_remain_parties) == 1:
+            small_parties_text = other_remain_parties[0].name
+        else:
+            small_parties_text = '{} and {}'.format(
+                ', '.join(pty.name for pty in other_remain_parties[:-1]),
+                other_remain_parties[-1].name)
+        return 'Remain wins if {} vote for {}'.format(
+            small_parties_text,
+            big_remain.name)
+
 
 REMAIN_VICTORY_LAB = _RemainVictory('lab', 'Labour')
 REMAIN_VICTORY_LD = _RemainVictory('ld', 'Liberal Democrats')
