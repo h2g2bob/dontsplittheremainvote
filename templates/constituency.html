@@ -18,17 +18,6 @@
   <em>{{ other_site.who_suggests }}</em> <a href="{{ other_site.url }}">recommends</a> voting for <strong class="party party-{{ other_site.party.code }}">{{ other_site.party.name }}</strong>.
 </div>
 {% endfor %}
-{% if analysis.we_recommend_party %}
-<div class="othersite">
-  <img class="tick" src="{{static}}/logo/tick/{{ analysis.we_recommend_party.short }}.png" alt="{{ analysis.we_recommend_party.name }} tick" />
-  Don't Split the Remain Vote recommends voting for <strong class="party party-{{ analysis.we_recommend_party.code }}">{{ analysis.we_recommend_party.name }}</strong>.
-</div>
-{% else %}
-<div class="othersite">
-  <img class="tick" src="{{static}}/logo/tick/other.png" alt="Other tick" />
-  Don't Split the Remain Vote does not have a strong recommendation
-</div>
-{% endif %}
 <div class="othersite">
   <img class="tick" src="{{static}}/logo/tick/other.png" alt="Other tick" />
   <strong>Waiting for recommendations</strong> from <em>People's Vote</em>, <em>Remain United</em>, <em>Unite to Remain</em> and others.
@@ -51,26 +40,13 @@
 {% endfor %}
 </div>
 
-<h2>Announced candidates</h2>
+<details>
+  <summary>More polling and analysis</summary>
 
-{% if known_ppc %}
-<ul>
-  {% for ppc in known_ppc %}
-      <li>{{ ppc.party.name }}: <a {% if ppc.link %}href="{{ ppc.link }}"{% endif %}>{{ ppc.name }}</a></li>
-  {% endfor %}
-</ul>
-{% else %}
-No candidates announced yet.
-{% endif %}
-
-<h2 id="Analysis">Our own recommendation</h2>
-
+<h2 id="Analysis">Our own analysis</h2>
 <div class="section analysis">
 {% include 'analysis/' + analysis.template %}
 </div>
-
-<details>
-  <summary>Why we think this &mdash; election results adjusted for polling</summary>
 
 <h3>Which outcomes are possible?</h3>
 <div class="section outcome-summary">
@@ -91,6 +67,18 @@ No candidates announced yet.
 </div>
 
 </details>{# end hidden section #}
+
+<h2>Announced candidates</h2>
+
+{% if known_ppc %}
+<ul>
+  {% for ppc in known_ppc %}
+      <li>{{ ppc.party.name }}: <a {% if ppc.link %}href="{{ ppc.link }}"{% endif %}>{{ ppc.name }}</a></li>
+  {% endfor %}
+</ul>
+{% else %}
+No candidates announced yet.
+{% endif %}
 
 <h2>Social</h2>
 
