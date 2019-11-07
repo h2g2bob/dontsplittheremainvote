@@ -181,6 +181,11 @@ div.indent {
   margin-left: 1em;
 }
 
+details {
+  margin-top: 1em;
+}
+
 summary {
   cursor: pointer;
+  color: blue;
 }
