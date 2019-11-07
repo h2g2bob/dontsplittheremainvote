@@ -90,6 +90,8 @@ _MAPPINGS = {
     'Scottish Green Party': GREEN,
     'Alliance - Alliance Party of Northern Ireland': ALLIANCE,
     'SDLP (Social Democratic & Labour Party)': SDLP,
+    'Speaker seeking re-election': SPEAKER,
+    'Democratic Unionist Party - D.U.P.': DUP,
 }
 
 def get_party(code):
