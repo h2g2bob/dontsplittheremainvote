@@ -13,6 +13,8 @@ from .party import get_party
 from .party import ALLIANCE
 from .party import CLAIREWRIGHT
 from .party import CHANGEUK
+from .party import DAVIDGAUKE
+from .party import DOMINICGRIEVE
 from .party import INDEPENDENT
 from .party import GREEN
 from .party import LAB
@@ -59,17 +61,16 @@ def dontsplit_suggestion(party: Party, constituency: Constituency) -> OtherSiteS
 def _getvoting():
     PARTIES = {
         'Anna Soubry': CHANGEUK,
-        'Antoinette Sandbach': INDEPENDENT, # former conservative
+        'Antoinette Sandbach': LD, # former conservative, now LD
         'Claire Wright': CLAIREWRIGHT,
-        'David Gauke': INDEPENDENT, # former conservative
-        'Dominic Grieve': INDEPENDENT, # former conservative
+        'David Gauke': DAVIDGAUKE, # former conservative - maybe not standing again?
+        'Dominic Grieve': DOMINICGRIEVE, # former conservative (pact with LD)
         'Green': GREEN,
-        'Guto Bebb': INDEPENDENT, # former conservative
         'Lab': LAB,
         'Lib Dem': LD,
         'LibLab': None, # "Either LD or LAB"
         'none': None,
-        'Philip Hammond': INDEPENDENT, # former conservative
+        'Philip Hammond': INDEPENDENT, # former conservative, but he decided to stand down
         'Plaid': PLAID,
         'Pledge': None,
     }

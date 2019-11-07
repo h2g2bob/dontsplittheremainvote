@@ -27,6 +27,8 @@ NHAP = Party('National Health Action Party', remain=True, color='#0071BB')
 SDLP = Party('SDLP', remain=True, color='#3A9E84', short='sdlp')
 CLAIREWRIGHT = Party('Claire Wright', remain=True, color='#00bd93', short='ind-wright')
 INDEPENDENT = Party('Independent', remain=False, color='#e7e7e7', short='ind')
+DOMINICGRIEVE = Party('Dominic Grieve', remain=True, color='#e7e7e7', short='ind')
+DAVIDGAUKE = Party('David Gauke', remain=True, color='#e7e7e7', short='ind')
 SPEAKER = Party('Speaker', remain=True, color='#888888')
 
 _ALL_PARTIES = [
@@ -54,12 +56,13 @@ _PARTIES_BY_CODE = {
     p.code: p
     for p in _ALL_PARTIES}
 
-_PARTIES_BY_SHORT = {
-    p.short: p
-    for p in _ALL_PARTIES
-    if p.short}
-
 _MAPPINGS = {
+    'lab': LAB,
+    'snp': SNP,
+    'ld': LD,
+    'alliance': ALLIANCE,
+    'plaid': PLAID,
+
     'Labour and Co-operative': LAB,
     'Democratic Unionist Party': DUP,
     'Ulster Unionist Party': UUP,
@@ -87,6 +90,8 @@ _MAPPINGS = {
     'Scottish Green Party': GREEN,
     'Alliance - Alliance Party of Northern Ireland': ALLIANCE,
     'SDLP (Social Democratic & Labour Party)': SDLP,
+    'Speaker seeking re-election': SPEAKER,
+    'Democratic Unionist Party - D.U.P.': DUP,
 }
 
 def get_party(code):
@@ -94,11 +99,8 @@ def get_party(code):
         return _PARTIES_BY_CODE[code]
     except KeyError:
         try:
-            return _PARTIES_BY_SHORT[code]
+            return _MAPPINGS[code]
         except KeyError:
-            try:
-                return _MAPPINGS[code]
-            except KeyError:
-                print('Adding {}'.format(code))
-                _PARTIES_BY_CODE[code] = Party(code)
-                return _PARTIES_BY_CODE[code]
+            print('Adding {}'.format(code))
+            _PARTIES_BY_CODE[code] = Party(code)
+            return _PARTIES_BY_CODE[code]
