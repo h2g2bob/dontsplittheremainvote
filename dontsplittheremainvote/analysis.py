@@ -82,6 +82,8 @@ def get_analysis(datasets, constituency) -> Analysis:
         # this question instead (good luck!)
         general_election_results = datasets[data_ge2017.DATA_2017]
         vote_share_of_recommend_party = general_election_results.results.get(advice.we_recommend_party)
+        if vote_share_of_recommend_party is None:
+            vote_share_of_recommend_party = 0.0
         vote_share_of_remain_parties = sum(share for _party, share in general_election_results.remainers())
         if vote_share_of_recommend_party / vote_share_of_remain_parties < 0.3:
             return Analysis(
