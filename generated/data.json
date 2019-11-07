@@ -4914,11 +4914,6 @@
         },
         {
           "party": "lab",
-          "url": "https://tactical.vote/bristol-west",
-          "who_suggests": "tactical.vote"
-        },
-        {
-          "party": "lab",
           "url": "https://getvoting.org/",
           "who_suggests": "Best for Britain"
         }
@@ -15987,8 +15982,8 @@
     },
     "isle-of-wight": {
       "aggregation": {
-        "party": null,
-        "template": "contradict.html"
+        "party": "green",
+        "template": "vote-green.html"
       },
       "analysis": {
         "template": "alliance-mixed.html",
@@ -16005,7 +16000,7 @@
       },
       "other_sites": [
         {
-          "party": "lab",
+          "party": "green",
           "url": "https://tactical.vote/isle-of-wight",
           "who_suggests": "tactical.vote"
         },
@@ -27168,8 +27163,8 @@
     },
     "south-cambridgeshire": {
       "aggregation": {
-        "party": null,
-        "template": "contradict.html"
+        "party": "ld",
+        "template": "vote-ld.html"
       },
       "analysis": {
         "template": "no-conflict-easy.html",
@@ -27186,7 +27181,7 @@
       },
       "other_sites": [
         {
-          "party": "lab",
+          "party": "ld",
           "url": "https://tactical.vote/south-cambridgeshire",
           "who_suggests": "tactical.vote"
         },
@@ -34012,8 +34007,8 @@
     },
     "witney": {
       "aggregation": {
-        "party": null,
-        "template": "contradict.html"
+        "party": "ld",
+        "template": "vote-ld.html"
       },
       "analysis": {
         "template": "no-conflict-hard.html",
@@ -34030,7 +34025,7 @@
       },
       "other_sites": [
         {
-          "party": "lab",
+          "party": "ld",
           "url": "https://tactical.vote/witney",
           "who_suggests": "tactical.vote"
         },

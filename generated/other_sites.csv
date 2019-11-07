@@ -90,7 +90,7 @@ brighton-pavilion,E14000598,0.7904553885624145,green,2,,,,,,,green,2,green,2
 bristol-east,E14000599,0.6564302446898561,lab,2,,,,,,,lab,2,lab,2
 bristol-north-west,E14000600,0.5815032534753033,lab,2,,,,,,,lab,2,lab,2
 bristol-south,E14000601,0.6604207274465816,lab,2,,,,,,,lab,2,lab,2
-bristol-west,E14000602,0.8606580270360854,lab,2,,,,,,,lab,2,lab,2
+bristol-west,E14000602,0.8606580270360854,lab,1,,,,,,,,,lab,1
 broadland,E14000603,0.3758910864554859,ld,-1,,,,,,,lab,-1,,
 bromley-and-chislehurst,E14000604,0.43084308430843077,lab,2,,,,,,,lab,2,lab,2
 bromsgrove,E14000605,0.3802183567727609,ld,-1,,,,,,,lab,-1,,
@@ -298,7 +298,7 @@ ilford-south,E14000760,0.7583467748929011,lab,1,,,,,,,lab,1,,
 inverclyde,S14000038,0.7851533522625535,,,,,,,,,snp,0,,
 inverness-nairn-badenoch-and-strathspey,S14000039,0.683149940342039,,,,,,,,,snp,1,snp,1
 ipswich,E14000761,0.4969200383284119,lab,3,,,,,lab,3,lab,3,lab,3
-isle-of-wight,E14000762,0.440070355402194,green,-1,,,,,,,lab,-1,,
+isle-of-wight,E14000762,0.440070355402194,green,1,,,,,,,green,1,,
 islington-north,E14000763,0.860417273521701,lab,2,,,,,,,lab,2,lab,2
 islington-south-and-finsbury,E14000764,0.7741056005327894,lab,2,,,,,,,lab,2,lab,2
 islwyn,W07000077,0.6643116393760563,lab,3,lab,3,,,,,lab,3,lab,3
@@ -508,7 +508,7 @@ southampton-itchen,E14000955,0.4951157471731184,lab,2,,,,,,,lab,2,lab,2
 southampton-test,E14000956,0.6268468967869858,lab,2,,,,,,,lab,2,lab,2
 south-antrim,N06000014,0.3095205003474636,,,,,,,,,,,,
 south-basildon-and-east-thurrock,E14000933,0.3251485568760611,lab,3,,,lab,3,,,lab,3,lab,3
-south-cambridgeshire,E14000934,0.4819943318341445,ld,0,ld,0,,,,,lab,-2,,
+south-cambridgeshire,E14000934,0.4819943318341445,ld,2,ld,2,,,,,ld,2,,
 south-derbyshire,E14000935,0.3953373487108358,lab,3,lab,3,,,,,lab,3,lab,3
 south-dorset,E14000936,0.43869687512041,lab,2,,,,,,,lab,2,lab,2
 south-down,N06000015,0.7864342836932388,,,,,,,,,,,,
@@ -630,7 +630,7 @@ windsor,E14001042,0.35613211921143895,ld,0,,,,,,,,,,
 wirral-south,E14001043,0.6016816019471182,lab,2,,,,,,,lab,2,lab,2
 wirral-west,E14001044,0.5692930763805146,lab,2,,,,,,,lab,2,lab,2
 witham,E14001045,0.3568367823561667,ld,0,,,ld,0,,,lab,-2,,
-witney,E14001046,0.41122983242240707,ld,0,ld,0,,,,,lab,-2,,
+witney,E14001046,0.41122983242240707,ld,2,ld,2,,,,,ld,2,,
 woking,E14001047,0.41432863917749696,ld,0,ld,0,,,,,lab,-2,,
 wokingham,E14001048,0.43364047579158993,ld,0,ld,0,,,,,lab,-2,,
 wolverhampton-north-east,E14001049,0.5281582118987619,lab,3,lab,3,,,,,lab,3,lab,3
