@@ -7,6 +7,7 @@ from .dataset import Dataset
 from .other_sites import Aggregation
 from .other_sites import OtherSiteSuggestion
 from .other_sites import dontsplit_suggestion
+from .pacts import Pact
 from .ppc import PPC
 from .result import Result
 from collections import defaultdict
@@ -20,6 +21,7 @@ class ConstituencyPage(NamedTuple):
     datasets: Dict[Dataset, Result]
     other_site_suggestions: List[OtherSiteSuggestion]
     known_ppc: List[PPC]
+    pacts: List[Pact]
 
     @property
     def datasets_election(self):
@@ -108,4 +110,7 @@ class ConstituencyPage(NamedTuple):
             'other_sites': [
                 other_site_suggestion.as_json()
                 for other_site_suggestion in self.other_site_suggestions],
+            'pacts': [
+                pact.as_json()
+                for pact in self.pacts],
         }

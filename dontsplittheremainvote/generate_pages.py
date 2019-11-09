@@ -55,7 +55,8 @@ def generate_constituency(constituency_page, nearby_constituencies):
         nearby_constituency=nearby_constituencies,
         known_ppc=constituency_page.known_ppc,
         analysis=constituency_page.analysis,
-        aggregation=constituency_page.aggregation)
+        aggregation=constituency_page.aggregation,
+        pacts=constituency_page.pacts)
     with open('generated' + url_path, 'w') as f:
         f.write(html)
 
