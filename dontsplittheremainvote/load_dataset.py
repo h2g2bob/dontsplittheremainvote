@@ -12,6 +12,8 @@ from .constituency import Constituency
 from .constituency_page import ConstituencyPage
 from .dataset import Dataset
 from .other_sites import get_other_site_suggestions
+from .pacts import Pact
+from .pacts import get_pacts
 from .ppc import candidate_data
 from .result import Result
 from typing import List
@@ -42,6 +44,7 @@ def datasets_by_constituency() -> List[ConstituencyPage]:
     all_datasets = get_all_datasets()
     known_ppc = candidate_data()
     other_sites = get_other_site_suggestions()
+    pacts = get_pacts()
     constituency_pages = []
     for constituency in all_constituencies():
         constituency_datasets = {
@@ -52,5 +55,6 @@ def datasets_by_constituency() -> List[ConstituencyPage]:
             constituency=constituency,
             datasets=constituency_datasets,
             other_site_suggestions=other_sites.get(constituency, []),
-            known_ppc=known_ppc[constituency]))
+            known_ppc=known_ppc[constituency],
+            pacts=pacts[constituency]))
     return constituency_pages

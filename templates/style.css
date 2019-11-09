@@ -189,3 +189,8 @@ summary {
   cursor: pointer;
   color: blue;
 }
+
+div.section.specialfact {
+    margin: 2em;
+    padding-left: 4.6em;
+}

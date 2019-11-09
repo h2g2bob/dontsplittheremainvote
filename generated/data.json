@@ -51,7 +51,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "aberconwy": {
       "aggregation": {
@@ -110,7 +111,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "aberdeen-north": {
       "aggregation": {
@@ -152,7 +154,8 @@
           },
           0.25
         ]
-      ]
+      ],
+      "pacts": []
     },
     "aberdeen-south": {
       "aggregation": {
@@ -199,7 +202,8 @@
           },
           0.49999999999999994
         ]
-      ]
+      ],
+      "pacts": []
     },
     "airdrie-and-shotts": {
       "aggregation": {
@@ -234,7 +238,8 @@
           },
           1.0
         ]
-      ]
+      ],
+      "pacts": []
     },
     "aldershot": {
       "aggregation": {
@@ -288,7 +293,8 @@
           },
           0.16666666666666666
         ]
-      ]
+      ],
+      "pacts": []
     },
     "aldridge-brownhills": {
       "aggregation": {
@@ -340,7 +346,8 @@
           },
           0.16666666666666666
         ]
-      ]
+      ],
+      "pacts": []
     },
     "altrincham-and-sale-west": {
       "aggregation": {
@@ -401,7 +408,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "alyn-and-deeside": {
       "aggregation": {
@@ -467,7 +475,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "amber-valley": {
       "aggregation": {
@@ -526,7 +535,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "angus": {
       "aggregation": {
@@ -573,7 +583,8 @@
           },
           0.49999999999999994
         ]
-      ]
+      ],
+      "pacts": []
     },
     "arfon": {
       "aggregation": {
@@ -608,6 +619,16 @@
           },
           1.0
         ]
+      ],
+      "pacts": [
+        {
+          "down": "ld",
+          "support": "plaid"
+        },
+        {
+          "down": "green",
+          "support": "plaid"
+        }
       ]
     },
     "argyll-and-bute": {
@@ -655,7 +676,8 @@
           },
           0.16666666666666666
         ]
-      ]
+      ],
+      "pacts": []
     },
     "arundel-and-south-downs": {
       "aggregation": {
@@ -702,7 +724,8 @@
           },
           0.3333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "ashfield": {
       "aggregation": {
@@ -768,7 +791,8 @@
           },
           0.16666666666666666
         ]
-      ]
+      ],
+      "pacts": []
     },
     "ashford": {
       "aggregation": {
@@ -834,7 +858,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "ashton-under-lyne": {
       "aggregation": {
@@ -886,7 +911,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "aylesbury": {
       "aggregation": {
@@ -940,7 +966,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "ayr-carrick-and-cumnock": {
       "aggregation": {
@@ -987,7 +1014,8 @@
           },
           0.49999999999999994
         ]
-      ]
+      ],
+      "pacts": []
     },
     "banbury": {
       "aggregation": {
@@ -1046,7 +1074,8 @@
           },
           0.16666666666666666
         ]
-      ]
+      ],
+      "pacts": []
     },
     "banff-and-buchan": {
       "aggregation": {
@@ -1093,7 +1122,8 @@
           },
           0.41666666666666663
         ]
-      ]
+      ],
+      "pacts": []
     },
     "barking": {
       "aggregation": {
@@ -1138,7 +1168,8 @@
           },
           1.0
         ]
-      ]
+      ],
+      "pacts": []
     },
     "barnsley-central": {
       "aggregation": {
@@ -1197,7 +1228,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "barnsley-east": {
       "aggregation": {
@@ -1256,7 +1288,8 @@
           },
           0.16666666666666666
         ]
-      ]
+      ],
+      "pacts": []
     },
     "barrow-and-furness": {
       "aggregation": {
@@ -1322,7 +1355,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "basildon-and-billericay": {
       "aggregation": {
@@ -1379,7 +1413,8 @@
           },
           0.16666666666666666
         ]
-      ]
+      ],
+      "pacts": []
     },
     "basingstoke": {
       "aggregation": {
@@ -1433,7 +1468,8 @@
           },
           0.16666666666666666
         ]
-      ]
+      ],
+      "pacts": []
     },
     "bassetlaw": {
       "aggregation": {
@@ -1499,7 +1535,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "bath": {
       "aggregation": {
@@ -1551,6 +1588,12 @@
           },
           0.08333333333333333
         ]
+      ],
+      "pacts": [
+        {
+          "down": "green",
+          "support": "ld"
+        }
       ]
     },
     "batley-and-spen": {
@@ -1603,7 +1646,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "battersea": {
       "aggregation": {
@@ -1676,7 +1720,8 @@
           },
           0.16666666666666666
         ]
-      ]
+      ],
+      "pacts": []
     },
     "beaconsfield": {
       "aggregation": {
@@ -1718,6 +1763,12 @@
           },
           0.3333333333333333
         ]
+      ],
+      "pacts": [
+        {
+          "down": "ld",
+          "support": "ind"
+        }
       ]
     },
     "beckenham": {
@@ -1765,7 +1816,8 @@
           },
           0.3333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "bedford": {
       "aggregation": {
@@ -1824,7 +1876,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "belfast-east": {
       "aggregation": {
@@ -1878,7 +1931,8 @@
           },
           0.2
         ]
-      ]
+      ],
+      "pacts": []
     },
     "belfast-north": {
       "aggregation": {
@@ -1918,7 +1972,8 @@
           },
           1.0
         ]
-      ]
+      ],
+      "pacts": []
     },
     "belfast-south": {
       "aggregation": {
@@ -1972,7 +2027,8 @@
           },
           0.2
         ]
-      ]
+      ],
+      "pacts": []
     },
     "belfast-west": {
       "aggregation": {
@@ -2012,7 +2068,8 @@
           },
           1.0
         ]
-      ]
+      ],
+      "pacts": []
     },
     "bermondsey-and-old-southwark": {
       "aggregation": {
@@ -2048,6 +2105,12 @@
           },
           0.41666666666666663
         ]
+      ],
+      "pacts": [
+        {
+          "down": "green",
+          "support": "ld"
+        }
       ]
     },
     "berwick-upon-tweed": {
@@ -2102,7 +2165,8 @@
           },
           0.16666666666666666
         ]
-      ]
+      ],
+      "pacts": []
     },
     "berwickshire-roxburgh-and-selkirk": {
       "aggregation": {
@@ -2151,7 +2215,8 @@
           },
           0.16666666666666666
         ]
-      ]
+      ],
+      "pacts": []
     },
     "bethnal-green-and-bow": {
       "aggregation": {
@@ -2196,7 +2261,8 @@
           },
           1.0
         ]
-      ]
+      ],
+      "pacts": []
     },
     "beverley-and-holderness": {
       "aggregation": {
@@ -2262,7 +2328,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "bexhill-and-battle": {
       "aggregation": {
@@ -2323,7 +2390,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "bexleyheath-and-crayford": {
       "aggregation": {
@@ -2382,7 +2450,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "birkenhead": {
       "aggregation": {
@@ -2422,7 +2491,8 @@
           },
           1.0
         ]
-      ]
+      ],
+      "pacts": []
     },
     "birmingham-edgbaston": {
       "aggregation": {
@@ -2488,7 +2558,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "birmingham-erdington": {
       "aggregation": {
@@ -2540,7 +2611,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "birmingham-hall-green": {
       "aggregation": {
@@ -2585,7 +2657,8 @@
           },
           1.0
         ]
-      ]
+      ],
+      "pacts": []
     },
     "birmingham-hodge-hill": {
       "aggregation": {
@@ -2630,7 +2703,8 @@
           },
           1.0
         ]
-      ]
+      ],
+      "pacts": []
     },
     "birmingham-ladywood": {
       "aggregation": {
@@ -2675,7 +2749,8 @@
           },
           1.0
         ]
-      ]
+      ],
+      "pacts": []
     },
     "birmingham-northfield": {
       "aggregation": {
@@ -2727,7 +2802,8 @@
           },
           0.41666666666666663
         ]
-      ]
+      ],
+      "pacts": []
     },
     "birmingham-perry-barr": {
       "aggregation": {
@@ -2772,7 +2848,8 @@
           },
           1.0
         ]
-      ]
+      ],
+      "pacts": []
     },
     "birmingham-selly-oak": {
       "aggregation": {
@@ -2831,7 +2908,8 @@
           },
           0.16666666666666666
         ]
-      ]
+      ],
+      "pacts": []
     },
     "birmingham-yardley": {
       "aggregation": {
@@ -2876,7 +2954,8 @@
           },
           1.0
         ]
-      ]
+      ],
+      "pacts": []
     },
     "bishop-auckland": {
       "aggregation": {
@@ -2940,7 +3019,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "blackburn": {
       "aggregation": {
@@ -2985,7 +3065,8 @@
           },
           1.0
         ]
-      ]
+      ],
+      "pacts": []
     },
     "blackley-and-broughton": {
       "aggregation": {
@@ -3030,7 +3111,8 @@
           },
           1.0
         ]
-      ]
+      ],
+      "pacts": []
     },
     "blackpool-north-and-cleveleys": {
       "aggregation": {
@@ -3089,7 +3171,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "blackpool-south": {
       "aggregation": {
@@ -3155,7 +3238,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "blaenau-gwent": {
       "aggregation": {
@@ -3197,7 +3281,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "blaydon": {
       "aggregation": {
@@ -3256,7 +3341,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "blyth-valley": {
       "aggregation": {
@@ -3315,7 +3401,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "bognor-regis-and-littlehampton": {
       "aggregation": {
@@ -3369,7 +3456,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "bolsover": {
       "aggregation": {
@@ -3435,7 +3523,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "bolton-north-east": {
       "aggregation": {
@@ -3487,7 +3576,8 @@
           },
           0.3333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "bolton-south-east": {
       "aggregation": {
@@ -3532,7 +3622,8 @@
           },
           1.0
         ]
-      ]
+      ],
+      "pacts": []
     },
     "bolton-west": {
       "aggregation": {
@@ -3598,7 +3689,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "bootle": {
       "aggregation": {
@@ -3643,7 +3735,8 @@
           },
           1.0
         ]
-      ]
+      ],
+      "pacts": []
     },
     "boston-and-skegness": {
       "aggregation": {
@@ -3695,7 +3788,8 @@
           },
           0.16666666666666666
         ]
-      ]
+      ],
+      "pacts": []
     },
     "bosworth": {
       "aggregation": {
@@ -3756,7 +3850,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "bournemouth-east": {
       "aggregation": {
@@ -3815,7 +3910,8 @@
           },
           0.25
         ]
-      ]
+      ],
+      "pacts": []
     },
     "bournemouth-west": {
       "aggregation": {
@@ -3881,7 +3977,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "bracknell": {
       "aggregation": {
@@ -3935,7 +4032,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "bradford-east": {
       "aggregation": {
@@ -3980,7 +4078,8 @@
           },
           1.0
         ]
-      ]
+      ],
+      "pacts": []
     },
     "bradford-south": {
       "aggregation": {
@@ -4032,7 +4131,8 @@
           },
           0.16666666666666666
         ]
-      ]
+      ],
+      "pacts": []
     },
     "bradford-west": {
       "aggregation": {
@@ -4077,7 +4177,8 @@
           },
           1.0
         ]
-      ]
+      ],
+      "pacts": []
     },
     "braintree": {
       "aggregation": {
@@ -4143,6 +4244,12 @@
           },
           0.08333333333333333
         ]
+      ],
+      "pacts": [
+        {
+          "down": "green",
+          "support": "ind"
+        }
       ]
     },
     "brecon-and-radnorshire": {
@@ -4209,6 +4316,16 @@
           },
           0.08333333333333333
         ]
+      ],
+      "pacts": [
+        {
+          "down": "green",
+          "support": "ld"
+        },
+        {
+          "down": "plaid",
+          "support": "ld"
+        }
       ]
     },
     "brent-central": {
@@ -4254,7 +4371,8 @@
           },
           1.0
         ]
-      ]
+      ],
+      "pacts": []
     },
     "brent-north": {
       "aggregation": {
@@ -4299,7 +4417,8 @@
           },
           1.0
         ]
-      ]
+      ],
+      "pacts": []
     },
     "brentford-and-isleworth": {
       "aggregation": {
@@ -4365,7 +4484,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "brentwood-and-ongar": {
       "aggregation": {
@@ -4426,7 +4546,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "bridgend": {
       "aggregation": {
@@ -4478,7 +4599,8 @@
           },
           0.49999999999999994
         ]
-      ]
+      ],
+      "pacts": []
     },
     "bridgwater-and-west-somerset": {
       "aggregation": {
@@ -4539,7 +4661,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "brigg-and-goole": {
       "aggregation": {
@@ -4591,7 +4714,8 @@
           },
           0.16666666666666666
         ]
-      ]
+      ],
+      "pacts": []
     },
     "brighton-kemptown": {
       "aggregation": {
@@ -4657,7 +4781,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "brighton-pavilion": {
       "aggregation": {
@@ -4702,6 +4827,12 @@
           },
           1.0
         ]
+      ],
+      "pacts": [
+        {
+          "down": "ld",
+          "support": "green"
+        }
       ]
     },
     "bristol-east": {
@@ -4761,7 +4892,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "bristol-north-west": {
       "aggregation": {
@@ -4827,7 +4959,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "bristol-south": {
       "aggregation": {
@@ -4886,7 +5019,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "bristol-west": {
       "aggregation": {
@@ -4933,6 +5067,12 @@
           },
           0.3333333333333333
         ]
+      ],
+      "pacts": [
+        {
+          "down": "ld",
+          "support": "green"
+        }
       ]
     },
     "broadland": {
@@ -4987,7 +5127,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "bromley-and-chislehurst": {
       "aggregation": {
@@ -5046,7 +5187,8 @@
           },
           0.16666666666666666
         ]
-      ]
+      ],
+      "pacts": []
     },
     "bromsgrove": {
       "aggregation": {
@@ -5100,7 +5242,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "broxbourne": {
       "aggregation": {
@@ -5152,7 +5295,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "broxtowe": {
       "aggregation": {
@@ -5213,6 +5357,12 @@
           },
           0.08333333333333333
         ]
+      ],
+      "pacts": [
+        {
+          "down": "ld",
+          "support": "chuk"
+        }
       ]
     },
     "buckingham": {
@@ -5255,6 +5405,12 @@
           },
           0.3333333333333333
         ]
+      ],
+      "pacts": [
+        {
+          "down": "green",
+          "support": "ld"
+        }
       ]
     },
     "burnley": {
@@ -5314,7 +5470,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "burton": {
       "aggregation": {
@@ -5373,7 +5530,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "bury-north": {
       "aggregation": {
@@ -5425,7 +5583,8 @@
           },
           0.3333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "bury-south": {
       "aggregation": {
@@ -5472,7 +5631,8 @@
           },
           0.3333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "bury-st-edmunds": {
       "aggregation": {
@@ -5526,6 +5686,12 @@
           },
           0.16666666666666666
         ]
+      ],
+      "pacts": [
+        {
+          "down": "ld",
+          "support": "green"
+        }
       ]
     },
     "caerphilly": {
@@ -5585,6 +5751,16 @@
           },
           0.08333333333333333
         ]
+      ],
+      "pacts": [
+        {
+          "down": "ld",
+          "support": "plaid"
+        },
+        {
+          "down": "green",
+          "support": "plaid"
+        }
       ]
     },
     "caithness-sutherland-and-easter-ross": {
@@ -5634,7 +5810,8 @@
           },
           0.16666666666666666
         ]
-      ]
+      ],
+      "pacts": []
     },
     "calder-valley": {
       "aggregation": {
@@ -5700,6 +5877,12 @@
           },
           0.08333333333333333
         ]
+      ],
+      "pacts": [
+        {
+          "down": "green",
+          "support": "lab"
+        }
       ]
     },
     "camberwell-and-peckham": {
@@ -5745,7 +5928,8 @@
           },
           1.0
         ]
-      ]
+      ],
+      "pacts": []
     },
     "camborne-and-redruth": {
       "aggregation": {
@@ -5811,7 +5995,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "cambridge": {
       "aggregation": {
@@ -5847,7 +6032,8 @@
           },
           0.3333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "cannock-chase": {
       "aggregation": {
@@ -5906,6 +6092,12 @@
           },
           0.08333333333333333
         ]
+      ],
+      "pacts": [
+        {
+          "down": "ld",
+          "support": "green"
+        }
       ]
     },
     "canterbury": {
@@ -5970,7 +6162,8 @@
           },
           0.16666666666666666
         ]
-      ]
+      ],
+      "pacts": []
     },
     "cardiff-central": {
       "aggregation": {
@@ -6036,6 +6229,16 @@
           },
           0.08333333333333333
         ]
+      ],
+      "pacts": [
+        {
+          "down": "plaid",
+          "support": "ld"
+        },
+        {
+          "down": "green",
+          "support": "ld"
+        }
       ]
     },
     "cardiff-north": {
@@ -6095,7 +6298,8 @@
           },
           0.25
         ]
-      ]
+      ],
+      "pacts": []
     },
     "cardiff-south-and-penarth": {
       "aggregation": {
@@ -6154,7 +6358,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "cardiff-west": {
       "aggregation": {
@@ -6213,7 +6418,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "carlisle": {
       "aggregation": {
@@ -6272,7 +6478,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "carmarthen-east-and-dinefwr": {
       "aggregation": {
@@ -6319,6 +6526,16 @@
           },
           0.25
         ]
+      ],
+      "pacts": [
+        {
+          "down": "ld",
+          "support": "plaid"
+        },
+        {
+          "down": "green",
+          "support": "plaid"
+        }
       ]
     },
     "carmarthen-west-and-south-pembrokeshire": {
@@ -6378,7 +6595,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "carshalton-and-wallington": {
       "aggregation": {
@@ -6442,7 +6660,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "castle-point": {
       "aggregation": {
@@ -6489,7 +6708,8 @@
           },
           0.3333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "central-ayrshire": {
       "aggregation": {
@@ -6536,7 +6756,8 @@
           },
           0.25
         ]
-      ]
+      ],
+      "pacts": []
     },
     "central-devon": {
       "aggregation": {
@@ -6590,7 +6811,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "central-suffolk-and-north-ipswich": {
       "aggregation": {
@@ -6644,7 +6866,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "ceredigion": {
       "aggregation": {
@@ -6686,7 +6909,8 @@
           },
           0.41666666666666663
         ]
-      ]
+      ],
+      "pacts": []
     },
     "charnwood": {
       "aggregation": {
@@ -6738,7 +6962,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "chatham-and-aylesford": {
       "aggregation": {
@@ -6797,7 +7022,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "cheadle": {
       "aggregation": {
@@ -6854,6 +7080,12 @@
           },
           0.41666666666666663
         ]
+      ],
+      "pacts": [
+        {
+          "down": "green",
+          "support": "ld"
+        }
       ]
     },
     "chelmsford": {
@@ -6906,6 +7138,12 @@
           },
           0.41666666666666663
         ]
+      ],
+      "pacts": [
+        {
+          "down": "green",
+          "support": "ld"
+        }
       ]
     },
     "chelsea-and-fulham": {
@@ -6967,6 +7205,12 @@
           },
           0.08333333333333333
         ]
+      ],
+      "pacts": [
+        {
+          "down": "green",
+          "support": "ld"
+        }
       ]
     },
     "cheltenham": {
@@ -7019,6 +7263,12 @@
           },
           0.41666666666666663
         ]
+      ],
+      "pacts": [
+        {
+          "down": "green",
+          "support": "ld"
+        }
       ]
     },
     "chesham-and-amersham": {
@@ -7068,7 +7318,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "chesterfield": {
       "aggregation": {
@@ -7127,7 +7378,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "chichester": {
       "aggregation": {
@@ -7174,7 +7426,8 @@
           },
           0.3333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "chingford-and-woodford-green": {
       "aggregation": {
@@ -7238,7 +7491,8 @@
           },
           0.16666666666666666
         ]
-      ]
+      ],
+      "pacts": []
     },
     "chippenham": {
       "aggregation": {
@@ -7290,6 +7544,12 @@
           },
           0.41666666666666663
         ]
+      ],
+      "pacts": [
+        {
+          "down": "green",
+          "support": "ld"
+        }
       ]
     },
     "chipping-barnet": {
@@ -7363,7 +7623,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "chorley": {
       "aggregation": {
@@ -7415,7 +7676,8 @@
           },
           0.41666666666666663
         ]
-      ]
+      ],
+      "pacts": []
     },
     "christchurch": {
       "aggregation": {
@@ -7457,7 +7719,8 @@
           },
           0.16666666666666666
         ]
-      ]
+      ],
+      "pacts": []
     },
     "cities-of-london-and-westminster": {
       "aggregation": {
@@ -7518,7 +7781,8 @@
           },
           0.16666666666666666
         ]
-      ]
+      ],
+      "pacts": []
     },
     "city-of-chester": {
       "aggregation": {
@@ -7577,7 +7841,8 @@
           },
           0.16666666666666666
         ]
-      ]
+      ],
+      "pacts": []
     },
     "city-of-durham": {
       "aggregation": {
@@ -7629,7 +7894,8 @@
           },
           0.25
         ]
-      ]
+      ],
+      "pacts": []
     },
     "clacton": {
       "aggregation": {
@@ -7686,7 +7952,8 @@
           },
           0.49999999999999994
         ]
-      ]
+      ],
+      "pacts": []
     },
     "cleethorpes": {
       "aggregation": {
@@ -7738,7 +8005,8 @@
           },
           0.16666666666666666
         ]
-      ]
+      ],
+      "pacts": []
     },
     "clwyd-south": {
       "aggregation": {
@@ -7790,7 +8058,8 @@
           },
           0.41666666666666663
         ]
-      ]
+      ],
+      "pacts": []
     },
     "clwyd-west": {
       "aggregation": {
@@ -7849,7 +8118,8 @@
           },
           0.16666666666666666
         ]
-      ]
+      ],
+      "pacts": []
     },
     "coatbridge-chryston-and-bellshill": {
       "aggregation": {
@@ -7885,7 +8155,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "colchester": {
       "aggregation": {
@@ -7937,7 +8208,8 @@
           },
           0.25
         ]
-      ]
+      ],
+      "pacts": []
     },
     "colne-valley": {
       "aggregation": {
@@ -8003,7 +8275,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "congleton": {
       "aggregation": {
@@ -8062,7 +8335,8 @@
           },
           0.16666666666666666
         ]
-      ]
+      ],
+      "pacts": []
     },
     "copeland": {
       "aggregation": {
@@ -8128,7 +8402,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "corby": {
       "aggregation": {
@@ -8192,7 +8467,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "coventry-north-east": {
       "aggregation": {
@@ -8237,7 +8513,8 @@
           },
           1.0
         ]
-      ]
+      ],
+      "pacts": []
     },
     "coventry-north-west": {
       "aggregation": {
@@ -8289,7 +8566,8 @@
           },
           0.25
         ]
-      ]
+      ],
+      "pacts": []
     },
     "coventry-south": {
       "aggregation": {
@@ -8348,7 +8626,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "crawley": {
       "aggregation": {
@@ -8400,7 +8679,8 @@
           },
           0.3333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "crewe-and-nantwich": {
       "aggregation": {
@@ -8466,7 +8746,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "croydon-central": {
       "aggregation": {
@@ -8525,7 +8806,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "croydon-north": {
       "aggregation": {
@@ -8570,7 +8852,8 @@
           },
           1.0
         ]
-      ]
+      ],
+      "pacts": []
     },
     "croydon-south": {
       "aggregation": {
@@ -8631,7 +8914,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "cumbernauld-kilsyth-and-kirkintilloch-east": {
       "aggregation": {
@@ -8666,7 +8950,8 @@
           },
           1.0
         ]
-      ]
+      ],
+      "pacts": []
     },
     "cynon-valley": {
       "aggregation": {
@@ -8718,7 +9003,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "dagenham-and-rainham": {
       "aggregation": {
@@ -8777,7 +9063,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "darlington": {
       "aggregation": {
@@ -8829,7 +9116,8 @@
           },
           0.41666666666666663
         ]
-      ]
+      ],
+      "pacts": []
     },
     "dartford": {
       "aggregation": {
@@ -8881,7 +9169,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "daventry": {
       "aggregation": {
@@ -8942,7 +9231,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "delyn": {
       "aggregation": {
@@ -9001,7 +9291,8 @@
           },
           0.16666666666666666
         ]
-      ]
+      ],
+      "pacts": []
     },
     "denton-and-reddish": {
       "aggregation": {
@@ -9053,7 +9344,8 @@
           },
           0.25
         ]
-      ]
+      ],
+      "pacts": []
     },
     "derby-north": {
       "aggregation": {
@@ -9112,7 +9404,8 @@
           },
           0.16666666666666666
         ]
-      ]
+      ],
+      "pacts": []
     },
     "derby-south": {
       "aggregation": {
@@ -9157,7 +9450,8 @@
           },
           1.0
         ]
-      ]
+      ],
+      "pacts": []
     },
     "derbyshire-dales": {
       "aggregation": {
@@ -9211,7 +9505,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "devizes": {
       "aggregation": {
@@ -9260,7 +9555,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "dewsbury": {
       "aggregation": {
@@ -9312,7 +9608,8 @@
           },
           0.41666666666666663
         ]
-      ]
+      ],
+      "pacts": []
     },
     "don-valley": {
       "aggregation": {
@@ -9371,7 +9668,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "doncaster-central": {
       "aggregation": {
@@ -9430,7 +9728,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "doncaster-north": {
       "aggregation": {
@@ -9496,7 +9795,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "dover": {
       "aggregation": {
@@ -9562,7 +9862,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "dudley-north": {
       "aggregation": {
@@ -9628,7 +9929,8 @@
           },
           0.16666666666666666
         ]
-      ]
+      ],
+      "pacts": []
     },
     "dudley-south": {
       "aggregation": {
@@ -9687,7 +9989,8 @@
           },
           0.16666666666666666
         ]
-      ]
+      ],
+      "pacts": []
     },
     "dulwich-and-west-norwood": {
       "aggregation": {
@@ -9739,6 +10042,12 @@
           },
           0.25
         ]
+      ],
+      "pacts": [
+        {
+          "down": "ld",
+          "support": "green"
+        }
       ]
     },
     "dumfries-and-galloway": {
@@ -9781,7 +10090,8 @@
           },
           0.41666666666666663
         ]
-      ]
+      ],
+      "pacts": []
     },
     "dumfriesshire-clydesdale-and-tweeddale": {
       "aggregation": {
@@ -9835,7 +10145,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "dundee-east": {
       "aggregation": {
@@ -9875,7 +10186,8 @@
           },
           1.0
         ]
-      ]
+      ],
+      "pacts": []
     },
     "dundee-west": {
       "aggregation": {
@@ -9904,7 +10216,8 @@
           },
           1.0
         ]
-      ]
+      ],
+      "pacts": []
     },
     "dunfermline-and-west-fife": {
       "aggregation": {
@@ -9939,7 +10252,8 @@
           },
           1.0
         ]
-      ]
+      ],
+      "pacts": []
     },
     "dwyfor-meirionnydd": {
       "aggregation": {
@@ -9984,6 +10298,16 @@
           },
           1.0
         ]
+      ],
+      "pacts": [
+        {
+          "down": "ld",
+          "support": "plaid"
+        },
+        {
+          "down": "green",
+          "support": "plaid"
+        }
       ]
     },
     "ealing-central-and-acton": {
@@ -10050,7 +10374,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "ealing-north": {
       "aggregation": {
@@ -10095,7 +10420,8 @@
           },
           1.0
         ]
-      ]
+      ],
+      "pacts": []
     },
     "ealing-southall": {
       "aggregation": {
@@ -10140,7 +10466,8 @@
           },
           1.0
         ]
-      ]
+      ],
+      "pacts": []
     },
     "easington": {
       "aggregation": {
@@ -10199,7 +10526,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "east-antrim": {
       "aggregation": {
@@ -10234,7 +10562,8 @@
           },
           1.0
         ]
-      ]
+      ],
+      "pacts": []
     },
     "east-devon": {
       "aggregation": {
@@ -10307,7 +10636,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "east-dunbartonshire": {
       "aggregation": {
@@ -10350,7 +10680,8 @@
           },
           0.16666666666666666
         ]
-      ]
+      ],
+      "pacts": []
     },
     "east-ham": {
       "aggregation": {
@@ -10395,7 +10726,8 @@
           },
           1.0
         ]
-      ]
+      ],
+      "pacts": []
     },
     "east-hampshire": {
       "aggregation": {
@@ -10437,7 +10769,8 @@
           },
           0.3333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "east-kilbride-strathaven-and-lesmahagow": {
       "aggregation": {
@@ -10472,7 +10805,8 @@
           },
           1.0
         ]
-      ]
+      ],
+      "pacts": []
     },
     "east-londonderry": {
       "aggregation": {
@@ -10514,7 +10848,8 @@
           },
           0.4
         ]
-      ]
+      ],
+      "pacts": []
     },
     "east-lothian": {
       "aggregation": {
@@ -10563,7 +10898,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "east-renfrewshire": {
       "aggregation": {
@@ -10610,7 +10946,8 @@
           },
           0.41666666666666663
         ]
-      ]
+      ],
+      "pacts": []
     },
     "east-surrey": {
       "aggregation": {
@@ -10659,7 +10996,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "east-worthing-and-shoreham": {
       "aggregation": {
@@ -10718,7 +11056,8 @@
           },
           0.16666666666666666
         ]
-      ]
+      ],
+      "pacts": []
     },
     "east-yorkshire": {
       "aggregation": {
@@ -10765,7 +11104,8 @@
           },
           0.16666666666666666
         ]
-      ]
+      ],
+      "pacts": []
     },
     "eastbourne": {
       "aggregation": {
@@ -10831,7 +11171,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "eastleigh": {
       "aggregation": {
@@ -10890,7 +11231,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "eddisbury": {
       "aggregation": {
@@ -10944,7 +11286,8 @@
           },
           0.16666666666666666
         ]
-      ]
+      ],
+      "pacts": []
     },
     "edinburgh-east": {
       "aggregation": {
@@ -10979,7 +11322,8 @@
           },
           1.0
         ]
-      ]
+      ],
+      "pacts": []
     },
     "edinburgh-north-and-leith": {
       "aggregation": {
@@ -11021,7 +11365,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "edinburgh-south": {
       "aggregation": {
@@ -11070,7 +11415,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "edinburgh-south-west": {
       "aggregation": {
@@ -11117,7 +11463,8 @@
           },
           0.25
         ]
-      ]
+      ],
+      "pacts": []
     },
     "edinburgh-west": {
       "aggregation": {
@@ -11173,7 +11520,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "edmonton": {
       "aggregation": {
@@ -11218,7 +11566,8 @@
           },
           1.0
         ]
-      ]
+      ],
+      "pacts": []
     },
     "ellesmere-port-and-neston": {
       "aggregation": {
@@ -11277,7 +11626,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "elmet-and-rothwell": {
       "aggregation": {
@@ -11338,7 +11688,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "eltham": {
       "aggregation": {
@@ -11397,7 +11748,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "enfield-north": {
       "aggregation": {
@@ -11444,7 +11796,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "enfield-southgate": {
       "aggregation": {
@@ -11522,7 +11875,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "epping-forest": {
       "aggregation": {
@@ -11593,7 +11947,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "epsom-and-ewell": {
       "aggregation": {
@@ -11640,7 +11995,8 @@
           },
           0.3333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "erewash": {
       "aggregation": {
@@ -11699,7 +12055,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "erith-and-thamesmead": {
       "aggregation": {
@@ -11744,7 +12101,8 @@
           },
           1.0
         ]
-      ]
+      ],
+      "pacts": []
     },
     "esher-and-walton": {
       "aggregation": {
@@ -11798,6 +12156,12 @@
           },
           0.16666666666666666
         ]
+      ],
+      "pacts": [
+        {
+          "down": "green",
+          "support": "ld"
+        }
       ]
     },
     "exeter": {
@@ -11864,6 +12228,12 @@
           },
           0.08333333333333333
         ]
+      ],
+      "pacts": [
+        {
+          "down": "ld",
+          "support": "green"
+        }
       ]
     },
     "falkirk": {
@@ -11899,7 +12269,8 @@
           },
           1.0
         ]
-      ]
+      ],
+      "pacts": []
     },
     "fareham": {
       "aggregation": {
@@ -11960,7 +12331,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "faversham-and-mid-kent": {
       "aggregation": {
@@ -12021,7 +12393,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "feltham-and-heston": {
       "aggregation": {
@@ -12066,7 +12439,8 @@
           },
           1.0
         ]
-      ]
+      ],
+      "pacts": []
     },
     "fermanagh-and-south-tyrone": {
       "aggregation": {
@@ -12108,7 +12482,8 @@
           },
           0.4
         ]
-      ]
+      ],
+      "pacts": []
     },
     "filton-and-bradley-stoke": {
       "aggregation": {
@@ -12162,7 +12537,8 @@
           },
           0.25
         ]
-      ]
+      ],
+      "pacts": []
     },
     "finchley-and-golders-green": {
       "aggregation": {
@@ -12230,6 +12606,12 @@
           },
           0.08333333333333333
         ]
+      ],
+      "pacts": [
+        {
+          "down": "green",
+          "support": "ld"
+        }
       ]
     },
     "folkestone-and-hythe": {
@@ -12291,7 +12673,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "forest-of-dean": {
       "aggregation": {
@@ -12357,6 +12740,12 @@
           },
           0.08333333333333333
         ]
+      ],
+      "pacts": [
+        {
+          "down": "ld",
+          "support": "green"
+        }
       ]
     },
     "foyle": {
@@ -12393,7 +12782,8 @@
           },
           0.4
         ]
-      ]
+      ],
+      "pacts": []
     },
     "fylde": {
       "aggregation": {
@@ -12452,7 +12842,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "gainsborough": {
       "aggregation": {
@@ -12504,7 +12895,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "garston-and-halewood": {
       "aggregation": {
@@ -12549,7 +12941,8 @@
           },
           1.0
         ]
-      ]
+      ],
+      "pacts": []
     },
     "gateshead": {
       "aggregation": {
@@ -12601,7 +12994,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "gedling": {
       "aggregation": {
@@ -12658,7 +13052,8 @@
           },
           0.49999999999999994
         ]
-      ]
+      ],
+      "pacts": []
     },
     "gillingham-and-rainham": {
       "aggregation": {
@@ -12717,7 +13112,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "glasgow-central": {
       "aggregation": {
@@ -12753,7 +13149,8 @@
           },
           0.25
         ]
-      ]
+      ],
+      "pacts": []
     },
     "glasgow-east": {
       "aggregation": {
@@ -12788,7 +13185,8 @@
           },
           1.0
         ]
-      ]
+      ],
+      "pacts": []
     },
     "glasgow-north": {
       "aggregation": {
@@ -12824,7 +13222,8 @@
           },
           0.25
         ]
-      ]
+      ],
+      "pacts": []
     },
     "glasgow-north-east": {
       "aggregation": {
@@ -12860,7 +13259,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "glasgow-north-west": {
       "aggregation": {
@@ -12895,7 +13295,8 @@
           },
           1.0
         ]
-      ]
+      ],
+      "pacts": []
     },
     "glasgow-south": {
       "aggregation": {
@@ -12930,7 +13331,8 @@
           },
           1.0
         ]
-      ]
+      ],
+      "pacts": []
     },
     "glasgow-south-west": {
       "aggregation": {
@@ -12959,7 +13361,8 @@
           },
           1.0
         ]
-      ]
+      ],
+      "pacts": []
     },
     "glenrothes": {
       "aggregation": {
@@ -12994,7 +13397,8 @@
           },
           1.0
         ]
-      ]
+      ],
+      "pacts": []
     },
     "gloucester": {
       "aggregation": {
@@ -13053,7 +13457,8 @@
           },
           0.16666666666666666
         ]
-      ]
+      ],
+      "pacts": []
     },
     "gordon": {
       "aggregation": {
@@ -13100,7 +13505,8 @@
           },
           0.41666666666666663
         ]
-      ]
+      ],
+      "pacts": []
     },
     "gosport": {
       "aggregation": {
@@ -13152,7 +13558,8 @@
           },
           0.16666666666666666
         ]
-      ]
+      ],
+      "pacts": []
     },
     "gower": {
       "aggregation": {
@@ -13211,7 +13618,8 @@
           },
           0.16666666666666666
         ]
-      ]
+      ],
+      "pacts": []
     },
     "grantham-and-stamford": {
       "aggregation": {
@@ -13258,7 +13666,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "gravesham": {
       "aggregation": {
@@ -13317,7 +13726,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "great-grimsby": {
       "aggregation": {
@@ -13383,7 +13793,8 @@
           },
           0.16666666666666666
         ]
-      ]
+      ],
+      "pacts": []
     },
     "great-yarmouth": {
       "aggregation": {
@@ -13442,7 +13853,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "greenwich-and-woolwich": {
       "aggregation": {
@@ -13494,7 +13906,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "guildford": {
       "aggregation": {
@@ -13548,6 +13961,12 @@
           },
           0.16666666666666666
         ]
+      ],
+      "pacts": [
+        {
+          "down": "green",
+          "support": "ld"
+        }
       ]
     },
     "hackney-north-and-stoke-newington": {
@@ -13593,7 +14012,8 @@
           },
           1.0
         ]
-      ]
+      ],
+      "pacts": []
     },
     "hackney-south-and-shoreditch": {
       "aggregation": {
@@ -13638,7 +14058,8 @@
           },
           1.0
         ]
-      ]
+      ],
+      "pacts": []
     },
     "halesowen-and-rowley-regis": {
       "aggregation": {
@@ -13697,7 +14118,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "halifax": {
       "aggregation": {
@@ -13749,7 +14171,8 @@
           },
           0.25
         ]
-      ]
+      ],
+      "pacts": []
     },
     "haltemprice-and-howden": {
       "aggregation": {
@@ -13810,7 +14233,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "halton": {
       "aggregation": {
@@ -13862,7 +14286,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "hammersmith": {
       "aggregation": {
@@ -13921,7 +14346,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "hampstead-and-kilburn": {
       "aggregation": {
@@ -13980,7 +14406,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "harborough": {
       "aggregation": {
@@ -14034,7 +14461,8 @@
           },
           0.16666666666666666
         ]
-      ]
+      ],
+      "pacts": []
     },
     "harlow": {
       "aggregation": {
@@ -14098,7 +14526,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "harrogate-and-knaresborough": {
       "aggregation": {
@@ -14145,6 +14574,12 @@
           },
           0.41666666666666663
         ]
+      ],
+      "pacts": [
+        {
+          "down": "green",
+          "support": "ld"
+        }
       ]
     },
     "harrow-east": {
@@ -14204,7 +14639,8 @@
           },
           0.25
         ]
-      ]
+      ],
+      "pacts": []
     },
     "harrow-west": {
       "aggregation": {
@@ -14256,7 +14692,8 @@
           },
           0.25
         ]
-      ]
+      ],
+      "pacts": []
     },
     "hartlepool": {
       "aggregation": {
@@ -14315,7 +14752,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "harwich-and-north-essex": {
       "aggregation": {
@@ -14381,7 +14819,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "hastings-and-rye": {
       "aggregation": {
@@ -14447,6 +14886,12 @@
           },
           0.08333333333333333
         ]
+      ],
+      "pacts": [
+        {
+          "down": "green",
+          "support": "lab"
+        }
       ]
     },
     "havant": {
@@ -14508,7 +14953,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "hayes-and-harlington": {
       "aggregation": {
@@ -14553,7 +14999,8 @@
           },
           1.0
         ]
-      ]
+      ],
+      "pacts": []
     },
     "hazel-grove": {
       "aggregation": {
@@ -14617,6 +15064,12 @@
           },
           0.08333333333333333
         ]
+      ],
+      "pacts": [
+        {
+          "down": "green",
+          "support": "ld"
+        }
       ]
     },
     "hemel-hempstead": {
@@ -14671,7 +15124,8 @@
           },
           0.16666666666666666
         ]
-      ]
+      ],
+      "pacts": []
     },
     "hemsworth": {
       "aggregation": {
@@ -14730,7 +15184,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "hendon": {
       "aggregation": {
@@ -14801,7 +15256,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "henley": {
       "aggregation": {
@@ -14855,7 +15311,8 @@
           },
           0.16666666666666666
         ]
-      ]
+      ],
+      "pacts": []
     },
     "hereford-and-south-herefordshire": {
       "aggregation": {
@@ -14916,7 +15373,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "hertford-and-stortford": {
       "aggregation": {
@@ -14970,7 +15428,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "hertsmere": {
       "aggregation": {
@@ -15024,7 +15483,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "hexham": {
       "aggregation": {
@@ -15085,7 +15545,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "heywood-and-middleton": {
       "aggregation": {
@@ -15137,7 +15598,8 @@
           },
           0.25
         ]
-      ]
+      ],
+      "pacts": []
     },
     "high-peak": {
       "aggregation": {
@@ -15203,7 +15665,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "hitchin-and-harpenden": {
       "aggregation": {
@@ -15264,6 +15727,12 @@
           },
           0.08333333333333333
         ]
+      ],
+      "pacts": [
+        {
+          "down": "green",
+          "support": "ld"
+        }
       ]
     },
     "holborn-and-st-pancras": {
@@ -15316,7 +15785,8 @@
           },
           0.16666666666666666
         ]
-      ]
+      ],
+      "pacts": []
     },
     "hornchurch-and-upminster": {
       "aggregation": {
@@ -15368,7 +15838,8 @@
           },
           0.16666666666666666
         ]
-      ]
+      ],
+      "pacts": []
     },
     "hornsey-and-wood-green": {
       "aggregation": {
@@ -15410,7 +15881,8 @@
           },
           0.25
         ]
-      ]
+      ],
+      "pacts": []
     },
     "horsham": {
       "aggregation": {
@@ -15457,7 +15929,8 @@
           },
           0.3333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "houghton-and-sunderland-south": {
       "aggregation": {
@@ -15516,7 +15989,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "hove": {
       "aggregation": {
@@ -15582,7 +16056,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "huddersfield": {
       "aggregation": {
@@ -15634,7 +16109,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "huntingdon": {
       "aggregation": {
@@ -15688,7 +16164,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "hyndburn": {
       "aggregation": {
@@ -15740,7 +16217,8 @@
           },
           0.3333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "ilford-north": {
       "aggregation": {
@@ -15792,7 +16270,8 @@
           },
           0.3333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "ilford-south": {
       "aggregation": {
@@ -15832,7 +16311,8 @@
           },
           1.0
         ]
-      ]
+      ],
+      "pacts": []
     },
     "inverclyde": {
       "aggregation": {
@@ -15867,7 +16347,8 @@
           },
           1.0
         ]
-      ]
+      ],
+      "pacts": []
     },
     "inverness-nairn-badenoch-and-strathspey": {
       "aggregation": {
@@ -15907,7 +16388,8 @@
           },
           1.0
         ]
-      ]
+      ],
+      "pacts": []
     },
     "ipswich": {
       "aggregation": {
@@ -15978,7 +16460,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "isle-of-wight": {
       "aggregation": {
@@ -16046,6 +16529,12 @@
           },
           0.08333333333333333
         ]
+      ],
+      "pacts": [
+        {
+          "down": "ld",
+          "support": "green"
+        }
       ]
     },
     "islington-north": {
@@ -16091,7 +16580,8 @@
           },
           1.0
         ]
-      ]
+      ],
+      "pacts": []
     },
     "islington-south-and-finsbury": {
       "aggregation": {
@@ -16143,7 +16633,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "islwyn": {
       "aggregation": {
@@ -16195,7 +16686,8 @@
           },
           0.25
         ]
-      ]
+      ],
+      "pacts": []
     },
     "jarrow": {
       "aggregation": {
@@ -16254,7 +16746,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "keighley": {
       "aggregation": {
@@ -16320,7 +16813,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "kenilworth-and-southam": {
       "aggregation": {
@@ -16374,7 +16868,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "kensington": {
       "aggregation": {
@@ -16447,7 +16942,8 @@
           },
           0.16666666666666666
         ]
-      ]
+      ],
+      "pacts": []
     },
     "kettering": {
       "aggregation": {
@@ -16513,7 +17009,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "kilmarnock-and-loudoun": {
       "aggregation": {
@@ -16548,7 +17045,8 @@
           },
           1.0
         ]
-      ]
+      ],
+      "pacts": []
     },
     "kingston-and-surbiton": {
       "aggregation": {
@@ -16600,7 +17098,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "kingston-upon-hull-east": {
       "aggregation": {
@@ -16659,7 +17158,8 @@
           },
           0.16666666666666666
         ]
-      ]
+      ],
+      "pacts": []
     },
     "kingston-upon-hull-north": {
       "aggregation": {
@@ -16718,7 +17218,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "kingston-upon-hull-west-and-hessle": {
       "aggregation": {
@@ -16777,7 +17278,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "kingswood": {
       "aggregation": {
@@ -16836,7 +17338,8 @@
           },
           0.16666666666666666
         ]
-      ]
+      ],
+      "pacts": []
     },
     "kirkcaldy-and-cowdenbeath": {
       "aggregation": {
@@ -16878,7 +17381,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "knowsley": {
       "aggregation": {
@@ -16923,7 +17427,8 @@
           },
           1.0
         ]
-      ]
+      ],
+      "pacts": []
     },
     "lagan-valley": {
       "aggregation": {
@@ -16952,7 +17457,8 @@
           },
           1.0
         ]
-      ]
+      ],
+      "pacts": []
     },
     "lanark-and-hamilton-east": {
       "aggregation": {
@@ -16992,7 +17498,8 @@
           },
           1.0
         ]
-      ]
+      ],
+      "pacts": []
     },
     "lancaster-and-fleetwood": {
       "aggregation": {
@@ -17058,7 +17565,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "leeds-central": {
       "aggregation": {
@@ -17103,7 +17611,8 @@
           },
           1.0
         ]
-      ]
+      ],
+      "pacts": []
     },
     "leeds-east": {
       "aggregation": {
@@ -17155,7 +17664,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "leeds-north-east": {
       "aggregation": {
@@ -17214,7 +17724,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "leeds-north-west": {
       "aggregation": {
@@ -17277,7 +17788,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "leeds-west": {
       "aggregation": {
@@ -17329,7 +17841,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "leicester-east": {
       "aggregation": {
@@ -17369,7 +17882,8 @@
           },
           1.0
         ]
-      ]
+      ],
+      "pacts": []
     },
     "leicester-south": {
       "aggregation": {
@@ -17414,7 +17928,8 @@
           },
           1.0
         ]
-      ]
+      ],
+      "pacts": []
     },
     "leicester-west": {
       "aggregation": {
@@ -17459,7 +17974,8 @@
           },
           1.0
         ]
-      ]
+      ],
+      "pacts": []
     },
     "leigh": {
       "aggregation": {
@@ -17518,7 +18034,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "lewes": {
       "aggregation": {
@@ -17577,7 +18094,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "lewisham-deptford": {
       "aggregation": {
@@ -17629,7 +18147,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "lewisham-east": {
       "aggregation": {
@@ -17681,7 +18200,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "lewisham-west-and-penge": {
       "aggregation": {
@@ -17747,7 +18267,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "leyton-and-wanstead": {
       "aggregation": {
@@ -17792,7 +18313,8 @@
           },
           1.0
         ]
-      ]
+      ],
+      "pacts": []
     },
     "lichfield": {
       "aggregation": {
@@ -17853,7 +18375,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "lincoln": {
       "aggregation": {
@@ -17912,7 +18435,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "linlithgow-and-east-falkirk": {
       "aggregation": {
@@ -17947,7 +18471,8 @@
           },
           1.0
         ]
-      ]
+      ],
+      "pacts": []
     },
     "liverpool-riverside": {
       "aggregation": {
@@ -17992,7 +18517,8 @@
           },
           1.0
         ]
-      ]
+      ],
+      "pacts": []
     },
     "liverpool-walton": {
       "aggregation": {
@@ -18037,7 +18563,8 @@
           },
           1.0
         ]
-      ]
+      ],
+      "pacts": []
     },
     "liverpool-wavertree": {
       "aggregation": {
@@ -18077,7 +18604,8 @@
           },
           1.0
         ]
-      ]
+      ],
+      "pacts": []
     },
     "liverpool-west-derby": {
       "aggregation": {
@@ -18122,7 +18650,8 @@
           },
           1.0
         ]
-      ]
+      ],
+      "pacts": []
     },
     "livingston": {
       "aggregation": {
@@ -18157,7 +18686,8 @@
           },
           1.0
         ]
-      ]
+      ],
+      "pacts": []
     },
     "llanelli": {
       "aggregation": {
@@ -18209,6 +18739,16 @@
           },
           0.3333333333333333
         ]
+      ],
+      "pacts": [
+        {
+          "down": "ld",
+          "support": "plaid"
+        },
+        {
+          "down": "green",
+          "support": "plaid"
+        }
       ]
     },
     "loughborough": {
@@ -18268,7 +18808,8 @@
           },
           0.16666666666666666
         ]
-      ]
+      ],
+      "pacts": []
     },
     "louth-and-horncastle": {
       "aggregation": {
@@ -18320,7 +18861,8 @@
           },
           0.16666666666666666
         ]
-      ]
+      ],
+      "pacts": []
     },
     "ludlow": {
       "aggregation": {
@@ -18374,7 +18916,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "luton-north": {
       "aggregation": {
@@ -18421,7 +18964,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "luton-south": {
       "aggregation": {
@@ -18461,6 +19005,12 @@
           },
           1.0
         ]
+      ],
+      "pacts": [
+        {
+          "down": "ld",
+          "support": "ind"
+        }
       ]
     },
     "macclesfield": {
@@ -18515,7 +19065,8 @@
           },
           0.25
         ]
-      ]
+      ],
+      "pacts": []
     },
     "maidenhead": {
       "aggregation": {
@@ -18564,7 +19115,8 @@
           },
           0.16666666666666666
         ]
-      ]
+      ],
+      "pacts": []
     },
     "maidstone-and-the-weald": {
       "aggregation": {
@@ -18625,7 +19177,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "makerfield": {
       "aggregation": {
@@ -18684,7 +19237,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "maldon": {
       "aggregation": {
@@ -18745,7 +19299,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "manchester-central": {
       "aggregation": {
@@ -18790,7 +19345,8 @@
           },
           1.0
         ]
-      ]
+      ],
+      "pacts": []
     },
     "manchester-gorton": {
       "aggregation": {
@@ -18835,7 +19391,8 @@
           },
           1.0
         ]
-      ]
+      ],
+      "pacts": []
     },
     "manchester-withington": {
       "aggregation": {
@@ -18877,7 +19434,8 @@
           },
           0.16666666666666666
         ]
-      ]
+      ],
+      "pacts": []
     },
     "mansfield": {
       "aggregation": {
@@ -18943,7 +19501,8 @@
           },
           0.16666666666666666
         ]
-      ]
+      ],
+      "pacts": []
     },
     "meon-valley": {
       "aggregation": {
@@ -18992,7 +19551,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "meriden": {
       "aggregation": {
@@ -19051,7 +19611,8 @@
           },
           0.16666666666666666
         ]
-      ]
+      ],
+      "pacts": []
     },
     "merthyr-tydfil-and-rhymney": {
       "aggregation": {
@@ -19103,7 +19664,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "mid-bedfordshire": {
       "aggregation": {
@@ -19157,7 +19719,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "mid-derbyshire": {
       "aggregation": {
@@ -19216,7 +19779,8 @@
           },
           0.16666666666666666
         ]
-      ]
+      ],
+      "pacts": []
     },
     "mid-dorset-and-north-poole": {
       "aggregation": {
@@ -19282,7 +19846,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "mid-norfolk": {
       "aggregation": {
@@ -19336,7 +19901,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "mid-sussex": {
       "aggregation": {
@@ -19383,7 +19949,8 @@
           },
           0.41666666666666663
         ]
-      ]
+      ],
+      "pacts": []
     },
     "mid-ulster": {
       "aggregation": {
@@ -19418,7 +19985,8 @@
           },
           1.0
         ]
-      ]
+      ],
+      "pacts": []
     },
     "mid-worcestershire": {
       "aggregation": {
@@ -19460,7 +20028,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "middlesbrough": {
       "aggregation": {
@@ -19512,7 +20081,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "middlesbrough-south-and-east-cleveland": {
       "aggregation": {
@@ -19585,7 +20155,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "midlothian": {
       "aggregation": {
@@ -19627,7 +20198,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "milton-keynes-north": {
       "aggregation": {
@@ -19693,7 +20265,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "milton-keynes-south": {
       "aggregation": {
@@ -19759,7 +20332,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "mitcham-and-morden": {
       "aggregation": {
@@ -19804,7 +20378,8 @@
           },
           1.0
         ]
-      ]
+      ],
+      "pacts": []
     },
     "mole-valley": {
       "aggregation": {
@@ -19858,7 +20433,8 @@
           },
           0.16666666666666666
         ]
-      ]
+      ],
+      "pacts": []
     },
     "monmouth": {
       "aggregation": {
@@ -19917,7 +20493,8 @@
           },
           0.25
         ]
-      ]
+      ],
+      "pacts": []
     },
     "montgomeryshire": {
       "aggregation": {
@@ -19983,6 +20560,16 @@
           },
           0.08333333333333333
         ]
+      ],
+      "pacts": [
+        {
+          "down": "plaid",
+          "support": "ld"
+        },
+        {
+          "down": "green",
+          "support": "ld"
+        }
       ]
     },
     "moray": {
@@ -20030,7 +20617,8 @@
           },
           0.41666666666666663
         ]
-      ]
+      ],
+      "pacts": []
     },
     "morecambe-and-lunesdale": {
       "aggregation": {
@@ -20096,7 +20684,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "morley-and-outwood": {
       "aggregation": {
@@ -20162,7 +20751,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "motherwell-and-wishaw": {
       "aggregation": {
@@ -20197,7 +20787,8 @@
           },
           1.0
         ]
-      ]
+      ],
+      "pacts": []
     },
     "na-h-eileanan-an-iar": {
       "aggregation": {
@@ -20226,7 +20817,8 @@
           },
           1.0
         ]
-      ]
+      ],
+      "pacts": []
     },
     "neath": {
       "aggregation": {
@@ -20278,7 +20870,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "new-forest-east": {
       "aggregation": {
@@ -20327,7 +20920,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "new-forest-west": {
       "aggregation": {
@@ -20376,7 +20970,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "newark": {
       "aggregation": {
@@ -20430,7 +21025,8 @@
           },
           0.16666666666666666
         ]
-      ]
+      ],
+      "pacts": []
     },
     "newbury": {
       "aggregation": {
@@ -20477,7 +21073,8 @@
           },
           0.3333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "newcastle-under-lyme": {
       "aggregation": {
@@ -20543,7 +21140,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "newcastle-upon-tyne-central": {
       "aggregation": {
@@ -20588,7 +21186,8 @@
           },
           1.0
         ]
-      ]
+      ],
+      "pacts": []
     },
     "newcastle-upon-tyne-east": {
       "aggregation": {
@@ -20654,7 +21253,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "newcastle-upon-tyne-north": {
       "aggregation": {
@@ -20713,7 +21313,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "newport-east": {
       "aggregation": {
@@ -20765,7 +21366,8 @@
           },
           0.25
         ]
-      ]
+      ],
+      "pacts": []
     },
     "newport-west": {
       "aggregation": {
@@ -20824,7 +21426,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "newry-and-armagh": {
       "aggregation": {
@@ -20859,7 +21462,8 @@
           },
           1.0
         ]
-      ]
+      ],
+      "pacts": []
     },
     "newton-abbot": {
       "aggregation": {
@@ -20920,7 +21524,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "normanton-pontefract-and-castleford": {
       "aggregation": {
@@ -20986,7 +21591,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "north-antrim": {
       "aggregation": {
@@ -21021,7 +21627,8 @@
           },
           1.0
         ]
-      ]
+      ],
+      "pacts": []
     },
     "north-ayrshire-and-arran": {
       "aggregation": {
@@ -21061,7 +21668,8 @@
           },
           1.0
         ]
-      ]
+      ],
+      "pacts": []
     },
     "north-cornwall": {
       "aggregation": {
@@ -21134,6 +21742,12 @@
           },
           0.08333333333333333
         ]
+      ],
+      "pacts": [
+        {
+          "down": "green",
+          "support": "ld"
+        }
       ]
     },
     "north-devon": {
@@ -21212,7 +21826,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "north-dorset": {
       "aggregation": {
@@ -21268,7 +21883,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "north-down": {
       "aggregation": {
@@ -21304,7 +21920,8 @@
           },
           0.4
         ]
-      ]
+      ],
+      "pacts": []
     },
     "north-durham": {
       "aggregation": {
@@ -21363,7 +21980,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "north-east-bedfordshire": {
       "aggregation": {
@@ -21417,7 +22035,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "north-east-cambridgeshire": {
       "aggregation": {
@@ -21464,7 +22083,8 @@
           },
           0.16666666666666666
         ]
-      ]
+      ],
+      "pacts": []
     },
     "north-east-derbyshire": {
       "aggregation": {
@@ -21530,7 +22150,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "north-east-fife": {
       "aggregation": {
@@ -21586,7 +22207,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "north-east-hampshire": {
       "aggregation": {
@@ -21628,7 +22250,8 @@
           },
           0.3333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "north-east-hertfordshire": {
       "aggregation": {
@@ -21675,7 +22298,8 @@
           },
           0.41666666666666663
         ]
-      ]
+      ],
+      "pacts": []
     },
     "north-east-somerset": {
       "aggregation": {
@@ -21729,7 +22353,8 @@
           },
           0.16666666666666666
         ]
-      ]
+      ],
+      "pacts": []
     },
     "north-herefordshire": {
       "aggregation": {
@@ -21778,7 +22403,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "north-norfolk": {
       "aggregation": {
@@ -21830,6 +22456,12 @@
           },
           0.3333333333333333
         ]
+      ],
+      "pacts": [
+        {
+          "down": "green",
+          "support": "ld"
+        }
       ]
     },
     "north-shropshire": {
@@ -21896,7 +22528,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "north-somerset": {
       "aggregation": {
@@ -21943,7 +22576,8 @@
           },
           0.41666666666666663
         ]
-      ]
+      ],
+      "pacts": []
     },
     "north-swindon": {
       "aggregation": {
@@ -22002,7 +22636,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "north-thanet": {
       "aggregation": {
@@ -22061,7 +22696,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "north-tyneside": {
       "aggregation": {
@@ -22113,7 +22749,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "north-warwickshire": {
       "aggregation": {
@@ -22172,7 +22809,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "north-west-cambridgeshire": {
       "aggregation": {
@@ -22233,7 +22871,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "north-west-durham": {
       "aggregation": {
@@ -22285,7 +22924,8 @@
           },
           0.25
         ]
-      ]
+      ],
+      "pacts": []
     },
     "north-west-hampshire": {
       "aggregation": {
@@ -22339,7 +22979,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "north-west-leicestershire": {
       "aggregation": {
@@ -22405,7 +23046,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "north-west-norfolk": {
       "aggregation": {
@@ -22471,7 +23113,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "north-wiltshire": {
       "aggregation": {
@@ -22518,7 +23161,8 @@
           },
           0.3333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "northampton-north": {
       "aggregation": {
@@ -22577,7 +23221,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "northampton-south": {
       "aggregation": {
@@ -22636,7 +23281,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "norwich-north": {
       "aggregation": {
@@ -22702,7 +23348,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "norwich-south": {
       "aggregation": {
@@ -22768,7 +23415,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "nottingham-east": {
       "aggregation": {
@@ -22808,7 +23456,8 @@
           },
           1.0
         ]
-      ]
+      ],
+      "pacts": []
     },
     "nottingham-north": {
       "aggregation": {
@@ -22853,7 +23502,8 @@
           },
           1.0
         ]
-      ]
+      ],
+      "pacts": []
     },
     "nottingham-south": {
       "aggregation": {
@@ -22912,7 +23562,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "nuneaton": {
       "aggregation": {
@@ -22971,7 +23622,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "ochil-and-south-perthshire": {
       "aggregation": {
@@ -23018,7 +23670,8 @@
           },
           0.41666666666666663
         ]
-      ]
+      ],
+      "pacts": []
     },
     "ogmore": {
       "aggregation": {
@@ -23070,7 +23723,8 @@
           },
           0.16666666666666666
         ]
-      ]
+      ],
+      "pacts": []
     },
     "old-bexley-and-sidcup": {
       "aggregation": {
@@ -23122,7 +23776,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "oldham-east-and-saddleworth": {
       "aggregation": {
@@ -23167,7 +23822,8 @@
           },
           1.0
         ]
-      ]
+      ],
+      "pacts": []
     },
     "oldham-west-and-royton": {
       "aggregation": {
@@ -23212,7 +23868,8 @@
           },
           1.0
         ]
-      ]
+      ],
+      "pacts": []
     },
     "orkney-and-shetland": {
       "aggregation": {
@@ -23255,7 +23912,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "orpington": {
       "aggregation": {
@@ -23309,7 +23967,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "oxford-east": {
       "aggregation": {
@@ -23368,7 +24027,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "oxford-west-and-abingdon": {
       "aggregation": {
@@ -23425,6 +24085,12 @@
           },
           0.16666666666666666
         ]
+      ],
+      "pacts": [
+        {
+          "down": "green",
+          "support": "ld"
+        }
       ]
     },
     "paisley-and-renfrewshire-north": {
@@ -23460,7 +24126,8 @@
           },
           1.0
         ]
-      ]
+      ],
+      "pacts": []
     },
     "paisley-and-renfrewshire-south": {
       "aggregation": {
@@ -23495,7 +24162,8 @@
           },
           1.0
         ]
-      ]
+      ],
+      "pacts": []
     },
     "pendle": {
       "aggregation": {
@@ -23554,7 +24222,8 @@
           },
           0.16666666666666666
         ]
-      ]
+      ],
+      "pacts": []
     },
     "penistone-and-stocksbridge": {
       "aggregation": {
@@ -23608,6 +24277,12 @@
           },
           0.08333333333333333
         ]
+      ],
+      "pacts": [
+        {
+          "down": "green",
+          "support": "ld"
+        }
       ]
     },
     "penrith-and-the-border": {
@@ -23662,7 +24337,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "perth-and-north-perthshire": {
       "aggregation": {
@@ -23709,7 +24385,8 @@
           },
           0.25
         ]
-      ]
+      ],
+      "pacts": []
     },
     "peterborough": {
       "aggregation": {
@@ -23761,7 +24438,8 @@
           },
           0.3333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "plymouth-moor-view": {
       "aggregation": {
@@ -23820,7 +24498,8 @@
           },
           0.16666666666666666
         ]
-      ]
+      ],
+      "pacts": []
     },
     "plymouth-sutton-and-devonport": {
       "aggregation": {
@@ -23879,7 +24558,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "pontypridd": {
       "aggregation": {
@@ -23931,6 +24611,16 @@
           },
           0.25
         ]
+      ],
+      "pacts": [
+        {
+          "down": "ld",
+          "support": "plaid"
+        },
+        {
+          "down": "green",
+          "support": "plaid"
+        }
       ]
     },
     "poole": {
@@ -23992,7 +24682,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "poplar-and-limehouse": {
       "aggregation": {
@@ -24037,7 +24728,8 @@
           },
           1.0
         ]
-      ]
+      ],
+      "pacts": []
     },
     "portsmouth-north": {
       "aggregation": {
@@ -24103,7 +24795,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "portsmouth-south": {
       "aggregation": {
@@ -24164,6 +24857,12 @@
           },
           0.08333333333333333
         ]
+      ],
+      "pacts": [
+        {
+          "down": "green",
+          "support": "ld"
+        }
       ]
     },
     "preseli-pembrokeshire": {
@@ -24230,7 +24929,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "preston": {
       "aggregation": {
@@ -24275,7 +24975,8 @@
           },
           1.0
         ]
-      ]
+      ],
+      "pacts": []
     },
     "pudsey": {
       "aggregation": {
@@ -24341,7 +25042,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "putney": {
       "aggregation": {
@@ -24409,7 +25111,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "rayleigh-and-wickford": {
       "aggregation": {
@@ -24451,7 +25154,8 @@
           },
           0.16666666666666666
         ]
-      ]
+      ],
+      "pacts": []
     },
     "reading-east": {
       "aggregation": {
@@ -24517,7 +25221,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "reading-west": {
       "aggregation": {
@@ -24576,7 +25281,8 @@
           },
           0.16666666666666666
         ]
-      ]
+      ],
+      "pacts": []
     },
     "redcar": {
       "aggregation": {
@@ -24642,7 +25348,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "redditch": {
       "aggregation": {
@@ -24701,7 +25408,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "reigate": {
       "aggregation": {
@@ -24748,7 +25456,8 @@
           },
           0.41666666666666663
         ]
-      ]
+      ],
+      "pacts": []
     },
     "rhondda": {
       "aggregation": {
@@ -24790,7 +25499,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "ribble-valley": {
       "aggregation": {
@@ -24856,7 +25566,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "richmond-(yorks)": {
       "aggregation": {
@@ -24905,7 +25616,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "richmond-park": {
       "aggregation": {
@@ -24969,6 +25681,12 @@
           },
           0.08333333333333333
         ]
+      ],
+      "pacts": [
+        {
+          "down": "green",
+          "support": "ld"
+        }
       ]
     },
     "rochdale": {
@@ -25014,7 +25732,8 @@
           },
           1.0
         ]
-      ]
+      ],
+      "pacts": []
     },
     "rochester-and-strood": {
       "aggregation": {
@@ -25073,7 +25792,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "rochford-and-southend-east": {
       "aggregation": {
@@ -25137,7 +25857,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "romford": {
       "aggregation": {
@@ -25196,7 +25917,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "romsey-and-southampton-north": {
       "aggregation": {
@@ -25255,6 +25977,12 @@
           },
           0.08333333333333333
         ]
+      ],
+      "pacts": [
+        {
+          "down": "green",
+          "support": "ld"
+        }
       ]
     },
     "ross-skye-and-lochaber": {
@@ -25302,7 +26030,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "rossendale-and-darwen": {
       "aggregation": {
@@ -25354,7 +26083,8 @@
           },
           0.3333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "rother-valley": {
       "aggregation": {
@@ -25420,7 +26150,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "rotherham": {
       "aggregation": {
@@ -25472,7 +26203,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "rugby": {
       "aggregation": {
@@ -25538,7 +26270,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "ruislip-northwood-and-pinner": {
       "aggregation": {
@@ -25599,7 +26332,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "runnymede-and-weybridge": {
       "aggregation": {
@@ -25646,7 +26380,8 @@
           },
           0.3333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "rushcliffe": {
       "aggregation": {
@@ -25707,6 +26442,12 @@
           },
           0.08333333333333333
         ]
+      ],
+      "pacts": [
+        {
+          "down": "green",
+          "support": "ld"
+        }
       ]
     },
     "rutherglen-and-hamilton-west": {
@@ -25749,7 +26490,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "rutland-and-melton": {
       "aggregation": {
@@ -25798,7 +26540,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "saffron-walden": {
       "aggregation": {
@@ -25845,7 +26588,8 @@
           },
           0.3333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "salford-and-eccles": {
       "aggregation": {
@@ -25897,7 +26641,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "salisbury": {
       "aggregation": {
@@ -25944,7 +26689,8 @@
           },
           0.3333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "scarborough-and-whitby": {
       "aggregation": {
@@ -26003,6 +26749,12 @@
           },
           0.08333333333333333
         ]
+      ],
+      "pacts": [
+        {
+          "down": "green",
+          "support": "lab"
+        }
       ]
     },
     "scunthorpe": {
@@ -26069,7 +26821,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "sedgefield": {
       "aggregation": {
@@ -26128,7 +26881,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "sefton-central": {
       "aggregation": {
@@ -26187,7 +26941,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "selby-and-ainsty": {
       "aggregation": {
@@ -26253,7 +27008,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "sevenoaks": {
       "aggregation": {
@@ -26295,7 +27051,8 @@
           },
           0.3333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "sheffield-brightside-and-hillsborough": {
       "aggregation": {
@@ -26340,7 +27097,8 @@
           },
           1.0
         ]
-      ]
+      ],
+      "pacts": []
     },
     "sheffield-central": {
       "aggregation": {
@@ -26392,7 +27150,8 @@
           },
           0.3333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "sheffield-hallam": {
       "aggregation": {
@@ -26446,7 +27205,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "sheffield-heeley": {
       "aggregation": {
@@ -26505,7 +27265,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "sheffield-south-east": {
       "aggregation": {
@@ -26564,7 +27325,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "sherwood": {
       "aggregation": {
@@ -26623,7 +27385,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "shipley": {
       "aggregation": {
@@ -26682,7 +27445,8 @@
           },
           0.16666666666666666
         ]
-      ]
+      ],
+      "pacts": []
     },
     "shrewsbury-and-atcham": {
       "aggregation": {
@@ -26741,7 +27505,8 @@
           },
           0.3333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "sittingbourne-and-sheppey": {
       "aggregation": {
@@ -26793,7 +27558,8 @@
           },
           0.16666666666666666
         ]
-      ]
+      ],
+      "pacts": []
     },
     "skipton-and-ripon": {
       "aggregation": {
@@ -26847,7 +27613,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "sleaford-and-north-hykeham": {
       "aggregation": {
@@ -26894,7 +27661,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "slough": {
       "aggregation": {
@@ -26939,7 +27707,8 @@
           },
           1.0
         ]
-      ]
+      ],
+      "pacts": []
     },
     "solihull": {
       "aggregation": {
@@ -27000,7 +27769,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "somerton-and-frome": {
       "aggregation": {
@@ -27052,7 +27822,8 @@
           },
           0.41666666666666663
         ]
-      ]
+      ],
+      "pacts": []
     },
     "south-antrim": {
       "aggregation": {
@@ -27102,7 +27873,8 @@
           },
           0.2
         ]
-      ]
+      ],
+      "pacts": []
     },
     "south-basildon-and-east-thurrock": {
       "aggregation": {
@@ -27159,7 +27931,8 @@
           },
           0.25
         ]
-      ]
+      ],
+      "pacts": []
     },
     "south-cambridgeshire": {
       "aggregation": {
@@ -27213,6 +27986,12 @@
           },
           0.25
         ]
+      ],
+      "pacts": [
+        {
+          "down": "green",
+          "support": "ld"
+        }
       ]
     },
     "south-derbyshire": {
@@ -27272,7 +28051,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "south-dorset": {
       "aggregation": {
@@ -27338,7 +28118,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "south-down": {
       "aggregation": {
@@ -27374,7 +28155,8 @@
           },
           0.4
         ]
-      ]
+      ],
+      "pacts": []
     },
     "south-east-cambridgeshire": {
       "aggregation": {
@@ -27428,6 +28210,12 @@
           },
           0.08333333333333333
         ]
+      ],
+      "pacts": [
+        {
+          "down": "green",
+          "support": "ld"
+        }
       ]
     },
     "south-east-cornwall": {
@@ -27482,7 +28270,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "south-holland-and-the-deepings": {
       "aggregation": {
@@ -27524,7 +28313,8 @@
           },
           0.16666666666666666
         ]
-      ]
+      ],
+      "pacts": []
     },
     "south-leicestershire": {
       "aggregation": {
@@ -27585,7 +28375,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "south-norfolk": {
       "aggregation": {
@@ -27639,7 +28430,8 @@
           },
           0.16666666666666666
         ]
-      ]
+      ],
+      "pacts": []
     },
     "south-northamptonshire": {
       "aggregation": {
@@ -27693,7 +28485,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "south-ribble": {
       "aggregation": {
@@ -27752,7 +28545,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "south-shields": {
       "aggregation": {
@@ -27804,7 +28598,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "south-staffordshire": {
       "aggregation": {
@@ -27851,7 +28646,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "south-suffolk": {
       "aggregation": {
@@ -27905,7 +28701,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "south-swindon": {
       "aggregation": {
@@ -27964,7 +28761,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "south-thanet": {
       "aggregation": {
@@ -28030,7 +28828,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "south-west-bedfordshire": {
       "aggregation": {
@@ -28084,7 +28883,8 @@
           },
           0.16666666666666666
         ]
-      ]
+      ],
+      "pacts": []
     },
     "south-west-devon": {
       "aggregation": {
@@ -28145,7 +28945,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "south-west-hertfordshire": {
       "aggregation": {
@@ -28199,7 +29000,8 @@
           },
           0.16666666666666666
         ]
-      ]
+      ],
+      "pacts": []
     },
     "south-west-norfolk": {
       "aggregation": {
@@ -28251,7 +29053,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "south-west-surrey": {
       "aggregation": {
@@ -28307,6 +29110,12 @@
           },
           0.08333333333333333
         ]
+      ],
+      "pacts": [
+        {
+          "down": "green",
+          "support": "ld"
+        }
       ]
     },
     "south-west-wiltshire": {
@@ -28361,7 +29170,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "southampton-itchen": {
       "aggregation": {
@@ -28420,7 +29230,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "southampton-test": {
       "aggregation": {
@@ -28479,7 +29290,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "southend-west": {
       "aggregation": {
@@ -28545,7 +29357,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "southport": {
       "aggregation": {
@@ -28606,6 +29419,12 @@
           },
           0.08333333333333333
         ]
+      ],
+      "pacts": [
+        {
+          "down": "green",
+          "support": "ld"
+        }
       ]
     },
     "spelthorne": {
@@ -28660,7 +29479,8 @@
           },
           0.16666666666666666
         ]
-      ]
+      ],
+      "pacts": []
     },
     "st-albans": {
       "aggregation": {
@@ -28724,7 +29544,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "st-austell-and-newquay": {
       "aggregation": {
@@ -28785,7 +29606,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "st-helens-north": {
       "aggregation": {
@@ -28837,7 +29659,8 @@
           },
           0.25
         ]
-      ]
+      ],
+      "pacts": []
     },
     "st-helens-south-and-whiston": {
       "aggregation": {
@@ -28889,7 +29712,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "st-ives": {
       "aggregation": {
@@ -28953,7 +29777,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "stafford": {
       "aggregation": {
@@ -29019,7 +29844,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "staffordshire-moorlands": {
       "aggregation": {
@@ -29071,7 +29897,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "stalybridge-and-hyde": {
       "aggregation": {
@@ -29123,7 +29950,8 @@
           },
           0.25
         ]
-      ]
+      ],
+      "pacts": []
     },
     "stevenage": {
       "aggregation": {
@@ -29182,7 +30010,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "stirling": {
       "aggregation": {
@@ -29229,7 +30058,8 @@
           },
           0.25
         ]
-      ]
+      ],
+      "pacts": []
     },
     "stockport": {
       "aggregation": {
@@ -29283,7 +30113,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "stockton-north": {
       "aggregation": {
@@ -29342,7 +30173,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "stockton-south": {
       "aggregation": {
@@ -29408,7 +30240,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "stoke-on-trent-central": {
       "aggregation": {
@@ -29460,7 +30293,8 @@
           },
           0.3333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "stoke-on-trent-north": {
       "aggregation": {
@@ -29526,7 +30360,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "stoke-on-trent-south": {
       "aggregation": {
@@ -29592,7 +30427,8 @@
           },
           0.16666666666666666
         ]
-      ]
+      ],
+      "pacts": []
     },
     "stone": {
       "aggregation": {
@@ -29653,7 +30489,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "stourbridge": {
       "aggregation": {
@@ -29712,7 +30549,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "strangford": {
       "aggregation": {
@@ -29747,7 +30585,8 @@
           },
           1.0
         ]
-      ]
+      ],
+      "pacts": []
     },
     "stratford-on-avon": {
       "aggregation": {
@@ -29789,7 +30628,8 @@
           },
           0.3333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "streatham": {
       "aggregation": {
@@ -29836,7 +30676,8 @@
           },
           0.16666666666666666
         ]
-      ]
+      ],
+      "pacts": []
     },
     "stretford-and-urmston": {
       "aggregation": {
@@ -29881,7 +30722,8 @@
           },
           1.0
         ]
-      ]
+      ],
+      "pacts": []
     },
     "stroud": {
       "aggregation": {
@@ -29959,6 +30801,12 @@
           },
           0.08333333333333333
         ]
+      ],
+      "pacts": [
+        {
+          "down": "ld",
+          "support": "green"
+        }
       ]
     },
     "suffolk-coastal": {
@@ -30013,7 +30861,8 @@
           },
           0.16666666666666666
         ]
-      ]
+      ],
+      "pacts": []
     },
     "sunderland-central": {
       "aggregation": {
@@ -30065,7 +30914,8 @@
           },
           0.25
         ]
-      ]
+      ],
+      "pacts": []
     },
     "surrey-heath": {
       "aggregation": {
@@ -30114,7 +30964,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "sutton-and-cheam": {
       "aggregation": {
@@ -30173,7 +31024,8 @@
           },
           0.16666666666666666
         ]
-      ]
+      ],
+      "pacts": []
     },
     "sutton-coldfield": {
       "aggregation": {
@@ -30227,7 +31079,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "swansea-east": {
       "aggregation": {
@@ -30279,7 +31132,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "swansea-west": {
       "aggregation": {
@@ -30338,7 +31192,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "tamworth": {
       "aggregation": {
@@ -30390,7 +31245,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "tatton": {
       "aggregation": {
@@ -30437,7 +31293,8 @@
           },
           0.3333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "taunton-deane": {
       "aggregation": {
@@ -30496,6 +31353,12 @@
           },
           0.08333333333333333
         ]
+      ],
+      "pacts": [
+        {
+          "down": "green",
+          "support": "ld"
+        }
       ]
     },
     "telford": {
@@ -30562,7 +31425,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "tewkesbury": {
       "aggregation": {
@@ -30609,7 +31473,8 @@
           },
           0.3333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "the-cotswolds": {
       "aggregation": {
@@ -30651,7 +31516,8 @@
           },
           0.3333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "the-wrekin": {
       "aggregation": {
@@ -30705,7 +31571,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "thirsk-and-malton": {
       "aggregation": {
@@ -30752,7 +31619,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "thornbury-and-yate": {
       "aggregation": {
@@ -30811,6 +31679,12 @@
           },
           0.16666666666666666
         ]
+      ],
+      "pacts": [
+        {
+          "down": "green",
+          "support": "ld"
+        }
       ]
     },
     "thurrock": {
@@ -30882,7 +31756,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "tiverton-and-honiton": {
       "aggregation": {
@@ -30943,7 +31818,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "tonbridge-and-malling": {
       "aggregation": {
@@ -30985,7 +31861,8 @@
           },
           0.3333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "tooting": {
       "aggregation": {
@@ -31044,7 +31921,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "torbay": {
       "aggregation": {
@@ -31110,7 +31988,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "torfaen": {
       "aggregation": {
@@ -31162,7 +32041,8 @@
           },
           0.25
         ]
-      ]
+      ],
+      "pacts": []
     },
     "torridge-and-west-devon": {
       "aggregation": {
@@ -31223,7 +32103,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "totnes": {
       "aggregation": {
@@ -31272,6 +32153,12 @@
           },
           0.08333333333333333
         ]
+      ],
+      "pacts": [
+        {
+          "down": "green",
+          "support": "ld"
+        }
       ]
     },
     "tottenham": {
@@ -31317,7 +32204,8 @@
           },
           1.0
         ]
-      ]
+      ],
+      "pacts": []
     },
     "truro-and-falmouth": {
       "aggregation": {
@@ -31371,7 +32259,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "tunbridge-wells": {
       "aggregation": {
@@ -31418,6 +32307,12 @@
           },
           0.41666666666666663
         ]
+      ],
+      "pacts": [
+        {
+          "down": "green",
+          "support": "ld"
+        }
       ]
     },
     "twickenham": {
@@ -31470,6 +32365,12 @@
           },
           0.08333333333333333
         ]
+      ],
+      "pacts": [
+        {
+          "down": "green",
+          "support": "ld"
+        }
       ]
     },
     "tynemouth": {
@@ -31529,7 +32430,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "upper-bann": {
       "aggregation": {
@@ -31571,7 +32473,8 @@
           },
           0.2
         ]
-      ]
+      ],
+      "pacts": []
     },
     "uxbridge-and-south-ruislip": {
       "aggregation": {
@@ -31630,7 +32533,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "vale-of-clwyd": {
       "aggregation": {
@@ -31689,7 +32593,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "vale-of-glamorgan": {
       "aggregation": {
@@ -31755,6 +32660,16 @@
           },
           0.08333333333333333
         ]
+      ],
+      "pacts": [
+        {
+          "down": "ld",
+          "support": "green"
+        },
+        {
+          "down": "plaid",
+          "support": "green"
+        }
       ]
     },
     "vauxhall": {
@@ -31802,7 +32717,8 @@
           },
           0.16666666666666666
         ]
-      ]
+      ],
+      "pacts": []
     },
     "wakefield": {
       "aggregation": {
@@ -31866,7 +32782,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "wallasey": {
       "aggregation": {
@@ -31918,7 +32835,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "walsall-north": {
       "aggregation": {
@@ -31984,7 +32902,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "walsall-south": {
       "aggregation": {
@@ -32036,7 +32955,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "walthamstow": {
       "aggregation": {
@@ -32081,7 +33001,8 @@
           },
           1.0
         ]
-      ]
+      ],
+      "pacts": []
     },
     "wansbeck": {
       "aggregation": {
@@ -32133,7 +33054,8 @@
           },
           0.25
         ]
-      ]
+      ],
+      "pacts": []
     },
     "wantage": {
       "aggregation": {
@@ -32187,6 +33109,12 @@
           },
           0.16666666666666666
         ]
+      ],
+      "pacts": [
+        {
+          "down": "green",
+          "support": "ld"
+        }
       ]
     },
     "warley": {
@@ -32232,7 +33160,8 @@
           },
           1.0
         ]
-      ]
+      ],
+      "pacts": []
     },
     "warrington-north": {
       "aggregation": {
@@ -32284,7 +33213,8 @@
           },
           0.25
         ]
-      ]
+      ],
+      "pacts": []
     },
     "warrington-south": {
       "aggregation": {
@@ -32343,6 +33273,12 @@
           },
           0.16666666666666666
         ]
+      ],
+      "pacts": [
+        {
+          "down": "green",
+          "support": "ld"
+        }
       ]
     },
     "warwick-and-leamington": {
@@ -32416,7 +33352,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "washington-and-sunderland-west": {
       "aggregation": {
@@ -32475,7 +33412,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "watford": {
       "aggregation": {
@@ -32536,6 +33474,12 @@
           },
           0.08333333333333333
         ]
+      ],
+      "pacts": [
+        {
+          "down": "green",
+          "support": "ld"
+        }
       ]
     },
     "waveney": {
@@ -32595,7 +33539,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "wealden": {
       "aggregation": {
@@ -32649,7 +33594,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "weaver-vale": {
       "aggregation": {
@@ -32713,7 +33659,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "wellingborough": {
       "aggregation": {
@@ -32772,7 +33719,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "wells": {
       "aggregation": {
@@ -32836,6 +33784,12 @@
           },
           0.3333333333333333
         ]
+      ],
+      "pacts": [
+        {
+          "down": "green",
+          "support": "ld"
+        }
       ]
     },
     "welwyn-hatfield": {
@@ -32895,7 +33849,8 @@
           },
           0.25
         ]
-      ]
+      ],
+      "pacts": []
     },
     "wentworth-and-dearne": {
       "aggregation": {
@@ -32961,7 +33916,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "west-aberdeenshire-and-kincardine": {
       "aggregation": {
@@ -33003,7 +33959,8 @@
           },
           0.3333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "west-bromwich-east": {
       "aggregation": {
@@ -33055,7 +34012,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "west-bromwich-west": {
       "aggregation": {
@@ -33107,7 +34065,8 @@
           },
           0.16666666666666666
         ]
-      ]
+      ],
+      "pacts": []
     },
     "west-dorset": {
       "aggregation": {
@@ -33159,7 +34118,8 @@
           },
           0.41666666666666663
         ]
-      ]
+      ],
+      "pacts": []
     },
     "west-dunbartonshire": {
       "aggregation": {
@@ -33188,7 +34148,8 @@
           },
           1.0
         ]
-      ]
+      ],
+      "pacts": []
     },
     "west-ham": {
       "aggregation": {
@@ -33233,7 +34194,8 @@
           },
           1.0
         ]
-      ]
+      ],
+      "pacts": []
     },
     "west-lancashire": {
       "aggregation": {
@@ -33285,7 +34247,8 @@
           },
           0.25
         ]
-      ]
+      ],
+      "pacts": []
     },
     "west-suffolk": {
       "aggregation": {
@@ -33351,7 +34314,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "west-tyrone": {
       "aggregation": {
@@ -33386,7 +34350,8 @@
           },
           1.0
         ]
-      ]
+      ],
+      "pacts": []
     },
     "west-worcestershire": {
       "aggregation": {
@@ -33433,7 +34398,8 @@
           },
           0.3333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "westminster-north": {
       "aggregation": {
@@ -33492,7 +34458,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "westmorland-and-lonsdale": {
       "aggregation": {
@@ -33544,6 +34511,12 @@
           },
           0.16666666666666666
         ]
+      ],
+      "pacts": [
+        {
+          "down": "green",
+          "support": "ld"
+        }
       ]
     },
     "weston-super-mare": {
@@ -33605,7 +34578,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "wigan": {
       "aggregation": {
@@ -33657,7 +34631,8 @@
           },
           0.16666666666666666
         ]
-      ]
+      ],
+      "pacts": []
     },
     "wimbledon": {
       "aggregation": {
@@ -33718,6 +34693,12 @@
           },
           0.16666666666666666
         ]
+      ],
+      "pacts": [
+        {
+          "down": "green",
+          "support": "ld"
+        }
       ]
     },
     "winchester": {
@@ -33777,6 +34758,12 @@
           },
           0.16666666666666666
         ]
+      ],
+      "pacts": [
+        {
+          "down": "green",
+          "support": "ld"
+        }
       ]
     },
     "windsor": {
@@ -33819,7 +34806,8 @@
           },
           0.3333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "wirral-south": {
       "aggregation": {
@@ -33878,7 +34866,8 @@
           },
           0.16666666666666666
         ]
-      ]
+      ],
+      "pacts": []
     },
     "wirral-west": {
       "aggregation": {
@@ -33937,7 +34926,8 @@
           },
           0.16666666666666666
         ]
-      ]
+      ],
+      "pacts": []
     },
     "witham": {
       "aggregation": {
@@ -34003,7 +34993,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "witney": {
       "aggregation": {
@@ -34057,6 +35048,12 @@
           },
           0.08333333333333333
         ]
+      ],
+      "pacts": [
+        {
+          "down": "green",
+          "support": "ld"
+        }
       ]
     },
     "woking": {
@@ -34111,7 +35108,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "wokingham": {
       "aggregation": {
@@ -34160,7 +35158,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "wolverhampton-north-east": {
       "aggregation": {
@@ -34219,7 +35218,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "wolverhampton-south-east": {
       "aggregation": {
@@ -34271,7 +35271,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "wolverhampton-south-west": {
       "aggregation": {
@@ -34323,7 +35324,8 @@
           },
           0.41666666666666663
         ]
-      ]
+      ],
+      "pacts": []
     },
     "worcester": {
       "aggregation": {
@@ -34382,7 +35384,8 @@
           },
           0.16666666666666666
         ]
-      ]
+      ],
+      "pacts": []
     },
     "workington": {
       "aggregation": {
@@ -34448,7 +35451,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "worsley-and-eccles-south": {
       "aggregation": {
@@ -34500,7 +35504,8 @@
           },
           0.25
         ]
-      ]
+      ],
+      "pacts": []
     },
     "worthing-west": {
       "aggregation": {
@@ -34554,7 +35559,8 @@
           },
           0.16666666666666666
         ]
-      ]
+      ],
+      "pacts": []
     },
     "wrexham": {
       "aggregation": {
@@ -34613,7 +35619,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "wycombe": {
       "aggregation": {
@@ -34667,7 +35674,8 @@
           },
           0.25
         ]
-      ]
+      ],
+      "pacts": []
     },
     "wyre-and-preston-north": {
       "aggregation": {
@@ -34726,7 +35734,8 @@
           },
           0.16666666666666666
         ]
-      ]
+      ],
+      "pacts": []
     },
     "wyre-forest": {
       "aggregation": {
@@ -34792,7 +35801,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "wythenshawe-and-sale-east": {
       "aggregation": {
@@ -34837,7 +35847,8 @@
           },
           1.0
         ]
-      ]
+      ],
+      "pacts": []
     },
     "yeovil": {
       "aggregation": {
@@ -34910,7 +35921,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "ynys-mon": {
       "aggregation": {
@@ -34962,6 +35974,16 @@
           },
           0.3333333333333333
         ]
+      ],
+      "pacts": [
+        {
+          "down": "green",
+          "support": "plaid"
+        },
+        {
+          "down": "ld",
+          "support": "plaid"
+        }
       ]
     },
     "york-central": {
@@ -35021,7 +36043,8 @@
           },
           0.08333333333333333
         ]
-      ]
+      ],
+      "pacts": []
     },
     "york-outer": {
       "aggregation": {
@@ -35075,6 +36098,12 @@
           },
           0.25
         ]
+      ],
+      "pacts": [
+        {
+          "down": "green",
+          "support": "ld"
+        }
       ]
     }
   }
