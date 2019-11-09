@@ -5235,7 +5235,7 @@
       },
       "other_sites": [
         {
-          "party": "green",
+          "party": "ld",
           "url": "https://getvoting.org/",
           "who_suggests": "Best for Britain"
         }
@@ -5499,7 +5499,7 @@
           "who_suggests": "tactical.vote"
         },
         {
-          "party": "ld",
+          "party": "green",
           "url": "https://getvoting.org/",
           "who_suggests": "Best for Britain"
         }
@@ -7395,7 +7395,7 @@
           "who_suggests": "tactical.vote"
         },
         {
-          "party": "lab",
+          "party": "other",
           "url": "https://getvoting.org/",
           "who_suggests": "Best for Britain"
         }
@@ -18425,8 +18425,8 @@
     },
     "luton-south": {
       "aggregation": {
-        "party": "lab",
-        "template": "vote-lab.html"
+        "party": null,
+        "template": "contradict.html"
       },
       "analysis": {
         "template": "remain.html",
@@ -18448,7 +18448,7 @@
           "who_suggests": "tactical.vote"
         },
         {
-          "party": "lab",
+          "party": "ind",
           "url": "https://getvoting.org/",
           "who_suggests": "Best for Britain"
         }
@@ -25626,7 +25626,7 @@
           "who_suggests": "tactical.vote"
         },
         {
-          "party": "ind",
+          "party": "ld",
           "url": "https://getvoting.org/",
           "who_suggests": "Best for Britain"
         }
@@ -34115,8 +34115,8 @@
     },
     "wokingham": {
       "aggregation": {
-        "party": null,
-        "template": "contradict.html"
+        "party": "ld",
+        "template": "vote-ld.html"
       },
       "analysis": {
         "template": "no-conflict-hard.html",
@@ -34132,11 +34132,6 @@
         "slug": "wokingham"
       },
       "other_sites": [
-        {
-          "party": "lab",
-          "url": "https://tactical.vote/wokingham",
-          "who_suggests": "tactical.vote"
-        },
         {
           "party": "ld",
           "url": "https://getvoting.org/",

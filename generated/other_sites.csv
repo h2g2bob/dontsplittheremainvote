@@ -96,12 +96,12 @@ bromley-and-chislehurst,E14000604,0.43084308430843077,lab,2,,,,,,,lab,2,lab,2
 bromsgrove,E14000605,0.3802183567727609,ld,-1,,,,,,,lab,-1,,
 broxbourne,E14000606,0.3201853216805306,lab,2,,,,,,,lab,2,lab,2
 broxtowe,E14000607,0.49302803199538797,chuk,-1,,,,,,,lab,-1,,
-buckingham,E14000608,0.8138537178002619,green,0,,,,,,,,,,
+buckingham,E14000608,0.8138537178002619,ld,0,,,,,,,,,,
 burnley,E14000609,0.6174733184413006,lab,2,,,,,,,lab,2,lab,2
 burton,E14000610,0.4037386548055539,lab,3,lab,3,,,,,lab,3,lab,3
 bury-north,E14000611,0.5361459616307956,lab,3,lab,3,,,,,lab,3,lab,3
 bury-south,E14000612,0.5536379682290645,lab,2,lab,2,,,,,lab,2,,
-bury-st-edmunds,E14000613,0.3943693693693695,ld,-1,,,,,,,lab,-1,,
+bury-st-edmunds,E14000613,0.3943693693693695,green,-1,,,,,,,lab,-1,,
 caerphilly,W07000076,0.6889846720100734,lab,2,,,,,,,lab,2,lab,2
 caithness-sutherland-and-easter-ross,S14000009,0.7737937283583055,,,,,,,,,ld,0,,
 calder-valley,E14000614,0.4846005443208048,lab,2,,,,,,,lab,2,lab,2
@@ -135,7 +135,7 @@ chichester,E14000633,0.3697052638606095,ld,0,ld,0,,,,,lab,-2,,
 chingford-and-woodford-green,E14000634,0.5086135303762697,lab,3,,,,,lab,3,lab,3,lab,3
 chippenham,E14000635,0.4528001400070004,ld,3,ld,3,,,,,ld,3,ld,3
 chipping-barnet,E14000636,0.5366725005863993,lab,2,,,,,,,lab,2,lab,2
-chorley,E14000637,0.5728691088183484,lab,1,lab,1,,,,,lab,1,other,-3
+chorley,E14000637,0.5728691088183484,other,-3,lab,-1,,,,,lab,-1,other,-3
 christchurch,E14000638,0.3042224592171267,ld,0,,,,,,,,,,
 cities-of-london-and-westminster,E14000639,0.516065607699074,ld,-1,,,,,,,lab,-1,,
 city-of-chester,E14000640,0.5950621222594424,lab,2,,,,,,,lab,2,lab,2
@@ -345,7 +345,7 @@ loughborough,E14000797,0.455972519760656,lab,2,,,,,,,lab,2,lab,2
 louth-and-horncastle,E14000798,0.3047507153550245,lab,2,,,,,,,lab,2,lab,2
 ludlow,E14000799,0.3709625775465279,ld,-1,,,,,,,lab,-1,,
 luton-north,E14000800,0.6384324996782635,lab,2,lab,2,,,,,lab,2,,
-luton-south,E14000801,0.6472590119870808,lab,1,,,,,,,lab,1,,
+luton-south,E14000801,0.6472590119870808,ind,-1,,,,,,,lab,-1,,
 macclesfield,E14000802,0.452059587161876,ld,-1,,,,,,,lab,-1,,
 maidenhead,E14000803,0.30565428664640526,ld,1,ld,1,,,,,,,,
 maidstone-and-the-weald,E14000804,0.3845544018407874,ld,-1,,,,,,,lab,-1,,
@@ -477,7 +477,7 @@ rotherham,E14000904,0.6106584394694513,lab,3,lab,3,,,,,lab,3,lab,3
 rother-valley,E14000903,0.5046880051729713,lab,3,lab,3,,,,,lab,3,lab,3
 rugby,E14000905,0.4385031946392395,lab,2,,,,,,,lab,2,lab,2
 ruislip-northwood-and-pinner,E14000906,0.4056798171668352,ld,-1,,,,,,,lab,-1,,
-runnymede-and-weybridge,E14000907,0.3584258559553567,ind,-1,,,,,,,lab,-1,,
+runnymede-and-weybridge,E14000907,0.3584258559553567,ld,-1,,,,,,,lab,-1,,
 rushcliffe,E14000908,0.456140350877193,ld,-1,,,,,,,lab,-1,,
 rutherglen-and-hamilton-west,S14000056,0.7881545840540966,,,,,,,,,lab,0,,
 rutland-and-melton,E14000909,0.3392624502770588,ld,0,,,,,,,,,,
@@ -632,7 +632,7 @@ wirral-west,E14001044,0.5692930763805146,lab,2,,,,,,,lab,2,lab,2
 witham,E14001045,0.3568367823561667,ld,0,,,ld,0,,,lab,-2,,
 witney,E14001046,0.41122983242240707,ld,2,ld,2,,,,,ld,2,,
 woking,E14001047,0.41432863917749696,ld,0,ld,0,,,,,lab,-2,,
-wokingham,E14001048,0.43364047579158993,ld,0,ld,0,,,,,lab,-2,,
+wokingham,E14001048,0.43364047579158993,ld,1,ld,1,,,,,,,,
 wolverhampton-north-east,E14001049,0.5281582118987619,lab,3,lab,3,,,,,lab,3,lab,3
 wolverhampton-south-east,E14001050,0.5822223446452182,lab,3,lab,3,,,,,lab,3,lab,3
 wolverhampton-south-west,E14001051,0.4935294951116989,lab,3,lab,3,,,,,lab,3,lab,3

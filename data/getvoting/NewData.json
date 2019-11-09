@@ -5,8 +5,8 @@
 		"Variation": "1"
 	},
 	"E14000686": {
-		"Reco": "Antoinette Sandbach",
-		"ShowMRP": "0",
+		"Reco": "Lib Dem",
+		"ShowMRP": "2",
 		"Variation": "1"
 	},
 	"E14000951": {
@@ -22,7 +22,7 @@
 	"E14000598": {
 		"Reco": "Green",
 		"ShowMRP": "2",
-		"Variation": "1"
+		"Variation": "8"
 	},
 	"W07000058": {
 		"Reco": "Lab",
@@ -77,7 +77,7 @@
 	"E14000553": {
 		"Reco": "LibLab",
 		"ShowMRP": "1",
-		"Variation": "1"
+		"Variation": "10"
 	},
 	"E14000555": {
 		"Reco": "Lab",
@@ -227,7 +227,7 @@
 	"E14000602": {
 		"Reco": "Lab",
 		"ShowMRP": "2",
-		"Variation": "1"
+		"Variation": "9"
 	},
 	"E14000609": {
 		"Reco": "Lab",
@@ -260,9 +260,9 @@
 		"Variation": "1"
 	},
 	"E14000637": {
-		"Reco": "Lab",
-		"ShowMRP": "2",
-		"Variation": "1"
+		"Reco": "Lindsey Hoyle",
+		"ShowMRP": "0",
+		"Variation": "11"
 	},
 	"E14000640": {
 		"Reco": "Lab",
@@ -347,7 +347,7 @@
 	"E14000673": {
 		"Reco": "Lab",
 		"ShowMRP": "2",
-		"Variation": "1"
+		"Variation": "9"
 	},
 	"E14000674": {
 		"Reco": "Lab",
@@ -402,7 +402,7 @@
 	"E14000698": {
 		"Reco": "Lab",
 		"ShowMRP": "2",
-		"Variation": "1"
+		"Variation": "9"
 	},
 	"E14000701": {
 		"Reco": "Lab",
@@ -772,7 +772,7 @@
 	"E14000884": {
 		"Reco": "Lab",
 		"ShowMRP": "2",
-		"Variation": "1"
+		"Variation": "9"
 	},
 	"E14000885": {
 		"Reco": "Lab",
@@ -902,7 +902,7 @@
 	"E14000980": {
 		"Reco": "Lab",
 		"ShowMRP": "2",
-		"Variation": "1"
+		"Variation": "9"
 	},
 	"E14000982": {
 		"Reco": "Lab",
@@ -967,7 +967,7 @@
 	"E14001018": {
 		"Reco": "Lab",
 		"ShowMRP": "2",
-		"Variation": "1"
+		"Variation": "9"
 	},
 	"E14001019": {
 		"Reco": "Lab",
@@ -1067,7 +1067,7 @@
 	"W07000041": {
 		"Reco": "Lab",
 		"ShowMRP": "2",
-		"Variation": "1"
+		"Variation": "9"
 	},
 	"W07000042": {
 		"Reco": "Lab",
@@ -1087,7 +1087,7 @@
 	"W07000045": {
 		"Reco": "Lab",
 		"ShowMRP": "2",
-		"Variation": "1"
+		"Variation": "9"
 	},
 	"W07000046": {
 		"Reco": "Lab",
@@ -1112,7 +1112,7 @@
 	"W07000050": {
 		"Reco": "Lab",
 		"ShowMRP": "2",
-		"Variation": "1"
+		"Variation": "9"
 	},
 	"W07000051": {
 		"Reco": "Lab",
@@ -1182,12 +1182,12 @@
 	"W07000075": {
 		"Reco": "Lab",
 		"ShowMRP": "2",
-		"Variation": "1"
+		"Variation": "9"
 	},
 	"W07000076": {
 		"Reco": "Lab",
 		"ShowMRP": "2",
-		"Variation": "1"
+		"Variation": "9"
 	},
 	"W07000077": {
 		"Reco": "Lab",
@@ -1207,7 +1207,7 @@
 	"E14000547": {
 		"Reco": "Lib Dem",
 		"ShowMRP": "2",
-		"Variation": "1"
+		"Variation": "8"
 	},
 	"E14000586": {
 		"Reco": "Lib Dem",
@@ -1242,7 +1242,7 @@
 	"E14000703": {
 		"Reco": "Lib Dem",
 		"ShowMRP": "2",
-		"Variation": "1"
+		"Variation": "8"
 	},
 	"E14000768": {
 		"Reco": "Lib Dem",
@@ -1257,37 +1257,37 @@
 	"E14000848": {
 		"Reco": "Lib Dem",
 		"ShowMRP": "2",
-		"Variation": "1"
+		"Variation": "8"
 	},
 	"E14000874": {
 		"Reco": "Lib Dem",
 		"ShowMRP": "2",
-		"Variation": "1"
+		"Variation": "8"
 	},
 	"E14000934": {
 		"Reco": "Lib Dem",
 		"ShowMRP": "2",
-		"Variation": "1"
+		"Variation": "8"
 	},
 	"E14001001": {
 		"Reco": "Lib Dem",
 		"ShowMRP": "2",
-		"Variation": "1"
+		"Variation": "8"
 	},
 	"E14001005": {
 		"Reco": "Lib Dem",
 		"ShowMRP": "2",
-		"Variation": "1"
+		"Variation": "8"
 	},
 	"E14001037": {
 		"Reco": "Lib Dem",
 		"ShowMRP": "2",
-		"Variation": "1"
+		"Variation": "8"
 	},
 	"W07000068": {
 		"Reco": "Lib Dem",
 		"ShowMRP": "2",
-		"Variation": "1"
+		"Variation": "8"
 	},
 	"N06000001": {
 		"Reco": "none",
@@ -1675,19 +1675,19 @@
 		"Variation": "3"
 	},
 	"E14000907": {	
-		"Reco": "Philip Hammond",
-		"ShowMRP": "0",
+		"Reco": "Lib Dem",
+		"ShowMRP": "2",
 		"Variation": "1"
 	},
 	"W07000057": {
 		"Reco": "Plaid",
 		"ShowMRP": "2",
-		"Variation": "1"
+		"Variation": "8"
 	},
 	"W07000061": {
 		"Reco": "Plaid",
 		"ShowMRP": "2",
-		"Variation": "1"
+		"Variation": "8"
 	},
 	"W07000064": {
 		"Reco": "Plaid",
@@ -1697,7 +1697,7 @@
 	"W07000067": {
 		"Reco": "Plaid",
 		"ShowMRP": "2",
-		"Variation": "1"
+		"Variation": "8"
 	},
 	"E14000530": {
 		"Reco": "Lib Dem",
@@ -1860,9 +1860,9 @@
 		"Variation": "2"
 	},
 	"E14000608": {
-		"Reco": "Green",
-		"ShowMRP": "2",
-		"Variation": "2"
+		"Reco": "Lib Dem",
+		"ShowMRP": "1",
+		"Variation": "8"
 	},
 	"E14000610": {
 		"Reco": "Lab",
@@ -1875,9 +1875,9 @@
 		"Variation": "2"
 	},
 	"E14000613": {
-		"Reco": "Lib Dem",
-		"ShowMRP": "2",
-		"Variation": "2"
+		"Reco": "Green",
+		"ShowMRP": "1",
+		"Variation": "8"
 	},
 	"E14000614": {
 		"Reco": "Lab",
@@ -1892,7 +1892,7 @@
 	"E14000618": {
 		"Reco": "Lab",
 		"ShowMRP": "2",
-		"Variation": "2"
+		"Variation": "9"
 	},
 	"E14000620": {
 		"Reco": "Lab",
@@ -1927,22 +1927,22 @@
 	"E14000627": {
 		"Reco": "Lib Dem",
 		"ShowMRP": "2",
-		"Variation": "2"
+		"Variation": "8"
 	},
 	"E14000628": {
 		"Reco": "Lib Dem",
 		"ShowMRP": "2",
-		"Variation": "2"
+		"Variation": "8"
 	},
 	"E14000629": {
 		"Reco": "Lib Dem",
 		"ShowMRP": "2",
-		"Variation": "2"
+		"Variation": "8"
 	},
 	"E14000630": {
 		"Reco": "Lib Dem",
 		"ShowMRP": "2",
-		"Variation": "2"
+		"Variation": "8"
 	},
 	"E14000631": {
 		"Reco": "Lib Dem",
@@ -1962,7 +1962,7 @@
 	"E14000635": {
 		"Reco": "Lib Dem",
 		"ShowMRP": "2",
-		"Variation": "2"
+		"Variation": "8"
 	},
 	"E14000636": {
 		"Reco": "Lab",
@@ -2112,7 +2112,7 @@
 	"E14000697": {
 		"Reco": "Lib Dem",
 		"ShowMRP": "2",
-		"Variation": "2"
+		"Variation": "8"
 	},
 	"E14000699": {
 		"Reco": "Lib Dem",
@@ -2137,7 +2137,7 @@
 	"E14000705": {
 		"Reco": "Lab",
 		"ShowMRP": "2",
-		"Variation": "2"
+		"Variation": "9"
 	},
 	"E14000706": {
 		"Reco": "Lab",
@@ -2182,7 +2182,7 @@
 	"E14000719": {
 		"Reco": "Lib Dem",
 		"ShowMRP": "2",
-		"Variation": "2"
+		"Variation": "8"
 	},
 	"E14000722": {
 		"Reco": "Lab",
@@ -2207,7 +2207,7 @@
 	"E14000730": {
 		"Reco": "Lib Dem",
 		"ShowMRP": "2",
-		"Variation": "2"
+		"Variation": "8"
 	},
 	"E14000731": {
 		"Reco": "Lab",
@@ -2232,7 +2232,7 @@
 	"E14000738": {
 		"Reco": "Lib Dem",
 		"ShowMRP": "2",
-		"Variation": "2"
+		"Variation": "8"
 	},
 	"E14000739": {
 		"Reco": "Lib Dem",
@@ -2272,7 +2272,7 @@
 	"E14000749": {
 		"Reco": "Lib Dem",
 		"ShowMRP": "2",
-		"Variation": "2"
+		"Variation": "8"
 	},
 	"E14000751": {
 		"Reco": "Lab",
@@ -2297,7 +2297,7 @@
 	"E14000762": {
 		"Reco": "Green",
 		"ShowMRP": "2",
-		"Variation": "2"
+		"Variation": "8"
 	},
 	"E14000765": {
 		"Reco": "Lab",
@@ -2360,9 +2360,9 @@
 		"Variation": "2"
 	},
 	"E14000801": {
-		"Reco": "Lab",
-		"ShowMRP": "2",
-		"Variation": "2"
+		"Reco": "Gavin Shuker",
+		"ShowMRP": "0",
+		"Variation": "1"
 	},
 	"E14000802": {
 		"Reco": "Lib Dem",
@@ -2487,7 +2487,7 @@
 	"E14000837": {
 		"Reco": "Lib Dem",
 		"ShowMRP": "2",
-		"Variation": "2"
+		"Variation": "8"
 	},
 	"E14000838": {
 		"Reco": "Lib Dem",
@@ -2627,7 +2627,7 @@
 	"E14000876": {
 		"Reco": "Lab",
 		"ShowMRP": "2",
-		"Variation": "2"
+		"Variation": "9"
 	},
 	"E14000877": {
 		"Reco": "Lib Dem",
@@ -2692,7 +2692,7 @@
 	"E14000896": {
 		"Reco": "Lib Dem",
 		"ShowMRP": "2",
-		"Variation": "2"
+		"Variation": "8"
 	},
 	"E14000898": {
 		"Reco": "Lab",
@@ -2712,7 +2712,7 @@
 	"E14000901": {
 		"Reco": "Lib Dem",
 		"ShowMRP": "2",
-		"Variation": "2"
+		"Variation": "8"
 	},
 	"E14000902": {
 		"Reco": "Lab",
@@ -2732,7 +2732,7 @@
 	"E14000908": {
 		"Reco": "Lib Dem",
 		"ShowMRP": "2",
-		"Variation": "2"
+		"Variation": "8"
 	},
 	"E14000909": {
 		"Reco": "Lib Dem",
@@ -2827,7 +2827,7 @@
 	"E14000937": {
 		"Reco": "Lib Dem",
 		"ShowMRP": "2",
-		"Variation": "2"
+		"Variation": "8"
 	},
 	"E14000938": {
 		"Reco": "Lib Dem",
@@ -2897,7 +2897,7 @@
 	"E14000953": {
 		"Reco": "Lib Dem",
 		"ShowMRP": "2",
-		"Variation": "2"
+		"Variation": "8"
 	},
 	"E14000954": {
 		"Reco": "Lib Dem",
@@ -2917,7 +2917,7 @@
 	"E14000958": {
 		"Reco": "Lib Dem",
 		"ShowMRP": "2",
-		"Variation": "2"
+		"Variation": "8"
 	},
 	"E14000959": {
 		"Reco": "Lib Dem",
@@ -3017,7 +3017,7 @@
 	"E14000988": {
 		"Reco": "Lib Dem",
 		"ShowMRP": "2",
-		"Variation": "2"
+		"Variation": "8"
 	},
 	"E14000989": {
 		"Reco": "Lab",
@@ -3047,7 +3047,7 @@
 	"E14000994": {
 		"Reco": "Lib Dem",
 		"ShowMRP": "2",
-		"Variation": "2"
+		"Variation": "8"
 	},
 	"E14000995": {
 		"Reco": "Lab",
@@ -3082,7 +3082,7 @@
 	"E14001004": {
 		"Reco": "Lib Dem",
 		"ShowMRP": "2",
-		"Variation": "2"
+		"Variation": "8"
 	},
 	"E14001007": {
 		"Reco": "Lab",
@@ -3097,12 +3097,12 @@
 	"E14001015": {
 		"Reco": "Lib Dem",
 		"ShowMRP": "2",
-		"Variation": "2"
+		"Variation": "8"
 	},
 	"E14001021": {
 		"Reco": "Lib Dem",
 		"ShowMRP": "2",
-		"Variation": "2"
+		"Variation": "8"
 	},
 	"E14001022": {
 		"Reco": "Lab",
@@ -3122,7 +3122,7 @@
 	"E14001026": {
 		"Reco": "Lib Dem",
 		"ShowMRP": "2",
-		"Variation": "2"
+		"Variation": "8"
 	},
 	"E14001027": {
 		"Reco": "Lab",
@@ -3152,12 +3152,12 @@
 	"E14001040": {
 		"Reco": "Lib Dem",
 		"ShowMRP": "2",
-		"Variation": "2"
+		"Variation": "8"
 	},
 	"E14001041": {
 		"Reco": "Lib Dem",
 		"ShowMRP": "2",
-		"Variation": "2"
+		"Variation": "8"
 	},
 	"E14001042": {
 		"Reco": "Lib Dem",
@@ -3172,7 +3172,7 @@
 	"E14001046": {
 		"Reco": "Lib Dem",
 		"ShowMRP": "2",
-		"Variation": "2"
+		"Variation": "8"
 	},
 	"E14001047": {
 		"Reco": "Lib Dem",
@@ -3217,7 +3217,7 @@
 	"E14001062": {
 		"Reco": "Lib Dem",
 		"ShowMRP": "2",
-		"Variation": "2"
+		"Variation": "8"
 	},
 	"W07000054": {
 		"Reco": "Lab",
@@ -3232,7 +3232,7 @@
 	"W07000063": {
 		"Reco": "Lib Dem",
 		"ShowMRP": "2",
-		"Variation": "2"
+		"Variation": "8"
 	},
 	"W07000065": {
 		"Reco": "Lab",
@@ -3247,6 +3247,6 @@
 	"W07000078": {
 		"Reco": "Lab",
 		"ShowMRP": "2",
-		"Variation": "2"
+		"Variation": "9"
 	}
 }

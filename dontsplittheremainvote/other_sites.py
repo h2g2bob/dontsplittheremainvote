@@ -15,6 +15,7 @@ from .party import CLAIREWRIGHT
 from .party import CHANGEUK
 from .party import DAVIDGAUKE
 from .party import DOMINICGRIEVE
+from .party import GAVINSHUKER
 from .party import INDEPENDENT
 from .party import GREEN
 from .party import LAB
@@ -25,6 +26,7 @@ from .party import PLAID
 from .party import SDLP
 from .party import SF
 from .party import SNP
+from .party import SPEAKER
 
 class OtherSiteSuggestion(NamedTuple):
     who_suggests: str
@@ -65,10 +67,12 @@ def _getvoting():
         'Claire Wright': CLAIREWRIGHT,
         'David Gauke': DAVIDGAUKE, # former conservative - maybe not standing again?
         'Dominic Grieve': DOMINICGRIEVE, # former conservative (pact with LD)
+        'Gavin Shuker': GAVINSHUKER, # former labour
         'Green': GREEN,
         'Lab': LAB,
         'Lib Dem': LD,
         'LibLab': None, # "Either LD or LAB"
+        'Lindsey Hoyle': SPEAKER,
         'none': None,
         'Philip Hammond': INDEPENDENT, # former conservative, but he decided to stand down
         'Plaid': PLAID,
@@ -101,16 +105,19 @@ def _tacticalvote_uk():
 
 def _tactical_dot_vote():
     PARTY_RECOMEND = {
-	    '<span class="no-recommendation recommendation-sm">No recommendation</span>': None,
+        '<span class="no-recommendation recommendation-sm">No recommendation</span>': None,
         '<span class="not-sure recommendation-sm">Not sure</span>': None,
-
         '<span class="labour recommendation-sm">Labour</span>': LAB,
         '<span class="scottish-national-party recommendation-sm">Scottish National Party</span>': SNP,
+        '<span class="scottish-national-party recommendation-sm">SNP</span>': SNP,
         '<span class="liberal-democrat recommendation-sm">Liberal Democrat</span>': LD,
+        '<span class="liberal-democrat recommendation-sm">Lib Dem</span>': LD,
         '<span class="alliance recommendation-sm">Alliance</span>': ALLIANCE,
         '<span class="sinn-fein recommendation-sm">Sinn Fein</span>': SF,
         '<span class="social-democratic-and-labour-party recommendation-sm">Social Democratic and Labour Party</span>': SDLP,
+        '<span class="social-democratic-and-labour-party recommendation-sm">SDLP</span>': SDLP,
         '<span class="plaid-cymru recommendation-sm">Plaid Cymru</span>': PLAID,
+        '<span class="plaid-cymru recommendation-sm">Plaid</span>': PLAID,
         '<span class="national-health-action-party recommendation-sm">National Health Action Party</span>': NHAP,
         '<span class="green recommendation-sm">Green</span>': GREEN,
         '<span class="independent recommendation-sm">Independent</span>': INDEPENDENT,
