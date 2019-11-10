@@ -160,14 +160,24 @@ def _remainunited():
     for constituency in all_constituencies():
         with open('data/remainunited/response/{}.html'.format(constituency.slug)) as f:
             page = f.read()
+
             if 'Postcode could not be matched' in page:
                 print('Postcode not mached {}'.format(constituency.slug))
                 continue
-            [answer1, answer2] = re.compile(r'<p class="question">Recommendation</p>\s*<p class="answer">(.*?)</p>').findall(page)
+            if 'Seat ID could not be matched to Tactical Data' in page:
+                print('Error from remainunited {}'.format(constituency.slug))
+                continue
+
+            try:
+                [answer1, answer2] = re.compile(r'<p class="question">Recommendation</p>\s*<p class="answer">(.*?)</p>').findall(page)
+            except ValueError:
+                raise ValueError('Bad file {}'.format(constituency.slug))
+
             if answer1 != answer2:
                 raise Exception((constituency, answer1, answer2))
             if answer1 == 'No recommendation':
                 continue
+
             postcode = re.compile(r'<p class="question">Your Postcode</p>\s*<p class="answer">([^<>]+)</p>').findall(page)[0]
             suggest = OtherSiteSuggestion(
                 who_suggests='Remain United',
