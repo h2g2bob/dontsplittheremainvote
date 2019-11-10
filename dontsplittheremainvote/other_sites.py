@@ -5,6 +5,7 @@ from typing import NamedTuple
 from typing import List
 from typing import Dict
 from .constituency import Constituency
+from .constituency import all_constituencies
 from .constituency import get_constitiuency
 from .constituency import get_constitiuency_from_name
 from .constituency import get_constitiuency_from_slug
@@ -145,6 +146,35 @@ def _tactical_dot_vote():
                     url='https://tactical.vote/{}'.format(url))
                 yield constituency, suggestion
 
+
+_REMAINUTD = {
+    'Vote Labour': LAB,
+    'Vote SNP': SNP,
+    'Vote Sinn Fein': SF,
+    'Vote Lib Dem': LD,
+    'Vote Plaid Cymru': PLAID,
+    'Vote Alliance': ALLIANCE,
+    'Vote Claire Wright (Ind)': CLAIREWRIGHT,
+}
+def _remainunited():
+    for constituency in all_constituencies():
+        with open('data/remainunited/response/{}.html'.format(constituency.slug)) as f:
+            page = f.read()
+            if 'Postcode could not be matched' in page:
+                print('Postcode not mached {}'.format(constituency.slug))
+                continue
+            [answer1, answer2] = re.compile(r'<p class="question">Recommendation</p>\s*<p class="answer">(.*?)</p>').findall(page)
+            if answer1 != answer2:
+                raise Exception((constituency, answer1, answer2))
+            if answer1 == 'No recommendation':
+                continue
+            suggest = OtherSiteSuggestion(
+                who_suggests='Remain United',
+                party=_REMAINUTD[answer1],
+                url='https://www.remainunited.org/')
+            yield constituency, suggest
+
+
 def _essex_against_tories():
     results = [
         ('basildon-and-billericay', LAB),
@@ -222,6 +252,10 @@ def get_other_site_suggestions() -> Dict[Constituency, List[OtherSiteSuggestion]
 
     # heavy EP2019 bias (LD):
     for constituency, suggest in _getvoting():
+        out[constituency].append(suggest)
+
+    # 
+    for constituency, suggest in _remainunited():
         out[constituency].append(suggest)
 
     # smaller sites:
