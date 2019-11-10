@@ -168,10 +168,11 @@ def _remainunited():
                 raise Exception((constituency, answer1, answer2))
             if answer1 == 'No recommendation':
                 continue
+            postcode = re.compile(r'<p class="question">Your Postcode</p>\s*<p class="answer">([^<>]+)</p>').findall(page)[0]
             suggest = OtherSiteSuggestion(
                 who_suggests='Remain United',
                 party=_REMAINUTD[answer1],
-                url='https://www.remainunited.org/')
+                url='https://www.remainunited.org/#postcode=' + postcode)
             yield constituency, suggest
 
 
