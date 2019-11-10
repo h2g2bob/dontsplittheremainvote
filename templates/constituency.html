@@ -18,10 +18,6 @@
   <em>{{ other_site.who_suggests }}</em> <a href="{{ other_site.url }}">recommends</a> voting for <strong class="party party-{{ other_site.party.code }}">{{ other_site.party.name }}</strong>.
 </div>
 {% endfor %}
-<div class="othersite">
-  <img class="tick" src="{{static}}/logo/tick/other.png" alt="Other tick" />
-  <strong>Waiting for recommendations</strong> from <em>People's Vote</em>, <em>Remain United</em> and others.
-</div>
 
 {% if aggregation.provisional %}
 <div class="othersite">
