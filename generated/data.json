@@ -8520,8 +8520,8 @@
     },
     "colchester": {
       "aggregation": {
-        "party": null,
-        "template": "contradict.html"
+        "party": "ld",
+        "template": "vote-ld.html"
       },
       "analysis": {
         "template": "alliance-mixed.html",
@@ -10063,8 +10063,8 @@
     },
     "don-valley": {
       "aggregation": {
-        "party": null,
-        "template": "contradict.html"
+        "party": "lab",
+        "template": "vote-lab.html"
       },
       "analysis": {
         "template": "special-labour-leave.html",
@@ -12430,8 +12430,8 @@
     },
     "epping-forest": {
       "aggregation": {
-        "party": null,
-        "template": "contradict.html"
+        "party": "lab",
+        "template": "vote-lab.html"
       },
       "analysis": {
         "template": "alliance-mixed.html",
@@ -12666,8 +12666,8 @@
     },
     "esher-and-walton": {
       "aggregation": {
-        "party": null,
-        "template": "contradict.html"
+        "party": "ld",
+        "template": "vote-ld.html"
       },
       "analysis": {
         "template": "no-conflict-hard.html",
@@ -15864,8 +15864,8 @@
     },
     "hendon": {
       "aggregation": {
-        "party": null,
-        "template": "contradict.html"
+        "party": "lab",
+        "template": "vote-lab.html"
       },
       "analysis": {
         "template": "alliance-mixed.html",
@@ -15941,8 +15941,8 @@
     },
     "henley": {
       "aggregation": {
-        "party": null,
-        "template": "contradict.html"
+        "party": "ld",
+        "template": "vote-ld.html"
       },
       "analysis": {
         "template": "no-conflict-hard.html",
@@ -17623,8 +17623,8 @@
     },
     "kensington": {
       "aggregation": {
-        "party": null,
-        "template": "contradict.html"
+        "party": "lab",
+        "template": "vote-lab.html"
       },
       "analysis": {
         "template": "alliance-mixed.html",
@@ -29383,8 +29383,8 @@
     },
     "south-east-cambridgeshire": {
       "aggregation": {
-        "party": null,
-        "template": "contradict.html"
+        "party": "ld",
+        "template": "vote-ld.html"
       },
       "analysis": {
         "template": "no-conflict-easy.html",
@@ -34497,8 +34497,8 @@
     },
     "wantage": {
       "aggregation": {
-        "party": null,
-        "template": "contradict.html"
+        "party": "ld",
+        "template": "vote-ld.html"
       },
       "analysis": {
         "template": "no-conflict-hard.html",
@@ -36601,8 +36601,8 @@
     },
     "woking": {
       "aggregation": {
-        "party": null,
-        "template": "contradict.html"
+        "party": "ld",
+        "template": "vote-ld.html"
       },
       "analysis": {
         "template": "no-conflict-hard.html",

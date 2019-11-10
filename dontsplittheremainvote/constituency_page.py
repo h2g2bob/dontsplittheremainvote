@@ -49,20 +49,27 @@ class ConstituencyPage(NamedTuple):
         """From the list of other_site suggestions (plus our own
         suggestion), return an Advice of who to vote for.
         """
-        possible = tuple(suggest.party for suggest in self.other_sites_plus_dontsplit)
-        if len(possible) < 2:
+        recommendations = defaultdict(int)
+        for suggest in self.other_sites_plus_dontsplit:
+            recommendations[suggest.party] += 1
+        num_recommendations = sum(recommendations.values())
+
+        if num_recommendations < 2:
             return Aggregation(
                 template='pending.html')
 
-        possible_set = set(possible)
-        if len(possible_set) == 1:
-            [party] = possible_set
+        # if over 70% of peoples recommendations are for one party, suggest that
+        major_rec = [pty for pty, count in recommendations.items() if float(count)/num_recommendations > 0.7]
+
+        if major_rec:
+            [party] = major_rec
             if party.short == 'other':
                 raise ValueError((self.other_sites_plus_dontsplit, self.constituency))
             return Aggregation(
                 party=party,
                 template='vote-{}.html'.format(party.short),
-                provisional=len(possible) < 3)
+                provisional=num_recommendations < 3)
+
         return Aggregation(
             template='contradict.html')
 
