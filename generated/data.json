@@ -2133,7 +2133,7 @@
     "belfast-west": {
       "aggregation": {
         "party": null,
-        "template": "contradict.html"
+        "template": "pending.html"
       },
       "analysis": {
         "template": "remain.html",
@@ -2149,11 +2149,6 @@
         "slug": "belfast-west"
       },
       "other_sites": [
-        {
-          "party": "other",
-          "url": "https://tacticalvote.co.uk/#BelfastWest",
-          "who_suggests": "tacticalvote.co.uk"
-        },
         {
           "party": "sf",
           "url": "https://tactical.vote/belfast-west",
@@ -7958,8 +7953,8 @@
     },
     "chorley": {
       "aggregation": {
-        "party": null,
-        "template": "contradict.html"
+        "party": "lab",
+        "template": "vote-lab.html"
       },
       "analysis": {
         "template": "no-conflict-easy.html",
@@ -7976,19 +7971,9 @@
       },
       "other_sites": [
         {
-          "party": "other",
-          "url": "https://tacticalvote.co.uk/#Chorley",
-          "who_suggests": "tacticalvote.co.uk"
-        },
-        {
           "party": "lab",
           "url": "https://tactical.vote/chorley",
           "who_suggests": "tactical.vote"
-        },
-        {
-          "party": "other",
-          "url": "https://getvoting.org/",
-          "who_suggests": "Best for Britain"
         },
         {
           "party": "lab",

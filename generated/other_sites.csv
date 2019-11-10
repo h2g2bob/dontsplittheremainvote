@@ -36,7 +36,7 @@ bedford,E14000552,0.547792904290429,lab,3,,,,,,,lab,3,lab,3,lab,3
 belfast-east,N06000001,0.38090463977617156,,,alliance,3,,,,,alliance,3,alliance,3,alliance,3
 belfast-north,N06000002,0.5157610588645072,,,,,,,,,sf,2,sf,2,sf,2
 belfast-south,N06000003,0.6551424322159937,,,,,,,,,,,sdlp,1,sdlp,1
-belfast-west,N06000004,0.7375039992124628,,,,,,,,,,,sf,-1,other,-1
+belfast-west,N06000004,0.7375039992124628,,,,,,,,,,,sf,0,,
 bermondsey-and-old-southwark,E14000553,0.8432870251704516,,,,,,,,,,,,,,
 berwickshire-roxburgh-and-selkirk,S14000008,0.4612446769912349,,,snp,2,,,,,snp,2,snp,2,,
 berwick-upon-tweed,E14000554,0.45674215862787826,ld,-1,,,,,,,,,lab,-1,,
@@ -135,7 +135,7 @@ chichester,E14000633,0.3697052638606095,ld,0,ld,0,,,,,,,lab,-2,,
 chingford-and-woodford-green,E14000634,0.5086135303762697,lab,4,,,,,lab,4,lab,4,lab,4,lab,4
 chippenham,E14000635,0.4528001400070004,ld,4,ld,4,,,,,ld,4,ld,4,ld,4
 chipping-barnet,E14000636,0.5366725005863993,lab,3,,,,,,,lab,3,lab,3,lab,3
-chorley,E14000637,0.5728691088183484,other,-4,lab,0,,,,,lab,0,lab,0,other,-4
+chorley,E14000637,0.5728691088183484,,,lab,2,,,,,lab,2,lab,2,,
 christchurch,E14000638,0.3042224592171267,ld,0,,,,,,,,,,,,
 cities-of-london-and-westminster,E14000639,0.516065607699074,ld,-2,,,,,,,lab,0,lab,0,,
 city-of-chester,E14000640,0.5950621222594424,lab,3,,,,,,,lab,3,lab,3,lab,3

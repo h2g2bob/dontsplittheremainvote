@@ -27,7 +27,6 @@ from .party import PLAID
 from .party import SDLP
 from .party import SF
 from .party import SNP
-from .party import SPEAKER
 
 class OtherSiteSuggestion(NamedTuple):
     who_suggests: str
@@ -73,7 +72,7 @@ def _getvoting():
         'Lab': LAB,
         'Lib Dem': LD,
         'LibLab': None, # "Either LD or LAB"
-        'Lindsey Hoyle': SPEAKER,
+        'Lindsey Hoyle': None, # Speaker, so "no recommendation"
         'none': None,
         'Philip Hammond': INDEPENDENT, # former conservative, but he decided to stand down
         'Plaid': PLAID,
@@ -97,7 +96,7 @@ def _tacticalvote_uk():
     with open('data/tacticalvote/recommendations.json') as f:
         data = json.load(f)
         for recomend in data:
-            if recomend['VoteFor'] != 'TBC':
+            if recomend['VoteFor'] not in ['TBC', 'Any']:
                 suggestion = OtherSiteSuggestion(
                     who_suggests='tacticalvote.co.uk',
                     party=get_party(recomend['VoteFor']),
