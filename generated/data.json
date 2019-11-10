@@ -190,6 +190,11 @@
           "party": "snp",
           "url": "https://tactical.vote/aberdeen-south",
           "who_suggests": "tactical.vote"
+        },
+        {
+          "party": "snp",
+          "url": "https://www.remainunited.org/",
+          "who_suggests": "Remain United"
         }
       ],
       "outcome_frequency": [
@@ -1150,6 +1155,11 @@
           "party": "snp",
           "url": "https://tactical.vote/banff-and-buchan",
           "who_suggests": "tactical.vote"
+        },
+        {
+          "party": "snp",
+          "url": "https://www.remainunited.org/",
+          "who_suggests": "Remain United"
         }
       ],
       "outcome_frequency": [
@@ -1694,6 +1704,11 @@
           "party": "lab",
           "url": "https://getvoting.org/",
           "who_suggests": "Best for Britain"
+        },
+        {
+          "party": "lab",
+          "url": "https://www.remainunited.org/",
+          "who_suggests": "Remain United"
         }
       ],
       "outcome_frequency": [
@@ -1982,6 +1997,11 @@
           "party": "alliance",
           "url": "https://tactical.vote/belfast-east",
           "who_suggests": "tactical.vote"
+        },
+        {
+          "party": "alliance",
+          "url": "https://www.remainunited.org/",
+          "who_suggests": "Remain United"
         }
       ],
       "outcome_frequency": [
@@ -2984,6 +3004,11 @@
           "party": "lab",
           "url": "https://getvoting.org/",
           "who_suggests": "Best for Britain"
+        },
+        {
+          "party": "lab",
+          "url": "https://www.remainunited.org/",
+          "who_suggests": "Remain United"
         }
       ],
       "outcome_frequency": [
@@ -3317,6 +3342,11 @@
           "party": "lab",
           "url": "https://getvoting.org/",
           "who_suggests": "Best for Britain"
+        },
+        {
+          "party": "lab",
+          "url": "https://www.remainunited.org/",
+          "who_suggests": "Remain United"
         }
       ],
       "outcome_frequency": [
@@ -3612,6 +3642,11 @@
           "party": "lab",
           "url": "https://getvoting.org/",
           "who_suggests": "Best for Britain"
+        },
+        {
+          "party": "lab",
+          "url": "https://www.remainunited.org/",
+          "who_suggests": "Remain United"
         }
       ],
       "outcome_frequency": [
@@ -7501,6 +7536,11 @@
           "party": "ld",
           "url": "https://getvoting.org/",
           "who_suggests": "Best for Britain"
+        },
+        {
+          "party": "ld",
+          "url": "https://www.remainunited.org/",
+          "who_suggests": "Remain United"
         }
       ],
       "outcome_frequency": [
@@ -7792,6 +7832,11 @@
           "party": "ld",
           "url": "https://getvoting.org/",
           "who_suggests": "Best for Britain"
+        },
+        {
+          "party": "ld",
+          "url": "https://www.remainunited.org/",
+          "who_suggests": "Remain United"
         }
       ],
       "outcome_frequency": [
@@ -7850,6 +7895,11 @@
           "party": "lab",
           "url": "https://getvoting.org/",
           "who_suggests": "Best for Britain"
+        },
+        {
+          "party": "lab",
+          "url": "https://www.remainunited.org/",
+          "who_suggests": "Remain United"
         }
       ],
       "outcome_frequency": [
@@ -8316,6 +8366,11 @@
           "party": "lab",
           "url": "https://getvoting.org/",
           "who_suggests": "Best for Britain"
+        },
+        {
+          "party": "lab",
+          "url": "https://www.remainunited.org/",
+          "who_suggests": "Remain United"
         }
       ],
       "outcome_frequency": [
@@ -8524,6 +8579,11 @@
           "party": "lab",
           "url": "https://getvoting.org/",
           "who_suggests": "Best for Britain"
+        },
+        {
+          "party": "lab",
+          "url": "https://www.remainunited.org/",
+          "who_suggests": "Remain United"
         }
       ],
       "outcome_frequency": [
@@ -8839,6 +8899,11 @@
           "party": "lab",
           "url": "https://getvoting.org/",
           "who_suggests": "Best for Britain"
+        },
+        {
+          "party": "lab",
+          "url": "https://www.remainunited.org/",
+          "who_suggests": "Remain United"
         }
       ],
       "outcome_frequency": [
@@ -9005,6 +9070,11 @@
           "party": "lab",
           "url": "https://getvoting.org/",
           "who_suggests": "Best for Britain"
+        },
+        {
+          "party": "lab",
+          "url": "https://www.remainunited.org/",
+          "who_suggests": "Remain United"
         }
       ],
       "outcome_frequency": [
@@ -9281,11 +9351,6 @@
           "party": "lab",
           "url": "https://getvoting.org/",
           "who_suggests": "Best for Britain"
-        },
-        {
-          "party": "lab",
-          "url": "https://www.remainunited.org/",
-          "who_suggests": "Remain United"
         }
       ],
       "outcome_frequency": [
@@ -9969,6 +10034,11 @@
           "party": "ld",
           "url": "https://getvoting.org/",
           "who_suggests": "Best for Britain"
+        },
+        {
+          "party": "lab",
+          "url": "https://www.remainunited.org/",
+          "who_suggests": "Remain United"
         }
       ],
       "outcome_frequency": [
@@ -10678,6 +10748,11 @@
           "party": "lab",
           "url": "https://getvoting.org/",
           "who_suggests": "Best for Britain"
+        },
+        {
+          "party": "lab",
+          "url": "https://www.remainunited.org/",
+          "who_suggests": "Remain United"
         }
       ],
       "outcome_frequency": [
@@ -10943,11 +11018,6 @@
           "party": "ind-wright",
           "url": "https://getvoting.org/",
           "who_suggests": "Best for Britain"
-        },
-        {
-          "party": "ind-wright",
-          "url": "https://www.remainunited.org/",
-          "who_suggests": "Remain United"
         }
       ],
       "outcome_frequency": [
@@ -11567,6 +11637,11 @@
           "party": "ld",
           "url": "https://getvoting.org/",
           "who_suggests": "Best for Britain"
+        },
+        {
+          "party": "ld",
+          "url": "https://www.remainunited.org/",
+          "who_suggests": "Remain United"
         }
       ],
       "outcome_frequency": [
@@ -11806,6 +11881,11 @@
           "party": "snp",
           "url": "https://tactical.vote/edinburgh-south-west",
           "who_suggests": "tactical.vote"
+        },
+        {
+          "party": "snp",
+          "url": "https://www.remainunited.org/",
+          "who_suggests": "Remain United"
         }
       ],
       "outcome_frequency": [
@@ -12411,6 +12491,11 @@
           "party": "lab",
           "url": "https://getvoting.org/",
           "who_suggests": "Best for Britain"
+        },
+        {
+          "party": "lab",
+          "url": "https://www.remainunited.org/",
+          "who_suggests": "Remain United"
         }
       ],
       "outcome_frequency": [
@@ -13903,6 +13988,11 @@
           "party": "snp",
           "url": "https://tactical.vote/gordon",
           "who_suggests": "tactical.vote"
+        },
+        {
+          "party": "snp",
+          "url": "https://www.remainunited.org/",
+          "who_suggests": "Remain United"
         }
       ],
       "outcome_frequency": [
@@ -14009,6 +14099,11 @@
           "party": "lab",
           "url": "https://getvoting.org/",
           "who_suggests": "Best for Britain"
+        },
+        {
+          "party": "lab",
+          "url": "https://www.remainunited.org/",
+          "who_suggests": "Remain United"
         }
       ],
       "outcome_frequency": [
@@ -16104,6 +16199,11 @@
           "party": "lab",
           "url": "https://getvoting.org/",
           "who_suggests": "Best for Britain"
+        },
+        {
+          "party": "lab",
+          "url": "https://www.remainunited.org/",
+          "who_suggests": "Remain United"
         }
       ],
       "outcome_frequency": [
@@ -16970,8 +17070,8 @@
     },
     "isle-of-wight": {
       "aggregation": {
-        "party": "green",
-        "template": "vote-green.html"
+        "party": null,
+        "template": "contradict.html"
       },
       "analysis": {
         "template": "alliance-mixed.html",
@@ -16996,6 +17096,11 @@
           "party": "green",
           "url": "https://getvoting.org/",
           "who_suggests": "Best for Britain"
+        },
+        {
+          "party": "lab",
+          "url": "https://www.remainunited.org/",
+          "who_suggests": "Remain United"
         }
       ],
       "outcome_frequency": [
@@ -17174,6 +17279,11 @@
           "party": "lab",
           "url": "https://getvoting.org/",
           "who_suggests": "Best for Britain"
+        },
+        {
+          "party": "lab",
+          "url": "https://www.remainunited.org/",
+          "who_suggests": "Remain United"
         }
       ],
       "outcome_frequency": [
@@ -17719,6 +17829,11 @@
           "party": "lab",
           "url": "https://getvoting.org/",
           "who_suggests": "Best for Britain"
+        },
+        {
+          "party": "lab",
+          "url": "https://www.remainunited.org/",
+          "who_suggests": "Remain United"
         }
       ],
       "outcome_frequency": [
@@ -17973,7 +18088,13 @@
         "region": "Northern Ireland",
         "slug": "lagan-valley"
       },
-      "other_sites": [],
+      "other_sites": [
+        {
+          "party": "alliance",
+          "url": "https://www.remainunited.org/",
+          "who_suggests": "Remain United"
+        }
+      ],
       "outcome_frequency": [
         [
           {
@@ -18182,6 +18303,11 @@
           "party": "lab",
           "url": "https://getvoting.org/",
           "who_suggests": "Best for Britain"
+        },
+        {
+          "party": "lab",
+          "url": "https://www.remainunited.org/",
+          "who_suggests": "Remain United"
         }
       ],
       "outcome_frequency": [
@@ -18359,6 +18485,11 @@
           "party": "lab",
           "url": "https://getvoting.org/",
           "who_suggests": "Best for Britain"
+        },
+        {
+          "party": "lab",
+          "url": "https://www.remainunited.org/",
+          "who_suggests": "Remain United"
         }
       ],
       "outcome_frequency": [
@@ -18961,6 +19092,11 @@
           "party": "lab",
           "url": "https://getvoting.org/",
           "who_suggests": "Best for Britain"
+        },
+        {
+          "party": "lab",
+          "url": "https://www.remainunited.org/",
+          "who_suggests": "Remain United"
         }
       ],
       "outcome_frequency": [
@@ -20040,6 +20176,11 @@
           "party": "lab",
           "url": "https://getvoting.org/",
           "who_suggests": "Best for Britain"
+        },
+        {
+          "party": "lab",
+          "url": "https://www.remainunited.org/",
+          "who_suggests": "Remain United"
         }
       ],
       "outcome_frequency": [
@@ -21626,6 +21767,11 @@
           "party": "ld",
           "url": "https://getvoting.org/",
           "who_suggests": "Best for Britain"
+        },
+        {
+          "party": "lab",
+          "url": "https://www.remainunited.org/",
+          "who_suggests": "Remain United"
         }
       ],
       "outcome_frequency": [
@@ -21924,6 +22070,11 @@
           "party": "lab",
           "url": "https://getvoting.org/",
           "who_suggests": "Best for Britain"
+        },
+        {
+          "party": "lab",
+          "url": "https://www.remainunited.org/",
+          "who_suggests": "Remain United"
         }
       ],
       "outcome_frequency": [
@@ -21984,6 +22135,11 @@
           "party": "lab",
           "url": "https://getvoting.org/",
           "who_suggests": "Best for Britain"
+        },
+        {
+          "party": "lab",
+          "url": "https://www.remainunited.org/",
+          "who_suggests": "Remain United"
         }
       ],
       "outcome_frequency": [
@@ -22554,7 +22710,13 @@
         "region": "Northern Ireland",
         "slug": "north-down"
       },
-      "other_sites": [],
+      "other_sites": [
+        {
+          "party": "alliance",
+          "url": "https://www.remainunited.org/",
+          "who_suggests": "Remain United"
+        }
+      ],
       "outcome_frequency": [
         [
           {
@@ -22606,6 +22768,11 @@
           "party": "lab",
           "url": "https://getvoting.org/",
           "who_suggests": "Best for Britain"
+        },
+        {
+          "party": "lab",
+          "url": "https://www.remainunited.org/",
+          "who_suggests": "Remain United"
         }
       ],
       "outcome_frequency": [
@@ -23867,6 +24034,11 @@
           "party": "lab",
           "url": "https://getvoting.org/",
           "who_suggests": "Best for Britain"
+        },
+        {
+          "party": "lab",
+          "url": "https://www.remainunited.org/",
+          "who_suggests": "Remain United"
         }
       ],
       "outcome_frequency": [
@@ -23992,6 +24164,11 @@
           "party": "lab",
           "url": "https://getvoting.org/",
           "who_suggests": "Best for Britain"
+        },
+        {
+          "party": "lab",
+          "url": "https://www.remainunited.org/",
+          "who_suggests": "Remain United"
         }
       ],
       "outcome_frequency": [
@@ -24958,6 +25135,11 @@
           "party": "lab",
           "url": "https://getvoting.org/",
           "who_suggests": "Best for Britain"
+        },
+        {
+          "party": "lab",
+          "url": "https://www.remainunited.org/",
+          "who_suggests": "Remain United"
         }
       ],
       "outcome_frequency": [
@@ -25073,6 +25255,11 @@
           "party": "snp",
           "url": "https://tactical.vote/perth-and-north-perthshire",
           "who_suggests": "tactical.vote"
+        },
+        {
+          "party": "snp",
+          "url": "https://www.remainunited.org/",
+          "who_suggests": "Remain United"
         }
       ],
       "outcome_frequency": [
@@ -25244,6 +25431,11 @@
           "party": "lab",
           "url": "https://getvoting.org/",
           "who_suggests": "Best for Britain"
+        },
+        {
+          "party": "lab",
+          "url": "https://www.remainunited.org/",
+          "who_suggests": "Remain United"
         }
       ],
       "outcome_frequency": [
@@ -25726,6 +25918,11 @@
           "party": "lab",
           "url": "https://getvoting.org/",
           "who_suggests": "Best for Britain"
+        },
+        {
+          "party": "lab",
+          "url": "https://www.remainunited.org/",
+          "who_suggests": "Remain United"
         }
       ],
       "outcome_frequency": [
@@ -26042,6 +26239,11 @@
           "party": "lab",
           "url": "https://getvoting.org/",
           "who_suggests": "Best for Britain"
+        },
+        {
+          "party": "lab",
+          "url": "https://www.remainunited.org/",
+          "who_suggests": "Remain United"
         }
       ],
       "outcome_frequency": [
@@ -28001,6 +28203,11 @@
           "party": "lab",
           "url": "https://getvoting.org/",
           "who_suggests": "Best for Britain"
+        },
+        {
+          "party": "lab",
+          "url": "https://www.remainunited.org/",
+          "who_suggests": "Remain United"
         }
       ],
       "outcome_frequency": [
@@ -28126,6 +28333,11 @@
           "party": "lab",
           "url": "https://getvoting.org/",
           "who_suggests": "Best for Britain"
+        },
+        {
+          "party": "lab",
+          "url": "https://www.remainunited.org/",
+          "who_suggests": "Remain United"
         }
       ],
       "outcome_frequency": [
@@ -28753,6 +28965,11 @@
           "party": "ld",
           "url": "https://getvoting.org/",
           "who_suggests": "Best for Britain"
+        },
+        {
+          "party": "ld",
+          "url": "https://www.remainunited.org/",
+          "who_suggests": "Remain United"
         }
       ],
       "outcome_frequency": [
@@ -28977,6 +29194,11 @@
           "party": "ld",
           "url": "https://getvoting.org/",
           "who_suggests": "Best for Britain"
+        },
+        {
+          "party": "ld",
+          "url": "https://www.remainunited.org/",
+          "who_suggests": "Remain United"
         }
       ],
       "outcome_frequency": [
@@ -29317,6 +29539,11 @@
           "party": "lab",
           "url": "https://getvoting.org/",
           "who_suggests": "Best for Britain"
+        },
+        {
+          "party": "lab",
+          "url": "https://www.remainunited.org/",
+          "who_suggests": "Remain United"
         }
       ],
       "outcome_frequency": [
@@ -29859,8 +30086,8 @@
     },
     "south-west-surrey": {
       "aggregation": {
-        "party": null,
-        "template": "pending.html"
+        "party": "ld",
+        "template": "vote-ld.html"
       },
       "analysis": {
         "template": "alliance-mixed.html",
@@ -29880,6 +30107,11 @@
           "party": "ld",
           "url": "https://getvoting.org/",
           "who_suggests": "Best for Britain"
+        },
+        {
+          "party": "ld",
+          "url": "https://www.remainunited.org/",
+          "who_suggests": "Remain United"
         }
       ],
       "outcome_frequency": [
@@ -30007,6 +30239,11 @@
           "party": "lab",
           "url": "https://getvoting.org/",
           "who_suggests": "Best for Britain"
+        },
+        {
+          "party": "lab",
+          "url": "https://www.remainunited.org/",
+          "who_suggests": "Remain United"
         }
       ],
       "outcome_frequency": [
@@ -30326,6 +30563,11 @@
           "party": "ld",
           "url": "https://getvoting.org/",
           "who_suggests": "Best for Britain"
+        },
+        {
+          "party": "ld",
+          "url": "https://www.remainunited.org/",
+          "who_suggests": "Remain United"
         }
       ],
       "outcome_frequency": [
@@ -30812,6 +31054,11 @@
           "party": "lab",
           "url": "https://getvoting.org/",
           "who_suggests": "Best for Britain"
+        },
+        {
+          "party": "lab",
+          "url": "https://www.remainunited.org/",
+          "who_suggests": "Remain United"
         }
       ],
       "outcome_frequency": [
@@ -31175,6 +31422,11 @@
           "party": "lab",
           "url": "https://getvoting.org/",
           "who_suggests": "Best for Britain"
+        },
+        {
+          "party": "lab",
+          "url": "https://www.remainunited.org/",
+          "who_suggests": "Remain United"
         }
       ],
       "outcome_frequency": [
@@ -31753,6 +32005,11 @@
           "party": "lab",
           "url": "https://getvoting.org/",
           "who_suggests": "Best for Britain"
+        },
+        {
+          "party": "lab",
+          "url": "https://www.remainunited.org/",
+          "who_suggests": "Remain United"
         }
       ],
       "outcome_frequency": [
@@ -32848,6 +33105,11 @@
           "party": "ld",
           "url": "https://getvoting.org/",
           "who_suggests": "Best for Britain"
+        },
+        {
+          "party": "ld",
+          "url": "https://www.remainunited.org/",
+          "who_suggests": "Remain United"
         }
       ],
       "outcome_frequency": [
@@ -33302,6 +33564,11 @@
           "party": "lab",
           "url": "https://getvoting.org/",
           "who_suggests": "Best for Britain"
+        },
+        {
+          "party": "lab",
+          "url": "https://www.remainunited.org/",
+          "who_suggests": "Remain United"
         }
       ],
       "outcome_frequency": [
@@ -33787,6 +34054,11 @@
           "party": "lab",
           "url": "https://getvoting.org/",
           "who_suggests": "Best for Britain"
+        },
+        {
+          "party": "lab",
+          "url": "https://www.remainunited.org/",
+          "who_suggests": "Remain United"
         }
       ],
       "outcome_frequency": [
@@ -34180,6 +34452,11 @@
           "party": "lab",
           "url": "https://getvoting.org/",
           "who_suggests": "Best for Britain"
+        },
+        {
+          "party": "lab",
+          "url": "https://www.remainunited.org/",
+          "who_suggests": "Remain United"
         }
       ],
       "outcome_frequency": [
@@ -34903,6 +35180,11 @@
           "party": "snp",
           "url": "https://tactical.vote/west-aberdeenshire-and-kincardine",
           "who_suggests": "tactical.vote"
+        },
+        {
+          "party": "snp",
+          "url": "https://www.remainunited.org/",
+          "who_suggests": "Remain United"
         }
       ],
       "outcome_frequency": [
@@ -36130,6 +36412,11 @@
           "party": "ld",
           "url": "https://getvoting.org/",
           "who_suggests": "Best for Britain"
+        },
+        {
+          "party": "ld",
+          "url": "https://www.remainunited.org/",
+          "who_suggests": "Remain United"
         }
       ],
       "outcome_frequency": [
@@ -36190,6 +36477,11 @@
           "party": "lab",
           "url": "https://getvoting.org/",
           "who_suggests": "Best for Britain"
+        },
+        {
+          "party": "lab",
+          "url": "https://www.remainunited.org/",
+          "who_suggests": "Remain United"
         }
       ],
       "outcome_frequency": [
@@ -36601,6 +36893,11 @@
           "party": "lab",
           "url": "https://getvoting.org/",
           "who_suggests": "Best for Britain"
+        },
+        {
+          "party": "lab",
+          "url": "https://www.remainunited.org/",
+          "who_suggests": "Remain United"
         }
       ],
       "outcome_frequency": [
@@ -36656,6 +36953,11 @@
           "party": "lab",
           "url": "https://getvoting.org/",
           "who_suggests": "Best for Britain"
+        },
+        {
+          "party": "lab",
+          "url": "https://www.remainunited.org/",
+          "who_suggests": "Remain United"
         }
       ],
       "outcome_frequency": [
