@@ -12,8 +12,10 @@ from .constituency import get_constitiuency_from_slug
 from .party import Party
 from .party import get_party
 from .party import ALLIANCE
+from .party import ANNASOUBRY
 from .party import CLAIREWRIGHT
 from .party import CHANGEUK
+from .party import DAFYDD
 from .party import DAVIDGAUKE
 from .party import DOMINICGRIEVE
 from .party import GAVINSHUKER
@@ -21,12 +23,17 @@ from .party import INDEPENDENT
 from .party import GREEN
 from .party import LAB
 from .party import LD
+from .party import MARTINGOSS
 from .party import NHAP
 from .party import OTHERS
+from .party import PAULFOLLOWS
 from .party import PLAID
 from .party import SDLP
 from .party import SF
 from .party import SNP
+from .party import SPEAKER
+from .party import UUP
+from .party import VIXLOWTHION
 
 class OtherSiteSuggestion(NamedTuple):
     who_suggests: str
@@ -186,6 +193,60 @@ def _remainunited():
             yield constituency, suggest
 
 
+_PEOPLES_VOTE = {
+    'Alliance': ALLIANCE,
+    'Aled ap Dafydd': DAFYDD,
+    'Anna Soubry': ANNASOUBRY,
+    'Claire Wright': CLAIREWRIGHT,
+    'Dominic Grieve': DOMINICGRIEVE,
+    'Green Party': GREEN,
+    'Labour': LAB,
+    'Liberal Democrats': LD,
+    'Martin Goss': MARTINGOSS,
+    'Paul Follows': PAULFOLLOWS,
+    'Plaid Cymru': PLAID,
+    'Sinn Féin': SF,
+    'Social Democratic and Labour Party': SDLP,
+    'Speaker': SPEAKER,
+    'Ulster Unionist Party': UUP,
+    'Vix Lowthion': VIXLOWTHION,
+}
+def _peoples_vote():
+    for constituency in all_constituencies():
+        with open('data/peoples_vote/response/{}.html'.format(constituency.slug)) as f:
+            page = f.read()
+
+            if '<h3>Coming soon</h3>' in page:
+                continue
+            if 'we haven’t made a recommendation in your constituency yet' in page:
+                continue
+            if 'Please check you\'ve entered your postcode correctly' in page:
+                print('Bad postcode for PV {}'.format(constituency.slug))
+                continue
+
+            try:
+                [url] = re.compile(r'<meta property="og:url" content="(/[^"]+)" />').search(page).groups()
+                [vote_for_person, vote_for_party] = re.compile(r'<div class="reason">\s*<strong>VOTE for</strong> (.*)\s+\((.*)\)\s*</div>').search(page).groups()
+
+                if vote_for_person == '' and vote_for_party == 'Independent': # belfast-west
+                    continue
+
+                if vote_for_party == 'Independent':
+                    party = _PEOPLES_VOTE[vote_for_person]
+                else:
+                    party = _PEOPLES_VOTE[vote_for_party]
+
+            except Exception:
+                print(constituency.slug)
+                raise
+
+            suggest = OtherSiteSuggestion(
+                who_suggests='People\'s Vote',
+                party=party,
+                url='https://tactical-vote.uk' + url)
+            yield constituency, suggest
+
+
 def _essex_against_tories():
     results = [
         ('basildon-and-billericay', LAB),
@@ -267,6 +328,10 @@ def get_other_site_suggestions() -> Dict[Constituency, List[OtherSiteSuggestion]
 
     # 
     for constituency, suggest in _remainunited():
+        out[constituency].append(suggest)
+
+    # 
+    for constituency, suggest in _peoples_vote():
         out[constituency].append(suggest)
 
     # smaller sites:
