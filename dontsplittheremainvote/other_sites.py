@@ -12,10 +12,8 @@ from .constituency import get_constitiuency_from_slug
 from .party import Party
 from .party import get_party
 from .party import ALLIANCE
-from .party import ANNASOUBRY
 from .party import CLAIREWRIGHT
 from .party import CHANGEUK
-from .party import DAFYDD
 from .party import DAVIDGAUKE
 from .party import DOMINICGRIEVE
 from .party import GAVINSHUKER
@@ -23,17 +21,14 @@ from .party import INDEPENDENT
 from .party import GREEN
 from .party import LAB
 from .party import LD
-from .party import MARTINGOSS
 from .party import NHAP
 from .party import OTHERS
-from .party import PAULFOLLOWS
 from .party import PLAID
 from .party import SDLP
 from .party import SF
 from .party import SNP
 from .party import SPEAKER
 from .party import UUP
-from .party import VIXLOWTHION
 
 class OtherSiteSuggestion(NamedTuple):
     who_suggests: str
@@ -195,21 +190,21 @@ def _remainunited():
 
 _PEOPLES_VOTE = {
     'Alliance': ALLIANCE,
-    'Aled ap Dafydd': DAFYDD,
-    'Anna Soubry': ANNASOUBRY,
+    'Aled ap Dafydd': PLAID,
+    'Anna Soubry': CHANGEUK,
     'Claire Wright': CLAIREWRIGHT,
     'Dominic Grieve': DOMINICGRIEVE,
     'Green Party': GREEN,
     'Labour': LAB,
     'Liberal Democrats': LD,
-    'Martin Goss': MARTINGOSS,
-    'Paul Follows': PAULFOLLOWS,
+    'Martin Goss': LD,
+    'Paul Follows': LD,
     'Plaid Cymru': PLAID,
     'Sinn Féin': SF,
     'Social Democratic and Labour Party': SDLP,
     'Speaker': SPEAKER,
     'Ulster Unionist Party': UUP,
-    'Vix Lowthion': VIXLOWTHION,
+    'Vix Lowthion': GREEN,
 }
 def _peoples_vote():
     for constituency in all_constituencies():

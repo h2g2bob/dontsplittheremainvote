@@ -5904,7 +5904,7 @@
           "who_suggests": "Best for Britain"
         },
         {
-          "party": "ind",
+          "party": "chuk",
           "url": "https://tactical-vote.uk/broxtowe",
           "who_suggests": "People's Vote"
         }
@@ -9087,8 +9087,8 @@
     },
     "colchester": {
       "aggregation": {
-        "party": null,
-        "template": "contradict.html"
+        "party": "ld",
+        "template": "vote-ld.html"
       },
       "analysis": {
         "template": "alliance-mixed.html",
@@ -9120,7 +9120,7 @@
           "who_suggests": "Remain United"
         },
         {
-          "party": "ind",
+          "party": "ld",
           "url": "https://tactical-vote.uk/colchester",
           "who_suggests": "People's Vote"
         },
@@ -18283,8 +18283,8 @@
     },
     "isle-of-wight": {
       "aggregation": {
-        "party": null,
-        "template": "contradict.html"
+        "party": "green",
+        "template": "vote-green.html"
       },
       "analysis": {
         "template": "alliance-mixed.html",
@@ -18316,7 +18316,7 @@
           "who_suggests": "Remain United"
         },
         {
-          "party": "ind",
+          "party": "green",
           "url": "https://tactical-vote.uk/isle-of-wight",
           "who_suggests": "People's Vote"
         }
@@ -32244,8 +32244,8 @@
     },
     "south-west-surrey": {
       "aggregation": {
-        "party": null,
-        "template": "contradict.html"
+        "party": "ld",
+        "template": "vote-ld.html"
       },
       "analysis": {
         "template": "alliance-mixed.html",
@@ -32272,7 +32272,7 @@
           "who_suggests": "Remain United"
         },
         {
-          "party": "ind",
+          "party": "ld",
           "url": "https://tactical-vote.uk/south-west-surrey",
           "who_suggests": "People's Vote"
         }
@@ -39995,7 +39995,7 @@
           "who_suggests": "Remain United"
         },
         {
-          "party": "ind",
+          "party": "plaid",
           "url": "https://tactical-vote.uk/ynys-mon",
           "who_suggests": "People's Vote"
         }

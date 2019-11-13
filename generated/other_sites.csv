@@ -95,7 +95,7 @@ broadland,E14000603,0.3758910864554859,ld,-1,,,,,,,,,,,lab,-1,,
 bromley-and-chislehurst,E14000604,0.43084308430843077,lab,3,,,,,lab,3,,,,,lab,3,lab,3
 bromsgrove,E14000605,0.3802183567727609,ld,-2,,,,,lab,0,,,,,lab,0,,
 broxbourne,E14000606,0.3201853216805306,lab,3,,,,,lab,3,,,,,lab,3,lab,3
-broxtowe,E14000607,0.49302803199538797,chuk,-2,,,,,ind,-2,,,,,lab,-2,,
+broxtowe,E14000607,0.49302803199538797,chuk,0,,,,,chuk,0,,,,,lab,-2,,
 buckingham,E14000608,0.8138537178002619,ld,1,,,,,ld,1,,,,,,,,
 burnley,E14000609,0.6174733184413006,lab,4,,,,,lab,4,,,lab,4,lab,4,lab,4
 burton,E14000610,0.4037386548055539,lab,4,lab,4,,,lab,4,,,,,lab,4,lab,4
@@ -145,7 +145,7 @@ cleethorpes,E14000643,0.3768706629880445,lab,3,,,,,lab,3,,,,,lab,3,lab,3
 clwyd-south,W07000062,0.5682606607247692,lab,5,lab,5,,,lab,5,,,lab,5,lab,5,lab,5
 clwyd-west,W07000059,0.5193338908840458,lab,4,,,,,lab,4,,,lab,4,lab,4,lab,4
 coatbridge-chryston-and-bellshill,S14000011,0.8375222024866785,,,,,,,,,,,,,,,,
-colchester,E14000644,0.5224577458212718,ld,0,,,ld,0,ind,-4,,,ld,0,lab,-4,,
+colchester,E14000644,0.5224577458212718,ld,2,,,ld,2,ld,2,,,ld,2,lab,-4,,
 colne-valley,E14000645,0.5182389937106918,lab,4,,,,,lab,4,,,lab,4,lab,4,lab,4
 congleton,E14000646,0.3932528320677206,lab,3,,,,,lab,3,,,,,lab,3,lab,3
 copeland,E14000647,0.4838679618887879,lab,4,,,,,lab,4,,,lab,4,lab,4,lab,4
@@ -298,7 +298,7 @@ ilford-south,E14000760,0.7583467748929011,lab,2,,,,,lab,2,,,,,lab,2,,
 inverclyde,S14000038,0.7851533522625535,,,,,,,,,,,,,snp,0,,
 inverness-nairn-badenoch-and-strathspey,S14000039,0.683149940342039,,,,,,,,,,,,,snp,1,snp,1
 ipswich,E14000761,0.4969200383284119,lab,5,,,,,lab,5,lab,5,lab,5,lab,5,lab,5
-isle-of-wight,E14000762,0.440070355402194,green,-1,,,,,ind,-3,,,lab,-3,green,-1,,
+isle-of-wight,E14000762,0.440070355402194,green,1,,,,,green,1,,,lab,-3,green,1,,
 islington-north,E14000763,0.860417273521701,lab,3,,,,,lab,3,,,,,lab,3,lab,3
 islington-south-and-finsbury,E14000764,0.7741056005327894,lab,3,,,,,lab,3,,,,,lab,3,lab,3
 islwyn,W07000077,0.6643116393760563,lab,5,lab,5,,,lab,5,,,lab,5,lab,5,lab,5
@@ -530,7 +530,7 @@ south-west-bedfordshire,E14000949,0.3850633593960636,ld,-2,,,,,lab,0,,,,,lab,0,,
 south-west-devon,E14000950,0.37238208751915547,ld,-2,,,,,lab,0,,,,,lab,0,,
 south-west-hertfordshire,E14000951,0.3995185728653158,ind,-1,,,,,,,,,,,lab,-1,,
 south-west-norfolk,E14000952,0.3233173076923076,lab,3,,,,,lab,3,,,,,lab,3,lab,3
-south-west-surrey,E14000953,0.4247087635689701,ld,0,,,,,ind,-2,,,ld,0,,,,
+south-west-surrey,E14000953,0.4247087635689701,ld,2,,,,,ld,2,,,ld,2,,,,
 south-west-wiltshire,E14000954,0.38939928037844057,ld,-1,,,,,,,,,,,lab,-1,,
 spelthorne,E14000959,0.3816621769929163,ld,-1,,,,,,,,,,,lab,-1,,
 stafford,E14000965,0.4525845466450967,lab,3,,,,,lab,3,,,,,lab,3,lab,3
@@ -646,6 +646,6 @@ wyre-and-preston-north,E14001057,0.3986817611974319,lab,3,,,,,lab,3,,,,,lab,3,la
 wyre-forest,E14001058,0.3812513446380723,lab,2,,,,,,,,,,,lab,2,lab,2
 wythenshawe-and-sale-east,E14001059,0.6549971644200148,lab,4,,,,,lab,4,,,lab,4,lab,4,lab,4
 yeovil,E14001060,0.421924449532018,ld,4,,,,,ld,4,,,ld,4,ld,4,ld,4
-ynys-mon,W07000041,0.6925897182005514,lab,2,,,,,ind,-4,,,lab,2,lab,2,lab,2
+ynys-mon,W07000041,0.6925897182005514,lab,2,,,,,plaid,-4,,,lab,2,lab,2,lab,2
 york-central,E14001061,0.6982557263411694,lab,3,,,,,lab,3,,,,,lab,3,lab,3
 york-outer,E14001062,0.4697616103923242,ld,-2,,,,,,,,,lab,0,lab,0,,
