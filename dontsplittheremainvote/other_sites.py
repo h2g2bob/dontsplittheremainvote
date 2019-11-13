@@ -106,6 +106,7 @@ def _tacticalvote_uk():
 def _tactical_dot_vote():
     PARTY_RECOMEND = {
         '<span class="no-recommendation recommendation-sm">No recommendation</span>': None,
+        '<span class="no-recommendation recommendation-sm">None</span>': None,
         '<span class="not-sure recommendation-sm">Not sure</span>': None,
         '<span class="labour recommendation-sm">Labour</span>': LAB,
         '<span class="scottish-national-party recommendation-sm">Scottish National Party</span>': SNP,
@@ -123,7 +124,7 @@ def _tactical_dot_vote():
         '<span class="independent recommendation-sm">Independent</span>': INDEPENDENT,
     }
     with open('data/tactical_dot_vote/all.html') as f:
-        [table] = re.compile(r'<table class="table" id="list">(.*)</table>', re.DOTALL).findall(f.read())
+        [table] = re.compile(r'<table class="table mt-3" id="list">(.*)</table>', re.DOTALL).findall(f.read())
         tr_list = [
             tr
             for tr in re.compile(r'<tr>(.*?)</tr>').findall(table)
