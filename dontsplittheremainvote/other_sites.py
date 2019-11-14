@@ -284,39 +284,6 @@ def _essex_against_tories():
                     party=party,
                     url='https://twitter.com/ProgEssex/status/1183701065390313472')]
 
-def _early_pv():
-    results = [
-        ('cheadle', LD),
-	('chingford-and-woodford-green', LAB),
-	('corby', LAB),
-	('hazel-grove', LD),
-	('hendon', LAB),
-	('north-devon', LD),
-	('richmond-park', LD),
-	('st-ives', LD),
-	('st-albans', LD),
-	('wells', LD),
-
-	('bishop-auckland', LAB),
-	('canterbury', LAB),
-	('carshalton-and-wallington', LD),
-	('enfield-southgate', LAB),
-	('gedling', LAB),
-	('ipswich', LAB),
-	('oxford-west-and-abingdon', LD),
-	('stroud', LAB),
-	('wakefield', LAB),
-	('weaver-vale', LAB)]
-    for slug, party in results:
-        if party is not None:
-            yield [
-                get_constitiuency_from_slug(slug),
-                OtherSiteSuggestion(
-                    who_suggests='People\'s Vote (early indication)',
-                    party=party,
-                    url='https://www.theneweuropean.co.uk/top-stories/tactical-voting-for-a-second-referendum-general-election-1-6261308')]
-
-
 def _jonworth():
     results = [
         # (i) Unusual Seats
@@ -373,8 +340,6 @@ def get_other_site_suggestions() -> Dict[Constituency, List[OtherSiteSuggestion]
 
     # trusted, hand-picked
     for constituency, suggest in _tacticalvote_uk():
-        out[constituency].append(suggest)
-    for constituency, suggest in _early_pv():
         out[constituency].append(suggest)
 
     # heavy GE2017 bias (LAB):
