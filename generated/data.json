@@ -432,6 +432,11 @@
           "party": "lab",
           "url": "https://www.remainunited.org/#postcode=M239HB",
           "who_suggests": "Remain United"
+        },
+        {
+          "party": "ld",
+          "url": "https://jonworth.eu/2019-uk-general-election-tactical-voting-guide/",
+          "who_suggests": "Jon Worth"
         }
       ],
       "outcome_frequency": [
@@ -870,6 +875,11 @@
           "party": "lab",
           "url": "https://tactical-vote.uk/ashfield",
           "who_suggests": "People's Vote"
+        },
+        {
+          "party": "lab",
+          "url": "https://jonworth.eu/2019-uk-general-election-tactical-voting-guide/",
+          "who_suggests": "Jon Worth"
         }
       ],
       "outcome_frequency": [
@@ -2006,6 +2016,11 @@
           "party": "ind",
           "url": "https://tactical-vote.uk/beaconsfield",
           "who_suggests": "People's Vote"
+        },
+        {
+          "party": "ind",
+          "url": "https://jonworth.eu/2019-uk-general-election-tactical-voting-guide/",
+          "who_suggests": "Jon Worth"
         }
       ],
       "outcome_frequency": [
@@ -6527,8 +6542,8 @@
     },
     "bury-st-edmunds": {
       "aggregation": {
-        "party": null,
-        "template": "contradict.html"
+        "party": "lab",
+        "template": "vote-lab.html"
       },
       "analysis": {
         "template": "alliance-mixed.html",
@@ -6558,6 +6573,11 @@
           "party": "lab",
           "url": "https://www.remainunited.org/#postcode=IP142BB",
           "who_suggests": "Remain United"
+        },
+        {
+          "party": "lab",
+          "url": "https://jonworth.eu/2019-uk-general-election-tactical-voting-guide/",
+          "who_suggests": "Jon Worth"
         }
       ],
       "outcome_frequency": [
@@ -8296,6 +8316,11 @@
           "party": "ld",
           "url": "https://tactical-vote.uk/chelsea-and-fulham",
           "who_suggests": "People's Vote"
+        },
+        {
+          "party": "ld",
+          "url": "https://jonworth.eu/2019-uk-general-election-tactical-voting-guide/",
+          "who_suggests": "Jon Worth"
         }
       ],
       "outcome_frequency": [
@@ -8957,6 +8982,11 @@
           "party": "ld",
           "url": "https://tactical-vote.uk/cities-of-london-and-westminster",
           "who_suggests": "People's Vote"
+        },
+        {
+          "party": "ld",
+          "url": "https://jonworth.eu/2019-uk-general-election-tactical-voting-guide/",
+          "who_suggests": "Jon Worth"
         }
       ],
       "outcome_frequency": [
@@ -12261,6 +12291,11 @@
           "party": "ind-wright",
           "url": "https://tactical-vote.uk/east-devon",
           "who_suggests": "People's Vote"
+        },
+        {
+          "party": "ind-wright",
+          "url": "https://jonworth.eu/2019-uk-general-election-tactical-voting-guide/",
+          "who_suggests": "Jon Worth"
         }
       ],
       "outcome_frequency": [
@@ -13015,6 +13050,11 @@
           "party": "ld",
           "url": "https://tactical-vote.uk/eddisbury",
           "who_suggests": "People's Vote"
+        },
+        {
+          "party": "ld",
+          "url": "https://jonworth.eu/2019-uk-general-election-tactical-voting-guide/",
+          "who_suggests": "Jon Worth"
         }
       ],
       "outcome_frequency": [
@@ -13419,8 +13459,8 @@
     },
     "elmet-and-rothwell": {
       "aggregation": {
-        "party": null,
-        "template": "contradict.html"
+        "party": "lab",
+        "template": "vote-lab.html"
       },
       "analysis": {
         "template": "alliance-mixed.html",
@@ -13450,6 +13490,11 @@
           "party": "lab",
           "url": "https://www.remainunited.org/#postcode=LS143BB",
           "who_suggests": "Remain United"
+        },
+        {
+          "party": "lab",
+          "url": "https://jonworth.eu/2019-uk-general-election-tactical-voting-guide/",
+          "who_suggests": "Jon Worth"
         }
       ],
       "outcome_frequency": [
@@ -14000,6 +14045,11 @@
           "party": "ld",
           "url": "https://tactical-vote.uk/esher-and-walton",
           "who_suggests": "People's Vote"
+        },
+        {
+          "party": "ld",
+          "url": "https://jonworth.eu/2019-uk-general-election-tactical-voting-guide/",
+          "who_suggests": "Jon Worth"
         }
       ],
       "outcome_frequency": [
@@ -14460,8 +14510,8 @@
     },
     "finchley-and-golders-green": {
       "aggregation": {
-        "party": null,
-        "template": "contradict.html"
+        "party": "ld",
+        "template": "vote-ld.html"
       },
       "analysis": {
         "template": "alliance-mixed.html",
@@ -14491,6 +14541,11 @@
           "party": "ld",
           "url": "https://tactical-vote.uk/finchley-and-golders-green",
           "who_suggests": "People's Vote"
+        },
+        {
+          "party": "ld",
+          "url": "https://jonworth.eu/2019-uk-general-election-tactical-voting-guide/",
+          "who_suggests": "Jon Worth"
         }
       ],
       "outcome_frequency": [
@@ -17616,6 +17671,11 @@
           "party": "ld",
           "url": "https://tactical-vote.uk/henley",
           "who_suggests": "People's Vote"
+        },
+        {
+          "party": "ld",
+          "url": "https://jonworth.eu/2019-uk-general-election-tactical-voting-guide/",
+          "who_suggests": "Jon Worth"
         }
       ],
       "outcome_frequency": [
@@ -18085,6 +18145,11 @@
           "party": "ld",
           "url": "https://tactical-vote.uk/hitchin-and-harpenden",
           "who_suggests": "People's Vote"
+        },
+        {
+          "party": "ld",
+          "url": "https://jonworth.eu/2019-uk-general-election-tactical-voting-guide/",
+          "who_suggests": "Jon Worth"
         }
       ],
       "outcome_frequency": [
@@ -20602,6 +20667,11 @@
           "party": "lab",
           "url": "https://tactical-vote.uk/leicester-east",
           "who_suggests": "People's Vote"
+        },
+        {
+          "party": "lab",
+          "url": "https://jonworth.eu/2019-uk-general-election-tactical-voting-guide/",
+          "who_suggests": "Jon Worth"
         }
       ],
       "outcome_frequency": [
@@ -21986,6 +22056,11 @@
           "party": "lab",
           "url": "https://tactical-vote.uk/macclesfield",
           "who_suggests": "People's Vote"
+        },
+        {
+          "party": "lab",
+          "url": "https://jonworth.eu/2019-uk-general-election-tactical-voting-guide/",
+          "who_suggests": "Jon Worth"
         }
       ],
       "outcome_frequency": [
@@ -24829,6 +24904,11 @@
           "party": "ld",
           "url": "https://tactical-vote.uk/newton-abbot",
           "who_suggests": "People's Vote"
+        },
+        {
+          "party": "ld",
+          "url": "https://jonworth.eu/2019-uk-general-election-tactical-voting-guide/",
+          "who_suggests": "Jon Worth"
         }
       ],
       "outcome_frequency": [
@@ -25781,6 +25861,11 @@
           "party": "lab",
           "url": "https://www.remainunited.org/#postcode=BA152BB",
           "who_suggests": "Remain United"
+        },
+        {
+          "party": "ld",
+          "url": "https://jonworth.eu/2019-uk-general-election-tactical-voting-guide/",
+          "who_suggests": "Jon Worth"
         }
       ],
       "outcome_frequency": [
@@ -30483,6 +30568,11 @@
           "party": "lab",
           "url": "https://tactical-vote.uk/rushcliffe",
           "who_suggests": "People's Vote"
+        },
+        {
+          "party": "lab",
+          "url": "https://jonworth.eu/2019-uk-general-election-tactical-voting-guide/",
+          "who_suggests": "Jon Worth"
         }
       ],
       "outcome_frequency": [
@@ -32534,6 +32624,11 @@
           "party": "ld",
           "url": "https://tactical-vote.uk/south-east-cambridgeshire",
           "who_suggests": "People's Vote"
+        },
+        {
+          "party": "ld",
+          "url": "https://jonworth.eu/2019-uk-general-election-tactical-voting-guide/",
+          "who_suggests": "Jon Worth"
         }
       ],
       "outcome_frequency": [
@@ -32604,6 +32699,11 @@
           "party": "ld",
           "url": "https://tactical-vote.uk/south-east-cornwall",
           "who_suggests": "People's Vote"
+        },
+        {
+          "party": "ld",
+          "url": "https://jonworth.eu/2019-uk-general-election-tactical-voting-guide/",
+          "who_suggests": "Jon Worth"
         }
       ],
       "outcome_frequency": [
@@ -33434,6 +33534,11 @@
           "party": "ind",
           "url": "https://getvoting.org/",
           "who_suggests": "Best for Britain"
+        },
+        {
+          "party": "ind",
+          "url": "https://jonworth.eu/2019-uk-general-election-tactical-voting-guide/",
+          "who_suggests": "Jon Worth"
         }
       ],
       "outcome_frequency": [
@@ -33911,6 +34016,11 @@
           "party": "ld",
           "url": "https://tactical-vote.uk/southport",
           "who_suggests": "People's Vote"
+        },
+        {
+          "party": "ld",
+          "url": "https://jonworth.eu/2019-uk-general-election-tactical-voting-guide/",
+          "who_suggests": "Jon Worth"
         }
       ],
       "outcome_frequency": [
@@ -34123,6 +34233,11 @@
           "party": "ld",
           "url": "https://tactical-vote.uk/st-austell-and-newquay",
           "who_suggests": "People's Vote"
+        },
+        {
+          "party": "ld",
+          "url": "https://jonworth.eu/2019-uk-general-election-tactical-voting-guide/",
+          "who_suggests": "Jon Worth"
         }
       ],
       "outcome_frequency": [
@@ -38198,6 +38313,11 @@
           "party": "ld",
           "url": "https://tactical-vote.uk/wantage",
           "who_suggests": "People's Vote"
+        },
+        {
+          "party": "ld",
+          "url": "https://jonworth.eu/2019-uk-general-election-tactical-voting-guide/",
+          "who_suggests": "Jon Worth"
         }
       ],
       "outcome_frequency": [
@@ -39995,8 +40115,8 @@
     },
     "wimbledon": {
       "aggregation": {
-        "party": null,
-        "template": "contradict.html"
+        "party": "ld",
+        "template": "vote-ld.html"
       },
       "analysis": {
         "template": "alliance-mixed.html",
@@ -40026,6 +40146,11 @@
           "party": "ld",
           "url": "https://tactical-vote.uk/wimbledon",
           "who_suggests": "People's Vote"
+        },
+        {
+          "party": "ld",
+          "url": "https://jonworth.eu/2019-uk-general-election-tactical-voting-guide/",
+          "who_suggests": "Jon Worth"
         }
       ],
       "outcome_frequency": [
@@ -40513,6 +40638,11 @@
           "party": "ld",
           "url": "https://tactical-vote.uk/woking",
           "who_suggests": "People's Vote"
+        },
+        {
+          "party": "ld",
+          "url": "https://jonworth.eu/2019-uk-general-election-tactical-voting-guide/",
+          "who_suggests": "Jon Worth"
         }
       ],
       "outcome_frequency": [

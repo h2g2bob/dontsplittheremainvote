@@ -316,6 +316,57 @@ def _early_pv():
                     party=party,
                     url='https://www.theneweuropean.co.uk/top-stories/tactical-voting-for-a-second-referendum-general-election-1-6261308')]
 
+
+def _jonworth():
+    results = [
+        # (i) Unusual Seats
+        ('ashfield', LAB),
+        ('finchley-and-golders-green', LD),
+        ('leicester-east', LAB),
+
+        # (ii) Seats with prominent independents and/or incumbents running
+        ('beaconsfield', DOMINICGRIEVE),
+        ('east-devon', CLAIREWRIGHT),
+        ('eddisbury', LD),
+        ('south-west-hertfordshire', DAVIDGAUKE),
+
+        # (iii) Three way marginals with Conservative incumbents, Labour 2nd in 2017
+        ('altrincham-and-sale-west', LD),
+        ('chelsea-and-fulham', LD),
+        ('cities-of-london-and-westminster', LD),
+        ('esher-and-walton', LD),
+        ('henley', LD),
+        ('hitchin-and-harpenden', LD),
+        ('newton-abbot', LD),
+        ('north-east-somerset', LD),
+        ('south-east-cambridgeshire', LD),
+        ('south-east-cornwall', LD),
+        ('southport', LD),
+        ('st-austell-and-newquay', LD),
+        ('woking', LD),
+
+        ('wimbledon', LD),
+        ('wantage', LD),
+
+        # ('ashfield', LAB) again
+        ('elmet-and-rothwell', LAB),
+        ('macclesfield', LAB),
+
+        ('rushcliffe', LAB),
+
+        # (iv) Other three way marginals
+        ('bury-st-edmunds', LAB),
+    ]
+    for slug, party in results:
+        if party is not None:
+            yield [
+                get_constitiuency_from_slug(slug),
+                OtherSiteSuggestion(
+                    who_suggests='Jon Worth',
+                    party=party,
+                    url='https://jonworth.eu/2019-uk-general-election-tactical-voting-guide/')]
+
+
 def get_other_site_suggestions() -> Dict[Constituency, List[OtherSiteSuggestion]]:
     # This is actually ordered, because a python dict is secretly an OrderedDict
     out = defaultdict(list)
@@ -343,6 +394,8 @@ def get_other_site_suggestions() -> Dict[Constituency, List[OtherSiteSuggestion]
         out[constituency].append(suggest)
 
     # smaller sites:
+    for constituency, suggest in _jonworth():
+        out[constituency].append(suggest)
     for constituency, suggest in _essex_against_tories():
         out[constituency].append(suggest)
 
