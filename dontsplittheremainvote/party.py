@@ -31,6 +31,7 @@ DOMINICGRIEVE = Party('Dominic Grieve', remain=True, color='#e7e7e7', short='ind
 DAVIDGAUKE = Party('David Gauke', remain=True, color='#e7e7e7', short='ind')
 GAVINSHUKER = Party('Gavin Shuker', remain=True, color='#e7e7e7', short='ind')
 SPEAKER = Party('Speaker', remain=True, color='#888888')
+ANYPARTY = Party('any remain party', remain=True, color='#888888', short='any')
 
 _ALL_PARTIES = [
     LAB,

@@ -12,6 +12,7 @@ from .constituency import get_constitiuency_from_slug
 from .party import Party
 from .party import get_party
 from .party import ALLIANCE
+from .party import ANYPARTY
 from .party import CLAIREWRIGHT
 from .party import CHANGEUK
 from .party import DAVIDGAUKE
@@ -73,7 +74,7 @@ def _getvoting():
         'Green': GREEN,
         'Lab': LAB,
         'Lib Dem': LD,
-        'LibLab': None, # "Either LD or LAB"
+        'LibLab': ANYPARTY, # "Either LD or LAB"
         'Lindsey Hoyle': None, # Speaker, so "no recommendation"
         'none': None,
         'Philip Hammond': INDEPENDENT, # former conservative, but he decided to stand down
@@ -107,8 +108,8 @@ def _tacticalvote_uk():
 
 def _tactical_dot_vote():
     PARTY_RECOMEND = {
-        '<span class="no-recommendation recommendation-sm">No recommendation</span>': None,
-        '<span class="no-recommendation recommendation-sm">None</span>': None,
+        '<span class="no-recommendation recommendation-sm">No recommendation</span>': ANYPARTY,
+        '<span class="no-recommendation recommendation-sm">None</span>': ANYPARTY,
         '<span class="not-sure recommendation-sm">Not sure</span>': None,
         '<span class="labour recommendation-sm">Labour</span>': LAB,
         '<span class="scottish-national-party recommendation-sm">Scottish National Party</span>': SNP,
@@ -163,7 +164,8 @@ _REMAINUTD = {
     'For the best chance of reducing the DUP majority, vote Sinn Fein': SF,
     'For the best chance of reducing the DUP majority, vote Alliance': ALLIANCE,
 
-    'Voter choice - Lib Dem or Lab ': None,
+    'No recommendation': ANYPARTY,
+    'Voter choice - Lib Dem or Lab ': ANYPARTY,
     'seat hard to predict due to prominent Independent candidate': None,
     'Conservative-Independent seat': None, # no explanation - eg: east devon
 }
@@ -186,8 +188,6 @@ def _remainunited():
 
             if answer1 != answer2:
                 raise Exception((constituency, answer1, answer2))
-            if answer1 == 'No recommendation':
-                continue
 
             party = _REMAINUTD[answer1]
             if party is None:

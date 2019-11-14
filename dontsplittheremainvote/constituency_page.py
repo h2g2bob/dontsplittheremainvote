@@ -8,6 +8,7 @@ from .other_sites import Aggregation
 from .other_sites import OtherSiteSuggestion
 from .other_sites import dontsplit_suggestion
 from .pacts import Pact
+from .party import ANYPARTY
 from .ppc import PPC
 from .result import Result
 from collections import defaultdict
@@ -52,7 +53,13 @@ class ConstituencyPage(NamedTuple):
         recommendations = defaultdict(int)
         for suggest in self.other_sites_plus_dontsplit:
             recommendations[suggest.party] += 1
+        num_any_party = recommendations.pop(ANYPARTY, 0)
         num_recommendations = sum(recommendations.values())
+
+        if num_any_party > num_recommendations:
+            return Aggregation(
+                template='anyparty.html',
+                provisional=num_any_party < 3)
 
         if num_recommendations < 2:
             return Aggregation(

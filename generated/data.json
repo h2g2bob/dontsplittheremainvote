@@ -258,6 +258,11 @@
           "party": "snp",
           "url": "https://tactical.vote/airdrie-and-shotts",
           "who_suggests": "tactical.vote"
+        },
+        {
+          "party": "any",
+          "url": "https://www.remainunited.org/#postcode=ML68HP",
+          "who_suggests": "Remain United"
         }
       ],
       "outcome_frequency": [
@@ -691,9 +696,19 @@
       },
       "other_sites": [
         {
+          "party": "any",
+          "url": "https://tactical.vote/arfon",
+          "who_suggests": "tactical.vote"
+        },
+        {
           "party": "plaid",
           "url": "https://getvoting.org/",
           "who_suggests": "Best for Britain"
+        },
+        {
+          "party": "any",
+          "url": "https://www.remainunited.org/#postcode=LL545DU",
+          "who_suggests": "Remain United"
         },
         {
           "party": "plaid",
@@ -2008,6 +2023,11 @@
       },
       "other_sites": [
         {
+          "party": "any",
+          "url": "https://tactical.vote/beaconsfield",
+          "who_suggests": "tactical.vote"
+        },
+        {
           "party": "ind",
           "url": "https://getvoting.org/",
           "who_suggests": "Best for Britain"
@@ -2315,6 +2335,11 @@
           "who_suggests": "tactical.vote"
         },
         {
+          "party": "any",
+          "url": "https://www.remainunited.org/#postcode=BT100AA",
+          "who_suggests": "Remain United"
+        },
+        {
           "party": "sdlp",
           "url": "https://tactical-vote.uk/belfast-south",
           "who_suggests": "People's Vote"
@@ -2389,7 +2414,7 @@
     "bermondsey-and-old-southwark": {
       "aggregation": {
         "party": null,
-        "template": "pending.html"
+        "template": "anyparty.html"
       },
       "analysis": {
         "template": "remain.html",
@@ -2405,6 +2430,21 @@
         "slug": "bermondsey-and-old-southwark"
       },
       "other_sites": [
+        {
+          "party": "any",
+          "url": "https://tactical.vote/bermondsey-and-old-southwark",
+          "who_suggests": "tactical.vote"
+        },
+        {
+          "party": "any",
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
+        },
+        {
+          "party": "any",
+          "url": "https://www.remainunited.org/#postcode=SE156FS",
+          "who_suggests": "Remain United"
+        },
         {
           "party": "lab",
           "url": "https://tactical-vote.uk/bermondsey-and-old-southwark",
@@ -3776,6 +3816,11 @@
         "slug": "blaenau-gwent"
       },
       "other_sites": [
+        {
+          "party": "any",
+          "url": "https://tactical.vote/blaenau-gwent",
+          "who_suggests": "tactical.vote"
+        },
         {
           "party": "lab",
           "url": "https://getvoting.org/",
@@ -5233,6 +5278,11 @@
       },
       "other_sites": [
         {
+          "party": "any",
+          "url": "https://tactical.vote/brentwood-and-ongar",
+          "who_suggests": "tactical.vote"
+        },
+        {
           "party": "ld",
           "url": "https://getvoting.org/",
           "who_suggests": "Best for Britain"
@@ -5585,6 +5635,11 @@
           "who_suggests": "Best for Britain"
         },
         {
+          "party": "any",
+          "url": "https://www.remainunited.org/#postcode=BN11AA",
+          "who_suggests": "Remain United"
+        },
+        {
           "party": "green",
           "url": "https://tactical-vote.uk/brighton-pavilion",
           "who_suggests": "People's Vote"
@@ -5846,6 +5901,11 @@
           "party": "lab",
           "url": "https://tacticalvote.co.uk/#BristolWest",
           "who_suggests": "tacticalvote.co.uk"
+        },
+        {
+          "party": "any",
+          "url": "https://tactical.vote/bristol-west",
+          "who_suggests": "tactical.vote"
         },
         {
           "party": "lab",
@@ -6707,6 +6767,11 @@
           "party": "ld",
           "url": "https://tactical.vote/caithness-sutherland-and-easter-ross",
           "who_suggests": "tactical.vote"
+        },
+        {
+          "party": "any",
+          "url": "https://www.remainunited.org/#postcode=KW148BG",
+          "who_suggests": "Remain United"
         }
       ],
       "outcome_frequency": [
@@ -6952,7 +7017,7 @@
     "cambridge": {
       "aggregation": {
         "party": null,
-        "template": "pending.html"
+        "template": "anyparty.html"
       },
       "analysis": {
         "template": "remain.html",
@@ -6968,6 +7033,21 @@
         "slug": "cambridge"
       },
       "other_sites": [
+        {
+          "party": "any",
+          "url": "https://tactical.vote/cambridge",
+          "who_suggests": "tactical.vote"
+        },
+        {
+          "party": "any",
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
+        },
+        {
+          "party": "any",
+          "url": "https://www.remainunited.org/#postcode=CB12QH",
+          "who_suggests": "Remain United"
+        },
         {
           "party": "lab",
           "url": "https://tactical-vote.uk/cambridge",
@@ -7730,6 +7810,11 @@
       },
       "other_sites": [
         {
+          "party": "any",
+          "url": "https://tactical.vote/castle-point",
+          "who_suggests": "tactical.vote"
+        },
+        {
           "party": "ld",
           "url": "https://getvoting.org/",
           "who_suggests": "Best for Britain"
@@ -7966,9 +8051,19 @@
       },
       "other_sites": [
         {
+          "party": "any",
+          "url": "https://tactical.vote/ceredigion",
+          "who_suggests": "tactical.vote"
+        },
+        {
           "party": "plaid",
           "url": "https://getvoting.org/",
           "who_suggests": "Best for Britain"
+        },
+        {
+          "party": "any",
+          "url": "https://www.remainunited.org/#postcode=SA389DS",
+          "who_suggests": "Remain United"
         },
         {
           "party": "plaid",
@@ -8428,6 +8523,11 @@
       },
       "other_sites": [
         {
+          "party": "any",
+          "url": "https://tactical.vote/chesham-and-amersham",
+          "who_suggests": "tactical.vote"
+        },
+        {
           "party": "ld",
           "url": "https://getvoting.org/",
           "who_suggests": "Best for Britain"
@@ -8885,6 +8985,11 @@
         "slug": "christchurch"
       },
       "other_sites": [
+        {
+          "party": "any",
+          "url": "https://tactical.vote/christchurch",
+          "who_suggests": "tactical.vote"
+        },
         {
           "party": "ld",
           "url": "https://getvoting.org/",
@@ -9396,7 +9501,7 @@
     "coatbridge-chryston-and-bellshill": {
       "aggregation": {
         "party": null,
-        "template": "pending.html"
+        "template": "anyparty.html"
       },
       "analysis": {
         "template": "remain.html",
@@ -9411,7 +9516,18 @@
         "region": "Scotland",
         "slug": "coatbridge-chryston-and-bellshill"
       },
-      "other_sites": [],
+      "other_sites": [
+        {
+          "party": "any",
+          "url": "https://tactical.vote/coatbridge-chryston-and-bellshill",
+          "who_suggests": "tactical.vote"
+        },
+        {
+          "party": "any",
+          "url": "https://www.remainunited.org/#postcode=G674GZ",
+          "who_suggests": "Remain United"
+        }
+      ],
       "outcome_frequency": [
         [
           {
@@ -11020,6 +11136,11 @@
       },
       "other_sites": [
         {
+          "party": "any",
+          "url": "https://tactical.vote/devizes",
+          "who_suggests": "tactical.vote"
+        },
+        {
           "party": "ld",
           "url": "https://getvoting.org/",
           "who_suggests": "Best for Britain"
@@ -11801,6 +11922,11 @@
       },
       "other_sites": [
         {
+          "party": "any",
+          "url": "https://tactical.vote/dundee-west",
+          "who_suggests": "tactical.vote"
+        },
+        {
           "party": "snp",
           "url": "https://www.remainunited.org/#postcode=DD21AJ",
           "who_suggests": "Remain United"
@@ -12310,7 +12436,7 @@
     "east-dunbartonshire": {
       "aggregation": {
         "party": null,
-        "template": "pending.html"
+        "template": "anyparty.html"
       },
       "analysis": {
         "template": "alliance-mixed.html",
@@ -12325,7 +12451,18 @@
         "region": "Scotland",
         "slug": "east-dunbartonshire"
       },
-      "other_sites": [],
+      "other_sites": [
+        {
+          "party": "any",
+          "url": "https://tactical.vote/east-dunbartonshire",
+          "who_suggests": "tactical.vote"
+        },
+        {
+          "party": "any",
+          "url": "https://www.remainunited.org/#postcode=G641UY",
+          "who_suggests": "Remain United"
+        }
+      ],
       "outcome_frequency": [
         [
           {
@@ -12426,6 +12563,11 @@
         "slug": "east-hampshire"
       },
       "other_sites": [
+        {
+          "party": "any",
+          "url": "https://tactical.vote/east-hampshire",
+          "who_suggests": "tactical.vote"
+        },
         {
           "party": "ld",
           "url": "https://getvoting.org/",
@@ -12572,6 +12714,11 @@
           "party": "lab",
           "url": "https://tactical.vote/east-lothian",
           "who_suggests": "tactical.vote"
+        },
+        {
+          "party": "any",
+          "url": "https://www.remainunited.org/#postcode=EH395JX",
+          "who_suggests": "Remain United"
         }
       ],
       "outcome_frequency": [
@@ -12671,6 +12818,11 @@
         "slug": "east-surrey"
       },
       "other_sites": [
+        {
+          "party": "any",
+          "url": "https://tactical.vote/east-surrey",
+          "who_suggests": "tactical.vote"
+        },
         {
           "party": "ld",
           "url": "https://getvoting.org/",
@@ -13164,6 +13316,11 @@
           "party": "lab",
           "url": "https://tactical.vote/edinburgh-south",
           "who_suggests": "tactical.vote"
+        },
+        {
+          "party": "any",
+          "url": "https://www.remainunited.org/#postcode=EH105BE",
+          "who_suggests": "Remain United"
         }
       ],
       "outcome_frequency": [
@@ -13267,6 +13424,11 @@
           "party": "ld",
           "url": "https://tactical.vote/edinburgh-west",
           "who_suggests": "tactical.vote"
+        },
+        {
+          "party": "any",
+          "url": "https://www.remainunited.org/#postcode=EH128QH",
+          "who_suggests": "Remain United"
         }
       ],
       "outcome_frequency": [
@@ -14503,6 +14665,11 @@
           "who_suggests": "Best for Britain"
         },
         {
+          "party": "any",
+          "url": "https://www.remainunited.org/#postcode=N101JW",
+          "who_suggests": "Remain United"
+        },
+        {
           "party": "ld",
           "url": "https://tactical-vote.uk/finchley-and-golders-green",
           "who_suggests": "People's Vote"
@@ -14714,7 +14881,7 @@
     "foyle": {
       "aggregation": {
         "party": null,
-        "template": "pending.html"
+        "template": "anyparty.html"
       },
       "analysis": {
         "template": "remain.html",
@@ -14730,6 +14897,16 @@
         "slug": "foyle"
       },
       "other_sites": [
+        {
+          "party": "any",
+          "url": "https://tactical.vote/foyle",
+          "who_suggests": "tactical.vote"
+        },
+        {
+          "party": "any",
+          "url": "https://www.remainunited.org/#postcode=BT472BB",
+          "who_suggests": "Remain United"
+        },
         {
           "party": "sdlp",
           "url": "https://tactical-vote.uk/foyle",
@@ -15142,7 +15319,7 @@
     "glasgow-central": {
       "aggregation": {
         "party": null,
-        "template": "pending.html"
+        "template": "anyparty.html"
       },
       "analysis": {
         "template": "no-conflict-easy.html",
@@ -15157,7 +15334,18 @@
         "region": "Scotland",
         "slug": "glasgow-central"
       },
-      "other_sites": [],
+      "other_sites": [
+        {
+          "party": "any",
+          "url": "https://tactical.vote/glasgow-central",
+          "who_suggests": "tactical.vote"
+        },
+        {
+          "party": "any",
+          "url": "https://www.remainunited.org/#postcode=G15PE",
+          "who_suggests": "Remain United"
+        }
+      ],
       "outcome_frequency": [
         [
           {
@@ -15199,6 +15387,11 @@
           "party": "snp",
           "url": "https://tactical.vote/glasgow-east",
           "who_suggests": "tactical.vote"
+        },
+        {
+          "party": "any",
+          "url": "https://www.remainunited.org/#postcode=G340PL",
+          "who_suggests": "Remain United"
         }
       ],
       "outcome_frequency": [
@@ -15215,7 +15408,7 @@
     "glasgow-north": {
       "aggregation": {
         "party": null,
-        "template": "pending.html"
+        "template": "anyparty.html"
       },
       "analysis": {
         "template": "no-conflict-easy.html",
@@ -15230,7 +15423,18 @@
         "region": "Scotland",
         "slug": "glasgow-north"
       },
-      "other_sites": [],
+      "other_sites": [
+        {
+          "party": "any",
+          "url": "https://tactical.vote/glasgow-north",
+          "who_suggests": "tactical.vote"
+        },
+        {
+          "party": "any",
+          "url": "https://www.remainunited.org/#postcode=G200EG",
+          "who_suggests": "Remain United"
+        }
+      ],
       "outcome_frequency": [
         [
           {
@@ -15252,7 +15456,7 @@
     "glasgow-north-east": {
       "aggregation": {
         "party": null,
-        "template": "pending.html"
+        "template": "anyparty.html"
       },
       "analysis": {
         "template": "remain.html",
@@ -15267,7 +15471,18 @@
         "region": "Scotland",
         "slug": "glasgow-north-east"
       },
-      "other_sites": [],
+      "other_sites": [
+        {
+          "party": "any",
+          "url": "https://tactical.vote/glasgow-north-east",
+          "who_suggests": "tactical.vote"
+        },
+        {
+          "party": "any",
+          "url": "https://www.remainunited.org/#postcode=G213TT",
+          "who_suggests": "Remain United"
+        }
+      ],
       "outcome_frequency": [
         [
           {
@@ -15350,6 +15565,11 @@
           "party": "snp",
           "url": "https://tactical.vote/glasgow-south",
           "who_suggests": "tactical.vote"
+        },
+        {
+          "party": "any",
+          "url": "https://www.remainunited.org/#postcode=G431DF",
+          "who_suggests": "Remain United"
         }
       ],
       "outcome_frequency": [
@@ -15366,7 +15586,7 @@
     "glasgow-south-west": {
       "aggregation": {
         "party": null,
-        "template": "pending.html"
+        "template": "anyparty.html"
       },
       "analysis": {
         "template": "remain.html",
@@ -15381,7 +15601,18 @@
         "region": "Scotland",
         "slug": "glasgow-south-west"
       },
-      "other_sites": [],
+      "other_sites": [
+        {
+          "party": "any",
+          "url": "https://tactical.vote/glasgow-south-west",
+          "who_suggests": "tactical.vote"
+        },
+        {
+          "party": "any",
+          "url": "https://www.remainunited.org/#postcode=G514ND",
+          "who_suggests": "Remain United"
+        }
+      ],
       "outcome_frequency": [
         [
           {
@@ -18285,9 +18516,19 @@
       },
       "other_sites": [
         {
+          "party": "any",
+          "url": "https://tactical.vote/hornsey-and-wood-green",
+          "who_suggests": "tactical.vote"
+        },
+        {
           "party": "lab",
           "url": "https://getvoting.org/",
           "who_suggests": "Best for Britain"
+        },
+        {
+          "party": "any",
+          "url": "https://www.remainunited.org/#postcode=N177EQ",
+          "who_suggests": "Remain United"
         },
         {
           "party": "lab",
@@ -18841,6 +19082,11 @@
           "party": "snp",
           "url": "https://tactical.vote/inverclyde",
           "who_suggests": "tactical.vote"
+        },
+        {
+          "party": "any",
+          "url": "https://www.remainunited.org/#postcode=PA146AE",
+          "who_suggests": "Remain United"
         }
       ],
       "outcome_frequency": [
@@ -20018,6 +20264,11 @@
           "party": "lab",
           "url": "https://tactical.vote/kirkcaldy-and-cowdenbeath",
           "who_suggests": "tactical.vote"
+        },
+        {
+          "party": "any",
+          "url": "https://www.remainunited.org/#postcode=KY39UZ",
+          "who_suggests": "Remain United"
         }
       ],
       "outcome_frequency": [
@@ -20465,6 +20716,16 @@
           "party": "lab",
           "url": "https://tactical.vote/leeds-north-west",
           "who_suggests": "tactical.vote"
+        },
+        {
+          "party": "any",
+          "url": "https://getvoting.org/",
+          "who_suggests": "Best for Britain"
+        },
+        {
+          "party": "any",
+          "url": "https://www.remainunited.org/#postcode=LS166LU",
+          "who_suggests": "Remain United"
         },
         {
           "party": "lab",
@@ -22053,6 +22314,11 @@
       },
       "other_sites": [
         {
+          "party": "any",
+          "url": "https://tactical.vote/maidenhead",
+          "who_suggests": "tactical.vote"
+        },
+        {
           "party": "ld",
           "url": "https://getvoting.org/",
           "who_suggests": "Best for Britain"
@@ -22255,6 +22521,11 @@
       },
       "other_sites": [
         {
+          "party": "any",
+          "url": "https://tactical.vote/maldon",
+          "who_suggests": "tactical.vote"
+        },
+        {
           "party": "ld",
           "url": "https://getvoting.org/",
           "who_suggests": "Best for Britain"
@@ -22434,6 +22705,11 @@
       },
       "other_sites": [
         {
+          "party": "any",
+          "url": "https://tactical.vote/manchester-withington",
+          "who_suggests": "tactical.vote"
+        },
+        {
           "party": "lab",
           "url": "https://getvoting.org/",
           "who_suggests": "Best for Britain"
@@ -22563,6 +22839,11 @@
         "slug": "meon-valley"
       },
       "other_sites": [
+        {
+          "party": "any",
+          "url": "https://tactical.vote/meon-valley",
+          "who_suggests": "tactical.vote"
+        },
         {
           "party": "ld",
           "url": "https://getvoting.org/",
@@ -23123,6 +23404,11 @@
       },
       "other_sites": [
         {
+          "party": "any",
+          "url": "https://tactical.vote/mid-worcestershire",
+          "who_suggests": "tactical.vote"
+        },
+        {
           "party": "ld",
           "url": "https://getvoting.org/",
           "who_suggests": "Best for Britain"
@@ -23326,6 +23612,11 @@
           "party": "lab",
           "url": "https://tactical.vote/midlothian",
           "who_suggests": "tactical.vote"
+        },
+        {
+          "party": "any",
+          "url": "https://www.remainunited.org/#postcode=EH222HB",
+          "who_suggests": "Remain United"
         }
       ],
       "outcome_frequency": [
@@ -23579,6 +23870,11 @@
           "party": "ld",
           "url": "https://tacticalvote.co.uk/#MoleValley",
           "who_suggests": "tacticalvote.co.uk"
+        },
+        {
+          "party": "any",
+          "url": "https://tactical.vote/mole-valley",
+          "who_suggests": "tactical.vote"
         },
         {
           "party": "ld",
@@ -24007,6 +24303,11 @@
           "party": "snp",
           "url": "https://tactical.vote/motherwell-and-wishaw",
           "who_suggests": "tactical.vote"
+        },
+        {
+          "party": "any",
+          "url": "https://www.remainunited.org/#postcode=ML28NJ",
+          "who_suggests": "Remain United"
         }
       ],
       "outcome_frequency": [
@@ -24039,6 +24340,11 @@
         "slug": "na-h-eileanan-an-iar"
       },
       "other_sites": [
+        {
+          "party": "any",
+          "url": "https://tactical.vote/na-h-eileanan-an-iar",
+          "who_suggests": "tactical.vote"
+        },
         {
           "party": "snp",
           "url": "https://www.remainunited.org/#postcode=HS29QY",
@@ -24139,6 +24445,11 @@
       },
       "other_sites": [
         {
+          "party": "any",
+          "url": "https://tactical.vote/new-forest-east",
+          "who_suggests": "tactical.vote"
+        },
+        {
           "party": "ld",
           "url": "https://getvoting.org/",
           "who_suggests": "Best for Britain"
@@ -24198,6 +24509,11 @@
         "slug": "new-forest-west"
       },
       "other_sites": [
+        {
+          "party": "any",
+          "url": "https://tactical.vote/new-forest-west",
+          "who_suggests": "tactical.vote"
+        },
         {
           "party": "ld",
           "url": "https://getvoting.org/",
@@ -24322,6 +24638,11 @@
           "party": "ld",
           "url": "https://tacticalvote.co.uk/#Newbury",
           "who_suggests": "tacticalvote.co.uk"
+        },
+        {
+          "party": "any",
+          "url": "https://tactical.vote/newbury",
+          "who_suggests": "tactical.vote"
         },
         {
           "party": "ld",
@@ -25245,6 +25566,11 @@
       },
       "other_sites": [
         {
+          "party": "any",
+          "url": "https://tactical.vote/north-dorset",
+          "who_suggests": "tactical.vote"
+        },
+        {
           "party": "ld",
           "url": "https://getvoting.org/",
           "who_suggests": "Best for Britain"
@@ -25628,6 +25954,11 @@
           "party": "snp",
           "url": "https://tactical.vote/north-east-fife",
           "who_suggests": "tactical.vote"
+        },
+        {
+          "party": "any",
+          "url": "https://www.remainunited.org/#postcode=KY86AH",
+          "who_suggests": "Remain United"
         }
       ],
       "outcome_frequency": [
@@ -25681,6 +26012,11 @@
         "slug": "north-east-hampshire"
       },
       "other_sites": [
+        {
+          "party": "any",
+          "url": "https://tactical.vote/north-east-hampshire",
+          "who_suggests": "tactical.vote"
+        },
         {
           "party": "ld",
           "url": "https://getvoting.org/",
@@ -25852,6 +26188,11 @@
         "slug": "north-herefordshire"
       },
       "other_sites": [
+        {
+          "party": "any",
+          "url": "https://tactical.vote/north-herefordshire",
+          "who_suggests": "tactical.vote"
+        },
         {
           "party": "ld",
           "url": "https://getvoting.org/",
@@ -26733,6 +27074,11 @@
           "who_suggests": "tacticalvote.co.uk"
         },
         {
+          "party": "any",
+          "url": "https://tactical.vote/north-wiltshire",
+          "who_suggests": "tactical.vote"
+        },
+        {
           "party": "ld",
           "url": "https://getvoting.org/",
           "who_suggests": "Best for Britain"
@@ -27596,7 +27942,7 @@
     "orkney-and-shetland": {
       "aggregation": {
         "party": null,
-        "template": "pending.html"
+        "template": "anyparty.html"
       },
       "analysis": {
         "template": "alliance-mixed.html",
@@ -27611,7 +27957,18 @@
         "region": "Scotland",
         "slug": "orkney-and-shetland"
       },
-      "other_sites": [],
+      "other_sites": [
+        {
+          "party": "any",
+          "url": "https://tactical.vote/orkney-and-shetland",
+          "who_suggests": "tactical.vote"
+        },
+        {
+          "party": "any",
+          "url": "https://www.remainunited.org/#postcode=KW151PL",
+          "who_suggests": "Remain United"
+        }
+      ],
       "outcome_frequency": [
         [
           {
@@ -28673,6 +29030,11 @@
           "party": "lab",
           "url": "https://getvoting.org/",
           "who_suggests": "Best for Britain"
+        },
+        {
+          "party": "any",
+          "url": "https://www.remainunited.org/#postcode=PO27BB",
+          "who_suggests": "Remain United"
         }
       ],
       "outcome_frequency": [
@@ -29015,6 +29377,11 @@
         "slug": "rayleigh-and-wickford"
       },
       "other_sites": [
+        {
+          "party": "any",
+          "url": "https://tactical.vote/rayleigh-and-wickford",
+          "who_suggests": "tactical.vote"
+        },
         {
           "party": "ld",
           "url": "https://getvoting.org/",
@@ -29416,6 +29783,11 @@
       },
       "other_sites": [
         {
+          "party": "any",
+          "url": "https://tactical.vote/rhondda",
+          "who_suggests": "tactical.vote"
+        },
+        {
           "party": "lab",
           "url": "https://getvoting.org/",
           "who_suggests": "Best for Britain"
@@ -29545,6 +29917,11 @@
         "slug": "richmond-(yorks)"
       },
       "other_sites": [
+        {
+          "party": "any",
+          "url": "https://tactical.vote/richmond-yorks",
+          "who_suggests": "tactical.vote"
+        },
         {
           "party": "ld",
           "url": "https://getvoting.org/",
@@ -30565,6 +30942,11 @@
           "party": "lab",
           "url": "https://tactical.vote/rutherglen-and-hamilton-west",
           "who_suggests": "tactical.vote"
+        },
+        {
+          "party": "any",
+          "url": "https://www.remainunited.org/#postcode=G729JR",
+          "who_suggests": "Remain United"
         }
       ],
       "outcome_frequency": [
@@ -30604,6 +30986,11 @@
         "slug": "rutland-and-melton"
       },
       "other_sites": [
+        {
+          "party": "any",
+          "url": "https://tactical.vote/rutland-and-melton",
+          "who_suggests": "tactical.vote"
+        },
         {
           "party": "ld",
           "url": "https://getvoting.org/",
@@ -30659,6 +31046,11 @@
         "slug": "saffron-walden"
       },
       "other_sites": [
+        {
+          "party": "any",
+          "url": "https://tactical.vote/saffron-walden",
+          "who_suggests": "tactical.vote"
+        },
         {
           "party": "ld",
           "url": "https://getvoting.org/",
@@ -31208,6 +31600,11 @@
       },
       "other_sites": [
         {
+          "party": "any",
+          "url": "https://tactical.vote/sevenoaks",
+          "who_suggests": "tactical.vote"
+        },
+        {
           "party": "ld",
           "url": "https://getvoting.org/",
           "who_suggests": "Best for Britain"
@@ -31388,6 +31785,11 @@
           "party": "ld",
           "url": "https://getvoting.org/",
           "who_suggests": "Best for Britain"
+        },
+        {
+          "party": "any",
+          "url": "https://www.remainunited.org/#postcode=S173BB",
+          "who_suggests": "Remain United"
         },
         {
           "party": "ld",
@@ -32482,7 +32884,7 @@
     "south-down": {
       "aggregation": {
         "party": null,
-        "template": "pending.html"
+        "template": "anyparty.html"
       },
       "analysis": {
         "template": "remain.html",
@@ -32497,7 +32899,18 @@
         "region": "Northern Ireland",
         "slug": "south-down"
       },
-      "other_sites": [],
+      "other_sites": [
+        {
+          "party": "any",
+          "url": "https://tactical.vote/south-down",
+          "who_suggests": "tactical.vote"
+        },
+        {
+          "party": "any",
+          "url": "https://www.remainunited.org/#postcode=BT248FB",
+          "who_suggests": "Remain United"
+        }
+      ],
       "outcome_frequency": [
         [
           {
@@ -32680,6 +33093,11 @@
         "slug": "south-holland-and-the-deepings"
       },
       "other_sites": [
+        {
+          "party": "any",
+          "url": "https://tactical.vote/south-holland-and-the-deepings",
+          "who_suggests": "tactical.vote"
+        },
         {
           "party": "ld",
           "url": "https://getvoting.org/",
@@ -33062,6 +33480,11 @@
           "party": "lab",
           "url": "https://tacticalvote.co.uk/#SouthStaffordshire",
           "who_suggests": "tacticalvote.co.uk"
+        },
+        {
+          "party": "any",
+          "url": "https://tactical.vote/south-staffordshire",
+          "who_suggests": "tactical.vote"
         },
         {
           "party": "lab",
@@ -35346,6 +35769,11 @@
       },
       "other_sites": [
         {
+          "party": "any",
+          "url": "https://tactical.vote/stratford-on-avon",
+          "who_suggests": "tactical.vote"
+        },
+        {
           "party": "ld",
           "url": "https://getvoting.org/",
           "who_suggests": "Best for Britain"
@@ -35724,6 +36152,11 @@
         "slug": "surrey-heath"
       },
       "other_sites": [
+        {
+          "party": "any",
+          "url": "https://tactical.vote/surrey-heath",
+          "who_suggests": "tactical.vote"
+        },
         {
           "party": "ld",
           "url": "https://getvoting.org/",
@@ -36379,6 +36812,11 @@
       },
       "other_sites": [
         {
+          "party": "any",
+          "url": "https://tactical.vote/the-cotswolds",
+          "who_suggests": "tactical.vote"
+        },
+        {
           "party": "ld",
           "url": "https://getvoting.org/",
           "who_suggests": "Best for Britain"
@@ -36773,6 +37211,11 @@
         "slug": "tonbridge-and-malling"
       },
       "other_sites": [
+        {
+          "party": "any",
+          "url": "https://tactical.vote/tonbridge-and-malling",
+          "who_suggests": "tactical.vote"
+        },
         {
           "party": "ld",
           "url": "https://getvoting.org/",
@@ -37768,6 +38211,11 @@
           "party": "lab",
           "url": "https://getvoting.org/",
           "who_suggests": "Best for Britain"
+        },
+        {
+          "party": "any",
+          "url": "https://www.remainunited.org/#postcode=SE59HP",
+          "who_suggests": "Remain United"
         },
         {
           "party": "lab",
@@ -39434,6 +39882,11 @@
       },
       "other_sites": [
         {
+          "party": "any",
+          "url": "https://tactical.vote/west-dunbartonshire",
+          "who_suggests": "tactical.vote"
+        },
+        {
           "party": "snp",
           "url": "https://www.remainunited.org/#postcode=G812PS",
           "who_suggests": "Remain United"
@@ -40043,6 +40496,11 @@
           "who_suggests": "Best for Britain"
         },
         {
+          "party": "any",
+          "url": "https://www.remainunited.org/#postcode=SW194EY",
+          "who_suggests": "Remain United"
+        },
+        {
           "party": "ld",
           "url": "https://tactical-vote.uk/wimbledon",
           "who_suggests": "People's Vote"
@@ -40184,6 +40642,11 @@
         "slug": "windsor"
       },
       "other_sites": [
+        {
+          "party": "any",
+          "url": "https://tactical.vote/windsor",
+          "who_suggests": "tactical.vote"
+        },
         {
           "party": "ld",
           "url": "https://getvoting.org/",
