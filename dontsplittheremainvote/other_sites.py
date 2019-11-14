@@ -157,6 +157,15 @@ _REMAINUTD = {
     'Vote Plaid Cymru': PLAID,
     'Vote Alliance': ALLIANCE,
     'Vote Claire Wright (Ind)': CLAIREWRIGHT,
+
+    'For the best chance of reducing the Conservative majority, vote Labour': LAB,
+    'For the best chance of reducing the Conservative majority, vote Lib Dem': LD,
+    'For the best chance of reducing the DUP majority, vote Sinn Fein': SF,
+    'For the best chance of reducing the DUP majority, vote Alliance': ALLIANCE,
+
+    'Voter choice - Lib Dem or Lab ': None,
+    'seat hard to predict due to prominent Independent candidate': None,
+    'Conservative-Independent seat': None, # no explanation - eg: east devon
 }
 def _remainunited():
     for constituency in all_constituencies():
@@ -180,10 +189,14 @@ def _remainunited():
             if answer1 == 'No recommendation':
                 continue
 
+            party = _REMAINUTD[answer1]
+            if party is None:
+                continue
+
             postcode = re.compile(r'<p class="question">Your Postcode</p>\s*<p class="answer">([^<>]+)</p>').findall(page)[0]
             suggest = OtherSiteSuggestion(
                 who_suggests='Remain United',
-                party=_REMAINUTD[answer1],
+                party=party,
                 url='https://www.remainunited.org/#postcode=' + postcode)
             yield constituency, suggest
 
