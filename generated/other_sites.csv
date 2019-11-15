@@ -91,7 +91,7 @@ bristol-east,E14000599,0.6564302446898561,lab,4,,,,,,,lab,4,lab,4,lab,4,lab,4
 bristol-north-west,E14000600,0.5815032534753033,lab,4,,,,,,,lab,4,lab,4,lab,4,lab,4
 bristol-south,E14000601,0.6604207274465816,lab,4,,,,,,,lab,4,lab,4,lab,4,lab,4
 bristol-west,E14000602,0.8606580270360854,lab,2,,,,,,,lab,2,lab,2,any,-4,lab,2
-broadland,E14000603,0.3758910864554859,ld,-2,,,,,,,,,lab,0,lab,0,,
+broadland,E14000603,0.3758910864554859,ld,-1,,,,,,,,,,,lab,-1,,
 bromley-and-chislehurst,E14000604,0.43084308430843077,lab,4,,,,,,,lab,4,lab,4,lab,4,lab,4
 bromsgrove,E14000605,0.3802183567727609,ld,-3,,,,,,,lab,1,lab,1,lab,1,,
 broxbourne,E14000606,0.3201853216805306,lab,4,,,,,,,lab,4,lab,4,lab,4,lab,4
@@ -345,7 +345,7 @@ loughborough,E14000797,0.455972519760656,lab,4,,,,,,,lab,4,lab,4,lab,4,lab,4
 louth-and-horncastle,E14000798,0.3047507153550245,lab,4,,,,,,,lab,4,lab,4,lab,4,lab,4
 ludlow,E14000799,0.3709625775465279,ld,1,,,,,,,ld,1,ld,1,lab,-3,,
 luton-north,E14000800,0.6384324996782635,lab,4,lab,4,,,,,lab,4,lab,4,lab,4,,
-luton-south,E14000801,0.6472590119870808,ind,-3,,,,,,,lab,1,lab,1,lab,1,,
+luton-south,E14000801,0.6472590119870808,ind,-2,,,,,,,,,lab,0,lab,0,,
 macclesfield,E14000802,0.452059587161876,ld,-4,,,,,lab,2,lab,2,lab,2,lab,2,,
 maidenhead,E14000803,0.30565428664640526,ld,2,ld,2,,,,,ld,2,ld,2,any,-4,,
 maidstone-and-the-weald,E14000804,0.3845544018407874,ld,1,,,,,,,ld,1,ld,1,lab,-3,,

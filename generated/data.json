@@ -5974,11 +5974,6 @@
           "party": "ld",
           "url": "https://getvoting.org/#postcode=NR127BB",
           "who_suggests": "Best for Britain"
-        },
-        {
-          "party": "lab",
-          "url": "https://www.remainunited.org/#postcode=NR127BB",
-          "who_suggests": "Remain United"
         }
       ],
       "outcome_frequency": [
@@ -22170,8 +22165,8 @@
     },
     "luton-south": {
       "aggregation": {
-        "party": "lab",
-        "template": "vote-lab.html"
+        "party": null,
+        "template": "contradict.html"
       },
       "analysis": {
         "template": "remain.html",
@@ -22201,11 +22196,6 @@
           "party": "lab",
           "url": "https://www.remainunited.org/#postcode=AL38QE",
           "who_suggests": "Remain United"
-        },
-        {
-          "party": "lab",
-          "url": "https://tactical-vote.uk/luton-south",
-          "who_suggests": "People's Vote"
         }
       ],
       "outcome_frequency": [

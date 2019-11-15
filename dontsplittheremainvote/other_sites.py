@@ -175,6 +175,7 @@ _REMAINUTD = {
     'For the best chance of reducing the Conservative majority, vote Lib Dem': LD,
     'For the best chance of reducing the DUP majority, vote Sinn Fein': SF,
     'For the best chance of reducing the DUP majority, vote Alliance': ALLIANCE,
+    'best chance of reducing the Conservative majority, as two parties are tied in second place, wait for 25 Nov update': None,
 
     'No recommendation': ANYPARTY,
     'Voter choice - Lib Dem or Lab ': ANYPARTY,
