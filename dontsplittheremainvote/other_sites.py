@@ -63,6 +63,18 @@ def dontsplit_suggestion(party: Party, constituency: Constituency) -> OtherSiteS
             party=party,
             url='https://dontsplittheremainvote.com/constituency/{}.html#Analysis'.format(constituency.slug))
 
+
+_POSTCODE_EXAMPLES = {}
+def example_postcode(constituency: Constituency):
+    if not _POSTCODE_EXAMPLES:
+        with open('generated/example_postcodes.csv') as f:
+            pairs = (line.strip().split(',') for line in f)
+            _POSTCODE_EXAMPLES.update({
+                slug: postcode
+                for slug, postcode in pairs})
+    return _POSTCODE_EXAMPLES[constituency.slug]
+
+
 def _getvoting():
     PARTIES = {
         'Anna Soubry': CHANGEUK,
@@ -92,7 +104,7 @@ def _getvoting():
                 suggestion = OtherSiteSuggestion(
                     who_suggests='Best for Britain',
                     party=party,
-                    url='https://getvoting.org/')
+                    url='https://getvoting.org/#postcode={}'.format(example_postcode(constituency)))
                 yield constituency, suggestion
 
 def _tacticalvote_uk():
