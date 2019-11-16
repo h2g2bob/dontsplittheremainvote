@@ -233,7 +233,12 @@
           0.49999999999999994
         ]
       ],
-      "pacts": []
+      "pacts": [
+        {
+          "down": "green",
+          "support": "snp"
+        }
+      ]
     },
     "airdrie-and-shotts": {
       "aggregation": {
@@ -674,7 +679,12 @@
           0.49999999999999994
         ]
       ],
-      "pacts": []
+      "pacts": [
+        {
+          "down": "green",
+          "support": "snp"
+        }
+      ]
     },
     "arfon": {
       "aggregation": {
@@ -1303,7 +1313,12 @@
           0.41666666666666663
         ]
       ],
-      "pacts": []
+      "pacts": [
+        {
+          "down": "green",
+          "support": "snp"
+        }
+      ]
     },
     "barking": {
       "aggregation": {
@@ -2597,7 +2612,12 @@
           0.16666666666666666
         ]
       ],
-      "pacts": []
+      "pacts": [
+        {
+          "down": "green",
+          "support": "snp"
+        }
+      ]
     },
     "bethnal-green-and-bow": {
       "aggregation": {
@@ -8764,7 +8784,12 @@
           0.16666666666666666
         ]
       ],
-      "pacts": []
+      "pacts": [
+        {
+          "down": "green",
+          "support": "lab"
+        }
+      ]
     },
     "chippenham": {
       "aggregation": {
@@ -11799,7 +11824,12 @@
           0.41666666666666663
         ]
       ],
-      "pacts": []
+      "pacts": [
+        {
+          "down": "green",
+          "support": "snp"
+        }
+      ]
     },
     "dumfriesshire-clydesdale-and-tweeddale": {
       "aggregation": {
@@ -11859,7 +11889,12 @@
           0.08333333333333333
         ]
       ],
-      "pacts": []
+      "pacts": [
+        {
+          "down": "green",
+          "support": "snp"
+        }
+      ]
     },
     "dundee-east": {
       "aggregation": {
@@ -11905,7 +11940,12 @@
           1.0
         ]
       ],
-      "pacts": []
+      "pacts": [
+        {
+          "down": "green",
+          "support": "snp"
+        }
+      ]
     },
     "dundee-west": {
       "aggregation": {
@@ -11946,7 +11986,12 @@
           1.0
         ]
       ],
-      "pacts": []
+      "pacts": [
+        {
+          "down": "green",
+          "support": "snp"
+        }
+      ]
     },
     "dunfermline-and-west-fife": {
       "aggregation": {
@@ -14643,7 +14688,12 @@
           0.25
         ]
       ],
-      "pacts": []
+      "pacts": [
+        {
+          "down": "green",
+          "support": "lab"
+        }
+      ]
     },
     "finchley-and-golders-green": {
       "aggregation": {
@@ -15796,7 +15846,12 @@
           0.41666666666666663
         ]
       ],
-      "pacts": []
+      "pacts": [
+        {
+          "down": "green",
+          "support": "snp"
+        }
+      ]
     },
     "gosport": {
       "aggregation": {
@@ -17405,7 +17460,7 @@
       "pacts": [
         {
           "down": "green",
-          "support": "lab"
+          "support": "any"
         }
       ]
     },
@@ -25996,7 +26051,12 @@
           0.08333333333333333
         ]
       ],
-      "pacts": []
+      "pacts": [
+        {
+          "down": "green",
+          "support": "snp"
+        }
+      ]
     },
     "north-east-hampshire": {
       "aggregation": {
@@ -27997,7 +28057,12 @@
           0.08333333333333333
         ]
       ],
-      "pacts": []
+      "pacts": [
+        {
+          "down": "green",
+          "support": "any"
+        }
+      ]
     },
     "orpington": {
       "aggregation": {
@@ -28530,7 +28595,12 @@
           0.25
         ]
       ],
-      "pacts": []
+      "pacts": [
+        {
+          "down": "green",
+          "support": "snp"
+        }
+      ]
     },
     "peterborough": {
       "aggregation": {
@@ -39676,7 +39746,12 @@
           0.3333333333333333
         ]
       ],
-      "pacts": []
+      "pacts": [
+        {
+          "down": "green",
+          "support": "snp"
+        }
+      ]
     },
     "west-bromwich-east": {
       "aggregation": {
