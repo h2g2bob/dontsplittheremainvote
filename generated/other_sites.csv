@@ -194,7 +194,7 @@ east-devon,E14000678,0.4901295087940115,ind-wright,4,,,,,ind-wright,4,ind-wright
 east-dunbartonshire,S14000018,0.8539989575490821,,,,,,,,,,,any,2,any,2,any,2
 east-ham,E14000679,0.8320943619444493,lab,4,,,,,,,lab,4,lab,4,lab,4,lab,4
 east-hampshire,E14000680,0.3532702858792954,ld,2,ld,2,,,,,ld,2,ld,2,any,-4,,
-east-kilbride-strathaven-and-lesmahagow,S14000019,0.7350929725333631,,,,,,,,,,,snp,1,snp,1,,
+east-kilbride-strathaven-and-lesmahagow,S14000019,0.7350929725333631,,,snp,2,,,,,,,snp,2,snp,2,,
 eastleigh,E14000685,0.45677374301675977,ld,5,ld,5,,,,,ld,5,ld,5,ld,5,ld,5
 east-londonderry,N06000006,0.43485254691688996,,,,,,,,,,,sf,1,sf,1,,
 east-lothian,S14000020,0.6974301156090051,,,,,,,,,,,any,-1,lab,-1,,
@@ -296,7 +296,7 @@ hyndburn,E14000758,0.533604707756294,lab,5,lab,5,,,,,lab,5,lab,5,lab,5,lab,5
 ilford-north,E14000759,0.5777941482027162,lab,5,lab,5,,,,,lab,5,lab,5,lab,5,lab,5
 ilford-south,E14000760,0.7583467748929011,lab,3,,,,,,,lab,3,lab,3,lab,3,,
 inverclyde,S14000038,0.7851533522625535,,,,,,,,,,,any,-1,snp,-1,,
-inverness-nairn-badenoch-and-strathspey,S14000039,0.683149940342039,,,,,,,,,,,snp,2,snp,2,snp,2
+inverness-nairn-badenoch-and-strathspey,S14000039,0.683149940342039,,,snp,3,,,,,,,snp,3,snp,3,snp,3
 ipswich,E14000761,0.4969200383284119,lab,4,,,,,,,lab,4,lab,4,lab,4,lab,4
 isle-of-wight,E14000762,0.440070355402194,green,1,,,,,,,green,1,lab,-3,green,1,,
 islington-north,E14000763,0.860417273521701,lab,4,,,,,,,lab,4,lab,4,lab,4,lab,4
@@ -396,7 +396,7 @@ normanton-pontefract-and-castleford,E14000836,0.5949868878453376,lab,5,lab,5,,,,
 northampton-north,E14000861,0.4773143791173411,lab,5,lab,5,,,,,lab,5,lab,5,lab,5,lab,5
 northampton-south,E14000862,0.4746551640103329,lab,5,lab,5,,,,,lab,5,lab,5,lab,5,lab,5
 north-antrim,N06000012,0.2718737102765167,,,,,,,,,,,alliance,-1,sf,-1,,
-north-ayrshire-and-arran,S14000048,0.687601458899922,,,,,,,,,,,snp,2,snp,2,snp,2
+north-ayrshire-and-arran,S14000048,0.687601458899922,,,snp,3,,,,,,,snp,3,snp,3,snp,3
 north-cornwall,E14000837,0.4865342336683418,ld,4,,,,,,,ld,4,ld,4,ld,4,ld,4
 north-devon,E14000838,0.5070999012655957,ld,4,,,,,,,ld,4,ld,4,ld,4,ld,4
 north-dorset,E14000839,0.35092599239107036,ld,1,,,,,,,ld,1,ld,1,any,-3,,
