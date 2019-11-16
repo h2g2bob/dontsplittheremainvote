@@ -371,24 +371,24 @@ def get_other_site_suggestions() -> Dict[Constituency, List[OtherSiteSuggestion]
     # This is actually ordered, because a python dict is secretly an OrderedDict
     out = defaultdict(list)
 
-    # trusted, hand-picked
+    # trusted, hand-picked, excellent alignment
     for constituency, suggest in _tacticalvote_co_uk():
         out[constituency].append(suggest)
 
-    # heavy GE2017 bias (LAB):
-    for constituency, suggest in _tactical_dot_vote():
+    # good alignment
+    for constituency, suggest in _peoples_vote():
         out[constituency].append(suggest)
 
-    # heavy EP2019 bias (LD):
-    for constituency, suggest in _getvoting():
-        out[constituency].append(suggest)
-
-    # 
+    # gina miller
     for constituency, suggest in _remainunited():
         out[constituency].append(suggest)
 
-    # 
-    for constituency, suggest in _peoples_vote():
+    # best for britain (EP2019 / LD bias)
+    for constituency, suggest in _getvoting():
+        out[constituency].append(suggest)
+
+    # lowest alignment score (GE2017 / LAB bias):
+    for constituency, suggest in _tactical_dot_vote():
         out[constituency].append(suggest)
 
     # smaller sites:
