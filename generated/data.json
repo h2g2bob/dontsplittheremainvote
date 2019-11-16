@@ -2390,6 +2390,11 @@
       },
       "other_sites": [
         {
+          "party": "any",
+          "url": "https://tacticalvote.co.uk/#BelfastWest",
+          "who_suggests": "tacticalvote.co.uk"
+        },
+        {
           "party": "sf",
           "url": "https://tactical.vote/belfast-west",
           "who_suggests": "tactical.vote"
@@ -8933,6 +8938,11 @@
       },
       "other_sites": [
         {
+          "party": "any",
+          "url": "https://tacticalvote.co.uk/#Chorley",
+          "who_suggests": "tacticalvote.co.uk"
+        },
+        {
           "party": "lab",
           "url": "https://www.remainunited.org/#postcode=PR71NW",
           "who_suggests": "Remain United"
@@ -12447,6 +12457,11 @@
         "slug": "east-dunbartonshire"
       },
       "other_sites": [
+        {
+          "party": "any",
+          "url": "https://tacticalvote.co.uk/#EastDunbartonshire",
+          "who_suggests": "tacticalvote.co.uk"
+        },
         {
           "party": "any",
           "url": "https://tactical.vote/east-dunbartonshire",

@@ -36,7 +36,7 @@ bedford,E14000552,0.547792904290429,lab,4,,,,,,,lab,4,lab,4,lab,4,lab,4
 belfast-east,N06000001,0.38090463977617156,,,alliance,4,,,,,alliance,4,alliance,4,alliance,4,alliance,4
 belfast-north,N06000002,0.5157610588645072,,,,,,,,,sf,3,sf,3,sf,3,sf,3
 belfast-south,N06000003,0.6551424322159937,,,,,,,,,sdlp,1,any,-3,sdlp,1,sdlp,1
-belfast-west,N06000004,0.7375039992124628,,,,,,,,,,,sf,1,sf,1,,
+belfast-west,N06000004,0.7375039992124628,,,,,,,,,,,sf,0,sf,0,any,-2
 bermondsey-and-old-southwark,E14000553,0.8432870251704516,any,1,,,,,,,lab,-3,any,1,any,1,,
 berwickshire-roxburgh-and-selkirk,S14000008,0.4612446769912349,,,snp,2,,,,,,,snp,2,snp,2,,
 berwick-upon-tweed,E14000554,0.45674215862787826,ld,1,,,,,,,ld,1,ld,1,lab,-3,,
@@ -135,7 +135,7 @@ chichester,E14000633,0.3697052638606095,ld,2,ld,2,,,,,ld,2,ld,2,lab,-4,,
 chingford-and-woodford-green,E14000634,0.5086135303762697,lab,4,,,,,,,lab,4,lab,4,lab,4,lab,4
 chippenham,E14000635,0.4528001400070004,ld,5,ld,5,,,,,ld,5,ld,5,ld,5,ld,5
 chipping-barnet,E14000636,0.5366725005863993,lab,4,,,,,,,lab,4,lab,4,lab,4,lab,4
-chorley,E14000637,0.5728691088183484,,,lab,0,,,,,other,-2,lab,0,,,,
+chorley,E14000637,0.5728691088183484,,,lab,-1,,,,,other,-3,lab,-1,,,any,-3
 christchurch,E14000638,0.3042224592171267,ld,1,,,,,,,ld,1,ld,1,any,-3,,
 cities-of-london-and-westminster,E14000639,0.516065607699074,ld,0,,,,,ld,0,ld,0,lab,-2,lab,-2,,
 city-of-chester,E14000640,0.5950621222594424,lab,4,,,,,,,lab,4,lab,4,lab,4,lab,4
@@ -191,7 +191,7 @@ easington,E14000677,0.6366736332636674,lab,5,lab,5,,,,,lab,5,lab,5,lab,5,lab,5
 east-antrim,N06000005,0.2826993157328999,,,,,,,,,,,alliance,1,alliance,1,,
 eastbourne,E14000684,0.5502438174851968,ld,4,,,,,,,ld,4,ld,4,ld,4,ld,4
 east-devon,E14000678,0.4901295087940115,ind-wright,4,,,,,ind-wright,4,ind-wright,4,,,ind-wright,4,ind-wright,4
-east-dunbartonshire,S14000018,0.8539989575490821,,,,,,,,,,,any,1,any,1,,
+east-dunbartonshire,S14000018,0.8539989575490821,,,,,,,,,,,any,2,any,2,any,2
 east-ham,E14000679,0.8320943619444493,lab,4,,,,,,,lab,4,lab,4,lab,4,lab,4
 east-hampshire,E14000680,0.3532702858792954,ld,2,ld,2,,,,,ld,2,ld,2,any,-4,,
 east-kilbride-strathaven-and-lesmahagow,S14000019,0.7350929725333631,,,,,,,,,,,snp,1,snp,1,,

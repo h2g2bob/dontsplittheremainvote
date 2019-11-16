@@ -109,7 +109,7 @@ def _getvoting():
 
 _TACVOTE_CO_UK = {
     'Alliance': ALLIANCE,
-    'Any': None,
+    'Any': ANYPARTY,
     'Claire Wright': CLAIREWRIGHT,
     'Green': GREEN,
     'Labour': LAB,
