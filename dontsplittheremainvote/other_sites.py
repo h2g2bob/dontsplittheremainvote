@@ -107,16 +107,36 @@ def _getvoting():
                     url='https://getvoting.org/#postcode={}'.format(example_postcode(constituency)))
                 yield constituency, suggestion
 
-def _tacticalvote_uk():
+_TACVOTE_CO_UK = {
+    'Alliance': ALLIANCE,
+    'Any': None,
+    'Claire Wright': CLAIREWRIGHT,
+    'Green': GREEN,
+    'Labour': LAB,
+    'Lib Dem': LD,
+    'Plaid Cymru': PLAID,
+    'SDLP': SDLP,
+    'SNP': SNP,
+    'Sinn Féin': SF,
+    'TBC': None,
+}
+def _tacticalvote_co_uk():
     with open('data/tacticalvote/recommendations.json') as f:
         data = json.load(f)
         for recomend in data:
-            if recomend['VoteFor'] not in ['TBC', 'Any']:
-                suggestion = OtherSiteSuggestion(
-                    who_suggests='tacticalvote.co.uk',
-                    party=get_party(recomend['VoteFor']),
-                    url='https://tacticalvote.co.uk/#{}'.format(recomend['Constituency'].replace(' ', '')))
-                yield get_constitiuency(recomend['id']), suggestion
+            vote_for = recomend['VoteFor']
+            if not vote_for:
+                continue
+            if recomend['VoteFor'] == 'Independent':
+                vote_for = recomend['Candidate']
+            party = _TACVOTE_CO_UK[vote_for]
+            if party is None:
+                continue
+            suggestion = OtherSiteSuggestion(
+                who_suggests='tacticalvote.co.uk',
+                party=party,
+                url='https://tacticalvote.co.uk/#{}'.format(recomend['Constituency'].replace(' ', '')))
+            yield get_constitiuency(recomend['id']), suggestion
 
 def _tactical_dot_vote():
     PARTY_RECOMEND = {
@@ -352,7 +372,7 @@ def get_other_site_suggestions() -> Dict[Constituency, List[OtherSiteSuggestion]
     out = defaultdict(list)
 
     # trusted, hand-picked
-    for constituency, suggest in _tacticalvote_uk():
+    for constituency, suggest in _tacticalvote_co_uk():
         out[constituency].append(suggest)
 
     # heavy GE2017 bias (LAB):
