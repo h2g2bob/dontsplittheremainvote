@@ -4,18 +4,10 @@
 {% for region, county_dict in constituency_pages.items()|sort %}
 <div class="widebutton"><a href="/constituency/#{{region}}">{{region}}</a></div>
 {% endfor %}
+<div class="widebutton"><a href="/constituency/">Anywhere (full list)</a></div>
 
-<h2>Tactical voting</h2>
-<ul>
-    <li>Waiting for recommendations from <a href="https://www.tactical-vote.uk/">People's Vote</a>.</li>
-    <li>We have recommendations from <a href="https://www.remainunited.org/">Remain United</a>.</li>
-    <li>We have recommendations from <a href="https://getvoting.org/">Best for Britain</a>.</li>
-    <li>We have recommendations from <a href="https://tactical.vote/">tactical.vote</a>.</li>
-    <li>We have recommendations from <a href="https://tacticalvote.co.uk/">tacticalvote.co.uk</a>.</li>
-    <li>We have recommendations from <a href="https://twitter.com/unitetoremain/status/1175643677173137408">Essex Against the Tories</a>.</li>
-    <li>We have pacts from <a href="https://unitetoremain.org/">Unite to Remain</a> (<a href="https://twitter.com/unitetoremain/status/1175643677173137408">tw</a>).</li>
-    <li>There are also recommendations on a <a href="https://bit.ly/tacticalvotes">Facebook Group</a>.</li>
-</ul>
-<p>We have <strong><a href="/other_sites.csv">a spreadsheet comparing all the recommendations</a></strong>.</p>
+<h2>More</h2>
+<div class="widebutton"><a href="/other_sites.csv">Spreadsheet of everyone's recommendations</a></div>
+<div class="widebutton"><a href="/datasets.html">Full list of sources</a></div>
 
 {% endblock %}
