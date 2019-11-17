@@ -236,10 +236,15 @@ def _remainunited():
                 continue
 
             postcode = re.compile(r'<p class="question">Your Postcode</p>\s*<p class="answer">([^<>]+)</p>').findall(page)[0]
+            [explanation] = re.compile(r'\s+'.join((
+                r'<p class="question">Explanation</p>',
+                r'<p class="answer">(.*?)</p>'))).search(page).groups()
+
             suggest = OtherSiteSuggestion(
                 who_suggests='Remain United',
                 party=party,
-                url='https://www.remainunited.org/#postcode=' + postcode)
+                url='https://www.remainunited.org/#postcode=' + postcode,
+                they_say='{} - {}'.format(answer1, explanation))
             yield constituency, suggest
 
 
