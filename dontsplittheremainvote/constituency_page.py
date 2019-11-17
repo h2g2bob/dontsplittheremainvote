@@ -51,10 +51,12 @@ class ConstituencyPage(NamedTuple):
         suggestion), return an Advice of who to vote for.
         """
         recommendations = defaultdict(int)
-        for suggest in self.other_sites_plus_dontsplit:
+        other_site_suggestions = self.other_sites_plus_dontsplit
+        for suggest in other_site_suggestions:
             recommendations[suggest.party] += 1
         num_any_party = recommendations.pop(ANYPARTY, 0)
         num_recommendations = sum(recommendations.values())
+        important = any(suggest.important for suggest in other_site_suggestions)
 
         if num_any_party > num_recommendations:
             return Aggregation(
@@ -75,7 +77,8 @@ class ConstituencyPage(NamedTuple):
             return Aggregation(
                 party=party,
                 template='vote-{}.html'.format(party.short),
-                provisional=num_recommendations < 3)
+                provisional=num_recommendations < 3,
+                important=important)
 
         return Aggregation(
             template='contradict.html')

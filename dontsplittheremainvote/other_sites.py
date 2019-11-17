@@ -4,6 +4,7 @@ from collections import defaultdict
 from typing import NamedTuple
 from typing import List
 from typing import Dict
+from typing import Optional
 from .constituency import Constituency
 from .constituency import all_constituencies
 from .constituency import get_constitiuency
@@ -35,12 +36,16 @@ class OtherSiteSuggestion(NamedTuple):
     who_suggests: str
     party: Party
     url: str
+    they_say: Optional[str] = None
+    important: bool = False
 
     def as_json(self):
         return {
             'who_suggests': self.who_suggests,
             'party': self.party.short,
             'url': self.url,
+            'they_say': self.they_say,
+            'important': self.important,
         }
 
 
@@ -49,11 +54,13 @@ class Aggregation(NamedTuple):
     template: str
     party: Party = None
     provisional: bool = True
+    important: bool = False
 
     def as_json(self):
         return {
             'template': self.template,
             'party': self.party.short if self.party is not None else None,
+            'important': self.important,
         }
 
 
@@ -135,7 +142,9 @@ def _tacticalvote_co_uk():
             suggestion = OtherSiteSuggestion(
                 who_suggests='tacticalvote.co.uk',
                 party=party,
-                url='https://tacticalvote.co.uk/#{}'.format(recomend['Constituency'].replace(' ', '')))
+                url='https://tacticalvote.co.uk/#{}'.format(recomend['Constituency'].replace(' ', '')),
+                they_say=recomend['Why'],
+                important=(int(recomend['Priority']) == 1))
             yield get_constitiuency(recomend['id']), suggestion
 
 def _tactical_dot_vote():
