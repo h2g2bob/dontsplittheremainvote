@@ -13,7 +13,7 @@ $row = $res->fetchArray(SQLITE3_NUM);
 if ($row) {
     header("location: /constituency/${row[0]}.html");
 } else {
-    header("location: /");
+    header("location: /constituency/");
 }
 
 ?>
