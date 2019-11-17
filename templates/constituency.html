@@ -78,15 +78,12 @@
 
 <h2>Announced candidates</h2>
 
-{% if known_ppc %}
+<p>Data from <a href="https://whocanivotefor.co.uk/">Who Can I Vote For</a> from <a href="https://democracyclub.org.uk/">Democracy Club</a>.</p>
 <ul>
   {% for ppc in known_ppc %}
       <li>{{ ppc.party.name }}: <a {% if ppc.link %}href="{{ ppc.link }}"{% endif %}>{{ ppc.name }}</a></li>
   {% endfor %}
 </ul>
-{% else %}
-No candidates announced yet.
-{% endif %}
 
 <h2>Social</h2>
 
