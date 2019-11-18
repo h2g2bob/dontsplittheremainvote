@@ -13,6 +13,7 @@ from .constituency import Constituency
 from .constituency_page import ConstituencyPage
 from .generate_postcode_sqlite import make_sqlite
 from .party import Party
+from .party import ANYPARTY
 
 JINJA_ENV = Environment(loader=FileSystemLoader('templates/'))
 
@@ -151,8 +152,10 @@ def generate_other_sites_csv(constituency_pages: List[ConstituencyPage]):
                     party = con_sugg[site_name]
                     alignment = sum(
                         +1 if site_sugg == party else -1
-                        for site_sugg in con_sugg.values())
-                    alignment -= 1  # you match your own recommendation!
+                        for site_sugg in con_sugg.values()
+                        if site_sugg != ANYPARTY and party != ANYPARTY)
+                    if party != ANYPARTY:
+                        alignment -= 1  # you match your own recommendation!
                 except KeyError:
                     party = None
                     alignment = None
