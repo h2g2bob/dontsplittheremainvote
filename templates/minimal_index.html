@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+{% block title %}Vote Tactically For Remain{% endblock %}
+{% block title2 %}Vote Tactically For Remain{% endblock %}
+{% block title3 %}Vote Tactically For Remain{% endblock %}
+{% block topbanner %}
+{% endblock %}
+{% block content %}
+
+<form class="postcode-search" action="/postcodes.php" method="POST">
+  <input type="text" spellcheck="false" autocorrect="off" maxlength="9" class="postcode" name="postcode" placeholder="SW1A 0AA" />
+  <input type="submit" value="&#128269;" />
+</form>
+
+{% endblock %}
+{% block footer %}
+{% endblock %}
