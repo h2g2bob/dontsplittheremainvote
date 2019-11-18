@@ -199,6 +199,7 @@ _REMAINUTD = {
     'Vote Plaid Cymru': PLAID,
     'Vote Alliance': ALLIANCE,
     'Vote Claire Wright (Ind)': CLAIREWRIGHT,
+    'Vote Green': GREEN,
 
     'For the best chance of reducing the Conservative majority, vote Labour': LAB,
     'For the best chance of reducing the Conservative majority, vote Lib Dem': LD,
@@ -207,7 +208,7 @@ _REMAINUTD = {
     'best chance of reducing the Conservative majority, as two parties are tied in second place, wait for 25 Nov update': None,
 
     'No recommendation': ANYPARTY,
-    'Voter choice - Lib Dem or Lab ': ANYPARTY,
+    'Voter choice - Lib Dem or Lab': ANYPARTY,
     'seat hard to predict due to prominent Independent candidate': None,
     'Conservative-Independent seat': None, # no explanation - eg: east devon
 }
@@ -231,6 +232,7 @@ def _remainunited():
             if answer1 != answer2:
                 raise Exception((constituency, answer1, answer2))
 
+            answer1 = answer1.strip()
             party = _REMAINUTD[answer1]
             if party is None:
                 continue
@@ -240,6 +242,7 @@ def _remainunited():
                 r'<p class="question">Explanation</p>',
                 r'<p class="answer">(.*?)</p>'))).search(page).groups()
 
+            explanation = explanation.strip()
             suggest = OtherSiteSuggestion(
                 who_suggests='Remain United',
                 party=party,
