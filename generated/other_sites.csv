@@ -30,7 +30,7 @@ bassetlaw,E14000546,0.5477703349282297,lab,5,lab,5,,,,,lab,5,lab,5,lab,5,lab,5
 bath,E14000547,0.642175745719299,ld,5,ld,5,,,,,ld,5,ld,5,ld,5,ld,5
 batley-and-spen,E14000548,0.5776868724432874,lab,5,lab,5,,,,,lab,5,lab,5,lab,5,lab,5
 battersea,E14000549,0.5393040066838607,lab,4,,,,,,,lab,4,lab,4,lab,4,lab,4
-beaconsfield,E14000550,0.3187691868351539,ind,2,,,,,ind,2,ind,2,,,any,0,,
+beaconsfield,E14000550,0.3187691868351539,ind,2,,,,,ind,2,ind,2,,,,,,
 beckenham,E14000551,0.4067015301181484,ld,-1,,,,,,,,,any,0,lab,-1,,
 bedford,E14000552,0.547792904290429,lab,4,,,,,,,lab,4,lab,4,lab,4,lab,4
 belfast-east,N06000001,0.38090463977617156,,,alliance,4,,,,,alliance,4,alliance,4,alliance,4,alliance,4
@@ -528,7 +528,7 @@ south-swindon,E14000947,0.4763706578767725,lab,4,,,,,,,lab,4,lab,4,lab,4,lab,4
 south-thanet,E14000948,0.4098044339034832,lab,4,,,,,,,lab,4,lab,4,lab,4,lab,4
 south-west-bedfordshire,E14000949,0.3850633593960636,ld,-2,,,,,,,lab,0,any,0,lab,0,,
 south-west-devon,E14000950,0.37238208751915547,ld,-2,,,,,,,lab,0,any,0,lab,0,,
-south-west-hertfordshire,E14000951,0.3995185728653158,ind,0,,,,,ind,0,,,,,lab,-2,,
+south-west-hertfordshire,E14000951,0.3995185728653158,ind,1,,,,,ind,1,,,,,,,,
 south-west-norfolk,E14000952,0.3233173076923076,lab,3,,,,,,,lab,3,any,0,lab,3,lab,3
 south-west-surrey,E14000953,0.4247087635689701,ld,2,,,,,,,ld,2,ld,2,,,,
 south-west-wiltshire,E14000954,0.38939928037844057,ld,-1,,,,,,,,,any,0,lab,-1,,
