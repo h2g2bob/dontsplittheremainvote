@@ -42,24 +42,28 @@ def _nearby_constituencies(constituency_pages, constituency):
     return [cpg.constituency for cpg in same_county if cpg.constituency.slug != constituency.slug]
 
 def generate_constituency(constituency_page, nearby_constituencies):
-    url_path = '/constituency/{}.html'.format(constituency_page.constituency.slug)
+    STYLES = [
+        ('constituency', 'constituency.html'),
+        ('minimal', 'minimal_constituency.html')]
+    for style, template_name in STYLES:
+        url_path = '/{}/{}.html'.format(style, constituency_page.constituency.slug)
 
-    html = JINJA_ENV.get_template('constituency.html').render(
-        static=STATIC,
-        this_url=BASE_URL + url_path,
-        image_735_385=IMAGE_LOGO_735_238,
-        constituency=constituency_page.constituency,
-        datasets_election=constituency_page.datasets_election,
-        datasets_polling=constituency_page.datasets_polling,
-        outcomes=constituency_page.outcomes,
-        other_sites=constituency_page.other_site_suggestions,
-        nearby_constituency=nearby_constituencies,
-        known_ppc=constituency_page.known_ppc,
-        analysis=constituency_page.analysis,
-        aggregation=constituency_page.aggregation,
-        pacts=constituency_page.pacts)
-    with open('generated' + url_path, 'w') as f:
-        f.write(html)
+        html = JINJA_ENV.get_template(template_name).render(
+            static=STATIC,
+            this_url=BASE_URL + url_path,
+            image_735_385=IMAGE_LOGO_735_238,
+            constituency=constituency_page.constituency,
+            datasets_election=constituency_page.datasets_election,
+            datasets_polling=constituency_page.datasets_polling,
+            outcomes=constituency_page.outcomes,
+            other_sites=constituency_page.other_site_suggestions,
+            nearby_constituency=nearby_constituencies,
+            known_ppc=constituency_page.known_ppc,
+            analysis=constituency_page.analysis,
+            aggregation=constituency_page.aggregation,
+            pacts=constituency_page.pacts)
+        with open('generated' + url_path, 'w') as f:
+            f.write(html)
 
 def region_county_constituency(constituency_pages: List[ConstituencyPage]) -> Dict[str, Dict[str, List[ConstituencyPage]]]:
     by_region_and_county = {}

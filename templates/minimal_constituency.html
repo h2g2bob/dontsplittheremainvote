@@ -1,0 +1,50 @@
+{% extends "base.html" %}
+{% block title %}{{constituency.name}} - Vote Tactically For Remain{% endblock %}
+{% block title2 %}{{constituency.name}} - Vote Tactically For Remain{% endblock %}
+{% block title3 %}{{constituency.name}} - Vote Tactically For Remain{% endblock %}
+{% block moreheaders %}
+  <meta name="description" content="Which remain party has the best chance of winning in #{{ constituency.hashtag }}?" />
+  <meta property="og:description" content="Which remain party has the best chance of winning in #{{ constituency.hashtag }}?" />
+  <meta property="article:tag" content="{{ constituency.name }}" />
+{% endblock %}
+{% block topbanner %}
+{% endblock %}
+{% block content %}
+<h1>{{constituency.name}}</h1>
+
+<div class="section advice middle">
+{% if aggregation.party %}
+  <img class="mainlogo-middle" src="{{static}}/logo/tick/{{aggregation.party.short}}.png" />
+  <h2>Vote {{aggregation.party.name|upper}}<br />for the best chance to defeat the Tories</h2>
+  <p>Most tactical voting websites recommend voting for {{aggregation.party.name}}</p>
+{% else %}
+  <img class="mainlogo-middle" src="{{static}}/logo/outcome/leave.png" />
+  <h2>no unified recommendations yet available</h2>
+  <p>tactical voting websites disagree on which party to vote for</p>
+  <p>please check this regularly as the campagin progresses</p>
+{% endif %}
+</div>
+
+<table class="middle-othersite">
+{% for other_site in other_sites %}
+<tr><td>
+  <img class="tick" src="{{static}}/logo/tick/{{ other_site.party.short }}.png" alt="{{ other_site.party.name }} tick" />
+</td><td>
+  <em>{{ other_site.who_suggests }}</em> <a href="{{ other_site.url }}">recommends</a><br />voting for <strong class="party party-{{ other_site.party.code }}">{{ other_site.party.name }}</strong>.
+</td></tr>
+{% endfor %}
+{% if aggregation.provisional %}
+<tr><td>
+  <img class="tick" src="{{static}}/logo/tick/clock.png" alt="Clock" />
+</td><td>
+  <strong>Recommendations can change</strong>. Please check the site occasionally as the election campaign progresses.
+</td></tr>
+{% endif %}
+</table>
+
+{% endblock %}
+{% block footer %}
+<p class="middle">
+Data from <a href="https://dontsplittheremainvote.com/">dontsplittheremainvote.com</a> and <a href="https://dontsplittheremainvote.com/datasets.html">sources</a>.
+</p>
+{% endblock %}
