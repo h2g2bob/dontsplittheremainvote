@@ -10,7 +10,7 @@
 {% block topbanner %}
 {% endblock %}
 {% block content %}
-<h1>{{constituency.name}}</h1>
+<h1 class="middle">{{constituency.name}}</h1>
 
 <div class="section advice middle">
 {% if aggregation.party %}
@@ -25,7 +25,7 @@
 {% endif %}
 </div>
 
-<table class="middle-othersite">
+<div class="middle-othersite-table"><table>
 {% for other_site in other_sites %}
 <tr><td>
   <img class="tick" src="{{static}}/logo/tick/{{ other_site.party.short }}.png" alt="{{ other_site.party.name }} tick" />
@@ -37,14 +37,14 @@
 <tr><td>
   <img class="tick" src="{{static}}/logo/tick/clock.png" alt="Clock" />
 </td><td>
-  <strong>Recommendations can change</strong>. Please check the site occasionally as the election campaign progresses.
+  <strong>Recommendations can change</strong>.<br />Please check the site occasionally<br />as the election campaign progresses.
 </td></tr>
 {% endif %}
-</table>
+</table></div>
 
 {% endblock %}
 {% block footer %}
-<p class="middle">
+<p class="whomadeit">
 Data from <a href="https://dontsplittheremainvote.com/">dontsplittheremainvote.com</a> and <a href="https://dontsplittheremainvote.com/datasets.html">sources</a>.
 </p>
 {% endblock %}
