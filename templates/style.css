@@ -230,3 +230,13 @@ div.middle-othersite-table a:visited {
 div.advice.middle h2 {
     margin-top: 0;
 }
+
+div.to-minimal-constituency-list {
+    margin-right: 10%;
+    text-align: right;
+}
+
+div.to-minimal-constituency-list a:link,
+div.to-minimal-constituency-list a:visited {
+    color: #6699cc;
+}

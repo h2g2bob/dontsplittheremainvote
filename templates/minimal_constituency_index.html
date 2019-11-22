@@ -1,0 +1,18 @@
+{% extends "minimal_index.html" %}
+{% block morecontent %}
+
+{% for region, county_dict in constituency_pages.items()|sort %}
+  <h2 id="{{region}}">{{region}}</h2>
+  {% for county, cpage_list in county_dict.items()|sort %}
+    <h3 id="{{county}}">{{county}}</h3>
+    <ul>
+    {% for cpage in cpage_list|sort %}
+      <li class="constituency">
+        <a href="/minimal/{{cpage.constituency.slug}}.html">{{cpage.constituency.name}}</a>
+      </li>
+    {% endfor %}
+    </ul>
+  {% endfor %}
+{% endfor %}
+
+{% endblock %}

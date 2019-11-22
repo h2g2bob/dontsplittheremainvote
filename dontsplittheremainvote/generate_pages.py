@@ -80,6 +80,7 @@ def generate_index(constituency_pages):
         ('index.html', 'main_index.html'),
         ('contact.html', 'contact.html'),
         ('minimal.html', 'minimal_index.html'),
+        ('minimal/index.html', 'minimal_constituency_index.html'),
     ]:
         html = JINJA_ENV.get_template(template_path).render(
             static=STATIC,
