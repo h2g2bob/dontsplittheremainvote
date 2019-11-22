@@ -194,3 +194,39 @@ div.section.specialfact {
     margin: 2em;
     padding-left: 4.6em;
 }
+
+h1.middle,
+div.middle {
+    text-align: center;
+}
+
+div.middle-othersite-table table {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+p.whomadeit {
+    font-size: 80%;
+}
+
+img.mainlogo-middle {
+    height: 6em;
+    width: 6em;
+}
+
+div.middle-othersite-table img.tick {
+    height: 4em;
+    width: 4em;
+}
+
+div.middle-othersite-table a:link,
+div.middle-othersite-table a:visited {
+    color: #000000;
+    text-decoration-color: #aaaaaa;
+}
+
+div.advice.middle h2 {
+    margin-top: 0;
+}
