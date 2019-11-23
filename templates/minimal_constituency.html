@@ -33,13 +33,11 @@
   <em>{{ other_site.who_suggests }}</em> <a href="{{ other_site.url }}">recommends</a><br />voting for <strong class="party party-{{ other_site.party.code }}">{{ other_site.party.name }}</strong>.
 </td></tr>
 {% endfor %}
-{% if aggregation.provisional %}
 <tr><td>
   <img class="tick" src="{{static}}/logo/tick/clock.png" alt="Clock" />
 </td><td>
   <strong>Recommendations can change</strong>.<br />Please check the site occasionally<br />as the election campaign progresses.
 </td></tr>
-{% endif %}
 </table></div>
 
 {% endblock %}
