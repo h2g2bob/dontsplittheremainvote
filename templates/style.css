@@ -240,3 +240,8 @@ div.to-minimal-constituency-list a:link,
 div.to-minimal-constituency-list a:visited {
     color: #6699cc;
 }
+
+/* fixes an issue with embedded iframes on safari */
+div.iphonepadding {
+  height: 100%;
+}
