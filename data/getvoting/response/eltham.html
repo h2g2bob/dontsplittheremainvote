@@ -1,0 +1,651 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+   
+
+
+ <script src="https://cc.cdn.civiccomputing.com/8/cookieControl-8.2.1.min.js" integrity="sha384-5hK4cBe/+/7kp5VvBY+YbZl8L38bgcJwxfFcc+VrIPnPeMUoI6dcnyPSo4J9zeg4" crossorigin="anonymous"></script>
+        <script>
+            // Establish GA object but don't send anything yet
+            window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+            ga('create', 'UA-98374795-9', 'auto');
+            ga('send', 'pageview');
+        
+        
+            var config = {
+              apiKey: '7b97678ca6446369bc2be9786d7f73d5b9666768',
+              product: 'PRO_MULTISITE',
+              initialState: 'open',
+              position: 'left',
+              closeStyle: 'icon',
+              statement : {
+                description: 'Our Cookie Policy and Cookie preference management have changed. If you accept our recommended settings all Cookies, including analytics and marketing cookies will be enabled. For more information see our ',
+                name : 'Cookies Policy',
+                url: 'https://www.bestforbritain.org/cookies',
+                updated : '06/09/2019'
+              },
+              text : {
+                  thirdPartyTitle : 'Warning: Some cookies require your attention',
+                  thirdPartyDescription : 'Consent for some third party cookies can not be automatically revoked. Please follow the link below if you want to opt out of them.',
+                  closeLabel: 'Save and close'
+              },
+              branding : {
+                fontFamily: 'Roboto, Arial, Sans',
+                removeAbout: true
+              },
+              necessaryCookies: [
+                  {
+                      name : 'functionality',
+                      label: 'Functionality Cookies',
+                      recommendedState: true,
+                      description: "Some cookies are necessary for providing this site's functionality",
+                      cookies: ['sessionid','csrftoken'],
+                  },
+              ],
+              optionalCookies: [
+                  {
+                      name : 'analytics',
+                      label: 'Analytics Cookies',
+                      recommendedState: true,
+                      description: 'We use Google Analytics to collect and report information on how visitors use this site so we can make it better.',
+                      cookies: ['__ga', '_gid', '_gat', '__utma', '__utmt', '__utmb', '__utmc', '__utmz', '__utmv'],
+                      onAccept : function(){
+                        var s = document.createElement('script');
+                        s.setAttribute('src', 'https://www.google-analytics.com/analytics.js');
+                        document.body.appendChild(s);
+                      },
+                      onRevoke: function(){
+                        // Disable Google Analytics
+                        window['ga-disable-UA-98374795-9'] = true;
+                        // End Google Analytics
+                      }
+                  },
+                  {
+                      name : 'marketing',
+                      label: 'Marketing Cookies',
+                      recommendedState: true,
+                      description: 'We use marketing cookies to help us improve the performance of advertising campaigns we run.',
+                      cookies: ['fr'],
+                      onAccept : function(){
+                          // Add Facebook Pixel
+                          !function(f,b,e,v,n,t,s)
+                          {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+                              n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+                              if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+                              n.queue=[];t=b.createElement(e);t.async=!0;
+                              t.src=v;s=b.getElementsByTagName(e)[0];
+                              s.parentNode.insertBefore(t,s)}(window,document,'script',
+                              'https://connect.facebook.net/en_US/fbevents.js');
+                          fbq('init', '1871418283117093');
+                          fbq('track', 'PageView');
+                          fbq('consent', 'grant');
+                          // End Facebook Pixel
+                      },
+                      onRevoke: function() {
+                        fbq('consent', 'revoke');
+                      }
+                  },
+              ]
+            };
+            CookieControl.load( config );
+            </script>
+
+<meta name="author" content="BestforBritain.org">
+<meta property="og:url" content="https://tacticalvote.getvoting.org">
+<meta property="og:type" content="website">
+<link rel="image_src" href="https://tacticalvote.getvoting.org/static/logo/GetVoting_social.jpg" />
+<meta property="og:image" content="https://tacticalvote.getvoting.org/static/logo/GetVoting_social.jpg" />
+<meta property="og:site_name" content="GetVoting by Best for Britain" />
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@BestForBritain">
+<meta name="twitter:creator" content="@BestForBritain">
+<meta name="twitter:image:src" content="https://tacticalvote.getvoting.org/static/logo/GetVoting_social.jpg">
+<link rel="icon" type="image/x-icon" href="https://getvoting.org/fav_getvoting.png" />
+
+
+    <title>Eltham, GetVoting Tactically</title>
+    <meta name="description" content="Find out who to vote for in Eltham. #GetVoting, tactically. Together, we can stop Brexit.">
+    <meta property="og:title" content="GetVoting tactically in Eltham" />
+    <meta property="og:description" content="Find out who to vote for in Eltham. #GetVoting, tactically. Together, we can stop Brexit.">
+    <meta name="twitter:title" content="GetVoting tactically in Eltham">
+    <meta name="twitter:description" content="Find out who to vote for in Eltham. #GetVoting, tactically. Together, we can stop Brexit.">
+    
+
+
+
+    <link rel="icon" href="data:;base64,iVBORw0KGgo=">
+
+    
+
+
+    <!-- Icons font Icons -->
+    <!--<script src="https://kit.fontawesome.com/114fbb56dd.js" crossorigin="anonymous"></script>-->
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--swiper start-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/css/swiper.min.css">
+    <!--materialize-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!-- JQ UI -->
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <!-- CSS -->
+    <link rel="stylesheet" type="text/css" href="/static/css/main.css">
+  </head>
+
+  <body>
+    <!-- NAVBAR -->
+    <div class="navbar-fixed">
+      <nav>
+        <div class="nav-wrapper container">
+          <a href="/home/" class="brand-logo right">
+            <img src="/static/logo/GetVoting.png" height="100" alt="GetVoting logo">
+          </a>
+          <a href="/home/" data-target="mobile-demo" class="sidenav-trigger">
+            <i class="material-icons">menu</i>
+          </a>
+          <ul class="left hide-on-med-and-down">
+            <li><a href="/home/">Find Candidate</a></li>
+            <li><a href="/why-getvoting-works/">Why GetVoting?</a></li>
+            <li><a href="/latest-news/">Latest News</a></li>
+            <li><a href="/FAQs/">FAQs</a></li>
+            <li><a href="/join-us/">Join Us</a></li>
+            <li><a href="https://www.bestforbritain.org/donategetvoting" target="_blank">Donate</a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+
+    <!-- BURGER -->
+    <ul class="sidenav" id="mobile-demo">
+      <li><a href="/home/">Find Candidate</a></li>
+      <li><a href="/why-getvoting-works/">Why GetVoting?</a></li>
+      <li><a href="/latest-news/">What's New</a></li>
+      <li><a href="/FAQs/">FAQs</a></li>  
+      <li><a href="/join-us/">Join Us</a></li>
+      <li><a href="https://www.bestforbritain.org/donategetvoting" target="_blank">Donate</a></li>    
+      <div class="col s12 imprint-menu">
+        <img src="/static/logo/bfbblack.png" width="60%" alt="Best for Britain logo">
+        <br>
+        
+
+Published and promoted by Rudi Shenk on behalf of Best for Britain,
+the campaign name of UK-EU OPEN POLICY LIMITED registered at International House,
+24 Holborn Viaduct, London, EC1A 2BN. Best for Britain is registered with
+The Electoral Commission.
+<br><br>
+<a href="https://www.bestforbritain.org/privacy_policy">Privacy Policy</a>
+ | <a href="https://www.bestforbritain.org/terms_of_use">Terms of Use</a> 
+ | <a href="https://www.bestforbritain.org/cookies">Cookies Policy</a>
+
+
+      </div>
+    </ul>
+
+    <!-- MAIN  -->
+    
+
+
+<!-- SWIPER -->
+<div id="sw" class="swiper-container">
+	<div class="swiper-wrapper">			
+		<!-- ==== GLOBAL VARIABLES ================================ -->
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+	
+			
+		<!-- ==== SLIDE1 Map ======================================== -->
+			
+				
+				
+				
+				
+								
+					
+
+
+
+
+<!-- SLIDE1 Map -->
+	<div class="mapslide swiper-slide color-1 white-text">
+		<img src="/static/map.png" height="50%" class="map">	
+
+		<!--Row -->
+		<div class="row">
+
+			<div class="line-top col s12">				
+				<p class="h4">Your constituency is Eltham<br></p>		
+			</div>
+
+			<div class="line-middle col s12">
+				<p class="h5">See how voting tactically can make a difference</p>
+			</div>		
+
+			<div class="col s12 line-bottom">
+				<p class="h5">Get your recommendation
+					<i class="material-icons icon-m">keyboard_arrow_down</i>
+				</p>
+			</div>
+
+		</div>
+	</div>
+
+
+				
+			
+
+		<!-- ==== SLIDE2 Logo ========================================== -->
+			
+				
+				
+				
+				
+				
+					
+
+
+
+<!-- SLIDE Logo -->
+	<div class="logoslide swiper-slide color-4 black-text">
+
+		<!--Row -->
+		<div class="row">
+
+			<div class="line-top col s12">
+				<p class="h4">Eltham<br></p>	
+			</div>
+
+			<div class="line-middle col s12">
+			<p class="h5">We recommend you vote for The Labour Party candidate</p>
+					<img src="/media/profiles/labour.png" alt="logo">
+			</div>
+
+			<div class="col s12 line-bottom">
+				<p class="h5">How will this stop Brexit?
+					<i class="material-icons arrow-down">keyboard_arrow_down</i>
+				</p>
+			</div>
+			
+		</div>
+	</div>
+
+
+				
+			
+		<!-- ==== SLIDE3  ========================================== -->
+			
+				
+				
+				
+				
+					
+
+
+
+<!-- SLIDE1 Map -->
+	<div class="normalslide swiper-slide color-1 white-text">
+
+		<!--Row -->
+		<div class="row">
+			<div class="line-top col s12 m8 offset-m2 l6 offset-l3">
+				<p class="h4">Voting for The Labour Party in your area is the best chance of electing a Pro-EU MP and stopping Brexit.<br></p>	
+			</div>
+			<div class="line-middle col s12 m8 offset-m2 l6 offset-l3">
+				<p class="h5">We need a majority of MPs against Boris Johnson's Brexit plans.</p>
+			</div>
+			<div class="col s12 line-bottom">
+				<p class="h5">Why vote tactically?
+					<i class="material-icons arrow-down">keyboard_arrow_down</i>
+				</p>
+			</div>
+		</div>
+	</div>
+
+
+				
+			
+		<!-- ==== SLIDE4 Chart1  ========================================== -->
+				
+			
+					
+					
+				
+				
+				
+				
+				
+				
+					
+
+
+  
+<!--  Chart -->
+<div class="chartslide swiper-slide color-4 black-text">
+	<!--Row -->
+	<div class="row">
+		<div class="line-top col s12" style="position:relative;top:-56px">
+				<p class="h4">Eltham<br>Predicted Vote Share based on October MRP data</p><p>Scenario: No Tactical Voting</p>	
+		</div>		
+		<div class="col s12 m8 offset-m2 l6 offset-l3"  style="position:relative;top:-56px;padding-top:20px;padding-bottom:15px">
+			<meta id="chart_actual-data" data-name="[13.1, 16.9, 31.1, 5.7, 32.0]">
+			<meta id="chart_actual-labels" data-name='[ &quot;Brexit Party&quot;, &quot;Liberal Democrats&quot;, &quot;Labour&quot;, &quot;Green Party&quot;, &quot;Conservatives&quot;]'>
+			<canvas id="chart_actual" class="color-3 histogram" style="max-width:90%"></canvas>
+		</div>
+		<div class="col s10 offset-s1"  style="position:relative;top:-56px">
+				<p class="methodology"> Study carried out for
+				<a target="_blank" href="">HOPE not hate</a> and
+				<a target="_blank" href="https://www.bestforbritain.org/">Best for Britain</a> by
+				<a target="_blank" href="https://www.focaldata.com/">Focaldata</a>, using
+				<a target="_blank" href="https://en.wikipedia.org/wiki/Multilevel_regression_with_poststratification">MRP technique</a>
+				to estimate opinion in each Constituency in the UK. Focaldata collected vote intentions from 46,000 respondents between September and October 2019 
+				from numerous panel companies including 
+				<a target="_blank" href="https://yougov.co.uk/">YouGov</a> which were	commissioned by HOPE not to hate and Best for Britain.</p>
+			<a href="https://www.getvoting.org/charts/E14000690_1.png" class="btn-small waves-effect waves-light btn-download color-1" role="button" aria-pressed="true"><i class="material-icons right">cloud_download</i>Download Chart</a>
+		</div>
+		<div class="col s12 line-bottom"> 
+			<p class="h5">Why vote tactically?
+				<i class="material-icons arrow-down">keyboard_arrow_down</i>
+			</p>
+		</div>
+	</div>
+</div>
+
+
+
+				
+				
+		
+
+		<!-- ==== SLIDE5 Chart2  ========================================== -->
+			
+			
+					
+					
+				
+				
+				
+				
+				
+									
+					
+
+
+  
+<!--  Chart -->
+<div class="chartslide swiper-slide color-4 black-text">
+	<!--Row -->
+	<div class="row">
+		<div class="line-top col s12" style="position:relative;top:-56px">
+				<p class="h4">Eltham<br>Predicted Vote Share based on October MRP data</p><p>Scenario: 30% Remainers vote tactically</p>	
+		</div>		
+		<div class="col s12 m8 offset-m2 l6 offset-l3"  style="position:relative;top:-56px;padding-top:20px;padding-bottom:15px">
+			<meta id="chart_tactical-data" data-name="[13.0, 12.0, 38.0, 4.0, 32.0]">
+			<meta id="chart_tactical-labels" data-name='[ &quot;Brexit Party&quot;, &quot;Liberal Democrats&quot;, &quot;Labour&quot;, &quot;Green Party&quot;, &quot;Conservatives&quot;]'>
+			<canvas id="chart_tactical" class="color-3 histogram" style="max-width:90%"></canvas>
+		</div>
+		<div class="col s10 offset-s1"  style="position:relative;top:-56px">
+				<p class="methodology"> Study carried out for
+				<a target="_blank" href="">HOPE not hate</a> and
+				<a target="_blank" href="https://www.bestforbritain.org/">Best for Britain</a> by
+				<a target="_blank" href="https://www.focaldata.com/">Focaldata</a>, using
+				<a target="_blank" href="https://en.wikipedia.org/wiki/Multilevel_regression_with_poststratification">MRP technique</a>
+				to estimate opinion in each Constituency in the UK. Focaldata collected vote intentions from 46,000 respondents between September and October 2019 
+				from numerous panel companies including 
+				<a target="_blank" href="https://yougov.co.uk/">YouGov</a> which were	commissioned by HOPE not to hate and Best for Britain.</p>
+			<a href="https://www.getvoting.org/charts/E14000690_2.png" class="btn-small waves-effect waves-light btn-download color-1" role="button" aria-pressed="true"><i class="material-icons right">cloud_download</i>Download Chart</a>
+		</div>
+		<div class="col s12 line-bottom"> 
+			<p class="h5">Why vote tactically?
+				<i class="material-icons arrow-down">keyboard_arrow_down</i>
+			</p>
+		</div>
+	</div>
+</div>
+
+
+
+				
+			
+
+		<!-- ==== SLIDE6 Card  ========================================== -->
+			
+				
+				
+				
+				
+					
+
+
+
+<!-- SLIDE1 Map -->
+	<div class="normalslide swiper-slide color-1 white-text">
+
+		<!--Row -->
+		<div class="row">
+			<div class="line-top col s12 m8 offset-m2 l6 offset-l3">
+				<p class="h4">Tactical voting works<br></p>	
+			</div>
+			<div class="line-middle col s12 m8 offset-m2 l6 offset-l3">
+				<p class="h5">Our recommendations are data-led, but we also take into account the local political situation. Our MRP analysis of polls conducted in October 2019 has a sample size of 46,000 voters. MRP correctly predicted the 2016 Brexit vote and the 2017 election. We hope to do another round of MRP before polling day to capture swings during the election campaign and will update our recommendations accordingly</p>
+			</div>
+			<div class="col s12 line-bottom">
+				<p class="h5">
+					<i class="material-icons arrow-down">keyboard_arrow_down</i>
+				</p>
+			</div>
+		</div>
+	</div>
+
+
+				
+			
+		
+		<!-- ==== SLIDE7 Update ========================================== -->
+		
+
+		<!-- ==== SLIDE8 Logo Repeat ========================================== -->
+		
+		
+		
+		
+		
+		
+			
+
+
+
+<!-- SLIDE Logo -->
+	<div class="logoslide swiper-slide color-4 black-text">
+
+		<!--Row -->
+		<div class="row">
+
+			<div class="line-top col s12">
+				<p class="h4">Make sure you vote tactically to help a Pro-European win in your area<br></p>	
+			</div>
+
+			<div class="line-middle col s12">
+			<p class="h5">We recommend you vote for The Labour Party candidate</p>
+					<img src="/media/profiles/labour.png" alt="logo">
+			</div>
+
+			<div class="col s12 line-bottom">
+				<p class="h5">Sign up to get updates
+					<i class="material-icons arrow-down">keyboard_arrow_down</i>
+				</p>
+			</div>
+			
+		</div>
+	</div>
+
+
+		
+		
+		
+		<!-- ==== SLIDE9 Final slide - imprint ========================================== -->
+		
+		
+		
+		
+		
+				
+			
+
+
+
+
+<!-- Imprint -->
+<div class="normalslide swiper-slide color-4 black-text">
+
+	<!--Row -->
+	<div class="row">
+		<div class="line-top col s12">
+			<p class="h4">Sign up for updates about tactical voting and Best for Britain's campaign to stop Brexit<br></p>	
+		</div>
+		<div class="line-middle col s12">
+			<p class="h5">Be part of the campaign today</p>
+
+			<div class="col s12 center-align">
+				<a class="btn waves-effect waves-light btn-large btn-form "
+					href="/join-us/" role="button" aria-pressed="true">
+					<i class="material-icons right">emoji_people</i>Sign Up</a>
+			</div>
+		</div>
+
+		<div class="col s12 line-bottom">
+			<div class="container">
+				<div class="col s12 imprint-index">
+					
+
+Published and promoted by Rudi Shenk on behalf of Best for Britain,
+the campaign name of UK-EU OPEN POLICY LIMITED registered at International House,
+24 Holborn Viaduct, London, EC1A 2BN. Best for Britain is registered with
+The Electoral Commission.
+<br><br>
+<a href="https://www.bestforbritain.org/privacy_policy">Privacy Policy</a>
+ | <a href="https://www.bestforbritain.org/terms_of_use">Terms of Use</a> 
+ | <a href="https://www.bestforbritain.org/cookies">Cookies Policy</a>
+
+
+				</div>
+			</div>
+		</div>
+
+	</div>
+	
+</div>
+
+
+		
+		
+		<!-- ==== GLOBAL VARIABLES ========================================== -->
+			
+			
+			
+			
+			
+			
+			
+			
+			
+
+		<!-- ==== SLIDE1 Map ========================================== -->
+		<!-- ==== SLIDE1 Map ========================================== -->
+		<!-- ==== SLIDE1 Map ========================================== -->
+
+
+
+
+	
+	</div> <!-- end of swiper-wrapper-->
+
+
+	<!-- ================================================================================ -->
+	<!-- ================================================================================ -->
+	<!-- ================================================================================ -->
+	<!-- ================================================================================ -->
+	<!-- Add Pagination -->
+	<div class="swiper-pagination"></div>
+	
+
+	<!-- <div class="col s12">
+	<button id="findreco" type="submit" name="action"
+		class="btn waves-effect waves-light btn-large white black-text  button1">
+		<i class="material-icons right">emoji_people</i>Continue
+	</button>
+</div> -->
+	<style>
+		iframe {
+			visibility: hidden;
+		}
+	</style>
+
+</div> <!-- end of container -->
+
+
+    <div class="container">
+      <div class="col s12 imprint-index">
+          
+
+Published and promoted by Rudi Shenk on behalf of Best for Britain,
+the campaign name of UK-EU OPEN POLICY LIMITED registered at International House,
+24 Holborn Viaduct, London, EC1A 2BN. Best for Britain is registered with
+The Electoral Commission.
+<br><br>
+<a href="https://www.bestforbritain.org/privacy_policy">Privacy Policy</a>
+ | <a href="https://www.bestforbritain.org/terms_of_use">Terms of Use</a> 
+ | <a href="https://www.bestforbritain.org/cookies">Cookies Policy</a>
+
+
+      </div>
+    </div>
+
+    <!-- Jquery JS-->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.1/dist/Chart.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/js/swiper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <!-- JQ UI to replace by better one for autocomplete -->
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
+    <script src="/static/js/main.js"></script>
+    <script src="/static/js/histogram.js"></script>
+
+
+
+  </body><!-- This templates was made by GeoMeteoMe -->
+
+</html>
+<!-- end document-->
