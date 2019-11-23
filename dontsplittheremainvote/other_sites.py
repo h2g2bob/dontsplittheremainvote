@@ -82,36 +82,66 @@ def example_postcode(constituency: Constituency):
     return _POSTCODE_EXAMPLES[constituency.slug]
 
 
-def _getvoting():
+def _getvoting_pages(page: str) -> Party:
     PARTIES = {
+        'The Labour Party': LAB,
+        'The Liberal Democrats': LD,
+        'Plaid Cymru': PLAID,
+        'Dominic Grieve': DOMINICGRIEVE,
+        'The Green Party': GREEN,
         'Anna Soubry': CHANGEUK,
-        'Antoinette Sandbach': LD, # former conservative, now LD
-        'Claire Wright': CLAIREWRIGHT,
-        'David Gauke': DAVIDGAUKE, # former conservative - maybe not standing again?
-        'Dominic Grieve': DOMINICGRIEVE, # former conservative (pact with LD)
-        'Gavin Shuker': GAVINSHUKER, # former labour
-        'Green': GREEN,
-        'Lab': LAB,
-        'Lib Dem': LD,
-        'LibLab': ANYPARTY, # "Either LD or LAB"
-        'Lindsey Hoyle': None, # Speaker, so "no recommendation"
-        'none': None,
-        'Philip Hammond': INDEPENDENT, # former conservative, but he decided to stand down
-        'Plaid': PLAID,
-        'Pledge': None,
+        'Claire Wright, the independent': CLAIREWRIGHT,
+        'Gavin Shuker': GAVINSHUKER,
+        'David Gauke': DAVIDGAUKE,
     }
 
-    with open('data/getvoting/NewData.json') as f:
-        data = json.load(f)
-        for ons_id, recomend in data.items():
-            constituency = get_constitiuency(ons_id)
-            party_name = recomend['Reco']
-            party = PARTIES[party_name]
+    if '<h2>we are sorry but the page you requested does not exist</h2>' in page:
+        raise ValueError("404")
+
+    if '<p class="h4">You can stop Boris Johnson getting a majority if you vote tactically here.<br></p>' in page and '<p class="h5">Use your vote for any of:' in page:
+        return None
+
+    if '<p class="h4">Many parties and candidates in Northern Ireland are Pro-European but some would not take their seats in the UK Parliament if elected.<br></p>' in page and '<p class="h5">We want to avoid making confusing, inaccurate or counter-productive recommendations.</p>' in page:
+        return None
+
+    if '<p class="h4">In your area, both Labour or the Liberal Democrats could win and both have excellent pro-European credentials. We take note of your current MP\'s excellent record on Brexit in Parliament.<br></p>' in page and '<p class="h5">Our data suggests neither the Tories nor the Brexit Party can win here, unlike in other areas, so you can feel safe to vote for whichever pro-EU candidate you prefer.</p>' in page:
+        return ANYPARTY
+
+    if '<p class="h4">The main parties generally do not oppose the Speaker, so your current MP is likely to be re-elected<br></p>' in page:
+        return None
+
+    match = re.compile(r'<p class="h4">Voting for (.*) in your area is the best chance of electing a Pro-EU MP and stopping Brexit.<br></p>').search(page)
+    if match is not None:
+        [party_name] = match.groups()
+        return PARTIES[party_name]
+
+    match = re.compile(r'<p class="h5">We recommend you vote for (.*) candidate</p>').search(page)
+    if match is not None:
+        [party_name] = match.groups()
+        return PARTIES[party_name]
+
+    raise ValueError(page.split("== SLIDE3")[-1].split("== SLIDE4")[0])
+
+def _getvoting():
+    with open('data/getvoting/constituency-names.csv') as f:
+        pairs = (line.strip().split(',') for line in f)
+        their_slugs = {
+            our_slug: their_slug
+            for our_slug, their_slug in pairs}
+
+    for constituency in all_constituencies():
+        with open('data/getvoting/response/{}.html'.format(constituency.slug)) as f:
+            try:
+                party = _getvoting_pages(f.read())
+            except Exception:
+                print(constituency)
+                raise
+            their_slug = their_slugs[constituency.slug]
             if party is not None:
                 suggestion = OtherSiteSuggestion(
                     who_suggests='Best for Britain',
                     party=party,
-                    url='https://getvoting.org/#postcode={}'.format(example_postcode(constituency)))
+                    url='https://tacticalvote.getvoting.org/{}/'.format(their_slug))
                 yield constituency, suggestion
 
 _TACVOTE_CO_UK = {
