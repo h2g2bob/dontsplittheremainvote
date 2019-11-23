@@ -211,7 +211,7 @@
     },
     "aberdeen-south": {
       "aggregation": {
-        "important": false,
+        "important": true,
         "party": "snp",
         "template": "vote-snp.html"
       },
@@ -230,7 +230,7 @@
       },
       "other_sites": [
         {
-          "important": false,
+          "important": true,
           "party": "snp",
           "they_say": "Current Tory seat. SNP came second last election.",
           "url": "https://tacticalvote.co.uk/#AberdeenSouth",
@@ -551,7 +551,7 @@
     },
     "alyn-and-deeside": {
       "aggregation": {
-        "important": false,
+        "important": true,
         "party": "lab",
         "template": "vote-lab.html"
       },
@@ -570,7 +570,7 @@
       },
       "other_sites": [
         {
-          "important": false,
+          "important": true,
           "party": "lab",
           "they_say": "Current Labour seat. Tories came second last election.",
           "url": "https://tacticalvote.co.uk/#AlynandDeeside",
@@ -2078,7 +2078,7 @@
     },
     "bath": {
       "aggregation": {
-        "important": false,
+        "important": true,
         "party": "ld",
         "template": "vote-ld.html"
       },
@@ -2097,7 +2097,7 @@
       },
       "other_sites": [
         {
-          "important": false,
+          "important": true,
           "party": "ld",
           "they_say": "Current Lib Dem seat. Tories came second last election.",
           "url": "https://tacticalvote.co.uk/#Bath",
@@ -3737,7 +3737,7 @@
     },
     "birmingham-northfield": {
       "aggregation": {
-        "important": false,
+        "important": true,
         "party": "lab",
         "template": "vote-lab.html"
       },
@@ -3756,7 +3756,7 @@
       },
       "other_sites": [
         {
-          "important": false,
+          "important": true,
           "party": "lab",
           "they_say": "Current Labour seat. Tories came second last election.",
           "url": "https://tacticalvote.co.uk/#Birmingham,Northfield",
@@ -4713,7 +4713,7 @@
     },
     "bolsover": {
       "aggregation": {
-        "important": false,
+        "important": true,
         "party": "lab",
         "template": "vote-lab.html"
       },
@@ -4732,7 +4732,7 @@
       },
       "other_sites": [
         {
-          "important": false,
+          "important": true,
           "party": "lab",
           "they_say": "Current Labour seat. Tories came second last election.",
           "url": "https://tacticalvote.co.uk/#Bolsover",
@@ -6013,7 +6013,7 @@
     },
     "brentford-and-isleworth": {
       "aggregation": {
-        "important": false,
+        "important": true,
         "party": "lab",
         "template": "vote-lab.html"
       },
@@ -6032,7 +6032,7 @@
       },
       "other_sites": [
         {
-          "important": false,
+          "important": true,
           "party": "lab",
           "they_say": "Current Labour seat. Tories came second last election.",
           "url": "https://tacticalvote.co.uk/#BrentfordandIsleworth",
@@ -6182,7 +6182,7 @@
     },
     "bridgend": {
       "aggregation": {
-        "important": false,
+        "important": true,
         "party": "lab",
         "template": "vote-lab.html"
       },
@@ -6201,7 +6201,7 @@
       },
       "other_sites": [
         {
-          "important": false,
+          "important": true,
           "party": "lab",
           "they_say": "Current Labour seat. Tories came second last election.",
           "url": "https://tacticalvote.co.uk/#Bridgend",
@@ -6404,7 +6404,7 @@
     },
     "brighton-kemptown": {
       "aggregation": {
-        "important": false,
+        "important": true,
         "party": "lab",
         "template": "vote-lab.html"
       },
@@ -6423,7 +6423,7 @@
       },
       "other_sites": [
         {
-          "important": false,
+          "important": true,
           "party": "lab",
           "they_say": "Current Labour seat. Tories came second last election.",
           "url": "https://tacticalvote.co.uk/#Brighton,Kemptown",
@@ -10148,7 +10148,7 @@
     },
     "chippenham": {
       "aggregation": {
-        "important": false,
+        "important": true,
         "party": "ld",
         "template": "vote-ld.html"
       },
@@ -10167,7 +10167,7 @@
       },
       "other_sites": [
         {
-          "important": false,
+          "important": true,
           "party": "ld",
           "they_say": "Current Tory seat. Lib Dems came second last election.",
           "url": "https://tacticalvote.co.uk/#Chippenham",
@@ -10854,7 +10854,7 @@
     },
     "clwyd-south": {
       "aggregation": {
-        "important": false,
+        "important": true,
         "party": "lab",
         "template": "vote-lab.html"
       },
@@ -10873,7 +10873,7 @@
       },
       "other_sites": [
         {
-          "important": false,
+          "important": true,
           "party": "lab",
           "they_say": "Current Labour seat. Tories came second last election.",
           "url": "https://tacticalvote.co.uk/#ClwydSouth",
@@ -12510,7 +12510,7 @@
     },
     "delyn": {
       "aggregation": {
-        "important": false,
+        "important": true,
         "party": "lab",
         "template": "vote-lab.html"
       },
@@ -12529,7 +12529,7 @@
       },
       "other_sites": [
         {
-          "important": false,
+          "important": true,
           "party": "lab",
           "they_say": "Current Labour seat. Tories came second last election.",
           "url": "https://tacticalvote.co.uk/#Delyn",
@@ -13028,7 +13028,7 @@
     },
     "don-valley": {
       "aggregation": {
-        "important": false,
+        "important": true,
         "party": "lab",
         "template": "vote-lab.html"
       },
@@ -13047,7 +13047,7 @@
       },
       "other_sites": [
         {
-          "important": false,
+          "important": true,
           "party": "lab",
           "they_say": "Current Labour seat. Tories came second last election.",
           "url": "https://tacticalvote.co.uk/#DonValley",
@@ -13278,7 +13278,7 @@
     },
     "dover": {
       "aggregation": {
-        "important": false,
+        "important": true,
         "party": "lab",
         "template": "vote-lab.html"
       },
@@ -13297,7 +13297,7 @@
       },
       "other_sites": [
         {
-          "important": false,
+          "important": true,
           "party": "lab",
           "they_say": "Current Tory seat. Labour came second last election.",
           "url": "https://tacticalvote.co.uk/#Dover",
@@ -13679,7 +13679,7 @@
     },
     "dumfriesshire-clydesdale-and-tweeddale": {
       "aggregation": {
-        "important": false,
+        "important": true,
         "party": "snp",
         "template": "vote-snp.html"
       },
@@ -13698,7 +13698,7 @@
       },
       "other_sites": [
         {
-          "important": false,
+          "important": true,
           "party": "snp",
           "they_say": "Current Tory seat. SNP came second last election.",
           "url": "https://tacticalvote.co.uk/#Dumfriesshire,ClydesdaleandTweeddale",
@@ -13982,7 +13982,7 @@
     },
     "ealing-central-and-acton": {
       "aggregation": {
-        "important": false,
+        "important": true,
         "party": "lab",
         "template": "vote-lab.html"
       },
@@ -14001,7 +14001,7 @@
       },
       "other_sites": [
         {
-          "important": false,
+          "important": true,
           "party": "lab",
           "they_say": "Current Labour seat. Tories came second last election.",
           "url": "https://tacticalvote.co.uk/#EalingCentralandActon",
@@ -14324,7 +14324,7 @@
     },
     "east-devon": {
       "aggregation": {
-        "important": false,
+        "important": true,
         "party": "ind-wright",
         "template": "vote-ind-wright.html"
       },
@@ -14343,7 +14343,7 @@
       },
       "other_sites": [
         {
-          "important": false,
+          "important": true,
           "party": "ind-wright",
           "they_say": "Current Tory seat. Independent candidate Claire Wright came close second last time.",
           "url": "https://tacticalvote.co.uk/#EastDevon",
@@ -15826,7 +15826,7 @@
     },
     "eltham": {
       "aggregation": {
-        "important": false,
+        "important": true,
         "party": "lab",
         "template": "vote-lab.html"
       },
@@ -15845,7 +15845,7 @@
       },
       "other_sites": [
         {
-          "important": false,
+          "important": true,
           "party": "lab",
           "they_say": "Current Labour seat. Tories came second last election.",
           "url": "https://tacticalvote.co.uk/#Eltham",
@@ -19016,7 +19016,7 @@
     },
     "halesowen-and-rowley-regis": {
       "aggregation": {
-        "important": false,
+        "important": true,
         "party": "lab",
         "template": "vote-lab.html"
       },
@@ -19035,7 +19035,7 @@
       },
       "other_sites": [
         {
-          "important": false,
+          "important": true,
           "party": "lab",
           "they_say": "Current Tory seat. Labour came second last election.",
           "url": "https://tacticalvote.co.uk/#HalesowenandRowleyRegis",
@@ -19097,7 +19097,7 @@
     },
     "halifax": {
       "aggregation": {
-        "important": false,
+        "important": true,
         "party": "lab",
         "template": "vote-lab.html"
       },
@@ -19116,7 +19116,7 @@
       },
       "other_sites": [
         {
-          "important": false,
+          "important": true,
           "party": "lab",
           "they_say": "Current Labour seat. Tories came second last election.",
           "url": "https://tacticalvote.co.uk/#Halifax",
@@ -20280,7 +20280,7 @@
     },
     "hazel-grove": {
       "aggregation": {
-        "important": false,
+        "important": true,
         "party": "ld",
         "template": "vote-ld.html"
       },
@@ -20299,7 +20299,7 @@
       },
       "other_sites": [
         {
-          "important": false,
+          "important": true,
           "party": "ld",
           "they_say": "Current Tory seat. Lib Dems came second last election.",
           "url": "https://tacticalvote.co.uk/#HazelGrove",
@@ -21611,7 +21611,7 @@
     },
     "hove": {
       "aggregation": {
-        "important": false,
+        "important": true,
         "party": "lab",
         "template": "vote-lab.html"
       },
@@ -21630,7 +21630,7 @@
       },
       "other_sites": [
         {
-          "important": false,
+          "important": true,
           "party": "lab",
           "they_say": "Current Labour seat. Tories came second last election.",
           "url": "https://tacticalvote.co.uk/#Hove",
@@ -21840,7 +21840,7 @@
     },
     "hyndburn": {
       "aggregation": {
-        "important": false,
+        "important": true,
         "party": "lab",
         "template": "vote-lab.html"
       },
@@ -21859,7 +21859,7 @@
       },
       "other_sites": [
         {
-          "important": false,
+          "important": true,
           "party": "lab",
           "they_say": "Current Labour seat. Tories came second last election.",
           "url": "https://tacticalvote.co.uk/#Hyndburn",
@@ -21914,7 +21914,7 @@
     },
     "ilford-north": {
       "aggregation": {
-        "important": false,
+        "important": true,
         "party": "lab",
         "template": "vote-lab.html"
       },
@@ -21933,7 +21933,7 @@
       },
       "other_sites": [
         {
-          "important": false,
+          "important": true,
           "party": "lab",
           "they_say": "Current Labour seat. Tories came second last election.",
           "url": "https://tacticalvote.co.uk/#IlfordNorth",
@@ -23632,7 +23632,7 @@
     },
     "lancaster-and-fleetwood": {
       "aggregation": {
-        "important": false,
+        "important": true,
         "party": "lab",
         "template": "vote-lab.html"
       },
@@ -23651,7 +23651,7 @@
       },
       "other_sites": [
         {
-          "important": false,
+          "important": true,
           "party": "lab",
           "they_say": "Current Labour seat. Tories came second last election.",
           "url": "https://tacticalvote.co.uk/#LancasterandFleetwood",
@@ -29350,7 +29350,7 @@
     },
     "north-cornwall": {
       "aggregation": {
-        "important": false,
+        "important": true,
         "party": "ld",
         "template": "vote-ld.html"
       },
@@ -29369,7 +29369,7 @@
       },
       "other_sites": [
         {
-          "important": false,
+          "important": true,
           "party": "ld",
           "they_say": "Current Tory seat. Lib Dems came second last election.",
           "url": "https://tacticalvote.co.uk/#NorthCornwall",
@@ -33057,7 +33057,7 @@
     },
     "plymouth-moor-view": {
       "aggregation": {
-        "important": false,
+        "important": true,
         "party": "lab",
         "template": "vote-lab.html"
       },
@@ -33076,7 +33076,7 @@
       },
       "other_sites": [
         {
-          "important": false,
+          "important": true,
           "party": "lab",
           "they_say": "Current Tory seat. Labour came second last election.",
           "url": "https://tacticalvote.co.uk/#Plymouth,MoorView",
@@ -33138,7 +33138,7 @@
     },
     "plymouth-sutton-and-devonport": {
       "aggregation": {
-        "important": false,
+        "important": true,
         "party": "lab",
         "template": "vote-lab.html"
       },
@@ -33157,7 +33157,7 @@
       },
       "other_sites": [
         {
-          "important": false,
+          "important": true,
           "party": "lab",
           "they_say": "Current Labour seat. Tories came second last election.",
           "url": "https://tacticalvote.co.uk/#Plymouth,SuttonandDevonport",
@@ -34855,7 +34855,7 @@
     },
     "rochford-and-southend-east": {
       "aggregation": {
-        "important": false,
+        "important": true,
         "party": "lab",
         "template": "vote-lab.html"
       },
@@ -34874,7 +34874,7 @@
       },
       "other_sites": [
         {
-          "important": false,
+          "important": true,
           "party": "lab",
           "they_say": "Current Tory seat. Labour came second last election.",
           "url": "https://tacticalvote.co.uk/#RochfordandSouthendEast",
@@ -36244,7 +36244,7 @@
     },
     "sedgefield": {
       "aggregation": {
-        "important": false,
+        "important": true,
         "party": "lab",
         "template": "vote-lab.html"
       },
@@ -36263,7 +36263,7 @@
       },
       "other_sites": [
         {
-          "important": false,
+          "important": true,
           "party": "lab",
           "they_say": "Current Labour seat. Tories came second last election.",
           "url": "https://tacticalvote.co.uk/#Sedgefield",
@@ -37100,7 +37100,7 @@
     },
     "shrewsbury-and-atcham": {
       "aggregation": {
-        "important": false,
+        "important": true,
         "party": "lab",
         "template": "vote-lab.html"
       },
@@ -37119,7 +37119,7 @@
       },
       "other_sites": [
         {
-          "important": false,
+          "important": true,
           "party": "lab",
           "they_say": "Current Tory seat. Labour came second last election.",
           "url": "https://tacticalvote.co.uk/#ShrewsburyandAtcham",
@@ -38495,7 +38495,7 @@
     },
     "south-ribble": {
       "aggregation": {
-        "important": false,
+        "important": true,
         "party": "lab",
         "template": "vote-lab.html"
       },
@@ -38514,7 +38514,7 @@
       },
       "other_sites": [
         {
-          "important": false,
+          "important": true,
           "party": "lab",
           "they_say": "Current Tory seat. Labour came second last election.",
           "url": "https://tacticalvote.co.uk/#SouthRibble",
@@ -38865,7 +38865,7 @@
     },
     "south-thanet": {
       "aggregation": {
-        "important": false,
+        "important": true,
         "party": "lab",
         "template": "vote-lab.html"
       },
@@ -38884,7 +38884,7 @@
       },
       "other_sites": [
         {
-          "important": false,
+          "important": true,
           "party": "lab",
           "they_say": "Current Tory seat. Labour came second last election.",
           "url": "https://tacticalvote.co.uk/#SouthThanet",
@@ -39805,7 +39805,7 @@
     },
     "st-albans": {
       "aggregation": {
-        "important": false,
+        "important": true,
         "party": "ld",
         "template": "vote-ld.html"
       },
@@ -39824,7 +39824,7 @@
       },
       "other_sites": [
         {
-          "important": false,
+          "important": true,
           "party": "ld",
           "they_say": "Current Tory seat. Lib Dems came second last election.",
           "url": "https://tacticalvote.co.uk/#StAlbans",
@@ -40203,7 +40203,7 @@
     },
     "stafford": {
       "aggregation": {
-        "important": false,
+        "important": true,
         "party": "lab",
         "template": "vote-lab.html"
       },
@@ -40222,7 +40222,7 @@
       },
       "other_sites": [
         {
-          "important": false,
+          "important": true,
           "party": "lab",
           "they_say": "Current Tory seat. Labour came second last election.",
           "url": "https://tacticalvote.co.uk/#Stafford",
@@ -40823,7 +40823,7 @@
     },
     "stoke-on-trent-central": {
       "aggregation": {
-        "important": false,
+        "important": true,
         "party": "lab",
         "template": "vote-lab.html"
       },
@@ -40842,7 +40842,7 @@
       },
       "other_sites": [
         {
-          "important": false,
+          "important": true,
           "party": "lab",
           "they_say": "Current Labour seat. Tories came second last election.",
           "url": "https://tacticalvote.co.uk/#Stoke-on-TrentCentral",
@@ -41790,7 +41790,7 @@
     },
     "sutton-and-cheam": {
       "aggregation": {
-        "important": false,
+        "important": true,
         "party": "ld",
         "template": "vote-ld.html"
       },
@@ -41809,7 +41809,7 @@
       },
       "other_sites": [
         {
-          "important": false,
+          "important": true,
           "party": "ld",
           "they_say": "Current Tory seat. Lib Dems came second last election.",
           "url": "https://tacticalvote.co.uk/#SuttonandCheam",
@@ -42234,7 +42234,7 @@
     },
     "taunton-deane": {
       "aggregation": {
-        "important": false,
+        "important": true,
         "party": "ld",
         "template": "vote-ld.html"
       },
@@ -42253,7 +42253,7 @@
       },
       "other_sites": [
         {
-          "important": false,
+          "important": true,
           "party": "ld",
           "they_say": "Current Tory seat. Lib Dems came second last election.",
           "url": "https://tacticalvote.co.uk/#TauntonDeane",
@@ -42676,7 +42676,7 @@
     },
     "thornbury-and-yate": {
       "aggregation": {
-        "important": false,
+        "important": true,
         "party": "ld",
         "template": "vote-ld.html"
       },
@@ -42695,7 +42695,7 @@
       },
       "other_sites": [
         {
-          "important": false,
+          "important": true,
           "party": "ld",
           "they_say": "Current Tory seat. Lib Dems came second last election.",
           "url": "https://tacticalvote.co.uk/#ThornburyandYate",
@@ -43072,7 +43072,7 @@
     },
     "torbay": {
       "aggregation": {
-        "important": false,
+        "important": true,
         "party": "ld",
         "template": "vote-ld.html"
       },
@@ -43091,7 +43091,7 @@
       },
       "other_sites": [
         {
-          "important": false,
+          "important": true,
           "party": "ld",
           "they_say": "Current Tory seat. Lib Dems came second last election.",
           "url": "https://tacticalvote.co.uk/#Torbay",
@@ -43586,7 +43586,7 @@
     },
     "twickenham": {
       "aggregation": {
-        "important": false,
+        "important": true,
         "party": "ld",
         "template": "vote-ld.html"
       },
@@ -43605,7 +43605,7 @@
       },
       "other_sites": [
         {
-          "important": false,
+          "important": true,
           "party": "ld",
           "they_say": "Current Lib Dem seat. Tories came second last election.",
           "url": "https://tacticalvote.co.uk/#Twickenham",
@@ -45468,7 +45468,7 @@
     },
     "wells": {
       "aggregation": {
-        "important": false,
+        "important": true,
         "party": "ld",
         "template": "vote-ld.html"
       },
@@ -45487,7 +45487,7 @@
       },
       "other_sites": [
         {
-          "important": false,
+          "important": true,
           "party": "ld",
           "they_say": "Current Tory seat. Lib Dems came second last election.",
           "url": "https://tacticalvote.co.uk/#Wells",
@@ -45554,7 +45554,7 @@
     },
     "welwyn-hatfield": {
       "aggregation": {
-        "important": false,
+        "important": true,
         "party": "lab",
         "template": "vote-lab.html"
       },
@@ -45573,7 +45573,7 @@
       },
       "other_sites": [
         {
-          "important": false,
+          "important": true,
           "party": "lab",
           "they_say": "Current Tory seat. Labour came second last election.",
           "url": "https://tacticalvote.co.uk/#WelwynHatfield",
@@ -45855,7 +45855,7 @@
     },
     "west-bromwich-west": {
       "aggregation": {
-        "important": false,
+        "important": true,
         "party": "lab",
         "template": "vote-lab.html"
       },
@@ -45874,7 +45874,7 @@
       },
       "other_sites": [
         {
-          "important": false,
+          "important": true,
           "party": "lab",
           "they_say": "Current Labour seat. Tories came second last election.",
           "url": "https://tacticalvote.co.uk/#WestBromwichWest",
@@ -47026,7 +47026,7 @@
     },
     "wirral-west": {
       "aggregation": {
-        "important": false,
+        "important": true,
         "party": "lab",
         "template": "vote-lab.html"
       },
@@ -47045,7 +47045,7 @@
       },
       "other_sites": [
         {
-          "important": false,
+          "important": true,
           "party": "lab",
           "they_say": "Current Labour seat. Tories close second last election.",
           "url": "https://tacticalvote.co.uk/#WirralWest",
@@ -47415,7 +47415,7 @@
     },
     "wolverhampton-north-east": {
       "aggregation": {
-        "important": false,
+        "important": true,
         "party": "lab",
         "template": "vote-lab.html"
       },
@@ -47434,7 +47434,7 @@
       },
       "other_sites": [
         {
-          "important": false,
+          "important": true,
           "party": "lab",
           "they_say": "Current Labour seat. Tories came second last election.",
           "url": "https://tacticalvote.co.uk/#WolverhamptonNorthEast",
@@ -48338,7 +48338,7 @@
     },
     "yeovil": {
       "aggregation": {
-        "important": false,
+        "important": true,
         "party": "ld",
         "template": "vote-ld.html"
       },
@@ -48357,7 +48357,7 @@
       },
       "other_sites": [
         {
-          "important": false,
+          "important": true,
           "party": "ld",
           "they_say": "Current Tory seat. Lib Dems came second last election.",
           "url": "https://tacticalvote.co.uk/#Yeovil",
@@ -48433,7 +48433,7 @@
     },
     "ynys-mon": {
       "aggregation": {
-        "important": false,
+        "important": true,
         "party": "lab",
         "template": "vote-lab.html"
       },
@@ -48452,7 +48452,7 @@
       },
       "other_sites": [
         {
-          "important": false,
+          "important": true,
           "party": "lab",
           "they_say": "Current Labour seat. Tories came second last election.",
           "url": "https://tacticalvote.co.uk/#YnysM\u00f4n",

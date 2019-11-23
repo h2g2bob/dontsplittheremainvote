@@ -144,7 +144,7 @@ def _tacticalvote_co_uk():
                 party=party,
                 url='https://tacticalvote.co.uk/#{}'.format(recomend['Constituency'].replace(' ', '')),
                 they_say=recomend['Why'],
-                important=(int(recomend['Priority']) == 1))
+                important=(int(recomend['Priority']) <= 2))
             yield get_constitiuency(recomend['id']), suggestion
 
 def _tactical_dot_vote():
