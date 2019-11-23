@@ -20,8 +20,8 @@
 {% else %}
   <img class="mainlogo-middle" src="{{static}}/logo/outcome/leave.png" />
   <h2>No unified recommendations yet available</h2>
-  <p>Tactical voting websites disagree on which party to vote for.</p>
-  <p>Please check this regularly as the campagin progresses.</p>
+  <p>Tactical voting websites currently disagree on which party to vote for.</p>
+  <p>Please re-visit this site closer to 12th December.</p>
 {% endif %}
 </div>
 
@@ -33,13 +33,11 @@
   <em>{{ other_site.who_suggests }}</em> <a href="{{ other_site.url }}">recommends</a><br />voting for <strong class="party party-{{ other_site.party.code }}">{{ other_site.party.name }}</strong>.
 </td></tr>
 {% endfor %}
-{% if aggregation.provisional %}
 <tr><td>
   <img class="tick" src="{{static}}/logo/tick/clock.png" alt="Clock" />
 </td><td>
-  <strong>Recommendations can change</strong>.<br />Please check the site occasionally<br />as the election campaign progresses.
+  <strong>Recommendations can change</strong>.<br />Please re-visit this site<br />before 12th December.
 </td></tr>
-{% endif %}
 </table></div>
 
 {% endblock %}
@@ -47,4 +45,5 @@
 <p class="whomadeit">
 Data from <a href="https://dontsplittheremainvote.com/">dontsplittheremainvote.com</a> and <a href="https://dontsplittheremainvote.com/datasets.html">sources</a>.
 </p>
+<div class="iphonepadding">&nbsp;</div>
 {% endblock %}

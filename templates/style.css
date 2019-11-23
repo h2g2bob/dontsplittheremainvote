@@ -133,20 +133,32 @@ form.postcode-search {
   margin-bottom: 0.6em;
   margin-left: 2.2em;
   margin-right: 2.2em;
-  padding: 0.6em;
+  padding: 0;
   background: #dddddd;
   color: black;
 }
 
-form.postcode-search input {
+form.postcode-search div {
+  padding-top: 0.6em;
+  padding-bottom: 0.6em;
+  padding-left: 0;
+  padding-right: 0;
+  margin: 0;
+}
+
+form.postcode-search div input {
   font-size: 200%;
   height: 1.5em;
   vertical-align: middle;
+  margin: 0;
 }
 
-form.postcode-search input.postcode {
+form.postcode-search div input.postcode {
   max-width: 10em;
   width: 90%;
+}
+form.postcode-search div input.submit {
+  min-width: 3em;
 }
 
 div.othersite {
@@ -239,4 +251,9 @@ div.to-minimal-constituency-list {
 div.to-minimal-constituency-list a:link,
 div.to-minimal-constituency-list a:visited {
     color: #6699cc;
+}
+
+/* fixes an issue with embedded iframes on safari */
+div.iphonepadding {
+  height: 100%;
 }

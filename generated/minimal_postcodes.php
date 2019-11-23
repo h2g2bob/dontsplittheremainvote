@@ -13,7 +13,7 @@ $row = $res->fetchArray(SQLITE3_NUM);
 if ($row) {
     header("location: /minimal/${row[0]}.html");
 } else {
-    header("location: /minimal.html");
+    header("location: /minimal/");
 }
 
 ?>
