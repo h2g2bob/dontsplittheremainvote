@@ -530,7 +530,7 @@ south-west-bedfordshire,E14000949,0.3850633593960636,ld,-2,,,,,,,lab,0,any,0,lab
 south-west-devon,E14000950,0.37238208751915547,ld,-2,,,,,,,lab,0,any,0,lab,0,,
 south-west-hertfordshire,E14000951,0.3995185728653158,ind,1,,,,,ind,1,,,,,,,,
 south-west-norfolk,E14000952,0.3233173076923076,lab,3,,,,,,,lab,3,any,0,lab,3,lab,3
-south-west-surrey,E14000953,0.4247087635689701,ld,2,,,,,,,ld,2,ld,2,,,,
+south-west-surrey,E14000953,0.4247087635689701,ld,3,,,,,,,ld,3,ld,3,,,ld,3
 south-west-wiltshire,E14000954,0.38939928037844057,ld,-1,,,,,,,,,any,0,lab,-1,,
 spelthorne,E14000959,0.3816621769929163,ld,-1,,,,,,,,,any,0,lab,-1,,
 stafford,E14000965,0.4525845466450967,lab,4,,,,,,,lab,4,lab,4,lab,4,lab,4

@@ -39263,6 +39263,13 @@
         {
           "important": false,
           "party": "ld",
+          "they_say": "Current Tory seat. NHA (second here last time) are not running. Lib Dems historically popular here and Greens have stepped down for them.",
+          "url": "https://tacticalvote.co.uk/#SouthWestSurrey",
+          "who_suggests": "tacticalvote.co.uk"
+        },
+        {
+          "important": false,
+          "party": "ld",
           "they_say": null,
           "url": "https://tactical-vote.uk/south-west-surrey",
           "who_suggests": "People's Vote"
