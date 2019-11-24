@@ -69,6 +69,7 @@ chown -R dontsplit:dontslit /home/dontsplit/dontsplittheremainvote/
 
 ```
 sudo -u dontsplit mkdir /home/dontsplit/dontsplittheremainvote/generated/
+apt-get install rsync
 ```
 
 ```

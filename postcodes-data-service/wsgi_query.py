@@ -35,9 +35,9 @@ def postcode_redir():
                 (postcode,))
             rows = list(cur)
             if len(rows) == 0:
-                return redirect('https://dontsplittheremainvote.com/{}/'.format(section))
+                return redirect('/{}/'.format(section))
             elif len(rows) == 1:
                 [slug] = rows[0]
-                return redirect('https://dontsplittheremainvote.com/{}/{}.html'.format(section, slug))
+                return redirect('/{}/{}.html'.format(section, slug))
             else:
                 raise ValueError('Postcode {} caused multiple rows'.format(repr(postcode)))
