@@ -1,4 +1,11 @@
-# A data service
+# Server install
+
+It's made of:
+
+- static html files
+- a wsgi postcode lookup
+
+Served with apache2
 
 ## Set up a server
 
