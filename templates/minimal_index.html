@@ -6,7 +6,7 @@
 {% endblock %}
 {% block content %}
 
-<form class="postcode-search" action="/minimal_postcodes.php" method="POST"><div><input type="text" spellcheck="false" autocorrect="off" maxlength="9" class="postcode" name="postcode" /><input class="submit" type="submit" value="&#128269;" /></div></form>
+<form class="postcode-search" action="https://data.dontsplittheremainvote.com/postcode/redir/" method="POST"><div><input type="text" spellcheck="false" autocorrect="off" maxlength="9" class="postcode" name="postcode" /><input type="hidden" name="section" value="minimal" /><input class="submit" type="submit" value="&#128269;" /></div></form>
 
 {% block morecontent %}
 {% endblock %}
