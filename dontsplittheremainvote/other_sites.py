@@ -241,6 +241,9 @@ _REMAINUTD = {
     'Voter choice - Lib Dem or Lab': ANYPARTY,
     'seat hard to predict due to prominent Independent candidate': None,
     'Conservative-Independent seat': None, # no explanation - eg: east devon
+
+    'Momentum with the Independent candidate': INDEPENDENT,
+    'Vote Independent': INDEPENDENT,
 }
 def _remainunited():
     for constituency in all_constituencies():
@@ -266,6 +269,12 @@ def _remainunited():
             party = _REMAINUTD[answer1]
             if party is None:
                 continue
+
+            if party == INDEPENDENT:
+                party = {
+                    'beaconsfield': DOMINICGRIEVE,
+                    'south-west-hertfordshire': DAVIDGAUKE,
+                }[constituency.slug]
 
             postcode = re.compile(r'<p class="question">Your Postcode</p>\s*<p class="answer">([^<>]+)</p>').findall(page)[0]
             [explanation] = re.compile(r'\s+'.join((
