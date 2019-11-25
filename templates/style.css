@@ -255,5 +255,5 @@ div.to-minimal-constituency-list a:visited {
 
 /* fixes an issue with embedded iframes on safari */
 div.iphonepadding {
-  height: 100%;
+  height: 70em;
 }
