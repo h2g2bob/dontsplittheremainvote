@@ -38,30 +38,14 @@
 </div>
 {% endfor %}
 
-<h2>Take action</h2>
+<h2>Announced candidates</h2>
 
-<p>The most effective action you can take right now is to <strong>campaign in a marginal constituency</strong>.</p>
-{% if aggregation.important %}
-  {% if aggregation.party.short == 'lab' %}
-    <div class="widebutton"><a href="https://volunteer.labour.org.uk/">Campaign with Labour in this constituency</a></div>
-  {% elif aggregation.party.short == 'ld' %}
-    <div class="widebutton"><a href="https://www.libdems.org.uk/volunteer">Help the Liberal Democrats in this constituency</a></div>
-  {% elif aggregation.party.short == 'snp' %}
-    <div class="widebutton"><a href="https://www.snp.org/volunteer/">Help the Scottish National Party in this constituency</a></div>
-  {% else %}
-    <div class="widebutton">Volunteer with {{aggregation.party.name}} in this constituency</div>
-  {% endif %}
-{% else %}
-  {% for cp in nearby_constituency_pages %}
-    {% if cp.aggregation.important %}
-      <div class="widebutton"><a href="/constituency/{{cp.constituency.slug}}.html">Campaign in {{cp.constituency.name}} ({{cp.aggregation.party.name}})</a></div>
-    {% endif %}
+<p>Data from <a href="https://whocanivotefor.co.uk/">Who Can I Vote For</a> from <a href="https://democracyclub.org.uk/">Democracy Club</a>.</p>
+<ul>
+  {% for ppc in known_ppc %}
+      <li>{{ ppc.party.name }}: <a {% if ppc.link %}href="{{ ppc.link }}"{% endif %}>{{ ppc.name }}</a></li>
   {% endfor %}
-{% endif %}
-<div class="widebutton"><a href="https://www.talkaboutbrex.co.uk/help/">Have constructive conversations about brexit</a></div>
-{% if aggregation.party %}
-  {# <div class="widebutton"><a href="https://www.swapmyvote.uk/">Don't like {{aggregation.party.name}}? Vote swap!</a></div> #}
-{% endif %}
+</ul>
 
 <h2>Election results</h2>
 
@@ -99,14 +83,30 @@
 
 </details>{# end hidden section #}
 
-<h2>Announced candidates</h2>
+<h2>Take action</h2>
 
-<p>Data from <a href="https://whocanivotefor.co.uk/">Who Can I Vote For</a> from <a href="https://democracyclub.org.uk/">Democracy Club</a>.</p>
-<ul>
-  {% for ppc in known_ppc %}
-      <li>{{ ppc.party.name }}: <a {% if ppc.link %}href="{{ ppc.link }}"{% endif %}>{{ ppc.name }}</a></li>
+<p>The most effective action you can take right now is to <strong>campaign in a marginal constituency</strong>.</p>
+{% if aggregation.important %}
+  {% if aggregation.party.short == 'lab' %}
+    <div class="widebutton"><a href="https://volunteer.labour.org.uk/">Campaign with Labour in this constituency</a></div>
+  {% elif aggregation.party.short == 'ld' %}
+    <div class="widebutton"><a href="https://www.libdems.org.uk/volunteer">Help the Liberal Democrats in this constituency</a></div>
+  {% elif aggregation.party.short == 'snp' %}
+    <div class="widebutton"><a href="https://www.snp.org/volunteer/">Help the Scottish National Party in this constituency</a></div>
+  {% else %}
+    <div class="widebutton">Volunteer with {{aggregation.party.name}} in this constituency</div>
+  {% endif %}
+{% else %}
+  {% for cp in nearby_constituency_pages %}
+    {% if cp.aggregation.important %}
+      <div class="widebutton"><a href="/constituency/{{cp.constituency.slug}}.html">Campaign in {{cp.constituency.name}} ({{cp.aggregation.party.name}})</a></div>
+    {% endif %}
   {% endfor %}
-</ul>
+{% endif %}
+<div class="widebutton"><a href="https://www.talkaboutbrex.co.uk/help/">Have constructive conversations about brexit</a></div>
+{% if aggregation.party %}
+  {# <div class="widebutton"><a href="https://www.swapmyvote.uk/">Don't like {{aggregation.party.name}}? Vote swap!</a></div> #}
+{% endif %}
 
 <h2>Social</h2>
 
