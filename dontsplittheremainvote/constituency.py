@@ -4,11 +4,16 @@ from typing import List
 from typing import NamedTuple
 from collections import defaultdict
 
+from .london import LONDON_COUNTY
+
 COUNTRIES = {
     'Northern Ireland',
     'Scotland',
     'England',
     'Wales'}
+
+def _to_slug(name):
+	return '-'.join(name.split()).lower().replace(',', '').replace('.', '')
 
 class Constituency(NamedTuple):
     ons_id: str
@@ -19,7 +24,7 @@ class Constituency(NamedTuple):
 
     @property
     def slug(self):
-        return '-'.join(self.name.split()).lower().replace(',', '').replace('.', '')
+        return _to_slug(self.name)
 
     @property
     def hashtag(self):
@@ -42,12 +47,16 @@ def _load_constitency_data():
     with open('data/ge2017/HoC-GE2017-results-by-candidate.csv', 'r') as f:
         csvf = DictReader(f)
         for row in csvf:
+            name = row['constituency_name']
+            county = row['county_name']
+            if county == 'London':
+                county = LONDON_COUNTY[_to_slug(name)]
             constituency = Constituency(
                 ons_id=row['ons_id'],
-                name=row['constituency_name'],
+                name=name,
                 country=row['country_name'],
                 region=row['region_name'],
-                county=row['county_name'])
+                county=county)
             assert constituency.country in COUNTRIES, constituency
             constituencies[constituency.ons_id] = constituency
     _CONSTITUENCIES.update(constituencies)
