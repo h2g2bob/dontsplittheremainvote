@@ -27,7 +27,7 @@ def generate_all_constituencies():
 
     constituency_pages = datasets_by_constituency()
     for constituency_page in constituency_pages:
-        nearby_constituencies = _nearby_constituencies(constituency_pages, constituency_page.constituency)
+        nearby_constituencies = _nearby_constituency_pages(constituency_pages, constituency_page.constituency)
         generate_constituency(constituency_page, nearby_constituencies)
     generate_index(constituency_pages)
     generate_json(constituency_pages)
@@ -36,12 +36,12 @@ def generate_all_constituencies():
     datasets = get_all_datasets()
     generate_datasets(datasets)
 
-def _nearby_constituencies(constituency_pages, constituency):
+def _nearby_constituency_pages(constituency_pages, constituency):
     rcc = region_county_constituency(constituency_pages)
     same_county = rcc[constituency.region][constituency.county]
-    return [cpg.constituency for cpg in same_county if cpg.constituency.slug != constituency.slug]
+    return [cpg for cpg in same_county if cpg.constituency.slug != constituency.slug]
 
-def generate_constituency(constituency_page, nearby_constituencies):
+def generate_constituency(constituency_page, nearby_constituency_pages):
     STYLES = [
         ('constituency', 'constituency.html'),
         ('minimal', 'minimal_constituency.html')]
@@ -57,7 +57,7 @@ def generate_constituency(constituency_page, nearby_constituencies):
             datasets_polling=constituency_page.datasets_polling,
             outcomes=constituency_page.outcomes,
             other_sites=constituency_page.other_site_suggestions,
-            nearby_constituency=nearby_constituencies,
+            nearby_constituency_pages=nearby_constituency_pages,
             known_ppc=constituency_page.known_ppc,
             analysis=constituency_page.analysis,
             aggregation=constituency_page.aggregation,

@@ -38,11 +38,14 @@
 </div>
 {% endfor %}
 
-<h2>Take action</h2>
+<h2>Announced candidates</h2>
 
-<p>The most effective action you can take right now is to <strong>ask your friends and neighbours to register to vote</strong>.</p>
-<div class="widebutton"><a href="https://www.gov.uk/register-to-vote">Register to Vote before Tuesday, 26 November!</a></div>
-<div class="widebutton"><a href="https://www.network.vote/action-toolkit-2">Encourage others to register to vote</a></div>
+<p>Data from <a href="https://whocanivotefor.co.uk/">Who Can I Vote For</a> from <a href="https://democracyclub.org.uk/">Democracy Club</a>.</p>
+<ul>
+  {% for ppc in known_ppc %}
+      <li>{{ ppc.party.name }}: <a {% if ppc.link %}href="{{ ppc.link }}"{% endif %}>{{ ppc.name }}</a></li>
+  {% endfor %}
+</ul>
 
 <h2>Election results</h2>
 
@@ -80,14 +83,30 @@
 
 </details>{# end hidden section #}
 
-<h2>Announced candidates</h2>
+<h2>Take action</h2>
 
-<p>Data from <a href="https://whocanivotefor.co.uk/">Who Can I Vote For</a> from <a href="https://democracyclub.org.uk/">Democracy Club</a>.</p>
-<ul>
-  {% for ppc in known_ppc %}
-      <li>{{ ppc.party.name }}: <a {% if ppc.link %}href="{{ ppc.link }}"{% endif %}>{{ ppc.name }}</a></li>
+<p>The most effective action you can take right now is to <strong>campaign in a marginal constituency</strong>.</p>
+{% if aggregation.important %}
+  {% if aggregation.party.short == 'lab' %}
+    <div class="widebutton"><a href="https://volunteer.labour.org.uk/">Campaign with Labour in this constituency</a></div>
+  {% elif aggregation.party.short == 'ld' %}
+    <div class="widebutton"><a href="https://www.libdems.org.uk/volunteer">Help the Liberal Democrats in this constituency</a></div>
+  {% elif aggregation.party.short == 'snp' %}
+    <div class="widebutton"><a href="https://www.snp.org/volunteer/">Help the Scottish National Party in this constituency</a></div>
+  {% else %}
+    <div class="widebutton">Volunteer with {{aggregation.party.name}} in this constituency</div>
+  {% endif %}
+{% else %}
+  {% for cp in nearby_constituency_pages %}
+    {% if cp.aggregation.important %}
+      <div class="widebutton"><a href="/constituency/{{cp.constituency.slug}}.html">Campaign in {{cp.constituency.name}} ({{cp.aggregation.party.name}})</a></div>
+    {% endif %}
   {% endfor %}
-</ul>
+{% endif %}
+<div class="widebutton"><a href="https://www.talkaboutbrex.co.uk/help/">Have constructive conversations about brexit</a></div>
+{% if aggregation.party %}
+  {# <div class="widebutton"><a href="https://www.swapmyvote.uk/">Don't like {{aggregation.party.name}}? Vote swap!</a></div> #}
+{% endif %}
 
 <h2>Social</h2>
 
@@ -95,20 +114,11 @@
   <li><a href="https://twitter.com/intent/tweet?url={{ this_url }}&amp;text=Which+remain+party+has+the+best+chance+of+winning+in+%23{{ constituency.hashtag }}%3F">Tweet</a></li>
 </ul>
 
-<h2>Register to Vote Today</h2>
-<div class="widebutton"><a href="https://www.gov.uk/register-to-vote"><img src="{{static}}/democracy-symbol.png" style="height: 3em; width: 3em; margin-right: 0.5em; vertical-align: middle;" alt="Democracy Symbol" />gov.uk/register-to-vote</a></div>
-<div class="section indent">
-<strong>Student?</strong> you can register at <a href="https://www.theguardian.com/politics/ng-interactive/2019/nov/07/should-you-vote-at-home-or-at-uni-students">both your home and university address</a>, and choose which to vote at.<br />
-<strong>Living abroad?</strong> you <a href="https://www.gov.uk/voting-when-abroad">may be able to vote</a> if you are a UK citizen.<br />
-<strong>Homeless?</strong> you can <a href="https://www.gov.uk/government/publications/register-to-vote-if-you-havent-got-a-fixed-or-permanent-address">register without a fixed address</a>.<br />
-<strong>Women's refuge?</strong> you can register <a href="https://www.electoralcommission.org.uk/i-am-a/voter/register-vote-and-update-your-details">anonymously</a>.<br />
-</div>
-
 <h2>Nearby</h2>
 
 <ul>
-  {% for con in nearby_constituency %}
-      <li><a href="/constituency/{{con.slug}}.html">{{con.name}}</a></li>
+  {% for cp in nearby_constituency_pages %}
+      <li><a href="/constituency/{{cp.constituency.slug}}.html">{{cp.constituency.name}}</a></li>
   {% endfor %}
   <li><a href="/constituency/">All constituencies</a></li>
 </ul>
