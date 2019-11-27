@@ -96,13 +96,14 @@
   {% else %}
     <div class="widebutton">Volunteer with {{aggregation.party.name}} in this constituency</div>
   {% endif %}
-{% else %}
-  {% for cp in nearby_constituency_pages %}
-    {% if cp.aggregation.important %}
+{% endif %}
+{% for cp in nearby_constituency_pages %}
+  {% if cp.aggregation.important %}
+    {% if not aggregation.important or aggregation.party != cp.aggregation.party %}{# hide any nearby constituencies which are the same party as "campaign HERE" #}
       <div class="widebutton"><a href="/constituency/{{cp.constituency.slug}}.html">Campaign in {{cp.constituency.name}} ({{cp.aggregation.party.name}})</a></div>
     {% endif %}
-  {% endfor %}
-{% endif %}
+  {% endif %}
+{% endfor %}
 <div class="widebutton"><a href="https://www.talkaboutbrex.co.uk/help/">Have constructive conversations about brexit</a></div>
 {% if aggregation.party %}
   {# <div class="widebutton"><a href="https://www.swapmyvote.uk/">Don't like {{aggregation.party.name}}? Vote swap!</a></div> #}
