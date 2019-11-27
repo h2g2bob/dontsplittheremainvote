@@ -93,12 +93,15 @@ def _getvoting_pages(page: str) -> Party:
         'Claire Wright, the independent': CLAIREWRIGHT,
         'Gavin Shuker': GAVINSHUKER,
         'David Gauke': DAVIDGAUKE,
+        'SNP': SNP,
+        'Scottish Liberal Democrats': LD,
+        'Scottish Labour': LAB,
     }
 
     if '<h2>we are sorry but the page you requested does not exist</h2>' in page:
         raise ValueError("404")
 
-    if '<p class="h4">You can stop Boris Johnson getting a majority if you vote tactically here.<br></p>' in page and '<p class="h5">Use your vote for any of:' in page:
+    if '<p class="h4">You can stop Boris Johnson getting a majority if you vote' in page and '<p class="h5">Use your vote for any of:' in page:
         return None
 
     if '<p class="h4">Many parties and candidates in Northern Ireland are Pro-European but some would not take their seats in the UK Parliament if elected.<br></p>' in page and '<p class="h5">We want to avoid making confusing, inaccurate or counter-productive recommendations.</p>' in page:
@@ -108,6 +111,12 @@ def _getvoting_pages(page: str) -> Party:
         return ANYPARTY
 
     if '<p class="h4">The main parties generally do not oppose the Speaker, so your current MP is likely to be re-elected<br></p>' in page:
+        return None
+
+    if '<p class="h5">We recommend you vote for either the Labour or the Liberal Democrats candidate. Choose either and help a pro-European win.</p>' in page:
+        return ANYPARTY
+
+    if '<p class="h5">It\'s difficult to call this one right now. Different seat polls and rounds of MRP show the Liberal Democrats and Labour in different positions. We\'re getting more data and will make a final recommendation before election day.</p>' in page:
         return None
 
     match = re.compile(r'<p class="h4">Voting for (.*) in your area is the best chance of electing a Pro-EU MP and stopping Brexit.<br></p>').search(page)
@@ -120,7 +129,17 @@ def _getvoting_pages(page: str) -> Party:
         [party_name] = match.groups()
         return PARTIES[party_name]
 
-    raise ValueError(page.split("== SLIDE3")[-1].split("== SLIDE4")[0])
+    match = re.compile(r'<p class="h5">This election is about Brexit. Your best chance of stopping a Conservative majority is to vote for the (.*) candidate</p>').search(page)
+    if match is not None:
+        [party_name] = match.groups()
+        return PARTIES[party_name]
+
+    match = re.compile(r'<p class="h5">We recommend you vote for (.*?) candidate\.(?: They are the Unite to Remain Alliance candidate.)?</p>').search(page)
+    if match is not None:
+        [party_name] = match.groups()
+        return PARTIES[party_name]
+
+    raise ValueError(page.split("== SLIDE2")[-1].split("== SLIDE4")[0])
 
 def _getvoting():
     with open('data/getvoting/constituency-names.csv') as f:
