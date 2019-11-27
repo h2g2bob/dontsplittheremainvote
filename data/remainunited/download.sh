@@ -24,8 +24,8 @@ function download() {
 download '^[ab]'  &
 download '^[cd]'  &
 download '^[e]'  &
-download '^[fghijklm]'  &
-download '^[n]'  &
+download '^[fghijkl]'  &
+download '^[mn]'  &
 download '^[opqr]'  &
 download '^[s]'  &
 download '^[tuvwxyz]'  &
