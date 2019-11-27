@@ -13,9 +13,9 @@ from .constituency import get_constitiuency_from_slug
 from .party import Party
 from .party import get_party
 from .party import ALLIANCE
+from .party import ANNASOUBRY
 from .party import ANYPARTY
 from .party import CLAIREWRIGHT
-from .party import CHANGEUK
 from .party import DAVIDGAUKE
 from .party import DOMINICGRIEVE
 from .party import GAVINSHUKER
@@ -89,7 +89,7 @@ def _getvoting_pages(page: str) -> Party:
         'Plaid Cymru': PLAID,
         'Dominic Grieve': DOMINICGRIEVE,
         'The Green Party': GREEN,
-        'Anna Soubry': CHANGEUK,
+        'Anna Soubry': ANNASOUBRY,
         'Claire Wright, the independent': CLAIREWRIGHT,
         'Gavin Shuker': GAVINSHUKER,
         'David Gauke': DAVIDGAUKE,
@@ -293,7 +293,7 @@ def _remainunited():
 _PEOPLES_VOTE = {
     'Alliance': ALLIANCE,
     'Aled ap Dafydd': PLAID,
-    'Anna Soubry': CHANGEUK,
+    'Anna Soubry': ANNASOUBRY,
     'Claire Wright': CLAIREWRIGHT,
     'Dominic Grieve': DOMINICGRIEVE,
     'Green Party': GREEN,
