@@ -57,15 +57,18 @@ class ConstituencyPage(NamedTuple):
         num_any_party = recommendations.pop(ANYPARTY, 0)
         num_recommendations = sum(recommendations.values())
         important = any(suggest.important for suggest in other_site_suggestions)
+        disagreement = len(recommendations) > 1
 
         if num_any_party > num_recommendations:
             return Aggregation(
                 template='anyparty.html',
-                provisional=num_any_party < 3)
+                provisional=num_any_party < 3,
+                disagreement=disagreement)
 
         if num_recommendations < 2:
             return Aggregation(
-                template='pending.html')
+                template='pending.html',
+                disagreement=disagreement)
 
         # if over 70% of peoples recommendations are for one party, suggest that
         major_rec = [pty for pty, count in recommendations.items() if float(count)/num_recommendations > 0.7]
@@ -78,10 +81,12 @@ class ConstituencyPage(NamedTuple):
                 party=party,
                 template='vote-{}.html'.format(party.short),
                 provisional=num_recommendations < 3,
-                important=important)
+                important=important,
+                disagreement=disagreement)
 
         return Aggregation(
-            template='contradict.html')
+            template='contradict.html',
+            disagreement=disagreement)
 
     @property
     def other_sites_plus_dontsplit(self) -> List[OtherSiteSuggestion]:

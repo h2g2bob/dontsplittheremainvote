@@ -55,12 +55,14 @@ class Aggregation(NamedTuple):
     party: Party = None
     provisional: bool = True
     important: bool = False
+    disagreement: bool = False
 
     def as_json(self):
         return {
             'template': self.template,
             'party': self.party.short if self.party is not None else None,
             'important': self.important,
+            'disagreement': self.disagreement,
         }
 
 

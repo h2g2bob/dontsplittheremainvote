@@ -3,6 +3,7 @@
   "constituencies": {
     "aberavon": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -77,6 +78,7 @@
     },
     "aberconwy": {
       "aggregation": {
+        "disagreement": false,
         "important": true,
         "party": "lab",
         "template": "vote-lab.html"
@@ -158,6 +160,7 @@
     },
     "aberdeen-north": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "snp",
         "template": "vote-snp.html"
@@ -211,6 +214,7 @@
     },
     "aberdeen-south": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "snp",
         "template": "vote-snp.html"
@@ -276,6 +280,7 @@
     },
     "airdrie-and-shotts": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "snp",
         "template": "vote-snp.html"
@@ -322,6 +327,7 @@
     },
     "aldershot": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -396,6 +402,7 @@
     },
     "aldridge-brownhills": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -470,6 +477,7 @@
     },
     "altrincham-and-sale-west": {
       "aggregation": {
+        "disagreement": true,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -551,6 +559,7 @@
     },
     "alyn-and-deeside": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -639,6 +648,7 @@
     },
     "amber-valley": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -720,6 +730,7 @@
     },
     "angus": {
       "aggregation": {
+        "disagreement": false,
         "important": true,
         "party": "snp",
         "template": "vote-snp.html"
@@ -785,6 +796,7 @@
     },
     "arfon": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "plaid",
         "template": "vote-plaid.html"
@@ -854,6 +866,7 @@
     },
     "argyll-and-bute": {
       "aggregation": {
+        "disagreement": false,
         "important": true,
         "party": "snp",
         "template": "vote-snp.html"
@@ -921,6 +934,7 @@
     },
     "arundel-and-south-downs": {
       "aggregation": {
+        "disagreement": true,
         "important": false,
         "party": null,
         "template": "contradict.html"
@@ -988,6 +1002,7 @@
     },
     "ashfield": {
       "aggregation": {
+        "disagreement": false,
         "important": true,
         "party": "lab",
         "template": "vote-lab.html"
@@ -1083,6 +1098,7 @@
     },
     "ashford": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -1171,6 +1187,7 @@
     },
     "ashton-under-lyne": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -1245,6 +1262,7 @@
     },
     "aylesbury": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -1312,6 +1330,7 @@
     },
     "ayr-carrick-and-cumnock": {
       "aggregation": {
+        "disagreement": false,
         "important": true,
         "party": "snp",
         "template": "vote-snp.html"
@@ -1379,6 +1398,7 @@
     },
     "banbury": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -1460,6 +1480,7 @@
     },
     "banff-and-buchan": {
       "aggregation": {
+        "disagreement": false,
         "important": true,
         "party": "snp",
         "template": "vote-snp.html"
@@ -1532,6 +1553,7 @@
     },
     "barking": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -1599,6 +1621,7 @@
     },
     "barnsley-central": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -1680,6 +1703,7 @@
     },
     "barnsley-east": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -1768,6 +1792,7 @@
     },
     "barrow-and-furness": {
       "aggregation": {
+        "disagreement": false,
         "important": true,
         "party": "lab",
         "template": "vote-lab.html"
@@ -1856,6 +1881,7 @@
     },
     "basildon-and-billericay": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -1937,6 +1963,7 @@
     },
     "basingstoke": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -2011,6 +2038,7 @@
     },
     "bassetlaw": {
       "aggregation": {
+        "disagreement": false,
         "important": true,
         "party": "lab",
         "template": "vote-lab.html"
@@ -2099,6 +2127,7 @@
     },
     "bath": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "ld",
         "template": "vote-ld.html"
@@ -2178,6 +2207,7 @@
     },
     "batley-and-spen": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -2252,6 +2282,7 @@
     },
     "battersea": {
       "aggregation": {
+        "disagreement": false,
         "important": true,
         "party": "lab",
         "template": "vote-lab.html"
@@ -2347,6 +2378,7 @@
     },
     "beaconsfield": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "ind",
         "template": "vote-ind.html"
@@ -2419,6 +2451,7 @@
     },
     "beckenham": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -2479,6 +2512,7 @@
     },
     "bedford": {
       "aggregation": {
+        "disagreement": false,
         "important": true,
         "party": "lab",
         "template": "vote-lab.html"
@@ -2560,6 +2594,7 @@
     },
     "belfast-east": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "alliance",
         "template": "vote-alliance.html"
@@ -2634,6 +2669,7 @@
     },
     "belfast-north": {
       "aggregation": {
+        "disagreement": false,
         "important": true,
         "party": "sf",
         "template": "vote-sf.html"
@@ -2694,6 +2730,7 @@
     },
     "belfast-south": {
       "aggregation": {
+        "disagreement": true,
         "important": true,
         "party": "sdlp",
         "template": "vote-sdlp.html"
@@ -2768,6 +2805,7 @@
     },
     "belfast-west": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "sf",
         "template": "vote-sf.html"
@@ -2821,6 +2859,7 @@
     },
     "bermondsey-and-old-southwark": {
       "aggregation": {
+        "disagreement": true,
         "important": false,
         "party": null,
         "template": "contradict.html"
@@ -2893,6 +2932,7 @@
     },
     "berwick-upon-tweed": {
       "aggregation": {
+        "disagreement": true,
         "important": false,
         "party": null,
         "template": "contradict.html"
@@ -2967,6 +3007,7 @@
     },
     "berwickshire-roxburgh-and-selkirk": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "snp",
         "template": "vote-snp.html"
@@ -3039,6 +3080,7 @@
     },
     "bethnal-green-and-bow": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -3106,6 +3148,7 @@
     },
     "beverley-and-holderness": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -3194,6 +3237,7 @@
     },
     "bexhill-and-battle": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -3268,6 +3312,7 @@
     },
     "bexleyheath-and-crayford": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -3349,6 +3394,7 @@
     },
     "birkenhead": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -3409,6 +3455,7 @@
     },
     "birmingham-edgbaston": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -3497,6 +3544,7 @@
     },
     "birmingham-erdington": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -3571,6 +3619,7 @@
     },
     "birmingham-hall-green": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -3638,6 +3687,7 @@
     },
     "birmingham-hodge-hill": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -3705,6 +3755,7 @@
     },
     "birmingham-ladywood": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -3772,6 +3823,7 @@
     },
     "birmingham-northfield": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -3846,6 +3898,7 @@
     },
     "birmingham-perry-barr": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -3913,6 +3966,7 @@
     },
     "birmingham-selly-oak": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -3994,6 +4048,7 @@
     },
     "birmingham-yardley": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -4061,6 +4116,7 @@
     },
     "bishop-auckland": {
       "aggregation": {
+        "disagreement": false,
         "important": true,
         "party": "lab",
         "template": "vote-lab.html"
@@ -4142,6 +4198,7 @@
     },
     "blackburn": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -4209,6 +4266,7 @@
     },
     "blackley-and-broughton": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -4276,6 +4334,7 @@
     },
     "blackpool-north-and-cleveleys": {
       "aggregation": {
+        "disagreement": false,
         "important": true,
         "party": "lab",
         "template": "vote-lab.html"
@@ -4357,6 +4416,7 @@
     },
     "blackpool-south": {
       "aggregation": {
+        "disagreement": false,
         "important": true,
         "party": "lab",
         "template": "vote-lab.html"
@@ -4445,6 +4505,7 @@
     },
     "blaenau-gwent": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -4512,6 +4573,7 @@
     },
     "blaydon": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -4593,6 +4655,7 @@
     },
     "blyth-valley": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -4674,6 +4737,7 @@
     },
     "bognor-regis-and-littlehampton": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -4748,6 +4812,7 @@
     },
     "bolsover": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -4836,6 +4901,7 @@
     },
     "bolton-north-east": {
       "aggregation": {
+        "disagreement": false,
         "important": true,
         "party": "lab",
         "template": "vote-lab.html"
@@ -4910,6 +4976,7 @@
     },
     "bolton-south-east": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -4977,6 +5044,7 @@
     },
     "bolton-west": {
       "aggregation": {
+        "disagreement": false,
         "important": true,
         "party": "lab",
         "template": "vote-lab.html"
@@ -5065,6 +5133,7 @@
     },
     "bootle": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -5132,6 +5201,7 @@
     },
     "boston-and-skegness": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -5199,6 +5269,7 @@
     },
     "bosworth": {
       "aggregation": {
+        "disagreement": true,
         "important": false,
         "party": null,
         "template": "contradict.html"
@@ -5280,6 +5351,7 @@
     },
     "bournemouth-east": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -5361,6 +5433,7 @@
     },
     "bournemouth-west": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -5449,6 +5522,7 @@
     },
     "bracknell": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -5516,6 +5590,7 @@
     },
     "bradford-east": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -5583,6 +5658,7 @@
     },
     "bradford-south": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -5657,6 +5733,7 @@
     },
     "bradford-west": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -5724,6 +5801,7 @@
     },
     "braintree": {
       "aggregation": {
+        "disagreement": true,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -5817,6 +5895,7 @@
     },
     "brecon-and-radnorshire": {
       "aggregation": {
+        "disagreement": false,
         "important": true,
         "party": "ld",
         "template": "vote-ld.html"
@@ -5914,6 +5993,7 @@
     },
     "brent-central": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -5981,6 +6061,7 @@
     },
     "brent-north": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -6048,6 +6129,7 @@
     },
     "brentford-and-isleworth": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -6136,6 +6218,7 @@
     },
     "brentwood-and-ongar": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "ld",
         "template": "vote-ld.html"
@@ -6217,6 +6300,7 @@
     },
     "bridgend": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -6291,6 +6375,7 @@
     },
     "bridgwater-and-west-somerset": {
       "aggregation": {
+        "disagreement": true,
         "important": false,
         "party": null,
         "template": "contradict.html"
@@ -6365,6 +6450,7 @@
     },
     "brigg-and-goole": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -6439,6 +6525,7 @@
     },
     "brighton-kemptown": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -6527,6 +6614,7 @@
     },
     "brighton-pavilion": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "green",
         "template": "vote-green.html"
@@ -6606,6 +6694,7 @@
     },
     "bristol-east": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -6687,6 +6776,7 @@
     },
     "bristol-north-west": {
       "aggregation": {
+        "disagreement": false,
         "important": true,
         "party": "lab",
         "template": "vote-lab.html"
@@ -6775,6 +6865,7 @@
     },
     "bristol-south": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -6863,6 +6954,7 @@
     },
     "bristol-west": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -6942,6 +7034,7 @@
     },
     "broadland": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -7009,6 +7102,7 @@
     },
     "bromley-and-chislehurst": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -7090,6 +7184,7 @@
     },
     "bromsgrove": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -7164,6 +7259,7 @@
     },
     "broxbourne": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -7238,6 +7334,7 @@
     },
     "broxtowe": {
       "aggregation": {
+        "disagreement": true,
         "important": false,
         "party": null,
         "template": "contradict.html"
@@ -7324,6 +7421,7 @@
     },
     "buckingham": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "ld",
         "template": "vote-ld.html"
@@ -7389,6 +7487,7 @@
     },
     "burnley": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -7470,6 +7569,7 @@
     },
     "burton": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -7551,6 +7651,7 @@
     },
     "bury-north": {
       "aggregation": {
+        "disagreement": false,
         "important": true,
         "party": "lab",
         "template": "vote-lab.html"
@@ -7625,6 +7726,7 @@
     },
     "bury-south": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -7692,6 +7794,7 @@
     },
     "bury-st-edmunds": {
       "aggregation": {
+        "disagreement": true,
         "important": false,
         "party": null,
         "template": "contradict.html"
@@ -7771,6 +7874,7 @@
     },
     "caerphilly": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -7861,6 +7965,7 @@
     },
     "caithness-sutherland-and-easter-ross": {
       "aggregation": {
+        "disagreement": true,
         "important": false,
         "party": null,
         "template": "contradict.html"
@@ -7921,6 +8026,7 @@
     },
     "calder-valley": {
       "aggregation": {
+        "disagreement": false,
         "important": true,
         "party": "lab",
         "template": "vote-lab.html"
@@ -8014,6 +8120,7 @@
     },
     "camberwell-and-peckham": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -8081,6 +8188,7 @@
     },
     "camborne-and-redruth": {
       "aggregation": {
+        "disagreement": false,
         "important": true,
         "party": "lab",
         "template": "vote-lab.html"
@@ -8169,6 +8277,7 @@
     },
     "cambridge": {
       "aggregation": {
+        "disagreement": true,
         "important": false,
         "party": null,
         "template": "contradict.html"
@@ -8236,6 +8345,7 @@
     },
     "cannock-chase": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -8322,6 +8432,7 @@
     },
     "canterbury": {
       "aggregation": {
+        "disagreement": false,
         "important": true,
         "party": "lab",
         "template": "vote-lab.html"
@@ -8403,6 +8514,7 @@
     },
     "cardiff-central": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -8500,6 +8612,7 @@
     },
     "cardiff-north": {
       "aggregation": {
+        "disagreement": false,
         "important": true,
         "party": "lab",
         "template": "vote-lab.html"
@@ -8581,6 +8694,7 @@
     },
     "cardiff-south-and-penarth": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -8662,6 +8776,7 @@
     },
     "cardiff-west": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -8743,6 +8858,7 @@
     },
     "carlisle": {
       "aggregation": {
+        "disagreement": false,
         "important": true,
         "party": "lab",
         "template": "vote-lab.html"
@@ -8824,6 +8940,7 @@
     },
     "carmarthen-east-and-dinefwr": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "plaid",
         "template": "vote-plaid.html"
@@ -8900,6 +9017,7 @@
     },
     "carmarthen-west-and-south-pembrokeshire": {
       "aggregation": {
+        "disagreement": false,
         "important": true,
         "party": "lab",
         "template": "vote-lab.html"
@@ -8981,6 +9099,7 @@
     },
     "carshalton-and-wallington": {
       "aggregation": {
+        "disagreement": false,
         "important": true,
         "party": "ld",
         "template": "vote-ld.html"
@@ -9062,6 +9181,7 @@
     },
     "castle-point": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -9136,6 +9256,7 @@
     },
     "central-ayrshire": {
       "aggregation": {
+        "disagreement": false,
         "important": true,
         "party": "snp",
         "template": "vote-snp.html"
@@ -9196,6 +9317,7 @@
     },
     "central-devon": {
       "aggregation": {
+        "disagreement": true,
         "important": false,
         "party": "ld",
         "template": "vote-ld.html"
@@ -9270,6 +9392,7 @@
     },
     "central-suffolk-and-north-ipswich": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -9337,6 +9460,7 @@
     },
     "ceredigion": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "plaid",
         "template": "vote-plaid.html"
@@ -9404,6 +9528,7 @@
     },
     "charnwood": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -9471,6 +9596,7 @@
     },
     "chatham-and-aylesford": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -9552,6 +9678,7 @@
     },
     "cheadle": {
       "aggregation": {
+        "disagreement": false,
         "important": true,
         "party": "ld",
         "template": "vote-ld.html"
@@ -9631,6 +9758,7 @@
     },
     "chelmsford": {
       "aggregation": {
+        "disagreement": true,
         "important": false,
         "party": "ld",
         "template": "vote-ld.html"
@@ -9710,6 +9838,7 @@
     },
     "chelsea-and-fulham": {
       "aggregation": {
+        "disagreement": true,
         "important": false,
         "party": "ld",
         "template": "vote-ld.html"
@@ -9803,6 +9932,7 @@
     },
     "cheltenham": {
       "aggregation": {
+        "disagreement": false,
         "important": true,
         "party": "ld",
         "template": "vote-ld.html"
@@ -9882,6 +10012,7 @@
     },
     "chesham-and-amersham": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "ld",
         "template": "vote-ld.html"
@@ -9956,6 +10087,7 @@
     },
     "chesterfield": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -10037,6 +10169,7 @@
     },
     "chichester": {
       "aggregation": {
+        "disagreement": true,
         "important": false,
         "party": "ld",
         "template": "vote-ld.html"
@@ -10104,6 +10237,7 @@
     },
     "chingford-and-woodford-green": {
       "aggregation": {
+        "disagreement": false,
         "important": true,
         "party": "lab",
         "template": "vote-lab.html"
@@ -10190,6 +10324,7 @@
     },
     "chippenham": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "ld",
         "template": "vote-ld.html"
@@ -10269,6 +10404,7 @@
     },
     "chipping-barnet": {
       "aggregation": {
+        "disagreement": false,
         "important": true,
         "party": "lab",
         "template": "vote-lab.html"
@@ -10364,6 +10500,7 @@
     },
     "chorley": {
       "aggregation": {
+        "disagreement": true,
         "important": false,
         "party": null,
         "template": "contradict.html"
@@ -10424,6 +10561,7 @@
     },
     "christchurch": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "ld",
         "template": "vote-ld.html"
@@ -10491,6 +10629,7 @@
     },
     "cities-of-london-and-westminster": {
       "aggregation": {
+        "disagreement": true,
         "important": false,
         "party": null,
         "template": "contradict.html"
@@ -10579,6 +10718,7 @@
     },
     "city-of-chester": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -10660,6 +10800,7 @@
     },
     "city-of-durham": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -10741,6 +10882,7 @@
     },
     "clacton": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -10822,6 +10964,7 @@
     },
     "cleethorpes": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -10896,6 +11039,7 @@
     },
     "clwyd-south": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -10970,6 +11114,7 @@
     },
     "clwyd-west": {
       "aggregation": {
+        "disagreement": false,
         "important": true,
         "party": "lab",
         "template": "vote-lab.html"
@@ -11051,6 +11196,7 @@
     },
     "coatbridge-chryston-and-bellshill": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": null,
         "template": "pending.html"
@@ -11104,6 +11250,7 @@
     },
     "colchester": {
       "aggregation": {
+        "disagreement": true,
         "important": false,
         "party": null,
         "template": "contradict.html"
@@ -11178,6 +11325,7 @@
     },
     "colne-valley": {
       "aggregation": {
+        "disagreement": false,
         "important": true,
         "party": "lab",
         "template": "vote-lab.html"
@@ -11266,6 +11414,7 @@
     },
     "congleton": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -11347,6 +11496,7 @@
     },
     "copeland": {
       "aggregation": {
+        "disagreement": false,
         "important": true,
         "party": "lab",
         "template": "vote-lab.html"
@@ -11435,6 +11585,7 @@
     },
     "corby": {
       "aggregation": {
+        "disagreement": false,
         "important": true,
         "party": "lab",
         "template": "vote-lab.html"
@@ -11516,6 +11667,7 @@
     },
     "coventry-north-east": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -11583,6 +11735,7 @@
     },
     "coventry-north-west": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -11657,6 +11810,7 @@
     },
     "coventry-south": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -11738,6 +11892,7 @@
     },
     "crawley": {
       "aggregation": {
+        "disagreement": false,
         "important": true,
         "party": "lab",
         "template": "vote-lab.html"
@@ -11812,6 +11967,7 @@
     },
     "crewe-and-nantwich": {
       "aggregation": {
+        "disagreement": false,
         "important": true,
         "party": "lab",
         "template": "vote-lab.html"
@@ -11900,6 +12056,7 @@
     },
     "croydon-central": {
       "aggregation": {
+        "disagreement": false,
         "important": true,
         "party": "lab",
         "template": "vote-lab.html"
@@ -11981,6 +12138,7 @@
     },
     "croydon-north": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -12048,6 +12206,7 @@
     },
     "croydon-south": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -12129,6 +12288,7 @@
     },
     "cumbernauld-kilsyth-and-kirkintilloch-east": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "snp",
         "template": "vote-snp.html"
@@ -12175,6 +12335,7 @@
     },
     "cynon-valley": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -12249,6 +12410,7 @@
     },
     "dagenham-and-rainham": {
       "aggregation": {
+        "disagreement": false,
         "important": true,
         "party": "lab",
         "template": "vote-lab.html"
@@ -12330,6 +12492,7 @@
     },
     "darlington": {
       "aggregation": {
+        "disagreement": false,
         "important": true,
         "party": "lab",
         "template": "vote-lab.html"
@@ -12404,6 +12567,7 @@
     },
     "dartford": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -12478,6 +12642,7 @@
     },
     "daventry": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -12552,6 +12717,7 @@
     },
     "delyn": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -12633,6 +12799,7 @@
     },
     "denton-and-reddish": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -12707,6 +12874,7 @@
     },
     "derby-north": {
       "aggregation": {
+        "disagreement": false,
         "important": true,
         "party": "lab",
         "template": "vote-lab.html"
@@ -12788,6 +12956,7 @@
     },
     "derby-south": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -12855,6 +13024,7 @@
     },
     "derbyshire-dales": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -12922,6 +13092,7 @@
     },
     "devizes": {
       "aggregation": {
+        "disagreement": true,
         "important": false,
         "party": null,
         "template": "contradict.html"
@@ -12996,6 +13167,7 @@
     },
     "dewsbury": {
       "aggregation": {
+        "disagreement": false,
         "important": true,
         "party": "lab",
         "template": "vote-lab.html"
@@ -13070,6 +13242,7 @@
     },
     "don-valley": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -13151,6 +13324,7 @@
     },
     "doncaster-central": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -13232,6 +13406,7 @@
     },
     "doncaster-north": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -13320,6 +13495,7 @@
     },
     "dover": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -13408,6 +13584,7 @@
     },
     "dudley-north": {
       "aggregation": {
+        "disagreement": false,
         "important": true,
         "party": "lab",
         "template": "vote-lab.html"
@@ -13496,6 +13673,7 @@
     },
     "dudley-south": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -13577,6 +13755,7 @@
     },
     "dulwich-and-west-norwood": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -13663,6 +13842,7 @@
     },
     "dumfries-and-galloway": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "snp",
         "template": "vote-snp.html"
@@ -13728,6 +13908,7 @@
     },
     "dumfriesshire-clydesdale-and-tweeddale": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "snp",
         "template": "vote-snp.html"
@@ -13807,6 +13988,7 @@
     },
     "dundee-east": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "snp",
         "template": "vote-snp.html"
@@ -13865,6 +14047,7 @@
     },
     "dundee-west": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": null,
         "template": "pending.html"
@@ -13916,6 +14099,7 @@
     },
     "dunfermline-and-west-fife": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "snp",
         "template": "vote-snp.html"
@@ -13962,6 +14146,7 @@
     },
     "dwyfor-meirionnydd": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "plaid",
         "template": "vote-plaid.html"
@@ -14038,6 +14223,7 @@
     },
     "ealing-central-and-acton": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -14119,6 +14305,7 @@
     },
     "ealing-north": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -14186,6 +14373,7 @@
     },
     "ealing-southall": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -14253,6 +14441,7 @@
     },
     "easington": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -14334,6 +14523,7 @@
     },
     "east-antrim": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "alliance",
         "template": "vote-alliance.html"
@@ -14380,6 +14570,7 @@
     },
     "east-devon": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "ind-wright",
         "template": "vote-ind-wright.html"
@@ -14482,6 +14673,7 @@
     },
     "east-dunbartonshire": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "ld",
         "template": "vote-ld.html"
@@ -14556,6 +14748,7 @@
     },
     "east-ham": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -14623,6 +14816,7 @@
     },
     "east-hampshire": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "ld",
         "template": "vote-ld.html"
@@ -14690,6 +14884,7 @@
     },
     "east-kilbride-strathaven-and-lesmahagow": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "snp",
         "template": "vote-snp.html"
@@ -14743,6 +14938,7 @@
     },
     "east-londonderry": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "sf",
         "template": "vote-sf.html"
@@ -14796,6 +14992,7 @@
     },
     "east-lothian": {
       "aggregation": {
+        "disagreement": true,
         "important": false,
         "party": null,
         "template": "contradict.html"
@@ -14856,6 +15053,7 @@
     },
     "east-renfrewshire": {
       "aggregation": {
+        "disagreement": false,
         "important": true,
         "party": "snp",
         "template": "vote-snp.html"
@@ -14923,6 +15121,7 @@
     },
     "east-surrey": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "ld",
         "template": "vote-ld.html"
@@ -14997,6 +15196,7 @@
     },
     "east-worthing-and-shoreham": {
       "aggregation": {
+        "disagreement": false,
         "important": true,
         "party": "lab",
         "template": "vote-lab.html"
@@ -15078,6 +15278,7 @@
     },
     "east-yorkshire": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -15138,6 +15339,7 @@
     },
     "eastbourne": {
       "aggregation": {
+        "disagreement": false,
         "important": true,
         "party": "ld",
         "template": "vote-ld.html"
@@ -15226,6 +15428,7 @@
     },
     "eastleigh": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "ld",
         "template": "vote-ld.html"
@@ -15307,6 +15510,7 @@
     },
     "eddisbury": {
       "aggregation": {
+        "disagreement": true,
         "important": false,
         "party": null,
         "template": "contradict.html"
@@ -15388,6 +15592,7 @@
     },
     "edinburgh-east": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "snp",
         "template": "vote-snp.html"
@@ -15434,6 +15639,7 @@
     },
     "edinburgh-north-and-leith": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "snp",
         "template": "vote-snp.html"
@@ -15487,6 +15693,7 @@
     },
     "edinburgh-south": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -15554,6 +15761,7 @@
     },
     "edinburgh-south-west": {
       "aggregation": {
+        "disagreement": false,
         "important": true,
         "party": "snp",
         "template": "vote-snp.html"
@@ -15614,6 +15822,7 @@
     },
     "edinburgh-west": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "ld",
         "template": "vote-ld.html"
@@ -15688,6 +15897,7 @@
     },
     "edmonton": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -15755,6 +15965,7 @@
     },
     "ellesmere-port-and-neston": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -15836,6 +16047,7 @@
     },
     "elmet-and-rothwell": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -15917,6 +16129,7 @@
     },
     "eltham": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -15998,6 +16211,7 @@
     },
     "enfield-north": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -16065,6 +16279,7 @@
     },
     "enfield-southgate": {
       "aggregation": {
+        "disagreement": false,
         "important": true,
         "party": "lab",
         "template": "vote-lab.html"
@@ -16160,6 +16375,7 @@
     },
     "epping-forest": {
       "aggregation": {
+        "disagreement": true,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -16248,6 +16464,7 @@
     },
     "epsom-and-ewell": {
       "aggregation": {
+        "disagreement": true,
         "important": false,
         "party": "ld",
         "template": "vote-ld.html"
@@ -16315,6 +16532,7 @@
     },
     "erewash": {
       "aggregation": {
+        "disagreement": false,
         "important": true,
         "party": "lab",
         "template": "vote-lab.html"
@@ -16396,6 +16614,7 @@
     },
     "erith-and-thamesmead": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -16463,6 +16682,7 @@
     },
     "esher-and-walton": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "ld",
         "template": "vote-ld.html"
@@ -16542,6 +16762,7 @@
     },
     "exeter": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -16635,6 +16856,7 @@
     },
     "falkirk": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "snp",
         "template": "vote-snp.html"
@@ -16681,6 +16903,7 @@
     },
     "fareham": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -16755,6 +16978,7 @@
     },
     "faversham-and-mid-kent": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -16829,6 +17053,7 @@
     },
     "feltham-and-heston": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -16896,6 +17121,7 @@
     },
     "fermanagh-and-south-tyrone": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "sf",
         "template": "vote-sf.html"
@@ -16949,6 +17175,7 @@
     },
     "filton-and-bradley-stoke": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -17028,6 +17255,7 @@
     },
     "finchley-and-golders-green": {
       "aggregation": {
+        "disagreement": true,
         "important": false,
         "party": "ld",
         "template": "vote-ld.html"
@@ -17128,6 +17356,7 @@
     },
     "folkestone-and-hythe": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -17209,6 +17438,7 @@
     },
     "forest-of-dean": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -17302,6 +17532,7 @@
     },
     "foyle": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": null,
         "template": "anyparty.html"
@@ -17362,6 +17593,7 @@
     },
     "fylde": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -17443,6 +17675,7 @@
     },
     "gainsborough": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -17517,6 +17750,7 @@
     },
     "garston-and-halewood": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -17584,6 +17818,7 @@
     },
     "gateshead": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -17658,6 +17893,7 @@
     },
     "gedling": {
       "aggregation": {
+        "disagreement": false,
         "important": true,
         "party": "lab",
         "template": "vote-lab.html"
@@ -17732,6 +17968,7 @@
     },
     "gillingham-and-rainham": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -17813,6 +18050,7 @@
     },
     "glasgow-central": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "snp",
         "template": "vote-snp.html"
@@ -17866,6 +18104,7 @@
     },
     "glasgow-east": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "snp",
         "template": "vote-snp.html"
@@ -17912,6 +18151,7 @@
     },
     "glasgow-north": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "snp",
         "template": "vote-snp.html"
@@ -17965,6 +18205,7 @@
     },
     "glasgow-north-east": {
       "aggregation": {
+        "disagreement": true,
         "important": false,
         "party": null,
         "template": "contradict.html"
@@ -18025,6 +18266,7 @@
     },
     "glasgow-north-west": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "snp",
         "template": "vote-snp.html"
@@ -18071,6 +18313,7 @@
     },
     "glasgow-south": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "snp",
         "template": "vote-snp.html"
@@ -18117,6 +18360,7 @@
     },
     "glasgow-south-west": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": null,
         "template": "pending.html"
@@ -18163,6 +18407,7 @@
     },
     "glenrothes": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "snp",
         "template": "vote-snp.html"
@@ -18209,6 +18454,7 @@
     },
     "gloucester": {
       "aggregation": {
+        "disagreement": false,
         "important": true,
         "party": "lab",
         "template": "vote-lab.html"
@@ -18290,6 +18536,7 @@
     },
     "gordon": {
       "aggregation": {
+        "disagreement": false,
         "important": true,
         "party": "snp",
         "template": "vote-snp.html"
@@ -18362,6 +18609,7 @@
     },
     "gosport": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -18429,6 +18677,7 @@
     },
     "gower": {
       "aggregation": {
+        "disagreement": false,
         "important": true,
         "party": "lab",
         "template": "vote-lab.html"
@@ -18510,6 +18759,7 @@
     },
     "grantham-and-stamford": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -18577,6 +18827,7 @@
     },
     "gravesham": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -18658,6 +18909,7 @@
     },
     "great-grimsby": {
       "aggregation": {
+        "disagreement": false,
         "important": true,
         "party": "lab",
         "template": "vote-lab.html"
@@ -18746,6 +18998,7 @@
     },
     "great-yarmouth": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -18827,6 +19080,7 @@
     },
     "greenwich-and-woolwich": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -18901,6 +19155,7 @@
     },
     "guildford": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "ld",
         "template": "vote-ld.html"
@@ -18980,6 +19235,7 @@
     },
     "hackney-north-and-stoke-newington": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -19047,6 +19303,7 @@
     },
     "hackney-south-and-shoreditch": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -19114,6 +19371,7 @@
     },
     "halesowen-and-rowley-regis": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -19195,6 +19453,7 @@
     },
     "halifax": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -19269,6 +19528,7 @@
     },
     "haltemprice-and-howden": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -19343,6 +19603,7 @@
     },
     "halton": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -19417,6 +19678,7 @@
     },
     "hammersmith": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -19498,6 +19760,7 @@
     },
     "hampstead-and-kilburn": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -19586,6 +19849,7 @@
     },
     "harborough": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -19653,6 +19917,7 @@
     },
     "harlow": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -19741,6 +20006,7 @@
     },
     "harrogate-and-knaresborough": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "ld",
         "template": "vote-ld.html"
@@ -19813,6 +20079,7 @@
     },
     "harrow-east": {
       "aggregation": {
+        "disagreement": false,
         "important": true,
         "party": "lab",
         "template": "vote-lab.html"
@@ -19894,6 +20161,7 @@
     },
     "harrow-west": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -19968,6 +20236,7 @@
     },
     "hartlepool": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -20049,6 +20318,7 @@
     },
     "harwich-and-north-essex": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -20137,6 +20407,7 @@
     },
     "hastings-and-rye": {
       "aggregation": {
+        "disagreement": false,
         "important": true,
         "party": "lab",
         "template": "vote-lab.html"
@@ -20230,6 +20501,7 @@
     },
     "havant": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -20311,6 +20583,7 @@
     },
     "hayes-and-harlington": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -20378,6 +20651,7 @@
     },
     "hazel-grove": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "ld",
         "template": "vote-ld.html"
@@ -20464,6 +20738,7 @@
     },
     "hemel-hempstead": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -20538,6 +20813,7 @@
     },
     "hemsworth": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -20619,6 +20895,7 @@
     },
     "hendon": {
       "aggregation": {
+        "disagreement": false,
         "important": true,
         "party": "lab",
         "template": "vote-lab.html"
@@ -20707,6 +20984,7 @@
     },
     "henley": {
       "aggregation": {
+        "disagreement": true,
         "important": false,
         "party": "ld",
         "template": "vote-ld.html"
@@ -20788,6 +21066,7 @@
     },
     "hereford-and-south-herefordshire": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -20869,6 +21148,7 @@
     },
     "hertford-and-stortford": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -20936,6 +21216,7 @@
     },
     "hertsmere": {
       "aggregation": {
+        "disagreement": true,
         "important": false,
         "party": null,
         "template": "contradict.html"
@@ -21003,6 +21284,7 @@
     },
     "hexham": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -21084,6 +21366,7 @@
     },
     "heywood-and-middleton": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -21158,6 +21441,7 @@
     },
     "high-peak": {
       "aggregation": {
+        "disagreement": false,
         "important": true,
         "party": "lab",
         "template": "vote-lab.html"
@@ -21246,6 +21530,7 @@
     },
     "hitchin-and-harpenden": {
       "aggregation": {
+        "disagreement": true,
         "important": false,
         "party": "ld",
         "template": "vote-ld.html"
@@ -21339,6 +21624,7 @@
     },
     "holborn-and-st-pancras": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -21413,6 +21699,7 @@
     },
     "hornchurch-and-upminster": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -21487,6 +21774,7 @@
     },
     "hornsey-and-wood-green": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -21554,6 +21842,7 @@
     },
     "horsham": {
       "aggregation": {
+        "disagreement": true,
         "important": false,
         "party": "ld",
         "template": "vote-ld.html"
@@ -21621,6 +21910,7 @@
     },
     "houghton-and-sunderland-south": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -21709,6 +21999,7 @@
     },
     "hove": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -21797,6 +22088,7 @@
     },
     "huddersfield": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -21871,6 +22163,7 @@
     },
     "huntingdon": {
       "aggregation": {
+        "disagreement": true,
         "important": false,
         "party": null,
         "template": "contradict.html"
@@ -21938,6 +22231,7 @@
     },
     "hyndburn": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -22012,6 +22306,7 @@
     },
     "ilford-north": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -22086,6 +22381,7 @@
     },
     "ilford-south": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -22146,6 +22442,7 @@
     },
     "inverclyde": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "snp",
         "template": "vote-snp.html"
@@ -22192,6 +22489,7 @@
     },
     "inverness-nairn-badenoch-and-strathspey": {
       "aggregation": {
+        "disagreement": false,
         "important": true,
         "party": "snp",
         "template": "vote-snp.html"
@@ -22252,6 +22550,7 @@
     },
     "ipswich": {
       "aggregation": {
+        "disagreement": false,
         "important": true,
         "party": "lab",
         "template": "vote-lab.html"
@@ -22340,6 +22639,7 @@
     },
     "isle-of-wight": {
       "aggregation": {
+        "disagreement": true,
         "important": false,
         "party": "green",
         "template": "vote-green.html"
@@ -22433,6 +22733,7 @@
     },
     "islington-north": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -22500,6 +22801,7 @@
     },
     "islington-south-and-finsbury": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -22574,6 +22876,7 @@
     },
     "islwyn": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -22648,6 +22951,7 @@
     },
     "jarrow": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -22729,6 +23033,7 @@
     },
     "keighley": {
       "aggregation": {
+        "disagreement": false,
         "important": true,
         "party": "lab",
         "template": "vote-lab.html"
@@ -22817,6 +23122,7 @@
     },
     "kenilworth-and-southam": {
       "aggregation": {
+        "disagreement": true,
         "important": false,
         "party": "ld",
         "template": "vote-ld.html"
@@ -22891,6 +23197,7 @@
     },
     "kensington": {
       "aggregation": {
+        "disagreement": true,
         "important": true,
         "party": "lab",
         "template": "vote-lab.html"
@@ -22979,6 +23286,7 @@
     },
     "kettering": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -23067,6 +23375,7 @@
     },
     "kilmarnock-and-loudoun": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "snp",
         "template": "vote-snp.html"
@@ -23113,6 +23422,7 @@
     },
     "kingston-and-surbiton": {
       "aggregation": {
+        "disagreement": false,
         "important": true,
         "party": "ld",
         "template": "vote-ld.html"
@@ -23187,6 +23497,7 @@
     },
     "kingston-upon-hull-east": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -23268,6 +23579,7 @@
     },
     "kingston-upon-hull-north": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -23349,6 +23661,7 @@
     },
     "kingston-upon-hull-west-and-hessle": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -23430,6 +23743,7 @@
     },
     "kingswood": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -23511,6 +23825,7 @@
     },
     "kirkcaldy-and-cowdenbeath": {
       "aggregation": {
+        "disagreement": true,
         "important": false,
         "party": null,
         "template": "contradict.html"
@@ -23564,6 +23879,7 @@
     },
     "knowsley": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -23631,6 +23947,7 @@
     },
     "lagan-valley": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "alliance",
         "template": "vote-alliance.html"
@@ -23677,6 +23994,7 @@
     },
     "lanark-and-hamilton-east": {
       "aggregation": {
+        "disagreement": false,
         "important": true,
         "party": "snp",
         "template": "vote-snp.html"
@@ -23737,6 +24055,7 @@
     },
     "lancaster-and-fleetwood": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -23825,6 +24144,7 @@
     },
     "leeds-central": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -23892,6 +24212,7 @@
     },
     "leeds-east": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -23966,6 +24287,7 @@
     },
     "leeds-north-east": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -24047,6 +24369,7 @@
     },
     "leeds-north-west": {
       "aggregation": {
+        "disagreement": true,
         "important": false,
         "party": null,
         "template": "contradict.html"
@@ -24135,6 +24458,7 @@
     },
     "leeds-west": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -24209,6 +24533,7 @@
     },
     "leicester-east": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -24283,6 +24608,7 @@
     },
     "leicester-south": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -24350,6 +24676,7 @@
     },
     "leicester-west": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -24417,6 +24744,7 @@
     },
     "leigh": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -24498,6 +24826,7 @@
     },
     "lewes": {
       "aggregation": {
+        "disagreement": false,
         "important": true,
         "party": "ld",
         "template": "vote-ld.html"
@@ -24579,6 +24908,7 @@
     },
     "lewisham-deptford": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -24653,6 +24983,7 @@
     },
     "lewisham-east": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -24727,6 +25058,7 @@
     },
     "lewisham-west-and-penge": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -24815,6 +25147,7 @@
     },
     "leyton-and-wanstead": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -24882,6 +25215,7 @@
     },
     "lichfield": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -24963,6 +25297,7 @@
     },
     "lincoln": {
       "aggregation": {
+        "disagreement": false,
         "important": true,
         "party": "lab",
         "template": "vote-lab.html"
@@ -25044,6 +25379,7 @@
     },
     "linlithgow-and-east-falkirk": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "snp",
         "template": "vote-snp.html"
@@ -25090,6 +25426,7 @@
     },
     "liverpool-riverside": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -25150,6 +25487,7 @@
     },
     "liverpool-walton": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -25217,6 +25555,7 @@
     },
     "liverpool-wavertree": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -25277,6 +25616,7 @@
     },
     "liverpool-west-derby": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -25344,6 +25684,7 @@
     },
     "livingston": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "snp",
         "template": "vote-snp.html"
@@ -25390,6 +25731,7 @@
     },
     "llanelli": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -25480,6 +25822,7 @@
     },
     "loughborough": {
       "aggregation": {
+        "disagreement": false,
         "important": true,
         "party": "lab",
         "template": "vote-lab.html"
@@ -25561,6 +25904,7 @@
     },
     "louth-and-horncastle": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -25635,6 +25979,7 @@
     },
     "ludlow": {
       "aggregation": {
+        "disagreement": true,
         "important": false,
         "party": null,
         "template": "contradict.html"
@@ -25709,6 +26054,7 @@
     },
     "luton-north": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -25776,6 +26122,7 @@
     },
     "luton-south": {
       "aggregation": {
+        "disagreement": true,
         "important": false,
         "party": null,
         "template": "contradict.html"
@@ -25834,6 +26181,7 @@
     },
     "macclesfield": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -25915,6 +26263,7 @@
     },
     "maidenhead": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "ld",
         "template": "vote-ld.html"
@@ -25989,6 +26338,7 @@
     },
     "maidstone-and-the-weald": {
       "aggregation": {
+        "disagreement": true,
         "important": false,
         "party": "ld",
         "template": "vote-ld.html"
@@ -26070,6 +26420,7 @@
     },
     "makerfield": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -26151,6 +26502,7 @@
     },
     "maldon": {
       "aggregation": {
+        "disagreement": true,
         "important": false,
         "party": null,
         "template": "contradict.html"
@@ -26232,6 +26584,7 @@
     },
     "manchester-central": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -26299,6 +26652,7 @@
     },
     "manchester-gorton": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -26366,6 +26720,7 @@
     },
     "manchester-withington": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -26433,6 +26788,7 @@
     },
     "mansfield": {
       "aggregation": {
+        "disagreement": false,
         "important": true,
         "party": "lab",
         "template": "vote-lab.html"
@@ -26521,6 +26877,7 @@
     },
     "meon-valley": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "ld",
         "template": "vote-ld.html"
@@ -26595,6 +26952,7 @@
     },
     "meriden": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -26676,6 +27034,7 @@
     },
     "merthyr-tydfil-and-rhymney": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -26750,6 +27109,7 @@
     },
     "mid-bedfordshire": {
       "aggregation": {
+        "disagreement": true,
         "important": false,
         "party": null,
         "template": "contradict.html"
@@ -26824,6 +27184,7 @@
     },
     "mid-derbyshire": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -26898,6 +27259,7 @@
     },
     "mid-dorset-and-north-poole": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "ld",
         "template": "vote-ld.html"
@@ -26986,6 +27348,7 @@
     },
     "mid-norfolk": {
       "aggregation": {
+        "disagreement": true,
         "important": false,
         "party": null,
         "template": "contradict.html"
@@ -27053,6 +27416,7 @@
     },
     "mid-sussex": {
       "aggregation": {
+        "disagreement": true,
         "important": false,
         "party": "ld",
         "template": "vote-ld.html"
@@ -27120,6 +27484,7 @@
     },
     "mid-ulster": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "sf",
         "template": "vote-sf.html"
@@ -27166,6 +27531,7 @@
     },
     "mid-worcestershire": {
       "aggregation": {
+        "disagreement": true,
         "important": false,
         "party": null,
         "template": "contradict.html"
@@ -27233,6 +27599,7 @@
     },
     "middlesbrough": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -27307,6 +27674,7 @@
     },
     "middlesbrough-south-and-east-cleveland": {
       "aggregation": {
+        "disagreement": false,
         "important": true,
         "party": "lab",
         "template": "vote-lab.html"
@@ -27402,6 +27770,7 @@
     },
     "midlothian": {
       "aggregation": {
+        "disagreement": true,
         "important": false,
         "party": null,
         "template": "contradict.html"
@@ -27462,6 +27831,7 @@
     },
     "milton-keynes-north": {
       "aggregation": {
+        "disagreement": false,
         "important": true,
         "party": "lab",
         "template": "vote-lab.html"
@@ -27550,6 +27920,7 @@
     },
     "milton-keynes-south": {
       "aggregation": {
+        "disagreement": false,
         "important": true,
         "party": "lab",
         "template": "vote-lab.html"
@@ -27638,6 +28009,7 @@
     },
     "mitcham-and-morden": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -27705,6 +28077,7 @@
     },
     "mole-valley": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "ld",
         "template": "vote-ld.html"
@@ -27786,6 +28159,7 @@
     },
     "monmouth": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -27867,6 +28241,7 @@
     },
     "montgomeryshire": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "ld",
         "template": "vote-ld.html"
@@ -27964,6 +28339,7 @@
     },
     "moray": {
       "aggregation": {
+        "disagreement": false,
         "important": true,
         "party": "snp",
         "template": "vote-snp.html"
@@ -28031,6 +28407,7 @@
     },
     "morecambe-and-lunesdale": {
       "aggregation": {
+        "disagreement": false,
         "important": true,
         "party": "lab",
         "template": "vote-lab.html"
@@ -28119,6 +28496,7 @@
     },
     "morley-and-outwood": {
       "aggregation": {
+        "disagreement": false,
         "important": true,
         "party": "lab",
         "template": "vote-lab.html"
@@ -28207,6 +28585,7 @@
     },
     "motherwell-and-wishaw": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "snp",
         "template": "vote-snp.html"
@@ -28253,6 +28632,7 @@
     },
     "na-h-eileanan-an-iar": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": null,
         "template": "pending.html"
@@ -28299,6 +28679,7 @@
     },
     "neath": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -28373,6 +28754,7 @@
     },
     "new-forest-east": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "ld",
         "template": "vote-ld.html"
@@ -28447,6 +28829,7 @@
     },
     "new-forest-west": {
       "aggregation": {
+        "disagreement": true,
         "important": false,
         "party": null,
         "template": "contradict.html"
@@ -28521,6 +28904,7 @@
     },
     "newark": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -28588,6 +28972,7 @@
     },
     "newbury": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "ld",
         "template": "vote-ld.html"
@@ -28662,6 +29047,7 @@
     },
     "newcastle-under-lyme": {
       "aggregation": {
+        "disagreement": false,
         "important": true,
         "party": "lab",
         "template": "vote-lab.html"
@@ -28750,6 +29136,7 @@
     },
     "newcastle-upon-tyne-central": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -28817,6 +29204,7 @@
     },
     "newcastle-upon-tyne-east": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -28905,6 +29293,7 @@
     },
     "newcastle-upon-tyne-north": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -28986,6 +29375,7 @@
     },
     "newport-east": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -29060,6 +29450,7 @@
     },
     "newport-west": {
       "aggregation": {
+        "disagreement": false,
         "important": true,
         "party": "lab",
         "template": "vote-lab.html"
@@ -29141,6 +29532,7 @@
     },
     "newry-and-armagh": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "sf",
         "template": "vote-sf.html"
@@ -29187,6 +29579,7 @@
     },
     "newton-abbot": {
       "aggregation": {
+        "disagreement": true,
         "important": false,
         "party": "ld",
         "template": "vote-ld.html"
@@ -29275,6 +29668,7 @@
     },
     "normanton-pontefract-and-castleford": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -29363,6 +29757,7 @@
     },
     "north-antrim": {
       "aggregation": {
+        "disagreement": true,
         "important": false,
         "party": null,
         "template": "contradict.html"
@@ -29409,6 +29804,7 @@
     },
     "north-ayrshire-and-arran": {
       "aggregation": {
+        "disagreement": false,
         "important": true,
         "party": "snp",
         "template": "vote-snp.html"
@@ -29469,6 +29865,7 @@
     },
     "north-cornwall": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "ld",
         "template": "vote-ld.html"
@@ -29569,6 +29966,7 @@
     },
     "north-devon": {
       "aggregation": {
+        "disagreement": false,
         "important": true,
         "party": "ld",
         "template": "vote-ld.html"
@@ -29664,6 +30062,7 @@
     },
     "north-dorset": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "ld",
         "template": "vote-ld.html"
@@ -29745,6 +30144,7 @@
     },
     "north-down": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "alliance",
         "template": "vote-alliance.html"
@@ -29798,6 +30198,7 @@
     },
     "north-durham": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -29879,6 +30280,7 @@
     },
     "north-east-bedfordshire": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -29946,6 +30348,7 @@
     },
     "north-east-cambridgeshire": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -30013,6 +30416,7 @@
     },
     "north-east-derbyshire": {
       "aggregation": {
+        "disagreement": false,
         "important": true,
         "party": "lab",
         "template": "vote-lab.html"
@@ -30101,6 +30505,7 @@
     },
     "north-east-fife": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "snp",
         "template": "vote-snp.html"
@@ -30173,6 +30578,7 @@
     },
     "north-east-hampshire": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "ld",
         "template": "vote-ld.html"
@@ -30233,6 +30639,7 @@
     },
     "north-east-hertfordshire": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -30293,6 +30700,7 @@
     },
     "north-east-somerset": {
       "aggregation": {
+        "disagreement": true,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -30367,6 +30775,7 @@
     },
     "north-herefordshire": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "ld",
         "template": "vote-ld.html"
@@ -30441,6 +30850,7 @@
     },
     "north-norfolk": {
       "aggregation": {
+        "disagreement": false,
         "important": true,
         "party": "ld",
         "template": "vote-ld.html"
@@ -30520,6 +30930,7 @@
     },
     "north-shropshire": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -30608,6 +31019,7 @@
     },
     "north-somerset": {
       "aggregation": {
+        "disagreement": true,
         "important": false,
         "party": null,
         "template": "contradict.html"
@@ -30675,6 +31087,7 @@
     },
     "north-swindon": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -30756,6 +31169,7 @@
     },
     "north-thanet": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -30830,6 +31244,7 @@
     },
     "north-tyneside": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -30904,6 +31319,7 @@
     },
     "north-warwickshire": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -30985,6 +31401,7 @@
     },
     "north-west-cambridgeshire": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -31059,6 +31476,7 @@
     },
     "north-west-durham": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -31133,6 +31551,7 @@
     },
     "north-west-hampshire": {
       "aggregation": {
+        "disagreement": true,
         "important": false,
         "party": null,
         "template": "contradict.html"
@@ -31207,6 +31626,7 @@
     },
     "north-west-leicestershire": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -31288,6 +31708,7 @@
     },
     "north-west-norfolk": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -31376,6 +31797,7 @@
     },
     "north-wiltshire": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "ld",
         "template": "vote-ld.html"
@@ -31450,6 +31872,7 @@
     },
     "northampton-north": {
       "aggregation": {
+        "disagreement": false,
         "important": true,
         "party": "lab",
         "template": "vote-lab.html"
@@ -31531,6 +31954,7 @@
     },
     "northampton-south": {
       "aggregation": {
+        "disagreement": false,
         "important": true,
         "party": "lab",
         "template": "vote-lab.html"
@@ -31612,6 +32036,7 @@
     },
     "norwich-north": {
       "aggregation": {
+        "disagreement": false,
         "important": true,
         "party": "lab",
         "template": "vote-lab.html"
@@ -31700,6 +32125,7 @@
     },
     "norwich-south": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -31788,6 +32214,7 @@
     },
     "nottingham-east": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -31841,6 +32268,7 @@
     },
     "nottingham-north": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -31908,6 +32336,7 @@
     },
     "nottingham-south": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -31989,6 +32418,7 @@
     },
     "nuneaton": {
       "aggregation": {
+        "disagreement": false,
         "important": true,
         "party": "lab",
         "template": "vote-lab.html"
@@ -32070,6 +32500,7 @@
     },
     "ochil-and-south-perthshire": {
       "aggregation": {
+        "disagreement": false,
         "important": true,
         "party": "snp",
         "template": "vote-snp.html"
@@ -32137,6 +32568,7 @@
     },
     "ogmore": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -32211,6 +32643,7 @@
     },
     "old-bexley-and-sidcup": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -32285,6 +32718,7 @@
     },
     "oldham-east-and-saddleworth": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -32352,6 +32786,7 @@
     },
     "oldham-west-and-royton": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -32419,6 +32854,7 @@
     },
     "orkney-and-shetland": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "ld",
         "template": "vote-ld.html"
@@ -32491,6 +32927,7 @@
     },
     "orpington": {
       "aggregation": {
+        "disagreement": true,
         "important": false,
         "party": null,
         "template": "contradict.html"
@@ -32558,6 +32995,7 @@
     },
     "oxford-east": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -32639,6 +33077,7 @@
     },
     "oxford-west-and-abingdon": {
       "aggregation": {
+        "disagreement": false,
         "important": true,
         "party": "ld",
         "template": "vote-ld.html"
@@ -32718,6 +33157,7 @@
     },
     "paisley-and-renfrewshire-north": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "snp",
         "template": "vote-snp.html"
@@ -32764,6 +33204,7 @@
     },
     "paisley-and-renfrewshire-south": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "snp",
         "template": "vote-snp.html"
@@ -32810,6 +33251,7 @@
     },
     "pendle": {
       "aggregation": {
+        "disagreement": false,
         "important": true,
         "party": "lab",
         "template": "vote-lab.html"
@@ -32891,6 +33333,7 @@
     },
     "penistone-and-stocksbridge": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -32977,6 +33420,7 @@
     },
     "penrith-and-the-border": {
       "aggregation": {
+        "disagreement": true,
         "important": false,
         "party": null,
         "template": "contradict.html"
@@ -33044,6 +33488,7 @@
     },
     "perth-and-north-perthshire": {
       "aggregation": {
+        "disagreement": false,
         "important": true,
         "party": "snp",
         "template": "vote-snp.html"
@@ -33109,6 +33554,7 @@
     },
     "peterborough": {
       "aggregation": {
+        "disagreement": false,
         "important": true,
         "party": "lab",
         "template": "vote-lab.html"
@@ -33183,6 +33629,7 @@
     },
     "plymouth-moor-view": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -33264,6 +33711,7 @@
     },
     "plymouth-sutton-and-devonport": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -33345,6 +33793,7 @@
     },
     "pontypridd": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -33428,6 +33877,7 @@
     },
     "poole": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -33502,6 +33952,7 @@
     },
     "poplar-and-limehouse": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -33569,6 +34020,7 @@
     },
     "portsmouth-north": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -33657,6 +34109,7 @@
     },
     "portsmouth-south": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -33736,6 +34189,7 @@
     },
     "preseli-pembrokeshire": {
       "aggregation": {
+        "disagreement": false,
         "important": true,
         "party": "lab",
         "template": "vote-lab.html"
@@ -33824,6 +34278,7 @@
     },
     "preston": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -33891,6 +34346,7 @@
     },
     "pudsey": {
       "aggregation": {
+        "disagreement": false,
         "important": true,
         "party": "lab",
         "template": "vote-lab.html"
@@ -33979,6 +34435,7 @@
     },
     "putney": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -34060,6 +34517,7 @@
     },
     "rayleigh-and-wickford": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": null,
         "template": "anyparty.html"
@@ -34120,6 +34578,7 @@
     },
     "reading-east": {
       "aggregation": {
+        "disagreement": false,
         "important": true,
         "party": "lab",
         "template": "vote-lab.html"
@@ -34208,6 +34667,7 @@
     },
     "reading-west": {
       "aggregation": {
+        "disagreement": false,
         "important": true,
         "party": "lab",
         "template": "vote-lab.html"
@@ -34289,6 +34749,7 @@
     },
     "redcar": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -34377,6 +34838,7 @@
     },
     "redditch": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -34458,6 +34920,7 @@
     },
     "reigate": {
       "aggregation": {
+        "disagreement": true,
         "important": false,
         "party": "ld",
         "template": "vote-ld.html"
@@ -34525,6 +34988,7 @@
     },
     "rhondda": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -34592,6 +35056,7 @@
     },
     "ribble-valley": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -34680,6 +35145,7 @@
     },
     "richmond-(yorks)": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -34747,6 +35213,7 @@
     },
     "richmond-park": {
       "aggregation": {
+        "disagreement": false,
         "important": true,
         "party": "ld",
         "template": "vote-ld.html"
@@ -34833,6 +35300,7 @@
     },
     "rochdale": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -34900,6 +35368,7 @@
     },
     "rochester-and-strood": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -34981,6 +35450,7 @@
     },
     "rochford-and-southend-east": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -35069,6 +35539,7 @@
     },
     "romford": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -35150,6 +35621,7 @@
     },
     "romsey-and-southampton-north": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "ld",
         "template": "vote-ld.html"
@@ -35236,6 +35708,7 @@
     },
     "ross-skye-and-lochaber": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "snp",
         "template": "vote-snp.html"
@@ -35296,6 +35769,7 @@
     },
     "rossendale-and-darwen": {
       "aggregation": {
+        "disagreement": false,
         "important": true,
         "party": "lab",
         "template": "vote-lab.html"
@@ -35370,6 +35844,7 @@
     },
     "rother-valley": {
       "aggregation": {
+        "disagreement": false,
         "important": true,
         "party": "lab",
         "template": "vote-lab.html"
@@ -35458,6 +35933,7 @@
     },
     "rotherham": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -35532,6 +36008,7 @@
     },
     "rugby": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -35620,6 +36097,7 @@
     },
     "ruislip-northwood-and-pinner": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -35694,6 +36172,7 @@
     },
     "runnymede-and-weybridge": {
       "aggregation": {
+        "disagreement": true,
         "important": false,
         "party": null,
         "template": "contradict.html"
@@ -35761,6 +36240,7 @@
     },
     "rushcliffe": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -35854,6 +36334,7 @@
     },
     "rutherglen-and-hamilton-west": {
       "aggregation": {
+        "disagreement": true,
         "important": false,
         "party": null,
         "template": "contradict.html"
@@ -35914,6 +36395,7 @@
     },
     "rutland-and-melton": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": null,
         "template": "anyparty.html"
@@ -35981,6 +36463,7 @@
     },
     "saffron-walden": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "ld",
         "template": "vote-ld.html"
@@ -36055,6 +36538,7 @@
     },
     "salford-and-eccles": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -36129,6 +36613,7 @@
     },
     "salisbury": {
       "aggregation": {
+        "disagreement": true,
         "important": false,
         "party": "ld",
         "template": "vote-ld.html"
@@ -36196,6 +36681,7 @@
     },
     "scarborough-and-whitby": {
       "aggregation": {
+        "disagreement": false,
         "important": true,
         "party": "lab",
         "template": "vote-lab.html"
@@ -36282,6 +36768,7 @@
     },
     "scunthorpe": {
       "aggregation": {
+        "disagreement": false,
         "important": true,
         "party": "lab",
         "template": "vote-lab.html"
@@ -36370,6 +36857,7 @@
     },
     "sedgefield": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -36451,6 +36939,7 @@
     },
     "sefton-central": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -36532,6 +37021,7 @@
     },
     "selby-and-ainsty": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -36620,6 +37110,7 @@
     },
     "sevenoaks": {
       "aggregation": {
+        "disagreement": true,
         "important": false,
         "party": null,
         "template": "contradict.html"
@@ -36687,6 +37178,7 @@
     },
     "sheffield-brightside-and-hillsborough": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -36754,6 +37246,7 @@
     },
     "sheffield-central": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -36828,6 +37321,7 @@
     },
     "sheffield-hallam": {
       "aggregation": {
+        "disagreement": true,
         "important": false,
         "party": "ld",
         "template": "vote-ld.html"
@@ -36902,6 +37396,7 @@
     },
     "sheffield-heeley": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -36983,6 +37478,7 @@
     },
     "sheffield-south-east": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -37064,6 +37560,7 @@
     },
     "sherwood": {
       "aggregation": {
+        "disagreement": false,
         "important": true,
         "party": "lab",
         "template": "vote-lab.html"
@@ -37145,6 +37642,7 @@
     },
     "shipley": {
       "aggregation": {
+        "disagreement": false,
         "important": true,
         "party": "lab",
         "template": "vote-lab.html"
@@ -37226,6 +37724,7 @@
     },
     "shrewsbury-and-atcham": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -37307,6 +37806,7 @@
     },
     "sittingbourne-and-sheppey": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -37381,6 +37881,7 @@
     },
     "skipton-and-ripon": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -37448,6 +37949,7 @@
     },
     "sleaford-and-north-hykeham": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -37508,6 +38010,7 @@
     },
     "slough": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -37575,6 +38078,7 @@
     },
     "solihull": {
       "aggregation": {
+        "disagreement": true,
         "important": false,
         "party": "ld",
         "template": "vote-ld.html"
@@ -37656,6 +38160,7 @@
     },
     "somerton-and-frome": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "ld",
         "template": "vote-ld.html"
@@ -37730,6 +38235,7 @@
     },
     "south-antrim": {
       "aggregation": {
+        "disagreement": true,
         "important": false,
         "party": null,
         "template": "contradict.html"
@@ -37797,6 +38303,7 @@
     },
     "south-basildon-and-east-thurrock": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -37878,6 +38385,7 @@
     },
     "south-cambridgeshire": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "ld",
         "template": "vote-ld.html"
@@ -37950,6 +38458,7 @@
     },
     "south-derbyshire": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -38031,6 +38540,7 @@
     },
     "south-dorset": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -38119,6 +38629,7 @@
     },
     "south-down": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": null,
         "template": "pending.html"
@@ -38172,6 +38683,7 @@
     },
     "south-east-cambridgeshire": {
       "aggregation": {
+        "disagreement": true,
         "important": false,
         "party": "ld",
         "template": "vote-ld.html"
@@ -38258,6 +38770,7 @@
     },
     "south-east-cornwall": {
       "aggregation": {
+        "disagreement": true,
         "important": false,
         "party": null,
         "template": "contradict.html"
@@ -38339,6 +38852,7 @@
     },
     "south-holland-and-the-deepings": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -38406,6 +38920,7 @@
     },
     "south-leicestershire": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -38480,6 +38995,7 @@
     },
     "south-norfolk": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -38547,6 +39063,7 @@
     },
     "south-northamptonshire": {
       "aggregation": {
+        "disagreement": true,
         "important": false,
         "party": null,
         "template": "contradict.html"
@@ -38621,6 +39138,7 @@
     },
     "south-ribble": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -38702,6 +39220,7 @@
     },
     "south-shields": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -38776,6 +39295,7 @@
     },
     "south-staffordshire": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -38843,6 +39363,7 @@
     },
     "south-suffolk": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -38910,6 +39431,7 @@
     },
     "south-swindon": {
       "aggregation": {
+        "disagreement": false,
         "important": true,
         "party": "lab",
         "template": "vote-lab.html"
@@ -38991,6 +39513,7 @@
     },
     "south-thanet": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -39079,6 +39602,7 @@
     },
     "south-west-bedfordshire": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -39153,6 +39677,7 @@
     },
     "south-west-devon": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -39234,6 +39759,7 @@
     },
     "south-west-hertfordshire": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "ind",
         "template": "vote-ind.html"
@@ -39301,6 +39827,7 @@
     },
     "south-west-norfolk": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -39375,6 +39902,7 @@
     },
     "south-west-surrey": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "ld",
         "template": "vote-ld.html"
@@ -39461,6 +39989,7 @@
     },
     "south-west-wiltshire": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -39528,6 +40057,7 @@
     },
     "southampton-itchen": {
       "aggregation": {
+        "disagreement": false,
         "important": true,
         "party": "lab",
         "template": "vote-lab.html"
@@ -39609,6 +40139,7 @@
     },
     "southampton-test": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -39690,6 +40221,7 @@
     },
     "southend-west": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -39778,6 +40310,7 @@
     },
     "southport": {
       "aggregation": {
+        "disagreement": true,
         "important": false,
         "party": null,
         "template": "contradict.html"
@@ -39871,6 +40404,7 @@
     },
     "spelthorne": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -39938,6 +40472,7 @@
     },
     "st-albans": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "ld",
         "template": "vote-ld.html"
@@ -40019,6 +40554,7 @@
     },
     "st-austell-and-newquay": {
       "aggregation": {
+        "disagreement": true,
         "important": false,
         "party": "ld",
         "template": "vote-ld.html"
@@ -40107,6 +40643,7 @@
     },
     "st-helens-north": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -40181,6 +40718,7 @@
     },
     "st-helens-south-and-whiston": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -40255,6 +40793,7 @@
     },
     "st-ives": {
       "aggregation": {
+        "disagreement": false,
         "important": true,
         "party": "ld",
         "template": "vote-ld.html"
@@ -40336,6 +40875,7 @@
     },
     "stafford": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -40424,6 +40964,7 @@
     },
     "staffordshire-moorlands": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -40498,6 +41039,7 @@
     },
     "stalybridge-and-hyde": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -40572,6 +41114,7 @@
     },
     "stevenage": {
       "aggregation": {
+        "disagreement": false,
         "important": true,
         "party": "lab",
         "template": "vote-lab.html"
@@ -40653,6 +41196,7 @@
     },
     "stirling": {
       "aggregation": {
+        "disagreement": false,
         "important": true,
         "party": "snp",
         "template": "vote-snp.html"
@@ -40713,6 +41257,7 @@
     },
     "stockport": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -40787,6 +41332,7 @@
     },
     "stockton-north": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -40868,6 +41414,7 @@
     },
     "stockton-south": {
       "aggregation": {
+        "disagreement": false,
         "important": true,
         "party": "lab",
         "template": "vote-lab.html"
@@ -40956,6 +41503,7 @@
     },
     "stoke-on-trent-central": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -41030,6 +41578,7 @@
     },
     "stoke-on-trent-north": {
       "aggregation": {
+        "disagreement": false,
         "important": true,
         "party": "lab",
         "template": "vote-lab.html"
@@ -41118,6 +41667,7 @@
     },
     "stoke-on-trent-south": {
       "aggregation": {
+        "disagreement": false,
         "important": true,
         "party": "lab",
         "template": "vote-lab.html"
@@ -41206,6 +41756,7 @@
     },
     "stone": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -41280,6 +41831,7 @@
     },
     "stourbridge": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -41361,6 +41913,7 @@
     },
     "strangford": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "alliance",
         "template": "vote-alliance.html"
@@ -41407,6 +41960,7 @@
     },
     "stratford-on-avon": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "ld",
         "template": "vote-ld.html"
@@ -41474,6 +42028,7 @@
     },
     "streatham": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -41541,6 +42096,7 @@
     },
     "stretford-and-urmston": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -41608,6 +42164,7 @@
     },
     "stroud": {
       "aggregation": {
+        "disagreement": false,
         "important": true,
         "party": "lab",
         "template": "vote-lab.html"
@@ -41708,6 +42265,7 @@
     },
     "suffolk-coastal": {
       "aggregation": {
+        "disagreement": true,
         "important": false,
         "party": null,
         "template": "contradict.html"
@@ -41775,6 +42333,7 @@
     },
     "sunderland-central": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -41849,6 +42408,7 @@
     },
     "surrey-heath": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "ld",
         "template": "vote-ld.html"
@@ -41923,6 +42483,7 @@
     },
     "sutton-and-cheam": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "ld",
         "template": "vote-ld.html"
@@ -42004,6 +42565,7 @@
     },
     "sutton-coldfield": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -42078,6 +42640,7 @@
     },
     "swansea-east": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -42152,6 +42715,7 @@
     },
     "swansea-west": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -42233,6 +42797,7 @@
     },
     "tamworth": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -42307,6 +42872,7 @@
     },
     "tatton": {
       "aggregation": {
+        "disagreement": true,
         "important": false,
         "party": null,
         "template": "contradict.html"
@@ -42367,6 +42933,7 @@
     },
     "taunton-deane": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "ld",
         "template": "vote-ld.html"
@@ -42453,6 +43020,7 @@
     },
     "telford": {
       "aggregation": {
+        "disagreement": false,
         "important": true,
         "party": "lab",
         "template": "vote-lab.html"
@@ -42541,6 +43109,7 @@
     },
     "tewkesbury": {
       "aggregation": {
+        "disagreement": true,
         "important": false,
         "party": "ld",
         "template": "vote-ld.html"
@@ -42608,6 +43177,7 @@
     },
     "the-cotswolds": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "ld",
         "template": "vote-ld.html"
@@ -42675,6 +43245,7 @@
     },
     "the-wrekin": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -42749,6 +43320,7 @@
     },
     "thirsk-and-malton": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -42809,6 +43381,7 @@
     },
     "thornbury-and-yate": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "ld",
         "template": "vote-ld.html"
@@ -42895,6 +43468,7 @@
     },
     "thurrock": {
       "aggregation": {
+        "disagreement": false,
         "important": true,
         "party": "lab",
         "template": "vote-lab.html"
@@ -42990,6 +43564,7 @@
     },
     "tiverton-and-honiton": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -43064,6 +43639,7 @@
     },
     "tonbridge-and-malling": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": null,
         "template": "anyparty.html"
@@ -43124,6 +43700,7 @@
     },
     "tooting": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -43205,6 +43782,7 @@
     },
     "torbay": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "ld",
         "template": "vote-ld.html"
@@ -43286,6 +43864,7 @@
     },
     "torfaen": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -43360,6 +43939,7 @@
     },
     "torridge-and-west-devon": {
       "aggregation": {
+        "disagreement": true,
         "important": false,
         "party": "ld",
         "template": "vote-ld.html"
@@ -43441,6 +44021,7 @@
     },
     "totnes": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "ld",
         "template": "vote-ld.html"
@@ -43513,6 +44094,7 @@
     },
     "tottenham": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -43580,6 +44162,7 @@
     },
     "truro-and-falmouth": {
       "aggregation": {
+        "disagreement": true,
         "important": false,
         "party": null,
         "template": "contradict.html"
@@ -43647,6 +44230,7 @@
     },
     "tunbridge-wells": {
       "aggregation": {
+        "disagreement": true,
         "important": false,
         "party": "ld",
         "template": "vote-ld.html"
@@ -43719,6 +44303,7 @@
     },
     "twickenham": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "ld",
         "template": "vote-ld.html"
@@ -43798,6 +44383,7 @@
     },
     "tynemouth": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -43879,6 +44465,7 @@
     },
     "upper-bann": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "sf",
         "template": "vote-sf.html"
@@ -43932,6 +44519,7 @@
     },
     "uxbridge-and-south-ruislip": {
       "aggregation": {
+        "disagreement": false,
         "important": true,
         "party": "lab",
         "template": "vote-lab.html"
@@ -44013,6 +44601,7 @@
     },
     "vale-of-clwyd": {
       "aggregation": {
+        "disagreement": false,
         "important": true,
         "party": "lab",
         "template": "vote-lab.html"
@@ -44094,6 +44683,7 @@
     },
     "vale-of-glamorgan": {
       "aggregation": {
+        "disagreement": false,
         "important": true,
         "party": "lab",
         "template": "vote-lab.html"
@@ -44191,6 +44781,7 @@
     },
     "vauxhall": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -44258,6 +44849,7 @@
     },
     "wakefield": {
       "aggregation": {
+        "disagreement": false,
         "important": true,
         "party": "lab",
         "template": "vote-lab.html"
@@ -44339,6 +44931,7 @@
     },
     "wallasey": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -44413,6 +45006,7 @@
     },
     "walsall-north": {
       "aggregation": {
+        "disagreement": false,
         "important": true,
         "party": "lab",
         "template": "vote-lab.html"
@@ -44501,6 +45095,7 @@
     },
     "walsall-south": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -44575,6 +45170,7 @@
     },
     "walthamstow": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -44642,6 +45238,7 @@
     },
     "wansbeck": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -44716,6 +45313,7 @@
     },
     "wantage": {
       "aggregation": {
+        "disagreement": true,
         "important": false,
         "party": "ld",
         "template": "vote-ld.html"
@@ -44802,6 +45400,7 @@
     },
     "warley": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -44869,6 +45468,7 @@
     },
     "warrington-north": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -44943,6 +45543,7 @@
     },
     "warrington-south": {
       "aggregation": {
+        "disagreement": false,
         "important": true,
         "party": "lab",
         "template": "vote-lab.html"
@@ -45029,6 +45630,7 @@
     },
     "warwick-and-leamington": {
       "aggregation": {
+        "disagreement": false,
         "important": true,
         "party": "lab",
         "template": "vote-lab.html"
@@ -45124,6 +45726,7 @@
     },
     "washington-and-sunderland-west": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -45205,6 +45808,7 @@
     },
     "watford": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -45284,6 +45888,7 @@
     },
     "waveney": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -45365,6 +45970,7 @@
     },
     "wealden": {
       "aggregation": {
+        "disagreement": true,
         "important": false,
         "party": null,
         "template": "contradict.html"
@@ -45439,6 +46045,7 @@
     },
     "weaver-vale": {
       "aggregation": {
+        "disagreement": false,
         "important": true,
         "party": "lab",
         "template": "vote-lab.html"
@@ -45520,6 +46127,7 @@
     },
     "wellingborough": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -45601,6 +46209,7 @@
     },
     "wells": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "ld",
         "template": "vote-ld.html"
@@ -45687,6 +46296,7 @@
     },
     "welwyn-hatfield": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -45768,6 +46378,7 @@
     },
     "wentworth-and-dearne": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -45856,6 +46467,7 @@
     },
     "west-aberdeenshire-and-kincardine": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "snp",
         "template": "vote-snp.html"
@@ -45921,6 +46533,7 @@
     },
     "west-bromwich-east": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -45995,6 +46608,7 @@
     },
     "west-bromwich-west": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -46069,6 +46683,7 @@
     },
     "west-dorset": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "ld",
         "template": "vote-ld.html"
@@ -46143,6 +46758,7 @@
     },
     "west-dunbartonshire": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": null,
         "template": "pending.html"
@@ -46189,6 +46805,7 @@
     },
     "west-ham": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -46256,6 +46873,7 @@
     },
     "west-lancashire": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -46330,6 +46948,7 @@
     },
     "west-suffolk": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -46418,6 +47037,7 @@
     },
     "west-tyrone": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "sf",
         "template": "vote-sf.html"
@@ -46464,6 +47084,7 @@
     },
     "west-worcestershire": {
       "aggregation": {
+        "disagreement": true,
         "important": false,
         "party": null,
         "template": "contradict.html"
@@ -46531,6 +47152,7 @@
     },
     "westminster-north": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -46612,6 +47234,7 @@
     },
     "westmorland-and-lonsdale": {
       "aggregation": {
+        "disagreement": false,
         "important": true,
         "party": "ld",
         "template": "vote-ld.html"
@@ -46691,6 +47314,7 @@
     },
     "weston-super-mare": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -46765,6 +47389,7 @@
     },
     "wigan": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -46839,6 +47464,7 @@
     },
     "wimbledon": {
       "aggregation": {
+        "disagreement": true,
         "important": false,
         "party": "ld",
         "template": "vote-ld.html"
@@ -46932,6 +47558,7 @@
     },
     "winchester": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "ld",
         "template": "vote-ld.html"
@@ -47018,6 +47645,7 @@
     },
     "windsor": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "ld",
         "template": "vote-ld.html"
@@ -47085,6 +47713,7 @@
     },
     "wirral-south": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -47166,6 +47795,7 @@
     },
     "wirral-west": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -47247,6 +47877,7 @@
     },
     "witham": {
       "aggregation": {
+        "disagreement": true,
         "important": false,
         "party": null,
         "template": "contradict.html"
@@ -47328,6 +47959,7 @@
     },
     "witney": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "ld",
         "template": "vote-ld.html"
@@ -47407,6 +48039,7 @@
     },
     "woking": {
       "aggregation": {
+        "disagreement": true,
         "important": false,
         "party": "ld",
         "template": "vote-ld.html"
@@ -47488,6 +48121,7 @@
     },
     "wokingham": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "ld",
         "template": "vote-ld.html"
@@ -47555,6 +48189,7 @@
     },
     "wolverhampton-north-east": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -47636,6 +48271,7 @@
     },
     "wolverhampton-south-east": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -47710,6 +48346,7 @@
     },
     "wolverhampton-south-west": {
       "aggregation": {
+        "disagreement": false,
         "important": true,
         "party": "lab",
         "template": "vote-lab.html"
@@ -47784,6 +48421,7 @@
     },
     "worcester": {
       "aggregation": {
+        "disagreement": false,
         "important": true,
         "party": "lab",
         "template": "vote-lab.html"
@@ -47865,6 +48503,7 @@
     },
     "workington": {
       "aggregation": {
+        "disagreement": false,
         "important": true,
         "party": "lab",
         "template": "vote-lab.html"
@@ -47953,6 +48592,7 @@
     },
     "worsley-and-eccles-south": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -48027,6 +48667,7 @@
     },
     "worthing-west": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -48094,6 +48735,7 @@
     },
     "wrexham": {
       "aggregation": {
+        "disagreement": false,
         "important": true,
         "party": "lab",
         "template": "vote-lab.html"
@@ -48175,6 +48817,7 @@
     },
     "wycombe": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -48249,6 +48892,7 @@
     },
     "wyre-and-preston-north": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -48330,6 +48974,7 @@
     },
     "wyre-forest": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -48411,6 +49056,7 @@
     },
     "wythenshawe-and-sale-east": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -48478,6 +49124,7 @@
     },
     "yeovil": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "ld",
         "template": "vote-ld.html"
@@ -48573,6 +49220,7 @@
     },
     "ynys-mon": {
       "aggregation": {
+        "disagreement": true,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -48663,6 +49311,7 @@
     },
     "york-central": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -48744,6 +49393,7 @@
     },
     "york-outer": {
       "aggregation": {
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
