@@ -251,6 +251,13 @@
           "important": false,
           "party": "snp",
           "they_say": null,
+          "url": "https://tacticalvote.getvoting.org/aberdeen-south/",
+          "who_suggests": "Best for Britain"
+        },
+        {
+          "important": false,
+          "party": "snp",
+          "they_say": null,
           "url": "https://tactical.vote/aberdeen-south",
           "who_suggests": "tactical.vote"
         }
@@ -496,6 +503,13 @@
         "slug": "altrincham-and-sale-west"
       },
       "other_sites": [
+        {
+          "important": false,
+          "party": "lab",
+          "they_say": null,
+          "url": "https://tactical-vote.uk/altrincham-and-sale-west",
+          "who_suggests": "People's Vote"
+        },
         {
           "important": false,
           "party": "lab",
@@ -762,6 +776,13 @@
           "they_say": "Vote SNP - competitive SNP-Conservative seat",
           "url": "https://www.remainunited.org/#postcode=DD115AU",
           "who_suggests": "Remain United"
+        },
+        {
+          "important": false,
+          "party": "snp",
+          "they_say": null,
+          "url": "https://tacticalvote.getvoting.org/angus/",
+          "who_suggests": "Best for Britain"
         },
         {
           "important": false,
@@ -1281,6 +1302,13 @@
         "slug": "aylesbury"
       },
       "other_sites": [
+        {
+          "important": false,
+          "party": "lab",
+          "they_say": null,
+          "url": "https://tactical-vote.uk/aylesbury",
+          "who_suggests": "People's Vote"
+        },
         {
           "important": false,
           "party": "lab",
@@ -2451,10 +2479,10 @@
     },
     "beckenham": {
       "aggregation": {
-        "disagreement": false,
+        "disagreement": true,
         "important": false,
-        "party": "lab",
-        "template": "vote-lab.html"
+        "party": null,
+        "template": "contradict.html"
       },
       "analysis": {
         "template": "suppressed-too-far-behind-2017.html",
@@ -2470,6 +2498,13 @@
         "slug": "beckenham"
       },
       "other_sites": [
+        {
+          "important": false,
+          "party": "ld",
+          "they_say": null,
+          "url": "https://tactical-vote.uk/beckenham",
+          "who_suggests": "People's Vote"
+        },
         {
           "important": false,
           "party": "any",
@@ -3256,6 +3291,13 @@
         "slug": "bexhill-and-battle"
       },
       "other_sites": [
+        {
+          "important": false,
+          "party": "lab",
+          "they_say": null,
+          "url": "https://tactical-vote.uk/bexhill-and-battle",
+          "who_suggests": "People's Vote"
+        },
         {
           "important": false,
           "party": "any",
@@ -5230,6 +5272,13 @@
         {
           "important": false,
           "party": "lab",
+          "they_say": null,
+          "url": "https://tactical-vote.uk/boston-and-skegness",
+          "who_suggests": "People's Vote"
+        },
+        {
+          "important": false,
+          "party": "lab",
           "they_say": "For the best chance of reducing the Conservative majority, vote Labour - Safe Conservative seat with Labour in second place",
           "url": "https://www.remainunited.org/#postcode=LN44PX",
           "who_suggests": "Remain United"
@@ -5541,6 +5590,13 @@
         "slug": "bracknell"
       },
       "other_sites": [
+        {
+          "important": false,
+          "party": "lab",
+          "they_say": null,
+          "url": "https://tactical-vote.uk/bracknell",
+          "who_suggests": "People's Vote"
+        },
         {
           "important": false,
           "party": "any",
@@ -6239,6 +6295,13 @@
       "other_sites": [
         {
           "important": false,
+          "party": "ld",
+          "they_say": null,
+          "url": "https://tactical-vote.uk/brentwood-and-ongar",
+          "who_suggests": "People's Vote"
+        },
+        {
+          "important": false,
           "party": "any",
           "they_say": "No recommendation - Safe Conservative seat with Lib Dem in second place",
           "url": "https://www.remainunited.org/#postcode=CM129SL",
@@ -6394,6 +6457,13 @@
         "slug": "bridgwater-and-west-somerset"
       },
       "other_sites": [
+        {
+          "important": false,
+          "party": "lab",
+          "they_say": null,
+          "url": "https://tactical-vote.uk/bridgwater-and-west-somerset",
+          "who_suggests": "People's Vote"
+        },
         {
           "important": false,
           "party": "any",
@@ -7053,6 +7123,13 @@
         "slug": "broadland"
       },
       "other_sites": [
+        {
+          "important": false,
+          "party": "lab",
+          "they_say": null,
+          "url": "https://tactical-vote.uk/broadland",
+          "who_suggests": "People's Vote"
+        },
         {
           "important": false,
           "party": "any",
@@ -7796,8 +7873,8 @@
       "aggregation": {
         "disagreement": true,
         "important": false,
-        "party": null,
-        "template": "contradict.html"
+        "party": "lab",
+        "template": "vote-lab.html"
       },
       "analysis": {
         "template": "alliance-mixed.html",
@@ -7813,6 +7890,13 @@
         "slug": "bury-st-edmunds"
       },
       "other_sites": [
+        {
+          "important": false,
+          "party": "lab",
+          "they_say": null,
+          "url": "https://tactical-vote.uk/bury-st-edmunds",
+          "who_suggests": "People's Vote"
+        },
         {
           "important": false,
           "party": "any",
@@ -9319,8 +9403,8 @@
       "aggregation": {
         "disagreement": true,
         "important": false,
-        "party": "ld",
-        "template": "vote-ld.html"
+        "party": null,
+        "template": "contradict.html"
       },
       "analysis": {
         "template": "alliance-mixed.html",
@@ -9338,7 +9422,7 @@
       "other_sites": [
         {
           "important": false,
-          "party": "ld",
+          "party": "lab",
           "they_say": null,
           "url": "https://tactical-vote.uk/central-devon",
           "who_suggests": "People's Vote"
@@ -9411,6 +9495,13 @@
         "slug": "central-suffolk-and-north-ipswich"
       },
       "other_sites": [
+        {
+          "important": false,
+          "party": "lab",
+          "they_say": null,
+          "url": "https://tactical-vote.uk/central-suffolk-and-north-ipswich",
+          "who_suggests": "People's Vote"
+        },
         {
           "important": false,
           "party": "any",
@@ -9553,6 +9644,13 @@
           "they_say": "Current Tory seat. Labour came second last election.",
           "url": "https://tacticalvote.co.uk/#Charnwood",
           "who_suggests": "tacticalvote.co.uk"
+        },
+        {
+          "important": false,
+          "party": "lab",
+          "they_say": null,
+          "url": "https://tactical-vote.uk/charnwood",
+          "who_suggests": "People's Vote"
         },
         {
           "important": false,
@@ -11271,7 +11369,7 @@
       "other_sites": [
         {
           "important": false,
-          "party": "ld",
+          "party": "lab",
           "they_say": null,
           "url": "https://tactical-vote.uk/colchester",
           "who_suggests": "People's Vote"
@@ -12664,6 +12762,13 @@
         {
           "important": false,
           "party": "lab",
+          "they_say": null,
+          "url": "https://tactical-vote.uk/daventry",
+          "who_suggests": "People's Vote"
+        },
+        {
+          "important": false,
+          "party": "lab",
           "they_say": "For the best chance of reducing the Conservative majority, vote Labour - Safe Conservative seat with Labour in second place",
           "url": "https://www.remainunited.org/#postcode=CV238BF",
           "who_suggests": "Remain United"
@@ -13046,6 +13151,13 @@
         {
           "important": false,
           "party": "lab",
+          "they_say": null,
+          "url": "https://tactical-vote.uk/derbyshire-dales",
+          "who_suggests": "People's Vote"
+        },
+        {
+          "important": false,
+          "party": "lab",
           "they_say": "For the best chance of reducing the Conservative majority, vote Labour - Conservative in the lead with Labour in second place",
           "url": "https://www.remainunited.org/#postcode=DE45EP",
           "who_suggests": "Remain United"
@@ -13267,6 +13379,13 @@
           "they_say": "Current Labour seat. Tories came second last election.",
           "url": "https://tacticalvote.co.uk/#DonValley",
           "who_suggests": "tacticalvote.co.uk"
+        },
+        {
+          "important": false,
+          "party": "lab",
+          "they_say": null,
+          "url": "https://tactical-vote.uk/don-valley",
+          "who_suggests": "People's Vote"
         },
         {
           "important": false,
@@ -15299,6 +15418,13 @@
       "other_sites": [
         {
           "important": false,
+          "party": "lab",
+          "they_say": null,
+          "url": "https://tactical-vote.uk/east-yorkshire",
+          "who_suggests": "People's Vote"
+        },
+        {
+          "important": false,
           "party": "any",
           "they_say": "No recommendation - Safe Conservative seat with no clear remain party challenger",
           "url": "https://www.remainunited.org/#postcode=YO411RQ",
@@ -16069,6 +16195,13 @@
         {
           "important": false,
           "party": "lab",
+          "they_say": null,
+          "url": "https://tactical-vote.uk/elmet-and-rothwell",
+          "who_suggests": "People's Vote"
+        },
+        {
+          "important": false,
+          "party": "lab",
           "they_say": "For the best chance of reducing the Conservative majority, vote Labour - Conservative in the lead with Labour in second place",
           "url": "https://www.remainunited.org/#postcode=LS143BB",
           "who_suggests": "Remain United"
@@ -16400,6 +16533,13 @@
           "they_say": "Current Tory seat. Labour came second last election.",
           "url": "https://tacticalvote.co.uk/#EppingForest",
           "who_suggests": "tacticalvote.co.uk"
+        },
+        {
+          "important": false,
+          "party": "lab",
+          "they_say": null,
+          "url": "https://tactical-vote.uk/epping-forest",
+          "who_suggests": "People's Vote"
         },
         {
           "important": false,
@@ -16924,6 +17064,13 @@
       "other_sites": [
         {
           "important": false,
+          "party": "lab",
+          "they_say": null,
+          "url": "https://tactical-vote.uk/fareham",
+          "who_suggests": "People's Vote"
+        },
+        {
+          "important": false,
           "party": "any",
           "they_say": "No recommendation - Safe Conservative seat with no clear remain party challenger",
           "url": "https://www.remainunited.org/#postcode=PO141AA",
@@ -16997,6 +17144,13 @@
         "slug": "faversham-and-mid-kent"
       },
       "other_sites": [
+        {
+          "important": false,
+          "party": "lab",
+          "they_say": null,
+          "url": "https://tactical-vote.uk/faversham-and-mid-kent",
+          "who_suggests": "People's Vote"
+        },
         {
           "important": false,
           "party": "any",
@@ -18638,6 +18792,13 @@
         {
           "important": false,
           "party": "lab",
+          "they_say": null,
+          "url": "https://tactical-vote.uk/gosport",
+          "who_suggests": "People's Vote"
+        },
+        {
+          "important": false,
+          "party": "lab",
           "they_say": "For the best chance of reducing the Conservative majority, vote Labour - Conservative in the lead with Labour in second place",
           "url": "https://www.remainunited.org/#postcode=PO122BB",
           "who_suggests": "Remain United"
@@ -19550,6 +19711,13 @@
         {
           "important": false,
           "party": "lab",
+          "they_say": null,
+          "url": "https://tactical-vote.uk/haltemprice-and-howden",
+          "who_suggests": "People's Vote"
+        },
+        {
+          "important": false,
+          "party": "lab",
           "they_say": "For the best chance of reducing the Conservative majority, vote Labour - Conservative in the lead with Labour in second place",
           "url": "https://www.remainunited.org/#postcode=HU106LF",
           "who_suggests": "Remain United"
@@ -19868,6 +20036,13 @@
         "slug": "harborough"
       },
       "other_sites": [
+        {
+          "important": false,
+          "party": "lab",
+          "they_say": null,
+          "url": "https://tactical-vote.uk/harborough",
+          "who_suggests": "People's Vote"
+        },
         {
           "important": false,
           "party": "lab",
@@ -21148,10 +21323,10 @@
     },
     "hertford-and-stortford": {
       "aggregation": {
-        "disagreement": false,
+        "disagreement": true,
         "important": false,
-        "party": "lab",
-        "template": "vote-lab.html"
+        "party": null,
+        "template": "contradict.html"
       },
       "analysis": {
         "template": "alliance-mixed.html",
@@ -21167,6 +21342,13 @@
         "slug": "hertford-and-stortford"
       },
       "other_sites": [
+        {
+          "important": false,
+          "party": "ld",
+          "they_say": null,
+          "url": "https://tactical-vote.uk/hertford-and-stortford",
+          "who_suggests": "People's Vote"
+        },
         {
           "important": false,
           "party": "any",
@@ -21218,8 +21400,8 @@
       "aggregation": {
         "disagreement": true,
         "important": false,
-        "party": null,
-        "template": "contradict.html"
+        "party": "lab",
+        "template": "vote-lab.html"
       },
       "analysis": {
         "template": "alliance-mixed.html",
@@ -21235,6 +21417,13 @@
         "slug": "hertsmere"
       },
       "other_sites": [
+        {
+          "important": false,
+          "party": "lab",
+          "they_say": null,
+          "url": "https://tactical-vote.uk/hertsmere",
+          "who_suggests": "People's Vote"
+        },
         {
           "important": false,
           "party": "ld",
@@ -22182,6 +22371,13 @@
         "slug": "huntingdon"
       },
       "other_sites": [
+        {
+          "important": false,
+          "party": "lab",
+          "they_say": null,
+          "url": "https://tactical-vote.uk/huntingdon",
+          "who_suggests": "People's Vote"
+        },
         {
           "important": false,
           "party": "any",
@@ -25455,6 +25651,13 @@
         {
           "important": false,
           "party": "lab",
+          "they_say": null,
+          "url": "https://tactical-vote.uk/liverpool-riverside",
+          "who_suggests": "People's Vote"
+        },
+        {
+          "important": false,
+          "party": "lab",
           "they_say": "Vote Labour - Safe Labour seat",
           "url": "https://www.remainunited.org/#postcode=L10AA",
           "who_suggests": "Remain United"
@@ -26124,8 +26327,8 @@
       "aggregation": {
         "disagreement": true,
         "important": false,
-        "party": null,
-        "template": "contradict.html"
+        "party": "lab",
+        "template": "vote-lab.html"
       },
       "analysis": {
         "template": "remain.html",
@@ -26141,6 +26344,13 @@
         "slug": "luton-south"
       },
       "other_sites": [
+        {
+          "important": false,
+          "party": "lab",
+          "they_say": null,
+          "url": "https://tactical-vote.uk/luton-south",
+          "who_suggests": "People's Vote"
+        },
         {
           "important": false,
           "party": "lab",
@@ -26521,6 +26731,13 @@
         "slug": "maldon"
       },
       "other_sites": [
+        {
+          "important": false,
+          "party": "ld",
+          "they_say": null,
+          "url": "https://tactical-vote.uk/maldon",
+          "who_suggests": "People's Vote"
+        },
         {
           "important": false,
           "party": "any",
@@ -27109,10 +27326,10 @@
     },
     "mid-bedfordshire": {
       "aggregation": {
-        "disagreement": true,
+        "disagreement": false,
         "important": false,
-        "party": null,
-        "template": "contradict.html"
+        "party": "lab",
+        "template": "vote-lab.html"
       },
       "analysis": {
         "template": "alliance-mixed.html",
@@ -27130,7 +27347,7 @@
       "other_sites": [
         {
           "important": false,
-          "party": "ld",
+          "party": "lab",
           "they_say": null,
           "url": "https://tactical-vote.uk/mid-bedfordshire",
           "who_suggests": "People's Vote"
@@ -27209,6 +27426,13 @@
           "they_say": "Current Tory seat. Labour came second last election.",
           "url": "https://tacticalvote.co.uk/#MidDerbyshire",
           "who_suggests": "tacticalvote.co.uk"
+        },
+        {
+          "important": false,
+          "party": "lab",
+          "they_say": null,
+          "url": "https://tactical-vote.uk/mid-derbyshire",
+          "who_suggests": "People's Vote"
         },
         {
           "important": false,
@@ -27350,8 +27574,8 @@
       "aggregation": {
         "disagreement": true,
         "important": false,
-        "party": null,
-        "template": "contradict.html"
+        "party": "lab",
+        "template": "vote-lab.html"
       },
       "analysis": {
         "template": "no-conflict-hard.html",
@@ -27367,6 +27591,13 @@
         "slug": "mid-norfolk"
       },
       "other_sites": [
+        {
+          "important": false,
+          "party": "lab",
+          "they_say": null,
+          "url": "https://tactical-vote.uk/mid-norfolk",
+          "who_suggests": "People's Vote"
+        },
         {
           "important": false,
           "party": "any",
@@ -27531,10 +27762,10 @@
     },
     "mid-worcestershire": {
       "aggregation": {
-        "disagreement": true,
+        "disagreement": false,
         "important": false,
-        "party": null,
-        "template": "contradict.html"
+        "party": "ld",
+        "template": "vote-ld.html"
       },
       "analysis": {
         "template": "leave.html",
@@ -27552,7 +27783,7 @@
       "other_sites": [
         {
           "important": false,
-          "party": "lab",
+          "party": "ld",
           "they_say": null,
           "url": "https://tactical-vote.uk/mid-worcestershire",
           "who_suggests": "People's Vote"
@@ -28926,6 +29157,13 @@
         {
           "important": false,
           "party": "lab",
+          "they_say": null,
+          "url": "https://tactical-vote.uk/newark",
+          "who_suggests": "People's Vote"
+        },
+        {
+          "important": false,
+          "party": "lab",
           "they_say": "For the best chance of reducing the Conservative majority, vote Labour - Safe Conservative seat with Labour in second place",
           "url": "https://www.remainunited.org/#postcode=DN228BJ",
           "who_suggests": "Remain United"
@@ -29841,6 +30079,13 @@
           "important": false,
           "party": "snp",
           "they_say": null,
+          "url": "https://tacticalvote.getvoting.org/north-ayrshire-and-arran/",
+          "who_suggests": "Best for Britain"
+        },
+        {
+          "important": false,
+          "party": "snp",
+          "they_say": null,
           "url": "https://tactical.vote/north-ayrshire-and-arran",
           "who_suggests": "tactical.vote"
         }
@@ -30144,10 +30389,10 @@
     },
     "north-down": {
       "aggregation": {
-        "disagreement": false,
+        "disagreement": true,
         "important": false,
-        "party": "alliance",
-        "template": "vote-alliance.html"
+        "party": null,
+        "template": "contradict.html"
       },
       "analysis": {
         "template": "leave.html",
@@ -30165,7 +30410,7 @@
       "other_sites": [
         {
           "important": false,
-          "party": "alliance",
+          "party": "other",
           "they_say": null,
           "url": "https://tactical-vote.uk/north-down",
           "who_suggests": "People's Vote"
@@ -30299,6 +30544,13 @@
         "slug": "north-east-bedfordshire"
       },
       "other_sites": [
+        {
+          "important": false,
+          "party": "lab",
+          "they_say": null,
+          "url": "https://tactical-vote.uk/north-east-bedfordshire",
+          "who_suggests": "People's Vote"
+        },
         {
           "important": false,
           "party": "any",
@@ -30600,6 +30852,13 @@
         {
           "important": false,
           "party": "ld",
+          "they_say": null,
+          "url": "https://tactical-vote.uk/north-east-hampshire",
+          "who_suggests": "People's Vote"
+        },
+        {
+          "important": false,
+          "party": "ld",
           "they_say": "For the best chance of reducing the Conservative majority, vote Lib Dem - Conservative in the lead with Lib Dem in second place",
           "url": "https://www.remainunited.org/#postcode=GU105AE",
           "who_suggests": "Remain United"
@@ -30639,10 +30898,10 @@
     },
     "north-east-hertfordshire": {
       "aggregation": {
-        "disagreement": false,
+        "disagreement": true,
         "important": false,
-        "party": "lab",
-        "template": "vote-lab.html"
+        "party": null,
+        "template": "contradict.html"
       },
       "analysis": {
         "template": "suppressed-too-far-behind-2017.html",
@@ -30658,6 +30917,13 @@
         "slug": "north-east-hertfordshire"
       },
       "other_sites": [
+        {
+          "important": false,
+          "party": "ld",
+          "they_say": null,
+          "url": "https://tactical-vote.uk/north-east-hertfordshire",
+          "who_suggests": "People's Vote"
+        },
         {
           "important": false,
           "party": "any",
@@ -30719,6 +30985,13 @@
         "slug": "north-east-somerset"
       },
       "other_sites": [
+        {
+          "important": false,
+          "party": "lab",
+          "they_say": null,
+          "url": "https://tactical-vote.uk/north-east-somerset",
+          "who_suggests": "People's Vote"
+        },
         {
           "important": false,
           "party": "lab",
@@ -31198,6 +31471,13 @@
         {
           "important": false,
           "party": "lab",
+          "they_say": null,
+          "url": "https://tactical-vote.uk/north-thanet",
+          "who_suggests": "People's Vote"
+        },
+        {
+          "important": false,
+          "party": "lab",
           "they_say": "For the best chance of reducing the Conservative majority, vote Labour - Conservative in the lead with Labour in second place",
           "url": "https://www.remainunited.org/#postcode=CT124BB",
           "who_suggests": "Remain United"
@@ -31420,6 +31700,13 @@
         "slug": "north-west-cambridgeshire"
       },
       "other_sites": [
+        {
+          "important": false,
+          "party": "lab",
+          "they_say": null,
+          "url": "https://tactical-vote.uk/north-west-cambridgeshire",
+          "who_suggests": "People's Vote"
+        },
         {
           "important": false,
           "party": "lab",
@@ -31651,6 +31938,13 @@
           "they_say": "Current Tory seat. Labour came second last election.",
           "url": "https://tacticalvote.co.uk/#NorthWestLeicestershire",
           "who_suggests": "tacticalvote.co.uk"
+        },
+        {
+          "important": false,
+          "party": "lab",
+          "they_say": null,
+          "url": "https://tactical-vote.uk/north-west-leicestershire",
+          "who_suggests": "People's Vote"
         },
         {
           "important": false,
@@ -32233,6 +32527,13 @@
         "slug": "nottingham-east"
       },
       "other_sites": [
+        {
+          "important": false,
+          "party": "lab",
+          "they_say": null,
+          "url": "https://tactical-vote.uk/nottingham-east",
+          "who_suggests": "People's Vote"
+        },
         {
           "important": false,
           "party": "lab",
@@ -32948,6 +33249,13 @@
       "other_sites": [
         {
           "important": false,
+          "party": "ld",
+          "they_say": null,
+          "url": "https://tactical-vote.uk/orpington",
+          "who_suggests": "People's Vote"
+        },
+        {
+          "important": false,
           "party": "any",
           "they_say": "No recommendation - Safe Conservative seat with no clear remain party challenger",
           "url": "https://www.remainunited.org/#postcode=BR26DB",
@@ -33441,6 +33749,13 @@
       "other_sites": [
         {
           "important": false,
+          "party": "lab",
+          "they_say": null,
+          "url": "https://tactical-vote.uk/penrith-and-the-border",
+          "who_suggests": "People's Vote"
+        },
+        {
+          "important": false,
           "party": "any",
           "they_say": "No recommendation - Safe Conservative seat with no clear remain party challenger",
           "url": "https://www.remainunited.org/#postcode=CA124RT",
@@ -33898,6 +34213,13 @@
       "other_sites": [
         {
           "important": false,
+          "party": "lab",
+          "they_say": null,
+          "url": "https://tactical-vote.uk/poole",
+          "who_suggests": "People's Vote"
+        },
+        {
+          "important": false,
           "party": "any",
           "they_say": "No recommendation - Safe Conservative seat with no clear remain party challenger",
           "url": "https://www.remainunited.org/#postcode=BH122BB",
@@ -34128,6 +34450,13 @@
         "slug": "portsmouth-south"
       },
       "other_sites": [
+        {
+          "important": false,
+          "party": "lab",
+          "they_say": null,
+          "url": "https://tactical-vote.uk/portsmouth-south",
+          "who_suggests": "People's Vote"
+        },
         {
           "important": false,
           "party": "any",
@@ -34457,6 +34786,13 @@
         {
           "important": false,
           "party": "lab",
+          "they_say": null,
+          "url": "https://tactical-vote.uk/putney",
+          "who_suggests": "People's Vote"
+        },
+        {
+          "important": false,
+          "party": "lab",
           "they_say": "Vote Labour - competitive Conservative-Labour seat",
           "url": "https://www.remainunited.org/#postcode=SW152BB",
           "who_suggests": "Remain United"
@@ -34519,8 +34855,8 @@
       "aggregation": {
         "disagreement": false,
         "important": false,
-        "party": null,
-        "template": "anyparty.html"
+        "party": "lab",
+        "template": "vote-lab.html"
       },
       "analysis": {
         "template": "leave.html",
@@ -34536,6 +34872,13 @@
         "slug": "rayleigh-and-wickford"
       },
       "other_sites": [
+        {
+          "important": false,
+          "party": "lab",
+          "they_say": null,
+          "url": "https://tactical-vote.uk/rayleigh-and-wickford",
+          "who_suggests": "People's Vote"
+        },
         {
           "important": false,
           "party": "any",
@@ -35164,6 +35507,13 @@
         "slug": "richmond-(yorks)"
       },
       "other_sites": [
+        {
+          "important": false,
+          "party": "lab",
+          "they_say": null,
+          "url": "https://tactical-vote.uk/richmond-yorks",
+          "who_suggests": "People's Vote"
+        },
         {
           "important": false,
           "party": "any",
@@ -36118,6 +36468,13 @@
       "other_sites": [
         {
           "important": false,
+          "party": "lab",
+          "they_say": null,
+          "url": "https://tactical-vote.uk/ruislip-northwood-and-pinner",
+          "who_suggests": "People's Vote"
+        },
+        {
+          "important": false,
           "party": "any",
           "they_say": "No recommendation - Safe Conservative seat with no clear remain party challenger",
           "url": "https://www.remainunited.org/#postcode=HA55QP",
@@ -36397,8 +36754,8 @@
       "aggregation": {
         "disagreement": false,
         "important": false,
-        "party": null,
-        "template": "anyparty.html"
+        "party": "ld",
+        "template": "vote-ld.html"
       },
       "analysis": {
         "template": "alliance-mixed.html",
@@ -36414,6 +36771,13 @@
         "slug": "rutland-and-melton"
       },
       "other_sites": [
+        {
+          "important": false,
+          "party": "ld",
+          "they_say": null,
+          "url": "https://tactical-vote.uk/rutland-and-melton",
+          "who_suggests": "People's Vote"
+        },
         {
           "important": false,
           "party": "any",
@@ -37902,6 +38266,13 @@
       "other_sites": [
         {
           "important": false,
+          "party": "lab",
+          "they_say": null,
+          "url": "https://tactical-vote.uk/skipton-and-ripon",
+          "who_suggests": "People's Vote"
+        },
+        {
+          "important": false,
           "party": "any",
           "they_say": "No recommendation - Safe Conservative seat with no clear remain party challenger",
           "url": "https://www.remainunited.org/#postcode=BB186JH",
@@ -37968,6 +38339,13 @@
         "slug": "sleaford-and-north-hykeham"
       },
       "other_sites": [
+        {
+          "important": false,
+          "party": "lab",
+          "they_say": null,
+          "url": "https://tactical-vote.uk/sleaford-and-north-hykeham",
+          "who_suggests": "People's Vote"
+        },
         {
           "important": false,
           "party": "any",
@@ -38942,6 +39320,13 @@
         {
           "important": false,
           "party": "lab",
+          "they_say": null,
+          "url": "https://tactical-vote.uk/south-leicestershire",
+          "who_suggests": "People's Vote"
+        },
+        {
+          "important": false,
+          "party": "lab",
           "they_say": "For the best chance of reducing the Conservative majority, vote Labour - Safe Conservative seat with Labour in second place",
           "url": "https://www.remainunited.org/#postcode=LE174BB",
           "who_suggests": "Remain United"
@@ -39016,6 +39401,13 @@
       "other_sites": [
         {
           "important": false,
+          "party": "lab",
+          "they_say": null,
+          "url": "https://tactical-vote.uk/south-norfolk",
+          "who_suggests": "People's Vote"
+        },
+        {
+          "important": false,
           "party": "any",
           "they_say": "No recommendation - Safe Conservative seat with no clear remain party challenger",
           "url": "https://www.remainunited.org/#postcode=IP222BB",
@@ -39063,10 +39455,10 @@
     },
     "south-northamptonshire": {
       "aggregation": {
-        "disagreement": true,
+        "disagreement": false,
         "important": false,
-        "party": null,
-        "template": "contradict.html"
+        "party": "lab",
+        "template": "vote-lab.html"
       },
       "analysis": {
         "template": "alliance-mixed.html",
@@ -39084,7 +39476,7 @@
       "other_sites": [
         {
           "important": false,
-          "party": "ld",
+          "party": "lab",
           "they_say": null,
           "url": "https://tactical-vote.uk/south-northamptonshire",
           "who_suggests": "People's Vote"
@@ -39323,6 +39715,13 @@
         },
         {
           "important": false,
+          "party": "lab",
+          "they_say": null,
+          "url": "https://tactical-vote.uk/south-staffordshire",
+          "who_suggests": "People's Vote"
+        },
+        {
+          "important": false,
           "party": "any",
           "they_say": "No recommendation - Safe Conservative seat with no clear remain party challenger",
           "url": "https://www.remainunited.org/#postcode=DY103PA",
@@ -39382,6 +39781,13 @@
         "slug": "south-suffolk"
       },
       "other_sites": [
+        {
+          "important": false,
+          "party": "lab",
+          "they_say": null,
+          "url": "https://tactical-vote.uk/south-suffolk",
+          "who_suggests": "People's Vote"
+        },
         {
           "important": false,
           "party": "any",
@@ -39781,6 +40187,13 @@
         {
           "important": false,
           "party": "ind",
+          "they_say": null,
+          "url": "https://tactical-vote.uk/south-west-hertfordshire",
+          "who_suggests": "People's Vote"
+        },
+        {
+          "important": false,
+          "party": "ind",
           "they_say": "Vote Independent - Prominent prinicples Independent candidate",
           "url": "https://www.remainunited.org/#postcode=HA62BB",
           "who_suggests": "Remain United"
@@ -40008,6 +40421,13 @@
         "slug": "south-west-wiltshire"
       },
       "other_sites": [
+        {
+          "important": false,
+          "party": "lab",
+          "they_say": null,
+          "url": "https://tactical-vote.uk/south-west-wiltshire",
+          "who_suggests": "People's Vote"
+        },
         {
           "important": false,
           "party": "any",
@@ -40331,7 +40751,7 @@
       "other_sites": [
         {
           "important": false,
-          "party": "ld",
+          "party": "lab",
           "they_say": null,
           "url": "https://tactical-vote.uk/southport",
           "who_suggests": "People's Vote"
@@ -40423,6 +40843,13 @@
         "slug": "spelthorne"
       },
       "other_sites": [
+        {
+          "important": false,
+          "party": "lab",
+          "they_say": null,
+          "url": "https://tactical-vote.uk/spelthorne",
+          "who_suggests": "People's Vote"
+        },
         {
           "important": false,
           "party": "any",
@@ -40556,8 +40983,8 @@
       "aggregation": {
         "disagreement": true,
         "important": false,
-        "party": "ld",
-        "template": "vote-ld.html"
+        "party": null,
+        "template": "contradict.html"
       },
       "analysis": {
         "template": "alliance-mixed.html",
@@ -40575,7 +41002,7 @@
       "other_sites": [
         {
           "important": false,
-          "party": "ld",
+          "party": "lab",
           "they_say": null,
           "url": "https://tactical-vote.uk/st-austell-and-newquay",
           "who_suggests": "People's Vote"
@@ -41233,6 +41660,13 @@
           "important": false,
           "party": "snp",
           "they_say": null,
+          "url": "https://tacticalvote.getvoting.org/stirling/",
+          "who_suggests": "Best for Britain"
+        },
+        {
+          "important": false,
+          "party": "snp",
+          "they_say": null,
           "url": "https://tactical.vote/stirling",
           "who_suggests": "tactical.vote"
         }
@@ -41777,6 +42211,13 @@
       "other_sites": [
         {
           "important": false,
+          "party": "lab",
+          "they_say": null,
+          "url": "https://tactical-vote.uk/stone",
+          "who_suggests": "People's Vote"
+        },
+        {
+          "important": false,
           "party": "any",
           "they_say": "No recommendation - Safe Conservative seat with no clear remain party challenger",
           "url": "https://www.remainunited.org/#postcode=ST101JA",
@@ -42284,6 +42725,13 @@
         "slug": "suffolk-coastal"
       },
       "other_sites": [
+        {
+          "important": false,
+          "party": "lab",
+          "they_say": null,
+          "url": "https://tactical-vote.uk/suffolk-coastal",
+          "who_suggests": "People's Vote"
+        },
         {
           "important": false,
           "party": "any",
@@ -42893,6 +43341,13 @@
       "other_sites": [
         {
           "important": false,
+          "party": "ld",
+          "they_say": null,
+          "url": "https://tactical-vote.uk/tatton",
+          "who_suggests": "People's Vote"
+        },
+        {
+          "important": false,
           "party": "lab",
           "they_say": "For the best chance of reducing the Conservative majority, vote Labour - Conservative in the lead with Labour in second place",
           "url": "https://www.remainunited.org/#postcode=CW47LN",
@@ -43320,10 +43775,10 @@
     },
     "thirsk-and-malton": {
       "aggregation": {
-        "disagreement": false,
+        "disagreement": true,
         "important": false,
-        "party": "lab",
-        "template": "vote-lab.html"
+        "party": null,
+        "template": "contradict.html"
       },
       "analysis": {
         "template": "leave.html",
@@ -43339,6 +43794,13 @@
         "slug": "thirsk-and-malton"
       },
       "other_sites": [
+        {
+          "important": false,
+          "party": "ld",
+          "they_say": null,
+          "url": "https://tactical-vote.uk/thirsk-and-malton",
+          "who_suggests": "People's Vote"
+        },
         {
           "important": false,
           "party": "any",
@@ -43585,6 +44047,13 @@
       "other_sites": [
         {
           "important": false,
+          "party": "lab",
+          "they_say": null,
+          "url": "https://tactical-vote.uk/tiverton-and-honiton",
+          "who_suggests": "People's Vote"
+        },
+        {
+          "important": false,
           "party": "any",
           "they_say": "No recommendation - Safe Conservative seat with no clear remain party challenger",
           "url": "https://www.remainunited.org/#postcode=DT73EG",
@@ -43639,10 +44108,10 @@
     },
     "tonbridge-and-malling": {
       "aggregation": {
-        "disagreement": false,
+        "disagreement": true,
         "important": false,
         "party": null,
-        "template": "anyparty.html"
+        "template": "contradict.html"
       },
       "analysis": {
         "template": "suppressed-too-far-behind-2017.html",
@@ -43658,6 +44127,13 @@
         "slug": "tonbridge-and-malling"
       },
       "other_sites": [
+        {
+          "important": false,
+          "party": "ld",
+          "they_say": null,
+          "url": "https://tactical-vote.uk/tonbridge-and-malling",
+          "who_suggests": "People's Vote"
+        },
         {
           "important": false,
           "party": "any",
@@ -44164,8 +44640,8 @@
       "aggregation": {
         "disagreement": true,
         "important": false,
-        "party": null,
-        "template": "contradict.html"
+        "party": "lab",
+        "template": "vote-lab.html"
       },
       "analysis": {
         "template": "alliance-mixed.html",
@@ -44181,6 +44657,13 @@
         "slug": "truro-and-falmouth"
       },
       "other_sites": [
+        {
+          "important": false,
+          "party": "lab",
+          "they_say": null,
+          "url": "https://tactical-vote.uk/truro-and-falmouth",
+          "who_suggests": "People's Vote"
+        },
         {
           "important": false,
           "party": "ld",
@@ -45830,6 +46313,13 @@
         {
           "important": false,
           "party": "lab",
+          "they_say": null,
+          "url": "https://tactical-vote.uk/watford",
+          "who_suggests": "People's Vote"
+        },
+        {
+          "important": false,
+          "party": "lab",
           "they_say": "Vote Labour - competitive Conservative-Labour seat",
           "url": "https://www.remainunited.org/#postcode=WD172BB",
           "who_suggests": "Remain United"
@@ -47335,6 +47825,13 @@
       "other_sites": [
         {
           "important": false,
+          "party": "lab",
+          "they_say": null,
+          "url": "https://tactical-vote.uk/weston-super-mare",
+          "who_suggests": "People's Vote"
+        },
+        {
+          "important": false,
           "party": "any",
           "they_say": "No recommendation - Safe Conservative seat with no clear remain party challenger",
           "url": "https://www.remainunited.org/#postcode=BS227BB",
@@ -47879,8 +48376,8 @@
       "aggregation": {
         "disagreement": true,
         "important": false,
-        "party": null,
-        "template": "contradict.html"
+        "party": "lab",
+        "template": "vote-lab.html"
       },
       "analysis": {
         "template": "alliance-mixed.html",
@@ -47896,6 +48393,13 @@
         "slug": "witham"
       },
       "other_sites": [
+        {
+          "important": false,
+          "party": "lab",
+          "they_say": null,
+          "url": "https://tactical-vote.uk/witham",
+          "who_suggests": "People's Vote"
+        },
         {
           "important": false,
           "party": "any",
@@ -48688,6 +49192,13 @@
       "other_sites": [
         {
           "important": false,
+          "party": "lab",
+          "they_say": null,
+          "url": "https://tactical-vote.uk/worthing-west",
+          "who_suggests": "People's Vote"
+        },
+        {
+          "important": false,
           "party": "any",
           "they_say": "No recommendation - Safe Conservative seat with no clear remain party challenger",
           "url": "https://www.remainunited.org/#postcode=BN124BB",
@@ -48999,6 +49510,13 @@
           "they_say": "Current Tory seat. Labour came second last election.",
           "url": "https://tacticalvote.co.uk/#WyreForest",
           "who_suggests": "tacticalvote.co.uk"
+        },
+        {
+          "important": false,
+          "party": "lab",
+          "they_say": null,
+          "url": "https://tactical-vote.uk/wyre-forest",
+          "who_suggests": "People's Vote"
         },
         {
           "important": false,
@@ -49412,6 +49930,13 @@
         "slug": "york-outer"
       },
       "other_sites": [
+        {
+          "important": false,
+          "party": "lab",
+          "they_say": null,
+          "url": "https://tactical-vote.uk/york-outer",
+          "who_suggests": "People's Vote"
+        },
         {
           "important": false,
           "party": "lab",
