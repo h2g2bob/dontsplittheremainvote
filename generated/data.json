@@ -9403,8 +9403,8 @@
       "aggregation": {
         "disagreement": true,
         "important": false,
-        "party": null,
-        "template": "contradict.html"
+        "party": "ld",
+        "template": "vote-ld.html"
       },
       "analysis": {
         "template": "alliance-mixed.html",
@@ -9422,7 +9422,7 @@
       "other_sites": [
         {
           "important": false,
-          "party": "lab",
+          "party": "ld",
           "they_say": null,
           "url": "https://tactical-vote.uk/central-devon",
           "who_suggests": "People's Vote"
@@ -11369,7 +11369,7 @@
       "other_sites": [
         {
           "important": false,
-          "party": "lab",
+          "party": "ld",
           "they_say": null,
           "url": "https://tactical-vote.uk/colchester",
           "who_suggests": "People's Vote"

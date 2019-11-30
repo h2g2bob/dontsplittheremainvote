@@ -120,7 +120,7 @@ carmarthen-west-and-south-pembrokeshire,W07000066,0.5103490740302183,lab,4,,,,,,
 carshalton-and-wallington,E14000621,0.5946249482789195,ld,4,,,,,,,ld,4,ld,4,ld,4,ld,4
 castle-point,E14000622,0.27405502124804304,lab,3,,,lab,3,,,lab,3,lab,3,any,0,,
 central-ayrshire,S14000010,0.6561314791403288,,,snp,3,,,,,,,snp,3,snp,3,snp,3
-central-devon,E14000623,0.41316299011133395,ld,-1,,,,,,,lab,-1,ld,-1,lab,-1,,
+central-devon,E14000623,0.41316299011133395,ld,1,,,,,,,ld,1,ld,1,lab,-3,,
 central-suffolk-and-north-ipswich,E14000624,0.3697013657915222,lab,2,,,,,,,lab,2,any,0,lab,2,,
 ceredigion,W07000064,0.7835391153468956,plaid,1,,,,,,,plaid,1,any,0,any,0,,
 charnwood,E14000625,0.3448782079164854,lab,4,,,,,,,lab,4,lab,4,lab,4,lab,4
@@ -145,7 +145,7 @@ cleethorpes,E14000643,0.3768706629880445,lab,4,,,,,,,lab,4,lab,4,lab,4,lab,4
 clwyd-south,W07000062,0.5682606607247692,lab,5,lab,5,,,,,lab,5,lab,5,lab,5,lab,5
 clwyd-west,W07000059,0.5193338908840458,lab,4,,,,,,,lab,4,lab,4,lab,4,lab,4
 coatbridge-chryston-and-bellshill,S14000011,0.8375222024866785,,,,,,,,,,,snp,0,any,0,,
-colchester,E14000644,0.5224577458212718,lab,0,,,ld,-2,,,lab,0,ld,-2,lab,0,,
+colchester,E14000644,0.5224577458212718,lab,-2,,,ld,0,,,ld,0,ld,0,lab,-2,,
 colne-valley,E14000645,0.5182389937106918,lab,4,,,,,,,lab,4,lab,4,lab,4,lab,4
 congleton,E14000646,0.3932528320677206,lab,4,,,,,,,lab,4,lab,4,lab,4,lab,4
 copeland,E14000647,0.4838679618887879,lab,4,,,,,,,lab,4,lab,4,lab,4,lab,4
