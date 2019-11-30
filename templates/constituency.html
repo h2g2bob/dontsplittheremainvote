@@ -64,13 +64,13 @@ Use your local knowledge: keep an eye on local newspapers, <a href="https://elec
       </p>
       {% if worst_ppc %}
         <p>
-          {{best_ppc.name}} has the best chance of defeating
+          They have the best chance of defeating
           <a {% if worst_ppc.link %}href="{{ worst_ppc.link }}"{% endif %}>{{ worst_ppc.name }}</a>,
           the current {{worst_ppc.party.name}} MP.
         </p>
       {% endif %}
       {% if best_ppc.social_links %}
-        <p>Find them on:</p>
+        <p>Find {{best_ppc.name}} on:</p>
         <ul>
           {% for social_name, social_url in best_ppc.social_links %}
             <li><a href="{{ social_url }}">{{ social_name }}</a></li>
