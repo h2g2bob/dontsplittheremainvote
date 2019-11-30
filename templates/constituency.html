@@ -99,8 +99,8 @@ Use your local knowledge: keep an eye on local newspapers, <a href="https://elec
 
 <h2>Take action</h2>
 
-<p>The most effective action you can take right now is to <strong>campaign in a marginal constituency</strong>.</p>
 {% if aggregation.important %}
+  <p>This is a <strong>marginal constituency</strong> on tacticalvote.co.uk's <a href="https://tacticalvote.co.uk/key-seats/">Key Seats</a>.</p>
   {% if aggregation.party.short == 'lab' %}
     <div class="widebutton"><a href="https://volunteer.labour.org.uk/">Campaign with Labour in this constituency</a></div>
   {% elif aggregation.party.short == 'ld' %}
@@ -110,6 +110,8 @@ Use your local knowledge: keep an eye on local newspapers, <a href="https://elec
   {% else %}
     <div class="widebutton">Volunteer with {{aggregation.party.name}} in this constituency</div>
   {% endif %}
+{% else %}
+  <p>The most effective action you can take right now is to <strong>campaign in a marginal constituency</strong>.</p>
 {% endif %}
 {% for cp in nearby_constituency_pages %}
   {% if cp.aggregation.important %}
