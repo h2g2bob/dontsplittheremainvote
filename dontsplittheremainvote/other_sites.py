@@ -177,6 +177,14 @@ _TACVOTE_CO_UK = {
     'SNP': SNP,
     'Sinn Féin': SF,
     'TBC': None,
+    'No recommendation': None,
+    'SNP or Lib Dems': ANYPARTY,
+    'Lib Dem or Plaid Cymru': ANYPARTY,
+    'SNP or Labour': ANYPARTY,
+    'Lib Dem or SNP': ANYPARTY,
+    'Labour or SNP': ANYPARTY,
+    'Labour or SNP': ANYPARTY,
+    'Labour or Lib Dem': ANYPARTY,
 }
 def _tacticalvote_co_uk():
     with open('data/tacticalvote/recommendations.json') as f:
