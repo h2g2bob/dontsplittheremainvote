@@ -257,3 +257,21 @@ div.to-minimal-constituency-list a:visited {
 div.iphonepadding {
   height: 70em;
 }
+
+div.candidate-standout img {
+  width: 15%;
+  height: auto;
+  min-width: 8em;
+  min-height: auto;
+  margin-left: 1em;
+  margin-right: 1em;
+  float: right;
+}
+
+div.candidates-source {
+  clear: right;
+}
+
+div.candidates-source {
+  font-size: 80%;
+}

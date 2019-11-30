@@ -52,14 +52,53 @@ Use your local knowledge: keep an eye on local newspapers, <a href="https://elec
 </p>
 {% endif %}
 
-<h2>Announced candidates</h2>
-
-<p>Data from <a href="https://whocanivotefor.co.uk/">Who Can I Vote For</a> from <a href="https://democracyclub.org.uk/">Democracy Club</a>.</p>
-<ul>
-  {% for ppc in known_ppc %}
-      <li>{{ ppc.party.name }}: <a {% if ppc.link %}href="{{ ppc.link }}"{% endif %}>{{ ppc.name }}</a></li>
-  {% endfor %}
-</ul>
+<div class="candidates">
+  {% if best_ppc %}
+    <div class="candidate-standout">
+      <h2>{% if best_ppc.sitting_mp %}Re-elect{% else %}Vote for{% endif %} {{ best_ppc.name }}</h2>
+      {% if best_ppc.image %}
+        <img src="{{best_ppc.image}}" alt="Image of candidate" />
+      {% endif %}
+      <p>
+        {{ best_ppc.name }} is the <strong class="party-{{best_ppc.party.short}}">{{ best_ppc.party.name }}</strong> candidate.
+      </p>
+      {% if worst_ppc %}
+        <p>
+          {{best_ppc.name}} has the best chance of defeating
+          <a {% if worst_ppc.link %}href="{{ worst_ppc.link }}"{% endif %}>{{ worst_ppc.name }}</a>,
+          the current {{worst_ppc.party.name}} MP.
+        </p>
+      {% endif %}
+      {% if best_ppc.social_links %}
+        <p>Find them on:</p>
+        <ul>
+          {% for social_name, social_url in best_ppc.social_links %}
+            <li><a href="{{ social_url }}">{{ social_name }}</a></li>
+          {% endfor %}
+          <li><a href="{{ best_ppc.link }}">Who Can I Vote For</a></li>
+        </ul>
+      {% endif %}
+    </div>
+    <div class="other-candidates">
+      Also standing here are: 
+      {% for ppc in other_ppc %}
+        <a {% if ppc.link %}href="{{ ppc.link }}"{% endif %}>{{ ppc.name }}</a> (<span class="party-{{ppc.party.short}}">{{ ppc.party.name }}</span>)
+      {% endfor %}
+    </div>
+  {% else %}
+    <h2>Candidates</h2>
+    <div class="list-candidates">
+      <ul>
+        {% for ppc in known_ppc %}
+          <li><span class="party-{{ppc.party.short}}">{{ ppc.party.name }}</span>: <a {% if ppc.link %}href="{{ ppc.link }}"{% endif %}>{{ ppc.name }}</a>{% if ppc.sitting_mp %} (current MP){% endif %}</li>
+        {% endfor %}
+      </ul>
+    </div>
+  {% endif %}
+  <div class="candidates-source">
+    Source: <a href="https://whocanivotefor.co.uk/">Who Can I Vote For</a> from <a href="https://democracyclub.org.uk/">Democracy Club</a>.
+  </div>
+</div>
 
 <h2>Election results</h2>
 

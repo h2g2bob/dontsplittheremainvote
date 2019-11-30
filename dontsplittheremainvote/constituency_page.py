@@ -9,12 +9,14 @@ from .other_sites import OtherSiteSuggestion
 from .other_sites import dontsplit_suggestion
 from .pacts import Pact
 from .party import ANYPARTY
+from .party import INDEPENDENT
 from .ppc import PPC
 from .result import Result
 from collections import defaultdict
 from typing import Dict
 from typing import List
 from typing import NamedTuple
+from typing import Optional
 from typing import Tuple
 
 class ConstituencyPage(NamedTuple):
@@ -23,6 +25,7 @@ class ConstituencyPage(NamedTuple):
     other_site_suggestions: List[OtherSiteSuggestion]
     known_ppc: List[PPC]
     pacts: List[Pact]
+    sitting_mp: bool = False
 
     @property
     def datasets_election(self):
@@ -120,6 +123,49 @@ class ConstituencyPage(NamedTuple):
             return main_remain_party
         else:
             return None
+
+    @property
+    def best_ppc(self) -> Optional[PPC]:
+        party = self.aggregation.party
+        if party is None:
+            return None
+        best_ppc_list = [
+            ppc
+            for ppc in self.known_ppc
+            if ppc.party == party
+            # for independents like Dominic Grieve:
+            or ppc.name == party.name]
+        if len(best_ppc_list) != 1:
+            raise Exception(repr((
+                self.constituency.slug,
+                party,
+                self.known_ppc)))
+        return best_ppc_list[0]
+
+    @property
+    def worst_ppc(self) -> Optional[PPC]:
+        if not self.best_ppc:
+            return None
+        current_mp = [
+            ppc
+            for ppc in self.known_ppc
+            if ppc.sitting_mp and not ppc.party.remain
+            # we didn't use DOMINICGRIEVE as the party, so he got INDEPENDENT which is not remain:
+            and ppc.party != INDEPENDENT]
+        if len(current_mp) == 1:
+            return current_mp[0]
+        else:
+            return None
+
+    @property
+    def other_ppc(self) -> List[PPC]:
+        best_ppc = self.best_ppc
+        worst_ppc = self.worst_ppc
+        return [
+            ppc
+            for ppc in self.known_ppc
+            if ppc != best_ppc
+            and ppc != worst_ppc]
 
     def as_json(self):
         return {
