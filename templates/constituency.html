@@ -127,11 +127,7 @@ Use your local knowledge: keep an eye on local newspapers, <a href="https://elec
 
 <h2>Nearby</h2>
 
-<ul>
-  {% for cp in nearby_constituency_pages %}
-      <li><a href="/constituency/{{cp.constituency.slug}}.html">{{cp.constituency.name}}</a></li>
-  {% endfor %}
-  <li><a href="/constituency/">All constituencies</a></li>
-</ul>
+<div class="widebutton"><a href="/constituency/#{{constituency.county}}">Constituencies in {{constituency.county}}</a></div>
+<div class="widebutton"><a href="/constituency/">All constituencies</a></div>
 
 {% endblock %}
