@@ -1,11 +1,14 @@
+import os
 from csv import DictReader
 from collections import defaultdict
-from .constituency import get_constitiuency
-from .party import get_party
-from .party import Party
+from hashlib import md5
 from typing import Dict
 from typing import NamedTuple
 from typing import Optional
+
+from .constituency import get_constitiuency
+from .party import get_party
+from .party import Party
 
 _SITTING_MPS = []
 def is_sitting_mp(democlub_id: int) -> bool:
@@ -18,9 +21,28 @@ class PPC(NamedTuple):
     party: Party
     name: str
     link: str
-    image: Optional[str]
     social_links: Dict[str, str]
     sitting_mp: bool
+
+    democlub_id: Optional[int]
+    democlub_image_url: Optional[str]
+
+    def image_cache_path(self):
+        return 'candidate_images/{dcid}-{md5}.{ext}'.format(
+            dcid=self.democlub_id,
+            md5=md5(self.democlub_image_url.encode('ascii')).hexdigest(),
+            ext=self.democlub_image_url.split('.')[-1])
+
+    @property
+    def image(self):
+        if self.democlub_image_url is None:
+            return None
+        path = self.image_cache_path()
+        on_disk_path = 'generated/static/' + path
+        if not os.path.exists(on_disk_path):
+            print('wget "{}" -O "{}"'.format(self.democlub_image_url, on_disk_path))
+            return None
+        return '/static/' + path
 
 
 def candidate_data():
@@ -36,7 +58,7 @@ def candidate_data():
             constituency = get_constitiuency(ons_id)
 
             party = get_party(row['party_name'])
-            image = row['image_url']
+            image_url = row['image_url']
 
             links = []
             if row['wikipedia_url']:
@@ -60,12 +82,15 @@ def candidate_data():
                     links.append(('Candidate page', 'http://' + row['party_ppc_page_url']))
             assert all(social_url.startswith('http') for _, social_url in links), links
 
+            democlub_id = int(row['id'])
+
             candidates[constituency].append(PPC(
                 party=party,
                 name=candidate_name,
                 link=candidate_link,
-                image=image if image else None,
                 social_links=links,
-                sitting_mp=is_sitting_mp(int(row['id']))))
+                sitting_mp=is_sitting_mp(democlub_id),
+                democlub_id=democlub_id,
+                democlub_image_url=image_url if image_url else None))
     assert len(candidates) > 600
     return candidates

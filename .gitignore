@@ -1,4 +1,5 @@
 *.pyc
 *.swp
 generated/constituency/
+generated/static/candidate_images/
 config.sh
