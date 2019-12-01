@@ -116,7 +116,7 @@ div#banner #banner-vote { color: #FFF95D; }
 div#banner #banner-com { font-size: 50%; color: #bbbbbb; }
 
 ul.checklist li {
-  list-style-type: '□';
+  list-style-type: '&#x25A1;';
   padding-left: 0.3em;
 }
 
