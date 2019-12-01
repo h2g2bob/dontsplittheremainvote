@@ -1,3 +1,10 @@
+div.content.dontsplit {
+  padding: 0.6em;
+}
+
+div.content.dontsplit h1.constituency-name {
+  text-align: center;
+}
 
 div.barchart {
   height: 1.5em;
