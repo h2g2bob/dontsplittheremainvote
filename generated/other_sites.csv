@@ -76,7 +76,7 @@ bracknell,E14000586,0.3766549774565233,lab,2,,,,,,,lab,2,any,0,lab,2,,
 bradford-east,E14000587,0.6538731313839814,lab,4,,,,,,,lab,4,lab,4,lab,4,lab,4
 bradford-south,E14000588,0.544812297498112,lab,5,lab,5,,,,,lab,5,lab,5,lab,5,lab,5
 bradford-west,E14000589,0.6467228958003866,lab,4,,,,,,,lab,4,lab,4,lab,4,lab,4
-braintree,E14000590,0.3191912242479838,ld,-3,,,,,,,lab,1,any,0,lab,1,lab,1
+braintree,E14000590,0.3191912242479838,ld,-4,,,lab,2,,,lab,2,any,0,lab,2,lab,2
 brecon-and-radnorshire,W07000068,0.5002419315817488,ld,4,,,,,,,ld,4,ld,4,ld,4,ld,4
 brent-central,E14000591,0.7787784916628422,lab,4,,,,,,,lab,4,lab,4,lab,4,lab,4
 brentford-and-isleworth,E14000593,0.6238459166950624,lab,4,,,,,,,lab,4,lab,4,lab,4,lab,4
@@ -214,7 +214,7 @@ elmet-and-rothwell,E14000689,0.42244130193812773,lab,5,,,,,lab,5,lab,5,lab,5,lab
 eltham,E14000690,0.5759939334849963,lab,4,,,,,,,lab,4,lab,4,lab,4,lab,4
 enfield-north,E14000691,0.601523731082055,lab,5,lab,5,,,,,lab,5,lab,5,lab,5,lab,5
 enfield-southgate,E14000692,0.556902830657176,lab,4,,,,,,,lab,4,lab,4,lab,4,lab,4
-epping-forest,E14000693,0.3414009728431044,lab,2,,,ld,-4,,,lab,2,any,0,lab,2,lab,2
+epping-forest,E14000693,0.3414009728431044,lab,4,,,lab,4,,,lab,4,any,0,lab,4,lab,4
 epsom-and-ewell,E14000694,0.40416090169743185,ld,2,ld,2,,,,,ld,2,ld,2,lab,-4,,
 erewash,E14000695,0.4549526927944397,lab,5,lab,5,,,,,lab,5,lab,5,lab,5,lab,5
 erith-and-thamesmead,E14000696,0.5754093198992443,lab,4,,,,,,,lab,4,lab,4,lab,4,lab,4
@@ -268,7 +268,7 @@ harrogate-and-knaresborough,E14000730,0.4353894959464223,ld,5,ld,5,,,,,ld,5,ld,5
 harrow-east,E14000731,0.4906087127544498,lab,5,lab,5,,,,,lab,5,lab,5,lab,5,lab,5
 harrow-west,E14000732,0.633641147850263,lab,5,lab,5,,,,,lab,5,lab,5,lab,5,lab,5
 hartlepool,E14000733,0.52513445679455,lab,4,,,,,,,lab,4,lab,4,lab,4,lab,4
-harwich-and-north-essex,E14000734,0.3792260612815549,lab,4,,,,,,,lab,4,lab,4,lab,4,lab,4
+harwich-and-north-essex,E14000734,0.3792260612815549,lab,5,,,lab,5,,,lab,5,lab,5,lab,5,lab,5
 hastings-and-rye,E14000735,0.496786327283351,lab,4,,,,,,,lab,4,lab,4,lab,4,lab,4
 havant,E14000736,0.3377596407133912,lab,2,,,,,,,lab,2,any,0,lab,2,,
 hayes-and-harlington,E14000737,0.6651604535375089,lab,4,,,,,,,lab,4,lab,4,lab,4,lab,4
@@ -350,7 +350,7 @@ macclesfield,E14000802,0.452059587161876,lab,5,,,,,lab,5,lab,5,lab,5,lab,5,lab,5
 maidenhead,E14000803,0.30565428664640526,ld,3,ld,3,,,,,ld,3,ld,3,any,0,,
 maidstone-and-the-weald,E14000804,0.3845544018407874,ld,1,,,,,,,ld,1,ld,1,lab,-3,,
 makerfield,E14000805,0.6299831674940873,lab,5,lab,5,,,,,lab,5,lab,5,lab,5,lab,5
-maldon,E14000806,0.2775785825265926,lab,-2,,,ld,0,,,ld,0,any,0,any,0,,
+maldon,E14000806,0.2775785825265926,lab,-1,,,,,,,ld,-1,any,0,any,0,,
 manchester-central,E14000807,0.8078841512469832,lab,4,,,,,,,lab,4,lab,4,lab,4,lab,4
 manchester-gorton,E14000808,0.8426000478750026,lab,4,,,,,,,lab,4,lab,4,lab,4,lab,4
 manchester-withington,E14000809,0.8763292414462147,lab,2,,,,,,,lab,2,lab,2,any,0,any,0
@@ -514,7 +514,7 @@ south-dorset,E14000936,0.43869687512041,lab,4,,,,,,,lab,4,lab,4,lab,4,lab,4
 south-down,N06000015,0.7864342836932388,,,,,,,,,,,sf,-1,any,0,sdlp,-1
 south-east-cambridgeshire,E14000937,0.4666677248341322,ld,3,ld,3,,,ld,3,ld,3,ld,3,lab,-5,,
 south-east-cornwall,E14000938,0.4458702840823689,lab,-2,,,,,ld,0,ld,0,ld,0,lab,-2,,
-southend-west,E14000957,0.3847343773177089,lab,3,,,,,,,lab,3,any,0,lab,3,lab,3
+southend-west,E14000957,0.3847343773177089,lab,4,,,lab,4,,,lab,4,any,0,lab,4,lab,4
 south-holland-and-the-deepings,E14000939,0.232833151147769,lab,1,,,,,,,lab,1,any,0,any,0,,
 south-leicestershire,E14000940,0.3275238582441038,lab,4,,,,,,,lab,4,lab,4,lab,4,lab,4
 south-norfolk,E14000941,0.4177807596013812,lab,2,,,,,,,lab,2,any,0,lab,2,,
@@ -629,7 +629,7 @@ winchester,E14001041,0.450293932395549,ld,5,ld,5,,,,,ld,5,ld,5,ld,5,ld,5
 windsor,E14001042,0.35613211921143895,ld,1,,,,,,,ld,1,any,0,any,0,,
 wirral-south,E14001043,0.6016816019471182,lab,4,,,,,,,lab,4,lab,4,lab,4,lab,4
 wirral-west,E14001044,0.5692930763805146,lab,4,,,,,,,lab,4,lab,4,lab,4,lab,4
-witham,E14001045,0.3568367823561667,lab,1,,,ld,-3,,,lab,1,any,0,lab,1,,
+witham,E14001045,0.3568367823561667,lab,2,,,,,,,lab,2,any,0,lab,2,,
 witney,E14001046,0.41122983242240707,ld,5,ld,5,,,,,ld,5,ld,5,ld,5,ld,5
 woking,E14001047,0.41432863917749696,ld,3,ld,3,,,ld,3,ld,3,ld,3,lab,-5,,
 wokingham,E14001048,0.43364047579158993,ld,3,ld,3,,,,,ld,3,ld,3,,,,
