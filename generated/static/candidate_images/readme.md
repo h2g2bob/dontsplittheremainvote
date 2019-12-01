@@ -11,3 +11,9 @@ for image in *.png; do
   convert "$image" -resize '400x400>' "$image" && optipng -o 3 "$image";
 done
 ```
+
+Or more likely:
+
+```
+find . -cmin '-3600' -type f | while read image; do convert "$image" -resize '400x400>' "$image" && optipng -o 3 "$image"; done
+```
