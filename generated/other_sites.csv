@@ -226,7 +226,7 @@ faversham-and-mid-kent,E14000700,0.3549217069689843,lab,2,,,,,,,lab,2,any,0,lab,
 feltham-and-heston,E14000701,0.6383351877345503,lab,4,,,,,,,lab,4,lab,4,lab,4,lab,4
 fermanagh-and-south-tyrone,N06000007,0.5201286438174305,,,,,,,,,,,sf,2,sf,2,sf,2
 filton-and-bradley-stoke,E14000702,0.5002366770541595,lab,4,,,,,,,lab,4,lab,4,lab,4,lab,4
-finchley-and-golders-green,E14000703,0.5040565047246349,ld,0,,,,,ld,0,ld,0,lab,-2,lab,-2,,
+finchley-and-golders-green,E14000703,0.5040565047246349,ld,3,,,,,ld,3,ld,3,ld,3,,,,
 folkestone-and-hythe,E14000704,0.3992526539278131,lab,2,,,,,,,lab,2,any,0,lab,2,,
 forest-of-dean,E14000705,0.422354009310951,lab,3,,,,,,,lab,3,any,0,lab,3,lab,3
 foyle,N06000008,0.7906668117045578,,,,,,,,,sdlp,1,any,0,any,0,sdlp,1
@@ -313,7 +313,7 @@ kingston-upon-hull-east,E14000771,0.6172007205633496,lab,5,lab,5,,,,,lab,5,lab,5
 kingston-upon-hull-north,E14000772,0.6883788588976887,lab,4,,,,,,,lab,4,lab,4,lab,4,lab,4
 kingston-upon-hull-west-and-hessle,E14000773,0.5945899030811516,lab,5,lab,5,,,,,lab,5,lab,5,lab,5,lab,5
 kingswood,E14000774,0.4510986643688066,lab,3,,,,,,,lab,3,any,0,lab,3,lab,3
-kirkcaldy-and-cowdenbeath,S14000041,0.7553308942913429,,,,,,,,,,,snp,-1,lab,-1,any,0
+kirkcaldy-and-cowdenbeath,S14000041,0.7553308942913429,,,,,,,,,,,lab,1,lab,1,any,0
 knowsley,E14000775,0.8748625705170954,lab,4,,,,,,,lab,4,lab,4,lab,4,lab,4
 lagan-valley,N06000009,0.22140853848550948,,,,,,,,,alliance,1,alliance,1,,,,
 lanark-and-hamilton-east,S14000042,0.6685555775708342,snp,3,,,,,,,,,snp,3,snp,3,snp,3

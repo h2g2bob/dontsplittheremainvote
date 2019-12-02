@@ -10,7 +10,7 @@ function download() {
     slug=$(echo "$line" | cut -d , -f 1 | tr -d '\r')
     pcode=$(echo "$line" | cut -d , -f 2 | tr -d '\r')
     outfile="data/remainunited/response/${slug}.html"
-    if [ -z "$( find "${outfile}" -cmin -60 -and -size +50k )" ]; then
+    if [ -z "$( find "${outfile}" -cmin -60 -and -size +50k )" ] || ! grep -F '</html>' "${outfile}" > /dev/null; then
       echo "$slug"
       curl 'https://www.remainunited.org/' \
         --data "form_type=postcode-search&hid_form=Postcode+Search+Form&action=search&f_search_text_postcode=${pcode}&submit=submit" \

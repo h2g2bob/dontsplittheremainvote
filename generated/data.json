@@ -14218,7 +14218,7 @@
           "important": false,
           "party": "snp",
           "they_say": "Vote SNP - competitive Conservative-SNP seat",
-          "url": "https://www.remainunited.org/#postcode=ML126HT",
+          "url": "https://www.remainunited.org/#postcode=DG126SP",
           "who_suggests": "Remain United"
         },
         {
@@ -17682,10 +17682,10 @@
     },
     "finchley-and-golders-green": {
       "aggregation": {
-        "disagreement": true,
+        "disagreement": false,
         "important": false,
-        "party": null,
-        "template": "contradict.html"
+        "party": "ld",
+        "template": "vote-ld.html"
       },
       "analysis": {
         "template": "alliance-mixed.html",
@@ -17710,8 +17710,8 @@
         },
         {
           "important": false,
-          "party": "lab",
-          "they_say": "Vote Labour - competitive Conservative-Labour seat",
+          "party": "ld",
+          "they_say": "Vote Lib Dem - competitive Conservative - Lib Dem seat",
           "url": "https://www.remainunited.org/#postcode=N101JW",
           "who_suggests": "Remain United"
         },
@@ -17721,13 +17721,6 @@
           "they_say": null,
           "url": "https://tacticalvote.getvoting.org/finchley-and-golders-green/",
           "who_suggests": "Best for Britain"
-        },
-        {
-          "important": false,
-          "party": "lab",
-          "they_say": null,
-          "url": "https://tactical.vote/finchley-and-golders-green",
-          "who_suggests": "tactical.vote"
         },
         {
           "important": false,
@@ -24434,10 +24427,10 @@
     },
     "kirkcaldy-and-cowdenbeath": {
       "aggregation": {
-        "disagreement": true,
+        "disagreement": false,
         "important": false,
-        "party": null,
-        "template": "contradict.html"
+        "party": "lab",
+        "template": "vote-lab.html"
       },
       "analysis": {
         "template": "remain.html",
@@ -24462,8 +24455,8 @@
         },
         {
           "important": false,
-          "party": "snp",
-          "they_say": "Vote SNP - competitive SNP-Labour seat, but SNP more likely to win",
+          "party": "lab",
+          "they_say": "Vote Labour - Safe Labour seat",
           "url": "https://www.remainunited.org/#postcode=KY39UZ",
           "who_suggests": "Remain United"
         },
