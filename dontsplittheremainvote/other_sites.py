@@ -376,35 +376,6 @@ def _peoples_vote():
             yield constituency, suggest
 
 
-def _essex_against_tories():
-    results = [
-        ('basildon-and-billericay', LAB),
-        ('braintree', LAB),
-        ('brentwood-and-ongar', LD),
-        ('castle-point', LAB),
-        ('chelmsford', LD),
-        ('clacton', LAB),
-        ('colchester', LD),
-        ('epping-forest', LAB),
-        ('harlow', LAB),
-        ('harwich-and-north-essex', LAB),
-        ('maldon', None),
-        ('rayleigh-and-wickford', None),
-        ('rochford-and-southend-east', LAB),
-        ('saffron-walden', LD),
-        ('south-basildon-and-east-thurrock', LAB),
-        ('southend-west', LAB),
-        ('thurrock', LAB),
-        ('witham', None)]
-    for slug, party in results:
-        if party is not None:
-            yield [
-                get_constitiuency_from_slug(slug),
-                OtherSiteSuggestion(
-                    who_suggests='Essex Against The Tories',
-                    party=party,
-                    url='https://twitter.com/ProgEssex/status/1196018140372594689')]
-
 def _jonworth():
     results = [
         # (i) Unusual Seats
@@ -481,8 +452,6 @@ def get_other_site_suggestions() -> Dict[Constituency, List[OtherSiteSuggestion]
 
     # smaller sites:
     for constituency, suggest in _jonworth():
-        out[constituency].append(suggest)
-    for constituency, suggest in _essex_against_tories():
         out[constituency].append(suggest)
 
     return dict(out)

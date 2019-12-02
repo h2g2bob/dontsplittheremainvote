@@ -2004,13 +2004,6 @@
           "they_say": null,
           "url": "https://tactical.vote/basildon-and-billericay",
           "who_suggests": "tactical.vote"
-        },
-        {
-          "important": false,
-          "party": "lab",
-          "they_say": null,
-          "url": "https://twitter.com/ProgEssex/status/1196018140372594689",
-          "who_suggests": "Essex Against The Tories"
         }
       ],
       "outcome_frequency": [
@@ -5987,13 +5980,6 @@
           "they_say": null,
           "url": "https://tactical.vote/braintree",
           "who_suggests": "tactical.vote"
-        },
-        {
-          "important": false,
-          "party": "lab",
-          "they_say": null,
-          "url": "https://twitter.com/ProgEssex/status/1196018140372594689",
-          "who_suggests": "Essex Against The Tories"
         }
       ],
       "outcome_frequency": [
@@ -6404,13 +6390,6 @@
           "they_say": null,
           "url": "https://tactical.vote/brentwood-and-ongar",
           "who_suggests": "tactical.vote"
-        },
-        {
-          "important": false,
-          "party": "ld",
-          "they_say": null,
-          "url": "https://twitter.com/ProgEssex/status/1196018140372594689",
-          "who_suggests": "Essex Against The Tories"
         }
       ],
       "outcome_frequency": [
@@ -9423,13 +9402,6 @@
           "they_say": null,
           "url": "https://tactical.vote/castle-point",
           "who_suggests": "tactical.vote"
-        },
-        {
-          "important": false,
-          "party": "lab",
-          "they_say": null,
-          "url": "https://twitter.com/ProgEssex/status/1196018140372594689",
-          "who_suggests": "Essex Against The Tories"
         }
       ],
       "outcome_frequency": [
@@ -10021,13 +9993,6 @@
           "they_say": null,
           "url": "https://tactical.vote/chelmsford",
           "who_suggests": "tactical.vote"
-        },
-        {
-          "important": false,
-          "party": "ld",
-          "they_say": null,
-          "url": "https://twitter.com/ProgEssex/status/1196018140372594689",
-          "who_suggests": "Essex Against The Tories"
         }
       ],
       "outcome_frequency": [
@@ -11152,13 +11117,6 @@
           "they_say": null,
           "url": "https://tactical.vote/clacton",
           "who_suggests": "tactical.vote"
-        },
-        {
-          "important": false,
-          "party": "lab",
-          "they_say": null,
-          "url": "https://twitter.com/ProgEssex/status/1196018140372594689",
-          "who_suggests": "Essex Against The Tories"
         }
       ],
       "outcome_frequency": [
@@ -11476,8 +11434,8 @@
       "aggregation": {
         "disagreement": true,
         "important": false,
-        "party": null,
-        "template": "contradict.html"
+        "party": "lab",
+        "template": "vote-lab.html"
       },
       "analysis": {
         "template": "alliance-mixed.html",
@@ -11520,13 +11478,6 @@
           "they_say": null,
           "url": "https://tactical.vote/colchester",
           "who_suggests": "tactical.vote"
-        },
-        {
-          "important": false,
-          "party": "ld",
-          "they_say": null,
-          "url": "https://twitter.com/ProgEssex/status/1196018140372594689",
-          "who_suggests": "Essex Against The Tories"
         }
       ],
       "outcome_frequency": [
@@ -16799,13 +16750,6 @@
           "they_say": null,
           "url": "https://tactical.vote/epping-forest",
           "who_suggests": "tactical.vote"
-        },
-        {
-          "important": false,
-          "party": "lab",
-          "they_say": null,
-          "url": "https://twitter.com/ProgEssex/status/1196018140372594689",
-          "who_suggests": "Essex Against The Tories"
         }
       ],
       "outcome_frequency": [
@@ -20495,13 +20439,6 @@
           "they_say": null,
           "url": "https://tactical.vote/harlow",
           "who_suggests": "tactical.vote"
-        },
-        {
-          "important": false,
-          "party": "lab",
-          "they_say": null,
-          "url": "https://twitter.com/ProgEssex/status/1196018140372594689",
-          "who_suggests": "Essex Against The Tories"
         }
       ],
       "outcome_frequency": [
@@ -20903,13 +20840,6 @@
           "they_say": null,
           "url": "https://tactical.vote/harwich-and-north-essex",
           "who_suggests": "tactical.vote"
-        },
-        {
-          "important": false,
-          "party": "lab",
-          "they_say": null,
-          "url": "https://twitter.com/ProgEssex/status/1196018140372594689",
-          "who_suggests": "Essex Against The Tories"
         }
       ],
       "outcome_frequency": [
@@ -36413,13 +36343,6 @@
           "they_say": null,
           "url": "https://tactical.vote/rochford-and-southend-east",
           "who_suggests": "tactical.vote"
-        },
-        {
-          "important": false,
-          "party": "lab",
-          "they_say": null,
-          "url": "https://twitter.com/ProgEssex/status/1196018140372594689",
-          "who_suggests": "Essex Against The Tories"
         }
       ],
       "outcome_frequency": [
@@ -37447,13 +37370,6 @@
           "they_say": null,
           "url": "https://tactical.vote/saffron-walden",
           "who_suggests": "tactical.vote"
-        },
-        {
-          "important": false,
-          "party": "ld",
-          "they_say": null,
-          "url": "https://twitter.com/ProgEssex/status/1196018140372594689",
-          "who_suggests": "Essex Against The Tories"
         }
       ],
       "outcome_frequency": [
@@ -39315,13 +39231,6 @@
           "they_say": null,
           "url": "https://tactical.vote/south-basildon-and-east-thurrock",
           "who_suggests": "tactical.vote"
-        },
-        {
-          "important": false,
-          "party": "lab",
-          "they_say": null,
-          "url": "https://twitter.com/ProgEssex/status/1196018140372594689",
-          "who_suggests": "Essex Against The Tories"
         }
       ],
       "outcome_frequency": [
@@ -41303,13 +41212,6 @@
           "they_say": null,
           "url": "https://tactical.vote/southend-west",
           "who_suggests": "tactical.vote"
-        },
-        {
-          "important": false,
-          "party": "lab",
-          "they_say": null,
-          "url": "https://twitter.com/ProgEssex/status/1196018140372594689",
-          "who_suggests": "Essex Against The Tories"
         }
       ],
       "outcome_frequency": [
@@ -44606,13 +44508,6 @@
           "they_say": null,
           "url": "https://tactical.vote/thurrock",
           "who_suggests": "tactical.vote"
-        },
-        {
-          "important": false,
-          "party": "lab",
-          "they_say": null,
-          "url": "https://twitter.com/ProgEssex/status/1196018140372594689",
-          "who_suggests": "Essex Against The Tories"
         }
       ],
       "outcome_frequency": [
