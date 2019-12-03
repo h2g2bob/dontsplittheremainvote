@@ -12,6 +12,7 @@ class Dataset:
     datafunc: Callable[[], Dict[Constituency, Result]]
     _data: Dict[Constituency, Result] = None
     election_result: bool = False
+    europarl: bool = False
 
     @property
     def results_by_constituency(self) -> Dict[Constituency, Result]:

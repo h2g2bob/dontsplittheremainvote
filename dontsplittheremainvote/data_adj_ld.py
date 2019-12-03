@@ -71,5 +71,6 @@ def _get_data_2019():
 DATA_2019 = Dataset(
     code='eu2019_ld',
     title='2019 European Parliament election results, adjusted for Lib Dem-leaning opinion polls',
+    europarl=True,
     longdesc=DOC_2019,
     datafunc=_get_data_2019)
