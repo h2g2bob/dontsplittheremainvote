@@ -49,7 +49,7 @@ class _RemainVictory(ClassifyResult):
     def __new__(self, shortname, longname):
         return super().__new__(self,
             logo=f'remain-victory-{shortname}',
-            name=f'Remain win: {longname}',
+            name=f'Remain victory - {longname} won',
             remain_allicance_leader=shortname,
             remain_can_win=True,
             alliance_helpful=False)
@@ -59,7 +59,7 @@ class _LeaveVictory(ClassifyResult):
     def __new__(self, shortname, longname):
         return super().__new__(self,
             logo=f'leave-victory-{shortname}',
-            name=f'Leave win: {longname}',
+            name=f'Leave victory - {longname} won',
             remain_allicance_leader=None,
             remain_can_win=False,
             alliance_helpful=False)
@@ -82,7 +82,7 @@ class _NeedAlliance(ClassifyResult):
             small_parties_text = '{} and {}'.format(
                 ', '.join(pty.name for pty in other_remain_parties[:-1]),
                 other_remain_parties[-1].name)
-        return 'Remain wins if {} vote for {}'.format(
+        return 'Remain had a majority, and could have won if {} had voted for {}'.format(
             small_parties_text,
             big_remain.name)
 
