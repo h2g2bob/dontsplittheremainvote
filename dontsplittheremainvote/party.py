@@ -1,3 +1,4 @@
+from typing import Optional
 from typing import NamedTuple
 
 class Party(NamedTuple):
@@ -5,22 +6,23 @@ class Party(NamedTuple):
     remain: bool = False
     color: str = '#000000'
     short: str = 'other'
+    swap_name: Optional[str] = None
 
     @property
     def name(self):
         return self.code
 
 OTHERS = Party('Others', remain=False, color='#CCCCCC')
-LAB = Party('Labour', remain=True, color='#DC241F', short='lab')
-LD = Party('Liberal Democrat', remain=True, color='#FAA61A', short='ld')
-SNP = Party('Scottish National Party', remain=True, color='#FFF95D', short='snp')
+LAB = Party('Labour', remain=True, color='#DC241F', short='lab', swap_name='labour')
+LD = Party('Liberal Democrat', remain=True, color='#FAA61A', short='ld', swap_name='liberal_democrats')
+SNP = Party('Scottish National Party', remain=True, color='#FFF95D', short='snp', swap_name='snp')
 CON = Party('Conservative', remain=False, color='#0087DC')
 CHANGEUK = Party('Change UK', remain=False, color='#222222', short='chuk')
-PLAID = Party('Plaid Cymru', remain=True, color='#3F8428', short='plaid')
+PLAID = Party('Plaid Cymru', remain=True, color='#3F8428', short='plaid', swap_name='plaid_cymru')
 DUP = Party('DUP', remain=False, color='#D46A4C')
 ALLIANCE = Party('Alliance', remain=True, color='#F6CB2F', short='alliance')
 SF = Party('Sinn Fein', remain=True, color='#008800', short='sf')
-GREEN = Party('Green', remain=True, color='#6AB023', short='green')
+GREEN = Party('Green', remain=True, color='#6AB023', short='green', swap_name='green_party')
 UKIP = Party('UKIP / Brexit', remain=False, color='#70147A')
 UUP = Party('UUP', remain=False, color='#9999FF')
 NHAP = Party('National Health Action Party', remain=True, color='#0071BB')

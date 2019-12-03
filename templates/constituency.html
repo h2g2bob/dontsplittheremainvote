@@ -126,7 +126,7 @@ Use your local knowledge: keep an eye on local newspapers, <a href="https://elec
 {% endfor %}
 <div class="widebutton"><a href="https://www.talkaboutbrex.co.uk/help/">Have constructive conversations about brexit</a></div>
 {% if aggregation.party %}
-  {# <div class="widebutton"><a href="https://www.swapmyvote.uk/">Don't like {{aggregation.party.name}}? Vote swap!</a></div> #}
+  <div class="widebutton"><a href="https://www.swapmyvote.uk/swap?constituency_ons_id={{constituency.ons_id}}&amp;willing_party_name={{aggregation.party.swap_name}}">Don't like {{aggregation.party.name}}? Vote swap!</a></div>
 {% endif %}
 
 <h2>Election results</h2>
