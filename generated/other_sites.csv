@@ -91,7 +91,7 @@ bristol-east,E14000599,0.6564302446898561,lab,4,,,,,lab,4,lab,4,lab,4,lab,4
 bristol-north-west,E14000600,0.5815032534753033,lab,4,,,,,lab,4,lab,4,lab,4,lab,4
 bristol-south,E14000601,0.6604207274465816,lab,4,,,,,lab,4,lab,4,lab,4,lab,4
 bristol-west,E14000602,0.8606580270360854,lab,2,,,,,lab,2,lab,2,any,0,any,0
-broadland,E14000603,0.3758910864554859,lab,2,,,,,lab,2,any,0,lab,2,,
+broadland,E14000603,0.3758910864554859,lab,3,,,,,lab,3,any,0,lab,3,lab,3
 bromley-and-chislehurst,E14000604,0.43084308430843077,lab,4,,,,,lab,4,lab,4,lab,4,lab,4
 bromsgrove,E14000605,0.3802183567727609,lab,2,,,,,lab,2,any,0,lab,2,,
 broxbourne,E14000606,0.3201853216805306,lab,3,,,,,lab,3,any,0,lab,3,lab,3
@@ -145,7 +145,7 @@ cleethorpes,E14000643,0.3768706629880445,lab,3,,,,,lab,3,any,0,lab,3,lab,3
 clwyd-south,W07000062,0.5682606607247692,lab,5,lab,5,,,lab,5,lab,5,lab,5,lab,5
 clwyd-west,W07000059,0.5193338908840458,lab,4,,,,,lab,4,lab,4,lab,4,lab,4
 coatbridge-chryston-and-bellshill,S14000011,0.8375222024866785,,,,,,,,,snp,0,any,0,any,0
-colchester,E14000644,0.5224577458212718,lab,0,,,ld,-2,ld,-2,lab,0,lab,0,,
+colchester,E14000644,0.5224577458212718,lab,2,,,ld,-4,lab,2,lab,2,lab,2,,
 colne-valley,E14000645,0.5182389937106918,lab,4,,,,,lab,4,lab,4,lab,4,lab,4
 congleton,E14000646,0.3932528320677206,lab,3,,,,,lab,3,any,0,lab,3,lab,3
 copeland,E14000647,0.4838679618887879,lab,3,,,,,lab,3,any,0,lab,3,lab,3
@@ -202,7 +202,7 @@ east-renfrewshire,S14000021,0.5999851129554504,snp,4,snp,4,,,,,snp,4,snp,4,snp,4
 east-surrey,E14000681,0.2971639950678175,ld,1,,,,,ld,1,any,0,any,0,,
 east-worthing-and-shoreham,E14000682,0.4645970216691455,lab,4,,,,,lab,4,lab,4,lab,4,lab,4
 east-yorkshire,E14000683,0.3441693231521981,lab,2,,,,,lab,2,any,0,lab,2,,
-eddisbury,E14000686,0.3907714491708724,lab,-1,,,ld,-1,ld,-1,any,0,lab,-1,,
+eddisbury,E14000686,0.3907714491708724,ld,1,,,ld,1,ld,1,any,0,lab,-3,,
 edinburgh-east,S14000022,0.8143280564299336,,,,,,,,,snp,1,snp,1,any,0
 edinburgh-north-and-leith,S14000023,0.7279494978073277,,,snp,2,,,,,snp,2,snp,2,any,0
 edinburgh-south,S14000024,0.8029264214046823,lab,2,,,,,,,lab,2,lab,2,any,0
@@ -337,7 +337,7 @@ lincoln,E14000792,0.5052957838991748,lab,4,,,,,lab,4,lab,4,lab,4,lab,4
 linlithgow-and-east-falkirk,S14000043,0.7092202374585517,,,,,,,,,snp,1,snp,1,any,0
 liverpool-riverside,E14000793,0.9031236984589754,lab,4,,,,,lab,4,lab,4,lab,4,lab,4
 liverpool-walton,E14000794,0.8572884328269782,lab,4,,,,,lab,4,lab,4,lab,4,lab,4
-liverpool-wavertree,E14000795,0.8610219981668195,lab,3,,,,,lab,3,lab,3,lab,3,,
+liverpool-wavertree,E14000795,0.8610219981668195,lab,4,,,,,lab,4,lab,4,lab,4,lab,4
 liverpool-west-derby,E14000796,0.8274693886588579,lab,4,,,,,lab,4,lab,4,lab,4,lab,4
 livingston,S14000044,0.7562327397390726,,,,,,,,,snp,1,snp,1,any,0
 llanelli,W07000045,0.7168459669823014,lab,4,,,,,lab,4,lab,4,lab,4,lab,4
@@ -528,7 +528,7 @@ south-swindon,E14000947,0.4763706578767725,lab,4,,,,,lab,4,lab,4,lab,4,lab,4
 south-thanet,E14000948,0.4098044339034832,lab,3,,,,,lab,3,any,0,lab,3,lab,3
 south-west-bedfordshire,E14000949,0.3850633593960636,lab,3,,,,,lab,3,any,0,lab,3,lab,3
 south-west-devon,E14000950,0.37238208751915547,lab,2,,,,,lab,2,any,0,lab,2,,
-south-west-hertfordshire,E14000951,0.3995185728653158,ind,2,,,ind,2,ind,2,any,0,,,,
+south-west-hertfordshire,E14000951,0.3995185728653158,ind,3,,,ind,3,ind,3,ind,3,,,,
 south-west-norfolk,E14000952,0.3233173076923076,lab,3,,,,,lab,3,any,0,lab,3,lab,3
 south-west-surrey,E14000953,0.4247087635689701,ld,3,,,,,ld,3,ld,3,,,ld,3
 south-west-wiltshire,E14000954,0.38939928037844057,lab,2,,,,,lab,2,any,0,lab,2,,
@@ -581,7 +581,7 @@ torfaen,W07000053,0.6517213562674022,lab,5,lab,5,,,lab,5,lab,5,lab,5,lab,5
 torridge-and-west-devon,E14001000,0.4215534633490249,ld,1,,,ld,1,ld,1,any,0,lab,-3,,
 totnes,E14001001,0.4387905311318878,ld,2,,,,,ld,2,ld,2,,,,
 tottenham,E14001002,0.8758183181661565,lab,4,,,,,lab,4,lab,4,lab,4,lab,4
-truro-and-falmouth,E14001003,0.5259943156742634,lab,3,,,,,lab,3,lab,3,lab,3,,
+truro-and-falmouth,E14001003,0.5259943156742634,lab,4,,,,,lab,4,lab,4,lab,4,lab,4
 tunbridge-wells,E14001004,0.3908391595491524,ld,-1,,,,,ld,-1,lab,-1,lab,-1,,
 twickenham,E14001005,0.6197465681098204,ld,5,ld,5,,,ld,5,ld,5,ld,5,ld,5
 tynemouth,E14001006,0.6000738682331422,lab,4,,,,,lab,4,lab,4,lab,4,lab,4

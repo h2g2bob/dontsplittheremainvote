@@ -288,7 +288,7 @@ def _remainunited():
                 continue
 
             try:
-                [answer1, answer2] = re.compile(r'<p class="question">Recommendation</p>\s*<p class="answer">(.*?)</p>').findall(page)
+                [answer1, answer2] = re.compile(r'<p class="question(?: word-wrap)?">Recommendation</p>\s*<p class="answer(?: word-wrap)?">(.*?)</p>').findall(page)
             except ValueError:
                 raise ValueError('Bad file {}'.format(constituency.slug))
 

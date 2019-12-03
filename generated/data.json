@@ -7280,6 +7280,13 @@
         {
           "important": false,
           "party": "lab",
+          "they_say": "Current Tory seat. Labour came second last election.",
+          "url": "https://tacticalvote.co.uk/#Broadland",
+          "who_suggests": "tacticalvote.co.uk"
+        },
+        {
+          "important": false,
+          "party": "lab",
           "they_say": null,
           "url": "https://tactical-vote.uk/broadland",
           "who_suggests": "People's Vote"
@@ -11567,8 +11574,8 @@
       "aggregation": {
         "disagreement": true,
         "important": false,
-        "party": null,
-        "template": "contradict.html"
+        "party": "lab",
+        "template": "vote-lab.html"
       },
       "analysis": {
         "template": "alliance-mixed.html",
@@ -11593,7 +11600,7 @@
         },
         {
           "important": false,
-          "party": "ld",
+          "party": "lab",
           "they_say": null,
           "url": "https://tactical-vote.uk/colchester",
           "who_suggests": "People's Vote"
@@ -15981,8 +15988,8 @@
       "aggregation": {
         "disagreement": true,
         "important": false,
-        "party": null,
-        "template": "contradict.html"
+        "party": "ld",
+        "template": "vote-ld.html"
       },
       "analysis": {
         "template": "special-independent-remain.html",
@@ -16021,7 +16028,7 @@
         },
         {
           "important": false,
-          "party": "lab",
+          "party": "ld",
           "they_say": null,
           "url": "https://tacticalvote.getvoting.org/eddisbury/",
           "who_suggests": "Best for Britain"
@@ -17236,7 +17243,7 @@
         {
           "important": false,
           "party": "ld",
-          "they_say": "",
+          "they_say": "Current Tory Seat. Recent polling and strong local sentiment suggests Lib Dems best placed to defeat Tory candidate, Home Secretary Dominic Raab.",
           "url": "https://tacticalvote.co.uk/#EsherandWalton",
           "who_suggests": "tacticalvote.co.uk"
         },
@@ -26417,6 +26424,13 @@
         {
           "important": false,
           "party": "lab",
+          "they_say": "Current Labour seat, Tories came distant second last election. Safe seat where tactical voting is not as important.",
+          "url": "https://tacticalvote.co.uk/#Liverpool,Wavertree",
+          "who_suggests": "tacticalvote.co.uk"
+        },
+        {
+          "important": false,
+          "party": "lab",
           "they_say": null,
           "url": "https://tactical-vote.uk/liverpool-wavertree",
           "who_suggests": "People's Vote"
@@ -31758,7 +31772,7 @@
         {
           "important": false,
           "party": "lab",
-          "they_say": "Current Tory seat. Labour second last election.",
+          "they_say": "Current Tory seat. Labour second last election. Jacob Rees-Mogg's seat.",
           "url": "https://tacticalvote.co.uk/#NorthEastSomerset",
           "who_suggests": "tacticalvote.co.uk"
         },
@@ -35668,7 +35682,7 @@
         {
           "important": true,
           "party": "lab",
-          "they_say": "",
+          "they_say": "Former Tory seat, MP became Independent but is not standing again. Labour very close second last election.",
           "url": "https://tacticalvote.co.uk/#Putney",
           "who_suggests": "tacticalvote.co.uk"
         },
@@ -41145,8 +41159,8 @@
         },
         {
           "important": false,
-          "party": "any",
-          "they_say": "No recommendation - seat hard to predict due to prominent Independent candidate",
+          "party": "ind",
+          "they_say": "Vote Independent - Prominent Independent candidate best placed to beat the Conservatives",
           "url": "https://www.remainunited.org/#postcode=HA62BB",
           "who_suggests": "Remain United"
         },
@@ -45661,7 +45675,7 @@
     "truro-and-falmouth": {
       "aggregation": {
         "disagreement": false,
-        "important": false,
+        "important": true,
         "party": "lab",
         "template": "vote-lab.html"
       },
@@ -45679,6 +45693,13 @@
         "slug": "truro-and-falmouth"
       },
       "other_sites": [
+        {
+          "important": true,
+          "party": "lab",
+          "they_say": "Current Tory Seat. Labour came close second last election and recent polling suggests Tory vote and cumulative progressive vote are neck-and-neck.",
+          "url": "https://tacticalvote.co.uk/#TruroandFalmouth",
+          "who_suggests": "tacticalvote.co.uk"
+        },
         {
           "important": false,
           "party": "lab",
