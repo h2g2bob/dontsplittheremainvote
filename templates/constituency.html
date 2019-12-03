@@ -15,14 +15,18 @@
 {% for other_site in other_sites %}
 <div class="othersite">
   <img class="tick" src="{{static}}/logo/tick/{{ other_site.party.short }}.png" alt="{{ other_site.party.name }} tick" />
-  <em>{{ other_site.who_suggests }}</em> <a href="{{ other_site.url }}">recommends</a> voting for <strong class="party party-{{ other_site.party.code }}">{{ other_site.party.name }}</strong>.
+  <span class="beside-tick">
+    <em>{{ other_site.who_suggests }}</em> <a href="{{ other_site.url }}">recommends</a> voting for <strong class="party party-{{ other_site.party.code }}">{{ other_site.party.name }}</strong>.
+  </span>
 </div>
 {% endfor %}
 
 {% if aggregation.provisional %}
 <div class="othersite">
   <img class="tick" src="{{static}}/logo/tick/clock.png" alt="Clock" />
-  <strong>Recommendations can change</strong>. Please check the site occasionally as the election campaign progresses.
+  <span class="beside-tick">
+    <strong>Recommendations can change</strong>. Please check the site occasionally as the election campaign progresses.
+  </span>
 </div>
 {% endif %}
 

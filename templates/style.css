@@ -184,6 +184,12 @@ div.othersite img.tick {
   width: 5em;
 }
 
+div.othersite span.beside-tick {
+  display: inline-block;
+  max-width: calc(100% - 7em);
+  vertical-align: middle;
+}
+
 div.widebutton {
   font-size: 140%;
   margin: 0.3em;
