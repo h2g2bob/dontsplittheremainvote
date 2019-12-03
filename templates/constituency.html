@@ -101,6 +101,34 @@ Use your local knowledge: keep an eye on local newspapers, <a href="https://elec
   </div>
 </div>
 
+<h2>Take action</h2>
+
+{% if aggregation.important %}
+  <p>This is a <strong>marginal constituency</strong> on tacticalvote.co.uk's <a href="https://tacticalvote.co.uk/key-seats/">Key Seats</a>.</p>
+  {% if aggregation.party.short == 'lab' %}
+    <div class="widebutton"><a href="https://volunteer.labour.org.uk/">Campaign with Labour in this constituency</a></div>
+  {% elif aggregation.party.short == 'ld' %}
+    <div class="widebutton"><a href="https://www.libdems.org.uk/volunteer">Help the Liberal Democrats in this constituency</a></div>
+  {% elif aggregation.party.short == 'snp' %}
+    <div class="widebutton"><a href="https://www.snp.org/volunteer/">Help the Scottish National Party in this constituency</a></div>
+  {% else %}
+    <div class="widebutton">Volunteer with {{aggregation.party.name}} in this constituency</div>
+  {% endif %}
+{% else %}
+  <p>The most effective action you can take right now is to <strong>campaign in a marginal constituency</strong>.</p>
+{% endif %}
+{% for cp in nearby_constituency_pages %}
+  {% if cp.aggregation.important %}
+    {% if not aggregation.important or aggregation.party != cp.aggregation.party %}{# hide any nearby constituencies which are the same party as "campaign HERE" #}
+      <div class="widebutton"><a href="/constituency/{{cp.constituency.slug}}.html">Campaign in {{cp.constituency.name}} ({{cp.aggregation.party.name}})</a></div>
+    {% endif %}
+  {% endif %}
+{% endfor %}
+<div class="widebutton"><a href="https://www.talkaboutbrex.co.uk/help/">Have constructive conversations about brexit</a></div>
+{% if aggregation.party %}
+  {# <div class="widebutton"><a href="https://www.swapmyvote.uk/">Don't like {{aggregation.party.name}}? Vote swap!</a></div> #}
+{% endif %}
+
 <h2>Election results</h2>
 
 <div class="section scenarios">
@@ -136,34 +164,6 @@ Use your local knowledge: keep an eye on local newspapers, <a href="https://elec
 </div>
 
 </details>{# end hidden section #}
-
-<h2>Take action</h2>
-
-{% if aggregation.important %}
-  <p>This is a <strong>marginal constituency</strong> on tacticalvote.co.uk's <a href="https://tacticalvote.co.uk/key-seats/">Key Seats</a>.</p>
-  {% if aggregation.party.short == 'lab' %}
-    <div class="widebutton"><a href="https://volunteer.labour.org.uk/">Campaign with Labour in this constituency</a></div>
-  {% elif aggregation.party.short == 'ld' %}
-    <div class="widebutton"><a href="https://www.libdems.org.uk/volunteer">Help the Liberal Democrats in this constituency</a></div>
-  {% elif aggregation.party.short == 'snp' %}
-    <div class="widebutton"><a href="https://www.snp.org/volunteer/">Help the Scottish National Party in this constituency</a></div>
-  {% else %}
-    <div class="widebutton">Volunteer with {{aggregation.party.name}} in this constituency</div>
-  {% endif %}
-{% else %}
-  <p>The most effective action you can take right now is to <strong>campaign in a marginal constituency</strong>.</p>
-{% endif %}
-{% for cp in nearby_constituency_pages %}
-  {% if cp.aggregation.important %}
-    {% if not aggregation.important or aggregation.party != cp.aggregation.party %}{# hide any nearby constituencies which are the same party as "campaign HERE" #}
-      <div class="widebutton"><a href="/constituency/{{cp.constituency.slug}}.html">Campaign in {{cp.constituency.name}} ({{cp.aggregation.party.name}})</a></div>
-    {% endif %}
-  {% endif %}
-{% endfor %}
-<div class="widebutton"><a href="https://www.talkaboutbrex.co.uk/help/">Have constructive conversations about brexit</a></div>
-{% if aggregation.party %}
-  {# <div class="widebutton"><a href="https://www.swapmyvote.uk/">Don't like {{aggregation.party.name}}? Vote swap!</a></div> #}
-{% endif %}
 
 <h2>Nearby</h2>
 
