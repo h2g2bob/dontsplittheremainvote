@@ -62,7 +62,7 @@ def _load_constitency_data():
     _CONSTITUENCIES.update(constituencies)
 
 def _normalize_consituency_name(name):
-    return re.compile('[^a-z]+').sub('', name.lower().replace('&', 'and'))
+    return re.compile('[^a-z]+').sub('', ''.join(sorted(name.lower().replace('&', 'and').replace('ô', 'o').split())))
 
 def get_constitiuency_from_name(name):
     for con in all_constituencies():
