@@ -1,3 +1,4 @@
+import glob
 import json
 import re
 from collections import defaultdict
@@ -377,58 +378,75 @@ def _peoples_vote():
 
 
 def _jonworth():
-    results = [
-        # (i) Unusual Seats
-        ('ashfield', LAB),
-        ('finchley-and-golders-green', LD),
-        ('leicester-east', LAB),
+    pages = {
+        'lab-keep': LAB,
+        'lab-unseat': LAB,
+        'ld-keep': LD,
+        'ld-nosplit': LD,
+        'ld-unseat': LD,
+        'snp-keep': SNP,
+        'snp-unseat': SNP,
+        'unique': None,
+    }
 
-        # (ii) Seats with prominent independents and/or incumbents running
-        ('beaconsfield', DOMINICGRIEVE),
-        ('east-devon', CLAIREWRIGHT),
-        ('eddisbury', LD),
-        ('south-west-hertfordshire', DAVIDGAUKE),
+    special_places = {
+        'maidenhead': None,
+        'ashfield': LAB,
+        'north-east-somerset': LD,
+        'beaconsfield': DOMINICGRIEVE,
+        'south-west-hertfordshire': DAVIDGAUKE,
+        'blackley-and-broughton': LAB,
+        'southport': LD,
+        'broxtowe': LAB,
+        'watford': LD,
+        'bury-st-edmunds': LAB,
+        'ynys-mon': PLAID,
+        'chorley': None,
+        'york-outer': LD,
+        'colchester': LD,
+        'don-valley': LAB,
+        'east-devon': CLAIREWRIGHT,
+        'east-lothian': LAB,
+        'eddisbury': LD,
+        'finchley-and-golders-green': LD,
+        'harborough': LD,
+        'isle-of-wight': GREEN,
+        'kensington': LD,
+        'luton-south': LAB,
+    }
 
-        # (iii) Three way marginals with Conservative incumbents, Labour 2nd in 2017
-        ('altrincham-and-sale-west', LD),
-        ('chelsea-and-fulham', LD),
-        ('cities-of-london-and-westminster', LD),
-        ('esher-and-walton', LD),
-        ('henley', LD),
-        ('hitchin-and-harpenden', LD),
-        ('newton-abbot', LD),
-        ('north-east-somerset', LD),
-        ('south-east-cambridgeshire', LD),
-        ('south-east-cornwall', LD),
-        ('southport', LD),
-        ('st-austell-and-newquay', LD),
-        ('woking', LD),
+    regexp = re.compile(r'<span class="cat-links"><a href="[^"]+" rel="category tag" style="[^"]+">(?P<category>[^<>]+)</a></span>\s+</div>\s+<h3 class="entry-title"><a href="(?P<url>https://tacticalvoting.jonworth.eu/[^"]+/)" rel="bookmark">(?P<constituency>[^<>]+)</a></h3>')
 
-        ('wimbledon', LD),
-        ('wantage', LD),
-
-        # ('ashfield', LAB) again
-        ('elmet-and-rothwell', LAB),
-        ('macclesfield', LAB),
-
-        ('rushcliffe', LAB),
-
-        # (iv) Other three way marginals
-        ('bury-st-edmunds', LAB),
-    ]
-    for slug, party in results:
-        if party is not None:
-            yield [
-                get_constitiuency_from_slug(slug),
-                OtherSiteSuggestion(
-                    who_suggests='Jon Worth',
-                    party=party,
-                    url='https://jonworth.eu/2019-uk-general-election-tactical-voting-guide/')]
+    for page_prefix, page_party in pages.items():
+        for page_name in glob.glob('data/jonworth/response/{}.*.html'.format(page_prefix)):
+            with open(page_name) as f:
+                page = f.read()
+                matches = list(regexp.finditer(page))
+                if len(matches) == 0:
+                    raise ValueError(page_name)
+                for match in matches:
+                    constituency = get_constitiuency_from_name(match.group('constituency'))
+                    if page_party is None:
+                        party = special_places[constituency.slug]
+                        if party is None:
+                            continue
+                    else:
+                        party = page_party
+                    yield [
+                        constituency,
+                        OtherSiteSuggestion(
+                            who_suggests='Jon Worth (video!)',
+                            party=party,
+                            url=match.group('url'),
+                            they_say=match.group('category'))]
 
 
 def get_other_site_suggestions() -> Dict[Constituency, List[OtherSiteSuggestion]]:
-    # This is actually ordered, because a python dict is secretly an OrderedDict
     out = defaultdict(list)
+
+    # video!
+    for constituency, suggest in _jonworth():
+        out[constituency].append(suggest)
 
     # trusted, hand-picked, excellent alignment
     for constituency, suggest in _tacticalvote_co_uk():
@@ -448,10 +466,6 @@ def get_other_site_suggestions() -> Dict[Constituency, List[OtherSiteSuggestion]
 
     # lowest alignment score (GE2017 / LAB bias):
     for constituency, suggest in _tactical_dot_vote():
-        out[constituency].append(suggest)
-
-    # smaller sites:
-    for constituency, suggest in _jonworth():
         out[constituency].append(suggest)
 
     return dict(out)
