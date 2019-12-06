@@ -82,9 +82,9 @@ class _NeedAlliance(ClassifyResult):
             small_parties_text = '{} and {}'.format(
                 ', '.join(pty.name for pty in other_remain_parties[:-1]),
                 other_remain_parties[-1].name)
-        return 'Remain had a majority, and could have won if {} had voted for {}'.format(
-            small_parties_text,
-            big_remain.name)
+        return 'Remain parties {}, {} together would have beaten the largest leave party'.format(
+            big_remain.name,
+            small_parties_text)
 
 
 REMAIN_VICTORY_LAB = _RemainVictory('lab', 'Labour')
