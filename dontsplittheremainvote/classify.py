@@ -106,13 +106,7 @@ ALLIANCE_NHAP = _NeedAlliance(NHAP)
 ALLIANCE_PLAID = _NeedAlliance(PLAID)
 ALLIANCE_SDLP = _NeedAlliance(SDLP)
 ALLIANCE_SNP = _NeedAlliance(SNP)
-
-SF_ALLIANCE = ClassifyResult(
-    logo='other',
-    name=f'Remain can win if parties work together. The largest party is Sinn Fenn, but Sinn Fenn do not take their seats in the UK Parliament.',
-    remain_allicance_leader=None,
-    remain_can_win=False,
-    alliance_helpful=False)
+ALLIANCE_SF = _NeedAlliance(SF)
 
 LEAVE_VICTORY_CON = _LeaveVictory('con', 'Conservative')
 LEAVE_VICTORY_DUP= _LeaveVictory('dup', 'DUP')

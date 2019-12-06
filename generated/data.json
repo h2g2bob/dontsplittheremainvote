@@ -2829,7 +2829,7 @@
         "template": "vote-sf.html"
       },
       "analysis": {
-        "template": "leave.html",
+        "template": "suppressed-too-far-behind-2017.html",
         "we_recommend_party": null
       },
       "constituency": {
@@ -2874,8 +2874,8 @@
       "outcome_frequency": [
         [
           {
-            "img": "other",
-            "text": "Remain can win if parties work together. The largest party is Sinn Fenn, but Sinn Fenn do not take their seats in the UK Parliament."
+            "img": "difficult-alliance-sf",
+            "text": "Remain can win if we work together. The largest party is Sinn Fein."
           },
           1.0
         ]
@@ -15546,7 +15546,7 @@
         "template": "vote-sf.html"
       },
       "analysis": {
-        "template": "leave.html",
+        "template": "suppressed-too-far-behind-2017.html",
         "we_recommend_party": null
       },
       "constituency": {
@@ -15584,8 +15584,8 @@
       "outcome_frequency": [
         [
           {
-            "img": "other",
-            "text": "Remain can win if parties work together. The largest party is Sinn Fenn, but Sinn Fenn do not take their seats in the UK Parliament."
+            "img": "difficult-alliance-sf",
+            "text": "Remain can win if we work together. The largest party is Sinn Fein."
           },
           0.6000000000000001
         ],
@@ -17904,7 +17904,7 @@
         "template": "vote-sf.html"
       },
       "analysis": {
-        "template": "remain-or-leave-no-alliance.html",
+        "template": "suppressed-too-far-behind-2017.html",
         "we_recommend_party": null
       },
       "constituency": {
@@ -17942,8 +17942,8 @@
       "outcome_frequency": [
         [
           {
-            "img": "other",
-            "text": "Remain can win if parties work together. The largest party is Sinn Fenn, but Sinn Fenn do not take their seats in the UK Parliament."
+            "img": "difficult-alliance-sf",
+            "text": "Remain can win if we work together. The largest party is Sinn Fein."
           },
           0.6000000000000001
         ],
@@ -39837,7 +39837,7 @@
         "template": "contradict.html"
       },
       "analysis": {
-        "template": "suppressed-too-far-behind-2017.html",
+        "template": "alliance-mixed.html",
         "we_recommend_party": null
       },
       "constituency": {
@@ -39882,8 +39882,8 @@
         ],
         [
           {
-            "img": "other",
-            "text": "Remain can win if parties work together. The largest party is Sinn Fenn, but Sinn Fenn do not take their seats in the UK Parliament."
+            "img": "difficult-alliance-sf",
+            "text": "Remain can win if we work together. The largest party is Sinn Fein."
           },
           0.2
         ],
@@ -46340,7 +46340,7 @@
         "template": "vote-sf.html"
       },
       "analysis": {
-        "template": "leave.html",
+        "template": "suppressed-too-far-behind-2017.html",
         "we_recommend_party": null
       },
       "constituency": {
@@ -46378,8 +46378,8 @@
       "outcome_frequency": [
         [
           {
-            "img": "other",
-            "text": "Remain can win if parties work together. The largest party is Sinn Fenn, but Sinn Fenn do not take their seats in the UK Parliament."
+            "img": "difficult-alliance-sf",
+            "text": "Remain can win if we work together. The largest party is Sinn Fein."
           },
           0.8
         ],

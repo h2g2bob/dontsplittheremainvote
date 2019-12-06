@@ -142,7 +142,7 @@ class Result(NamedTuple):
             if remain1 == CLAIREWRIGHT:
                 return classify.ALLIANCE_CLAIREWRIGHT
             if remain1 == SF:
-                return classify.SF_ALLIANCE
+                return classify.ALLIANCE_SF
             raise ValueError(remain1)
 
         if winner == CON:
