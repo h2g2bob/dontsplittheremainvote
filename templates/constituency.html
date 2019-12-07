@@ -121,6 +121,7 @@ Use your local knowledge: keep an eye on local newspapers, <a href="https://elec
 {% else %}
   <p>The most effective action you can take right now is to <strong>campaign in a marginal constituency</strong>.</p>
 {% endif %}
+<div class="widebutton"><a href="https://wheredoivote.co.uk/">Plan your visit to the Polling Station</a></div>
 {% for cp in nearby_constituency_pages %}
   {% if cp.aggregation.important %}
     {% if not aggregation.important or aggregation.party != cp.aggregation.party %}{# hide any nearby constituencies which are the same party as "campaign HERE" #}
