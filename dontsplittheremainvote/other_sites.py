@@ -458,28 +458,28 @@ def _jonworth():
 def get_other_site_suggestions() -> Dict[Constituency, List[OtherSiteSuggestion]]:
     out = defaultdict(list)
 
-    # video!
-    for constituency, suggest in _jonworth():
-        out[constituency].append(suggest)
-
-    # trusted, hand-picked, excellent alignment
+    # trusted, hand-picked, excellent alignment (2 conflicts)
     for constituency, suggest in _tacticalvote_co_uk():
         out[constituency].append(suggest)
 
-    # good alignment
-    for constituency, suggest in _peoples_vote():
+    # video! (8 conflicts)
+    for constituency, suggest in _jonworth():
         out[constituency].append(suggest)
 
-    # gina miller
-    for constituency, suggest in _remainunited():
+    # lowest alignment score (GE2017 / LAB bias) (18 conflicts)
+    for constituency, suggest in _tactical_dot_vote():
         out[constituency].append(suggest)
 
-    # best for britain (EP2019 / LD bias)
+    # best for britain (EP2019 / LD bias) (18 conflicts)
     for constituency, suggest in _getvoting():
         out[constituency].append(suggest)
 
-    # lowest alignment score (GE2017 / LAB bias):
-    for constituency, suggest in _tactical_dot_vote():
+    # gina miller (21 conflicts)
+    for constituency, suggest in _remainunited():
+        out[constituency].append(suggest)
+
+    # peoples vote (23 conflicts)
+    for constituency, suggest in _peoples_vote():
         out[constituency].append(suggest)
 
     return dict(out)
