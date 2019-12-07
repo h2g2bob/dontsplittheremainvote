@@ -420,6 +420,11 @@ def _jonworth():
         'arfon': ANYPARTY,
     }
 
+    # video in wrong section of website *cries*
+    wrong_cats = {
+        'cheltenham': LD,
+    }
+
     regexp = re.compile(r'<span class="cat-links"><a href="[^"]+" rel="category tag" style="[^"]+">(?P<category>[^<>]+)</a></span>\s+</div>\s+<h3 class="entry-title"><a href="(?P<url>https://tacticalvoting.jonworth.eu/[^"]+/)" rel="bookmark">(?P<constituency>[^<>]+)</a></h3>')
 
     for page_prefix, page_party in pages.items():
@@ -437,6 +442,10 @@ def _jonworth():
                             continue
                     else:
                         party = page_party
+
+                    if constituency.slug in wrong_cats:
+                        party = wrong_cats[constituency.slug]
+
                     yield [
                         constituency,
                         OtherSiteSuggestion(

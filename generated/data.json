@@ -10296,7 +10296,7 @@
     },
     "cheltenham": {
       "aggregation": {
-        "disagreement": true,
+        "disagreement": false,
         "important": true,
         "party": "ld",
         "template": "vote-ld.html"
@@ -10317,7 +10317,7 @@
       "other_sites": [
         {
           "important": false,
-          "party": "lab",
+          "party": "ld",
           "they_say": "Tactically vote Labour to un-seat a Conservative",
           "url": "https://tacticalvoting.jonworth.eu/cheltenham/",
           "who_suggests": "Jon Worth (video!)"
