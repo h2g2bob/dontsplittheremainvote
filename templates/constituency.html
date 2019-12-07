@@ -119,9 +119,8 @@ Use your local knowledge: keep an eye on local newspapers, <a href="https://elec
     <div class="widebutton">Volunteer with {{aggregation.party.name}} in this constituency</div>
   {% endif %}
 {% else %}
-  <p>The most effective action you can take right now is to <strong>campaign in a marginal constituency</strong>.</p>
+  <p>The most effective action you can take right now is to <strong>campaign in a marginal constituency</strong> and <strong>take your friends with you to vote</strong>.</p>
 {% endif %}
-<div class="widebutton"><a href="https://wheredoivote.co.uk/">Plan your visit to the Polling Station</a></div>
 {% for cp in nearby_constituency_pages %}
   {% if cp.aggregation.important %}
     {% if not aggregation.important or aggregation.party != cp.aggregation.party %}{# hide any nearby constituencies which are the same party as "campaign HERE" #}
@@ -129,6 +128,7 @@ Use your local knowledge: keep an eye on local newspapers, <a href="https://elec
     {% endif %}
   {% endif %}
 {% endfor %}
+<div class="widebutton"><a href="https://wheredoivote.co.uk/">Plan your visit to the Polling Station</a></div>
 <div class="widebutton"><a href="https://www.talkaboutbrex.co.uk/help/">Have constructive conversations about brexit</a></div>
 {% if aggregation.party %}
   <div class="widebutton"><a href="https://www.swapmyvote.uk/swap?constituency_ons_id={{constituency.ons_id}}&amp;willing_party_name={{aggregation.party.swap_name}}">Don't like {{aggregation.party.name}}? Vote swap!</a></div>
