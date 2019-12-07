@@ -1,6 +1,30 @@
 {% extends "landing.html" %}
 {% block morecontent %}
 
+<h3>What is tactical voting?</h3>
+
+<p class="introduction">
+The conservatives want a hard brexit. But we can stop them.
+</p>
+
+<p class="introduction">
+Where Labour is more likely to win, vote Labour:
+</p>
+<div class="tactical-explain"><img
+  class="tactical" alt="A mix of Labour and Liberal Democrats leads to Conservative victory, unless we vote the same way" src="/static/why/explain-lab.svg.png" /></div>
+
+<p class="introduction">
+Where Liberal Democrats are more likely to win, vote Liberal Democrat:
+</p>
+<div class="tactical-explain"><img
+  class="tactical" alt="A mix of Labour and Liberal Democrats leads to Conservative victory, unless we vote the same way" src="/static/why/explain-ld.svg.png" /></div>
+
+<p class="introduction">
+But for this to work, we all need to vote the same way. Check your constituency to find out how others are voting in your local area.
+</p>
+
+<h3>Check your area</h3>
+
 {% for region, county_dict in constituency_pages.items()|sort %}
 <div class="widebutton"><a href="/constituency/#{{region}}">{{region}}</a></div>
 {% endfor %}

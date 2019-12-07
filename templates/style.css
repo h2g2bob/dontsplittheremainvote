@@ -288,3 +288,14 @@ div.candidates-source {
 div.candidates-source {
   font-size: 80%;
 }
+
+div.tactical-explain {
+  text-align: center;
+}
+
+div.tactical-explain img.tactical {
+  width: 80%;
+  height: auto;
+  max-width: 40em;
+  max-height: auto;
+}
