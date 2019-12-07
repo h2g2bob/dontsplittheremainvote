@@ -5,6 +5,7 @@ from typing import NamedTuple
 from collections import defaultdict
 
 from .london import LONDON_COUNTY
+from .london import SCOTLAND
 
 COUNTRIES = {
     'Northern Ireland',
@@ -51,6 +52,8 @@ def _load_constitency_data():
             county = row['county_name']
             if county == 'London':
                 county = LONDON_COUNTY[_to_slug(name)]
+            if county == 'Scotland':
+                county = SCOTLAND[_to_slug(name)]
             constituency = Constituency(
                 ons_id=row['ons_id'],
                 name=name,

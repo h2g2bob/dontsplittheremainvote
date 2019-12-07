@@ -178,7 +178,7 @@
       },
       "constituency": {
         "country": "Scotland",
-        "county": "Scotland",
+        "county": "North Eastern Scotland",
         "hashtag": "AberdeenNorth",
         "name": "Aberdeen North",
         "ons_id": "S14000001",
@@ -246,7 +246,7 @@
       },
       "constituency": {
         "country": "Scotland",
-        "county": "Scotland",
+        "county": "North Eastern Scotland",
         "hashtag": "AberdeenSouth",
         "name": "Aberdeen South",
         "ons_id": "S14000002",
@@ -326,7 +326,7 @@
       },
       "constituency": {
         "country": "Scotland",
-        "county": "Scotland",
+        "county": "South Western Scotland",
         "hashtag": "AirdrieAndShotts",
         "name": "Airdrie and Shotts",
         "ons_id": "S14000003",
@@ -804,7 +804,7 @@
       },
       "constituency": {
         "country": "Scotland",
-        "county": "Scotland",
+        "county": "Eastern Scotland",
         "hashtag": "Angus",
         "name": "Angus",
         "ons_id": "S14000004",
@@ -961,7 +961,7 @@
       },
       "constituency": {
         "country": "Scotland",
-        "county": "Scotland",
+        "county": "Highlands and Islands",
         "hashtag": "ArgyllAndBute",
         "name": "Argyll and Bute",
         "ons_id": "S14000005",
@@ -1446,7 +1446,7 @@
       },
       "constituency": {
         "country": "Scotland",
-        "county": "Scotland",
+        "county": "South Western Scotland",
         "hashtag": "AyrCarrickAndCumnock",
         "name": "Ayr, Carrick and Cumnock",
         "ons_id": "S14000006",
@@ -1596,7 +1596,7 @@
       },
       "constituency": {
         "country": "Scotland",
-        "county": "Scotland",
+        "county": "North Eastern Scotland",
         "hashtag": "BanffAndBuchan",
         "name": "Banff and Buchan",
         "ons_id": "S14000007",
@@ -3179,7 +3179,7 @@
       },
       "constituency": {
         "country": "Scotland",
-        "county": "Scotland",
+        "county": "Eastern Scotland",
         "hashtag": "BerwickshireRoxburghAndSelkirk",
         "name": "Berwickshire, Roxburgh and Selkirk",
         "ons_id": "S14000008",
@@ -8249,7 +8249,7 @@
       },
       "constituency": {
         "country": "Scotland",
-        "county": "Scotland",
+        "county": "Highlands and Islands",
         "hashtag": "CaithnessSutherlandAndEasterRoss",
         "name": "Caithness, Sutherland and Easter Ross",
         "ons_id": "S14000009",
@@ -9596,7 +9596,7 @@
       },
       "constituency": {
         "country": "Scotland",
-        "county": "Scotland",
+        "county": "South Western Scotland",
         "hashtag": "CentralAyrshire",
         "name": "Central Ayrshire",
         "ons_id": "S14000010",
@@ -11648,7 +11648,7 @@
       },
       "constituency": {
         "country": "Scotland",
-        "county": "Scotland",
+        "county": "South Western Scotland",
         "hashtag": "CoatbridgeChrystonAndBellshill",
         "name": "Coatbridge, Chryston and Bellshill",
         "ons_id": "S14000011",
@@ -12754,7 +12754,7 @@
       },
       "constituency": {
         "country": "Scotland",
-        "county": "Scotland",
+        "county": "South Western Scotland",
         "hashtag": "CumbernauldKilsythAndKirkintillochEast",
         "name": "Cumbernauld, Kilsyth and Kirkintilloch East",
         "ons_id": "S14000012",
@@ -14399,7 +14399,7 @@
       },
       "constituency": {
         "country": "Scotland",
-        "county": "Scotland",
+        "county": "South Western Scotland",
         "hashtag": "DumfriesAndGalloway",
         "name": "Dumfries and Galloway",
         "ons_id": "S14000013",
@@ -14486,7 +14486,7 @@
       },
       "constituency": {
         "country": "Scotland",
-        "county": "Scotland",
+        "county": "South Western Scotland",
         "hashtag": "DumfriesshireClydesdaleAndTweeddale",
         "name": "Dumfriesshire, Clydesdale and Tweeddale",
         "ons_id": "S14000014",
@@ -14566,7 +14566,7 @@
       },
       "constituency": {
         "country": "Scotland",
-        "county": "Scotland",
+        "county": "Eastern Scotland",
         "hashtag": "DundeeEast",
         "name": "Dundee East",
         "ons_id": "S14000015",
@@ -14625,7 +14625,7 @@
       },
       "constituency": {
         "country": "Scotland",
-        "county": "Scotland",
+        "county": "Eastern Scotland",
         "hashtag": "DundeeWest",
         "name": "Dundee West",
         "ons_id": "S14000016",
@@ -14691,7 +14691,7 @@
       },
       "constituency": {
         "country": "Scotland",
-        "county": "Scotland",
+        "county": "Eastern Scotland",
         "hashtag": "DunfermlineAndWestFife",
         "name": "Dunfermline and West Fife",
         "ons_id": "S14000017",
@@ -15272,7 +15272,7 @@
       },
       "constituency": {
         "country": "Scotland",
-        "county": "Scotland",
+        "county": "South Western Scotland",
         "hashtag": "EastDunbartonshire",
         "name": "East Dunbartonshire",
         "ons_id": "S14000018",
@@ -15490,7 +15490,7 @@
       },
       "constituency": {
         "country": "Scotland",
-        "county": "Scotland",
+        "county": "South Western Scotland",
         "hashtag": "EastKilbrideStrathavenAndLesmahagow",
         "name": "East Kilbride, Strathaven and Lesmahagow",
         "ons_id": "S14000019",
@@ -15612,7 +15612,7 @@
       },
       "constituency": {
         "country": "Scotland",
-        "county": "Scotland",
+        "county": "Eastern Scotland",
         "hashtag": "EastLothian",
         "name": "East Lothian",
         "ons_id": "S14000020",
@@ -15694,7 +15694,7 @@
       },
       "constituency": {
         "country": "Scotland",
-        "county": "Scotland",
+        "county": "South Western Scotland",
         "hashtag": "EastRenfrewshire",
         "name": "East Renfrewshire",
         "ons_id": "S14000021",
@@ -16261,7 +16261,7 @@
       },
       "constituency": {
         "country": "Scotland",
-        "county": "Scotland",
+        "county": "Eastern Scotland",
         "hashtag": "EdinburghEast",
         "name": "Edinburgh East",
         "ons_id": "S14000022",
@@ -16322,7 +16322,7 @@
       },
       "constituency": {
         "country": "Scotland",
-        "county": "Scotland",
+        "county": "Eastern Scotland",
         "hashtag": "EdinburghNorthAndLeith",
         "name": "Edinburgh North and Leith",
         "ons_id": "S14000023",
@@ -16390,7 +16390,7 @@
       },
       "constituency": {
         "country": "Scotland",
-        "county": "Scotland",
+        "county": "Eastern Scotland",
         "hashtag": "EdinburghSouth",
         "name": "Edinburgh South",
         "ons_id": "S14000024",
@@ -16472,7 +16472,7 @@
       },
       "constituency": {
         "country": "Scotland",
-        "county": "Scotland",
+        "county": "Eastern Scotland",
         "hashtag": "EdinburghSouthWest",
         "name": "Edinburgh South West",
         "ons_id": "S14000025",
@@ -16540,7 +16540,7 @@
       },
       "constituency": {
         "country": "Scotland",
-        "county": "Scotland",
+        "county": "Eastern Scotland",
         "hashtag": "EdinburghWest",
         "name": "Edinburgh West",
         "ons_id": "S14000026",
@@ -17630,7 +17630,7 @@
       },
       "constituency": {
         "country": "Scotland",
-        "county": "Scotland",
+        "county": "Eastern Scotland",
         "hashtag": "Falkirk",
         "name": "Falkirk",
         "ons_id": "S14000028",
@@ -18866,7 +18866,7 @@
       },
       "constituency": {
         "country": "Scotland",
-        "county": "Scotland",
+        "county": "South Western Scotland",
         "hashtag": "GlasgowCentral",
         "name": "Glasgow Central",
         "ons_id": "S14000029",
@@ -18934,7 +18934,7 @@
       },
       "constituency": {
         "country": "Scotland",
-        "county": "Scotland",
+        "county": "South Western Scotland",
         "hashtag": "GlasgowEast",
         "name": "Glasgow East",
         "ons_id": "S14000030",
@@ -18988,7 +18988,7 @@
       },
       "constituency": {
         "country": "Scotland",
-        "county": "Scotland",
+        "county": "South Western Scotland",
         "hashtag": "GlasgowNorth",
         "name": "Glasgow North",
         "ons_id": "S14000031",
@@ -19049,7 +19049,7 @@
       },
       "constituency": {
         "country": "Scotland",
-        "county": "Scotland",
+        "county": "South Western Scotland",
         "hashtag": "GlasgowNorthEast",
         "name": "Glasgow North East",
         "ons_id": "S14000032",
@@ -19117,7 +19117,7 @@
       },
       "constituency": {
         "country": "Scotland",
-        "county": "Scotland",
+        "county": "South Western Scotland",
         "hashtag": "GlasgowNorthWest",
         "name": "Glasgow North West",
         "ons_id": "S14000033",
@@ -19171,7 +19171,7 @@
       },
       "constituency": {
         "country": "Scotland",
-        "county": "Scotland",
+        "county": "South Western Scotland",
         "hashtag": "GlasgowSouth",
         "name": "Glasgow South",
         "ons_id": "S14000034",
@@ -19225,7 +19225,7 @@
       },
       "constituency": {
         "country": "Scotland",
-        "county": "Scotland",
+        "county": "South Western Scotland",
         "hashtag": "GlasgowSouthWest",
         "name": "Glasgow South West",
         "ons_id": "S14000035",
@@ -19279,7 +19279,7 @@
       },
       "constituency": {
         "country": "Scotland",
-        "county": "Scotland",
+        "county": "Eastern Scotland",
         "hashtag": "Glenrothes",
         "name": "Glenrothes",
         "ons_id": "S14000036",
@@ -19422,7 +19422,7 @@
       },
       "constituency": {
         "country": "Scotland",
-        "county": "Scotland",
+        "county": "Eastern Scotland",
         "hashtag": "Gordon",
         "name": "Gordon",
         "ons_id": "S14000037",
@@ -23419,7 +23419,7 @@
       },
       "constituency": {
         "country": "Scotland",
-        "county": "Scotland",
+        "county": "South Western Scotland",
         "hashtag": "Inverclyde",
         "name": "Inverclyde",
         "ons_id": "S14000038",
@@ -23480,7 +23480,7 @@
       },
       "constituency": {
         "country": "Scotland",
-        "county": "Scotland",
+        "county": "Highlands and Islands",
         "hashtag": "InvernessNairnBadenochAndStrathspey",
         "name": "Inverness, Nairn, Badenoch and Strathspey",
         "ons_id": "S14000039",
@@ -24387,7 +24387,7 @@
       },
       "constituency": {
         "country": "Scotland",
-        "county": "Scotland",
+        "county": "South Western Scotland",
         "hashtag": "KilmarnockAndLoudoun",
         "name": "Kilmarnock and Loudoun",
         "ons_id": "S14000040",
@@ -24858,7 +24858,7 @@
       },
       "constituency": {
         "country": "Scotland",
-        "county": "Scotland",
+        "county": "Eastern Scotland",
         "hashtag": "KirkcaldyAndCowdenbeath",
         "name": "Kirkcaldy and Cowdenbeath",
         "ons_id": "S14000041",
@@ -25034,7 +25034,7 @@
       },
       "constituency": {
         "country": "Scotland",
-        "county": "Scotland",
+        "county": "South Western Scotland",
         "hashtag": "LanarkAndHamiltonEast",
         "name": "Lanark and Hamilton East",
         "ons_id": "S14000042",
@@ -26454,7 +26454,7 @@
       },
       "constituency": {
         "country": "Scotland",
-        "county": "Scotland",
+        "county": "Eastern Scotland",
         "hashtag": "LinlithgowAndEastFalkirk",
         "name": "Linlithgow and East Falkirk",
         "ons_id": "S14000043",
@@ -26787,7 +26787,7 @@
       },
       "constituency": {
         "country": "Scotland",
-        "county": "Scotland",
+        "county": "Eastern Scotland",
         "hashtag": "Livingston",
         "name": "Livingston",
         "ons_id": "S14000044",
@@ -28922,7 +28922,7 @@
       },
       "constituency": {
         "country": "Scotland",
-        "county": "Scotland",
+        "county": "Eastern Scotland",
         "hashtag": "Midlothian",
         "name": "Midlothian",
         "ons_id": "S14000045",
@@ -29512,7 +29512,7 @@
       },
       "constituency": {
         "country": "Scotland",
-        "county": "Scotland",
+        "county": "Highlands and Islands",
         "hashtag": "Moray",
         "name": "Moray",
         "ons_id": "S14000046",
@@ -29779,7 +29779,7 @@
       },
       "constituency": {
         "country": "Scotland",
-        "county": "Scotland",
+        "county": "South Western Scotland",
         "hashtag": "MotherwellAndWishaw",
         "name": "Motherwell and Wishaw",
         "ons_id": "S14000047",
@@ -29833,7 +29833,7 @@
       },
       "constituency": {
         "country": "Scotland",
-        "county": "Scotland",
+        "county": "Highlands and Islands",
         "hashtag": "NaH-EileananAnIar",
         "name": "Na h-Eileanan An Iar",
         "ons_id": "S14000027",
@@ -31047,7 +31047,7 @@
       },
       "constituency": {
         "country": "Scotland",
-        "county": "Scotland",
+        "county": "South Western Scotland",
         "hashtag": "NorthAyrshireAndArran",
         "name": "North Ayrshire and Arran",
         "ons_id": "S14000048",
@@ -31769,7 +31769,7 @@
       },
       "constituency": {
         "country": "Scotland",
-        "county": "Scotland",
+        "county": "Eastern Scotland",
         "hashtag": "NorthEastFife",
         "name": "North East Fife",
         "ons_id": "S14000049",
@@ -33876,7 +33876,7 @@
       },
       "constituency": {
         "country": "Scotland",
-        "county": "Scotland",
+        "county": "Eastern Scotland",
         "hashtag": "OchilAndSouthPerthshire",
         "name": "Ochil and South Perthshire",
         "ons_id": "S14000050",
@@ -34230,7 +34230,7 @@
       },
       "constituency": {
         "country": "Scotland",
-        "county": "Scotland",
+        "county": "Highlands and Islands",
         "hashtag": "OrkneyAndShetland",
         "name": "Orkney and Shetland",
         "ons_id": "S14000051",
@@ -34547,7 +34547,7 @@
       },
       "constituency": {
         "country": "Scotland",
-        "county": "Scotland",
+        "county": "South Western Scotland",
         "hashtag": "PaisleyAndRenfrewshireNorth",
         "name": "Paisley and Renfrewshire North",
         "ons_id": "S14000052",
@@ -34608,7 +34608,7 @@
       },
       "constituency": {
         "country": "Scotland",
-        "county": "Scotland",
+        "county": "South Western Scotland",
         "hashtag": "PaisleyAndRenfrewshireSouth",
         "name": "Paisley and Renfrewshire South",
         "ons_id": "S14000053",
@@ -34920,7 +34920,7 @@
       },
       "constituency": {
         "country": "Scotland",
-        "county": "Scotland",
+        "county": "Eastern Scotland",
         "hashtag": "PerthAndNorthPerthshire",
         "name": "Perth and North Perthshire",
         "ons_id": "S14000054",
@@ -37231,7 +37231,7 @@
       },
       "constituency": {
         "country": "Scotland",
-        "county": "Scotland",
+        "county": "Highlands and Islands",
         "hashtag": "RossSkyeAndLochaber",
         "name": "Ross, Skye and Lochaber",
         "ons_id": "S14000055",
@@ -37878,7 +37878,7 @@
       },
       "constituency": {
         "country": "Scotland",
-        "county": "Scotland",
+        "county": "South Western Scotland",
         "hashtag": "RutherglenAndHamiltonWest",
         "name": "Rutherglen and Hamilton West",
         "ons_id": "S14000056",
@@ -42880,7 +42880,7 @@
       },
       "constituency": {
         "country": "Scotland",
-        "county": "Scotland",
+        "county": "Eastern Scotland",
         "hashtag": "Stirling",
         "name": "Stirling",
         "ons_id": "S14000057",
@@ -48424,7 +48424,7 @@
       },
       "constituency": {
         "country": "Scotland",
-        "county": "Scotland",
+        "county": "North Eastern Scotland",
         "hashtag": "WestAberdeenshireAndKincardine",
         "name": "West Aberdeenshire and Kincardine",
         "ons_id": "S14000058",
@@ -48743,7 +48743,7 @@
       },
       "constituency": {
         "country": "Scotland",
-        "county": "Scotland",
+        "county": "South Western Scotland",
         "hashtag": "WestDunbartonshire",
         "name": "West Dunbartonshire",
         "ons_id": "S14000059",
