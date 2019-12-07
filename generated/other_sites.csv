@@ -12,7 +12,7 @@ amber-valley,E14000533,0.4083080482853463,lab,4,lab,4,,,lab,4,any,0,lab,4,lab,4
 angus,S14000004,0.5484673566878981,snp,4,snp,4,,,,,snp,4,snp,4,snp,4
 arfon,W07000057,0.8364293817356778,plaid,2,,,any,0,plaid,2,plaid,2,any,0,any,0
 argyll-and-bute,S14000005,0.6676444278017016,snp,5,snp,5,snp,5,,,snp,5,snp,5,snp,5
-arundel-and-south-downs,E14000534,0.3487619490175252,ld,0,,,,,ld,0,any,0,lab,-2,,
+arundel-and-south-downs,E14000534,0.3487619490175252,ld,1,,,,,ld,1,any,0,,,,
 ashfield,E14000535,0.4257596063448883,lab,6,lab,6,lab,6,lab,6,lab,6,lab,6,lab,6
 ashford,E14000536,0.3731358239115549,lab,3,,,,,lab,3,any,0,lab,3,lab,3
 ashton-under-lyne,E14000537,0.6035501470847057,lab,5,lab,5,,,lab,5,lab,5,lab,5,lab,5
@@ -69,7 +69,7 @@ bolton-south-east,E14000579,0.6066677692980176,lab,4,,,,,lab,4,lab,4,lab,4,lab,4
 bolton-west,E14000580,0.4898342931014221,lab,4,,,lab,4,lab,4,any,0,lab,4,lab,4
 bootle,E14000581,0.8403396436525612,lab,3,,,,,lab,3,lab,3,lab,3,any,0
 boston-and-skegness,E14000582,0.2495160801324658,lab,3,,,,,lab,3,any,0,lab,3,lab,3
-bosworth,E14000583,0.4140613872667711,ld,1,ld,1,,,ld,1,any,0,lab,-3,,
+bosworth,E14000583,0.4140613872667711,ld,2,ld,2,,,ld,2,any,0,,,,
 bournemouth-east,E14000584,0.4460899255419803,lab,5,,,lab,5,lab,5,lab,5,lab,5,lab,5
 bournemouth-west,E14000585,0.45559125530815364,lab,5,,,lab,5,lab,5,lab,5,lab,5,lab,5
 bracknell,E14000586,0.3766549774565233,lab,2,,,,,lab,2,any,0,lab,2,,
@@ -127,11 +127,11 @@ charnwood,E14000625,0.3448782079164854,lab,3,,,,,lab,3,any,0,lab,3,lab,3
 chatham-and-aylesford,E14000626,0.361884606816663,lab,4,lab,4,,,lab,4,any,0,lab,4,lab,4
 cheadle,E14000627,0.5541486476581396,ld,5,,,ld,5,ld,5,ld,5,ld,5,ld,5
 chelmsford,E14000628,0.41978543791769257,ld,0,,,ld,0,ld,0,lab,-2,lab,-2,,
-chelsea-and-fulham,E14000629,0.4419388530193695,ld,1,,,ld,1,ld,1,any,0,lab,-3,,
+chelsea-and-fulham,E14000629,0.4419388530193695,ld,2,,,ld,2,ld,2,any,0,,,,
 cheltenham,E14000630,0.5166280782993053,ld,4,ld,4,lab,-6,ld,4,ld,4,ld,4,ld,4
 chesham-and-amersham,E14000631,0.3658329110258452,ld,2,,,ld,2,ld,2,any,0,any,0,,
 chesterfield,E14000632,0.6025413649925929,lab,4,,,,,lab,4,lab,4,lab,4,lab,4
-chichester,E14000633,0.3697052638606095,ld,0,,,,,ld,0,any,0,lab,-2,,
+chichester,E14000633,0.3697052638606095,ld,1,,,,,ld,1,any,0,,,,
 chingford-and-woodford-green,E14000634,0.5086135303762697,lab,5,,,lab,5,lab,5,lab,5,lab,5,lab,5
 chippenham,E14000635,0.4528001400070004,ld,4,,,,,ld,4,ld,4,ld,4,ld,4
 chipping-barnet,E14000636,0.5366725005863993,lab,5,,,lab,5,lab,5,lab,5,lab,5,lab,5
@@ -202,7 +202,7 @@ east-renfrewshire,S14000021,0.5999851129554504,snp,5,snp,5,snp,5,,,snp,5,snp,5,s
 east-surrey,E14000681,0.2971639950678175,ld,2,ld,2,,,ld,2,any,0,any,0,,
 east-worthing-and-shoreham,E14000682,0.4645970216691455,lab,4,,,,,lab,4,lab,4,lab,4,lab,4
 east-yorkshire,E14000683,0.3441693231521981,lab,2,,,,,lab,2,any,0,lab,2,,
-eddisbury,E14000686,0.3907714491708724,ld,1,,,ld,1,ld,1,any,0,lab,-3,,
+eddisbury,E14000686,0.3907714491708724,ld,2,,,ld,2,ld,2,any,0,,,,
 edinburgh-east,S14000022,0.8143280564299336,,,snp,2,,,,,snp,2,snp,2,any,0
 edinburgh-north-and-leith,S14000023,0.7279494978073277,,,snp,3,snp,3,,,snp,3,snp,3,any,0
 edinburgh-south,S14000024,0.8029264214046823,lab,2,,,,,,,lab,2,lab,2,any,0
@@ -215,7 +215,7 @@ eltham,E14000690,0.5759939334849963,lab,4,,,,,lab,4,lab,4,lab,4,lab,4
 enfield-north,E14000691,0.601523731082055,lab,5,lab,5,,,lab,5,lab,5,lab,5,lab,5
 enfield-southgate,E14000692,0.556902830657176,lab,5,,,lab,5,lab,5,lab,5,lab,5,lab,5
 epping-forest,E14000693,0.3414009728431044,lab,3,,,,,lab,3,any,0,lab,3,lab,3
-epsom-and-ewell,E14000694,0.40416090169743185,ld,1,,,ld,1,ld,1,any,0,lab,-3,,
+epsom-and-ewell,E14000694,0.40416090169743185,ld,2,,,ld,2,ld,2,any,0,,,,
 erewash,E14000695,0.4549526927944397,lab,4,lab,4,,,lab,4,any,0,lab,4,lab,4
 erith-and-thamesmead,E14000696,0.5754093198992443,lab,4,,,,,lab,4,lab,4,lab,4,lab,4
 esher-and-walton,E14000697,0.3700912402660339,ld,6,ld,6,ld,6,ld,6,ld,6,ld,6,ld,6
@@ -276,7 +276,7 @@ hazel-grove,E14000738,0.5340569201486449,ld,3,,,,,ld,3,any,0,ld,3,ld,3
 hemel-hempstead,E14000739,0.43079836272522093,lab,4,,,,,lab,4,lab,4,lab,4,lab,4
 hemsworth,E14000740,0.5602472575309072,lab,5,lab,5,,,lab,5,lab,5,lab,5,lab,5
 hendon,E14000741,0.4977688403715407,lab,5,,,lab,5,lab,5,lab,5,lab,5,lab,5
-henley,E14000742,0.3818630799138339,ld,2,ld,2,ld,2,ld,2,any,0,lab,-4,,
+henley,E14000742,0.3818630799138339,ld,3,ld,3,ld,3,ld,3,any,0,,,,
 hereford-and-south-herefordshire,E14000743,0.3321250297123841,lab,2,,,,,lab,2,any,0,lab,2,,
 hertford-and-stortford,E14000744,0.3968529137218296,lab,1,,,,,ld,-3,lab,1,lab,1,,
 hertsmere,E14000745,0.3400953055326967,lab,2,,,,,lab,2,any,0,lab,2,,
@@ -287,7 +287,7 @@ hitchin-and-harpenden,E14000749,0.454604222309171,ld,0,,,ld,0,ld,0,lab,-2,lab,-2
 holborn-and-st-pancras,E14000750,0.8024645320948521,lab,4,,,,,lab,4,lab,4,lab,4,lab,4
 hornchurch-and-upminster,E14000751,0.31042911945757873,lab,3,,,,,lab,3,any,0,lab,3,lab,3
 hornsey-and-wood-green,E14000752,0.8145056426885846,lab,2,,,,,lab,2,lab,2,any,0,any,0
-horsham,E14000753,0.3695936244696469,ld,2,ld,2,ld,2,ld,2,any,0,lab,-4,,
+horsham,E14000753,0.3695936244696469,ld,3,ld,3,ld,3,ld,3,any,0,,,,
 houghton-and-sunderland-south,E14000754,0.6165139826422372,lab,5,lab,5,,,lab,5,lab,5,lab,5,lab,5
 hove,E14000755,0.6641607056045558,lab,4,,,,,lab,4,lab,4,lab,4,lab,4
 huddersfield,E14000756,0.6620431628416297,lab,5,lab,5,,,lab,5,lab,5,lab,5,lab,5
@@ -304,7 +304,7 @@ islington-south-and-finsbury,E14000764,0.7741056005327894,lab,4,,,,,lab,4,lab,4,
 islwyn,W07000077,0.6643116393760563,lab,5,lab,5,,,lab,5,lab,5,lab,5,lab,5
 jarrow,E14000765,0.6783116007716803,lab,5,lab,5,,,lab,5,lab,5,lab,5,lab,5
 keighley,E14000766,0.48888115403952515,lab,4,,,,,lab,4,lab,4,lab,4,lab,4
-kenilworth-and-southam,E14000767,0.3738235809902378,ld,0,,,,,ld,0,any,0,lab,-2,,
+kenilworth-and-southam,E14000767,0.3738235809902378,ld,1,,,,,ld,1,any,0,,,,
 kensington,E14000768,0.5444320914238436,,,,,ld,-1,ld,-1,any,0,lab,-1,lab,-1
 kettering,E14000769,0.4207756456967048,lab,3,,,,,lab,3,any,0,lab,3,lab,3
 kilmarnock-and-loudoun,S14000040,0.7332989313896234,,,snp,2,,,,,snp,2,snp,2,any,0
@@ -343,12 +343,12 @@ livingston,S14000044,0.7562327397390726,,,snp,2,,,,,snp,2,snp,2,any,0
 llanelli,W07000045,0.7168459669823014,lab,4,,,,,lab,4,lab,4,lab,4,lab,4
 loughborough,E14000797,0.455972519760656,lab,4,,,,,lab,4,lab,4,lab,4,lab,4
 louth-and-horncastle,E14000798,0.3047507153550245,lab,3,,,,,lab,3,any,0,lab,3,lab,3
-ludlow,E14000799,0.3709625775465279,ld,0,,,,,ld,0,any,0,lab,-2,,
+ludlow,E14000799,0.3709625775465279,ld,1,,,,,ld,1,any,0,,,,
 luton-north,E14000800,0.6384324996782635,lab,4,lab,4,,,lab,4,lab,4,lab,4,,
 luton-south,E14000801,0.6472590119870808,ind,-4,,,lab,2,lab,2,lab,2,lab,2,,
 macclesfield,E14000802,0.452059587161876,lab,4,,,,,lab,4,lab,4,lab,4,lab,4
 maidenhead,E14000803,0.30565428664640526,ld,2,ld,2,,,ld,2,any,0,any,0,,
-maidstone-and-the-weald,E14000804,0.3845544018407874,ld,2,ld,2,ld,2,ld,2,any,0,lab,-4,,
+maidstone-and-the-weald,E14000804,0.3845544018407874,ld,3,ld,3,ld,3,ld,3,any,0,,,,
 makerfield,E14000805,0.6299831674940873,lab,5,lab,5,,,lab,5,lab,5,lab,5,lab,5
 maldon,E14000806,0.2775785825265926,lab,-1,,,,,ld,-1,any,0,any,0,,
 manchester-central,E14000807,0.8078841512469832,lab,3,,,,,lab,3,lab,3,lab,3,any,0
@@ -391,7 +391,7 @@ new-forest-west,E14000828,0.3218812340056824,lab,0,,,lab,0,ld,-2,any,0,any,0,,
 newport-east,W07000055,0.6151819663226507,lab,5,lab,5,,,lab,5,lab,5,lab,5,lab,5
 newport-west,W07000056,0.5703761683318753,lab,5,,,lab,5,lab,5,lab,5,lab,5,lab,5
 newry-and-armagh,N06000011,0.6714757647585807,,,,,,,,,sf,1,sf,1,any,0
-newton-abbot,E14000835,0.42752290024594775,ld,1,,,ld,1,ld,1,any,0,lab,-3,,
+newton-abbot,E14000835,0.42752290024594775,ld,2,,,ld,2,ld,2,any,0,,,,
 normanton-pontefract-and-castleford,E14000836,0.5949868878453376,lab,5,lab,5,,,lab,5,lab,5,lab,5,lab,5
 northampton-north,E14000861,0.4773143791173411,lab,6,lab,6,lab,6,lab,6,lab,6,lab,6,lab,6
 northampton-south,E14000862,0.4746551640103329,lab,6,lab,6,lab,6,lab,6,lab,6,lab,6,lab,6
@@ -435,7 +435,7 @@ old-bexley-and-sidcup,E14000869,0.32577744473585607,lab,3,,,,,lab,3,any,0,lab,3,
 oldham-east-and-saddleworth,E14000870,0.5806492761017923,lab,4,,,,,lab,4,lab,4,lab,4,lab,4
 oldham-west-and-royton,E14000871,0.6727090067266532,lab,4,,,,,lab,4,lab,4,lab,4,lab,4
 orkney-and-shetland,S14000051,0.8903638785066804,ld,1,,,,,,,ld,1,any,0,any,0
-orpington,E14000872,0.3304730385842532,ld,0,,,,,ld,0,any,0,lab,-2,,
+orpington,E14000872,0.3304730385842532,ld,1,,,,,ld,1,any,0,,,,
 oxford-east,E14000873,0.7756976398990649,lab,4,,,,,lab,4,lab,4,lab,4,lab,4
 oxford-west-and-abingdon,E14000874,0.5636287904031989,ld,6,ld,6,ld,6,ld,6,ld,6,ld,6,ld,6
 paisley-and-renfrewshire-north,S14000052,0.7245092781293575,,,snp,2,,,,,snp,2,snp,2,any,0
@@ -502,7 +502,7 @@ sittingbourne-and-sheppey,E14000927,0.33260036194516335,lab,3,,,,,lab,3,any,0,la
 skipton-and-ripon,E14000928,0.3470019608517665,lab,2,,,,,lab,2,any,0,lab,2,,
 sleaford-and-north-hykeham,E14000929,0.2998616958219979,lab,2,,,,,lab,2,any,0,lab,2,,
 slough,E14000930,0.6534303342849249,lab,4,,,,,lab,4,lab,4,lab,4,lab,4
-solihull,E14000931,0.3959963346725876,ld,2,ld,2,ld,2,ld,2,any,0,lab,-4,,
+solihull,E14000931,0.3959963346725876,ld,3,ld,3,ld,3,ld,3,any,0,,,,
 somerton-and-frome,E14000932,0.41742315156827153,ld,4,,,,,ld,4,ld,4,ld,4,ld,4
 southampton-itchen,E14000955,0.4951157471731184,lab,5,,,lab,5,lab,5,lab,5,lab,5,lab,5
 southampton-test,E14000956,0.6268468967869858,lab,4,,,,,lab,4,lab,4,lab,4,lab,4
@@ -512,7 +512,7 @@ south-cambridgeshire,E14000934,0.4819943318341445,ld,4,ld,4,ld,4,ld,4,any,0,,,ld
 south-derbyshire,E14000935,0.3953373487108358,lab,4,lab,4,,,lab,4,any,0,lab,4,lab,4
 south-dorset,E14000936,0.43869687512041,lab,3,,,,,lab,3,any,0,lab,3,lab,3
 south-down,N06000015,0.7864342836932388,,,,,,,,,sf,-1,any,0,sdlp,-1
-south-east-cambridgeshire,E14000937,0.4666677248341322,ld,1,,,ld,1,ld,1,any,0,lab,-3,,
+south-east-cambridgeshire,E14000937,0.4666677248341322,ld,2,,,ld,2,ld,2,any,0,,,,
 south-east-cornwall,E14000938,0.4458702840823689,lab,-1,,,ld,-1,ld,-1,any,0,lab,-1,,
 southend-west,E14000957,0.3847343773177089,lab,3,,,,,lab,3,any,0,lab,3,lab,3
 south-holland-and-the-deepings,E14000939,0.232833151147769,lab,1,,,,,lab,1,any,0,any,0,,
@@ -537,7 +537,7 @@ stafford,E14000965,0.4525845466450967,lab,4,,,,,lab,4,lab,4,lab,4,lab,4
 staffordshire-moorlands,E14000966,0.3723435225618632,lab,3,,,,,lab,3,any,0,lab,3,lab,3
 st-albans,E14000960,0.5543878732587109,ld,6,ld,6,ld,6,ld,6,ld,6,ld,6,ld,6
 stalybridge-and-hyde,E14000967,0.618602350613562,lab,5,lab,5,,,lab,5,lab,5,lab,5,lab,5
-st-austell-and-newquay,E14000961,0.5046115251235889,ld,1,,,ld,1,ld,1,any,0,lab,-3,,
+st-austell-and-newquay,E14000961,0.5046115251235889,ld,2,,,ld,2,ld,2,any,0,,,,
 stevenage,E14000968,0.4972732985991445,lab,4,,,,,lab,4,lab,4,lab,4,lab,4
 st-helens-north,E14000962,0.6873282625144359,lab,5,lab,5,,,lab,5,lab,5,lab,5,lab,5
 st-helens-south-and-whiston,E14000963,0.7449419506107476,lab,5,lab,5,,,lab,5,lab,5,lab,5,lab,5
@@ -564,10 +564,10 @@ sutton-coldfield,E14000985,0.36299141095009274,lab,2,,,,,lab,2,any,0,lab,2,,
 swansea-east,W07000048,0.6824995022611565,lab,5,lab,5,,,lab,5,lab,5,lab,5,lab,5
 swansea-west,W07000047,0.6726034011050909,lab,4,,,,,lab,4,lab,4,lab,4,lab,4
 tamworth,E14000986,0.3897686266185524,lab,3,,,,,lab,3,any,0,lab,3,lab,3
-tatton,E14000987,0.3956348236827103,ld,0,,,,,ld,0,any,0,lab,-2,,
+tatton,E14000987,0.3956348236827103,ld,1,,,,,ld,1,any,0,,,,
 taunton-deane,E14000988,0.4303522433508319,ld,4,,,,,ld,4,ld,4,ld,4,ld,4
 telford,E14000989,0.5126661594235331,lab,6,lab,6,lab,6,lab,6,lab,6,lab,6,lab,6
-tewkesbury,E14000990,0.3796459278315619,ld,1,,,ld,1,ld,1,any,0,lab,-3,,
+tewkesbury,E14000990,0.3796459278315619,ld,2,,,ld,2,ld,2,any,0,,,,
 the-cotswolds,E14000991,0.3717965897289873,ld,1,,,,,ld,1,any,0,any,0,,
 the-wrekin,E14000992,0.3883448094824627,lab,5,lab,5,lab,5,lab,5,any,0,lab,5,lab,5
 thirsk-and-malton,E14000993,0.3295249333977007,lab,0,,,,,ld,-2,any,0,lab,0,,
@@ -578,7 +578,7 @@ tonbridge-and-malling,E14000997,0.3309258966383749,lab,-1,,,,,ld,-1,any,0,any,0,
 tooting,E14000998,0.6489659796118341,lab,4,,,,,lab,4,lab,4,lab,4,lab,4
 torbay,E14000999,0.43318872865126823,ld,6,ld,6,ld,6,ld,6,ld,6,ld,6,ld,6
 torfaen,W07000053,0.6517213562674022,lab,5,lab,5,,,lab,5,lab,5,lab,5,lab,5
-torridge-and-west-devon,E14001000,0.4215534633490249,ld,1,,,ld,1,ld,1,any,0,lab,-3,,
+torridge-and-west-devon,E14001000,0.4215534633490249,ld,2,,,ld,2,ld,2,any,0,,,,
 totnes,E14001001,0.4387905311318878,ld,3,,,ld,3,ld,3,ld,3,,,,
 tottenham,E14001002,0.8758183181661565,lab,3,,,,,lab,3,lab,3,lab,3,any,0
 truro-and-falmouth,E14001003,0.5259943156742634,lab,4,,,,,lab,4,lab,4,lab,4,lab,4
@@ -596,7 +596,7 @@ walsall-north,E14001011,0.4280917152001679,lab,4,lab,4,,,lab,4,any,0,lab,4,lab,4
 walsall-south,E14001012,0.5737429660555455,lab,5,lab,5,,,lab,5,lab,5,lab,5,lab,5
 walthamstow,E14001013,0.859252643167231,lab,3,,,,,lab,3,lab,3,lab,3,any,0
 wansbeck,E14001014,0.6207424506524709,lab,5,lab,5,,,lab,5,lab,5,lab,5,lab,5
-wantage,E14001015,0.4380208169554416,ld,2,ld,2,ld,2,ld,2,any,0,lab,-4,,
+wantage,E14001015,0.4380208169554416,ld,3,ld,3,ld,3,ld,3,any,0,,,,
 warley,E14001016,0.6716410485997115,lab,4,,,,,lab,4,lab,4,lab,4,lab,4
 warrington-north,E14001017,0.5887214790691923,lab,5,lab,5,,,lab,5,lab,5,lab,5,lab,5
 warrington-south,E14001018,0.5376723929349141,lab,5,,,lab,5,lab,5,lab,5,lab,5,lab,5
@@ -604,7 +604,7 @@ warwick-and-leamington,E14001019,0.5408380353343816,lab,4,,,,,lab,4,lab,4,lab,4,
 washington-and-sunderland-west,E14001020,0.6309459259624389,lab,5,lab,5,,,lab,5,lab,5,lab,5,lab,5
 watford,E14001021,0.5114144343968606,lab,4,,,,,lab,4,lab,4,lab,4,lab,4
 waveney,E14001022,0.39412233739605884,lab,4,lab,4,,,lab,4,any,0,lab,4,lab,4
-wealden,E14001023,0.3578823762900238,ld,0,,,,,ld,0,any,0,lab,-2,,
+wealden,E14001023,0.3578823762900238,ld,1,,,,,ld,1,any,0,,,,
 weaver-vale,E14001024,0.5470728864125818,lab,4,,,,,lab,4,lab,4,lab,4,lab,4
 wellingborough,E14001025,0.3737978963185575,lab,4,lab,4,,,lab,4,any,0,lab,4,lab,4
 wells,E14001026,0.493647584767352,ld,4,,,,,ld,4,ld,4,ld,4,ld,4
@@ -622,7 +622,7 @@ westmorland-and-lonsdale,E14001037,0.5507961382939617,ld,6,ld,6,ld,6,ld,6,ld,6,l
 weston-super-mare,E14001038,0.41855889391119383,lab,3,,,,,lab,3,any,0,lab,3,lab,3
 west-suffolk,E14001034,0.3240057202489081,lab,3,,,,,lab,3,any,0,lab,3,lab,3
 west-tyrone,N06000018,0.6598675435772432,,,,,,,,,sf,1,sf,1,any,0
-west-worcestershire,E14001035,0.35924633882877943,ld,0,,,,,ld,0,any,0,lab,-2,,
+west-worcestershire,E14001035,0.35924633882877943,ld,1,,,,,ld,1,any,0,,,,
 wigan,E14001039,0.6220815279121619,lab,5,lab,5,,,lab,5,lab,5,lab,5,lab,5
 wimbledon,E14001040,0.5245313045840934,ld,0,,,ld,0,ld,0,lab,-2,lab,-2,,
 winchester,E14001041,0.450293932395549,ld,6,ld,6,ld,6,ld,6,ld,6,ld,6,ld,6

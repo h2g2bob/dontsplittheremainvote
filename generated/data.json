@@ -1025,10 +1025,10 @@
     },
     "arundel-and-south-downs": {
       "aggregation": {
-        "disagreement": true,
+        "disagreement": false,
         "important": false,
-        "party": null,
-        "template": "contradict.html"
+        "party": "ld",
+        "template": "vote-ld.html"
       },
       "analysis": {
         "template": "alliance-mixed.html",
@@ -1064,13 +1064,6 @@
           "they_say": null,
           "url": "https://tacticalvote.getvoting.org/arundel-and-south-downs/",
           "who_suggests": "Best for Britain"
-        },
-        {
-          "important": false,
-          "party": "lab",
-          "they_say": null,
-          "url": "https://tactical.vote/arundel-and-south-downs",
-          "who_suggests": "tactical.vote"
         }
       ],
       "outcome_frequency": [
@@ -5493,7 +5486,7 @@
     },
     "bosworth": {
       "aggregation": {
-        "disagreement": true,
+        "disagreement": false,
         "important": false,
         "party": "ld",
         "template": "vote-ld.html"
@@ -5532,13 +5525,6 @@
           "they_say": null,
           "url": "https://tacticalvote.getvoting.org/bosworth/",
           "who_suggests": "Best for Britain"
-        },
-        {
-          "important": false,
-          "party": "lab",
-          "they_say": null,
-          "url": "https://tactical.vote/bosworth",
-          "who_suggests": "tactical.vote"
         }
       ],
       "outcome_frequency": [
@@ -10223,7 +10209,7 @@
     },
     "chelsea-and-fulham": {
       "aggregation": {
-        "disagreement": true,
+        "disagreement": false,
         "important": false,
         "party": "ld",
         "template": "vote-ld.html"
@@ -10269,13 +10255,6 @@
           "they_say": null,
           "url": "https://tacticalvote.getvoting.org/chelsea-and-fulham/",
           "who_suggests": "Best for Britain"
-        },
-        {
-          "important": false,
-          "party": "lab",
-          "they_say": null,
-          "url": "https://tactical.vote/chelsea-and-fulham",
-          "who_suggests": "tactical.vote"
         }
       ],
       "outcome_frequency": [
@@ -10575,10 +10554,10 @@
     },
     "chichester": {
       "aggregation": {
-        "disagreement": true,
+        "disagreement": false,
         "important": false,
-        "party": null,
-        "template": "contradict.html"
+        "party": "ld",
+        "template": "vote-ld.html"
       },
       "analysis": {
         "template": "alliance-mixed.html",
@@ -10614,13 +10593,6 @@
           "they_say": null,
           "url": "https://tacticalvote.getvoting.org/chichester/",
           "who_suggests": "Best for Britain"
-        },
-        {
-          "important": false,
-          "party": "lab",
-          "they_say": null,
-          "url": "https://tactical.vote/chichester",
-          "who_suggests": "tactical.vote"
         }
       ],
       "outcome_frequency": [
@@ -16168,7 +16140,7 @@
     },
     "eddisbury": {
       "aggregation": {
-        "disagreement": true,
+        "disagreement": false,
         "important": false,
         "party": "ld",
         "template": "vote-ld.html"
@@ -16214,13 +16186,6 @@
           "they_say": null,
           "url": "https://tacticalvote.getvoting.org/eddisbury/",
           "who_suggests": "Best for Britain"
-        },
-        {
-          "important": false,
-          "party": "lab",
-          "they_say": null,
-          "url": "https://tactical.vote/eddisbury",
-          "who_suggests": "tactical.vote"
         }
       ],
       "outcome_frequency": [
@@ -17199,7 +17164,7 @@
     },
     "epsom-and-ewell": {
       "aggregation": {
-        "disagreement": true,
+        "disagreement": false,
         "important": false,
         "party": "ld",
         "template": "vote-ld.html"
@@ -17245,13 +17210,6 @@
           "they_say": null,
           "url": "https://tacticalvote.getvoting.org/epsom-and-ewell/",
           "who_suggests": "Best for Britain"
-        },
-        {
-          "important": false,
-          "party": "lab",
-          "they_say": null,
-          "url": "https://tactical.vote/epsom-and-ewell",
-          "who_suggests": "tactical.vote"
         }
       ],
       "outcome_frequency": [
@@ -21922,7 +21880,7 @@
     },
     "henley": {
       "aggregation": {
-        "disagreement": true,
+        "disagreement": false,
         "important": false,
         "party": "ld",
         "template": "vote-ld.html"
@@ -21968,13 +21926,6 @@
           "they_say": null,
           "url": "https://tacticalvote.getvoting.org/henley/",
           "who_suggests": "Best for Britain"
-        },
-        {
-          "important": false,
-          "party": "lab",
-          "they_say": null,
-          "url": "https://tactical.vote/henley",
-          "who_suggests": "tactical.vote"
         }
       ],
       "outcome_frequency": [
@@ -22787,7 +22738,7 @@
     },
     "horsham": {
       "aggregation": {
-        "disagreement": true,
+        "disagreement": false,
         "important": false,
         "party": "ld",
         "template": "vote-ld.html"
@@ -22833,13 +22784,6 @@
           "they_say": null,
           "url": "https://tacticalvote.getvoting.org/horsham/",
           "who_suggests": "Best for Britain"
-        },
-        {
-          "important": false,
-          "party": "lab",
-          "they_say": null,
-          "url": "https://tactical.vote/horsham",
-          "who_suggests": "tactical.vote"
         }
       ],
       "outcome_frequency": [
@@ -24109,10 +24053,10 @@
     },
     "kenilworth-and-southam": {
       "aggregation": {
-        "disagreement": true,
+        "disagreement": false,
         "important": false,
-        "party": null,
-        "template": "contradict.html"
+        "party": "ld",
+        "template": "vote-ld.html"
       },
       "analysis": {
         "template": "alliance-mixed.html",
@@ -24148,13 +24092,6 @@
           "they_say": null,
           "url": "https://tacticalvote.getvoting.org/kenilworth-and-southam/",
           "who_suggests": "Best for Britain"
-        },
-        {
-          "important": false,
-          "party": "lab",
-          "they_say": null,
-          "url": "https://tactical.vote/kenilworth-and-southam",
-          "who_suggests": "tactical.vote"
         }
       ],
       "outcome_frequency": [
@@ -27092,10 +27029,10 @@
     },
     "ludlow": {
       "aggregation": {
-        "disagreement": true,
+        "disagreement": false,
         "important": false,
-        "party": null,
-        "template": "contradict.html"
+        "party": "ld",
+        "template": "vote-ld.html"
       },
       "analysis": {
         "template": "suppressed-too-far-behind-2017.html",
@@ -27131,13 +27068,6 @@
           "they_say": null,
           "url": "https://tacticalvote.getvoting.org/ludlow/",
           "who_suggests": "Best for Britain"
-        },
-        {
-          "important": false,
-          "party": "lab",
-          "they_say": null,
-          "url": "https://tactical.vote/ludlow",
-          "who_suggests": "tactical.vote"
         }
       ],
       "outcome_frequency": [
@@ -27458,7 +27388,7 @@
     },
     "maidstone-and-the-weald": {
       "aggregation": {
-        "disagreement": true,
+        "disagreement": false,
         "important": false,
         "party": "ld",
         "template": "vote-ld.html"
@@ -27504,13 +27434,6 @@
           "they_say": null,
           "url": "https://tacticalvote.getvoting.org/maidstone-and-the-weald/",
           "who_suggests": "Best for Britain"
-        },
-        {
-          "important": false,
-          "party": "lab",
-          "they_say": null,
-          "url": "https://tactical.vote/maidstone-and-the-weald",
-          "who_suggests": "tactical.vote"
         }
       ],
       "outcome_frequency": [
@@ -30811,7 +30734,7 @@
     },
     "newton-abbot": {
       "aggregation": {
-        "disagreement": true,
+        "disagreement": false,
         "important": false,
         "party": "ld",
         "template": "vote-ld.html"
@@ -30857,13 +30780,6 @@
           "they_say": null,
           "url": "https://tacticalvote.getvoting.org/newton-abbot/",
           "who_suggests": "Best for Britain"
-        },
-        {
-          "important": false,
-          "party": "lab",
-          "they_say": null,
-          "url": "https://tactical.vote/newton-abbot",
-          "who_suggests": "tactical.vote"
         }
       ],
       "outcome_frequency": [
@@ -34299,10 +34215,10 @@
     },
     "orpington": {
       "aggregation": {
-        "disagreement": true,
+        "disagreement": false,
         "important": false,
-        "party": null,
-        "template": "contradict.html"
+        "party": "ld",
+        "template": "vote-ld.html"
       },
       "analysis": {
         "template": "suppressed-too-far-behind-2017.html",
@@ -34338,13 +34254,6 @@
           "they_say": null,
           "url": "https://tacticalvote.getvoting.org/orpington/",
           "who_suggests": "Best for Britain"
-        },
-        {
-          "important": false,
-          "party": "lab",
-          "they_say": null,
-          "url": "https://tactical.vote/orpington",
-          "who_suggests": "tactical.vote"
         }
       ],
       "outcome_frequency": [
@@ -39667,7 +39576,7 @@
     },
     "solihull": {
       "aggregation": {
-        "disagreement": true,
+        "disagreement": false,
         "important": false,
         "party": "ld",
         "template": "vote-ld.html"
@@ -39713,13 +39622,6 @@
           "they_say": null,
           "url": "https://tacticalvote.getvoting.org/solihull/",
           "who_suggests": "Best for Britain"
-        },
-        {
-          "important": false,
-          "party": "lab",
-          "they_say": null,
-          "url": "https://tactical.vote/solihull",
-          "who_suggests": "tactical.vote"
         }
       ],
       "outcome_frequency": [
@@ -40293,7 +40195,7 @@
     },
     "south-east-cambridgeshire": {
       "aggregation": {
-        "disagreement": true,
+        "disagreement": false,
         "important": false,
         "party": "ld",
         "template": "vote-ld.html"
@@ -40339,13 +40241,6 @@
           "they_say": null,
           "url": "https://tacticalvote.getvoting.org/south-east-cambridgeshire/",
           "who_suggests": "Best for Britain"
-        },
-        {
-          "important": false,
-          "party": "lab",
-          "they_say": null,
-          "url": "https://tactical.vote/south-east-cambridgeshire",
-          "who_suggests": "tactical.vote"
         }
       ],
       "outcome_frequency": [
@@ -42220,7 +42115,7 @@
     },
     "st-austell-and-newquay": {
       "aggregation": {
-        "disagreement": true,
+        "disagreement": false,
         "important": false,
         "party": "ld",
         "template": "vote-ld.html"
@@ -42266,13 +42161,6 @@
           "they_say": null,
           "url": "https://tacticalvote.getvoting.org/st-austell-and-newquay/",
           "who_suggests": "Best for Britain"
-        },
-        {
-          "important": false,
-          "party": "lab",
-          "they_say": null,
-          "url": "https://tactical.vote/st-austell-and-newquay",
-          "who_suggests": "tactical.vote"
         }
       ],
       "outcome_frequency": [
@@ -44615,10 +44503,10 @@
     },
     "tatton": {
       "aggregation": {
-        "disagreement": true,
+        "disagreement": false,
         "important": false,
-        "party": null,
-        "template": "contradict.html"
+        "party": "ld",
+        "template": "vote-ld.html"
       },
       "analysis": {
         "template": "alliance-mixed.html",
@@ -44654,13 +44542,6 @@
           "they_say": null,
           "url": "https://tacticalvote.getvoting.org/tatton/",
           "who_suggests": "Best for Britain"
-        },
-        {
-          "important": false,
-          "party": "lab",
-          "they_say": null,
-          "url": "https://tactical.vote/tatton",
-          "who_suggests": "tactical.vote"
         }
       ],
       "outcome_frequency": [
@@ -44880,7 +44761,7 @@
     },
     "tewkesbury": {
       "aggregation": {
-        "disagreement": true,
+        "disagreement": false,
         "important": false,
         "party": "ld",
         "template": "vote-ld.html"
@@ -44926,13 +44807,6 @@
           "they_say": null,
           "url": "https://tacticalvote.getvoting.org/tewkesbury/",
           "who_suggests": "Best for Britain"
-        },
-        {
-          "important": false,
-          "party": "lab",
-          "they_say": null,
-          "url": "https://tactical.vote/tewkesbury",
-          "who_suggests": "tactical.vote"
         }
       ],
       "outcome_frequency": [
@@ -45766,7 +45640,7 @@
     },
     "torridge-and-west-devon": {
       "aggregation": {
-        "disagreement": true,
+        "disagreement": false,
         "important": false,
         "party": "ld",
         "template": "vote-ld.html"
@@ -45812,13 +45686,6 @@
           "they_say": null,
           "url": "https://tacticalvote.getvoting.org/torridge-and-west-devon/",
           "who_suggests": "Best for Britain"
-        },
-        {
-          "important": false,
-          "party": "lab",
-          "they_say": null,
-          "url": "https://tactical.vote/torridge-and-west-devon",
-          "who_suggests": "tactical.vote"
         }
       ],
       "outcome_frequency": [
@@ -47231,7 +47098,7 @@
     },
     "wantage": {
       "aggregation": {
-        "disagreement": true,
+        "disagreement": false,
         "important": false,
         "party": "ld",
         "template": "vote-ld.html"
@@ -47277,13 +47144,6 @@
           "they_say": null,
           "url": "https://tacticalvote.getvoting.org/wantage/",
           "who_suggests": "Best for Britain"
-        },
-        {
-          "important": false,
-          "party": "lab",
-          "they_say": null,
-          "url": "https://tactical.vote/wantage",
-          "who_suggests": "tactical.vote"
         }
       ],
       "outcome_frequency": [
@@ -47909,10 +47769,10 @@
     },
     "wealden": {
       "aggregation": {
-        "disagreement": true,
+        "disagreement": false,
         "important": false,
-        "party": null,
-        "template": "contradict.html"
+        "party": "ld",
+        "template": "vote-ld.html"
       },
       "analysis": {
         "template": "alliance-mixed.html",
@@ -47948,13 +47808,6 @@
           "they_say": null,
           "url": "https://tacticalvote.getvoting.org/wealden/",
           "who_suggests": "Best for Britain"
-        },
-        {
-          "important": false,
-          "party": "lab",
-          "they_say": null,
-          "url": "https://tactical.vote/wealden",
-          "who_suggests": "tactical.vote"
         }
       ],
       "outcome_frequency": [
@@ -49065,10 +48918,10 @@
     },
     "west-worcestershire": {
       "aggregation": {
-        "disagreement": true,
+        "disagreement": false,
         "important": false,
-        "party": null,
-        "template": "contradict.html"
+        "party": "ld",
+        "template": "vote-ld.html"
       },
       "analysis": {
         "template": "alliance-mixed.html",
@@ -49104,13 +48957,6 @@
           "they_say": null,
           "url": "https://tacticalvote.getvoting.org/west-worcestershire/",
           "who_suggests": "Best for Britain"
-        },
-        {
-          "important": false,
-          "party": "lab",
-          "they_say": null,
-          "url": "https://tactical.vote/west-worcestershire",
-          "who_suggests": "tactical.vote"
         }
       ],
       "outcome_frequency": [
