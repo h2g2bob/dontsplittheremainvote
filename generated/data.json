@@ -28489,7 +28489,7 @@
       "other_sites": [
         {
           "important": false,
-          "party": "lab",
+          "party": "ld",
           "they_say": null,
           "url": "https://tactical-vote.uk/mid-norfolk",
           "who_suggests": "People's Vote"
@@ -47233,8 +47233,8 @@
       "aggregation": {
         "disagreement": true,
         "important": false,
-        "party": null,
-        "template": "contradict.html"
+        "party": "ld",
+        "template": "vote-ld.html"
       },
       "analysis": {
         "template": "no-conflict-hard.html",
@@ -47266,8 +47266,8 @@
         },
         {
           "important": false,
-          "party": "lab",
-          "they_say": "Vote Labour - Safe Conservative seat with no clear remain party challenger",
+          "party": "any",
+          "they_say": "No recommendation - Safe Conservative seat with no clear remain party challenger",
           "url": "https://www.remainunited.org/#postcode=GL73HA",
           "who_suggests": "Remain United"
         },

@@ -364,7 +364,7 @@ middlesbrough,E14000819,0.6567331705811376,lab,5,lab,5,,,lab,5,lab,5,lab,5,lab,5
 middlesbrough-south-and-east-cleveland,E14000820,0.5035069298614028,lab,4,,,lab,4,lab,4,any,0,lab,4,lab,4
 mid-dorset-and-north-poole,E14000815,0.40761387656981796,ld,5,ld,5,,,ld,5,ld,5,ld,5,ld,5
 midlothian,S14000045,0.7455216133236146,,,,,,,,,snp,-1,lab,-1,any,0
-mid-norfolk,E14000816,0.3727096356973485,ld,-2,,,,,lab,0,any,0,lab,0,,
+mid-norfolk,E14000816,0.3727096356973485,ld,0,,,,,ld,0,any,0,lab,-2,,
 mid-sussex,E14000817,0.402956256490135,ld,0,,,ld,0,ld,0,lab,-2,lab,-2,,
 mid-ulster,N06000010,0.6662954555189103,,,,,,,,,sf,1,sf,1,,
 mid-worcestershire,E14000818,0.31697798108515307,ld,1,,,,,ld,1,any,0,any,0,,
@@ -596,7 +596,7 @@ walsall-north,E14001011,0.4280917152001679,lab,4,lab,4,,,lab,4,any,0,lab,4,lab,4
 walsall-south,E14001012,0.5737429660555455,lab,5,lab,5,,,lab,5,lab,5,lab,5,lab,5
 walthamstow,E14001013,0.859252643167231,lab,3,,,,,lab,3,lab,3,lab,3,any,0
 wansbeck,E14001014,0.6207424506524709,lab,5,lab,5,,,lab,5,lab,5,lab,5,lab,5
-wantage,E14001015,0.4380208169554416,ld,1,ld,1,ld,1,ld,1,lab,-3,lab,-3,,
+wantage,E14001015,0.4380208169554416,ld,2,ld,2,ld,2,ld,2,any,0,lab,-4,,
 warley,E14001016,0.6716410485997115,lab,4,,,,,lab,4,lab,4,lab,4,lab,4
 warrington-north,E14001017,0.5887214790691923,lab,5,lab,5,,,lab,5,lab,5,lab,5,lab,5
 warrington-south,E14001018,0.5376723929349141,lab,5,,,lab,5,lab,5,lab,5,lab,5,lab,5
