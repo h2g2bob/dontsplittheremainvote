@@ -11,91 +11,10 @@
    
 
 
- <script src="https://cc.cdn.civiccomputing.com/8/cookieControl-8.2.1.min.js" integrity="sha384-5hK4cBe/+/7kp5VvBY+YbZl8L38bgcJwxfFcc+VrIPnPeMUoI6dcnyPSo4J9zeg4" crossorigin="anonymous"></script>
-        <script>
-            // Establish GA object but don't send anything yet
-            window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
-            ga('create', 'UA-98374795-9', 'auto');
-            ga('send', 'pageview');
-        
-        
-            var config = {
-              apiKey: '7b97678ca6446369bc2be9786d7f73d5b9666768',
-              product: 'PRO_MULTISITE',
-              initialState: 'open',
-              position: 'left',
-              closeStyle: 'icon',
-              statement : {
-                description: 'Our Cookie Policy and Cookie preference management have changed. If you accept our recommended settings all Cookies, including analytics and marketing cookies will be enabled. For more information see our ',
-                name : 'Cookies Policy',
-                url: 'https://www.bestforbritain.org/cookies',
-                updated : '06/09/2019'
-              },
-              text : {
-                  thirdPartyTitle : 'Warning: Some cookies require your attention',
-                  thirdPartyDescription : 'Consent for some third party cookies can not be automatically revoked. Please follow the link below if you want to opt out of them.',
-                  closeLabel: 'Save and close'
-              },
-              branding : {
-                fontFamily: 'Roboto, Arial, Sans',
-                removeAbout: true
-              },
-              necessaryCookies: [
-                  {
-                      name : 'functionality',
-                      label: 'Functionality Cookies',
-                      recommendedState: true,
-                      description: "Some cookies are necessary for providing this site's functionality",
-                      cookies: ['sessionid','csrftoken'],
-                  },
-              ],
-              optionalCookies: [
-                  {
-                      name : 'analytics',
-                      label: 'Analytics Cookies',
-                      recommendedState: true,
-                      description: 'We use Google Analytics to collect and report information on how visitors use this site so we can make it better.',
-                      cookies: ['__ga', '_gid', '_gat', '__utma', '__utmt', '__utmb', '__utmc', '__utmz', '__utmv'],
-                      onAccept : function(){
-                        var s = document.createElement('script');
-                        s.setAttribute('src', 'https://www.google-analytics.com/analytics.js');
-                        document.body.appendChild(s);
-                      },
-                      onRevoke: function(){
-                        // Disable Google Analytics
-                        window['ga-disable-UA-98374795-9'] = true;
-                        // End Google Analytics
-                      }
-                  },
-                  {
-                      name : 'marketing',
-                      label: 'Marketing Cookies',
-                      recommendedState: true,
-                      description: 'We use marketing cookies to help us improve the performance of advertising campaigns we run.',
-                      cookies: ['fr'],
-                      onAccept : function(){
-                          // Add Facebook Pixel
-                          !function(f,b,e,v,n,t,s)
-                          {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-                              n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-                              if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-                              n.queue=[];t=b.createElement(e);t.async=!0;
-                              t.src=v;s=b.getElementsByTagName(e)[0];
-                              s.parentNode.insertBefore(t,s)}(window,document,'script',
-                              'https://connect.facebook.net/en_US/fbevents.js');
-                          fbq('init', '1871418283117093');
-                          fbq('track', 'PageView');
-                          fbq('consent', 'grant');
-                          // End Facebook Pixel
-                      },
-                      onRevoke: function() {
-                        fbq('consent', 'revoke');
-                      }
-                  },
-              ]
-            };
-            CookieControl.load( config );
-            </script>
+
+<script src="https://cc.cdn.civiccomputing.com/8/cookieControl-8.2.1.min.js"
+  integrity="sha384-5hK4cBe/+/7kp5VvBY+YbZl8L38bgcJwxfFcc+VrIPnPeMUoI6dcnyPSo4J9zeg4" crossorigin="anonymous"></script>
+  <script src="/static/js/cookies.js"></script>
 
 <meta name="author" content="BestforBritain.org">
 <meta property="og:url" content="https://tacticalvote.getvoting.org">
@@ -110,13 +29,16 @@
 <link rel="icon" type="image/x-icon" href="https://getvoting.org/fav_getvoting.png" />
 
 
-    <title>Edinburgh North and Leith, GetVoting Tactically</title>
-    <meta name="description" content="Find out who to vote for in Edinburgh North and Leith. #GetVoting, tactically. Together, we can stop Brexit.">
-    <meta property="og:title" content="GetVoting tactically in Edinburgh North and Leith" />
-    <meta property="og:description" content="Find out who to vote for in Edinburgh North and Leith. #GetVoting, tactically. Together, we can stop Brexit.">
-    <meta name="twitter:title" content="GetVoting tactically in Edinburgh North and Leith">
-    <meta name="twitter:description" content="Find out who to vote for in Edinburgh North and Leith. #GetVoting, tactically. Together, we can stop Brexit.">
-    
+<title>Edinburgh North and Leith, GetVoting Tactically</title>
+<meta name="description"
+  content="Find out who to vote for in Edinburgh North and Leith. #GetVoting, tactically. Together, we can stop Brexit.">
+<meta property="og:title" content="GetVoting tactically in Edinburgh North and Leith" />
+<meta property="og:description"
+  content="Find out who to vote for in Edinburgh North and Leith. #GetVoting, tactically. Together, we can stop Brexit.">
+<meta name="twitter:title" content="GetVoting tactically in Edinburgh North and Leith">
+<meta name="twitter:description"
+  content="Find out who to vote for in Edinburgh North and Leith. #GetVoting, tactically. Together, we can stop Brexit.">
+
 
 
 
@@ -130,6 +52,7 @@
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
     <!--swiper start-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/css/swiper.min.css">
     <!--materialize-->
@@ -138,6 +61,9 @@
     <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
     <!-- CSS -->
     <link rel="stylesheet" type="text/css" href="/static/css/main.css">
+    <!--d3 css-->
+    <link rel="stylesheet" type="text/css" href="/static/css/graph.css">
+    
   </head>
 
   <body>
@@ -221,7 +147,7 @@ The Electoral Commission.
 			
 			
 			
-			
+						
 	
 			
 		<!-- ==== SLIDE1 Map ======================================== -->
@@ -336,10 +262,14 @@ The Electoral Commission.
 			
 		<!-- ==== SLIDE4 Chart1  ========================================== -->
 				
-				
+			
 		
 
 		<!-- ==== SLIDE5 Chart2  ========================================== -->
+			
+			
+
+		<!-- ==== SLIDE6 Chart Combined  ========================================== -->
 			
 			
 
@@ -378,6 +308,12 @@ The Electoral Commission.
 		
 		<!-- ==== SLIDE7 Update ========================================== -->
 		
+		<!--update present-->		
+		
+			
+				
+			
+			
 
 		<!-- ==== SLIDE8 Logo Repeat ========================================== -->
 		
@@ -546,6 +482,8 @@ The Electoral Commission.
     <!-- JQ UI to replace by better one for autocomplete -->
     <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
+    	<script src="https://d3js.org/d3.v3.min.js"></script>
+	    <script src="/static/js/graph.js"></script>
     <script src="/static/js/main.js"></script>
     <script src="/static/js/histogram.js"></script>
 

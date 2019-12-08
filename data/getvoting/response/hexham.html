@@ -11,91 +11,10 @@
    
 
 
- <script src="https://cc.cdn.civiccomputing.com/8/cookieControl-8.2.1.min.js" integrity="sha384-5hK4cBe/+/7kp5VvBY+YbZl8L38bgcJwxfFcc+VrIPnPeMUoI6dcnyPSo4J9zeg4" crossorigin="anonymous"></script>
-        <script>
-            // Establish GA object but don't send anything yet
-            window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
-            ga('create', 'UA-98374795-9', 'auto');
-            ga('send', 'pageview');
-        
-        
-            var config = {
-              apiKey: '7b97678ca6446369bc2be9786d7f73d5b9666768',
-              product: 'PRO_MULTISITE',
-              initialState: 'open',
-              position: 'left',
-              closeStyle: 'icon',
-              statement : {
-                description: 'Our Cookie Policy and Cookie preference management have changed. If you accept our recommended settings all Cookies, including analytics and marketing cookies will be enabled. For more information see our ',
-                name : 'Cookies Policy',
-                url: 'https://www.bestforbritain.org/cookies',
-                updated : '06/09/2019'
-              },
-              text : {
-                  thirdPartyTitle : 'Warning: Some cookies require your attention',
-                  thirdPartyDescription : 'Consent for some third party cookies can not be automatically revoked. Please follow the link below if you want to opt out of them.',
-                  closeLabel: 'Save and close'
-              },
-              branding : {
-                fontFamily: 'Roboto, Arial, Sans',
-                removeAbout: true
-              },
-              necessaryCookies: [
-                  {
-                      name : 'functionality',
-                      label: 'Functionality Cookies',
-                      recommendedState: true,
-                      description: "Some cookies are necessary for providing this site's functionality",
-                      cookies: ['sessionid','csrftoken'],
-                  },
-              ],
-              optionalCookies: [
-                  {
-                      name : 'analytics',
-                      label: 'Analytics Cookies',
-                      recommendedState: true,
-                      description: 'We use Google Analytics to collect and report information on how visitors use this site so we can make it better.',
-                      cookies: ['__ga', '_gid', '_gat', '__utma', '__utmt', '__utmb', '__utmc', '__utmz', '__utmv'],
-                      onAccept : function(){
-                        var s = document.createElement('script');
-                        s.setAttribute('src', 'https://www.google-analytics.com/analytics.js');
-                        document.body.appendChild(s);
-                      },
-                      onRevoke: function(){
-                        // Disable Google Analytics
-                        window['ga-disable-UA-98374795-9'] = true;
-                        // End Google Analytics
-                      }
-                  },
-                  {
-                      name : 'marketing',
-                      label: 'Marketing Cookies',
-                      recommendedState: true,
-                      description: 'We use marketing cookies to help us improve the performance of advertising campaigns we run.',
-                      cookies: ['fr'],
-                      onAccept : function(){
-                          // Add Facebook Pixel
-                          !function(f,b,e,v,n,t,s)
-                          {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-                              n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-                              if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-                              n.queue=[];t=b.createElement(e);t.async=!0;
-                              t.src=v;s=b.getElementsByTagName(e)[0];
-                              s.parentNode.insertBefore(t,s)}(window,document,'script',
-                              'https://connect.facebook.net/en_US/fbevents.js');
-                          fbq('init', '1871418283117093');
-                          fbq('track', 'PageView');
-                          fbq('consent', 'grant');
-                          // End Facebook Pixel
-                      },
-                      onRevoke: function() {
-                        fbq('consent', 'revoke');
-                      }
-                  },
-              ]
-            };
-            CookieControl.load( config );
-            </script>
+
+<script src="https://cc.cdn.civiccomputing.com/8/cookieControl-8.2.1.min.js"
+  integrity="sha384-5hK4cBe/+/7kp5VvBY+YbZl8L38bgcJwxfFcc+VrIPnPeMUoI6dcnyPSo4J9zeg4" crossorigin="anonymous"></script>
+  <script src="/static/js/cookies.js"></script>
 
 <meta name="author" content="BestforBritain.org">
 <meta property="og:url" content="https://tacticalvote.getvoting.org">
@@ -110,13 +29,16 @@
 <link rel="icon" type="image/x-icon" href="https://getvoting.org/fav_getvoting.png" />
 
 
-    <title>Hexham, GetVoting Tactically</title>
-    <meta name="description" content="Find out who to vote for in Hexham. #GetVoting, tactically. Together, we can stop Brexit.">
-    <meta property="og:title" content="GetVoting tactically in Hexham" />
-    <meta property="og:description" content="Find out who to vote for in Hexham. #GetVoting, tactically. Together, we can stop Brexit.">
-    <meta name="twitter:title" content="GetVoting tactically in Hexham">
-    <meta name="twitter:description" content="Find out who to vote for in Hexham. #GetVoting, tactically. Together, we can stop Brexit.">
-    
+<title>Hexham, GetVoting Tactically</title>
+<meta name="description"
+  content="Find out who to vote for in Hexham. #GetVoting, tactically. Together, we can stop Brexit.">
+<meta property="og:title" content="GetVoting tactically in Hexham" />
+<meta property="og:description"
+  content="Find out who to vote for in Hexham. #GetVoting, tactically. Together, we can stop Brexit.">
+<meta name="twitter:title" content="GetVoting tactically in Hexham">
+<meta name="twitter:description"
+  content="Find out who to vote for in Hexham. #GetVoting, tactically. Together, we can stop Brexit.">
+
 
 
 
@@ -130,6 +52,7 @@
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
     <!--swiper start-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/css/swiper.min.css">
     <!--materialize-->
@@ -138,6 +61,9 @@
     <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
     <!-- CSS -->
     <link rel="stylesheet" type="text/css" href="/static/css/main.css">
+    <!--d3 css-->
+    <link rel="stylesheet" type="text/css" href="/static/css/graph.css">
+    
   </head>
 
   <body>
@@ -221,7 +147,7 @@ The Electoral Commission.
 			
 			
 			
-			
+						
 	
 			
 		<!-- ==== SLIDE1 Map ======================================== -->
@@ -337,57 +263,17 @@ The Electoral Commission.
 		<!-- ==== SLIDE4 Chart1  ========================================== -->
 				
 			
-					
-					
-				
-				
-				
-				
-				
-				
-					
-
-
-
-<!--  Chart -->
-<div class="chartslide swiper-slide color-4 black-text">
-	<!--Row -->
-	<div class="row">
-		<div class="line-top col s12" style="position:relative;top:-56px">
-				<p class="h4">Hexham<br>Predicted Vote Share based on November MRP data</p><p>Scenario: No Tactical Voting</p>
-		</div>
-		<div class="col s12 m8 offset-m2 l6 offset-l3"  style="position:relative;top:-56px;padding-top:20px;padding-bottom:15px">
-			<meta id="chart_actual-data" data-name="[0.0, 16.79, 26.56, 2.31, 54.339999999999996]">
-			<meta id="chart_actual-labels" data-name='[ &quot;Brexit Party&quot;, &quot;Liberal Democrats&quot;, &quot;Labour&quot;, &quot;Green Party&quot;, &quot;Conservatives&quot;]'>
-			<canvas id="chart_actual" class="color-3 histogram" style="max-width:90%"></canvas>
-		</div>
-		<div class="col s10 offset-s1"  style="position:relative;top:-56px">
-				<p class="methodology">Study carried out for HOPE not hate and Best for Britain by Focaldata, using MRP technique to estimate opinion in each Constituency in the UK. Focaldata collected data from 39,476 respondents between 15th of October and the 24th of November 2019 using a range of online panel providers, including Panelbase, Opinium, Dynata, BMG, YouGov, and Focaldata’s own panel.</p>
-		</div>
-		<div class="col s12 line-bottom">
-			<p class="h5">Why vote tactically?
-				<i class="material-icons arrow-down">keyboard_arrow_down</i>
-			</p>
-		</div>
-	</div>
-</div>
-
-
-
-				
-				
 		
 
 		<!-- ==== SLIDE5 Chart2  ========================================== -->
 			
 			
+
+		<!-- ==== SLIDE6 Chart Combined  ========================================== -->
+			
+			
 					
-					
-				
-				
-				
-				
-				
+									
 									
 					
 
@@ -397,16 +283,28 @@ The Electoral Commission.
 <div class="chartslide swiper-slide color-4 black-text">
 	<!--Row -->
 	<div class="row">
-		<div class="line-top col s12" style="position:relative;top:-56px">
-				<p class="h4">Hexham<br>Predicted Vote Share based on November MRP data</p><p>Scenario: 30% Remainers vote tactically</p>
+
+
+		<!-- chart -->
+
+		<div id="d3chart" class="col s12 m8 offset-m2 l6 offset-l3">
+			<meta id="chart-data" data-name="[8.9, 19.9, 19.7, 6.1, 44.4, 0.0, 16.79, 26.56, 2.31, 54.34, 0.0, 15.89, 29.45, 2.8000000000000003, 51.849999999999994, 0.0, 11.129999999999999, 35.06, 1.96, 51.849999999999994]">
+			<meta id="chart-labels" data-name='[&quot;Brexit Party&quot;, &quot;Liberal Democrats&quot;, &quot;Labour&quot;, &quot;Green Party&quot;, &quot;Conservatives&quot;]'>
+
+
+
+				<span class=""><b>Predicted Vote Share</b> (data by month):<br></span>
+				<a id="octchip" class="waves-effect waves-light btn-small chartbtn  grey darken-1">October</a>
+				<a id="novchip" class="waves-effect waves-light btn-small chartbtn  grey darken-1">November</a>
+				<a id="decchip" class="waves-effect waves-light btn-small chartbtn  amber darken-1">December</a><br>
+				<div style="margin-top:15px;margin-bottom:15px"><b>What if 30% Remainers vote tactically!?</b><br>
+					<a id="tctchip" class="waves-effect waves-light btn-small chartbtn color-5 pulse"><i class="material-icons right">how_to_vote</i>Tactical Voting Scenario</a><br>
+				</div>
+
 		</div>
-		<div class="col s12 m8 offset-m2 l6 offset-l3"  style="position:relative;top:-56px;padding-top:20px;padding-bottom:15px">
-			<meta id="chart_tactical-data" data-name="[0.0, 11.75, 32.29, 1.6099999999999999, 54.339999999999996]">
-			<meta id="chart_tactical-labels" data-name='[ &quot;Brexit Party&quot;, &quot;Liberal Democrats&quot;, &quot;Labour&quot;, &quot;Green Party&quot;, &quot;Conservatives&quot;]'>
-			<canvas id="chart_tactical" class="color-3 histogram" style="max-width:90%"></canvas>
-		</div>
-		<div class="col s10 offset-s1"  style="position:relative;top:-56px">
-				<p class="methodology">Study carried out for HOPE not hate and Best for Britain by Focaldata, using MRP technique to estimate opinion in each Constituency in the UK. Focaldata collected data from 39,476 respondents between 15th of October and the 24th of November 2019 using a range of online panel providers, including Panelbase, Opinium, Dynata, BMG, YouGov, and Focaldata’s own panel.</p>
+		<!-- methodology -->
+		<div class="col s10 offset-s1" >
+				<p class="methodology">Study carried out by Hope not hate and Best for Britain by Focaldata using MRP technique to estimate voting intention in each constituency in Great Britain. Focaldata collected data from 28,000 respondents between November and December 2019, 39,000 in November 2019 and 46,000 between September and October 2019 using a range of online panel providers, including Opinium, BMG, and Focaldata’s own panel.</p>
 		</div>
 		<div class="col s12 line-bottom">
 			<p class="h5">Why vote tactically?
@@ -440,7 +338,7 @@ The Electoral Commission.
 				<p class="h4">Tactical voting works<br></p>	
 			</div>
 			<div class="line-middle col s12 m8 offset-m2 l6 offset-l3">
-				<p class="h5">Our recommendations are data-led, but we also take into account the local political situation. We used MRP analysis of polls conducted in October 2019 with a sample size of 46,000 voters. And another MRP conducted in November 2019 with a sample of over 39,000. We hope to do another round of MRP before polling day to capture swings during the election campaign and will update our recommendations accordingly.</p>
+				<p class="h5">Our recommendations are data-led, but we also take into account the local political situation. We used MRP analysis of polls conducted in October 2019 with a sample size of 46,000 voters. Another MRP conducted in November 2019 with a sample of over 39,000. And a final MRP in early December from a sample of 28,272. Our final recommendations take account of the current situation and the trends over all three MRPs.</p>
 			</div>
 			<div class="col s12 line-bottom">
 				<p class="h5">
@@ -456,6 +354,48 @@ The Electoral Commission.
 		
 		<!-- ==== SLIDE7 Update ========================================== -->
 		
+		<!--update present-->		
+		
+			
+				
+					
+						
+
+
+
+<!-- SLIDE1 Map -->
+<div class="normalslide swiper-slide color-4 black-text">
+
+	<!--Row -->
+	<div class="row">		
+
+		<div class="col s10 offset-s1 m8 offset-m2 l6 offset-l3 ">
+			<div class="card small white">
+				<div class="card-content black-text">
+					<span class="card-title left-align">Recommendation changed in Hexham</span>
+					<p class="left-align">Our recommendation has been updated from The Liberal Democrats to The Labour Party based on our new MRP polling analysis undertaken in late November 2019.</p>
+				</div>
+				<div class="card-action left-align" style="font-size:0.8em">
+					<a href="https://www.bestforbritain.org/new_tactical_voting_recommendations_updated_mrp_polling">READ MORE...</a>
+					<span class="right">27 Nov, 2019</span>
+
+				</div>
+			</div>
+		</div>
+		
+		<div class="col s12 line-bottom">
+			<p class="h5">
+				<i class="material-icons arrow-down">keyboard_arrow_down</i>
+			</p>
+		</div>
+	</div>
+</div>
+
+
+					
+				
+			
+			
 
 		<!-- ==== SLIDE8 Logo Repeat ========================================== -->
 		
@@ -624,6 +564,8 @@ The Electoral Commission.
     <!-- JQ UI to replace by better one for autocomplete -->
     <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
+    	<script src="https://d3js.org/d3.v3.min.js"></script>
+	    <script src="/static/js/graph.js"></script>
     <script src="/static/js/main.js"></script>
     <script src="/static/js/histogram.js"></script>
 

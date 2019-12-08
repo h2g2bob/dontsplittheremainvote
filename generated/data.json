@@ -3008,8 +3008,8 @@
       "aggregation": {
         "disagreement": false,
         "important": false,
-        "party": null,
-        "template": "anyparty.html"
+        "party": "lab",
+        "template": "vote-lab.html"
       },
       "analysis": {
         "template": "remain.html",
@@ -3041,7 +3041,7 @@
         },
         {
           "important": false,
-          "party": "any",
+          "party": "lab",
           "they_say": null,
           "url": "https://tacticalvote.getvoting.org/bermondsey-and-old-southwark/",
           "who_suggests": "Best for Britain"
@@ -3088,8 +3088,8 @@
       "aggregation": {
         "disagreement": true,
         "important": false,
-        "party": "lab",
-        "template": "vote-lab.html"
+        "party": null,
+        "template": "contradict.html"
       },
       "analysis": {
         "template": "alliance-mixed.html",
@@ -3114,7 +3114,7 @@
         },
         {
           "important": false,
-          "party": "lab",
+          "party": "ld",
           "they_say": null,
           "url": "https://tacticalvote.getvoting.org/berwick-upon-tweed/",
           "who_suggests": "Best for Britain"
@@ -6032,7 +6032,7 @@
     },
     "braintree": {
       "aggregation": {
-        "disagreement": true,
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -6067,7 +6067,7 @@
         },
         {
           "important": false,
-          "party": "ld",
+          "party": "lab",
           "they_say": null,
           "url": "https://tacticalvote.getvoting.org/braintree/",
           "who_suggests": "Best for Britain"
@@ -6449,10 +6449,10 @@
     },
     "brentwood-and-ongar": {
       "aggregation": {
-        "disagreement": false,
+        "disagreement": true,
         "important": false,
-        "party": "ld",
-        "template": "vote-ld.html"
+        "party": null,
+        "template": "contradict.html"
       },
       "analysis": {
         "template": "suppressed-too-far-behind-2017.html",
@@ -6477,7 +6477,7 @@
         },
         {
           "important": false,
-          "party": "ld",
+          "party": "lab",
           "they_say": null,
           "url": "https://tacticalvote.getvoting.org/brentwood-and-ongar/",
           "who_suggests": "Best for Britain"
@@ -6599,7 +6599,7 @@
     },
     "bridgwater-and-west-somerset": {
       "aggregation": {
-        "disagreement": true,
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -6634,7 +6634,7 @@
         },
         {
           "important": false,
-          "party": "ld",
+          "party": "lab",
           "they_say": null,
           "url": "https://tacticalvote.getvoting.org/bridgwater-and-west-somerset/",
           "who_suggests": "Best for Britain"
@@ -8226,8 +8226,8 @@
       "aggregation": {
         "disagreement": false,
         "important": false,
-        "party": null,
-        "template": "anyparty.html"
+        "party": "ld",
+        "template": "vote-ld.html"
       },
       "analysis": {
         "template": "alliance-mixed.html",
@@ -8256,6 +8256,13 @@
           "they_say": null,
           "url": "https://tactical.vote/caithness-sutherland-and-easter-ross",
           "who_suggests": "tactical.vote"
+        },
+        {
+          "important": false,
+          "party": "ld",
+          "they_say": null,
+          "url": "https://tacticalvote.getvoting.org/caithness-sutherland-and-easter-ross/",
+          "who_suggests": "Best for Britain"
         },
         {
           "important": false,
@@ -8559,8 +8566,8 @@
       "aggregation": {
         "disagreement": false,
         "important": false,
-        "party": null,
-        "template": "anyparty.html"
+        "party": "lab",
+        "template": "vote-lab.html"
       },
       "analysis": {
         "template": "alliance-mixed.html",
@@ -8592,7 +8599,7 @@
         },
         {
           "important": false,
-          "party": "any",
+          "party": "lab",
           "they_say": null,
           "url": "https://tacticalvote.getvoting.org/cambridge/",
           "who_suggests": "Best for Britain"
@@ -9634,8 +9641,8 @@
       "aggregation": {
         "disagreement": true,
         "important": false,
-        "party": null,
-        "template": "contradict.html"
+        "party": "lab",
+        "template": "vote-lab.html"
       },
       "analysis": {
         "template": "alliance-mixed.html",
@@ -9660,7 +9667,7 @@
         },
         {
           "important": false,
-          "party": "ld",
+          "party": "lab",
           "they_say": null,
           "url": "https://tacticalvote.getvoting.org/central-devon/",
           "who_suggests": "Best for Britain"
@@ -25384,7 +25391,7 @@
         },
         {
           "important": false,
-          "party": "any",
+          "party": "lab",
           "they_say": null,
           "url": "https://tacticalvote.getvoting.org/leeds-north-west/",
           "who_suggests": "Best for Britain"
@@ -29984,7 +29991,7 @@
         },
         {
           "important": false,
-          "party": "lab",
+          "party": "ld",
           "they_say": null,
           "url": "https://tacticalvote.getvoting.org/new-forest-west/",
           "who_suggests": "Best for Britain"
@@ -32818,7 +32825,7 @@
         },
         {
           "important": false,
-          "party": "lab",
+          "party": "ld",
           "they_say": null,
           "url": "https://tacticalvote.getvoting.org/north-west-hampshire/",
           "who_suggests": "Best for Britain"
@@ -34215,10 +34222,10 @@
     },
     "orpington": {
       "aggregation": {
-        "disagreement": false,
+        "disagreement": true,
         "important": false,
-        "party": "ld",
-        "template": "vote-ld.html"
+        "party": null,
+        "template": "contradict.html"
       },
       "analysis": {
         "template": "suppressed-too-far-behind-2017.html",
@@ -34236,7 +34243,14 @@
       "other_sites": [
         {
           "important": false,
-          "party": "ld",
+          "party": "lab",
+          "they_say": null,
+          "url": "https://tactical.vote/orpington",
+          "who_suggests": "tactical.vote"
+        },
+        {
+          "important": false,
+          "party": "lab",
           "they_say": null,
           "url": "https://tacticalvote.getvoting.org/orpington/",
           "who_suggests": "Best for Britain"
@@ -34750,10 +34764,10 @@
     },
     "penrith-and-the-border": {
       "aggregation": {
-        "disagreement": true,
+        "disagreement": false,
         "important": false,
-        "party": null,
-        "template": "contradict.html"
+        "party": "lab",
+        "template": "vote-lab.html"
       },
       "analysis": {
         "template": "suppressed-too-far-behind-2017.html",
@@ -34778,7 +34792,7 @@
         },
         {
           "important": false,
-          "party": "ld",
+          "party": "lab",
           "they_say": null,
           "url": "https://tacticalvote.getvoting.org/penrith-and-the-border/",
           "who_suggests": "Best for Britain"
@@ -34857,6 +34871,13 @@
           "they_say": null,
           "url": "https://tactical.vote/perth-and-north-perthshire",
           "who_suggests": "tactical.vote"
+        },
+        {
+          "important": false,
+          "party": "snp",
+          "they_say": null,
+          "url": "https://tacticalvote.getvoting.org/perth-and-north-perthshire/",
+          "who_suggests": "Best for Britain"
         },
         {
           "important": false,
@@ -36329,8 +36350,8 @@
       "aggregation": {
         "disagreement": true,
         "important": false,
-        "party": null,
-        "template": "contradict.html"
+        "party": "lab",
+        "template": "vote-lab.html"
       },
       "analysis": {
         "template": "alliance-mixed.html",
@@ -36355,7 +36376,7 @@
         },
         {
           "important": false,
-          "party": "ld",
+          "party": "lab",
           "they_say": null,
           "url": "https://tacticalvote.getvoting.org/reigate/",
           "who_suggests": "Best for Britain"
@@ -40277,8 +40298,8 @@
       "aggregation": {
         "disagreement": true,
         "important": false,
-        "party": null,
-        "template": "contradict.html"
+        "party": "ld",
+        "template": "vote-ld.html"
       },
       "analysis": {
         "template": "alliance-mixed.html",
@@ -40310,7 +40331,7 @@
         },
         {
           "important": false,
-          "party": "lab",
+          "party": "ld",
           "they_say": null,
           "url": "https://tacticalvote.getvoting.org/south-east-cornwall/",
           "who_suggests": "Best for Britain"
@@ -42108,10 +42129,10 @@
     },
     "st-austell-and-newquay": {
       "aggregation": {
-        "disagreement": false,
+        "disagreement": true,
         "important": false,
-        "party": "ld",
-        "template": "vote-ld.html"
+        "party": null,
+        "template": "contradict.html"
       },
       "analysis": {
         "template": "alliance-mixed.html",
@@ -42136,7 +42157,14 @@
         },
         {
           "important": false,
-          "party": "ld",
+          "party": "lab",
+          "they_say": null,
+          "url": "https://tactical.vote/st-austell-and-newquay",
+          "who_suggests": "tactical.vote"
+        },
+        {
+          "important": false,
+          "party": "lab",
           "they_say": null,
           "url": "https://tacticalvote.getvoting.org/st-austell-and-newquay/",
           "who_suggests": "Best for Britain"
@@ -43868,10 +43896,10 @@
     },
     "suffolk-coastal": {
       "aggregation": {
-        "disagreement": true,
+        "disagreement": false,
         "important": false,
-        "party": null,
-        "template": "contradict.html"
+        "party": "lab",
+        "template": "vote-lab.html"
       },
       "analysis": {
         "template": "alliance-mixed.html",
@@ -43896,7 +43924,7 @@
         },
         {
           "important": false,
-          "party": "ld",
+          "party": "lab",
           "they_say": null,
           "url": "https://tacticalvote.getvoting.org/suffolk-coastal/",
           "who_suggests": "Best for Britain"
@@ -44496,10 +44524,10 @@
     },
     "tatton": {
       "aggregation": {
-        "disagreement": false,
+        "disagreement": true,
         "important": false,
-        "party": "ld",
-        "template": "vote-ld.html"
+        "party": null,
+        "template": "contradict.html"
       },
       "analysis": {
         "template": "alliance-mixed.html",
@@ -44517,7 +44545,14 @@
       "other_sites": [
         {
           "important": false,
-          "party": "ld",
+          "party": "lab",
+          "they_say": null,
+          "url": "https://tactical.vote/tatton",
+          "who_suggests": "tactical.vote"
+        },
+        {
+          "important": false,
+          "party": "lab",
           "they_say": null,
           "url": "https://tacticalvote.getvoting.org/tatton/",
           "who_suggests": "Best for Britain"
@@ -51119,8 +51154,8 @@
       "aggregation": {
         "disagreement": true,
         "important": false,
-        "party": null,
-        "template": "contradict.html"
+        "party": "lab",
+        "template": "vote-lab.html"
       },
       "analysis": {
         "template": "alliance-mixed.html",
@@ -51173,7 +51208,7 @@
         },
         {
           "important": false,
-          "party": "plaid",
+          "party": "lab",
           "they_say": null,
           "url": "https://tactical-vote.uk/ynys-mon",
           "who_suggests": "People's Vote"
