@@ -55,7 +55,7 @@ def generate_constituency(constituency_page, nearby_constituency_pages):
             static=STATIC,
             this_url=BASE_URL + url_path,
             image_735_385=None,
-            image_600_314='/static/banner-generated/' + constituency_page.constituency.slug + '.svg.png',
+            image_600_314=BASE_URL + STATIC + '/banner-generated/' + constituency_page.constituency.slug + '.svg.png',
             constituency=constituency_page.constituency,
             datasets_election=constituency_page.datasets_election,
             datasets_polling=constituency_page.datasets_polling,
