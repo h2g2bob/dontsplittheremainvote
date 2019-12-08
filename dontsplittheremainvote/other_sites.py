@@ -455,6 +455,67 @@ def _jonworth():
                             they_say=match.group('category'))]
 
 
+_OBSERVER = {
+    'Aberdeen South': SNP,
+    'Angus': SNP,
+    'Ayr, Carrick and Cumnock': SNP,
+    'Banff and Buchan': SNP,
+    'Dumfries and Galloway': SNP,
+    'East Renfrewshire': SNP,
+    'Gordon': SNP,
+    'Moray': SNP,
+    'Ochil and South Perthshire': SNP,
+    'Stirling': SNP,
+    'East Lothian': SNP,
+    'Kirkcaldy and Cowdenbeath': LAB,
+    'Midlothian': SNP,
+    'Beaconsfield': DOMINICGRIEVE,
+    'Cheadle': LD,
+    'Chelsea and Fulham': LD,
+    'Cheltenham': LD,
+    'Chingford and Woodford Green': LAB,
+    'Chipping Barnet': LAB,
+    'Cities of London and Westminster': LD,
+    'Esher and Walton': LD,
+    'Filton and Bradley Stoke': LAB,
+    'Finchley and Golders Green': LD,
+    'Guildford': LD,
+    'Hazel Grove': LD,
+    'Hendon': LAB,
+    'South West Hertfordshire': DAVIDGAUKE,
+    'Lewes': LD,
+    'Loughborough': LAB,
+    'Putney': LAB,
+    'Richmond Park': LD,
+    'Rushcliffe': LAB,
+    'South Cambridgeshire': LD,
+    'Southport': LAB,
+    'St Albans': LD,
+    'St Ives': LD,
+    'Totnes': LD,
+    'Truro and Falmouth': LAB,
+    'Uxbridge and South Ruislip': LAB,
+    'Wantage': LD,
+    'Watford': LAB,
+    'Wimbledon': LD,
+    'Winchester': LD,
+    'Wokingham': LD,
+    'Wycombe': LAB,
+    'York Outer': LAB,
+    'Kensington': LD,
+    'Portsmouth South': LAB,
+    'Sheffield, Hallam': LD,
+    'Ynys Môn': LAB,
+}
+def _observer():
+    for slug, party in _OBSERVER.items():
+        yield [
+            get_constitiuency_from_name(slug),
+            OtherSiteSuggestion(
+                who_suggests='The Observer',
+                party=party,
+                url='https://www.theguardian.com/politics/2019/dec/08/tactical-voting-guide-2019-keep-tories-out-remain-voter-general-election')]
+
 def get_other_site_suggestions() -> Dict[Constituency, List[OtherSiteSuggestion]]:
     out = defaultdict(list)
 
@@ -480,6 +541,10 @@ def get_other_site_suggestions() -> Dict[Constituency, List[OtherSiteSuggestion]
 
     # peoples vote (23 conflicts)
     for constituency, suggest in _peoples_vote():
+        out[constituency].append(suggest)
+
+    # guardian (new)
+    for constituency, suggest in _observer():
         out[constituency].append(suggest)
 
     return dict(out)
