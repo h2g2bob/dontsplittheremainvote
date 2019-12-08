@@ -400,7 +400,7 @@ north-ayrshire-and-arran,S14000048,0.687601458899922,snp,4,snp,4,,,,,snp,4,,,snp
 north-cornwall,E14000837,0.4865342336683418,ld,5,ld,5,,,ld,5,ld,5,,,ld,5,ld,5
 north-devon,E14000838,0.5070999012655957,ld,5,,,ld,5,ld,5,ld,5,,,ld,5,ld,5
 north-dorset,E14000839,0.35092599239107036,ld,2,ld,2,,,ld,2,any,0,,,any,0,,
-north-down,N06000013,0.1579175704989154,,,,,,,other,-2,alliance,0,,,,,alliance,0
+north-down,N06000013,0.1579175704989154,,,,,,,alliance,2,alliance,2,,,,,alliance,2
 north-durham,E14000840,0.6445337769152574,lab,5,lab,5,,,lab,5,lab,5,,,lab,5,lab,5
 north-east-bedfordshire,E14000841,0.3421052631578948,lab,2,,,,,lab,2,any,0,,,lab,2,,
 north-east-cambridgeshire,E14000842,0.290012011110277,lab,3,,,,,lab,3,any,0,,,lab,3,lab,3

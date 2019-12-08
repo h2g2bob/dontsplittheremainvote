@@ -31488,10 +31488,10 @@
     },
     "north-down": {
       "aggregation": {
-        "disagreement": true,
-        "important": false,
-        "party": null,
-        "template": "contradict.html"
+        "disagreement": false,
+        "important": true,
+        "party": "alliance",
+        "template": "vote-alliance.html"
       },
       "analysis": {
         "template": "leave.html",
@@ -31523,7 +31523,7 @@
         },
         {
           "important": false,
-          "party": "other",
+          "party": "alliance",
           "they_say": null,
           "url": "https://tactical-vote.uk/north-down",
           "who_suggests": "People's Vote"
