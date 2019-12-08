@@ -195,15 +195,18 @@ def generate_images(constituency_pages):
         print('Generating image: {}'.format(outsvg))
 
         main_party = constituency_page.aggregation.party
+        ge2017_results = constituency_page.datasets[data_ge2017.DATA_2017]
 
         other_remain_parties = [
             remain_party
-            for remain_party, _votes in constituency_page.datasets[data_ge2017.DATA_2017].remainers()
+            for remain_party, _votes in ge2017_results.remainers()
             if remain_party != main_party]
         if other_remain_parties:
             second_party = other_remain_parties[0]
         else:
             second_party = None
+
+        [leave_party, _votes] = list(ge2017_results.leavers())[0]
 
         if main_party is None or second_party is None:
             svgdata = backup_template
@@ -213,6 +216,7 @@ def generate_images(constituency_pages):
                 svgdata = svgdata.replace('MONSTER', main_party.name_for_image.upper())
                 svgdata = svgdata.replace('#ff0000', main_party.color)
                 svgdata = svgdata.replace('#ff00ff', second_party.color)
+                svgdata = svgdata.replace('#00ffff', leave_party.color)
                 if len(constituency_page.constituency.hashtag) > 18:
                     long_hash = 'In #' + constituency_page.constituency.hashtag
                     short_hash = ''
