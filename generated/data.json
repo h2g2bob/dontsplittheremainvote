@@ -327,7 +327,7 @@
       "constituency": {
         "country": "Scotland",
         "county": "South Western Scotland",
-        "hashtag": "AirdrieAndShotts",
+        "hashtag": "AirdrieShotts",
         "name": "Airdrie and Shotts",
         "ons_id": "S14000003",
         "region": "Scotland",
@@ -463,7 +463,7 @@
       "constituency": {
         "country": "England",
         "county": "West Midlands",
-        "hashtag": "Aldridge-Brownhills",
+        "hashtag": "AldridgeBrownhills",
         "name": "Aldridge-Brownhills",
         "ons_id": "E14000531",
         "region": "West Midlands",
@@ -538,7 +538,7 @@
       "constituency": {
         "country": "England",
         "county": "Greater Manchester",
-        "hashtag": "AltrinchamAndSaleWest",
+        "hashtag": "AltrinchamSaleWest",
         "name": "Altrincham and Sale West",
         "ons_id": "E14000532",
         "region": "North West",
@@ -627,7 +627,7 @@
       "constituency": {
         "country": "Wales",
         "county": "Clwyd",
-        "hashtag": "AlynAndDeeside",
+        "hashtag": "AlynDeeside",
         "name": "Alyn and Deeside",
         "ons_id": "W07000043",
         "region": "Wales",
@@ -962,7 +962,7 @@
       "constituency": {
         "country": "Scotland",
         "county": "Highlands and Islands",
-        "hashtag": "ArgyllAndBute",
+        "hashtag": "ArgyllBute",
         "name": "Argyll and Bute",
         "ons_id": "S14000005",
         "region": "Scotland",
@@ -1037,7 +1037,7 @@
       "constituency": {
         "country": "England",
         "county": "West Sussex",
-        "hashtag": "ArundelAndSouthDowns",
+        "hashtag": "ArundelSouthDowns",
         "name": "Arundel and South Downs",
         "ons_id": "E14000534",
         "region": "South East",
@@ -1283,7 +1283,7 @@
       "constituency": {
         "country": "England",
         "county": "Greater Manchester",
-        "hashtag": "Ashton-Under-Lyne",
+        "hashtag": "AshtonUnderLyne",
         "name": "Ashton-Under-Lyne",
         "ons_id": "E14000537",
         "region": "North West",
@@ -1440,7 +1440,7 @@
       "constituency": {
         "country": "Scotland",
         "county": "South Western Scotland",
-        "hashtag": "AyrCarrickAndCumnock",
+        "hashtag": "AyrCarrickCumnock",
         "name": "Ayr, Carrick and Cumnock",
         "ons_id": "S14000006",
         "region": "Scotland",
@@ -1590,7 +1590,7 @@
       "constituency": {
         "country": "Scotland",
         "county": "North Eastern Scotland",
-        "hashtag": "BanffAndBuchan",
+        "hashtag": "BanffBuchan",
         "name": "Banff and Buchan",
         "ons_id": "S14000007",
         "region": "Scotland",
@@ -1916,7 +1916,7 @@
       "constituency": {
         "country": "England",
         "county": "Cumbria",
-        "hashtag": "BarrowAndFurness",
+        "hashtag": "BarrowFurness",
         "name": "Barrow and Furness",
         "ons_id": "E14000543",
         "region": "North West",
@@ -2012,7 +2012,7 @@
       "constituency": {
         "country": "England",
         "county": "Essex",
-        "hashtag": "BasildonAndBillericay",
+        "hashtag": "BasildonBillericay",
         "name": "Basildon and Billericay",
         "ons_id": "E14000544",
         "region": "East",
@@ -2345,7 +2345,7 @@
       "constituency": {
         "country": "England",
         "county": "West Yorkshire",
-        "hashtag": "BatleyAndSpen",
+        "hashtag": "BatleySpen",
         "name": "Batley and Spen",
         "ons_id": "E14000548",
         "region": "Yorkshire and The Humber",
@@ -3018,7 +3018,7 @@
       "constituency": {
         "country": "England",
         "county": "Inner East London",
-        "hashtag": "BermondseyAndOldSouthwark",
+        "hashtag": "BermondseyOldSouthwark",
         "name": "Bermondsey and Old Southwark",
         "ons_id": "E14000553",
         "region": "London",
@@ -3098,7 +3098,7 @@
       "constituency": {
         "country": "England",
         "county": "Northumberland",
-        "hashtag": "Berwick-Upon-Tweed",
+        "hashtag": "BerwickUponTweed",
         "name": "Berwick-Upon-Tweed",
         "ons_id": "E14000554",
         "region": "North East",
@@ -3173,7 +3173,7 @@
       "constituency": {
         "country": "Scotland",
         "county": "Eastern Scotland",
-        "hashtag": "BerwickshireRoxburghAndSelkirk",
+        "hashtag": "BerwickshireRoxburghSelkirk",
         "name": "Berwickshire, Roxburgh and Selkirk",
         "ons_id": "S14000008",
         "region": "Scotland",
@@ -3253,7 +3253,7 @@
       "constituency": {
         "country": "England",
         "county": "Inner East London",
-        "hashtag": "BethnalGreenAndBow",
+        "hashtag": "BethnalGreenBow",
         "name": "Bethnal Green and Bow",
         "ons_id": "E14000555",
         "region": "London",
@@ -3321,7 +3321,7 @@
       "constituency": {
         "country": "England",
         "county": "Humberside",
-        "hashtag": "BeverleyAndHolderness",
+        "hashtag": "BeverleyHolderness",
         "name": "Beverley and Holderness",
         "ons_id": "E14000556",
         "region": "Yorkshire and The Humber",
@@ -3403,7 +3403,7 @@
       "constituency": {
         "country": "England",
         "county": "East Sussex",
-        "hashtag": "BexhillAndBattle",
+        "hashtag": "BexhillBattle",
         "name": "Bexhill and Battle",
         "ons_id": "E14000557",
         "region": "South East",
@@ -3485,7 +3485,7 @@
       "constituency": {
         "country": "England",
         "county": "East and North East London",
-        "hashtag": "BexleyheathAndCrayford",
+        "hashtag": "BexleyheathCrayford",
         "name": "Bexleyheath and Crayford",
         "ons_id": "E14000558",
         "region": "London",
@@ -4460,7 +4460,7 @@
       "constituency": {
         "country": "England",
         "county": "Greater Manchester",
-        "hashtag": "BlackleyAndBroughton",
+        "hashtag": "BlackleyBroughton",
         "name": "Blackley and Broughton",
         "ons_id": "E14000571",
         "region": "North West",
@@ -4535,7 +4535,7 @@
       "constituency": {
         "country": "England",
         "county": "Lancashire",
-        "hashtag": "BlackpoolNorthAndCleveleys",
+        "hashtag": "BlackpoolNorthCleveleys",
         "name": "Blackpool North and Cleveleys",
         "ons_id": "E14000572",
         "region": "North West",
@@ -4952,7 +4952,7 @@
       "constituency": {
         "country": "England",
         "county": "West Sussex",
-        "hashtag": "BognorRegisAndLittlehampton",
+        "hashtag": "BognorRegisLittlehampton",
         "name": "Bognor Regis and Littlehampton",
         "ons_id": "E14000576",
         "region": "South East",
@@ -5423,7 +5423,7 @@
       "constituency": {
         "country": "England",
         "county": "Lincolnshire",
-        "hashtag": "BostonAndSkegness",
+        "hashtag": "BostonSkegness",
         "name": "Boston and Skegness",
         "ons_id": "E14000582",
         "region": "East Midlands",
@@ -6131,7 +6131,7 @@
       "constituency": {
         "country": "Wales",
         "county": "Powys",
-        "hashtag": "BreconAndRadnorshire",
+        "hashtag": "BreconRadnorshire",
         "name": "Brecon and Radnorshire",
         "ons_id": "W07000068",
         "region": "Wales",
@@ -6372,7 +6372,7 @@
       "constituency": {
         "country": "England",
         "county": "West and North West London",
-        "hashtag": "BrentfordAndIsleworth",
+        "hashtag": "BrentfordIsleworth",
         "name": "Brentford and Isleworth",
         "ons_id": "E14000593",
         "region": "London",
@@ -6461,7 +6461,7 @@
       "constituency": {
         "country": "England",
         "county": "Essex",
-        "hashtag": "BrentwoodAndOngar",
+        "hashtag": "BrentwoodOngar",
         "name": "Brentwood and Ongar",
         "ons_id": "E14000594",
         "region": "East",
@@ -6611,7 +6611,7 @@
       "constituency": {
         "country": "England",
         "county": "Somerset",
-        "hashtag": "BridgwaterAndWestSomerset",
+        "hashtag": "BridgwaterWestSomerset",
         "name": "Bridgwater and West Somerset",
         "ons_id": "E14000595",
         "region": "South West",
@@ -6693,7 +6693,7 @@
       "constituency": {
         "country": "England",
         "county": "Humberside",
-        "hashtag": "BriggAndGoole",
+        "hashtag": "BriggGoole",
         "name": "Brigg and Goole",
         "ons_id": "E14000596",
         "region": "Yorkshire and The Humber",
@@ -7352,7 +7352,7 @@
       "constituency": {
         "country": "England",
         "county": "South London",
-        "hashtag": "BromleyAndChislehurst",
+        "hashtag": "BromleyChislehurst",
         "name": "Bromley and Chislehurst",
         "ons_id": "E14000604",
         "region": "London",
@@ -8236,7 +8236,7 @@
       "constituency": {
         "country": "Scotland",
         "county": "Highlands and Islands",
-        "hashtag": "CaithnessSutherlandAndEasterRoss",
+        "hashtag": "CaithnessSutherlandEasterRoss",
         "name": "Caithness, Sutherland and Easter Ross",
         "ons_id": "S14000009",
         "region": "Scotland",
@@ -8405,7 +8405,7 @@
       "constituency": {
         "country": "England",
         "county": "Inner East London",
-        "hashtag": "CamberwellAndPeckham",
+        "hashtag": "CamberwellPeckham",
         "name": "Camberwell and Peckham",
         "ons_id": "E14000615",
         "region": "London",
@@ -8473,7 +8473,7 @@
       "constituency": {
         "country": "England",
         "county": "Cornwall",
-        "hashtag": "CamborneAndRedruth",
+        "hashtag": "CamborneRedruth",
         "name": "Camborne and Redruth",
         "ons_id": "E14000616",
         "region": "South West",
@@ -9007,7 +9007,7 @@
       "constituency": {
         "country": "Wales",
         "county": "South Glamorgan",
-        "hashtag": "CardiffSouthAndPenarth",
+        "hashtag": "CardiffSouthPenarth",
         "name": "Cardiff South and Penarth",
         "ons_id": "W07000080",
         "region": "Wales",
@@ -9253,7 +9253,7 @@
       "constituency": {
         "country": "Wales",
         "county": "Dyfed",
-        "hashtag": "CarmarthenEastAndDinefwr",
+        "hashtag": "CarmarthenEastDinefwr",
         "name": "Carmarthen East and Dinefwr",
         "ons_id": "W07000067",
         "region": "Wales",
@@ -9344,7 +9344,7 @@
       "constituency": {
         "country": "Wales",
         "county": "Dyfed",
-        "hashtag": "CarmarthenWestAndSouthPembrokeshire",
+        "hashtag": "CarmarthenWestSouthPembrokeshire",
         "name": "Carmarthen West and South Pembrokeshire",
         "ons_id": "W07000066",
         "region": "Wales",
@@ -9426,7 +9426,7 @@
       "constituency": {
         "country": "England",
         "county": "South London",
-        "hashtag": "CarshaltonAndWallington",
+        "hashtag": "CarshaltonWallington",
         "name": "Carshalton and Wallington",
         "ons_id": "E14000621",
         "region": "London",
@@ -9719,7 +9719,7 @@
       "constituency": {
         "country": "England",
         "county": "Suffolk",
-        "hashtag": "CentralSuffolkAndNorthIpswich",
+        "hashtag": "CentralSuffolkNorthIpswich",
         "name": "Central Suffolk and North Ipswich",
         "ons_id": "E14000624",
         "region": "East",
@@ -9958,7 +9958,7 @@
       "constituency": {
         "country": "England",
         "county": "Kent",
-        "hashtag": "ChathamAndAylesford",
+        "hashtag": "ChathamAylesford",
         "name": "Chatham and Aylesford",
         "ons_id": "E14000626",
         "region": "South East",
@@ -10221,7 +10221,7 @@
       "constituency": {
         "country": "England",
         "county": "Inner West London",
-        "hashtag": "ChelseaAndFulham",
+        "hashtag": "ChelseaFulham",
         "name": "Chelsea and Fulham",
         "ons_id": "E14000629",
         "region": "London",
@@ -10395,7 +10395,7 @@
       "constituency": {
         "country": "England",
         "county": "Buckinghamshire",
-        "hashtag": "CheshamAndAmersham",
+        "hashtag": "CheshamAmersham",
         "name": "Chesham and Amersham",
         "ons_id": "E14000631",
         "region": "South East",
@@ -10634,7 +10634,7 @@
       "constituency": {
         "country": "England",
         "county": "East and North East London",
-        "hashtag": "ChingfordAndWoodfordGreen",
+        "hashtag": "ChingfordWoodfordGreen",
         "name": "Chingford and Woodford Green",
         "ons_id": "E14000634",
         "region": "London",
@@ -11054,7 +11054,7 @@
       "constituency": {
         "country": "England",
         "county": "Inner West London",
-        "hashtag": "CitiesOfLondonAndWestminster",
+        "hashtag": "CitiesOfLondonWestminster",
         "name": "Cities Of London and Westminster",
         "ons_id": "E14000639",
         "region": "London",
@@ -11621,7 +11621,7 @@
       "constituency": {
         "country": "Scotland",
         "county": "South Western Scotland",
-        "hashtag": "CoatbridgeChrystonAndBellshill",
+        "hashtag": "CoatbridgeChrystonBellshill",
         "name": "Coatbridge, Chryston and Bellshill",
         "ons_id": "S14000011",
         "region": "Scotland",
@@ -12392,7 +12392,7 @@
       "constituency": {
         "country": "England",
         "county": "Cheshire",
-        "hashtag": "CreweAndNantwich",
+        "hashtag": "CreweNantwich",
         "name": "Crewe and Nantwich",
         "ons_id": "E14000653",
         "region": "North West",
@@ -12727,7 +12727,7 @@
       "constituency": {
         "country": "Scotland",
         "county": "South Western Scotland",
-        "hashtag": "CumbernauldKilsythAndKirkintillochEast",
+        "hashtag": "CumbernauldKilsythKirkintillochEast",
         "name": "Cumbernauld, Kilsyth and Kirkintilloch East",
         "ons_id": "S14000012",
         "region": "Scotland",
@@ -12863,7 +12863,7 @@
       "constituency": {
         "country": "England",
         "county": "East and North East London",
-        "hashtag": "DagenhamAndRainham",
+        "hashtag": "DagenhamRainham",
         "name": "Dagenham and Rainham",
         "ons_id": "E14000657",
         "region": "London",
@@ -13287,7 +13287,7 @@
       "constituency": {
         "country": "England",
         "county": "Greater Manchester",
-        "hashtag": "DentonAndReddish",
+        "hashtag": "DentonReddish",
         "name": "Denton and Reddish",
         "ons_id": "E14000661",
         "region": "North West",
@@ -14285,7 +14285,7 @@
       "constituency": {
         "country": "England",
         "county": "Inner East London",
-        "hashtag": "DulwichAndWestNorwood",
+        "hashtag": "DulwichWestNorwood",
         "name": "Dulwich and West Norwood",
         "ons_id": "E14000673",
         "region": "London",
@@ -14372,7 +14372,7 @@
       "constituency": {
         "country": "Scotland",
         "county": "South Western Scotland",
-        "hashtag": "DumfriesAndGalloway",
+        "hashtag": "DumfriesGalloway",
         "name": "Dumfries and Galloway",
         "ons_id": "S14000013",
         "region": "Scotland",
@@ -14459,7 +14459,7 @@
       "constituency": {
         "country": "Scotland",
         "county": "South Western Scotland",
-        "hashtag": "DumfriesshireClydesdaleAndTweeddale",
+        "hashtag": "DumfriesshireClydesdaleTweeddale",
         "name": "Dumfriesshire, Clydesdale and Tweeddale",
         "ons_id": "S14000014",
         "region": "Scotland",
@@ -14664,7 +14664,7 @@
       "constituency": {
         "country": "Scotland",
         "county": "Eastern Scotland",
-        "hashtag": "DunfermlineAndWestFife",
+        "hashtag": "DunfermlineWestFife",
         "name": "Dunfermline and West Fife",
         "ons_id": "S14000017",
         "region": "Scotland",
@@ -14795,7 +14795,7 @@
       "constituency": {
         "country": "England",
         "county": "West and North West London",
-        "hashtag": "EalingCentralAndActon",
+        "hashtag": "EalingCentralActon",
         "name": "Ealing Central and Acton",
         "ons_id": "E14000674",
         "region": "London",
@@ -15463,7 +15463,7 @@
       "constituency": {
         "country": "Scotland",
         "county": "South Western Scotland",
-        "hashtag": "EastKilbrideStrathavenAndLesmahagow",
+        "hashtag": "EastKilbrideStrathavenLesmahagow",
         "name": "East Kilbride, Strathaven and Lesmahagow",
         "ons_id": "S14000019",
         "region": "Scotland",
@@ -15810,7 +15810,7 @@
       "constituency": {
         "country": "England",
         "county": "West Sussex",
-        "hashtag": "EastWorthingAndShoreham",
+        "hashtag": "EastWorthingShoreham",
         "name": "East Worthing and Shoreham",
         "ons_id": "E14000682",
         "region": "South East",
@@ -16288,7 +16288,7 @@
       "constituency": {
         "country": "Scotland",
         "county": "Eastern Scotland",
-        "hashtag": "EdinburghNorthAndLeith",
+        "hashtag": "EdinburghNorthLeith",
         "name": "Edinburgh North and Leith",
         "ons_id": "S14000023",
         "region": "Scotland",
@@ -16656,7 +16656,7 @@
       "constituency": {
         "country": "England",
         "county": "Cheshire",
-        "hashtag": "EllesmerePortAndNeston",
+        "hashtag": "EllesmerePortNeston",
         "name": "Ellesmere Port and Neston",
         "ons_id": "E14000688",
         "region": "North West",
@@ -16745,7 +16745,7 @@
       "constituency": {
         "country": "England",
         "county": "West Yorkshire",
-        "hashtag": "ElmetAndRothwell",
+        "hashtag": "ElmetRothwell",
         "name": "Elmet and Rothwell",
         "ons_id": "E14000689",
         "region": "Yorkshire and The Humber",
@@ -17176,7 +17176,7 @@
       "constituency": {
         "country": "England",
         "county": "Surrey",
-        "hashtag": "EpsomAndEwell",
+        "hashtag": "EpsomEwell",
         "name": "Epsom and Ewell",
         "ons_id": "E14000694",
         "region": "South East",
@@ -17333,7 +17333,7 @@
       "constituency": {
         "country": "England",
         "county": "East and North East London",
-        "hashtag": "ErithAndThamesmead",
+        "hashtag": "ErithThamesmead",
         "name": "Erith and Thamesmead",
         "ons_id": "E14000696",
         "region": "London",
@@ -17401,7 +17401,7 @@
       "constituency": {
         "country": "England",
         "county": "Surrey",
-        "hashtag": "EsherAndWalton",
+        "hashtag": "EsherWalton",
         "name": "Esher and Walton",
         "ons_id": "E14000697",
         "region": "South East",
@@ -17725,7 +17725,7 @@
       "constituency": {
         "country": "England",
         "county": "Kent",
-        "hashtag": "FavershamAndMidKent",
+        "hashtag": "FavershamMidKent",
         "name": "Faversham and Mid Kent",
         "ons_id": "E14000700",
         "region": "South East",
@@ -17800,7 +17800,7 @@
       "constituency": {
         "country": "England",
         "county": "West and North West London",
-        "hashtag": "FelthamAndHeston",
+        "hashtag": "FelthamHeston",
         "name": "Feltham and Heston",
         "ons_id": "E14000701",
         "region": "London",
@@ -17868,7 +17868,7 @@
       "constituency": {
         "country": "Northern Ireland",
         "county": "Northern Ireland",
-        "hashtag": "FermanaghAndSouthTyrone",
+        "hashtag": "FermanaghSouthTyrone",
         "name": "Fermanagh and South Tyrone",
         "ons_id": "N06000007",
         "region": "Northern Ireland",
@@ -17929,7 +17929,7 @@
       "constituency": {
         "country": "England",
         "county": "Avon",
-        "hashtag": "FiltonAndBradleyStoke",
+        "hashtag": "FiltonBradleyStoke",
         "name": "Filton and Bradley Stoke",
         "ons_id": "E14000702",
         "region": "South West",
@@ -18023,7 +18023,7 @@
       "constituency": {
         "country": "England",
         "county": "West and North West London",
-        "hashtag": "FinchleyAndGoldersGreen",
+        "hashtag": "FinchleyGoldersGreen",
         "name": "Finchley and Golders Green",
         "ons_id": "E14000703",
         "region": "London",
@@ -18117,7 +18117,7 @@
       "constituency": {
         "country": "England",
         "county": "Kent",
-        "hashtag": "FolkestoneAndHythe",
+        "hashtag": "FolkestoneHythe",
         "name": "Folkestone and Hythe",
         "ons_id": "E14000704",
         "region": "South East",
@@ -18518,7 +18518,7 @@
       "constituency": {
         "country": "England",
         "county": "Merseyside",
-        "hashtag": "GarstonAndHalewood",
+        "hashtag": "GarstonHalewood",
         "name": "Garston and Halewood",
         "ons_id": "E14000708",
         "region": "North West",
@@ -18743,7 +18743,7 @@
       "constituency": {
         "country": "England",
         "county": "Kent",
-        "hashtag": "GillinghamAndRainham",
+        "hashtag": "GillinghamRainham",
         "name": "Gillingham and Rainham",
         "ons_id": "E14000711",
         "region": "South East",
@@ -19618,7 +19618,7 @@
       "constituency": {
         "country": "England",
         "county": "Lincolnshire",
-        "hashtag": "GranthamAndStamford",
+        "hashtag": "GranthamStamford",
         "name": "Grantham and Stamford",
         "ons_id": "E14000714",
         "region": "East Midlands",
@@ -19953,7 +19953,7 @@
       "constituency": {
         "country": "England",
         "county": "East and North East London",
-        "hashtag": "GreenwichAndWoolwich",
+        "hashtag": "GreenwichWoolwich",
         "name": "Greenwich and Woolwich",
         "ons_id": "E14000718",
         "region": "London",
@@ -20122,7 +20122,7 @@
       "constituency": {
         "country": "England",
         "county": "Inner East London",
-        "hashtag": "HackneyNorthAndStokeNewington",
+        "hashtag": "HackneyNorthStokeNewington",
         "name": "Hackney North and Stoke Newington",
         "ons_id": "E14000720",
         "region": "London",
@@ -20190,7 +20190,7 @@
       "constituency": {
         "country": "England",
         "county": "Inner East London",
-        "hashtag": "HackneySouthAndShoreditch",
+        "hashtag": "HackneySouthShoreditch",
         "name": "Hackney South and Shoreditch",
         "ons_id": "E14000721",
         "region": "London",
@@ -20258,7 +20258,7 @@
       "constituency": {
         "country": "England",
         "county": "West Midlands",
-        "hashtag": "HalesowenAndRowleyRegis",
+        "hashtag": "HalesowenRowleyRegis",
         "name": "Halesowen and Rowley Regis",
         "ons_id": "E14000722",
         "region": "West Midlands",
@@ -20415,7 +20415,7 @@
       "constituency": {
         "country": "England",
         "county": "Humberside",
-        "hashtag": "HaltempriceAndHowden",
+        "hashtag": "HaltempriceHowden",
         "name": "Haltemprice and Howden",
         "ons_id": "E14000724",
         "region": "Yorkshire and The Humber",
@@ -20647,7 +20647,7 @@
       "constituency": {
         "country": "England",
         "county": "Inner West London",
-        "hashtag": "HampsteadAndKilburn",
+        "hashtag": "HampsteadKilburn",
         "name": "Hampstead and Kilburn",
         "ons_id": "E14000727",
         "region": "London",
@@ -20886,7 +20886,7 @@
       "constituency": {
         "country": "England",
         "county": "North Yorkshire",
-        "hashtag": "HarrogateAndKnaresborough",
+        "hashtag": "HarrogateKnaresborough",
         "name": "Harrogate and Knaresborough",
         "ons_id": "E14000730",
         "region": "Yorkshire and The Humber",
@@ -21212,7 +21212,7 @@
       "constituency": {
         "country": "England",
         "county": "Essex",
-        "hashtag": "HarwichAndNorthEssex",
+        "hashtag": "HarwichNorthEssex",
         "name": "Harwich and North Essex",
         "ons_id": "E14000734",
         "region": "East",
@@ -21301,7 +21301,7 @@
       "constituency": {
         "country": "England",
         "county": "East Sussex",
-        "hashtag": "HastingsAndRye",
+        "hashtag": "HastingsRye",
         "name": "Hastings and Rye",
         "ons_id": "E14000735",
         "region": "South East",
@@ -21477,7 +21477,7 @@
       "constituency": {
         "country": "England",
         "county": "West and North West London",
-        "hashtag": "HayesAndHarlington",
+        "hashtag": "HayesHarlington",
         "name": "Hayes and Harlington",
         "ons_id": "E14000737",
         "region": "London",
@@ -21967,7 +21967,7 @@
       "constituency": {
         "country": "England",
         "county": "Hereford and Worcester",
-        "hashtag": "HerefordAndSouthHerefordshire",
+        "hashtag": "HerefordSouthHerefordshire",
         "name": "Hereford and South Herefordshire",
         "ons_id": "E14000743",
         "region": "West Midlands",
@@ -22042,7 +22042,7 @@
       "constituency": {
         "country": "England",
         "county": "Hertfordshire",
-        "hashtag": "HertfordAndStortford",
+        "hashtag": "HertfordStortford",
         "name": "Hertford and Stortford",
         "ons_id": "E14000744",
         "region": "East",
@@ -22274,7 +22274,7 @@
       "constituency": {
         "country": "England",
         "county": "Greater Manchester",
-        "hashtag": "HeywoodAndMiddleton",
+        "hashtag": "HeywoodMiddleton",
         "name": "Heywood and Middleton",
         "ons_id": "E14000747",
         "region": "North West",
@@ -22438,7 +22438,7 @@
       "constituency": {
         "country": "England",
         "county": "Hertfordshire",
-        "hashtag": "HitchinAndHarpenden",
+        "hashtag": "HitchinHarpenden",
         "name": "Hitchin and Harpenden",
         "ons_id": "E14000749",
         "region": "East",
@@ -22525,7 +22525,7 @@
       "constituency": {
         "country": "England",
         "county": "Inner West London",
-        "hashtag": "HolbornAndStPancras",
+        "hashtag": "HolbornStPancras",
         "name": "Holborn and St Pancras",
         "ons_id": "E14000750",
         "region": "London",
@@ -22600,7 +22600,7 @@
       "constituency": {
         "country": "England",
         "county": "East and North East London",
-        "hashtag": "HornchurchAndUpminster",
+        "hashtag": "HornchurchUpminster",
         "name": "Hornchurch and Upminster",
         "ons_id": "E14000751",
         "region": "London",
@@ -22675,7 +22675,7 @@
       "constituency": {
         "country": "England",
         "county": "Inner East London",
-        "hashtag": "HornseyAndWoodGreen",
+        "hashtag": "HornseyWoodGreen",
         "name": "Hornsey and Wood Green",
         "ons_id": "E14000752",
         "region": "London",
@@ -22818,7 +22818,7 @@
       "constituency": {
         "country": "England",
         "county": "Tyne and Wear",
-        "hashtag": "HoughtonAndSunderlandSouth",
+        "hashtag": "HoughtonSunderlandSouth",
         "name": "Houghton and Sunderland South",
         "ons_id": "E14000754",
         "region": "North East",
@@ -23425,7 +23425,7 @@
       "constituency": {
         "country": "Scotland",
         "county": "Highlands and Islands",
-        "hashtag": "InvernessNairnBadenochAndStrathspey",
+        "hashtag": "InvernessNairnBadenochStrathspey",
         "name": "Inverness, Nairn, Badenoch and Strathspey",
         "ons_id": "S14000039",
         "region": "Scotland",
@@ -23744,7 +23744,7 @@
       "constituency": {
         "country": "England",
         "county": "Inner East London",
-        "hashtag": "IslingtonSouthAndFinsbury",
+        "hashtag": "IslingtonSouthFinsbury",
         "name": "Islington South and Finsbury",
         "ons_id": "E14000764",
         "region": "London",
@@ -24065,7 +24065,7 @@
       "constituency": {
         "country": "England",
         "county": "Warwickshire",
-        "hashtag": "KenilworthAndSoutham",
+        "hashtag": "KenilworthSoutham",
         "name": "Kenilworth and Southam",
         "ons_id": "E14000767",
         "region": "West Midlands",
@@ -24325,7 +24325,7 @@
       "constituency": {
         "country": "Scotland",
         "county": "South Western Scotland",
-        "hashtag": "KilmarnockAndLoudoun",
+        "hashtag": "KilmarnockLoudoun",
         "name": "Kilmarnock and Loudoun",
         "ons_id": "S14000040",
         "region": "Scotland",
@@ -24386,7 +24386,7 @@
       "constituency": {
         "country": "England",
         "county": "South London",
-        "hashtag": "KingstonAndSurbiton",
+        "hashtag": "KingstonSurbiton",
         "name": "Kingston and Surbiton",
         "ons_id": "E14000770",
         "region": "London",
@@ -24625,7 +24625,7 @@
       "constituency": {
         "country": "England",
         "county": "Humberside",
-        "hashtag": "KingstonUponHullWestAndHessle",
+        "hashtag": "KingstonUponHullWestHessle",
         "name": "Kingston upon Hull West and Hessle",
         "ons_id": "E14000773",
         "region": "Yorkshire and The Humber",
@@ -24796,7 +24796,7 @@
       "constituency": {
         "country": "Scotland",
         "county": "Eastern Scotland",
-        "hashtag": "KirkcaldyAndCowdenbeath",
+        "hashtag": "KirkcaldyCowdenbeath",
         "name": "Kirkcaldy and Cowdenbeath",
         "ons_id": "S14000041",
         "region": "Scotland",
@@ -24972,7 +24972,7 @@
       "constituency": {
         "country": "Scotland",
         "county": "South Western Scotland",
-        "hashtag": "LanarkAndHamiltonEast",
+        "hashtag": "LanarkHamiltonEast",
         "name": "Lanark and Hamilton East",
         "ons_id": "S14000042",
         "region": "Scotland",
@@ -25047,7 +25047,7 @@
       "constituency": {
         "country": "England",
         "county": "Lancashire",
-        "hashtag": "LancasterAndFleetwood",
+        "hashtag": "LancasterFleetwood",
         "name": "Lancaster and Fleetwood",
         "ons_id": "E14000776",
         "region": "North West",
@@ -26071,7 +26071,7 @@
       "constituency": {
         "country": "England",
         "county": "Inner East London",
-        "hashtag": "LewishamWestAndPenge",
+        "hashtag": "LewishamWestPenge",
         "name": "Lewisham West and Penge",
         "ons_id": "E14000788",
         "region": "London",
@@ -26160,7 +26160,7 @@
       "constituency": {
         "country": "England",
         "county": "East and North East London",
-        "hashtag": "LeytonAndWanstead",
+        "hashtag": "LeytonWanstead",
         "name": "Leyton and Wanstead",
         "ons_id": "E14000790",
         "region": "London",
@@ -26392,7 +26392,7 @@
       "constituency": {
         "country": "Scotland",
         "county": "Eastern Scotland",
-        "hashtag": "LinlithgowAndEastFalkirk",
+        "hashtag": "LinlithgowEastFalkirk",
         "name": "Linlithgow and East Falkirk",
         "ons_id": "S14000043",
         "region": "Scotland",
@@ -26966,7 +26966,7 @@
       "constituency": {
         "country": "England",
         "county": "Lincolnshire",
-        "hashtag": "LouthAndHorncastle",
+        "hashtag": "LouthHorncastle",
         "name": "Louth and Horncastle",
         "ons_id": "E14000798",
         "region": "East Midlands",
@@ -27400,7 +27400,7 @@
       "constituency": {
         "country": "England",
         "county": "Kent",
-        "hashtag": "MaidstoneAndTheWeald",
+        "hashtag": "MaidstoneTheWeald",
         "name": "Maidstone and The Weald",
         "ons_id": "E14000804",
         "region": "South East",
@@ -28096,7 +28096,7 @@
       "constituency": {
         "country": "Wales",
         "county": "Gwent and Mid Glamorgan",
-        "hashtag": "MerthyrTydfilAndRhymney",
+        "hashtag": "MerthyrTydfilRhymney",
         "name": "Merthyr Tydfil and Rhymney",
         "ons_id": "W07000071",
         "region": "Wales",
@@ -28321,7 +28321,7 @@
       "constituency": {
         "country": "England",
         "county": "Dorset",
-        "hashtag": "MidDorsetAndNorthPoole",
+        "hashtag": "MidDorsetNorthPoole",
         "name": "Mid Dorset and North Poole",
         "ons_id": "E14000815",
         "region": "South West",
@@ -28743,7 +28743,7 @@
       "constituency": {
         "country": "England",
         "county": "Cleveland",
-        "hashtag": "MiddlesbroughSouthAndEastCleveland",
+        "hashtag": "MiddlesbroughSouthEastCleveland",
         "name": "Middlesbrough South and East Cleveland",
         "ons_id": "E14000820",
         "region": "North East",
@@ -29106,7 +29106,7 @@
       "constituency": {
         "country": "England",
         "county": "South London",
-        "hashtag": "MitchamAndMorden",
+        "hashtag": "MitchamMorden",
         "name": "Mitcham and Morden",
         "ons_id": "E14000823",
         "region": "London",
@@ -29518,7 +29518,7 @@
       "constituency": {
         "country": "England",
         "county": "Lancashire",
-        "hashtag": "MorecambeAndLunesdale",
+        "hashtag": "MorecambeLunesdale",
         "name": "Morecambe and Lunesdale",
         "ons_id": "E14000825",
         "region": "North West",
@@ -29614,7 +29614,7 @@
       "constituency": {
         "country": "England",
         "county": "West Yorkshire",
-        "hashtag": "MorleyAndOutwood",
+        "hashtag": "MorleyOutwood",
         "name": "Morley and Outwood",
         "ons_id": "E14000826",
         "region": "Yorkshire and The Humber",
@@ -29703,7 +29703,7 @@
       "constituency": {
         "country": "Scotland",
         "county": "South Western Scotland",
-        "hashtag": "MotherwellAndWishaw",
+        "hashtag": "MotherwellWishaw",
         "name": "Motherwell and Wishaw",
         "ons_id": "S14000047",
         "region": "Scotland",
@@ -29757,7 +29757,7 @@
       "constituency": {
         "country": "Scotland",
         "county": "Highlands and Islands",
-        "hashtag": "NaH-EileananAnIar",
+        "hashtag": "NaHEileananAnIar",
         "name": "Na h-Eileanan An Iar",
         "ons_id": "S14000027",
         "region": "Scotland",
@@ -30200,7 +30200,7 @@
       "constituency": {
         "country": "England",
         "county": "Staffordshire",
-        "hashtag": "Newcastle-Under-Lyme",
+        "hashtag": "NewcastleUnderLyme",
         "name": "Newcastle-Under-Lyme",
         "ons_id": "E14000834",
         "region": "West Midlands",
@@ -30692,7 +30692,7 @@
       "constituency": {
         "country": "Northern Ireland",
         "county": "Northern Ireland",
-        "hashtag": "NewryAndArmagh",
+        "hashtag": "NewryArmagh",
         "name": "Newry and Armagh",
         "ons_id": "N06000011",
         "region": "Northern Ireland",
@@ -30828,7 +30828,7 @@
       "constituency": {
         "country": "England",
         "county": "West Yorkshire",
-        "hashtag": "NormantonPontefractAndCastleford",
+        "hashtag": "NormantonPontefractCastleford",
         "name": "Normanton, Pontefract and Castleford",
         "ons_id": "E14000836",
         "region": "Yorkshire and The Humber",
@@ -30964,7 +30964,7 @@
       "constituency": {
         "country": "Scotland",
         "county": "South Western Scotland",
-        "hashtag": "NorthAyrshireAndArran",
+        "hashtag": "NorthAyrshireArran",
         "name": "North Ayrshire and Arran",
         "ons_id": "S14000048",
         "region": "Scotland",
@@ -33793,7 +33793,7 @@
       "constituency": {
         "country": "Scotland",
         "county": "Eastern Scotland",
-        "hashtag": "OchilAndSouthPerthshire",
+        "hashtag": "OchilSouthPerthshire",
         "name": "Ochil and South Perthshire",
         "ons_id": "S14000050",
         "region": "Scotland",
@@ -33936,7 +33936,7 @@
       "constituency": {
         "country": "England",
         "county": "East and North East London",
-        "hashtag": "OldBexleyAndSidcup",
+        "hashtag": "OldBexleySidcup",
         "name": "Old Bexley and Sidcup",
         "ons_id": "E14000869",
         "region": "London",
@@ -34011,7 +34011,7 @@
       "constituency": {
         "country": "England",
         "county": "Greater Manchester",
-        "hashtag": "OldhamEastAndSaddleworth",
+        "hashtag": "OldhamEastSaddleworth",
         "name": "Oldham East and Saddleworth",
         "ons_id": "E14000870",
         "region": "North West",
@@ -34079,7 +34079,7 @@
       "constituency": {
         "country": "England",
         "county": "Greater Manchester",
-        "hashtag": "OldhamWestAndRoyton",
+        "hashtag": "OldhamWestRoyton",
         "name": "Oldham West and Royton",
         "ons_id": "E14000871",
         "region": "North West",
@@ -34147,7 +34147,7 @@
       "constituency": {
         "country": "Scotland",
         "county": "Highlands and Islands",
-        "hashtag": "OrkneyAndShetland",
+        "hashtag": "OrkneyShetland",
         "name": "Orkney and Shetland",
         "ons_id": "S14000051",
         "region": "Scotland",
@@ -34370,7 +34370,7 @@
       "constituency": {
         "country": "England",
         "county": "Oxfordshire",
-        "hashtag": "OxfordWestAndAbingdon",
+        "hashtag": "OxfordWestAbingdon",
         "name": "Oxford West and Abingdon",
         "ons_id": "E14000874",
         "region": "South East",
@@ -34457,7 +34457,7 @@
       "constituency": {
         "country": "Scotland",
         "county": "South Western Scotland",
-        "hashtag": "PaisleyAndRenfrewshireNorth",
+        "hashtag": "PaisleyRenfrewshireNorth",
         "name": "Paisley and Renfrewshire North",
         "ons_id": "S14000052",
         "region": "Scotland",
@@ -34518,7 +34518,7 @@
       "constituency": {
         "country": "Scotland",
         "county": "South Western Scotland",
-        "hashtag": "PaisleyAndRenfrewshireSouth",
+        "hashtag": "PaisleyRenfrewshireSouth",
         "name": "Paisley and Renfrewshire South",
         "ons_id": "S14000053",
         "region": "Scotland",
@@ -34668,7 +34668,7 @@
       "constituency": {
         "country": "England",
         "county": "South Yorkshire",
-        "hashtag": "PenistoneAndStocksbridge",
+        "hashtag": "PenistoneStocksbridge",
         "name": "Penistone and Stocksbridge",
         "ons_id": "E14000876",
         "region": "Yorkshire and The Humber",
@@ -34762,7 +34762,7 @@
       "constituency": {
         "country": "England",
         "county": "Cumbria",
-        "hashtag": "PenrithAndTheBorder",
+        "hashtag": "PenrithTheBorder",
         "name": "Penrith and The Border",
         "ons_id": "E14000877",
         "region": "North West",
@@ -34830,7 +34830,7 @@
       "constituency": {
         "country": "Scotland",
         "county": "Eastern Scotland",
-        "hashtag": "PerthAndNorthPerthshire",
+        "hashtag": "PerthNorthPerthshire",
         "name": "Perth and North Perthshire",
         "ons_id": "S14000054",
         "region": "Scotland",
@@ -35060,7 +35060,7 @@
       "constituency": {
         "country": "England",
         "county": "Devon",
-        "hashtag": "PlymouthSuttonAndDevonport",
+        "hashtag": "PlymouthSuttonDevonport",
         "name": "Plymouth, Sutton and Devonport",
         "ons_id": "E14000880",
         "region": "South West",
@@ -35308,7 +35308,7 @@
       "constituency": {
         "country": "England",
         "county": "Inner East London",
-        "hashtag": "PoplarAndLimehouse",
+        "hashtag": "PoplarLimehouse",
         "name": "Poplar and Limehouse",
         "ons_id": "E14000882",
         "region": "London",
@@ -35929,7 +35929,7 @@
       "constituency": {
         "country": "England",
         "county": "Essex",
-        "hashtag": "RayleighAndWickford",
+        "hashtag": "RayleighWickford",
         "name": "Rayleigh and Wickford",
         "ons_id": "E14000888",
         "region": "East",
@@ -36578,7 +36578,7 @@
       "constituency": {
         "country": "England",
         "county": "North Yorkshire",
-        "hashtag": "Richmond(Yorks)",
+        "hashtag": "RichmondYorks",
         "name": "Richmond (Yorks)",
         "ons_id": "E14000895",
         "region": "Yorkshire and The Humber",
@@ -36808,7 +36808,7 @@
       "constituency": {
         "country": "England",
         "county": "Kent",
-        "hashtag": "RochesterAndStrood",
+        "hashtag": "RochesterStrood",
         "name": "Rochester and Strood",
         "ons_id": "E14000898",
         "region": "South East",
@@ -36890,7 +36890,7 @@
       "constituency": {
         "country": "England",
         "county": "Essex",
-        "hashtag": "RochfordAndSouthendEast",
+        "hashtag": "RochfordSouthendEast",
         "name": "Rochford and Southend East",
         "ons_id": "E14000899",
         "region": "East",
@@ -37047,7 +37047,7 @@
       "constituency": {
         "country": "England",
         "county": "Hampshire",
-        "hashtag": "RomseyAndSouthamptonNorth",
+        "hashtag": "RomseySouthamptonNorth",
         "name": "Romsey and Southampton North",
         "ons_id": "E14000901",
         "region": "South East",
@@ -37141,7 +37141,7 @@
       "constituency": {
         "country": "Scotland",
         "county": "Highlands and Islands",
-        "hashtag": "RossSkyeAndLochaber",
+        "hashtag": "RossSkyeLochaber",
         "name": "Ross, Skye and Lochaber",
         "ons_id": "S14000055",
         "region": "Scotland",
@@ -37202,7 +37202,7 @@
       "constituency": {
         "country": "England",
         "county": "Lancashire",
-        "hashtag": "RossendaleAndDarwen",
+        "hashtag": "RossendaleDarwen",
         "name": "Rossendale and Darwen",
         "ons_id": "E14000902",
         "region": "North West",
@@ -37530,7 +37530,7 @@
       "constituency": {
         "country": "England",
         "county": "West and North West London",
-        "hashtag": "RuislipNorthwoodAndPinner",
+        "hashtag": "RuislipNorthwoodPinner",
         "name": "Ruislip, Northwood and Pinner",
         "ons_id": "E14000906",
         "region": "London",
@@ -37619,7 +37619,7 @@
       "constituency": {
         "country": "England",
         "county": "Surrey",
-        "hashtag": "RunnymedeAndWeybridge",
+        "hashtag": "RunnymedeWeybridge",
         "name": "Runnymede and Weybridge",
         "ons_id": "E14000907",
         "region": "South East",
@@ -37788,7 +37788,7 @@
       "constituency": {
         "country": "Scotland",
         "county": "South Western Scotland",
-        "hashtag": "RutherglenAndHamiltonWest",
+        "hashtag": "RutherglenHamiltonWest",
         "name": "Rutherglen and Hamilton West",
         "ons_id": "S14000056",
         "region": "Scotland",
@@ -37856,7 +37856,7 @@
       "constituency": {
         "country": "England",
         "county": "Leicestershire",
-        "hashtag": "RutlandAndMelton",
+        "hashtag": "RutlandMelton",
         "name": "Rutland and Melton",
         "ons_id": "E14000909",
         "region": "East Midlands",
@@ -37999,7 +37999,7 @@
       "constituency": {
         "country": "England",
         "county": "Greater Manchester",
-        "hashtag": "SalfordAndEccles",
+        "hashtag": "SalfordEccles",
         "name": "Salford and Eccles",
         "ons_id": "E14000911",
         "region": "North West",
@@ -38149,7 +38149,7 @@
       "constituency": {
         "country": "England",
         "county": "North Yorkshire",
-        "hashtag": "ScarboroughAndWhitby",
+        "hashtag": "ScarboroughWhitby",
         "name": "Scarborough and Whitby",
         "ons_id": "E14000913",
         "region": "Yorkshire and The Humber",
@@ -38503,7 +38503,7 @@
       "constituency": {
         "country": "England",
         "county": "North Yorkshire",
-        "hashtag": "SelbyAndAinsty",
+        "hashtag": "SelbyAinsty",
         "name": "Selby and Ainsty",
         "ons_id": "E14000917",
         "region": "Yorkshire and The Humber",
@@ -38653,7 +38653,7 @@
       "constituency": {
         "country": "England",
         "county": "South Yorkshire",
-        "hashtag": "SheffieldBrightsideAndHillsborough",
+        "hashtag": "SheffieldBrightsideHillsborough",
         "name": "Sheffield, Brightside and Hillsborough",
         "ons_id": "E14000921",
         "region": "Yorkshire and The Humber",
@@ -39220,7 +39220,7 @@
       "constituency": {
         "country": "England",
         "county": "Shropshire",
-        "hashtag": "ShrewsburyAndAtcham",
+        "hashtag": "ShrewsburyAtcham",
         "name": "Shrewsbury and Atcham",
         "ons_id": "E14000926",
         "region": "West Midlands",
@@ -39302,7 +39302,7 @@
       "constituency": {
         "country": "England",
         "county": "Kent",
-        "hashtag": "SittingbourneAndSheppey",
+        "hashtag": "SittingbourneSheppey",
         "name": "Sittingbourne and Sheppey",
         "ons_id": "E14000927",
         "region": "South East",
@@ -39377,7 +39377,7 @@
       "constituency": {
         "country": "England",
         "county": "North Yorkshire",
-        "hashtag": "SkiptonAndRipon",
+        "hashtag": "SkiptonRipon",
         "name": "Skipton and Ripon",
         "ons_id": "E14000928",
         "region": "Yorkshire and The Humber",
@@ -39445,7 +39445,7 @@
       "constituency": {
         "country": "England",
         "county": "Lincolnshire",
-        "hashtag": "SleafordAndNorthHykeham",
+        "hashtag": "SleafordNorthHykeham",
         "name": "Sleaford and North Hykeham",
         "ons_id": "E14000929",
         "region": "East Midlands",
@@ -39656,7 +39656,7 @@
       "constituency": {
         "country": "England",
         "county": "Somerset",
-        "hashtag": "SomertonAndFrome",
+        "hashtag": "SomertonFrome",
         "name": "Somerton and Frome",
         "ons_id": "E14000932",
         "region": "South West",
@@ -39806,7 +39806,7 @@
       "constituency": {
         "country": "England",
         "county": "Essex",
-        "hashtag": "SouthBasildonAndEastThurrock",
+        "hashtag": "SouthBasildonEastThurrock",
         "name": "South Basildon and East Thurrock",
         "ons_id": "E14000933",
         "region": "East",
@@ -40369,7 +40369,7 @@
       "constituency": {
         "country": "England",
         "county": "Lincolnshire",
-        "hashtag": "SouthHollandAndTheDeepings",
+        "hashtag": "SouthHollandTheDeepings",
         "name": "South Holland and The Deepings",
         "ons_id": "E14000939",
         "region": "East Midlands",
@@ -42120,7 +42120,7 @@
       "constituency": {
         "country": "England",
         "county": "Cornwall",
-        "hashtag": "StAustellAndNewquay",
+        "hashtag": "StAustellNewquay",
         "name": "St Austell and Newquay",
         "ons_id": "E14000961",
         "region": "South West",
@@ -42277,7 +42277,7 @@
       "constituency": {
         "country": "England",
         "county": "Merseyside",
-        "hashtag": "StHelensSouthAndWhiston",
+        "hashtag": "StHelensSouthWhiston",
         "name": "St Helens South and Whiston",
         "ons_id": "E14000963",
         "region": "North West",
@@ -42605,7 +42605,7 @@
       "constituency": {
         "country": "England",
         "county": "Greater Manchester",
-        "hashtag": "StalybridgeAndHyde",
+        "hashtag": "StalybridgeHyde",
         "name": "Stalybridge and Hyde",
         "ons_id": "E14000967",
         "region": "North West",
@@ -43090,7 +43090,7 @@
       "constituency": {
         "country": "England",
         "county": "Staffordshire",
-        "hashtag": "Stoke-On-TrentCentral",
+        "hashtag": "StokeOnTrentCentral",
         "name": "Stoke-On-Trent Central",
         "ons_id": "E14000972",
         "region": "West Midlands",
@@ -43172,7 +43172,7 @@
       "constituency": {
         "country": "England",
         "county": "Staffordshire",
-        "hashtag": "Stoke-On-TrentNorth",
+        "hashtag": "StokeOnTrentNorth",
         "name": "Stoke-On-Trent North",
         "ons_id": "E14000973",
         "region": "West Midlands",
@@ -43268,7 +43268,7 @@
       "constituency": {
         "country": "England",
         "county": "Staffordshire",
-        "hashtag": "Stoke-On-TrentSouth",
+        "hashtag": "StokeOnTrentSouth",
         "name": "Stoke-On-Trent South",
         "ons_id": "E14000974",
         "region": "West Midlands",
@@ -43568,7 +43568,7 @@
       "constituency": {
         "country": "England",
         "county": "Warwickshire",
-        "hashtag": "Stratford-On-Avon",
+        "hashtag": "StratfordOnAvon",
         "name": "Stratford-On-Avon",
         "ons_id": "E14000977",
         "region": "West Midlands",
@@ -43704,7 +43704,7 @@
       "constituency": {
         "country": "England",
         "county": "Greater Manchester",
-        "hashtag": "StretfordAndUrmston",
+        "hashtag": "StretfordUrmston",
         "name": "Stretford and Urmston",
         "ons_id": "E14000979",
         "region": "North West",
@@ -44105,7 +44105,7 @@
       "constituency": {
         "country": "England",
         "county": "South London",
-        "hashtag": "SuttonAndCheam",
+        "hashtag": "SuttonCheam",
         "name": "Sutton and Cheam",
         "ons_id": "E14000984",
         "region": "London",
@@ -45005,7 +45005,7 @@
       "constituency": {
         "country": "England",
         "county": "North Yorkshire",
-        "hashtag": "ThirskAndMalton",
+        "hashtag": "ThirskMalton",
         "name": "Thirsk and Malton",
         "ons_id": "E14000993",
         "region": "Yorkshire and The Humber",
@@ -45073,7 +45073,7 @@
       "constituency": {
         "country": "England",
         "county": "Avon",
-        "hashtag": "ThornburyAndYate",
+        "hashtag": "ThornburyYate",
         "name": "Thornbury and Yate",
         "ons_id": "E14000994",
         "region": "South West",
@@ -45256,7 +45256,7 @@
       "constituency": {
         "country": "England",
         "county": "Devon",
-        "hashtag": "TivertonAndHoniton",
+        "hashtag": "TivertonHoniton",
         "name": "Tiverton and Honiton",
         "ons_id": "E14000996",
         "region": "South West",
@@ -45331,7 +45331,7 @@
       "constituency": {
         "country": "England",
         "county": "Kent",
-        "hashtag": "TonbridgeAndMalling",
+        "hashtag": "TonbridgeMalling",
         "name": "Tonbridge and Malling",
         "ons_id": "E14000997",
         "region": "South East",
@@ -45645,7 +45645,7 @@
       "constituency": {
         "country": "England",
         "county": "Devon",
-        "hashtag": "TorridgeAndWestDevon",
+        "hashtag": "TorridgeWestDevon",
         "name": "Torridge and West Devon",
         "ons_id": "E14001000",
         "region": "South West",
@@ -45875,7 +45875,7 @@
       "constituency": {
         "country": "England",
         "county": "Cornwall",
-        "hashtag": "TruroAndFalmouth",
+        "hashtag": "TruroFalmouth",
         "name": "Truro and Falmouth",
         "ons_id": "E14001003",
         "region": "South West",
@@ -46267,7 +46267,7 @@
       "constituency": {
         "country": "England",
         "county": "West and North West London",
-        "hashtag": "UxbridgeAndSouthRuislip",
+        "hashtag": "UxbridgeSouthRuislip",
         "name": "Uxbridge and South Ruislip",
         "ons_id": "E14001007",
         "region": "London",
@@ -47420,7 +47420,7 @@
       "constituency": {
         "country": "England",
         "county": "Warwickshire",
-        "hashtag": "WarwickAndLeamington",
+        "hashtag": "WarwickLeamington",
         "name": "Warwick and Leamington",
         "ons_id": "E14001019",
         "region": "West Midlands",
@@ -47516,7 +47516,7 @@
       "constituency": {
         "country": "England",
         "county": "Tyne and Wear",
-        "hashtag": "WashingtonAndSunderlandWest",
+        "hashtag": "WashingtonSunderlandWest",
         "name": "Washington and Sunderland West",
         "ons_id": "E14001020",
         "region": "North East",
@@ -48182,7 +48182,7 @@
       "constituency": {
         "country": "England",
         "county": "South Yorkshire",
-        "hashtag": "WentworthAndDearne",
+        "hashtag": "WentworthDearne",
         "name": "Wentworth and Dearne",
         "ons_id": "E14001028",
         "region": "Yorkshire and The Humber",
@@ -48271,7 +48271,7 @@
       "constituency": {
         "country": "Scotland",
         "county": "North Eastern Scotland",
-        "hashtag": "WestAberdeenshireAndKincardine",
+        "hashtag": "WestAberdeenshireKincardine",
         "name": "West Aberdeenshire and Kincardine",
         "ons_id": "S14000058",
         "region": "Scotland",
@@ -49073,7 +49073,7 @@
       "constituency": {
         "country": "England",
         "county": "Cumbria",
-        "hashtag": "WestmorlandAndLonsdale",
+        "hashtag": "WestmorlandLonsdale",
         "name": "Westmorland and Lonsdale",
         "ons_id": "E14001037",
         "region": "North West",
@@ -49160,7 +49160,7 @@
       "constituency": {
         "country": "England",
         "county": "Avon",
-        "hashtag": "Weston-Super-Mare",
+        "hashtag": "WestonSuperMare",
         "name": "Weston-Super-Mare",
         "ons_id": "E14001038",
         "region": "South West",
@@ -50487,7 +50487,7 @@
       "constituency": {
         "country": "England",
         "county": "Greater Manchester",
-        "hashtag": "WorsleyAndEcclesSouth",
+        "hashtag": "WorsleyEcclesSouth",
         "name": "Worsley and Eccles South",
         "ons_id": "E14001054",
         "region": "North West",
@@ -50808,7 +50808,7 @@
       "constituency": {
         "country": "England",
         "county": "Lancashire",
-        "hashtag": "WyreAndPrestonNorth",
+        "hashtag": "WyrePrestonNorth",
         "name": "Wyre and Preston North",
         "ons_id": "E14001057",
         "region": "North West",
@@ -50972,7 +50972,7 @@
       "constituency": {
         "country": "England",
         "county": "Greater Manchester",
-        "hashtag": "WythenshaweAndSaleEast",
+        "hashtag": "WythenshaweSaleEast",
         "name": "Wythenshawe and Sale East",
         "ons_id": "E14001059",
         "region": "North West",

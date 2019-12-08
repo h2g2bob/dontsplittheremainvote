@@ -7,15 +7,22 @@ class Party(NamedTuple):
     color: str = '#000000'
     short: str = 'other'
     swap_name: Optional[str] = None
+    shorter_name: Optional[str] = None
 
     @property
     def name(self):
         return self.code
 
+    @property
+    def name_for_image(self):
+        if self.shorter_name is not None:
+            return self.shorter_name
+        return self.name
+
 OTHERS = Party('Others', remain=False, color='#CCCCCC')
 LAB = Party('Labour', remain=True, color='#DC241F', short='lab', swap_name='labour')
-LD = Party('Liberal Democrat', remain=True, color='#FAA61A', short='ld', swap_name='liberal_democrats')
-SNP = Party('Scottish National Party', remain=True, color='#FFF95D', short='snp', swap_name='snp')
+LD = Party('Liberal Democrat', remain=True, color='#FAA61A', short='ld', swap_name='liberal_democrats', shorter_name='Lib Dem')
+SNP = Party('Scottish National Party', remain=True, color='#FFF95D', short='snp', swap_name='snp', shorter_name='SNP')
 CON = Party('Conservative', remain=False, color='#0087DC')
 CHANGEUK = Party('Change UK', remain=False, color='#222222', short='chuk')
 PLAID = Party('Plaid Cymru', remain=True, color='#3F8428', short='plaid', swap_name='plaid_cymru')
@@ -27,10 +34,10 @@ UKIP = Party('UKIP / Brexit', remain=False, color='#70147A')
 UUP = Party('UUP', remain=False, color='#9999FF')
 NHAP = Party('National Health Action Party', remain=True, color='#0071BB')
 SDLP = Party('SDLP', remain=True, color='#3A9E84', short='sdlp')
-CLAIREWRIGHT = Party('Claire Wright', remain=True, color='#00bd93', short='ind-wright')
+CLAIREWRIGHT = Party('Claire Wright', remain=True, color='#00bd93', short='ind-wright', shorter_name='ClaireWright')
 INDEPENDENT = Party('Independent', remain=False, color='#e7e7e7', short='ind')
 ANNASOUBRY = Party('Anna Soubry', remain=False, color='#222222', short='chuk')
-DOMINICGRIEVE = Party('Dominic Grieve', remain=True, color='#e7e7e7', short='ind')
+DOMINICGRIEVE = Party('Dominic Grieve', remain=True, color='#e7e7e7', short='ind', shorter_name='Grieve')
 DAVIDGAUKE = Party('David Gauke', remain=True, color='#e7e7e7', short='ind')
 GAVINSHUKER = Party('Gavin Shuker', remain=True, color='#e7e7e7', short='ind')
 SPEAKER = Party('Speaker', remain=True, color='#888888')

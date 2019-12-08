@@ -1,5 +1,7 @@
 import csv
 import json
+import os.path
+import subprocess
 from jinja2 import Environment, FileSystemLoader
 from typing import Dict
 from typing import List
@@ -26,6 +28,7 @@ def generate_all_constituencies():
     make_sqlite()
 
     constituency_pages = datasets_by_constituency()
+    generate_images(constituency_pages)
     for constituency_page in constituency_pages:
         nearby_constituencies = _nearby_constituency_pages(constituency_pages, constituency_page.constituency)
         generate_constituency(constituency_page, nearby_constituencies)
@@ -51,7 +54,8 @@ def generate_constituency(constituency_page, nearby_constituency_pages):
         html = JINJA_ENV.get_template(template_name).render(
             static=STATIC,
             this_url=BASE_URL + url_path,
-            image_735_385=IMAGE_LOGO_735_238,
+            image_735_385=None,
+            image_600_314='/static/banner-generated/' + constituency_page.constituency.slug + '.svg.png',
             constituency=constituency_page.constituency,
             datasets_election=constituency_page.datasets_election,
             datasets_polling=constituency_page.datasets_polling,
@@ -89,6 +93,7 @@ def generate_index(constituency_pages):
             static=STATIC,
             this_url=BASE_URL + '/',
             image_735_385=IMAGE_LOGO_735_238,
+            image_600_314=IMAGE_LOGO_600_314,
             constituency_pages=region_county_constituency(constituency_pages))
         with open('generated/' + output_path, 'w') as f:
             f.write(html)
@@ -98,6 +103,7 @@ def generate_datasets(datasets: List[Dataset]):
         static=STATIC,
         this_url=BASE_URL + '/datasets.html',
         image_735_385=IMAGE_LOGO_735_238,
+        image_600_314=IMAGE_LOGO_600_314,
         datasets=datasets)
     with open('generated/datasets.html', 'w') as f:
         f.write(html)
@@ -171,3 +177,57 @@ def generate_other_sites_csv(constituency_pages: List[ConstituencyPage]):
                 data.append(party.short if party is not None else None)
                 data.append(alignment)
             writer.writerow(data)
+
+def generate_images(constituency_pages):
+    banner_directory = 'generated/static/banner-generated'
+    with open(banner_directory + '/template.svg') as f:
+        template = f.read()
+
+    with open('generated/static/banner/banner_600_314.svg') as f:
+        backup_template = f.read()
+
+    optimize = []
+    for constituency_page in constituency_pages:
+        outsvg = banner_directory + '/' + constituency_page.constituency.slug + '.svg'
+        if os.path.exists(outsvg):
+            continue
+
+        print('Generating image: {}'.format(outsvg))
+
+        main_party = constituency_page.aggregation.party
+
+        other_remain_parties = [
+            remain_party
+            for remain_party, _votes in constituency_page.datasets[data_ge2017.DATA_2017].remainers()
+            if remain_party != main_party]
+        if other_remain_parties:
+            second_party = other_remain_parties[0]
+        else:
+            second_party = None
+
+        if main_party is None or second_party is None:
+            svgdata = backup_template
+
+        else:
+                svgdata = template
+                svgdata = svgdata.replace('MONSTER', main_party.name_for_image.upper())
+                svgdata = svgdata.replace('#ff0000', main_party.color)
+                svgdata = svgdata.replace('#ff00ff', second_party.color)
+                if len(constituency_page.constituency.hashtag) > 18:
+                    long_hash = 'In #' + constituency_page.constituency.hashtag
+                    short_hash = ''
+                else:
+                    long_hash = ''
+                    short_hash = 'In #' + constituency_page.constituency.hashtag
+                svgdata = svgdata.replace('In #NorthSouthEastWest', short_hash)
+                svgdata = svgdata.replace('In #LongNorthLongSouthLongEastLongWest', long_hash)
+
+        with open(outsvg, 'w') as f:
+            f.write(svgdata)
+
+        subprocess.check_call(['convert', outsvg, 'png:' + outsvg + '.png'])
+        optimize.append(outsvg + '.png')
+
+    # delay this part of the work, because there's race conditions reading the file from disk(?)
+    for optipng in optimize:
+        subprocess.call(['optipng', '-o', '3', optipng])

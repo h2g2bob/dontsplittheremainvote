@@ -29,7 +29,15 @@ class Constituency(NamedTuple):
 
     @property
     def hashtag(self):
-        return ''.join(word.title() for word in self.name.replace(',', '').replace('.', '').split())
+        words_map = {
+            # 'north': 'n',
+            # 'south': 's',
+            # 'east': 'e',
+            # 'west': 'w',
+            'and': '',
+        }
+        words = re.sub(r'[\.\,\(\)\&\-]', ' ', self.name.lower()).split()
+        return ''.join(words_map.get(word, word).title() for word in words)
 
     def as_json(self):
         return {

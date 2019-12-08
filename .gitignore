@@ -2,4 +2,6 @@
 *.swp
 generated/constituency/
 generated/static/candidate_images/
+generated/static/banner-generated/
+generated/minimal/
 config.sh
