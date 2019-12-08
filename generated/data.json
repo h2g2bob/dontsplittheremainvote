@@ -24302,7 +24302,7 @@
       },
       "other_sites": [
         {
-          "important": true,
+          "important": false,
           "party": "lab",
           "they_say": "Current Labour seat. Tories very close second last election.",
           "url": "https://tacticalvote.co.uk/#Kensington",
