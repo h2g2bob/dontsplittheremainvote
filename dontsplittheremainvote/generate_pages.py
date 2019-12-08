@@ -15,7 +15,11 @@ from .constituency import Constituency
 from .constituency_page import ConstituencyPage
 from .generate_postcode_sqlite import make_sqlite
 from .party import Party
+from .party import ANNASOUBRY
 from .party import ANYPARTY
+from .party import DAVIDGAUKE
+from .party import DOMINICGRIEVE
+from .party import GAVINSHUKER
 
 JINJA_ENV = Environment(loader=FileSystemLoader('templates/'))
 
@@ -208,23 +212,37 @@ def generate_images(constituency_pages):
 
         [leave_party, _votes] = list(ge2017_results.leavers())[0]
 
-        if main_party is None or second_party is None:
+        if main_party is None:
             svgdata = backup_template
 
         else:
-                svgdata = template
-                svgdata = svgdata.replace('MONSTER', main_party.name_for_image.upper())
+            svgdata = template
+            svgdata = svgdata.replace('MONSTER', main_party.name_for_image.upper())
+
+            if len(constituency_page.constituency.hashtag) > 18:
+                long_hash = 'In #' + constituency_page.constituency.hashtag
+                short_hash = ''
+            else:
+                long_hash = ''
+                short_hash = 'In #' + constituency_page.constituency.hashtag
+            svgdata = svgdata.replace('In #NorthSouthEastWest', short_hash)
+            svgdata = svgdata.replace('In #LongNorthLongSouthLongEastLongWest', long_hash)
+
+            if main_party is None \
+                    or second_party is None \
+                    or main_party in (DAVIDGAUKE, ANNASOUBRY, DOMINICGRIEVE, GAVINSHUKER):
+
+                # no diagram, just "Vote GAUKE" or whatever
+                svgdata = svgdata.replace('#ff0000', '#ffffff')
+                svgdata = svgdata.replace('#ff00ff', '#ffffff')
+                svgdata = svgdata.replace('#00ffff', '#ffffff')
+                svgdata = svgdata.replace('#0000ff', '#ffffff')
+
+            else:
                 svgdata = svgdata.replace('#ff0000', main_party.color)
                 svgdata = svgdata.replace('#ff00ff', second_party.color)
                 svgdata = svgdata.replace('#00ffff', leave_party.color)
-                if len(constituency_page.constituency.hashtag) > 18:
-                    long_hash = 'In #' + constituency_page.constituency.hashtag
-                    short_hash = ''
-                else:
-                    long_hash = ''
-                    short_hash = 'In #' + constituency_page.constituency.hashtag
-                svgdata = svgdata.replace('In #NorthSouthEastWest', short_hash)
-                svgdata = svgdata.replace('In #LongNorthLongSouthLongEastLongWest', long_hash)
+                svgdata = svgdata.replace('#0000ff', '#000000')
 
         with open(outsvg, 'w') as f:
             f.write(svgdata)
