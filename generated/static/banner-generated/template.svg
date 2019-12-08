@@ -26,12 +26,12 @@
      borderopacity="1.0"
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.77073465"
-     inkscape:cx="298.91167"
-     inkscape:cy="190.5828"
+     inkscape:zoom="8.591169"
+     inkscape:cx="538.10654"
+     inkscape:cy="15.990667"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
-     showgrid="false"
+     showgrid="true"
      showguides="true"
      fit-margin-top="0"
      fit-margin-left="0"
@@ -42,7 +42,11 @@
      inkscape:window-height="669"
      inkscape:window-x="0"
      inkscape:window-y="28"
-     inkscape:window-maximized="1" />
+     inkscape:window-maximized="1">
+    <inkscape:grid
+       type="xygrid"
+       id="grid909" />
+  </sodipodi:namedview>
   <metadata
      id="metadata825">
     <rdf:RDF>
@@ -79,57 +83,57 @@
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:6.3499999px;line-height:100%;font-family:'DejaVu Sans';-inkscape-font-specification:'DejaVu Sans Bold';letter-spacing:0px;word-spacing:0px;fill:#dc241f;fill-opacity:1;stroke:#000000;stroke-width:0.11906249px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        x="37.74939"
-       y="100.07642"
+       y="100.84045"
        id="text836"><tspan
          sodipodi:role="line"
          id="tspan834"
          x="37.74939"
-         y="100.07642"
+         y="100.84045"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:8.89000034px;font-family:'DejaVu Sans';-inkscape-font-specification:'DejaVu Sans Bold';letter-spacing:-0.23812504px;fill:#dc241f;fill-opacity:1;stroke:#000000;stroke-width:0.11906249px;stroke-opacity:1">Don't</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:6.3499999px;line-height:100%;font-family:'DejaVu Sans';-inkscape-font-specification:'DejaVu Sans Bold';letter-spacing:0px;word-spacing:0px;fill:#fff95d;fill-opacity:1;stroke:#000000;stroke-width:0.11906249px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        x="146.40767"
-       y="100.11208"
+       y="100.86384"
        id="text836-3"><tspan
          sodipodi:role="line"
          id="tspan834-6"
          x="146.40767"
-         y="100.11208"
+         y="100.86384"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:8.89000034px;font-family:'DejaVu Sans';-inkscape-font-specification:'DejaVu Sans Bold';fill:#fff95d;fill-opacity:1;stroke:#000000;stroke-width:0.11906249px;stroke-opacity:1">Vote</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:6.3499999px;line-height:100%;font-family:'DejaVu Sans';-inkscape-font-specification:'DejaVu Sans Bold';letter-spacing:0px;word-spacing:0px;fill:#6ab023;fill-opacity:1;stroke:#000000;stroke-width:0.11906249px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        x="107.8017"
-       y="99.963249"
+       y="100.82665"
        id="text836-7"><tspan
          sodipodi:role="line"
          id="tspan834-5"
          x="107.8017"
-         y="99.963249"
+         y="100.82665"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:8.89000034px;font-family:'DejaVu Sans';-inkscape-font-specification:'DejaVu Sans Bold';fill:#6ab023;fill-opacity:1;stroke:#000000;stroke-width:0.11906249px;stroke-opacity:1">Remain</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:6.3499999px;line-height:100%;font-family:'DejaVu Sans';-inkscape-font-specification:'DejaVu Sans Bold';letter-spacing:0px;word-spacing:0px;fill:#eeeeee;fill-opacity:1;stroke:#000000;stroke-width:0.11906249px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        x="89.320992"
-       y="100.21315"
+       y="100.87968"
        id="text836-35"><tspan
          sodipodi:role="line"
          id="tspan834-62"
          x="89.320992"
-         y="100.21315"
+         y="100.87968"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:8.89000034px;line-height:100%;font-family:'DejaVu Sans';-inkscape-font-specification:'DejaVu Sans Bold';letter-spacing:-0.23812504px;fill:#eeeeee;fill-opacity:1;stroke:#000000;stroke-width:0.11906249px;stroke-opacity:1"
          dx="0">The</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:6.3499999px;line-height:100%;font-family:'DejaVu Sans';-inkscape-font-specification:'DejaVu Sans Bold';letter-spacing:0px;word-spacing:0px;fill:#faa61a;fill-opacity:1;stroke:#000000;stroke-width:0.11906249px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        x="64.593414"
-       y="100.30405"
+       y="100.81252"
        id="text836-9"><tspan
          sodipodi:role="line"
          id="tspan834-1"
          x="64.593414"
-         y="100.30405"
+         y="100.81252"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:8.89000034px;font-family:'DejaVu Sans';-inkscape-font-specification:'DejaVu Sans Bold';fill:#faa61a;fill-opacity:1;stroke:#000000;stroke-width:0.11906249px;stroke-opacity:1">Split</tspan></text>
     <g
        transform="matrix(0.00689022,0,0,-0.00689022,60.12135,55.409329)"
@@ -509,5 +513,16 @@
          y="84.748604"
          style="font-size:11.28888893px;stroke-width:0.26458332px"
          id="tspan914">In #NorthSouthEastWest</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;line-height:100%;font-family:'DejaVu Sans';-inkscape-font-specification:'DejaVu Sans';letter-spacing:0px;word-spacing:0px;fill:#808080;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="168.89987"
+       y="100.90244"
+       id="text4617"><tspan
+         sodipodi:role="line"
+         id="tspan4615"
+         x="168.89987"
+         y="100.90244"
+         style="font-size:4.23333311px;fill:#808080;stroke-width:0.26458332px">.com</tspan></text>
   </g>
 </svg>
