@@ -299,3 +299,10 @@ div.tactical-explain img.tactical {
   max-width: 40em;
   max-height: auto;
 }
+
+div.tactical-explain img.tactical-smaller {
+  width: 60%;
+  height: auto;
+  max-width: 20em;
+  max-height: auto;
+}
