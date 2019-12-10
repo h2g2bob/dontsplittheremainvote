@@ -418,6 +418,9 @@ def _jonworth():
         'edinburgh-north-and-leith': SNP,
         'wokingham': LD,
         'arfon': ANYPARTY,
+        'sheffield-hallam': ANYPARTY,
+        'kirkcaldy-and-cowdenbeath': LAB,
+        'midlothian': SNP,
     }
 
     # video in wrong section of website *cries*

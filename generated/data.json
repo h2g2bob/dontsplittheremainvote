@@ -829,6 +829,13 @@
         {
           "important": false,
           "party": "snp",
+          "they_say": "Tactically vote SNP to un-seat a Conservative",
+          "url": "https://tacticalvoting.jonworth.eu/angus/",
+          "who_suggests": "Jon Worth (video!)"
+        },
+        {
+          "important": false,
+          "party": "snp",
           "they_say": null,
           "url": "https://tacticalvote.getvoting.org/angus/",
           "who_suggests": "Best for Britain"
@@ -1039,10 +1046,10 @@
     },
     "arundel-and-south-downs": {
       "aggregation": {
-        "disagreement": false,
+        "disagreement": true,
         "important": false,
-        "party": "ld",
-        "template": "vote-ld.html"
+        "party": null,
+        "template": "contradict.html"
       },
       "analysis": {
         "template": "alliance-mixed.html",
@@ -1071,6 +1078,13 @@
           "they_say": "No recommendation - Safe Conservative seat with Labour in second place",
           "url": "https://www.remainunited.org/#postcode=BN126PN",
           "who_suggests": "Remain United"
+        },
+        {
+          "important": false,
+          "party": "lab",
+          "they_say": null,
+          "url": "https://tactical.vote/arundel-and-south-downs",
+          "who_suggests": "tactical.vote"
         },
         {
           "important": false,
@@ -1467,6 +1481,13 @@
           "they_say": "Current Tory seat. SNP close second last election.",
           "url": "https://tacticalvote.co.uk/#Ayr,CarrickandCumnock",
           "who_suggests": "tacticalvote.co.uk"
+        },
+        {
+          "important": false,
+          "party": "snp",
+          "they_say": "Tactically vote SNP to un-seat a Conservative",
+          "url": "https://tacticalvoting.jonworth.eu/ayr-carrick-and-cumnock/",
+          "who_suggests": "Jon Worth (video!)"
         },
         {
           "important": false,
@@ -2631,6 +2652,13 @@
         "slug": "beckenham"
       },
       "other_sites": [
+        {
+          "important": false,
+          "party": "lab",
+          "they_say": "Current Tory seat. Labour came second last election.",
+          "url": "https://tacticalvote.co.uk/#Beckenham",
+          "who_suggests": "tacticalvote.co.uk"
+        },
         {
           "important": false,
           "party": "lab",
@@ -5796,6 +5824,13 @@
         {
           "important": false,
           "party": "lab",
+          "they_say": "Current Tory seat. Labour came second last election.",
+          "url": "https://tacticalvote.co.uk/#Bracknell",
+          "who_suggests": "tacticalvote.co.uk"
+        },
+        {
+          "important": false,
+          "party": "lab",
           "they_say": null,
           "url": "https://tacticalvote.getvoting.org/bracknell/",
           "who_suggests": "Best for Britain"
@@ -7479,6 +7514,13 @@
         {
           "important": false,
           "party": "lab",
+          "they_say": "Current Tory seat. Labour came second last election.",
+          "url": "https://tacticalvote.co.uk/#Bromsgrove",
+          "who_suggests": "tacticalvote.co.uk"
+        },
+        {
+          "important": false,
+          "party": "lab",
           "they_say": null,
           "url": "https://tacticalvote.getvoting.org/bromsgrove/",
           "who_suggests": "Best for Britain"
@@ -7619,6 +7661,13 @@
         "slug": "broxtowe"
       },
       "other_sites": [
+        {
+          "important": true,
+          "party": "lab",
+          "they_say": "Current Tory seat. Labour came second last election.",
+          "url": "https://tacticalvote.co.uk/#Broxtowe",
+          "who_suggests": "tacticalvote.co.uk"
+        },
         {
           "important": false,
           "party": "lab",
@@ -9674,7 +9723,7 @@
     },
     "central-devon": {
       "aggregation": {
-        "disagreement": true,
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -9716,7 +9765,7 @@
         },
         {
           "important": false,
-          "party": "ld",
+          "party": "lab",
           "they_say": null,
           "url": "https://tactical-vote.uk/central-devon",
           "who_suggests": "People's Vote"
@@ -9768,6 +9817,13 @@
         "slug": "central-suffolk-and-north-ipswich"
       },
       "other_sites": [
+        {
+          "important": false,
+          "party": "lab",
+          "they_say": "Current Tory seat. Labour came second last election.",
+          "url": "https://tacticalvote.co.uk/#CentralSuffolkandNorthIpswich",
+          "who_suggests": "tacticalvote.co.uk"
+        },
         {
           "important": false,
           "party": "lab",
@@ -10258,7 +10314,7 @@
     },
     "chelsea-and-fulham": {
       "aggregation": {
-        "disagreement": false,
+        "disagreement": true,
         "important": false,
         "party": "ld",
         "template": "vote-ld.html"
@@ -10297,6 +10353,13 @@
           "they_say": "No recommendation - Conservative seat with no clear remain party challenger",
           "url": "https://www.remainunited.org/#postcode=SW35DQ",
           "who_suggests": "Remain United"
+        },
+        {
+          "important": false,
+          "party": "lab",
+          "they_say": null,
+          "url": "https://tactical.vote/chelsea-and-fulham",
+          "who_suggests": "tactical.vote"
         },
         {
           "important": false,
@@ -11640,6 +11703,13 @@
         {
           "important": false,
           "party": "lab",
+          "they_say": "Tactically vote Labour to un-seat a Conservative",
+          "url": "https://tacticalvoting.jonworth.eu/clwyd-west/",
+          "who_suggests": "Jon Worth (video!)"
+        },
+        {
+          "important": false,
+          "party": "lab",
           "they_say": null,
           "url": "https://tacticalvote.getvoting.org/clwyd-west/",
           "who_suggests": "Best for Britain"
@@ -11773,6 +11843,13 @@
         "slug": "colchester"
       },
       "other_sites": [
+        {
+          "important": false,
+          "party": "lab",
+          "they_say": "Current Tory seat. Labour came second last election.",
+          "url": "https://tacticalvote.co.uk/#Colchester",
+          "who_suggests": "tacticalvote.co.uk"
+        },
         {
           "important": false,
           "party": "lab",
@@ -13673,10 +13750,10 @@
     },
     "devizes": {
       "aggregation": {
-        "disagreement": true,
+        "disagreement": false,
         "important": false,
-        "party": null,
-        "template": "contradict.html"
+        "party": "lab",
+        "template": "vote-lab.html"
       },
       "analysis": {
         "template": "suppressed-too-far-behind-2017.html",
@@ -13715,7 +13792,7 @@
         },
         {
           "important": false,
-          "party": "ld",
+          "party": "lab",
           "they_say": null,
           "url": "https://tactical-vote.uk/devizes",
           "who_suggests": "People's Vote"
@@ -16007,6 +16084,13 @@
         {
           "important": false,
           "party": "lab",
+          "they_say": "Current Tory seat. Labour came second last election.",
+          "url": "https://tacticalvote.co.uk/#EastYorkshire",
+          "who_suggests": "tacticalvote.co.uk"
+        },
+        {
+          "important": false,
+          "party": "lab",
           "they_say": null,
           "url": "https://tacticalvote.getvoting.org/east-yorkshire/",
           "who_suggests": "Best for Britain"
@@ -17516,7 +17600,7 @@
         {
           "important": false,
           "party": "ld",
-          "they_say": "",
+          "they_say": "Current Tory seat. Lib Dems came second last election.",
           "url": "https://tacticalvote.co.uk/#EsherandWalton",
           "who_suggests": "tacticalvote.co.uk"
         },
@@ -18051,7 +18135,7 @@
         {
           "important": true,
           "party": "lab",
-          "they_say": "",
+          "they_say": "Current Tory seat. Labour came second last election.",
           "url": "https://tacticalvote.co.uk/#FiltonandBradleyStoke",
           "who_suggests": "tacticalvote.co.uk"
         },
@@ -19524,6 +19608,13 @@
         {
           "important": false,
           "party": "snp",
+          "they_say": "Tactically vote SNP to un-seat a Conservative",
+          "url": "https://tacticalvoting.jonworth.eu/gordon/",
+          "who_suggests": "Jon Worth (video!)"
+        },
+        {
+          "important": false,
+          "party": "snp",
           "they_say": null,
           "url": "https://tacticalvote.getvoting.org/gordon/",
           "who_suggests": "Best for Britain"
@@ -20562,6 +20653,13 @@
         "slug": "haltemprice-and-howden"
       },
       "other_sites": [
+        {
+          "important": false,
+          "party": "lab",
+          "they_say": "Current Tory seat. Labour came second last election.",
+          "url": "https://tacticalvote.co.uk/#HaltempriceandHowden",
+          "who_suggests": "tacticalvote.co.uk"
+        },
         {
           "important": false,
           "party": "lab",
@@ -21702,6 +21800,13 @@
         {
           "important": false,
           "party": "ld",
+          "they_say": "Tactically vote Lib Dem to un-seat a Conservative",
+          "url": "https://tacticalvoting.jonworth.eu/hazel-grove/",
+          "who_suggests": "Jon Worth (video!)"
+        },
+        {
+          "important": false,
+          "party": "ld",
           "they_say": null,
           "url": "https://tacticalvote.getvoting.org/hazel-grove/",
           "who_suggests": "Best for Britain"
@@ -22184,7 +22289,7 @@
     },
     "hertford-and-stortford": {
       "aggregation": {
-        "disagreement": true,
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -22203,6 +22308,13 @@
         "slug": "hertford-and-stortford"
       },
       "other_sites": [
+        {
+          "important": false,
+          "party": "lab",
+          "they_say": "Current Tory seat. Labour came second last election.",
+          "url": "https://tacticalvote.co.uk/#HertfordandStortford",
+          "who_suggests": "tacticalvote.co.uk"
+        },
         {
           "important": false,
           "party": "lab",
@@ -22226,7 +22338,7 @@
         },
         {
           "important": false,
-          "party": "ld",
+          "party": "lab",
           "they_say": null,
           "url": "https://tactical-vote.uk/hertford-and-stortford",
           "who_suggests": "People's Vote"
@@ -22278,6 +22390,13 @@
         "slug": "hertsmere"
       },
       "other_sites": [
+        {
+          "important": false,
+          "party": "lab",
+          "they_say": "Current Tory seat. Labour came second last election.",
+          "url": "https://tacticalvote.co.uk/#Hertsmere",
+          "who_suggests": "tacticalvote.co.uk"
+        },
         {
           "important": false,
           "party": "lab",
@@ -22582,8 +22701,8 @@
       "aggregation": {
         "disagreement": true,
         "important": false,
-        "party": null,
-        "template": "contradict.html"
+        "party": "ld",
+        "template": "vote-ld.html"
       },
       "analysis": {
         "template": "suppressed-too-far-behind-2017.html",
@@ -22619,13 +22738,6 @@
           "they_say": "Vote Labour - competitive Conservative-Labour seat",
           "url": "https://www.remainunited.org/#postcode=AL23LD",
           "who_suggests": "Remain United"
-        },
-        {
-          "important": false,
-          "party": "lab",
-          "they_say": null,
-          "url": "https://tactical.vote/hitchin-and-harpenden",
-          "who_suggests": "tactical.vote"
         },
         {
           "important": false,
@@ -24974,6 +25086,13 @@
         {
           "important": false,
           "party": "lab",
+          "they_say": "Unique constituency",
+          "url": "https://tacticalvoting.jonworth.eu/kirkcaldy-and-cowdenbeath/",
+          "who_suggests": "Jon Worth (video!)"
+        },
+        {
+          "important": false,
+          "party": "lab",
           "they_say": "Vote Labour - Safe Labour seat",
           "url": "https://www.remainunited.org/#postcode=KY39UZ",
           "who_suggests": "Remain United"
@@ -27076,6 +27195,13 @@
         {
           "important": false,
           "party": "lab",
+          "they_say": "Tactically vote Labour to un-seat a Conservative",
+          "url": "https://tacticalvoting.jonworth.eu/loughborough/",
+          "who_suggests": "Jon Worth (video!)"
+        },
+        {
+          "important": false,
+          "party": "lab",
           "they_say": null,
           "url": "https://tacticalvote.getvoting.org/loughborough/",
           "who_suggests": "Best for Britain"
@@ -27294,6 +27420,13 @@
         {
           "important": false,
           "party": "lab",
+          "they_say": "Current Labour seat. Tories came second last election.",
+          "url": "https://tacticalvote.co.uk/#LutonNorth",
+          "who_suggests": "tacticalvote.co.uk"
+        },
+        {
+          "important": false,
+          "party": "lab",
           "they_say": null,
           "url": "https://tacticalvote.getvoting.org/luton-north/",
           "who_suggests": "Best for Britain"
@@ -27359,6 +27492,13 @@
         "slug": "luton-south"
       },
       "other_sites": [
+        {
+          "important": false,
+          "party": "lab",
+          "they_say": "Current Labour seat. Tories came second last election.",
+          "url": "https://tacticalvote.co.uk/#LutonSouth",
+          "who_suggests": "tacticalvote.co.uk"
+        },
         {
           "important": false,
           "party": "lab",
@@ -27727,10 +27867,10 @@
     },
     "maldon": {
       "aggregation": {
-        "disagreement": true,
+        "disagreement": false,
         "important": false,
-        "party": null,
-        "template": "contradict.html"
+        "party": "lab",
+        "template": "vote-lab.html"
       },
       "analysis": {
         "template": "suppressed-too-far-behind-2017.html",
@@ -27769,7 +27909,7 @@
         },
         {
           "important": false,
-          "party": "ld",
+          "party": "lab",
           "they_say": null,
           "url": "https://tactical-vote.uk/maldon",
           "who_suggests": "People's Vote"
@@ -28744,6 +28884,13 @@
       "other_sites": [
         {
           "important": false,
+          "party": "any",
+          "they_say": "Sinn Fein safe seat. Tactical voting is not needed here.",
+          "url": "https://tacticalvote.co.uk/#MidUlster",
+          "who_suggests": "tacticalvote.co.uk"
+        },
+        {
+          "important": false,
           "party": "sf",
           "they_say": "Vote Sinn Fein - Safe Sinn Fein seat",
           "url": "https://www.remainunited.org/#postcode=BT448BE",
@@ -29018,8 +29165,8 @@
       "aggregation": {
         "disagreement": true,
         "important": false,
-        "party": null,
-        "template": "contradict.html"
+        "party": "snp",
+        "template": "vote-snp.html"
       },
       "analysis": {
         "template": "alliance-mixed.html",
@@ -29041,6 +29188,13 @@
           "they_say": "Current Labour seat. SNP second in last election. Tactical voting not needed here.",
           "url": "https://tacticalvote.co.uk/#Midlothian",
           "who_suggests": "tacticalvote.co.uk"
+        },
+        {
+          "important": false,
+          "party": "snp",
+          "they_say": "Unique constituency",
+          "url": "https://tacticalvoting.jonworth.eu/midlothian/",
+          "who_suggests": "Jon Worth (video!)"
         },
         {
           "important": false,
@@ -31653,6 +31807,13 @@
         {
           "important": false,
           "party": "lab",
+          "they_say": "Current Tory seat. Labour came second last election.",
+          "url": "https://tacticalvote.co.uk/#NorthEastBedfordshire",
+          "who_suggests": "tacticalvote.co.uk"
+        },
+        {
+          "important": false,
+          "party": "lab",
           "they_say": null,
           "url": "https://tacticalvote.getvoting.org/north-east-bedfordshire/",
           "who_suggests": "Best for Britain"
@@ -32025,7 +32186,7 @@
     },
     "north-east-hertfordshire": {
       "aggregation": {
-        "disagreement": true,
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -32044,6 +32205,13 @@
         "slug": "north-east-hertfordshire"
       },
       "other_sites": [
+        {
+          "important": false,
+          "party": "lab",
+          "they_say": "Current Tory seat. Labour came second last election.",
+          "url": "https://tacticalvote.co.uk/#NorthEastHertfordshire",
+          "who_suggests": "tacticalvote.co.uk"
+        },
         {
           "important": false,
           "party": "lab",
@@ -32067,7 +32235,7 @@
         },
         {
           "important": false,
-          "party": "ld",
+          "party": "lab",
           "they_say": null,
           "url": "https://tactical-vote.uk/north-east-hertfordshire",
           "who_suggests": "People's Vote"
@@ -32102,8 +32270,8 @@
       "aggregation": {
         "disagreement": true,
         "important": false,
-        "party": "lab",
-        "template": "vote-lab.html"
+        "party": null,
+        "template": "contradict.html"
       },
       "analysis": {
         "template": "alliance-mixed.html",
@@ -32156,7 +32324,7 @@
         },
         {
           "important": false,
-          "party": "lab",
+          "party": "ld",
           "they_say": null,
           "url": "https://tactical-vote.uk/north-east-somerset",
           "who_suggests": "People's Vote"
@@ -32428,8 +32596,8 @@
       "aggregation": {
         "disagreement": true,
         "important": false,
-        "party": null,
-        "template": "contradict.html"
+        "party": "lab",
+        "template": "vote-lab.html"
       },
       "analysis": {
         "template": "alliance-mixed.html",
@@ -32445,6 +32613,13 @@
         "slug": "north-somerset"
       },
       "other_sites": [
+        {
+          "important": false,
+          "party": "lab",
+          "they_say": "Current Tory seat. Labour came second last election.",
+          "url": "https://tacticalvote.co.uk/#NorthSomerset",
+          "who_suggests": "tacticalvote.co.uk"
+        },
         {
           "important": false,
           "party": "ld",
@@ -32475,7 +32650,7 @@
         },
         {
           "important": false,
-          "party": "ld",
+          "party": "lab",
           "they_say": null,
           "url": "https://tactical-vote.uk/north-somerset",
           "who_suggests": "People's Vote"
@@ -33343,13 +33518,6 @@
         {
           "important": false,
           "party": "lab",
-          "they_say": "Tactically vote Labour to un-seat a Conservative",
-          "url": "https://tacticalvoting.jonworth.eu/northampton-north/",
-          "who_suggests": "Jon Worth (video!)"
-        },
-        {
-          "important": false,
-          "party": "lab",
           "they_say": null,
           "url": "https://tacticalvote.getvoting.org/northampton-north/",
           "who_suggests": "Best for Britain"
@@ -33428,13 +33596,6 @@
           "they_say": "Current Tory seat. Labour came second last election.",
           "url": "https://tacticalvote.co.uk/#NorthamptonSouth",
           "who_suggests": "tacticalvote.co.uk"
-        },
-        {
-          "important": false,
-          "party": "lab",
-          "they_say": "Tactically vote Labour to un-seat a Conservative",
-          "url": "https://tacticalvoting.jonworth.eu/northampton-south/",
-          "who_suggests": "Jon Worth (video!)"
         },
         {
           "important": false,
@@ -34002,6 +34163,13 @@
           "they_say": "Current Tory seat. SNP close second last election.",
           "url": "https://tacticalvote.co.uk/#OchilandSouthPerthshire",
           "who_suggests": "tacticalvote.co.uk"
+        },
+        {
+          "important": false,
+          "party": "snp",
+          "they_say": "Tactically vote SNP to un-seat a Conservative",
+          "url": "https://tacticalvoting.jonworth.eu/ochil-and-south-perthshire/",
+          "who_suggests": "Jon Worth (video!)"
         },
         {
           "important": false,
@@ -34888,7 +35056,7 @@
         {
           "important": true,
           "party": "lab",
-          "they_say": "Current MP left Labour and is now Independent",
+          "they_say": "Previous Labour seat. Tories came second last election.",
           "url": "https://tacticalvote.co.uk/#PenistoneandStocksbridge",
           "who_suggests": "tacticalvote.co.uk"
         },
@@ -35814,6 +35982,13 @@
         {
           "important": false,
           "party": "lab",
+          "they_say": "Tactically vote Labour to un-seat a Conservative",
+          "url": "https://tacticalvoting.jonworth.eu/preseli-pembrokeshire/",
+          "who_suggests": "Jon Worth (video!)"
+        },
+        {
+          "important": false,
+          "party": "lab",
           "they_say": null,
           "url": "https://tacticalvote.getvoting.org/preseli-pembrokeshire/",
           "who_suggests": "Best for Britain"
@@ -36060,7 +36235,7 @@
         {
           "important": true,
           "party": "lab",
-          "they_say": "",
+          "they_say": "Current Tory seat. Labour came second last election.",
           "url": "https://tacticalvote.co.uk/#Putney",
           "who_suggests": "tacticalvote.co.uk"
         },
@@ -37845,10 +38020,10 @@
     },
     "runnymede-and-weybridge": {
       "aggregation": {
-        "disagreement": true,
+        "disagreement": false,
         "important": false,
-        "party": null,
-        "template": "contradict.html"
+        "party": "lab",
+        "template": "vote-lab.html"
       },
       "analysis": {
         "template": "special-independent-remain.html",
@@ -37887,7 +38062,7 @@
         },
         {
           "important": false,
-          "party": "ld",
+          "party": "lab",
           "they_say": null,
           "url": "https://tactical-vote.uk/runnymede-and-weybridge",
           "who_suggests": "People's Vote"
@@ -37945,6 +38120,13 @@
           "they_say": "Current Tory seat. Labour second last election.",
           "url": "https://tacticalvote.co.uk/#Rushcliffe",
           "who_suggests": "tacticalvote.co.uk"
+        },
+        {
+          "important": false,
+          "party": "lab",
+          "they_say": "Tactically vote Labour to un-seat a Conservative",
+          "url": "https://tacticalvoting.jonworth.eu/rushcliffe/",
+          "who_suggests": "Jon Worth (video!)"
         },
         {
           "important": false,
@@ -39064,6 +39246,13 @@
         },
         {
           "important": false,
+          "party": "any",
+          "they_say": "Unique constituency",
+          "url": "https://tacticalvoting.jonworth.eu/sheffield-hallam/",
+          "who_suggests": "Jon Worth (video!)"
+        },
+        {
+          "important": false,
           "party": "ld",
           "they_say": null,
           "url": "https://tacticalvote.getvoting.org/sheffield-hallam/",
@@ -40143,7 +40332,7 @@
         {
           "important": false,
           "party": "ld",
-          "they_say": "",
+          "they_say": "Current Tory seat. Lib Dems came second last election.",
           "url": "https://tacticalvote.co.uk/#SouthCambridgeshire",
           "who_suggests": "tacticalvote.co.uk"
         },
@@ -40556,6 +40745,13 @@
         {
           "important": false,
           "party": "ld",
+          "they_say": "Current Tory seat. Lib Dems have historically done well in this seat.",
+          "url": "https://tacticalvote.co.uk/#SouthEastCornwall",
+          "who_suggests": "tacticalvote.co.uk"
+        },
+        {
+          "important": false,
+          "party": "ld",
           "they_say": "Tactically vote Lib Dem to not split the Remain vote",
           "url": "https://tacticalvoting.jonworth.eu/south-east-cornwall/",
           "who_suggests": "Jon Worth (video!)"
@@ -40785,6 +40981,13 @@
         "slug": "south-norfolk"
       },
       "other_sites": [
+        {
+          "important": false,
+          "party": "lab",
+          "they_say": "Current Tory seat. Labour came second last election.",
+          "url": "https://tacticalvote.co.uk/#SouthNorfolk",
+          "who_suggests": "tacticalvote.co.uk"
+        },
         {
           "important": false,
           "party": "lab",
@@ -41156,6 +41359,13 @@
         {
           "important": false,
           "party": "lab",
+          "they_say": "Current Tory seat. Labour came second last election.",
+          "url": "https://tacticalvote.co.uk/#SouthSuffolk",
+          "who_suggests": "tacticalvote.co.uk"
+        },
+        {
+          "important": false,
+          "party": "lab",
           "they_say": null,
           "url": "https://tacticalvote.getvoting.org/south-suffolk/",
           "who_suggests": "Best for Britain"
@@ -41474,13 +41684,6 @@
         "slug": "south-west-devon"
       },
       "other_sites": [
-        {
-          "important": false,
-          "party": "lab",
-          "they_say": "Tactically vote Labour to un-seat a Conservative",
-          "url": "https://tacticalvoting.jonworth.eu/south-west-devon/",
-          "who_suggests": "Jon Worth (video!)"
-        },
         {
           "important": false,
           "party": "lab",
@@ -42390,8 +42593,8 @@
       "aggregation": {
         "disagreement": true,
         "important": false,
-        "party": null,
-        "template": "contradict.html"
+        "party": "lab",
+        "template": "vote-lab.html"
       },
       "analysis": {
         "template": "alliance-mixed.html",
@@ -42437,7 +42640,7 @@
         },
         {
           "important": false,
-          "party": "ld",
+          "party": "lab",
           "they_say": null,
           "url": "https://tactical-vote.uk/st-austell-and-newquay",
           "who_suggests": "People's Vote"
@@ -43145,6 +43348,13 @@
         "slug": "stockport"
       },
       "other_sites": [
+        {
+          "important": false,
+          "party": "lab",
+          "they_say": "Current Labour seat. Tories came second last election.",
+          "url": "https://tacticalvote.co.uk/#Stockport",
+          "who_suggests": "tacticalvote.co.uk"
+        },
         {
           "important": false,
           "party": "lab",
@@ -43947,6 +44157,13 @@
         {
           "important": false,
           "party": "lab",
+          "they_say": "Current Labour seat. Tories came second last election.",
+          "url": "https://tacticalvote.co.uk/#Streatham",
+          "who_suggests": "tacticalvote.co.uk"
+        },
+        {
+          "important": false,
+          "party": "lab",
           "they_say": null,
           "url": "https://tacticalvote.getvoting.org/streatham/",
           "who_suggests": "Best for Britain"
@@ -44512,6 +44729,13 @@
         {
           "important": false,
           "party": "lab",
+          "they_say": "Current Tory seat. Labour came second last election.",
+          "url": "https://tacticalvote.co.uk/#SuttonColdfield",
+          "who_suggests": "tacticalvote.co.uk"
+        },
+        {
+          "important": false,
+          "party": "lab",
           "they_say": null,
           "url": "https://tacticalvote.getvoting.org/sutton-coldfield/",
           "who_suggests": "Best for Britain"
@@ -44797,10 +45021,10 @@
     },
     "tatton": {
       "aggregation": {
-        "disagreement": true,
+        "disagreement": false,
         "important": false,
-        "party": null,
-        "template": "contradict.html"
+        "party": "lab",
+        "template": "vote-lab.html"
       },
       "analysis": {
         "template": "alliance-mixed.html",
@@ -44816,6 +45040,13 @@
         "slug": "tatton"
       },
       "other_sites": [
+        {
+          "important": false,
+          "party": "lab",
+          "they_say": "Current Tory seat. Labour came second last election.",
+          "url": "https://tacticalvote.co.uk/#Tatton",
+          "who_suggests": "tacticalvote.co.uk"
+        },
         {
           "important": false,
           "party": "lab",
@@ -44839,7 +45070,7 @@
         },
         {
           "important": false,
-          "party": "ld",
+          "party": "lab",
           "they_say": null,
           "url": "https://tactical-vote.uk/tatton",
           "who_suggests": "People's Vote"
@@ -45301,10 +45532,10 @@
     },
     "thirsk-and-malton": {
       "aggregation": {
-        "disagreement": true,
+        "disagreement": false,
         "important": false,
-        "party": null,
-        "template": "contradict.html"
+        "party": "lab",
+        "template": "vote-lab.html"
       },
       "analysis": {
         "template": "leave.html",
@@ -45343,7 +45574,7 @@
         },
         {
           "important": false,
-          "party": "ld",
+          "party": "lab",
           "they_say": null,
           "url": "https://tactical-vote.uk/thirsk-and-malton",
           "who_suggests": "People's Vote"
@@ -45963,6 +46194,13 @@
         {
           "important": false,
           "party": "ld",
+          "they_say": "Current Tory seat. Lib Dems came second last election.",
+          "url": "https://tacticalvote.co.uk/#TorridgeandWestDevon",
+          "who_suggests": "tacticalvote.co.uk"
+        },
+        {
+          "important": false,
+          "party": "ld",
           "they_say": "Tactically vote Lib Dem to not split the Remain vote",
           "url": "https://tacticalvoting.jonworth.eu/torridge-and-west-devon/",
           "who_suggests": "Jon Worth (video!)"
@@ -46042,6 +46280,13 @@
         "slug": "totnes"
       },
       "other_sites": [
+        {
+          "important": false,
+          "party": "ld",
+          "they_say": "Current Tory seat. Lib Dems came second last election.",
+          "url": "https://tacticalvote.co.uk/#Totnes",
+          "who_suggests": "tacticalvote.co.uk"
+        },
         {
           "important": false,
           "party": "ld",
@@ -46203,6 +46448,13 @@
           "they_say": "Current Tory seat. Labour came second last election.",
           "url": "https://tacticalvote.co.uk/#TruroandFalmouth",
           "who_suggests": "tacticalvote.co.uk"
+        },
+        {
+          "important": false,
+          "party": "lab",
+          "they_say": "Tactically vote Labour to un-seat a Conservative",
+          "url": "https://tacticalvoting.jonworth.eu/truro-and-falmouth/",
+          "who_suggests": "Jon Worth (video!)"
         },
         {
           "important": false,
@@ -46787,13 +47039,6 @@
           "they_say": "Current Tory seat. Labour came second last election.",
           "url": "https://tacticalvote.co.uk/#ValeofGlamorgan",
           "who_suggests": "tacticalvote.co.uk"
-        },
-        {
-          "important": false,
-          "party": "lab",
-          "they_say": "Tactically vote Labour to un-seat a Conservative",
-          "url": "https://tacticalvoting.jonworth.eu/vale-of-glamorgan/",
-          "who_suggests": "Jon Worth (video!)"
         },
         {
           "important": false,
@@ -47944,7 +48189,7 @@
         {
           "important": true,
           "party": "lab",
-          "they_say": "",
+          "they_say": "Current Tory seat. Labour came second last election.",
           "url": "https://tacticalvote.co.uk/#Watford",
           "who_suggests": "tacticalvote.co.uk"
         },
@@ -51103,6 +51348,13 @@
           "they_say": "Current Tory seat. Labour second last election.",
           "url": "https://tacticalvote.co.uk/#Wycombe",
           "who_suggests": "tacticalvote.co.uk"
+        },
+        {
+          "important": false,
+          "party": "lab",
+          "they_say": "Tactically vote Labour to un-seat a Conservative",
+          "url": "https://tacticalvoting.jonworth.eu/wycombe/",
+          "who_suggests": "Jon Worth (video!)"
         },
         {
           "important": false,

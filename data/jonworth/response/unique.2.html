@@ -51,6 +51,7 @@ img.emoji {
 	<link rel='stylesheet' id='wp-block-library-css'  href='https://tacticalvoting.jonworth.eu/wp-includes/css/dist/block-library/style.min.css?ver=5.3' type='text/css' media='all' />
 <link rel='stylesheet' id='contact-form-7-css'  href='https://tacticalvoting.jonworth.eu/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=5.1.6' type='text/css' media='all' />
 <link rel='stylesheet' id='cookie-notice-front-css'  href='https://tacticalvoting.jonworth.eu/wp-content/plugins/cookie-notice/css/front.min.css?ver=5.3' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-email-css'  href='https://tacticalvoting.jonworth.eu/wp-content/plugins/wp-email/email-css.css?ver=2.67.6' type='text/css' media='all' />
 <link rel='stylesheet' id='zoom-theme-utils-css-css'  href='https://tacticalvoting.jonworth.eu/wp-content/themes/videobox/functions/wpzoom/assets/css/theme-utils.css?ver=5.3' type='text/css' media='all' />
 <link rel='stylesheet' id='videobox-google-fonts-css'  href='//fonts.googleapis.com/css?family=Libre+Franklin%3Aregular%2C700%2C700i%2Citalic&#038;ver=5.3' type='text/css' media='all' />
 <link rel='stylesheet' id='videobox-style-css'  href='https://tacticalvoting.jonworth.eu/wp-content/themes/videobox/style.css?ver=3.1.3' type='text/css' media='all' />
@@ -81,7 +82,6 @@ var cnArgs = {"ajaxurl":"https:\/\/tacticalvoting.jonworth.eu\/wp-admin\/admin-a
 <!-- WPZOOM Theme / Framework -->
 <meta name="generator" content="VideoBox 3.1.3" />
 <meta name="generator" content="WPZOOM Framework 1.8.12" />
-
 
 <style type="text/css">
 
@@ -115,15 +115,23 @@ select { width: 80%; }
 .home-box-right {float: left; width: 100%;}
 }
 
+.emaillinkbox {float: left; text-align: center; font-size: 140%; width: 100%; background-color: #00aeb7; padding: 20px;}
+
+.emaillinkbox a:hover {text-decoration: none; color: #EBEBEB;}
+
+.emaillinkbox a:hover {text-decoration: underline; color: #EBEBEB;}
+
+.post_author {display: none;}
+
 </style>
 <!-- Begin Theme Custom CSS -->
 <style type="text/css" id="videobox-custom-css">
 .navbar-brand h1{font-weight:normal;text-transform:none;}
 </style>
 <!-- End Theme Custom CSS -->
-	<meta property="og:image" content="https://tacticalvoting.jonworth.eu/wp-content/uploads/2019/11/ynys-mon.jpg" />
+	<meta property="og:image" content="https://tacticalvoting.jonworth.eu/wp-content/uploads/2019/11/colchester.jpg" />
 </head>
-<body class="archive paged category category-unique-constituency category-8 paged-2 category-paged-2 cookies-not-set">
+<body class="archive paged category category-unique-constituency category-8 paged-2 category-paged-2 cookies-set cookies-accepted">
 
 <div class="page-wrap">
 
@@ -148,9 +156,11 @@ select { width: 80%; }
 <option value="2146">Aberdeen South</option>
 <option value="486">Aberdeenshire West and Kincardine</option>
 <option value="106">Alyn and Deeside</option>
+<option value="4001">Angus</option>
 <option value="2156">Arfon</option>
 <option value="511">Argyll and Bute</option>
 <option value="531">Ashfield</option>
+<option value="4006">Ayr, Carrick and Cumnock</option>
 <option value="491">Banff and Buchan</option>
 <option value="111">Barrow and Furness</option>
 <option value="116">Bassetlaw</option>
@@ -190,7 +200,7 @@ select { width: 80%; }
 <option value="391">Cities of London and Westminster</option>
 <option value="171">Clwyd South</option>
 <option value="2016">Clwyd West</option>
-<option value="561">Colchester</option>
+<option value="4011">Colchester</option>
 <option value="176">Colne Valley</option>
 <option value="181">Crewe and Nantwich</option>
 <option value="2201">Croydon Central</option>
@@ -203,7 +213,7 @@ select { width: 80%; }
 <option value="206">Dudley North</option>
 <option value="496">Dumfries and Galloway</option>
 <option value="571">East Devon</option>
-<option value="576">East Lothian</option>
+<option value="4016">East Lothian</option>
 <option value="2151">East Renfrewshire</option>
 <option value="366">Eastbourne</option>
 <option value="581">Eddisbury</option>
@@ -215,11 +225,13 @@ select { width: 80%; }
 <option value="2256">Filton and Bradley Stoke</option>
 <option value="586">Finchley and Golders Green</option>
 <option value="211">Gedling</option>
+<option value="4021">Gordon</option>
 <option value="216">Gower</option>
 <option value="221">Great Grimsby</option>
 <option value="2076">Guildford</option>
-<option value="591">Harborough</option>
+<option value="4026">Harborough</option>
 <option value="21">Hastings and Rye</option>
+<option value="4031">Hazel Grove</option>
 <option value="26">Hendon</option>
 <option value="406">Henley</option>
 <option value="226">Heywood and Middleton</option>
@@ -230,6 +242,8 @@ select { width: 80%; }
 <option value="596">Isle of Wight</option>
 <option value="241">Keighley</option>
 <option value="601">Kensington</option>
+<option value="4036">Kirkcaldy and Cowdenbeath</option>
+<option value="4041">Loughborough</option>
 <option value="521">Lanark and Hamilton East</option>
 <option value="2081">Lewes</option>
 <option value="246">Lincoln</option>
@@ -237,6 +251,7 @@ select { width: 80%; }
 <option value="748">Maidenhead</option>
 <option value="421">Maidstone and The Weald</option>
 <option value="31">Mansfield</option>
+<option value="4046">Midlothian</option>
 <option value="426">Mid Sussex</option>
 <option value="36">Middlesbrough South and East Cleveland</option>
 <option value="41">Milton Keynes North</option>
@@ -250,12 +265,13 @@ select { width: 80%; }
 <option value="2056">Newport West</option>
 <option value="431">Newton Abbot</option>
 <option value="2086">North Devon</option>
-<option value="611">North East Somerset</option>
+<option value="4051">North East Somerset</option>
 <option value="436">North Somerset</option>
 <option value="2091">North Wiltshire</option>
 <option value="56">Northampton North</option>
 <option value="61">Northampton South</option>
 <option value="66">Norwich North</option>
+<option value="4056">Ochil and South Perthshire</option>
 <option value="371">Oxford West and Abingdon</option>
 <option value="71">Pendle</option>
 <option value="256">Penistone and Stocksbridge</option>
@@ -267,9 +283,11 @@ select { width: 80%; }
 <option value="266">Putney</option>
 <option value="2186">Reading East</option>
 <option value="346">Richmond Park</option>
+<option value="4061">Rushcliffe</option>
 <option value="2116">Saffron Walden</option>
 <option value="271">Scunthorpe</option>
 <option value="276">Sedgefield</option>
+<option value="4066">Sheffield Hallam</option>
 <option value="441">Solihull</option>
 <option value="2121">South Cambridgeshire</option>
 <option value="446">South East Cambridgeshire</option>
@@ -278,7 +296,7 @@ select { width: 80%; }
 <option value="616">South West Hertfordshire</option>
 <option value="2126">South West Surrey</option>
 <option value="86">Southampton Itchen</option>
-<option value="621">Southport</option>
+<option value="4071">Southport</option>
 <option value="2096">St Albans</option>
 <option value="456">St Austell and Newquay</option>
 <option value="351">St Ives</option>
@@ -297,6 +315,7 @@ select { width: 80%; }
 <option value="2253">Torbay</option>
 <option value="466">Torridge and West Devon</option>
 <option value="2131">Totnes</option>
+<option value="4076">Truro and Falmouth</option>
 <option value="2136">Tunbridge Wells</option>
 <option value="2255">Uxbridge and South Ruislip</option>
 <option value="296">Vale of Clwyd</option>
@@ -305,7 +324,7 @@ select { width: 80%; }
 <option value="471">Wantage</option>
 <option value="306">Warrington South</option>
 <option value="311">Warwick and Leamington</option>
-<option value="626">Watford</option>
+<option value="4081">Watford</option>
 <option value="316">Weaver Vale</option>
 <option value="321">West Bromwich West</option>
 <option value="376">Westmorland and Lonsdale</option>
@@ -317,8 +336,9 @@ select { width: 80%; }
 <option value="331">Wolverhampton South West</option>
 <option value="336">Workington</option>
 <option value="341">Wrexham</option>
-<option value="631">Ynys Môn</option>
-<option value="636">York Outer</option>
+<option value="4086">Wycombe</option>
+<option value="4091">Ynys Môn</option>
+<option value="4096">York Outer</option>
 <option disabled value> ---- </option>
 <option value="700">My constituency is not listed</option>
 </select><noscript><input type="submit" value="Submit"></noscript></form>
@@ -399,12 +419,12 @@ select { width: 80%; }
                 <section class="recent-posts list-view" id="recent-posts">
 
     				
-    					<article id="post-631" data-comments="0" class="post-631 post type-post status-publish format-video has-post-thumbnail hentry category-unique-constituency post_format-post-format-video">
+    					<article id="post-4011" data-comments="0" class="post-4011 post type-post status-publish format-video has-post-thumbnail hentry category-unique-constituency post_format-post-format-video">
     <div class="inner-article">
 
-                <div class="post-thumb"><a href="https://tacticalvoting.jonworth.eu/ynys-mon/" title="Ynys Môn">
+                <div class="post-thumb"><a href="https://tacticalvoting.jonworth.eu/colchester/" title="Colchester">
 
-                                    <img width="1" height="1" src="https://tacticalvoting.jonworth.eu/wp-content/uploads/2019/11/ynys-mon.jpg" class="attachment-loop size-loop wp-post-image" alt="" />
+                                    <img width="1" height="1" src="https://tacticalvoting.jonworth.eu/wp-content/uploads/2019/11/colchester.jpg" class="attachment-loop size-loop wp-post-image" alt="" />
             </a></div>
         
     <section class="entry-body">
@@ -412,9 +432,9 @@ select { width: 80%; }
         <div class="entry-meta">
             <span class="cat-links"><a href="https://tacticalvoting.jonworth.eu/category/unique-constituency/" rel="category tag" style="color:#bbbbbb">Unique constituency</a></span>                     </div>
 
-        <h3 class="entry-title"><a href="https://tacticalvoting.jonworth.eu/ynys-mon/" rel="bookmark">Ynys Môn</a></h3>
+        <h3 class="entry-title"><a href="https://tacticalvoting.jonworth.eu/colchester/" rel="bookmark">Colchester</a></h3>
         <div class="entry-meta">
-                        <span class="entry-author">by <a href="https://tacticalvoting.jonworth.eu/author/wcd2cbruchx5yfsv5b/" title="Posts by Jon" rel="author">Jon</a></span>            <span class="comments-link"><a href="https://tacticalvoting.jonworth.eu/ynys-mon/#respond">0 comments</a></span>                    </div>
+                                    <span class="comments-link"><a href="https://tacticalvoting.jonworth.eu/colchester/#respond">0 comments</a></span>                    </div>
 
         <p>See how all the tactical voting tools suggest how to vote in this constituency here (opens in a new window). For background information about this constituency, see this Wikipedia page about it.</p>
 
@@ -425,7 +445,7 @@ select { width: 80%; }
 
     </div>
 
-</article><!-- #post-631 -->
+</article><!-- #post-4011 -->
     				
     					<article id="post-556" data-comments="0" class="post-556 post type-post status-publish format-video has-post-thumbnail hentry category-unique-constituency post_format-post-format-video">
     <div class="inner-article">
@@ -442,7 +462,7 @@ select { width: 80%; }
 
         <h3 class="entry-title"><a href="https://tacticalvoting.jonworth.eu/chorley/" rel="bookmark">Chorley</a></h3>
         <div class="entry-meta">
-                        <span class="entry-author">by <a href="https://tacticalvoting.jonworth.eu/author/wcd2cbruchx5yfsv5b/" title="Posts by Jon" rel="author">Jon</a></span>            <span class="comments-link"><a href="https://tacticalvoting.jonworth.eu/chorley/#respond">0 comments</a></span>                    </div>
+                                    <span class="comments-link"><a href="https://tacticalvoting.jonworth.eu/chorley/#respond">0 comments</a></span>                    </div>
 
         <p>See how all the tactical voting tools suggest how to vote in this constituency here (opens in a new window). For background information about this constituency, see this Wikipedia page about it.</p>
 
@@ -455,12 +475,12 @@ select { width: 80%; }
 
 </article><!-- #post-556 -->
     				
-    					<article id="post-636" data-comments="12" class="has-comments post-636 post type-post status-publish format-video has-post-thumbnail hentry category-unique-constituency post_format-post-format-video">
+    					<article id="post-4016" data-comments="0" class="post-4016 post type-post status-publish format-video has-post-thumbnail hentry category-unique-constituency post_format-post-format-video">
     <div class="inner-article">
 
-                <div class="post-thumb"><a href="https://tacticalvoting.jonworth.eu/york-outer/" title="York Outer">
+                <div class="post-thumb"><a href="https://tacticalvoting.jonworth.eu/east-lothian/" title="East Lothian">
 
-                                    <img width="384" height="216" src="https://tacticalvoting.jonworth.eu/wp-content/uploads/2019/11/changed-rec.jpg" class="attachment-loop size-loop wp-post-image" alt="" srcset="https://tacticalvoting.jonworth.eu/wp-content/uploads/2019/11/changed-rec.jpg 1920w, https://tacticalvoting.jonworth.eu/wp-content/uploads/2019/11/changed-rec-300x169.jpg 300w, https://tacticalvoting.jonworth.eu/wp-content/uploads/2019/11/changed-rec-1024x576.jpg 1024w, https://tacticalvoting.jonworth.eu/wp-content/uploads/2019/11/changed-rec-768x432.jpg 768w" sizes="(max-width: 384px) 100vw, 384px" />
+                                    <img width="1" height="1" src="https://tacticalvoting.jonworth.eu/wp-content/uploads/2019/11/east-lothian.jpg" class="attachment-loop size-loop wp-post-image" alt="" />
             </a></div>
         
     <section class="entry-body">
@@ -468,11 +488,11 @@ select { width: 80%; }
         <div class="entry-meta">
             <span class="cat-links"><a href="https://tacticalvoting.jonworth.eu/category/unique-constituency/" rel="category tag" style="color:#bbbbbb">Unique constituency</a></span>                     </div>
 
-        <h3 class="entry-title"><a href="https://tacticalvoting.jonworth.eu/york-outer/" rel="bookmark">York Outer</a></h3>
+        <h3 class="entry-title"><a href="https://tacticalvoting.jonworth.eu/east-lothian/" rel="bookmark">East Lothian</a></h3>
         <div class="entry-meta">
-                        <span class="entry-author">by <a href="https://tacticalvoting.jonworth.eu/author/wcd2cbruchx5yfsv5b/" title="Posts by Jon" rel="author">Jon</a></span>            <span class="comments-link"><a href="https://tacticalvoting.jonworth.eu/york-outer/#comments">12 comments</a></span>                    </div>
+                                    <span class="comments-link"><a href="https://tacticalvoting.jonworth.eu/east-lothian/#respond">0 comments</a></span>                    </div>
 
-        <p>NOTE: this is a changed recommendation! I had initially recommended Lib Dem here, but now all the tactical voting sites agree Labour is the better bet! See how all the tactical voting tools suggest how to vote in this constituency here (opens in a new [&hellip;]</p>
+        <p>See how all the tactical voting tools suggest how to vote in this constituency here (opens in a new window). For background information about this constituency, see this Wikipedia page about it.</p>
 
 
     </section>
@@ -481,35 +501,7 @@ select { width: 80%; }
 
     </div>
 
-</article><!-- #post-636 -->
-    				
-    					<article id="post-561" data-comments="0" class="post-561 post type-post status-publish format-video has-post-thumbnail hentry category-unique-constituency post_format-post-format-video">
-    <div class="inner-article">
-
-                <div class="post-thumb"><a href="https://tacticalvoting.jonworth.eu/colchester/" title="Colchester">
-
-                                    <img width="384" height="216" src="https://tacticalvoting.jonworth.eu/wp-content/uploads/2019/11/changed-rec.jpg" class="attachment-loop size-loop wp-post-image" alt="" srcset="https://tacticalvoting.jonworth.eu/wp-content/uploads/2019/11/changed-rec.jpg 1920w, https://tacticalvoting.jonworth.eu/wp-content/uploads/2019/11/changed-rec-300x169.jpg 300w, https://tacticalvoting.jonworth.eu/wp-content/uploads/2019/11/changed-rec-1024x576.jpg 1024w, https://tacticalvoting.jonworth.eu/wp-content/uploads/2019/11/changed-rec-768x432.jpg 768w" sizes="(max-width: 384px) 100vw, 384px" />
-            </a></div>
-        
-    <section class="entry-body">
-
-        <div class="entry-meta">
-            <span class="cat-links"><a href="https://tacticalvoting.jonworth.eu/category/unique-constituency/" rel="category tag" style="color:#bbbbbb">Unique constituency</a></span>                     </div>
-
-        <h3 class="entry-title"><a href="https://tacticalvoting.jonworth.eu/colchester/" rel="bookmark">Colchester</a></h3>
-        <div class="entry-meta">
-                        <span class="entry-author">by <a href="https://tacticalvoting.jonworth.eu/author/wcd2cbruchx5yfsv5b/" title="Posts by Jon" rel="author">Jon</a></span>            <span class="comments-link"><a href="https://tacticalvoting.jonworth.eu/colchester/#respond">0 comments</a></span>                    </div>
-
-        <p>NOTE: this is a changed recommendation! I had initially recommended Lib Dem here, but now all the tactical voting sites agree Labour is the better bet! See how all the tactical voting tools suggest how to vote in this constituency here (opens in a new [&hellip;]</p>
-
-
-    </section>
-
-    <div class="clearfix"></div>
-
-    </div>
-
-</article><!-- #post-561 -->
+</article><!-- #post-4016 -->
     				
     					<article id="post-566" data-comments="0" class="post-566 post type-post status-publish format-video has-post-thumbnail hentry category-unique-constituency post_format-post-format-video">
     <div class="inner-article">
@@ -526,7 +518,7 @@ select { width: 80%; }
 
         <h3 class="entry-title"><a href="https://tacticalvoting.jonworth.eu/don-valley/" rel="bookmark">Don Valley</a></h3>
         <div class="entry-meta">
-                        <span class="entry-author">by <a href="https://tacticalvoting.jonworth.eu/author/wcd2cbruchx5yfsv5b/" title="Posts by Jon" rel="author">Jon</a></span>            <span class="comments-link"><a href="https://tacticalvoting.jonworth.eu/don-valley/#respond">0 comments</a></span>                    </div>
+                                    <span class="comments-link"><a href="https://tacticalvoting.jonworth.eu/don-valley/#respond">0 comments</a></span>                    </div>
 
         <p>See how all the tactical voting tools suggest how to vote in this constituency here (opens in a new window). For background information about this constituency, see this Wikipedia page about it.</p>
 
@@ -539,12 +531,12 @@ select { width: 80%; }
 
 </article><!-- #post-566 -->
     				
-    					<article id="post-2141" data-comments="0" class="post-2141 post type-post status-publish format-video has-post-thumbnail hentry category-unique-constituency post_format-post-format-video">
+    					<article id="post-4026" data-comments="0" class="post-4026 post type-post status-publish format-video has-post-thumbnail hentry category-unique-constituency post_format-post-format-video">
     <div class="inner-article">
 
-                <div class="post-thumb"><a href="https://tacticalvoting.jonworth.eu/wokingham/" title="Wokingham">
+                <div class="post-thumb"><a href="https://tacticalvoting.jonworth.eu/harborough/" title="Harborough">
 
-                                    <img width="1" height="1" src="https://tacticalvoting.jonworth.eu/wp-content/uploads/2019/11/wokingham.jpg" class="attachment-loop size-loop wp-post-image" alt="" />
+                                    <img width="1" height="1" src="https://tacticalvoting.jonworth.eu/wp-content/uploads/2019/11/harborough.jpg" class="attachment-loop size-loop wp-post-image" alt="" />
             </a></div>
         
     <section class="entry-body">
@@ -552,9 +544,9 @@ select { width: 80%; }
         <div class="entry-meta">
             <span class="cat-links"><a href="https://tacticalvoting.jonworth.eu/category/unique-constituency/" rel="category tag" style="color:#bbbbbb">Unique constituency</a></span>                     </div>
 
-        <h3 class="entry-title"><a href="https://tacticalvoting.jonworth.eu/wokingham/" rel="bookmark">Wokingham</a></h3>
+        <h3 class="entry-title"><a href="https://tacticalvoting.jonworth.eu/harborough/" rel="bookmark">Harborough</a></h3>
         <div class="entry-meta">
-                        <span class="entry-author">by <a href="https://tacticalvoting.jonworth.eu/author/wcd2cbruchx5yfsv5b/" title="Posts by Jon" rel="author">Jon</a></span>            <span class="comments-link"><a href="https://tacticalvoting.jonworth.eu/wokingham/#respond">0 comments</a></span>                    </div>
+                                    <span class="comments-link"><a href="https://tacticalvoting.jonworth.eu/harborough/#respond">0 comments</a></span>                    </div>
 
         <p>See how all the tactical voting tools suggest how to vote in this constituency here (opens in a new window). For background information about this constituency, see this Wikipedia page about it.</p>
 
@@ -565,7 +557,7 @@ select { width: 80%; }
 
     </div>
 
-</article><!-- #post-2141 -->
+</article><!-- #post-4026 -->
     				
     					<article id="post-571" data-comments="0" class="post-571 post type-post status-publish format-video has-post-thumbnail hentry category-unique-constituency post_format-post-format-video">
     <div class="inner-article">
@@ -582,7 +574,7 @@ select { width: 80%; }
 
         <h3 class="entry-title"><a href="https://tacticalvoting.jonworth.eu/east-devon/" rel="bookmark">East Devon</a></h3>
         <div class="entry-meta">
-                        <span class="entry-author">by <a href="https://tacticalvoting.jonworth.eu/author/wcd2cbruchx5yfsv5b/" title="Posts by Jon" rel="author">Jon</a></span>            <span class="comments-link"><a href="https://tacticalvoting.jonworth.eu/east-devon/#respond">0 comments</a></span>                    </div>
+                                    <span class="comments-link"><a href="https://tacticalvoting.jonworth.eu/east-devon/#respond">0 comments</a></span>                    </div>
 
         <p>See how all the tactical voting tools suggest how to vote in this constituency here (opens in a new window). For background information about this constituency, see this Wikipedia page about it.</p>
 
@@ -595,12 +587,12 @@ select { width: 80%; }
 
 </article><!-- #post-571 -->
     				
-    					<article id="post-2156" data-comments="0" class="post-2156 post type-post status-publish format-video has-post-thumbnail hentry category-unique-constituency post_format-post-format-video">
+    					<article id="post-4036" data-comments="0" class="post-4036 post type-post status-publish format-video has-post-thumbnail hentry category-unique-constituency post_format-post-format-video">
     <div class="inner-article">
 
-                <div class="post-thumb"><a href="https://tacticalvoting.jonworth.eu/arfon/" title="Arfon">
+                <div class="post-thumb"><a href="https://tacticalvoting.jonworth.eu/kirkcaldy-and-cowdenbeath/" title="Kirkcaldy and Cowdenbeath">
 
-                                    <img width="1" height="1" src="https://tacticalvoting.jonworth.eu/wp-content/uploads/2019/11/arfon.jpg" class="attachment-loop size-loop wp-post-image" alt="" />
+                                    <img width="1" height="1" src="https://tacticalvoting.jonworth.eu/wp-content/uploads/2019/11/kirkcaldy-and-cowdenbeath.jpg" class="attachment-loop size-loop wp-post-image" alt="" />
             </a></div>
         
     <section class="entry-body">
@@ -608,9 +600,9 @@ select { width: 80%; }
         <div class="entry-meta">
             <span class="cat-links"><a href="https://tacticalvoting.jonworth.eu/category/unique-constituency/" rel="category tag" style="color:#bbbbbb">Unique constituency</a></span>                     </div>
 
-        <h3 class="entry-title"><a href="https://tacticalvoting.jonworth.eu/arfon/" rel="bookmark">Arfon</a></h3>
+        <h3 class="entry-title"><a href="https://tacticalvoting.jonworth.eu/kirkcaldy-and-cowdenbeath/" rel="bookmark">Kirkcaldy and Cowdenbeath</a></h3>
         <div class="entry-meta">
-                        <span class="entry-author">by <a href="https://tacticalvoting.jonworth.eu/author/wcd2cbruchx5yfsv5b/" title="Posts by Jon" rel="author">Jon</a></span>            <span class="comments-link"><a href="https://tacticalvoting.jonworth.eu/arfon/#respond">0 comments</a></span>                    </div>
+                                    <span class="comments-link"><a href="https://tacticalvoting.jonworth.eu/kirkcaldy-and-cowdenbeath/#respond">0 comments</a></span>                    </div>
 
         <p>See how all the tactical voting tools suggest how to vote in this constituency here (opens in a new window). For background information about this constituency, see this Wikipedia page about it.</p>
 
@@ -621,14 +613,14 @@ select { width: 80%; }
 
     </div>
 
-</article><!-- #post-2156 -->
+</article><!-- #post-4036 -->
     				
-    					<article id="post-576" data-comments="0" class="post-576 post type-post status-publish format-video has-post-thumbnail hentry category-unique-constituency post_format-post-format-video">
+    					<article id="post-581" data-comments="1" class="has-comments post-581 post type-post status-publish format-video has-post-thumbnail hentry category-unique-constituency post_format-post-format-video">
     <div class="inner-article">
 
-                <div class="post-thumb"><a href="https://tacticalvoting.jonworth.eu/east-lothian/" title="East Lothian">
+                <div class="post-thumb"><a href="https://tacticalvoting.jonworth.eu/eddisbury/" title="Eddisbury">
 
-                                    <img width="1" height="1" src="https://tacticalvoting.jonworth.eu/wp-content/uploads/2019/11/east-lothian.jpg" class="attachment-loop size-loop wp-post-image" alt="" />
+                                    <img width="1" height="1" src="https://tacticalvoting.jonworth.eu/wp-content/uploads/2019/11/eddisbury.jpg" class="attachment-loop size-loop wp-post-image" alt="" />
             </a></div>
         
     <section class="entry-body">
@@ -636,9 +628,9 @@ select { width: 80%; }
         <div class="entry-meta">
             <span class="cat-links"><a href="https://tacticalvoting.jonworth.eu/category/unique-constituency/" rel="category tag" style="color:#bbbbbb">Unique constituency</a></span>                     </div>
 
-        <h3 class="entry-title"><a href="https://tacticalvoting.jonworth.eu/east-lothian/" rel="bookmark">East Lothian</a></h3>
+        <h3 class="entry-title"><a href="https://tacticalvoting.jonworth.eu/eddisbury/" rel="bookmark">Eddisbury</a></h3>
         <div class="entry-meta">
-                        <span class="entry-author">by <a href="https://tacticalvoting.jonworth.eu/author/wcd2cbruchx5yfsv5b/" title="Posts by Jon" rel="author">Jon</a></span>            <span class="comments-link"><a href="https://tacticalvoting.jonworth.eu/east-lothian/#respond">0 comments</a></span>                    </div>
+                                    <span class="comments-link"><a href="https://tacticalvoting.jonworth.eu/eddisbury/#comments">1 comment</a></span>                    </div>
 
         <p>See how all the tactical voting tools suggest how to vote in this constituency here (opens in a new window). For background information about this constituency, see this Wikipedia page about it.</p>
 
@@ -649,7 +641,35 @@ select { width: 80%; }
 
     </div>
 
-</article><!-- #post-576 -->
+</article><!-- #post-581 -->
+    				
+    					<article id="post-4046" data-comments="0" class="post-4046 post type-post status-publish format-video has-post-thumbnail hentry category-unique-constituency post_format-post-format-video">
+    <div class="inner-article">
+
+                <div class="post-thumb"><a href="https://tacticalvoting.jonworth.eu/midlothian/" title="Midlothian">
+
+                                    <img width="1" height="1" src="https://tacticalvoting.jonworth.eu/wp-content/uploads/2019/11/midlothian.jpg" class="attachment-loop size-loop wp-post-image" alt="" />
+            </a></div>
+        
+    <section class="entry-body">
+
+        <div class="entry-meta">
+            <span class="cat-links"><a href="https://tacticalvoting.jonworth.eu/category/unique-constituency/" rel="category tag" style="color:#bbbbbb">Unique constituency</a></span>                     </div>
+
+        <h3 class="entry-title"><a href="https://tacticalvoting.jonworth.eu/midlothian/" rel="bookmark">Midlothian</a></h3>
+        <div class="entry-meta">
+                                    <span class="comments-link"><a href="https://tacticalvoting.jonworth.eu/midlothian/#respond">0 comments</a></span>                    </div>
+
+        <p>See how all the tactical voting tools suggest how to vote in this constituency here (opens in a new window). For background information about this constituency, see this Wikipedia page about it.</p>
+
+
+    </section>
+
+    <div class="clearfix"></div>
+
+    </div>
+
+</article><!-- #post-4046 -->
     				
                 </section>
 
@@ -728,6 +748,12 @@ var wpcf7 = {"apiSettings":{"root":"https:\/\/tacticalvoting.jonworth.eu\/wp-jso
 /* ]]> */
 </script>
 <script type='text/javascript' src='https://tacticalvoting.jonworth.eu/wp-content/plugins/contact-form-7/includes/js/scripts.js?ver=5.1.6'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var emailL10n = {"ajax_url":"https:\/\/tacticalvoting.jonworth.eu\/wp-admin\/admin-ajax.php","max_allowed":"5","text_error":"The Following Error Occurs:","text_name_invalid":"- Your Name is empty\/invalid","text_email_invalid":"- Your Email is empty\/invalid","text_remarks_invalid":"- Your Remarks is invalid","text_friend_names_empty":"- Friend Name(s) is empty","text_friend_name_invalid":"- Friend Name is empty\/invalid: ","text_max_friend_names_allowed":"- Maximum 5 Friend Names allowed","text_friend_emails_empty":"- Friend Email(s) is empty","text_friend_email_invalid":"- Friend Email is invalid: ","text_max_friend_emails_allowed":"- Maximum 5 Friend Emails allowed","text_friends_tally":"- Friend Name(s) count does not tally with Friend Email(s) count","text_image_verify_empty":"- Image Verification is empty"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://tacticalvoting.jonworth.eu/wp-content/plugins/wp-email/email-js.js?ver=2.67.6'></script>
 <script type='text/javascript' src='https://www.google.com/recaptcha/api.js?render=6LdKs4UUAAAAALooHaJCPM7d0iGO3NMDlwPlhz1w&#038;ver=3.0'></script>
 <script type='text/javascript' src='https://tacticalvoting.jonworth.eu/wp-content/themes/videobox/js/flickity.pkgd.min.js?ver=3.1.3'></script>
 <script type='text/javascript' src='https://tacticalvoting.jonworth.eu/wp-content/themes/videobox/js/jquery.fitvids.js?ver=3.1.3'></script>
@@ -805,4 +831,4 @@ var zoomOptions = {"slideshow_auto":"","slideshow_speed":"3000"};
 			</div>
 </body>
 </html>
-<!-- Page generated by LiteSpeed Cache 2.9.9.2 on 2019-12-07 20:49:56 -->
+<!-- Page generated by LiteSpeed Cache 2.9.9.2 on 2019-12-09 14:08:48 -->
