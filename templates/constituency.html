@@ -108,16 +108,7 @@ Use your local knowledge: keep an eye on local newspapers, <a href="https://elec
 <h2>Take action</h2>
 
 {% if aggregation.important %}
-  <p>This is a <strong>marginal constituency</strong> on tacticalvote.co.uk's <a href="https://tacticalvote.co.uk/key-seats/">Key Seats</a>. The most effective action you can take right now is to <strong>take your friends with you to vote</strong>.</p>
-  {% if aggregation.party.short == 'lab' %}
-    <div class="widebutton"><a href="https://volunteer.labour.org.uk/">Campaign with Labour in this constituency</a></div>
-  {% elif aggregation.party.short == 'ld' %}
-    <div class="widebutton"><a href="https://www.libdems.org.uk/volunteer">Help the Liberal Democrats in this constituency</a></div>
-  {% elif aggregation.party.short == 'snp' %}
-    <div class="widebutton"><a href="https://www.snp.org/volunteer/">Help the Scottish National Party in this constituency</a></div>
-  {% else %}
-    <div class="widebutton">Volunteer with {{aggregation.party.name}} in this constituency</div>
-  {% endif %}
+  <p>This is a <strong>marginal constituency</strong> on tacticalvote.co.uk's <a href="https://tacticalvote.co.uk/key-seats/">Key Seats</a>. It is very important to <strong>vote here</strong> and <strong>bring all your friends with you to vote</strong>.</p>
 {% else %}
   <p>The most effective action you can take right now is to <strong>take your friends with you to vote</strong>.</p>
 {% endif %}
