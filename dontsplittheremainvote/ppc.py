@@ -9,6 +9,8 @@ from typing import Optional
 from .constituency import get_constitiuency
 from .party import get_party
 from .party import Party
+from .party import UKIP_ONLY
+from .party import BREXIT_ONLY
 
 _SITTING_MPS = []
 def is_sitting_mp(democlub_id: int) -> bool:
@@ -57,7 +59,13 @@ def candidate_data():
             ons_id = row['post_id'][4:]
             constituency = get_constitiuency(ons_id)
 
-            party = get_party(row['party_name'])
+            party_name = row['party_name']
+            if 'brexit' in party_name.lower():
+                party = BREXIT_ONLY
+            elif 'ukip' in party_name.lower():
+                party = UKIP_ONLY
+            else:
+                party = get_party(party_name)
             image_url = row['image_url']
 
             links = []

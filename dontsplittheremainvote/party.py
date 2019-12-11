@@ -43,6 +43,9 @@ GAVINSHUKER = Party('Gavin Shuker', remain=True, color='#e7e7e7', short='ind')
 SPEAKER = Party('Speaker', remain=True, color='#888888')
 ANYPARTY = Party('any remain party', remain=True, color='#888888', short='any')
 
+UKIP_ONLY  = Party('UKIP', remain=False)
+BREXIT_ONLY  = Party('Brexit', remain=False)
+
 _ALL_PARTIES = [
     LAB,
     LD,
