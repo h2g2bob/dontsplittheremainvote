@@ -274,6 +274,12 @@ _REMAINUTD = {
 
     'Momentum with the Independent candidate': INDEPENDENT,
     'Vote Independent': INDEPENDENT,
+
+    'Vote Independent - Dominic Grieve': DOMINICGRIEVE,
+    'Vote SF': SF,
+    'Vote SDLP': SDLP,
+    'For the best chance of reducing the DUP majority, vote SF': SF,
+    'Vote Independent - David Gauke': DAVIDGAUKE,
 }
 def _remainunited():
     for constituency in all_constituencies():
@@ -411,7 +417,7 @@ def _jonworth():
         'finchley-and-golders-green': LD,
         'harborough': None,
         'isle-of-wight': GREEN,
-        'kensington': LD,
+        'kensington': LAB,
         'luton-south': LAB,
         'buckingham': LD,
         'ceredigion': ANYPARTY,
@@ -421,6 +427,7 @@ def _jonworth():
         'sheffield-hallam': ANYPARTY,
         'kirkcaldy-and-cowdenbeath': LAB,
         'midlothian': SNP,
+        'cities-of-london-and-westminster': LD,
     }
 
     # video in wrong section of website *cries*

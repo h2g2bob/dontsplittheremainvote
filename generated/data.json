@@ -196,7 +196,7 @@
         {
           "important": false,
           "party": "snp",
-          "they_say": "Vote SNP - Safe SNP seat",
+          "they_say": "Vote SNP - competitive SNP-Labour seat, but SNP more likely to win",
           "url": "https://www.remainunited.org/#postcode=AB165SD",
           "who_suggests": "Remain United"
         },
@@ -278,7 +278,7 @@
         {
           "important": false,
           "party": "snp",
-          "they_say": "Vote SNP - competitive SNP-Conservative seat",
+          "they_say": "Vote SNP - competitive Conservative-SNP seat",
           "url": "https://www.remainunited.org/#postcode=AB106HW",
           "who_suggests": "Remain United"
         },
@@ -351,7 +351,7 @@
         {
           "important": false,
           "party": "snp",
-          "they_say": "Vote SNP - competitive SNP-Conservative seat",
+          "they_say": "Vote SNP - competitive SNP-Labour seat, but SNP more likely to win",
           "url": "https://www.remainunited.org/#postcode=ML68HP",
           "who_suggests": "Remain United"
         },
@@ -411,8 +411,8 @@
         },
         {
           "important": false,
-          "party": "any",
-          "they_say": "No recommendation - Safe Conservative seat with Labour in second place",
+          "party": "lab",
+          "they_say": "Vote Labour - Conservative in the lead with Labour in second place",
           "url": "https://www.remainunited.org/#postcode=GU124BB",
           "who_suggests": "Remain United"
         },
@@ -493,8 +493,8 @@
         },
         {
           "important": false,
-          "party": "any",
-          "they_say": "No recommendation - Safe Conservative seat with Labour in second place",
+          "party": "lab",
+          "they_say": "For the best chance of reducing the Conservative majority, vote Labour - Conservative in the lead with Labour in second place",
           "url": "https://www.remainunited.org/#postcode=B742BB",
           "who_suggests": "Remain United"
         },
@@ -665,7 +665,7 @@
         {
           "important": false,
           "party": "lab",
-          "they_say": "Vote Labour - competitive Conservative-Labour seat",
+          "they_say": "Vote Labour - competitive Labour-Conservative seat",
           "url": "https://www.remainunited.org/#postcode=CH48BF",
           "who_suggests": "Remain United"
         },
@@ -753,8 +753,8 @@
         },
         {
           "important": false,
-          "party": "any",
-          "they_say": "No recommendation - Safe Conservative seat with Labour in second place",
+          "party": "lab",
+          "they_say": "For the best chance of reducing the Conservative majority, vote Labour - Conservative in the lead with Labour in second place",
           "url": "https://www.remainunited.org/#postcode=DE215BA",
           "who_suggests": "Remain United"
         },
@@ -843,7 +843,7 @@
         {
           "important": false,
           "party": "snp",
-          "they_say": "Vote SNP - competitive SNP-Conservative seat",
+          "they_say": "Vote SNP - competitive Conservative-SNP seat",
           "url": "https://www.remainunited.org/#postcode=DD115AU",
           "who_suggests": "Remain United"
         },
@@ -887,10 +887,10 @@
     },
     "arfon": {
       "aggregation": {
-        "disagreement": false,
+        "disagreement": true,
         "important": false,
-        "party": "plaid",
-        "template": "vote-plaid.html"
+        "party": null,
+        "template": "contradict.html"
       },
       "analysis": {
         "template": "remain.html",
@@ -929,8 +929,8 @@
         },
         {
           "important": false,
-          "party": "plaid",
-          "they_say": "Vote Plaid Cymru - competitive Plaid Cymru-Labour seat, but Plaid Cymru more likely to win",
+          "party": "lab",
+          "they_say": "Vote Labour - competitive Labour-Plaid Cymru seat, but Labour more likely to win",
           "url": "https://www.remainunited.org/#postcode=LL545DU",
           "who_suggests": "Remain United"
         },
@@ -1074,8 +1074,8 @@
         },
         {
           "important": false,
-          "party": "any",
-          "they_say": "No recommendation - Safe Conservative seat with Labour in second place",
+          "party": "lab",
+          "they_say": "For the best chance of reducing the Conservative majority, vote Labour - Conservative in the lead with Labour in second place",
           "url": "https://www.remainunited.org/#postcode=BN126PN",
           "who_suggests": "Remain United"
         },
@@ -1252,8 +1252,8 @@
         },
         {
           "important": false,
-          "party": "any",
-          "they_say": "No recommendation - Safe Conservative seat with Labour in second place",
+          "party": "lab",
+          "they_say": "For the best chance of reducing the Conservative majority, vote Labour - Conservative in the lead with Labour in second place",
           "url": "https://www.remainunited.org/#postcode=CT47DE",
           "who_suggests": "Remain United"
         },
@@ -1499,7 +1499,7 @@
         {
           "important": false,
           "party": "snp",
-          "they_say": "Vote SNP - competitive SNP-Conservative seat",
+          "they_say": "Vote SNP - competitive Conservative-SNP seat",
           "url": "https://www.remainunited.org/#postcode=KA66GA",
           "who_suggests": "Remain United"
         },
@@ -2084,8 +2084,8 @@
         },
         {
           "important": false,
-          "party": "any",
-          "they_say": "No recommendation - Safe Conservative seat with Labour in second place",
+          "party": "lab",
+          "they_say": "For the best chance of reducing the Conservative majority, vote Labour - Conservative in the lead with Labour in second place",
           "url": "https://www.remainunited.org/#postcode=CM122BB",
           "who_suggests": "Remain United"
         },
@@ -2249,7 +2249,7 @@
         {
           "important": false,
           "party": "lab",
-          "they_say": "Vote Labour - competitive Labour-Conservative seat",
+          "they_say": "Vote Labour - competitive Conservative-Labour seat",
           "url": "https://www.remainunited.org/#postcode=DN226BB",
           "who_suggests": "Remain United"
         },
@@ -2581,8 +2581,8 @@
         },
         {
           "important": false,
-          "party": "any",
-          "they_say": "No recommendation - seat hard to predict due to prominent Independent candidate",
+          "party": "ind",
+          "they_say": "Vote Independent - Dominic Grieve - Conservative in the lead with Independent candidate in second place",
           "url": "https://www.remainunited.org/#postcode=HP92BF",
           "who_suggests": "Remain United"
         },
@@ -2833,7 +2833,7 @@
         {
           "important": false,
           "party": "alliance",
-          "they_say": "Vote Alliance - competitive Alliance-DUP seat",
+          "they_say": "Vote Alliance - competitive DUP-Alliance seat",
           "url": "https://www.remainunited.org/#postcode=BT162BB",
           "who_suggests": "Remain United"
         },
@@ -2908,7 +2908,7 @@
         {
           "important": false,
           "party": "sf",
-          "they_say": "Vote Sinn Fein - competitive DUP-Sinn Fein seat",
+          "they_say": "Vote SF - competitive DUP-SF seat",
           "url": "https://www.remainunited.org/#postcode=BT11AA",
           "who_suggests": "Remain United"
         },
@@ -2940,7 +2940,7 @@
     },
     "belfast-south": {
       "aggregation": {
-        "disagreement": true,
+        "disagreement": false,
         "important": true,
         "party": "sdlp",
         "template": "vote-sdlp.html"
@@ -2968,8 +2968,8 @@
         },
         {
           "important": false,
-          "party": "alliance",
-          "they_say": "Vote Alliance - competitive Alliance-SDLP seat, but Alliance more likely to win",
+          "party": "sdlp",
+          "they_say": "Vote SDLP - competitive SDLP-Alliance seat, but SDLP more likely to win",
           "url": "https://www.remainunited.org/#postcode=BT100AA",
           "who_suggests": "Remain United"
         },
@@ -3044,7 +3044,7 @@
         {
           "important": false,
           "party": "sf",
-          "they_say": "Vote Sinn Fein - Safe Sinn Fein seat",
+          "they_say": "Vote SF - Safe SF seat",
           "url": "https://www.remainunited.org/#postcode=BT124BU",
           "who_suggests": "Remain United"
         },
@@ -3105,7 +3105,7 @@
         {
           "important": false,
           "party": "lab",
-          "they_say": "Vote Labour - competitive Labour-Lib Dem seat, but Labour more likely to win",
+          "they_say": "Vote Labour - Safe Labour seat",
           "url": "https://www.remainunited.org/#postcode=SE156FS",
           "who_suggests": "Remain United"
         },
@@ -3178,7 +3178,7 @@
         {
           "important": false,
           "party": "lab",
-          "they_say": "For the best chance of reducing the Conservative majority, vote Labour - Conservative in the lead with Labour in second place",
+          "they_say": "Vote Labour - Conservative in the lead with Labour in second place",
           "url": "https://www.remainunited.org/#postcode=NE192BT",
           "who_suggests": "Remain United"
         },
@@ -3407,8 +3407,8 @@
         },
         {
           "important": false,
-          "party": "any",
-          "they_say": "No recommendation - Safe Conservative seat with Labour in second place",
+          "party": "lab",
+          "they_say": "For the best chance of reducing the Conservative majority, vote Labour - Conservative in the lead with Labour in second place",
           "url": "https://www.remainunited.org/#postcode=HU128BB",
           "who_suggests": "Remain United"
         },
@@ -3490,7 +3490,7 @@
         {
           "important": false,
           "party": "any",
-          "they_say": "No recommendation - Safe Conservative seat with Labour in second place",
+          "they_say": "No recommendation - Safe Conservative seat with no clear remain party challenger",
           "url": "https://www.remainunited.org/#postcode=TN393UN",
           "who_suggests": "Remain United"
         },
@@ -3572,7 +3572,7 @@
         {
           "important": false,
           "party": "any",
-          "they_say": "No recommendation - Safe Conservative seat with Labour in second place",
+          "they_say": "No recommendation - Safe Conservative seat with no clear remain party challenger",
           "url": "https://www.remainunited.org/#postcode=DA159PN",
           "who_suggests": "Remain United"
         },
@@ -4240,7 +4240,7 @@
         {
           "important": false,
           "party": "lab",
-          "they_say": "Vote Labour - Safe Labour seat",
+          "they_say": "Vote Labour - competitive Labour-Conservative seat",
           "url": "https://www.remainunited.org/#postcode=B133BB",
           "who_suggests": "Remain United"
         },
@@ -4322,7 +4322,7 @@
         {
           "important": false,
           "party": "lab",
-          "they_say": "Vote Labour - Safe Labour seat",
+          "they_say": "Vote Labour - competitive Labour-Conservative seat",
           "url": "https://www.remainunited.org/#postcode=B128LW",
           "who_suggests": "Remain United"
         },
@@ -4621,8 +4621,8 @@
         },
         {
           "important": false,
-          "party": "any",
-          "they_say": "No recommendation - Safe Conservative seat with Labour in second place",
+          "party": "lab",
+          "they_say": "Vote Labour - competitive Conservative-Labour seat",
           "url": "https://www.remainunited.org/#postcode=FY29BB",
           "who_suggests": "Remain United"
         },
@@ -5032,7 +5032,7 @@
         {
           "important": false,
           "party": "any",
-          "they_say": "No recommendation - Safe Conservative seat with Labour in second place",
+          "they_say": "No recommendation - Safe Conservative seat with no clear remain party challenger",
           "url": "https://www.remainunited.org/#postcode=PO228QW",
           "who_suggests": "Remain United"
         },
@@ -5352,8 +5352,8 @@
         },
         {
           "important": false,
-          "party": "any",
-          "they_say": "No recommendation - Safe Conservative seat with Labour in second place",
+          "party": "lab",
+          "they_say": "Vote Labour - competitive Conservative-Labour seat",
           "url": "https://www.remainunited.org/#postcode=BL13LR",
           "who_suggests": "Remain United"
         },
@@ -5510,7 +5510,7 @@
         {
           "important": false,
           "party": "any",
-          "they_say": "No recommendation - Safe Conservative seat with Labour in second place",
+          "they_say": "No recommendation - Safe Conservative seat with no clear remain party challenger",
           "url": "https://www.remainunited.org/#postcode=LN44PX",
           "who_suggests": "Remain United"
         },
@@ -5549,10 +5549,10 @@
     },
     "bosworth": {
       "aggregation": {
-        "disagreement": false,
+        "disagreement": true,
         "important": false,
-        "party": "ld",
-        "template": "vote-ld.html"
+        "party": null,
+        "template": "contradict.html"
       },
       "analysis": {
         "template": "no-conflict-hard.html",
@@ -5577,10 +5577,17 @@
         },
         {
           "important": false,
-          "party": "any",
-          "they_say": "No recommendation - Safe Conservative seat with Labour in second place",
+          "party": "lab",
+          "they_say": "For the best chance of reducing the Conservative majority, vote Labour - Conservative in the lead with Labour in second place",
           "url": "https://www.remainunited.org/#postcode=CV136BB",
           "who_suggests": "Remain United"
+        },
+        {
+          "important": false,
+          "party": "lab",
+          "they_say": null,
+          "url": "https://tactical.vote/bosworth",
+          "who_suggests": "tactical.vote"
         },
         {
           "important": false,
@@ -5742,6 +5749,13 @@
         {
           "important": false,
           "party": "lab",
+          "they_say": "Tactically vote Labour to un-seat a Conservative",
+          "url": "https://tacticalvoting.jonworth.eu/bournemouth-west/",
+          "who_suggests": "Jon Worth (video!)"
+        },
+        {
+          "important": false,
+          "party": "lab",
           "they_say": null,
           "url": "https://tacticalvote.getvoting.org/bournemouth-west/",
           "who_suggests": "Best for Britain"
@@ -5837,8 +5851,8 @@
         },
         {
           "important": false,
-          "party": "any",
-          "they_say": "No recommendation - Safe Conservative seat with Labour in second place",
+          "party": "lab",
+          "they_say": "For the best chance of reducing the Conservative majority, vote Labour - Conservative in the lead with Labour in second place",
           "url": "https://www.remainunited.org/#postcode=RG403LY",
           "who_suggests": "Remain United"
         },
@@ -5995,7 +6009,7 @@
         {
           "important": false,
           "party": "lab",
-          "they_say": "Vote Labour - competitive Conservative-Labour seat",
+          "they_say": "Vote Labour - competitive Labour-Conservative seat",
           "url": "https://www.remainunited.org/#postcode=BD127BB",
           "who_suggests": "Remain United"
         },
@@ -6138,7 +6152,7 @@
         {
           "important": false,
           "party": "any",
-          "they_say": "No recommendation - Safe Conservative seat with Labour in second place",
+          "they_say": "No recommendation - Safe Conservative seat",
           "url": "https://www.remainunited.org/#postcode=CB97AB",
           "who_suggests": "Remain United"
         },
@@ -6548,7 +6562,7 @@
         {
           "important": false,
           "party": "any",
-          "they_say": "No recommendation - Safe Conservative seat with Labour in second place",
+          "they_say": "No recommendation - Safe Conservative seat",
           "url": "https://www.remainunited.org/#postcode=CM129SL",
           "who_suggests": "Remain United"
         },
@@ -6698,14 +6712,21 @@
         {
           "important": false,
           "party": "lab",
+          "they_say": "Tactically vote Labour to un-seat a Conservative",
+          "url": "https://tacticalvoting.jonworth.eu/bridgwater-and-west-somerset/",
+          "who_suggests": "Jon Worth (video!)"
+        },
+        {
+          "important": false,
+          "party": "lab",
           "they_say": null,
           "url": "https://tacticalvote.getvoting.org/bridgwater-and-west-somerset/",
           "who_suggests": "Best for Britain"
         },
         {
           "important": false,
-          "party": "any",
-          "they_say": "No recommendation - Safe Conservative seat with Labour in second place",
+          "party": "lab",
+          "they_say": "For the best chance of reducing the Conservative majority, vote Labour - Conservative in the lead with Labour in second place",
           "url": "https://www.remainunited.org/#postcode=BA169RJ",
           "who_suggests": "Remain United"
         },
@@ -6787,7 +6808,7 @@
         {
           "important": false,
           "party": "any",
-          "they_say": "No recommendation - Safe Conservative seat with Labour in second place",
+          "they_say": "No recommendation - Safe Conservative seat",
           "url": "https://www.remainunited.org/#postcode=DN104BE",
           "who_suggests": "Remain United"
         },
@@ -7363,8 +7384,8 @@
         },
         {
           "important": false,
-          "party": "any",
-          "they_say": "No recommendation - Safe Conservative seat with Labour in second place",
+          "party": "lab",
+          "they_say": "For the best chance of reducing the Conservative majority, vote Labour - Conservative in the lead with Labour in second place",
           "url": "https://www.remainunited.org/#postcode=NR127BB",
           "who_suggests": "Remain United"
         },
@@ -7527,8 +7548,8 @@
         },
         {
           "important": false,
-          "party": "any",
-          "they_say": "No recommendation - Safe Conservative seat with Labour in second place",
+          "party": "lab",
+          "they_say": "For the best chance of reducing the Conservative majority, vote Labour - Conservative in the lead with Labour in second place",
           "url": "https://www.remainunited.org/#postcode=B145SL",
           "who_suggests": "Remain United"
         },
@@ -7603,7 +7624,7 @@
         {
           "important": false,
           "party": "any",
-          "they_say": "No recommendation - Safe Conservative seat with Labour in second place",
+          "they_say": "No recommendation - Safe Conservative seat",
           "url": "https://www.remainunited.org/#postcode=CM195EX",
           "who_suggests": "Remain United"
         },
@@ -7684,8 +7705,8 @@
         },
         {
           "important": false,
-          "party": "any",
-          "they_say": "No recommendation - seat hard to predict due to prominent Independent candidate",
+          "party": "lab",
+          "they_say": "Vote Labour - Conservative in the lead with Labour in second place",
           "url": "https://www.remainunited.org/#postcode=NG98AY",
           "who_suggests": "Remain United"
         },
@@ -7940,8 +7961,8 @@
         },
         {
           "important": false,
-          "party": "any",
-          "they_say": "No recommendation - Safe Conservative seat with Labour in second place",
+          "party": "lab",
+          "they_say": "For the best chance of reducing the Conservative majority, vote Labour - Conservative in the lead with Labour in second place",
           "url": "https://www.remainunited.org/#postcode=DE137LB",
           "who_suggests": "Remain United"
         },
@@ -8172,8 +8193,8 @@
         },
         {
           "important": false,
-          "party": "any",
-          "they_say": "No recommendation - Safe Conservative seat with Labour in second place",
+          "party": "lab",
+          "they_say": "For the best chance of reducing the Conservative majority, vote Labour - Conservative in the lead with Labour in second place",
           "url": "https://www.remainunited.org/#postcode=IP142BB",
           "who_suggests": "Remain United"
         },
@@ -8765,8 +8786,8 @@
         },
         {
           "important": false,
-          "party": "any",
-          "they_say": "No recommendation - Safe Conservative seat with Labour in second place",
+          "party": "lab",
+          "they_say": "For the best chance of reducing the Conservative majority, vote Labour - Conservative in the lead with Labour in second place",
           "url": "https://www.remainunited.org/#postcode=WS122BX",
           "who_suggests": "Remain United"
         },
@@ -9122,7 +9143,7 @@
         {
           "important": false,
           "party": "lab",
-          "they_say": "Vote Labour - competitive Labour-Conservative seat",
+          "they_say": "Vote Labour - Safe Labour seat",
           "url": "https://www.remainunited.org/#postcode=CF101BP",
           "who_suggests": "Remain United"
         },
@@ -9204,7 +9225,7 @@
         {
           "important": false,
           "party": "lab",
-          "they_say": "Vote Labour - competitive Labour-Conservative seat",
+          "they_say": "Vote Labour - Safe Labour seat",
           "url": "https://www.remainunited.org/#postcode=CF116AA",
           "who_suggests": "Remain United"
         },
@@ -9285,8 +9306,8 @@
         },
         {
           "important": false,
-          "party": "any",
-          "they_say": "No recommendation - Safe Conservative seat with Labour in second place",
+          "party": "lab",
+          "they_say": "Vote Labour - competitive Conservative-Labour seat",
           "url": "https://www.remainunited.org/#postcode=CA24BB",
           "who_suggests": "Remain United"
         },
@@ -9368,7 +9389,7 @@
         {
           "important": false,
           "party": "plaid",
-          "they_say": "Vote Plaid Cymru - competitive Plaid Cymru-Conservative seat",
+          "they_say": "Vote Plaid Cymru - competitive Plaid Cymru-Labour seat",
           "url": "https://www.remainunited.org/#postcode=SA146AQ",
           "who_suggests": "Remain United"
         },
@@ -9548,7 +9569,7 @@
         {
           "important": false,
           "party": "ld",
-          "they_say": "Vote Lib Dem - competitive Lib Dem-Conservative seat",
+          "they_say": "Vote Lib Dem - competitive Conservative-Lib Dem seat",
           "url": "https://www.remainunited.org/#postcode=CR03AQ",
           "who_suggests": "Remain United"
         },
@@ -9623,7 +9644,7 @@
         {
           "important": false,
           "party": "any",
-          "they_say": "No recommendation - Safe Conservative seat with Labour in second place",
+          "they_say": "No recommendation - Safe Conservative seat",
           "url": "https://www.remainunited.org/#postcode=SS67GX",
           "who_suggests": "Remain United"
         },
@@ -9752,7 +9773,7 @@
         {
           "important": false,
           "party": "lab",
-          "they_say": "Vote Labour - Conservative in the lead with Labour in second place",
+          "they_say": "For the best chance of reducing the Conservative majority, vote Labour - Conservative in the lead with Labour in second place",
           "url": "https://www.remainunited.org/#postcode=EX151PQ",
           "who_suggests": "Remain United"
         },
@@ -9833,8 +9854,8 @@
         },
         {
           "important": false,
-          "party": "any",
-          "they_say": "No recommendation - Conservative in the lead with Labour in second place",
+          "party": "lab",
+          "they_say": "For the best chance of reducing the Conservative majority, vote Labour - Conservative in the lead with Labour in second place",
           "url": "https://www.remainunited.org/#postcode=IP100AH",
           "who_suggests": "Remain United"
         },
@@ -9880,10 +9901,10 @@
     },
     "ceredigion": {
       "aggregation": {
-        "disagreement": false,
+        "disagreement": true,
         "important": false,
         "party": null,
-        "template": "anyparty.html"
+        "template": "contradict.html"
       },
       "analysis": {
         "template": "alliance-mixed.html",
@@ -9922,8 +9943,8 @@
         },
         {
           "important": false,
-          "party": "any",
-          "they_say": "No recommendation - competitive Plaid Cymru-Labour seat",
+          "party": "lab",
+          "they_say": "Vote Labour - competitive Labour-Conservative seat",
           "url": "https://www.remainunited.org/#postcode=SA389DS",
           "who_suggests": "Remain United"
         },
@@ -10004,8 +10025,8 @@
         },
         {
           "important": false,
-          "party": "any",
-          "they_say": "No recommendation - Safe Conservative seat with Labour in second place",
+          "party": "lab",
+          "they_say": "For the best chance of reducing the Conservative majority, vote Labour - Conservative in the lead with Labour in second place",
           "url": "https://www.remainunited.org/#postcode=LE127BE",
           "who_suggests": "Remain United"
         },
@@ -10079,8 +10100,8 @@
         },
         {
           "important": false,
-          "party": "any",
-          "they_say": "No recommendation - Safe Conservative seat with Labour in second place",
+          "party": "lab",
+          "they_say": "For the best chance of reducing the Conservative majority, vote Labour - Conservative in the lead with Labour in second place",
           "url": "https://www.remainunited.org/#postcode=DA130UB",
           "who_suggests": "Remain United"
         },
@@ -10263,7 +10284,7 @@
         {
           "important": false,
           "party": "lab",
-          "they_say": "Vote Labour - Conservative seat with Labour in second place",
+          "they_say": "For the best chance of reducing the Conservative majority, vote Labour - Conservative in the lead with Labour in second place",
           "url": "https://www.remainunited.org/#postcode=CM26TP",
           "who_suggests": "Remain United"
         },
@@ -10349,8 +10370,8 @@
         },
         {
           "important": false,
-          "party": "any",
-          "they_say": "No recommendation - Conservative seat with no clear remain party challenger",
+          "party": "ld",
+          "they_say": "Vote Lib Dem - Conservative in the lead with Lib Dem in second place",
           "url": "https://www.remainunited.org/#postcode=SW35DQ",
           "who_suggests": "Remain United"
         },
@@ -10445,6 +10466,13 @@
           "important": false,
           "party": "ld",
           "they_say": "Tactically vote Labour to un-seat a Conservative",
+          "url": "https://tacticalvoting.jonworth.eu/cheltenham/",
+          "who_suggests": "Jon Worth (video!)"
+        },
+        {
+          "important": false,
+          "party": "ld",
+          "they_say": "Tactically vote Lib Dem to un-seat a Conservative",
           "url": "https://tacticalvoting.jonworth.eu/cheltenham/",
           "who_suggests": "Jon Worth (video!)"
         },
@@ -10680,10 +10708,10 @@
     },
     "chichester": {
       "aggregation": {
-        "disagreement": false,
+        "disagreement": true,
         "important": false,
-        "party": "ld",
-        "template": "vote-ld.html"
+        "party": null,
+        "template": "contradict.html"
       },
       "analysis": {
         "template": "alliance-mixed.html",
@@ -10708,10 +10736,17 @@
         },
         {
           "important": false,
-          "party": "any",
-          "they_say": "No recommendation - Safe Conservative seat with no clear remain party challenger",
+          "party": "lab",
+          "they_say": "Vote Labour - Conservative in the lead with Labour in second place",
           "url": "https://www.remainunited.org/#postcode=GU272FG",
           "who_suggests": "Remain United"
+        },
+        {
+          "important": false,
+          "party": "lab",
+          "they_say": null,
+          "url": "https://tactical.vote/chichester",
+          "who_suggests": "tactical.vote"
         },
         {
           "important": false,
@@ -10770,7 +10805,7 @@
         {
           "important": true,
           "party": "lab",
-          "they_say": "Current Tory seat. Labour close second last election.",
+          "they_say": "Current Tory seat. Labour close second last election. Iain Duncan Smith's seat.",
           "url": "https://tacticalvote.co.uk/#ChingfordandWoodfordGreen",
           "who_suggests": "tacticalvote.co.uk"
         },
@@ -10885,7 +10920,7 @@
         {
           "important": false,
           "party": "ld",
-          "they_say": "Vote Lib Dem - Conservative seat with Lib Dem in second place",
+          "they_say": "Vote Lib Dem - competitive Conservative-Lib Dem seat",
           "url": "https://www.remainunited.org/#postcode=BA146BB",
           "who_suggests": "Remain United"
         },
@@ -11143,7 +11178,7 @@
         {
           "important": false,
           "party": "any",
-          "they_say": "No recommendation - Safe Conservative seat with no clear remain party challenger",
+          "they_say": "No recommendation - Safe Conservative seat",
           "url": "https://www.remainunited.org/#postcode=BH212DF",
           "who_suggests": "Remain United"
         },
@@ -11204,7 +11239,7 @@
         {
           "important": false,
           "party": "ld",
-          "they_say": "Tactically vote Lib Dem to not split the Remain vote",
+          "they_say": "Unique constituency",
           "url": "https://tacticalvoting.jonworth.eu/cities-of-london-and-westminster/",
           "who_suggests": "Jon Worth (video!)"
         },
@@ -11478,7 +11513,7 @@
         {
           "important": false,
           "party": "any",
-          "they_say": "No recommendation - Safe Conservative seat with Labour in second place",
+          "they_say": "No recommendation - Safe Conservative seat",
           "url": "https://www.remainunited.org/#postcode=CO125BG",
           "who_suggests": "Remain United"
         },
@@ -11552,8 +11587,8 @@
         },
         {
           "important": false,
-          "party": "any",
-          "they_say": "No recommendation - Safe Conservative seat with Labour in second place",
+          "party": "lab",
+          "they_say": "For the best chance of reducing the Conservative majority, vote Labour - Conservative in the lead with Labour in second place",
           "url": "https://www.remainunited.org/#postcode=DN185BB",
           "who_suggests": "Remain United"
         },
@@ -12023,8 +12058,8 @@
         },
         {
           "important": false,
-          "party": "any",
-          "they_say": "No recommendation - Safe Conservative seat with Labour in second place",
+          "party": "lab",
+          "they_say": "For the best chance of reducing the Conservative majority, vote Labour - Conservative in the lead with Labour in second place",
           "url": "https://www.remainunited.org/#postcode=CW122BB",
           "who_suggests": "Remain United"
         },
@@ -12105,8 +12140,8 @@
         },
         {
           "important": false,
-          "party": "any",
-          "they_say": "No recommendation - Safe Conservative seat with Labour in second place",
+          "party": "lab",
+          "they_say": "Vote Labour - competitive Conservative-Labour seat",
           "url": "https://www.remainunited.org/#postcode=CA124BB",
           "who_suggests": "Remain United"
         },
@@ -12194,8 +12229,8 @@
         },
         {
           "important": false,
-          "party": "any",
-          "they_say": "No recommendation - Safe Conservative seat with Labour in second place",
+          "party": "lab",
+          "they_say": "Vote Labour - competitive Conservative-Labour seat",
           "url": "https://www.remainunited.org/#postcode=LE158NZ",
           "who_suggests": "Remain United"
         },
@@ -12905,7 +12940,7 @@
         {
           "important": false,
           "party": "snp",
-          "they_say": "Vote SNP - Safe SNP seat",
+          "they_say": "Vote SNP - competitive SNP-Labour seat, but SNP more likely to win",
           "url": "https://www.remainunited.org/#postcode=G672JG",
           "who_suggests": "Remain United"
         },
@@ -13225,8 +13260,8 @@
         },
         {
           "important": false,
-          "party": "any",
-          "they_say": "No recommendation - Safe Conservaive seat with Labour in second place",
+          "party": "lab",
+          "they_say": "For the best chance of reducing the Conservative majority, vote Labour - Conservative in the lead with Labour in second place",
           "url": "https://www.remainunited.org/#postcode=BR87PF",
           "who_suggests": "Remain United"
         },
@@ -13300,8 +13335,8 @@
         },
         {
           "important": false,
-          "party": "any",
-          "they_say": "No recommendation - Safe Conservaive seat with Labour in second place",
+          "party": "lab",
+          "they_say": "For the best chance of reducing the Conservative majority, vote Labour - Conservative in the lead with Labour in second place",
           "url": "https://www.remainunited.org/#postcode=CV238BF",
           "who_suggests": "Remain United"
         },
@@ -13703,8 +13738,8 @@
         },
         {
           "important": false,
-          "party": "any",
-          "they_say": "No recommendation - Safe Conservaive seat with Labour in second place",
+          "party": "lab",
+          "they_say": "For the best chance of reducing the Conservative majority, vote Labour - Conservative in the lead with Labour in second place",
           "url": "https://www.remainunited.org/#postcode=DE45EP",
           "who_suggests": "Remain United"
         },
@@ -13779,7 +13814,7 @@
         {
           "important": false,
           "party": "any",
-          "they_say": "No recommendation - Safe Conservaive seat with Labour in second place",
+          "they_say": "No recommendation - Safe Conservative seat",
           "url": "https://www.remainunited.org/#postcode=BA146LH",
           "who_suggests": "Remain United"
         },
@@ -14202,8 +14237,8 @@
         },
         {
           "important": false,
-          "party": "any",
-          "they_say": "No recommendation - Safe Conservative seat with Labour in second place",
+          "party": "lab",
+          "they_say": "For the best chance of reducing the Conservative majority, vote Labour - Conservative in the lead with Labour in second place",
           "url": "https://www.remainunited.org/#postcode=CT130DH",
           "who_suggests": "Remain United"
         },
@@ -14298,8 +14333,8 @@
         },
         {
           "important": false,
-          "party": "any",
-          "they_say": "No recommendation - Safe Conservative seat with Labour in second place",
+          "party": "lab",
+          "they_say": "Vote Labour - competitive Conservative-Labour seat",
           "url": "https://www.remainunited.org/#postcode=DY31YA",
           "who_suggests": "Remain United"
         },
@@ -14387,8 +14422,8 @@
         },
         {
           "important": false,
-          "party": "any",
-          "they_say": "No recommendation - Safe Conservative seat with Labour in second place",
+          "party": "lab",
+          "they_say": "For the best chance of reducing the Conservative majority, vote Labour - Conservative in the lead with Labour in second place",
           "url": "https://www.remainunited.org/#postcode=B645QG",
           "who_suggests": "Remain United"
         },
@@ -14783,7 +14818,7 @@
         {
           "important": false,
           "party": "snp",
-          "they_say": "Vote SNP - Safe SNP seat",
+          "they_say": "Vote SNP - competitive SNP-Labour seat, but SNP more likely to win",
           "url": "https://www.remainunited.org/#postcode=DD21AJ",
           "who_suggests": "Remain United"
         },
@@ -14849,7 +14884,7 @@
         {
           "important": false,
           "party": "snp",
-          "they_say": "Vote SNP - Safe SNP seat",
+          "they_say": "Vote SNP - competitive SNP-Labour seat, but SNP more likely to win",
           "url": "https://www.remainunited.org/#postcode=KY122EU",
           "who_suggests": "Remain United"
         },
@@ -15069,7 +15104,7 @@
         {
           "important": false,
           "party": "lab",
-          "they_say": "Vote Labour - competitive Labour-Conservative seat",
+          "they_say": "Vote Labour - Safe Labour seat",
           "url": "https://www.remainunited.org/#postcode=HA01AL",
           "who_suggests": "Remain United"
         },
@@ -15205,7 +15240,7 @@
         {
           "important": false,
           "party": "lab",
-          "they_say": "Vote Labour - Safe Labour seat",
+          "they_say": "Vote Labour - competitive Labour-Conservative seat",
           "url": "https://www.remainunited.org/#postcode=DH62BB",
           "who_suggests": "Remain United"
         },
@@ -15253,8 +15288,8 @@
       "aggregation": {
         "disagreement": false,
         "important": false,
-        "party": "alliance",
-        "template": "vote-alliance.html"
+        "party": null,
+        "template": "pending.html"
       },
       "analysis": {
         "template": "leave.html",
@@ -15272,8 +15307,8 @@
       "other_sites": [
         {
           "important": false,
-          "party": "alliance",
-          "they_say": "Vote Alliance - competitive DUP-Alliance seat",
+          "party": "any",
+          "they_say": "No recommendation - Safe DUP seat with no clear remain party challenger",
           "url": "https://www.remainunited.org/#postcode=BT365BP",
           "who_suggests": "Remain United"
         },
@@ -15572,8 +15607,8 @@
         },
         {
           "important": false,
-          "party": "any",
-          "they_say": "No recommendation - Safe Conservative seat with no clear remain party challenger",
+          "party": "ld",
+          "they_say": "Vote Lib Dem - Conservative in the lead with Lib Dem in second place",
           "url": "https://www.remainunited.org/#postcode=GU266BY",
           "who_suggests": "Remain United"
         },
@@ -15648,7 +15683,7 @@
         {
           "important": false,
           "party": "snp",
-          "they_say": "Vote SNP - Safe SNP seat",
+          "they_say": "Vote SNP - competitive SNP-Labour seat, but SNP more likely to win",
           "url": "https://www.remainunited.org/#postcode=ML110DR",
           "who_suggests": "Remain United"
         },
@@ -15709,7 +15744,7 @@
         {
           "important": false,
           "party": "sf",
-          "they_say": "For the best chance of reducing the DUP majority, vote Sinn Fein - DUP in the lead with Sinn Fein in second place",
+          "they_say": "For the best chance of reducing the DUP majority, vote SF - DUP in the lead with SF in second place",
           "url": "https://www.remainunited.org/#postcode=BT465NS",
           "who_suggests": "Remain United"
         },
@@ -15777,7 +15812,7 @@
         {
           "important": false,
           "party": "snp",
-          "they_say": "Vote SNP - competitive SNP-Conservative seat",
+          "they_say": "Vote SNP - competitive SNP-Labour seat, but SNP more likely to win",
           "url": "https://www.remainunited.org/#postcode=EH395JX",
           "who_suggests": "Remain United"
         },
@@ -15941,7 +15976,7 @@
         {
           "important": false,
           "party": "any",
-          "they_say": "No recommendation - Safe Conservative seat with no clear remain party challenger",
+          "they_say": "No recommendation - Safe Conservative seat",
           "url": "https://www.remainunited.org/#postcode=RH67LF",
           "who_suggests": "Remain United"
         },
@@ -16097,8 +16132,8 @@
         },
         {
           "important": false,
-          "party": "any",
-          "they_say": "No recommendation - Conservative in the lead with Labour in second place",
+          "party": "lab",
+          "they_say": "For the best chance of reducing the Conservative majority, vote Labour - Conservative in the lead with Labour in second place",
           "url": "https://www.remainunited.org/#postcode=YO411RQ",
           "who_suggests": "Remain United"
         },
@@ -16180,7 +16215,7 @@
         {
           "important": false,
           "party": "ld",
-          "they_say": "Vote Lib Dem - competitive Lib Dem-Conservative seat",
+          "they_say": "Vote Lib Dem - competitive Conservative-Lib Dem seat",
           "url": "https://www.remainunited.org/#postcode=BN227BB",
           "who_suggests": "Remain United"
         },
@@ -16276,7 +16311,7 @@
         {
           "important": false,
           "party": "ld",
-          "they_say": "Vote Lib Dem - Conservative seat with Lib Dem in second place",
+          "they_say": "Vote Lib Dem - Conservative in the lead with Lib Dem in second place",
           "url": "https://www.remainunited.org/#postcode=SO182HG",
           "who_suggests": "Remain United"
         },
@@ -16329,7 +16364,7 @@
     },
     "eddisbury": {
       "aggregation": {
-        "disagreement": false,
+        "disagreement": true,
         "important": false,
         "party": "ld",
         "template": "vote-ld.html"
@@ -16364,8 +16399,8 @@
         },
         {
           "important": false,
-          "party": "any",
-          "they_say": "No recommendation - Safe Conservative seat with no clear remain party challenger",
+          "party": "lab",
+          "they_say": "Vote Labour - Conservative in the lead with Labour in second place",
           "url": "https://www.remainunited.org/#postcode=CH24JS",
           "who_suggests": "Remain United"
         },
@@ -16433,7 +16468,7 @@
         {
           "important": false,
           "party": "snp",
-          "they_say": "Vote SNP - Safe SNP seat",
+          "they_say": "Vote SNP - competitive SNP-Labour seat, but SNP more likely to win",
           "url": "https://www.remainunited.org/#postcode=EH159BA",
           "who_suggests": "Remain United"
         },
@@ -16501,7 +16536,7 @@
         {
           "important": false,
           "party": "snp",
-          "they_say": "Vote SNP - Safe SNP seat",
+          "they_say": "Vote SNP - competitive SNP-Labour seat, but SNP more likely to win",
           "url": "https://www.remainunited.org/#postcode=EH51DE",
           "who_suggests": "Remain United"
         },
@@ -16651,7 +16686,7 @@
         {
           "important": false,
           "party": "snp",
-          "they_say": "Vote SNP - Safe SNP seat",
+          "they_say": "Vote SNP - competitive SNP-Labour seat, but SNP more likely to win",
           "url": "https://www.remainunited.org/#postcode=EH145EZ",
           "who_suggests": "Remain United"
         },
@@ -16957,8 +16992,8 @@
         },
         {
           "important": false,
-          "party": "any",
-          "they_say": "No recommendation - Safe Conservative seat with Labour in second place",
+          "party": "lab",
+          "they_say": "Vote Labour - competitive Conservative-Labour seat",
           "url": "https://www.remainunited.org/#postcode=LS143BB",
           "who_suggests": "Remain United"
         },
@@ -17307,7 +17342,7 @@
         {
           "important": false,
           "party": "any",
-          "they_say": "No recommendation - Safe Conservative seat with Labour in second place",
+          "they_say": "No recommendation - Safe Conservative seat",
           "url": "https://www.remainunited.org/#postcode=CM164AA",
           "who_suggests": "Remain United"
         },
@@ -17353,10 +17388,10 @@
     },
     "epsom-and-ewell": {
       "aggregation": {
-        "disagreement": false,
+        "disagreement": true,
         "important": false,
-        "party": "ld",
-        "template": "vote-ld.html"
+        "party": null,
+        "template": "contradict.html"
       },
       "analysis": {
         "template": "alliance-mixed.html",
@@ -17388,10 +17423,17 @@
         },
         {
           "important": false,
-          "party": "any",
-          "they_say": "No recommendation - Safe Conservative seat with Labour in second place",
+          "party": "lab",
+          "they_say": "Vote Labour - Conservative in the lead with Labour in second place",
           "url": "https://www.remainunited.org/#postcode=KT172BB",
           "who_suggests": "Remain United"
+        },
+        {
+          "important": false,
+          "party": "lab",
+          "they_say": null,
+          "url": "https://tactical.vote/epsom-and-ewell",
+          "who_suggests": "tactical.vote"
         },
         {
           "important": false,
@@ -17463,8 +17505,8 @@
         },
         {
           "important": false,
-          "party": "any",
-          "they_say": "No recommendation - Safe Conservative seat with Labour in second place",
+          "party": "lab",
+          "they_say": "Vote Labour - competitive Conservative-Labour seat",
           "url": "https://www.remainunited.org/#postcode=DE723BB",
           "who_suggests": "Remain United"
         },
@@ -17600,7 +17642,7 @@
         {
           "important": false,
           "party": "ld",
-          "they_say": "Current Tory seat. Lib Dems came second last election.",
+          "they_say": "Current Tory seat. Lib Dems best placed to beat them here. Dominic Raab's seat.",
           "url": "https://tacticalvote.co.uk/#EsherandWalton",
           "who_suggests": "tacticalvote.co.uk"
         },
@@ -17863,7 +17905,7 @@
         {
           "important": false,
           "party": "any",
-          "they_say": "No recommendation - Safe Conservative seat with Labour in second place",
+          "they_say": "No recommendation - Safe Conservative seat",
           "url": "https://www.remainunited.org/#postcode=PO141AA",
           "who_suggests": "Remain United"
         },
@@ -17937,8 +17979,8 @@
         },
         {
           "important": false,
-          "party": "any",
-          "they_say": "No recommendation - Safe Conservative seat with Labour in second place",
+          "party": "lab",
+          "they_say": "For the best chance of reducing the Conservative majority, vote Labour - Conservative in the lead with Labour in second place",
           "url": "https://www.remainunited.org/#postcode=CT29JX",
           "who_suggests": "Remain United"
         },
@@ -18081,7 +18123,7 @@
         {
           "important": false,
           "party": "sf",
-          "they_say": "Vote Sinn Fein - competitive Sinn Fein-UUP seat",
+          "they_say": "Vote SF - competitive SF-UUP seat",
           "url": "https://www.remainunited.org/#postcode=BT684TL",
           "who_suggests": "Remain United"
         },
@@ -18250,7 +18292,7 @@
         {
           "important": false,
           "party": "ld",
-          "they_say": "Vote Lib Dem - competitive Conservative - Lib Dem seat",
+          "they_say": "Vote Lib Dem - competitive Conservative-Lib Dem seat",
           "url": "https://www.remainunited.org/#postcode=N101JW",
           "who_suggests": "Remain United"
         },
@@ -18350,8 +18392,8 @@
         },
         {
           "important": false,
-          "party": "any",
-          "they_say": "No recommendation - Safe Conservative seat with Labour in second place",
+          "party": "lab",
+          "they_say": "Vote Labour - Conservative in the lead with Labour in second place",
           "url": "https://www.remainunited.org/#postcode=CT157EZ",
           "who_suggests": "Remain United"
         },
@@ -18432,8 +18474,8 @@
         },
         {
           "important": false,
-          "party": "any",
-          "they_say": "No recommendation - Safe Conservative seat with Labour in second place",
+          "party": "lab",
+          "they_say": "Vote Labour - competitive Conservative-Labour seat",
           "url": "https://www.remainunited.org/#postcode=GL142BB",
           "who_suggests": "Remain United"
         },
@@ -18519,8 +18561,8 @@
         },
         {
           "important": false,
-          "party": "any",
-          "they_say": "No recommendation - competitive Sinn Fein-SDLP seat",
+          "party": "sdlp",
+          "they_say": "Vote SDLP - competitive SDLP-SF seat, but SDLP more likely to win",
           "url": "https://www.remainunited.org/#postcode=BT472BB",
           "who_suggests": "Remain United"
         },
@@ -18594,8 +18636,8 @@
         },
         {
           "important": false,
-          "party": "any",
-          "they_say": "No recommendation - Safe Conservative seat with Labour in second place",
+          "party": "lab",
+          "they_say": "Vote Labour - Conservative in the lead with Labour in second place",
           "url": "https://www.remainunited.org/#postcode=FY38FG",
           "who_suggests": "Remain United"
         },
@@ -18676,8 +18718,8 @@
         },
         {
           "important": false,
-          "party": "any",
-          "they_say": "No recommendation - Safe Conservative seat with Labour in second place",
+          "party": "lab",
+          "they_say": "For the best chance of reducing the Conservative majority, vote Labour - Conservative in the lead with Labour in second place",
           "url": "https://www.remainunited.org/#postcode=DN173AP",
           "who_suggests": "Remain United"
         },
@@ -18976,8 +19018,8 @@
         },
         {
           "important": false,
-          "party": "any",
-          "they_say": "No recommendation - Safe Conservative seat with Labour in second place",
+          "party": "lab",
+          "they_say": "For the best chance of reducing the Conservative majority, vote Labour - Conservative in the lead with Labour in second place",
           "url": "https://www.remainunited.org/#postcode=ME80AL",
           "who_suggests": "Remain United"
         },
@@ -19051,8 +19093,8 @@
         },
         {
           "important": false,
-          "party": "snp",
-          "they_say": "Vote SNP - competitive SNP-Labour seat, but SNP more likely to win",
+          "party": "lab",
+          "they_say": "Vote Labour - competitive Labour-SNP seat",
           "url": "https://www.remainunited.org/#postcode=G15PE",
           "who_suggests": "Remain United"
         },
@@ -19147,8 +19189,8 @@
       "aggregation": {
         "disagreement": false,
         "important": false,
-        "party": "snp",
-        "template": "vote-snp.html"
+        "party": null,
+        "template": "anyparty.html"
       },
       "analysis": {
         "template": "no-conflict-easy.html",
@@ -19173,8 +19215,8 @@
         },
         {
           "important": false,
-          "party": "snp",
-          "they_say": "Vote SNP - competitive SNP-Labour seat, but SNP more likely to win",
+          "party": "any",
+          "they_say": "No recommendation - competitive SNP-Labour seat",
           "url": "https://www.remainunited.org/#postcode=G200EG",
           "who_suggests": "Remain United"
         },
@@ -19206,10 +19248,10 @@
     },
     "glasgow-north-east": {
       "aggregation": {
-        "disagreement": true,
+        "disagreement": false,
         "important": false,
         "party": null,
-        "template": "contradict.html"
+        "template": "anyparty.html"
       },
       "analysis": {
         "template": "remain.html",
@@ -19241,8 +19283,8 @@
         },
         {
           "important": false,
-          "party": "snp",
-          "they_say": "Vote SNP - competitive SNP-Labour seat, but SNP more likely to win",
+          "party": "any",
+          "they_say": "No recommendation - competitive SNP-Labour seat",
           "url": "https://www.remainunited.org/#postcode=G213TT",
           "who_suggests": "Remain United"
         },
@@ -19303,7 +19345,7 @@
         {
           "important": false,
           "party": "snp",
-          "they_say": "Vote SNP - Safe SNP seat",
+          "they_say": "Vote SNP - competitive SNP-Labour seat, but SNP more likely to win",
           "url": "https://www.remainunited.org/#postcode=G120DB",
           "who_suggests": "Remain United"
         },
@@ -19410,8 +19452,8 @@
         },
         {
           "important": false,
-          "party": "snp",
-          "they_say": "Vote SNP - competitive SNP-Labour seat, but SNP more likely to win",
+          "party": "any",
+          "they_say": "No recommendation - competitive SNP-Labour seat",
           "url": "https://www.remainunited.org/#postcode=G514ND",
           "who_suggests": "Remain United"
         },
@@ -19465,7 +19507,7 @@
         {
           "important": false,
           "party": "snp",
-          "they_say": "Vote SNP - Safe SNP seat",
+          "they_say": "Vote SNP - competitive SNP-Labour seat, but SNP more likely to win",
           "url": "https://www.remainunited.org/#postcode=KY76SA",
           "who_suggests": "Remain United"
         },
@@ -19701,8 +19743,8 @@
         },
         {
           "important": false,
-          "party": "any",
-          "they_say": "No recommendation - Safe Conservative seat with Labour in second place",
+          "party": "lab",
+          "they_say": "For the best chance of reducing the Conservative majority, vote Labour - Conservative in the lead with Labour in second place",
           "url": "https://www.remainunited.org/#postcode=PO122BB",
           "who_suggests": "Remain United"
         },
@@ -19865,8 +19907,8 @@
         },
         {
           "important": false,
-          "party": "any",
-          "they_say": "No recommendation - Safe Conservative seat with Labour in second place",
+          "party": "lab",
+          "they_say": "For the best chance of reducing the Conservative majority, vote Labour - Conservative in the lead with Labour in second place",
           "url": "https://www.remainunited.org/#postcode=PE69QA",
           "who_suggests": "Remain United"
         },
@@ -19940,8 +19982,8 @@
         },
         {
           "important": false,
-          "party": "any",
-          "they_say": "No recommendation - Safe Conservative seat with Labour in second place",
+          "party": "lab",
+          "they_say": "For the best chance of reducing the Conservative majority, vote Labour - Conservative in the lead with Labour in second place",
           "url": "https://www.remainunited.org/#postcode=DA122BB",
           "who_suggests": "Remain United"
         },
@@ -20118,8 +20160,8 @@
         },
         {
           "important": false,
-          "party": "any",
-          "they_say": "No recommendation - Safe Conservative seat with Labour in second place",
+          "party": "lab",
+          "they_say": "For the best chance of reducing the Conservative majority, vote Labour - Conservative in the lead with Labour in second place",
           "url": "https://www.remainunited.org/#postcode=NR293BB",
           "who_suggests": "Remain United"
         },
@@ -20282,8 +20324,8 @@
         },
         {
           "important": false,
-          "party": "any",
-          "they_say": "No recommendation - Safe Conservative seat with no clear remain party challenger",
+          "party": "ld",
+          "they_say": "Vote Lib Dem - Conservative in the lead with Lib Dem in second place",
           "url": "https://www.remainunited.org/#postcode=GU24BB",
           "who_suggests": "Remain United"
         },
@@ -20512,8 +20554,8 @@
         },
         {
           "important": false,
-          "party": "any",
-          "they_say": "No recommendation - Safe Conservative seat with Labour in second place",
+          "party": "lab",
+          "they_say": "For the best chance of reducing the Conservative majority, vote Labour - Conservative in the lead with Labour in second place",
           "url": "https://www.remainunited.org/#postcode=B620AA",
           "who_suggests": "Remain United"
         },
@@ -20669,8 +20711,8 @@
         },
         {
           "important": false,
-          "party": "any",
-          "they_say": "No recommendation - Safe Conservative seat with Labour in second place",
+          "party": "lab",
+          "they_say": "For the best chance of reducing the Conservative majority, vote Labour - Conservative in the lead with Labour in second place",
           "url": "https://www.remainunited.org/#postcode=HU106LF",
           "who_suggests": "Remain United"
         },
@@ -20990,8 +21032,8 @@
         },
         {
           "important": false,
-          "party": "any",
-          "they_say": "No recommendation - Safe Conservative seat with Labour in second place",
+          "party": "lab",
+          "they_say": "For the best chance of reducing the Conservative majority, vote Labour - Conservative in the lead with Labour in second place",
           "url": "https://www.remainunited.org/#postcode=LE182RA",
           "who_suggests": "Remain United"
         },
@@ -21065,8 +21107,8 @@
         },
         {
           "important": false,
-          "party": "any",
-          "they_say": "No recommendation - Safe Conservative seat with Labour in second place",
+          "party": "lab",
+          "they_say": "For the best chance of reducing the Conservative majority, vote Labour - Conservative in the lead with Labour in second place",
           "url": "https://www.remainunited.org/#postcode=CM179BB",
           "who_suggests": "Remain United"
         },
@@ -21473,8 +21515,8 @@
         },
         {
           "important": false,
-          "party": "any",
-          "they_say": "No recommendation - Safe Conservative seat with Labour in second place",
+          "party": "lab",
+          "they_say": "For the best chance of reducing the Conservative majority, vote Labour - Conservative in the lead with Labour in second place",
           "url": "https://www.remainunited.org/#postcode=CO123BB",
           "who_suggests": "Remain United"
         },
@@ -21656,8 +21698,8 @@
         },
         {
           "important": false,
-          "party": "any",
-          "they_say": "No recommendation - Safe Conservative seat with Labour in second place",
+          "party": "lab",
+          "they_say": "For the best chance of reducing the Conservative majority, vote Labour - Conservative in the lead with Labour in second place",
           "url": "https://www.remainunited.org/#postcode=PO75BB",
           "who_suggests": "Remain United"
         },
@@ -21813,8 +21855,8 @@
         },
         {
           "important": false,
-          "party": "any",
-          "they_say": "No recommendation - Safe Conservative seat with no clear remain party challenger",
+          "party": "ld",
+          "they_say": "Vote Lib Dem - competitive Conservative-Lib Dem seat",
           "url": "https://www.remainunited.org/#postcode=SK122LH",
           "who_suggests": "Remain United"
         },
@@ -21908,7 +21950,7 @@
         {
           "important": false,
           "party": "lab",
-          "they_say": "Vote Labour - Conservative in the lead with Labour in second place",
+          "they_say": "For the best chance of reducing the Conservative majority, vote Labour - Conservative in the lead with Labour in second place",
           "url": "https://www.remainunited.org/#postcode=AL37DJ",
           "who_suggests": "Remain United"
         },
@@ -22243,7 +22285,7 @@
         {
           "important": false,
           "party": "any",
-          "they_say": "No recommendation - Safe Conservative seat with Labour in second place",
+          "they_say": "No recommendation - Safe Conservative seat with no clear remain party challenger",
           "url": "https://www.remainunited.org/#postcode=GL179BH",
           "who_suggests": "Remain United"
         },
@@ -22325,7 +22367,7 @@
         {
           "important": false,
           "party": "lab",
-          "they_say": "Vote Labour - Conservative in the lead with Labour in second place",
+          "they_say": "For the best chance of reducing the Conservative majority, vote Labour - Conservative in the lead with Labour in second place",
           "url": "https://www.remainunited.org/#postcode=CM195EH",
           "who_suggests": "Remain United"
         },
@@ -22406,8 +22448,8 @@
         },
         {
           "important": false,
-          "party": "any",
-          "they_say": "No recommendation - Safe Conservative seat with Labour in second place",
+          "party": "lab",
+          "they_say": "For the best chance of reducing the Conservative majority, vote Labour - Conservative in the lead with Labour in second place",
           "url": "https://www.remainunited.org/#postcode=AL22EJ",
           "who_suggests": "Remain United"
         },
@@ -22482,7 +22524,7 @@
         {
           "important": false,
           "party": "lab",
-          "they_say": "Vote Labour - Conservative in the lead with Labour in second place",
+          "they_say": "Vote Labour - competitive Conservative-Labour seat",
           "url": "https://www.remainunited.org/#postcode=NE482JP",
           "who_suggests": "Remain United"
         },
@@ -22699,7 +22741,7 @@
     },
     "hitchin-and-harpenden": {
       "aggregation": {
-        "disagreement": true,
+        "disagreement": false,
         "important": false,
         "party": "ld",
         "template": "vote-ld.html"
@@ -22734,8 +22776,8 @@
         },
         {
           "important": false,
-          "party": "lab",
-          "they_say": "Vote Labour - competitive Conservative-Labour seat",
+          "party": "ld",
+          "they_say": "Vote Lib Dem - competitive Conservative-Lib Dem seat",
           "url": "https://www.remainunited.org/#postcode=AL23LD",
           "who_suggests": "Remain United"
         },
@@ -22889,8 +22931,8 @@
         },
         {
           "important": false,
-          "party": "any",
-          "they_say": "No recommendation - Safe Conservative seat with Labour in second place",
+          "party": "lab",
+          "they_say": "For the best chance of reducing the Conservative majority, vote Labour - Conservative in the lead with Labour in second place",
           "url": "https://www.remainunited.org/#postcode=CM145NG",
           "who_suggests": "Remain United"
         },
@@ -23040,7 +23082,7 @@
         {
           "important": false,
           "party": "any",
-          "they_say": "No recommendation - Safe Conservative seat with Labour in second place",
+          "they_say": "No recommendation - Safe Conservative seat with no clear remain party challenger",
           "url": "https://www.remainunited.org/#postcode=RH122BB",
           "who_suggests": "Remain United"
         },
@@ -23197,7 +23239,7 @@
         {
           "important": false,
           "party": "lab",
-          "they_say": "Vote Labour - Safe Labour seat",
+          "they_say": "Vote Labour - competitive Labour-Conservative seat",
           "url": "https://www.remainunited.org/#postcode=BN32BB",
           "who_suggests": "Remain United"
         },
@@ -23354,7 +23396,7 @@
         {
           "important": false,
           "party": "lab",
-          "they_say": "Vote Labour - Conservative in the lead with Labour in second place",
+          "they_say": "For the best chance of reducing the Conservative majority, vote Labour - Conservative in the lead with Labour in second place",
           "url": "https://www.remainunited.org/#postcode=MK442BN",
           "who_suggests": "Remain United"
         },
@@ -23572,7 +23614,7 @@
         {
           "important": false,
           "party": "lab",
-          "they_say": "Previous Labour seat. Tories came second last election.",
+          "they_say": "Previous Labour seat, MP switched parties. Tories came second last election. Labour best placed to retain the seat.",
           "url": "https://tacticalvote.co.uk/#IlfordSouth",
           "who_suggests": "tacticalvote.co.uk"
         },
@@ -23647,7 +23689,7 @@
         {
           "important": false,
           "party": "snp",
-          "they_say": "Vote SNP - Safe SNP seat",
+          "they_say": "Vote SNP - competitive SNP-Labour seat, but SNP more likely to win",
           "url": "https://www.remainunited.org/#postcode=PA146AE",
           "who_suggests": "Remain United"
         },
@@ -23708,7 +23750,7 @@
         {
           "important": false,
           "party": "snp",
-          "they_say": "Vote SNP - Safe SNP seat",
+          "they_say": "Vote SNP - competitive SNP-Conservative seat",
           "url": "https://www.remainunited.org/#postcode=PH253DL",
           "who_suggests": "Remain United"
         },
@@ -23872,7 +23914,7 @@
         {
           "important": false,
           "party": "lab",
-          "they_say": "Vote Labour - Conservative in the lead with Labour in second place",
+          "they_say": "For the best chance of reducing the Conservative majority, vote Labour - Conservative in the lead with Labour in second place",
           "url": "https://www.remainunited.org/#postcode=PO326BB",
           "who_suggests": "Remain United"
         },
@@ -24266,7 +24308,7 @@
         {
           "important": false,
           "party": "lab",
-          "they_say": "Vote Labour - competitive Conservative-Labour seat",
+          "they_say": "Vote Labour - competitive Labour-Conservative seat",
           "url": "https://www.remainunited.org/#postcode=BD162DL",
           "who_suggests": "Remain United"
         },
@@ -24319,10 +24361,10 @@
     },
     "kenilworth-and-southam": {
       "aggregation": {
-        "disagreement": false,
+        "disagreement": true,
         "important": false,
-        "party": "ld",
-        "template": "vote-ld.html"
+        "party": null,
+        "template": "contradict.html"
       },
       "analysis": {
         "template": "alliance-mixed.html",
@@ -24347,10 +24389,17 @@
         },
         {
           "important": false,
-          "party": "any",
-          "they_say": "No recommendation - Conservative in the lead with Labour in second place",
+          "party": "lab",
+          "they_say": "For the best chance of reducing the Conservative majority, vote Labour - Conservative in the lead with Labour in second place",
           "url": "https://www.remainunited.org/#postcode=B938PR",
           "who_suggests": "Remain United"
+        },
+        {
+          "important": false,
+          "party": "lab",
+          "they_say": null,
+          "url": "https://tactical.vote/kenilworth-and-southam",
+          "who_suggests": "tactical.vote"
         },
         {
           "important": false,
@@ -24422,15 +24471,22 @@
         },
         {
           "important": false,
-          "party": "ld",
+          "party": "lab",
           "they_say": "Unique constituency",
           "url": "https://tacticalvoting.jonworth.eu/kensington/",
           "who_suggests": "Jon Worth (video!)"
         },
         {
           "important": false,
-          "party": "any",
-          "they_say": "No recommendation - a three-way marginal seat, with uncertain outcome",
+          "party": "lab",
+          "they_say": null,
+          "url": "https://tacticalvote.getvoting.org/kensington/",
+          "who_suggests": "Best for Britain"
+        },
+        {
+          "important": false,
+          "party": "ld",
+          "they_say": "Vote Lib Dem - competitive Conservative-Lib Dem seat",
           "url": "https://www.remainunited.org/#postcode=SW109PY",
           "who_suggests": "Remain United"
         },
@@ -24532,8 +24588,8 @@
         },
         {
           "important": false,
-          "party": "any",
-          "they_say": "No recommendation - Safe Conservative seat with Labour in second place",
+          "party": "lab",
+          "they_say": "For the best chance of reducing the Conservative majority, vote Labour - Conservative in the lead with Labour in second place",
           "url": "https://www.remainunited.org/#postcode=LE168FE",
           "who_suggests": "Remain United"
         },
@@ -24615,7 +24671,7 @@
         {
           "important": false,
           "party": "snp",
-          "they_say": "Vote SNP - Safe SNP seat",
+          "they_say": "Vote SNP - competitive SNP-Conservative seat",
           "url": "https://www.remainunited.org/#postcode=KA19EW",
           "who_suggests": "Remain United"
         },
@@ -25011,7 +25067,7 @@
         {
           "important": false,
           "party": "lab",
-          "they_say": "Vote Labour - Conservative in the lead with Labour in second place",
+          "they_say": "For the best chance of reducing the Conservative majority, vote Labour - Conservative in the lead with Labour in second place",
           "url": "https://www.remainunited.org/#postcode=BS167ES",
           "who_suggests": "Remain United"
         },
@@ -25202,8 +25258,8 @@
       "aggregation": {
         "disagreement": false,
         "important": false,
-        "party": "alliance",
-        "template": "vote-alliance.html"
+        "party": null,
+        "template": "pending.html"
       },
       "analysis": {
         "template": "leave.html",
@@ -25221,8 +25277,8 @@
       "other_sites": [
         {
           "important": false,
-          "party": "alliance",
-          "they_say": "Vote Alliance - competitive DUP-Alliance seat",
+          "party": "any",
+          "they_say": "No recommendation - Safe DUP seat with no clear remain party challenger",
           "url": "https://www.remainunited.org/#postcode=BT179BB",
           "who_suggests": "Remain United"
         },
@@ -26047,7 +26103,7 @@
         {
           "important": false,
           "party": "lab",
-          "they_say": "Vote Labour - competitive Labour-Conservative seat",
+          "they_say": "Vote Labour - competitive Conservative-Labour seat",
           "url": "https://www.remainunited.org/#postcode=M281AA",
           "who_suggests": "Remain United"
         },
@@ -26538,8 +26594,8 @@
         },
         {
           "important": false,
-          "party": "any",
-          "they_say": "No recommendation - Safe Conservative seat with Labour in second place",
+          "party": "lab",
+          "they_say": "For the best chance of reducing the Conservative majority, vote Labour - Conservative in the lead with Labour in second place",
           "url": "https://www.remainunited.org/#postcode=DE137BB",
           "who_suggests": "Remain United"
         },
@@ -26703,7 +26759,7 @@
         {
           "important": false,
           "party": "snp",
-          "they_say": "Vote SNP - Safe SNP seat",
+          "they_say": "Vote SNP - competitive SNP-Conservative seat",
           "url": "https://www.remainunited.org/#postcode=FK13BA",
           "who_suggests": "Remain United"
         },
@@ -27036,7 +27092,7 @@
         {
           "important": false,
           "party": "snp",
-          "they_say": "Vote SNP - Safe SNP seat",
+          "they_say": "Vote SNP - competitive SNP-Labour seat, but SNP more likely to win",
           "url": "https://www.remainunited.org/#postcode=EH530JP",
           "who_suggests": "Remain United"
         },
@@ -27297,8 +27353,8 @@
         },
         {
           "important": false,
-          "party": "any",
-          "they_say": "No recommendation - Safe Conservative seat with Labour in second place",
+          "party": "lab",
+          "they_say": "For the best chance of reducing the Conservative majority, vote Labour - Conservative in the lead with Labour in second place",
           "url": "https://www.remainunited.org/#postcode=DN365BB",
           "who_suggests": "Remain United"
         },
@@ -27366,7 +27422,7 @@
         {
           "important": false,
           "party": "any",
-          "they_say": "No recommendation - Safe Conservative seat with Labour in second place",
+          "they_say": "No recommendation - Safe Conservative seat with no clear remain party challenger",
           "url": "https://www.remainunited.org/#postcode=DY122LT",
           "who_suggests": "Remain United"
         },
@@ -27434,7 +27490,7 @@
         {
           "important": false,
           "party": "lab",
-          "they_say": "Vote Labour - Safe Labour seat",
+          "they_say": "Vote Labour - competitive Labour-Conservative seat",
           "url": "https://www.remainunited.org/#postcode=LU40PA",
           "who_suggests": "Remain United"
         },
@@ -27495,7 +27551,7 @@
         {
           "important": false,
           "party": "lab",
-          "they_say": "Current Labour seat. Tories came second last election.",
+          "they_say": "Previous Labour seat, MP became independent. Tories came second last election. Labour best placed to retain seat.",
           "url": "https://tacticalvote.co.uk/#LutonSouth",
           "who_suggests": "tacticalvote.co.uk"
         },
@@ -27589,7 +27645,7 @@
         {
           "important": false,
           "party": "lab",
-          "they_say": "Vote Labour - Conservative in the lead with Labour in second place",
+          "they_say": "Vote Labour - competitive Conservative-Labour seat",
           "url": "https://www.remainunited.org/#postcode=CW122DR",
           "who_suggests": "Remain United"
         },
@@ -27896,7 +27952,7 @@
         {
           "important": false,
           "party": "any",
-          "they_say": "No recommendation - Safe Conservative seat with Labour in second place",
+          "they_say": "No recommendation - Safe Conservative seat with no clear remain party challenger",
           "url": "https://www.remainunited.org/#postcode=CM07JU",
           "who_suggests": "Remain United"
         },
@@ -28195,8 +28251,8 @@
         },
         {
           "important": false,
-          "party": "any",
-          "they_say": "No recommendation - Safe Conservative seat with Labour in second place",
+          "party": "lab",
+          "they_say": "Vote Labour - competitive Conservative-Labour seat",
           "url": "https://www.remainunited.org/#postcode=NG174NX",
           "who_suggests": "Remain United"
         },
@@ -28359,8 +28415,8 @@
         },
         {
           "important": false,
-          "party": "any",
-          "they_say": "No recommendation - Safe Conservative seat with Labour in second place",
+          "party": "lab",
+          "they_say": "For the best chance of reducing the Conservative majority, vote Labour - Conservative in the lead with Labour in second place",
           "url": "https://www.remainunited.org/#postcode=B263BY",
           "who_suggests": "Remain United"
         },
@@ -28509,8 +28565,8 @@
         },
         {
           "important": false,
-          "party": "any",
-          "they_say": "No recommendation - Safe Conservative seat with Labour in second place",
+          "party": "lab",
+          "they_say": "For the best chance of reducing the Conservative majority, vote Labour - Conservative in the lead with Labour in second place",
           "url": "https://www.remainunited.org/#postcode=LU27BE",
           "who_suggests": "Remain United"
         },
@@ -28584,8 +28640,8 @@
         },
         {
           "important": false,
-          "party": "any",
-          "they_say": "No recommendation - Safe Conservaive seat with Labour in second place",
+          "party": "lab",
+          "they_say": "For the best chance of reducing the Conservative majority, vote Labour - Conservative in the lead with Labour in second place",
           "url": "https://www.remainunited.org/#postcode=DE222BB",
           "who_suggests": "Remain United"
         },
@@ -28741,8 +28797,8 @@
         },
         {
           "important": false,
-          "party": "any",
-          "they_say": "No recommendation - Safe Conservative seat with Labour in second place",
+          "party": "lab",
+          "they_say": "For the best chance of reducing the Conservative majority, vote Labour - Conservative in the lead with Labour in second place",
           "url": "https://www.remainunited.org/#postcode=IP256BB",
           "who_suggests": "Remain United"
         },
@@ -28817,7 +28873,7 @@
         {
           "important": false,
           "party": "lab",
-          "they_say": "Vote Labour - Conservative in the lead with Labour in second place",
+          "they_say": "For the best chance of reducing the Conservative majority, vote Labour - Safe Conservative seat with Labour in second place",
           "url": "https://www.remainunited.org/#postcode=BN59BJ",
           "who_suggests": "Remain United"
         },
@@ -28892,7 +28948,7 @@
         {
           "important": false,
           "party": "sf",
-          "they_say": "Vote Sinn Fein - Safe Sinn Fein seat",
+          "they_say": "Vote SF - Safe SF seat",
           "url": "https://www.remainunited.org/#postcode=BT448BE",
           "who_suggests": "Remain United"
         },
@@ -28946,7 +29002,7 @@
         {
           "important": false,
           "party": "any",
-          "they_say": "No recommendation - Conservative in the lead with Labour in second place",
+          "they_say": "No recommendation - Safe Conservative seat with no clear remain party challenger",
           "url": "https://www.remainunited.org/#postcode=CV378DJ",
           "who_suggests": "Remain United"
         },
@@ -29102,8 +29158,8 @@
         },
         {
           "important": false,
-          "party": "any",
-          "they_say": "No recommendation - Safe Conservative seat with Labour in second place",
+          "party": "lab",
+          "they_say": "Vote Labour - competitive Conservative-Labour seat",
           "url": "https://www.remainunited.org/#postcode=TS122BB",
           "who_suggests": "Remain United"
         },
@@ -29199,7 +29255,7 @@
         {
           "important": false,
           "party": "snp",
-          "they_say": "Vote SNP - competitive SNP-Conservative seat",
+          "they_say": "Vote SNP - competitive SNP-Labour seat, but SNP more likely to win",
           "url": "https://www.remainunited.org/#postcode=EH222HB",
           "who_suggests": "Remain United"
         },
@@ -29541,7 +29597,7 @@
         {
           "important": false,
           "party": "ld",
-          "they_say": "Vote Lib Dem - Conservative in the lead with Lib Dem in second place",
+          "they_say": "For the best chance of reducing the Conservative majority, vote Lib Dem - Conservative in the lead with Lib Dem in second place",
           "url": "https://www.remainunited.org/#postcode=GU236BB",
           "who_suggests": "Remain United"
         },
@@ -29623,7 +29679,7 @@
         {
           "important": false,
           "party": "lab",
-          "they_say": "Vote Labour - Conservative in the lead with Labour in second place",
+          "they_say": "Vote Labour - competitive Conservative-Labour seat",
           "url": "https://www.remainunited.org/#postcode=GL168PB",
           "who_suggests": "Remain United"
         },
@@ -29885,21 +29941,14 @@
         {
           "important": false,
           "party": "lab",
-          "they_say": "Tactically vote Labour to un-seat a Conservative",
-          "url": "https://tacticalvoting.jonworth.eu/morecambe-and-lunesdale/",
-          "who_suggests": "Jon Worth (video!)"
-        },
-        {
-          "important": false,
-          "party": "lab",
           "they_say": null,
           "url": "https://tacticalvote.getvoting.org/morecambe-and-lunesdale/",
           "who_suggests": "Best for Britain"
         },
         {
           "important": false,
-          "party": "any",
-          "they_say": "No recommendation - Safe Conservative seat with Labour in second place",
+          "party": "lab",
+          "they_say": "Vote Labour - competitive Conservative-Labour seat",
           "url": "https://www.remainunited.org/#postcode=LA26BB",
           "who_suggests": "Remain United"
         },
@@ -29987,8 +30036,8 @@
         },
         {
           "important": false,
-          "party": "any",
-          "they_say": "No recommendation - Safe Conservative seat with Labour in second place",
+          "party": "lab",
+          "they_say": "Vote Labour - competitive Conservative-Labour seat",
           "url": "https://www.remainunited.org/#postcode=LS268BF",
           "who_suggests": "Remain United"
         },
@@ -30124,7 +30173,7 @@
         {
           "important": false,
           "party": "snp",
-          "they_say": "Vote SNP - Safe SNP seat",
+          "they_say": "Vote SNP - competitive SNP-Labour seat, but SNP more likely to win",
           "url": "https://www.remainunited.org/#postcode=HS29QY",
           "who_suggests": "Remain United"
         },
@@ -30260,7 +30309,7 @@
         {
           "important": false,
           "party": "any",
-          "they_say": "No recommendation - Safe Conservative seat with Labour in second place",
+          "they_say": "No recommendation - Safe Conservative seat with no clear remain party challenger",
           "url": "https://www.remainunited.org/#postcode=BH255TR",
           "who_suggests": "Remain United"
         },
@@ -30299,10 +30348,10 @@
     },
     "new-forest-west": {
       "aggregation": {
-        "disagreement": true,
+        "disagreement": false,
         "important": false,
-        "party": null,
-        "template": "contradict.html"
+        "party": "ld",
+        "template": "vote-ld.html"
       },
       "analysis": {
         "template": "suppressed-too-far-behind-2017.html",
@@ -30320,13 +30369,6 @@
       "other_sites": [
         {
           "important": false,
-          "party": "lab",
-          "they_say": "Tactically vote Labour to un-seat a Conservative",
-          "url": "https://tacticalvoting.jonworth.eu/new-forest-west/",
-          "who_suggests": "Jon Worth (video!)"
-        },
-        {
-          "important": false,
           "party": "ld",
           "they_say": null,
           "url": "https://tacticalvote.getvoting.org/new-forest-west/",
@@ -30335,7 +30377,7 @@
         {
           "important": false,
           "party": "any",
-          "they_say": "No recommendation - Safe Conservative seat with Labour in second place",
+          "they_say": "No recommendation - Safe Conservative seat",
           "url": "https://www.remainunited.org/#postcode=BH235QQ",
           "who_suggests": "Remain United"
         },
@@ -30416,8 +30458,8 @@
         },
         {
           "important": false,
-          "party": "any",
-          "they_say": "No recommendation - Safe Conservative seat with Labour in second place",
+          "party": "lab",
+          "they_say": "For the best chance of reducing the Conservative majority, vote Labour - Conservative in the lead with Labour in second place",
           "url": "https://www.remainunited.org/#postcode=DN228BJ",
           "who_suggests": "Remain United"
         },
@@ -30492,7 +30534,7 @@
         {
           "important": false,
           "party": "ld",
-          "they_say": "Vote Lib Dem - Conservative in the lead with Lib Dem in second place",
+          "they_say": "For the best chance of reducing the Conservative majority, vote Lib Dem - Conservative in the lead with Lib Dem in second place",
           "url": "https://www.remainunited.org/#postcode=OX128NH",
           "who_suggests": "Remain United"
         },
@@ -30731,7 +30773,7 @@
         {
           "important": false,
           "party": "lab",
-          "they_say": "Vote Labour - competitive Labour-Conservative seat",
+          "they_say": "Vote Labour - Safe Labour seat",
           "url": "https://www.remainunited.org/#postcode=NE63UL",
           "who_suggests": "Remain United"
         },
@@ -31059,7 +31101,7 @@
         {
           "important": false,
           "party": "sf",
-          "they_say": "Vote Sinn Fein - Safe Sinn Fein seat",
+          "they_say": "Vote SF - Safe SF seat",
           "url": "https://www.remainunited.org/#postcode=BT342BB",
           "who_suggests": "Remain United"
         },
@@ -31119,8 +31161,8 @@
         },
         {
           "important": false,
-          "party": "any",
-          "they_say": "No recommendation - Safe Conservative seat with no clear remain party challenger",
+          "party": "ld",
+          "they_say": "Vote Lib Dem - Conservative in the lead with Lib Dem in second place",
           "url": "https://www.remainunited.org/#postcode=EX67XG",
           "who_suggests": "Remain United"
         },
@@ -31255,10 +31297,10 @@
     },
     "north-antrim": {
       "aggregation": {
-        "disagreement": true,
+        "disagreement": false,
         "important": false,
         "party": null,
-        "template": "contradict.html"
+        "template": "pending.html"
       },
       "analysis": {
         "template": "leave.html",
@@ -31276,8 +31318,8 @@
       "other_sites": [
         {
           "important": false,
-          "party": "alliance",
-          "they_say": "For the best chance of reducing the DUP majority, vote Alliance - DUP in the lead with Alliance in second place",
+          "party": "any",
+          "they_say": "No recommendation - Safe DUP seat with no clear remain party challenger",
           "url": "https://www.remainunited.org/#postcode=BT449LP",
           "who_suggests": "Remain United"
         },
@@ -31671,7 +31713,7 @@
         {
           "important": false,
           "party": "alliance",
-          "they_say": "Vote Alliance - competitive Alliance-DUP seat",
+          "they_say": "Vote Alliance - competitive DUP-Alliance seat",
           "url": "https://www.remainunited.org/#postcode=BT189BB",
           "who_suggests": "Remain United"
         },
@@ -31820,8 +31862,8 @@
         },
         {
           "important": false,
-          "party": "any",
-          "they_say": "No recommendation - Safe Conservative seat with Labour in second place",
+          "party": "lab",
+          "they_say": "For the best chance of reducing the Conservative majority, vote Labour - Conservative in the lead with Labour in second place",
           "url": "https://www.remainunited.org/#postcode=MK437BB",
           "who_suggests": "Remain United"
         },
@@ -31903,7 +31945,7 @@
         {
           "important": false,
           "party": "any",
-          "they_say": "No recommendation - Safe Conservative seat with Labour in second place",
+          "they_say": "No recommendation - Safe Conservative seat",
           "url": "https://www.remainunited.org/#postcode=CB62BB",
           "who_suggests": "Remain United"
         },
@@ -31977,8 +32019,8 @@
         },
         {
           "important": false,
-          "party": "any",
-          "they_say": "No recommendation - Safe Conservaive seat with Labour in second place",
+          "party": "lab",
+          "they_say": "Vote Labour - competitive Conservative-Labour seat",
           "url": "https://www.remainunited.org/#postcode=DE45FT",
           "who_suggests": "Remain United"
         },
@@ -32033,8 +32075,8 @@
       "aggregation": {
         "disagreement": false,
         "important": false,
-        "party": "snp",
-        "template": "vote-snp.html"
+        "party": null,
+        "template": "anyparty.html"
       },
       "analysis": {
         "template": "alliance-mixed.html",
@@ -32059,8 +32101,8 @@
         },
         {
           "important": false,
-          "party": "snp",
-          "they_say": "Vote SNP - competitive SNP-Lib Dem seat, but SNP more likely to win",
+          "party": "any",
+          "they_say": "No recommendation - competitive SNP-Lib Dem seat",
           "url": "https://www.remainunited.org/#postcode=KY86AH",
           "who_suggests": "Remain United"
         },
@@ -32222,7 +32264,7 @@
         {
           "important": false,
           "party": "lab",
-          "they_say": "Vote Labour - Conservative in the lead with Labour in second place",
+          "they_say": "For the best chance of reducing the Conservative majority, vote Labour - Conservative in the lead with Labour in second place",
           "url": "https://www.remainunited.org/#postcode=AL60AA",
           "who_suggests": "Remain United"
         },
@@ -32310,8 +32352,8 @@
         },
         {
           "important": false,
-          "party": "any",
-          "they_say": "No recommendation - Safe Conservative seat with no clear remain party challenger",
+          "party": "lab",
+          "they_say": "For the best chance of reducing the Conservative majority, vote Labour - Conservative in the lead with Labour in second place",
           "url": "https://www.remainunited.org/#postcode=BA152BB",
           "who_suggests": "Remain United"
         },
@@ -32386,7 +32428,7 @@
         {
           "important": false,
           "party": "any",
-          "they_say": "No recommendation - Safe Conservative seat with Labour in second place",
+          "they_say": "No recommendation - Safe Conservative seat with no clear remain party challenger",
           "url": "https://www.remainunited.org/#postcode=HR11AB",
           "who_suggests": "Remain United"
         },
@@ -32548,7 +32590,7 @@
         {
           "important": false,
           "party": "any",
-          "they_say": "No recommendation - Conservative in the lead with Labour in second place",
+          "they_say": "No recommendation - Safe Conservative seat",
           "url": "https://www.remainunited.org/#postcode=CW39QW",
           "who_suggests": "Remain United"
         },
@@ -32594,7 +32636,7 @@
     },
     "north-somerset": {
       "aggregation": {
-        "disagreement": true,
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -32622,8 +32664,8 @@
         },
         {
           "important": false,
-          "party": "ld",
-          "they_say": "Tactically vote Lib Dem to not split the Remain vote",
+          "party": "lab",
+          "they_say": "Tactically vote Labour to un-seat a Conservative",
           "url": "https://tacticalvoting.jonworth.eu/north-somerset/",
           "who_suggests": "Jon Worth (video!)"
         },
@@ -32637,7 +32679,7 @@
         {
           "important": false,
           "party": "lab",
-          "they_say": "Vote Labour - Conservative in the lead with Labour in second place",
+          "they_say": "For the best chance of reducing the Conservative majority, vote Labour - Conservative in the lead with Labour in second place",
           "url": "https://www.remainunited.org/#postcode=BS481TG",
           "who_suggests": "Remain United"
         },
@@ -32718,8 +32760,8 @@
         },
         {
           "important": false,
-          "party": "any",
-          "they_say": "No recommendation - Conservative in the lead with Labour in second place",
+          "party": "lab",
+          "they_say": "For the best chance of reducing the Conservative majority, vote Labour - Conservative in the lead with Labour in second place",
           "url": "https://www.remainunited.org/#postcode=SN11BY",
           "who_suggests": "Remain United"
         },
@@ -32800,8 +32842,8 @@
         },
         {
           "important": false,
-          "party": "any",
-          "they_say": "No recommendation - Conservative in the lead with Labour in second place",
+          "party": "lab",
+          "they_say": "For the best chance of reducing the Conservative majority, vote Labour - Conservative in the lead with Labour in second place",
           "url": "https://www.remainunited.org/#postcode=CT124BB",
           "who_suggests": "Remain United"
         },
@@ -32957,8 +32999,8 @@
         },
         {
           "important": false,
-          "party": "any",
-          "they_say": "No recommendation - Conservative in the lead with Labour in second place",
+          "party": "lab",
+          "they_say": "For the best chance of reducing the Conservative majority, vote Labour - Conservative in the lead with Labour in second place",
           "url": "https://www.remainunited.org/#postcode=B462BB",
           "who_suggests": "Remain United"
         },
@@ -33039,8 +33081,8 @@
         },
         {
           "important": false,
-          "party": "any",
-          "they_say": "No recommendation - Safe Conservative seat with Labour in second place",
+          "party": "lab",
+          "they_say": "For the best chance of reducing the Conservative majority, vote Labour - Conservative in the lead with Labour in second place",
           "url": "https://www.remainunited.org/#postcode=PE166TD",
           "who_suggests": "Remain United"
         },
@@ -33189,8 +33231,8 @@
         },
         {
           "important": false,
-          "party": "any",
-          "they_say": "No recommendation - Safe Conservative seat with no clear remain party challenger",
+          "party": "lab",
+          "they_say": "Vote Labour - Conservative in the lead with Labour in second place",
           "url": "https://www.remainunited.org/#postcode=SP116DS",
           "who_suggests": "Remain United"
         },
@@ -33264,8 +33306,8 @@
         },
         {
           "important": false,
-          "party": "any",
-          "they_say": "No recommendation - Safe Conservative seat with Labour in second place",
+          "party": "lab",
+          "they_say": "For the best chance of reducing the Conservative majority, vote Labour - Conservative in the lead with Labour in second place",
           "url": "https://www.remainunited.org/#postcode=DE126BB",
           "who_suggests": "Remain United"
         },
@@ -33353,8 +33395,8 @@
         },
         {
           "important": false,
-          "party": "any",
-          "they_say": "No recommendation - Safe Conservative seat with Labour in second place",
+          "party": "lab",
+          "they_say": "For the best chance of reducing the Conservative majority, vote Labour - Conservative in the lead with Labour in second place",
           "url": "https://www.remainunited.org/#postcode=PE366JW",
           "who_suggests": "Remain United"
         },
@@ -33442,8 +33484,8 @@
         },
         {
           "important": false,
-          "party": "any",
-          "they_say": "No recommendation - Conservative in the lead with Lib Dem in second place",
+          "party": "ld",
+          "they_say": "For the best chance of reducing the Conservative majority, vote Lib Dem - Conservative in the lead with Lib Dem in second place",
           "url": "https://www.remainunited.org/#postcode=GL75LF",
           "who_suggests": "Remain United"
         },
@@ -33860,7 +33902,7 @@
         {
           "important": false,
           "party": "lab",
-          "they_say": "Current Labour seat. Tories came second last election.",
+          "they_say": "Previous Labour seat, MP became Independent. Tories came second last election. Labour best placed to retain seat.",
           "url": "https://tacticalvote.co.uk/#NottinghamEast",
           "who_suggests": "tacticalvote.co.uk"
         },
@@ -34091,8 +34133,8 @@
         },
         {
           "important": false,
-          "party": "any",
-          "they_say": "No recommendation - Safe Conservative seat with Labour in second place",
+          "party": "lab",
+          "they_say": "For the best chance of reducing the Conservative majority, vote Labour - Conservative in the lead with Labour in second place",
           "url": "https://www.remainunited.org/#postcode=CV107LX",
           "who_suggests": "Remain United"
         },
@@ -34330,8 +34372,8 @@
         },
         {
           "important": false,
-          "party": "any",
-          "they_say": "No recommendation - Safe Conservative seat with Labour in second place",
+          "party": "lab",
+          "they_say": "For the best chance of reducing the Conservative majority, vote Labour - Conservative in the lead with Labour in second place",
           "url": "https://www.remainunited.org/#postcode=DA144BB",
           "who_suggests": "Remain United"
         },
@@ -34615,7 +34657,7 @@
         {
           "important": false,
           "party": "any",
-          "they_say": "No recommendation - Safe Conservative seat with Labour in second place",
+          "they_say": "No recommendation - Safe Conservative seat w",
           "url": "https://www.remainunited.org/#postcode=BR26DB",
           "who_suggests": "Remain United"
         },
@@ -34852,7 +34894,7 @@
         {
           "important": false,
           "party": "snp",
-          "they_say": "Vote SNP - competitive SNP-Conservative seat",
+          "they_say": "Vote SNP - competitive SNP-Labour seat, but SNP more likely to win",
           "url": "https://www.remainunited.org/#postcode=PA34NL",
           "who_suggests": "Remain United"
         },
@@ -34913,7 +34955,7 @@
         {
           "important": false,
           "party": "snp",
-          "they_say": "Vote SNP - Safe SNP seat",
+          "they_say": "Vote SNP - competitive SNP-Labour seat, but SNP more likely to win",
           "url": "https://www.remainunited.org/#postcode=PA12JU",
           "who_suggests": "Remain United"
         },
@@ -35156,8 +35198,8 @@
         },
         {
           "important": false,
-          "party": "any",
-          "they_say": "No recommendation - Safe Conservative seat with Labour in second place",
+          "party": "lab",
+          "they_say": "For the best chance of reducing the Conservative majority, vote Labour - Conservative in the lead with Labour in second place",
           "url": "https://www.remainunited.org/#postcode=CA124RT",
           "who_suggests": "Remain United"
         },
@@ -35386,8 +35428,8 @@
         },
         {
           "important": false,
-          "party": "any",
-          "they_say": "No recommendation - Safe Conservative seat with Labour in second place",
+          "party": "lab",
+          "they_say": "For the best chance of reducing the Conservative majority, vote Labour - Conservative in the lead with Labour in second place",
           "url": "https://www.remainunited.org/#postcode=PL22BJ",
           "who_suggests": "Remain United"
         },
@@ -35551,7 +35593,7 @@
         {
           "important": false,
           "party": "lab",
-          "they_say": "Vote Labour - competitive Labour-Conservative seat",
+          "they_say": "Vote Labour - Safe Labour seat",
           "url": "https://www.remainunited.org/#postcode=CF728BT",
           "who_suggests": "Remain United"
         },
@@ -35627,8 +35669,8 @@
         },
         {
           "important": false,
-          "party": "any",
-          "they_say": "No recommendation - Safe Conservative seat with Labour in second place",
+          "party": "lab",
+          "they_say": "For the best chance of reducing the Conservative majority, vote Labour - Conservative in the lead with Labour in second place",
           "url": "https://www.remainunited.org/#postcode=BH122BB",
           "who_suggests": "Remain United"
         },
@@ -35784,8 +35826,8 @@
         },
         {
           "important": false,
-          "party": "any",
-          "they_say": "No recommendation - Safe Conservative seat with Labour in second place",
+          "party": "lab",
+          "they_say": "For the best chance of reducing the Conservative majority, vote Labour - Conservative in the lead with Labour in second place",
           "url": "https://www.remainunited.org/#postcode=PO14AQ",
           "who_suggests": "Remain United"
         },
@@ -36352,7 +36394,7 @@
         {
           "important": false,
           "party": "any",
-          "they_say": "No recommendation - Safe Conservative seat with no clear remain party challenger",
+          "they_say": "No recommendation - Safe Conservative seat",
           "url": "https://www.remainunited.org/#postcode=SS129BB",
           "who_suggests": "Remain United"
         },
@@ -36686,8 +36728,8 @@
         },
         {
           "important": false,
-          "party": "any",
-          "they_say": "No recommendation - Conservative in the lead with Labour in second place",
+          "party": "lab",
+          "they_say": "For the best chance of reducing the Conservative majority, vote Labour - Conservative in the lead with Labour in second place",
           "url": "https://www.remainunited.org/#postcode=B495JH",
           "who_suggests": "Remain United"
         },
@@ -36762,7 +36804,7 @@
         {
           "important": false,
           "party": "lab",
-          "they_say": "Vote Labour - Conservative in the lead with Labour in second place",
+          "they_say": "For the best chance of reducing the Conservative majority, vote Labour - Conservative in the lead with Labour in second place",
           "url": "https://www.remainunited.org/#postcode=RH29DN",
           "who_suggests": "Remain United"
         },
@@ -36918,8 +36960,8 @@
         },
         {
           "important": false,
-          "party": "any",
-          "they_say": "No recommendation - Conservative in the lead with Labour in second place",
+          "party": "lab",
+          "they_say": "For the best chance of reducing the Conservative majority, vote Labour - Conservative in the lead with Labour in second place",
           "url": "https://www.remainunited.org/#postcode=BB71BL",
           "who_suggests": "Remain United"
         },
@@ -37244,8 +37286,8 @@
         },
         {
           "important": false,
-          "party": "any",
-          "they_say": "No recommendation - Conservative in the lead with Labour in second place",
+          "party": "lab",
+          "they_say": "For the best chance of reducing the Conservative majority, vote Labour - Conservative in the lead with Labour in second place",
           "url": "https://www.remainunited.org/#postcode=ME11AA",
           "who_suggests": "Remain United"
         },
@@ -37326,8 +37368,8 @@
         },
         {
           "important": false,
-          "party": "any",
-          "they_say": "No recommendation - Conservative in the lead with Labour in second place",
+          "party": "lab",
+          "they_say": "For the best chance of reducing the Conservative majority, vote Labour - Conservative in the lead with Labour in second place",
           "url": "https://www.remainunited.org/#postcode=SS30EJ",
           "who_suggests": "Remain United"
         },
@@ -37571,7 +37613,7 @@
         {
           "important": false,
           "party": "snp",
-          "they_say": "Vote SNP - Safe SNP seat",
+          "they_say": "Vote SNP - competitive SNP-Conservative seat",
           "url": "https://www.remainunited.org/#postcode=IV118XB",
           "who_suggests": "Remain United"
         },
@@ -37877,8 +37919,8 @@
         },
         {
           "important": false,
-          "party": "any",
-          "they_say": "No recommendation - Conservative in the lead with Labour in second place",
+          "party": "lab",
+          "they_say": "For the best chance of reducing the Conservative majority, vote Labour - Conservative in the lead with Labour in second place",
           "url": "https://www.remainunited.org/#postcode=CV129HJ",
           "who_suggests": "Remain United"
         },
@@ -37967,7 +38009,7 @@
         {
           "important": false,
           "party": "lab",
-          "they_say": "Vote Labour - Conservative in the lead with Labour in second place",
+          "they_say": "For the best chance of reducing the Conservative majority, vote Labour - Conservative in the lead with Labour in second place",
           "url": "https://www.remainunited.org/#postcode=HA55QP",
           "who_suggests": "Remain United"
         },
@@ -38048,8 +38090,8 @@
         },
         {
           "important": false,
-          "party": "any",
-          "they_say": "No recommendation - Conservative in the lead with Labour in second place",
+          "party": "lab",
+          "they_say": "For the best chance of reducing the Conservative majority, vote Labour - Conservative in the lead with Labour in second place",
           "url": "https://www.remainunited.org/#postcode=GU248EX",
           "who_suggests": "Remain United"
         },
@@ -38300,7 +38342,7 @@
         {
           "important": false,
           "party": "any",
-          "they_say": "No recommendation - Safe Conservative seat with no clear remain party challenger",
+          "they_say": "No recommendation - Conservative in the lead with Labour in second place",
           "url": "https://www.remainunited.org/#postcode=LE130AA",
           "who_suggests": "Remain United"
         },
@@ -38599,8 +38641,8 @@
         },
         {
           "important": false,
-          "party": "any",
-          "they_say": "No recommendation - Conservative in the lead with Labour in second place",
+          "party": "lab",
+          "they_say": "Vote Labour - competitive Conservative-Labour seat",
           "url": "https://www.remainunited.org/#postcode=TS134TS",
           "who_suggests": "Remain United"
         },
@@ -38790,7 +38832,7 @@
         {
           "important": false,
           "party": "lab",
-          "they_say": "Vote Labour - competitive Conservative-Labour seat",
+          "they_say": "Vote Labour - competitive Labour-Conservative seat",
           "url": "https://www.remainunited.org/#postcode=DH63BB",
           "who_suggests": "Remain United"
         },
@@ -38953,8 +38995,8 @@
         },
         {
           "important": false,
-          "party": "any",
-          "they_say": "No recommendation - Conservative in the lead with Labour in second place",
+          "party": "lab",
+          "they_say": "For the best chance of reducing the Conservative majority, vote Labour - Conservative in the lead with Labour in second place",
           "url": "https://www.remainunited.org/#postcode=DN140BB",
           "who_suggests": "Remain United"
         },
@@ -39029,7 +39071,7 @@
         {
           "important": false,
           "party": "any",
-          "they_say": "No recommendation - Safe Conservative seat with no clear remain party challenger",
+          "they_say": "No recommendation - Safe Conservative seat",
           "url": "https://www.remainunited.org/#postcode=BR67NZ",
           "who_suggests": "Remain United"
         },
@@ -39520,8 +39562,8 @@
         },
         {
           "important": false,
-          "party": "any",
-          "they_say": "No recommendation - Conservative in the lead with Labour in second place",
+          "party": "lab",
+          "they_say": "Vote Labour - competitive Conservative-Labour seat",
           "url": "https://www.remainunited.org/#postcode=NG146BN",
           "who_suggests": "Remain United"
         },
@@ -39767,7 +39809,7 @@
         {
           "important": false,
           "party": "any",
-          "they_say": "No recommendation - Conservative in the lead with Labour in second place",
+          "they_say": "No recommendation - Safe Conservative seat",
           "url": "https://www.remainunited.org/#postcode=ME122BB",
           "who_suggests": "Remain United"
         },
@@ -39835,7 +39877,7 @@
         {
           "important": false,
           "party": "any",
-          "they_say": "No recommendation - Conservative in the lead with Labour in second place",
+          "they_say": "No recommendation - Safe Conservative seat",
           "url": "https://www.remainunited.org/#postcode=BB186JH",
           "who_suggests": "Remain United"
         },
@@ -39903,7 +39945,7 @@
         {
           "important": false,
           "party": "any",
-          "they_say": "No recommendation - Safe Conservative seat with no clear remain party challenger",
+          "they_say": "No recommendation - Safe Conservative seat",
           "url": "https://www.remainunited.org/#postcode=LN35UJ",
           "who_suggests": "Remain United"
         },
@@ -40045,8 +40087,8 @@
         },
         {
           "important": false,
-          "party": "any",
-          "they_say": "No recommendation - Safe Conservative seat with no clear remain party challenger",
+          "party": "ld",
+          "they_say": "Vote Lib Dem - Conservative in the lead with Lib Dem in second place",
           "url": "https://www.remainunited.org/#postcode=B144LJ",
           "who_suggests": "Remain United"
         },
@@ -40121,7 +40163,7 @@
         {
           "important": false,
           "party": "ld",
-          "they_say": "For the best chance of reducing the Conservative majority, vote Lib Dem - Conservative in the lead with Lib Dem in second place",
+          "they_say": "Vote Lib Dem - Conservative in the lead with Lib Dem in second place",
           "url": "https://www.remainunited.org/#postcode=BA100AA",
           "who_suggests": "Remain United"
         },
@@ -40270,8 +40312,8 @@
         },
         {
           "important": false,
-          "party": "any",
-          "they_say": "No recommendation - Safe Conservative seat with Labour in second place",
+          "party": "lab",
+          "they_say": "For the best chance of reducing the Conservative majority, vote Labour - Conservative in the lead with Labour in second place",
           "url": "https://www.remainunited.org/#postcode=CM133EL",
           "who_suggests": "Remain United"
         },
@@ -40332,7 +40374,7 @@
         {
           "important": false,
           "party": "ld",
-          "they_say": "Current Tory seat. Lib Dems came second last election.",
+          "they_say": "Current Tory seat. Lib Dems best placed to beat them here.",
           "url": "https://tacticalvote.co.uk/#SouthCambridgeshire",
           "who_suggests": "tacticalvote.co.uk"
         },
@@ -40352,8 +40394,8 @@
         },
         {
           "important": false,
-          "party": "any",
-          "they_say": "No recommendation - Safe Conservative seat with no clear remain party challenger",
+          "party": "ld",
+          "they_say": "Vote Lib Dem - Conservative in the lead with Lib Dem in second place",
           "url": "https://www.remainunited.org/#postcode=CB223BB",
           "who_suggests": "Remain United"
         },
@@ -40439,8 +40481,8 @@
         },
         {
           "important": false,
-          "party": "any",
-          "they_say": "No recommendation - Safe Conservaive seat with Labour in second place",
+          "party": "lab",
+          "they_say": "For the best chance of reducing the Conservative majority, vote Labour - Conservative in the lead with Labour in second place",
           "url": "https://www.remainunited.org/#postcode=DE126BL",
           "who_suggests": "Remain United"
         },
@@ -40521,8 +40563,8 @@
         },
         {
           "important": false,
-          "party": "any",
-          "they_say": "No recommendation - Safe Conservative seat with Labour in second place",
+          "party": "lab",
+          "they_say": "For the best chance of reducing the Conservative majority, vote Labour - Conservative in the lead with Labour in second place",
           "url": "https://www.remainunited.org/#postcode=BH137EE",
           "who_suggests": "Remain United"
         },
@@ -40604,7 +40646,7 @@
         {
           "important": false,
           "party": "sf",
-          "they_say": "Vote Sinn Fein - competitive Sinn Fein-SDLP seat, but Sinn Fein more likely to win",
+          "they_say": "Vote SF - competitive SF-SDLP seat, but SF more likely to win",
           "url": "https://www.remainunited.org/#postcode=BT248FB",
           "who_suggests": "Remain United"
         },
@@ -40671,8 +40713,8 @@
         },
         {
           "important": false,
-          "party": "any",
-          "they_say": "No recommendation - Safe Conservative seat with no clear remain party challenger",
+          "party": "ld",
+          "they_say": "Vote Lib Dem - Conservative in the lead with Lib Dem in second place",
           "url": "https://www.remainunited.org/#postcode=CB245ER",
           "who_suggests": "Remain United"
         },
@@ -40723,7 +40765,7 @@
     },
     "south-east-cornwall": {
       "aggregation": {
-        "disagreement": true,
+        "disagreement": false,
         "important": false,
         "party": "ld",
         "template": "vote-ld.html"
@@ -40765,17 +40807,10 @@
         },
         {
           "important": false,
-          "party": "any",
-          "they_say": "No recommendation - Safe Conservative seat with no clear remain party challenger",
+          "party": "ld",
+          "they_say": "For the best chance of reducing the Conservative majority, vote Lib Dem - Conservative in the lead with Lib Dem in second place",
           "url": "https://www.remainunited.org/#postcode=PL124BB",
           "who_suggests": "Remain United"
-        },
-        {
-          "important": false,
-          "party": "lab",
-          "they_say": null,
-          "url": "https://tactical.vote/south-east-cornwall",
-          "who_suggests": "tactical.vote"
         },
         {
           "important": false,
@@ -40841,7 +40876,7 @@
         {
           "important": false,
           "party": "any",
-          "they_say": "No recommendation - Safe Conservative seat with no clear remain party challenger",
+          "they_say": "No recommendation - Safe Conservative seat",
           "url": "https://www.remainunited.org/#postcode=PE126BB",
           "who_suggests": "Remain United"
         },
@@ -40915,8 +40950,8 @@
         },
         {
           "important": false,
-          "party": "any",
-          "they_say": "No recommendation - Safe Conservative seat with Labour in second place",
+          "party": "lab",
+          "they_say": "For the best chance of reducing the Conservative majority, vote Labour - Conservative in the lead with Labour in second place",
           "url": "https://www.remainunited.org/#postcode=LE174BB",
           "who_suggests": "Remain United"
         },
@@ -40998,7 +41033,7 @@
         {
           "important": false,
           "party": "lab",
-          "they_say": "Vote Labour - Safe Conservative seat with Labour in second place",
+          "they_say": "For the best chance of reducing the Conservative majority, vote Labour - Conservative in the lead with Labour in second place",
           "url": "https://www.remainunited.org/#postcode=IP222BB",
           "who_suggests": "Remain United"
         },
@@ -41072,8 +41107,8 @@
         },
         {
           "important": false,
-          "party": "any",
-          "they_say": "No recommendation - Safe Conservative seat with Labour in second place",
+          "party": "lab",
+          "they_say": "For the best chance of reducing the Conservative majority, vote Labour - Conservative in the lead with Labour in second place",
           "url": "https://www.remainunited.org/#postcode=MK168LR",
           "who_suggests": "Remain United"
         },
@@ -41147,8 +41182,8 @@
         },
         {
           "important": false,
-          "party": "any",
-          "they_say": "No recommendation - Conservative in the lead with Labour in second place",
+          "party": "lab",
+          "they_say": "For the best chance of reducing the Conservative majority, vote Labour - Conservative in the lead with Labour in second place",
           "url": "https://www.remainunited.org/#postcode=PR252DD",
           "who_suggests": "Remain United"
         },
@@ -41298,7 +41333,7 @@
         {
           "important": false,
           "party": "any",
-          "they_say": "No recommendation - Safe Conservative seat with no clear remain party challenger",
+          "they_say": "No recommendation - Safe Conservative seat",
           "url": "https://www.remainunited.org/#postcode=DY103PA",
           "who_suggests": "Remain United"
         },
@@ -41372,8 +41407,8 @@
         },
         {
           "important": false,
-          "party": "any",
-          "they_say": "No recommendation - Conservative in the lead with Labour in second place",
+          "party": "lab",
+          "they_say": "For the best chance of reducing the Conservative majority, vote Labour - Conservative in the lead with Labour in second place",
           "url": "https://www.remainunited.org/#postcode=CB88PB",
           "who_suggests": "Remain United"
         },
@@ -41536,8 +41571,8 @@
         },
         {
           "important": false,
-          "party": "any",
-          "they_say": "No recommendation - Conservative in the lead with Labour in second place",
+          "party": "lab",
+          "they_say": "For the best chance of reducing the Conservative majority, vote Labour - Conservative in the lead with Labour in second place",
           "url": "https://www.remainunited.org/#postcode=CT101AA",
           "who_suggests": "Remain United"
         },
@@ -41625,8 +41660,8 @@
         },
         {
           "important": false,
-          "party": "any",
-          "they_say": "No recommendation - Safe Conservative seat with Labour in second place",
+          "party": "lab",
+          "they_say": "For the best chance of reducing the Conservative majority, vote Labour - Conservative in the lead with Labour in second place",
           "url": "https://www.remainunited.org/#postcode=LU54BB",
           "who_suggests": "Remain United"
         },
@@ -41693,8 +41728,8 @@
         },
         {
           "important": false,
-          "party": "any",
-          "they_say": "No recommendation - Safe Conservaive seat with Labour in second place",
+          "party": "lab",
+          "they_say": "For the best chance of reducing the Conservative majority, vote Labour - Conservative in the lead with Labour in second place",
           "url": "https://www.remainunited.org/#postcode=PL82EW",
           "who_suggests": "Remain United"
         },
@@ -41776,7 +41811,7 @@
         {
           "important": false,
           "party": "ind",
-          "they_say": "Vote Independent - Prominent Independent candidate best placed to beat the Conservatives",
+          "they_say": "Vote Independent - David Gauke - Prominent Independent candidate with significantr support",
           "url": "https://www.remainunited.org/#postcode=HA62BB",
           "who_suggests": "Remain United"
         },
@@ -41857,8 +41892,8 @@
         },
         {
           "important": false,
-          "party": "any",
-          "they_say": "No recommendation - Safe Conservative seat with Labour in second place",
+          "party": "lab",
+          "they_say": "For the best chance of reducing the Conservative majority, vote Labour - Conservative in the lead with Labour in second place",
           "url": "https://www.remainunited.org/#postcode=CB61EH",
           "who_suggests": "Remain United"
         },
@@ -42019,8 +42054,8 @@
         },
         {
           "important": false,
-          "party": "any",
-          "they_say": "No recommendation - Conservative in the lead with Labour in second place",
+          "party": "lab",
+          "they_say": "For the best chance of reducing the Conservative majority, vote Labour - Conservative in the lead with Labour in second place",
           "url": "https://www.remainunited.org/#postcode=BA112PX",
           "who_suggests": "Remain United"
         },
@@ -42279,8 +42314,8 @@
         },
         {
           "important": false,
-          "party": "any",
-          "they_say": "No recommendation - Conservative in the lead with Labour in second place",
+          "party": "lab",
+          "they_say": "For the best chance of reducing the Conservative majority, vote Labour - Conservative in the lead with Labour in second place",
           "url": "https://www.remainunited.org/#postcode=SS00AA",
           "who_suggests": "Remain United"
         },
@@ -42455,8 +42490,8 @@
         },
         {
           "important": false,
-          "party": "any",
-          "they_say": "No recommendation - Conservative in the lead with Labour in second place",
+          "party": "lab",
+          "they_say": "For the best chance of reducing the Conservative majority, vote Labour - Conservative in the lead with Labour in second place",
           "url": "https://www.remainunited.org/#postcode=KT121QW",
           "who_suggests": "Remain United"
         },
@@ -42591,7 +42626,7 @@
     },
     "st-austell-and-newquay": {
       "aggregation": {
-        "disagreement": true,
+        "disagreement": false,
         "important": false,
         "party": "lab",
         "template": "vote-lab.html"
@@ -42612,8 +42647,8 @@
       "other_sites": [
         {
           "important": false,
-          "party": "ld",
-          "they_say": "Tactically vote Lib Dem to not split the Remain vote",
+          "party": "lab",
+          "they_say": "Tactically vote Labour to un-seat a Conservative",
           "url": "https://tacticalvoting.jonworth.eu/st-austell-and-newquay/",
           "who_suggests": "Jon Worth (video!)"
         },
@@ -43051,7 +43086,7 @@
         {
           "important": false,
           "party": "any",
-          "they_say": "No recommendation - Conservative in the lead with Labour in second place",
+          "they_say": "No recommendation - Safe Conservative seat",
           "url": "https://www.remainunited.org/#postcode=CW123ND",
           "who_suggests": "Remain United"
         },
@@ -43892,7 +43927,7 @@
         {
           "important": false,
           "party": "any",
-          "they_say": "No recommendation - Conservative in the lead with Labour in second place",
+          "they_say": "No recommendation - Safe Conservative seat",
           "url": "https://www.remainunited.org/#postcode=ST101JA",
           "who_suggests": "Remain United"
         },
@@ -43973,8 +44008,8 @@
         },
         {
           "important": false,
-          "party": "any",
-          "they_say": "No recommendation - Conservative in the lead with Labour in second place",
+          "party": "lab",
+          "they_say": "Vote Labour - Conservative in the lead with Labour in second place",
           "url": "https://www.remainunited.org/#postcode=B632BF",
           "who_suggests": "Remain United"
         },
@@ -44022,8 +44057,8 @@
       "aggregation": {
         "disagreement": false,
         "important": false,
-        "party": "alliance",
-        "template": "vote-alliance.html"
+        "party": null,
+        "template": "pending.html"
       },
       "analysis": {
         "template": "leave.html",
@@ -44041,8 +44076,8 @@
       "other_sites": [
         {
           "important": false,
-          "party": "alliance",
-          "they_say": "Vote Alliance - competitive DUP-Alliance seat",
+          "party": "any",
+          "they_say": "No recommendation - Safe DUP seat with no clear remain party challenger",
           "url": "https://www.remainunited.org/#postcode=BT238XF",
           "who_suggests": "Remain United"
         },
@@ -44067,7 +44102,7 @@
     },
     "stratford-on-avon": {
       "aggregation": {
-        "disagreement": false,
+        "disagreement": true,
         "important": false,
         "party": "ld",
         "template": "vote-ld.html"
@@ -44095,8 +44130,8 @@
         },
         {
           "important": false,
-          "party": "any",
-          "they_say": "No recommendation - Safe Conservative seat with no clear remain party challenger",
+          "party": "lab",
+          "they_say": "For the best chance of reducing the Conservative majority, vote Labour - Conservative in the lead with Labour in second place",
           "url": "https://www.remainunited.org/#postcode=B476DB",
           "who_suggests": "Remain United"
         },
@@ -44414,8 +44449,8 @@
         },
         {
           "important": false,
-          "party": "any",
-          "they_say": "No recommendation - Conservative in the lead with Labour in second place",
+          "party": "lab",
+          "they_say": "For the best chance of reducing the Conservative majority, vote Labour - Conservative in the lead with Labour in second place",
           "url": "https://www.remainunited.org/#postcode=IP122BB",
           "who_suggests": "Remain United"
         },
@@ -44536,7 +44571,7 @@
     },
     "surrey-heath": {
       "aggregation": {
-        "disagreement": false,
+        "disagreement": true,
         "important": false,
         "party": "ld",
         "template": "vote-ld.html"
@@ -44571,8 +44606,8 @@
         },
         {
           "important": false,
-          "party": "any",
-          "they_say": "No recommendation - Safe Conservative seat with no clear remain party challenger",
+          "party": "lab",
+          "they_say": "For the best chance of reducing the Conservative majority, vote Labour - Conservative in the lead with Labour in second place",
           "url": "https://www.remainunited.org/#postcode=GU125BB",
           "who_suggests": "Remain United"
         },
@@ -44654,7 +44689,7 @@
         {
           "important": false,
           "party": "ld",
-          "they_say": "Vote Lib Dem - Conservative in the lead with Lib Dem in second place",
+          "they_say": "Vote Lib Dem - competitive Conservative-Lib Dem seat",
           "url": "https://www.remainunited.org/#postcode=KT172DF",
           "who_suggests": "Remain United"
         },
@@ -44742,8 +44777,8 @@
         },
         {
           "important": false,
-          "party": "any",
-          "they_say": "No recommendation - Conservative in the lead with Labour in second place",
+          "party": "lab",
+          "they_say": "For the best chance of reducing the Conservative majority, vote Labour - Conservative in the lead with Labour in second place",
           "url": "https://www.remainunited.org/#postcode=B235LE",
           "who_suggests": "Remain United"
         },
@@ -44825,7 +44860,7 @@
         {
           "important": false,
           "party": "lab",
-          "they_say": "Vote Labour - competitive Labour-Conservative seat",
+          "they_say": "Vote Labour - Safe Labour seat",
           "url": "https://www.remainunited.org/#postcode=SA11AA",
           "who_suggests": "Remain United"
         },
@@ -44900,7 +44935,7 @@
         {
           "important": false,
           "party": "lab",
-          "they_say": "Vote Labour - competitive Labour-Conservative seat",
+          "they_say": "Vote Labour - Safe Labour seat",
           "url": "https://www.remainunited.org/#postcode=SA13QE",
           "who_suggests": "Remain United"
         },
@@ -44981,8 +45016,8 @@
         },
         {
           "important": false,
-          "party": "any",
-          "they_say": "No recommendation - Conservative in the lead with Labour in second place",
+          "party": "lab",
+          "they_say": "For the best chance of reducing the Conservative majority, vote Labour - Conservative in the lead with Labour in second place",
           "url": "https://www.remainunited.org/#postcode=B743BB",
           "who_suggests": "Remain United"
         },
@@ -45056,8 +45091,8 @@
         },
         {
           "important": false,
-          "party": "any",
-          "they_say": "No recommendation - Conservative in the lead with Labour in second place",
+          "party": "lab",
+          "they_say": "For the best chance of reducing the Conservative majority, vote Labour - Conservative in the lead with Labour in second place",
           "url": "https://www.remainunited.org/#postcode=CW47LN",
           "who_suggests": "Remain United"
         },
@@ -45139,7 +45174,7 @@
         {
           "important": false,
           "party": "ld",
-          "they_say": "Vote Lib Dem - Conservative in the lead with Lib Dem in second place",
+          "they_say": "For the best chance of reducing the Conservative majority, vote Lib Dem - Conservative in the lead with Lib Dem in second place",
           "url": "https://www.remainunited.org/#postcode=EX149RE",
           "who_suggests": "Remain United"
         },
@@ -45396,8 +45431,8 @@
         },
         {
           "important": false,
-          "party": "any",
-          "they_say": "No recommendation - Safe Conservative seat with no clear remain party challenger",
+          "party": "ld",
+          "they_say": "For the best chance of reducing the Conservative majority, vote Lib Dem - Conservative in the lead with Lib Dem in second place",
           "url": "https://www.remainunited.org/#postcode=GL127BB",
           "who_suggests": "Remain United"
         },
@@ -45472,21 +45507,14 @@
         {
           "important": false,
           "party": "lab",
-          "they_say": "Tactically vote Labour to un-seat a Conservative",
-          "url": "https://tacticalvoting.jonworth.eu/the-wrekin/",
-          "who_suggests": "Jon Worth (video!)"
-        },
-        {
-          "important": false,
-          "party": "lab",
           "they_say": null,
           "url": "https://tacticalvote.getvoting.org/the-wrekin/",
           "who_suggests": "Best for Britain"
         },
         {
           "important": false,
-          "party": "any",
-          "they_say": "No recommendation - Conservative in the lead with Labour in second place",
+          "party": "lab",
+          "they_say": "For the best chance of reducing the Conservative majority, vote Labour - Conservative in the lead with Labour in second place",
           "url": "https://www.remainunited.org/#postcode=ST199AP",
           "who_suggests": "Remain United"
         },
@@ -45561,7 +45589,7 @@
         {
           "important": false,
           "party": "any",
-          "they_say": "No recommendation - Conservative in the lead with Labour in second place",
+          "they_say": "No recommendation - Safe Conservative seat",
           "url": "https://www.remainunited.org/#postcode=DL63QD",
           "who_suggests": "Remain United"
         },
@@ -45736,8 +45764,8 @@
         },
         {
           "important": false,
-          "party": "any",
-          "they_say": "No recommendation - Conservative in the lead with Labour in second place",
+          "party": "lab",
+          "they_say": "For the best chance of reducing the Conservative majority, vote Labour - Conservative in the lead with Labour in second place",
           "url": "https://www.remainunited.org/#postcode=RM142XB",
           "who_suggests": "Remain United"
         },
@@ -45811,8 +45839,8 @@
         },
         {
           "important": false,
-          "party": "any",
-          "they_say": "No recommendation - Conservative in the lead with Labour in second place",
+          "party": "lab",
+          "they_say": "For the best chance of reducing the Conservative majority, vote Labour - Conservative in the lead with Labour in second place",
           "url": "https://www.remainunited.org/#postcode=DT73EG",
           "who_suggests": "Remain United"
         },
@@ -45887,7 +45915,7 @@
         {
           "important": false,
           "party": "any",
-          "they_say": "No recommendation - Safe Conservative seat with no clear remain party challenger",
+          "they_say": "No recommendation - Safe Conservative seat",
           "url": "https://www.remainunited.org/#postcode=ME185BD",
           "who_suggests": "Remain United"
         },
@@ -46051,7 +46079,7 @@
         {
           "important": false,
           "party": "ld",
-          "they_say": "Vote Lib Dem - Conservative in the lead with Lib Dem in second place",
+          "they_say": "For the best chance of reducing the Conservative majority, vote Lib Dem - Conservative in the lead with Lib Dem in second place",
           "url": "https://www.remainunited.org/#postcode=TQ124SU",
           "who_suggests": "Remain United"
         },
@@ -46194,7 +46222,7 @@
         {
           "important": false,
           "party": "ld",
-          "they_say": "Current Tory seat. Lib Dems came second last election.",
+          "they_say": "Current Tory seat. Lib Dems best placed to beat them here.",
           "url": "https://tacticalvote.co.uk/#TorridgeandWestDevon",
           "who_suggests": "tacticalvote.co.uk"
         },
@@ -46283,7 +46311,7 @@
         {
           "important": false,
           "party": "ld",
-          "they_say": "Current Tory seat. Lib Dems came second last election.",
+          "they_say": "Former Tory seat, candidate has switched to Lib Dems and is best placed to win the seat.",
           "url": "https://tacticalvote.co.uk/#Totnes",
           "who_suggests": "tacticalvote.co.uk"
         },
@@ -46304,7 +46332,7 @@
         {
           "important": false,
           "party": "ld",
-          "they_say": "Vote Lib Dem - competitive Conservative-Lib Dem seat",
+          "they_say": "For the best chance of reducing the Conservative majority, vote Lib Dem - Conservative in the lead with Lib Dem in second place",
           "url": "https://www.remainunited.org/#postcode=TQ125UH",
           "who_suggests": "Remain United"
         },
@@ -46555,7 +46583,7 @@
         {
           "important": false,
           "party": "lab",
-          "they_say": "Vote Labour - Conservative in the lead with Labour in second place",
+          "they_say": "For the best chance of reducing the Conservative majority, vote Labour - Conservative in the lead with Labour in second place",
           "url": "https://www.remainunited.org/#postcode=TN126BB",
           "who_suggests": "Remain United"
         },
@@ -46797,7 +46825,7 @@
         {
           "important": false,
           "party": "sf",
-          "they_say": "Vote Sinn Fein - competitive DUP-Sinn Fein seat",
+          "they_say": "For the best chance of reducing the DUP majority, vote SF - DUP in the lead with SF in second place",
           "url": "https://www.remainunited.org/#postcode=BT323BB",
           "who_suggests": "Remain United"
         },
@@ -46871,8 +46899,8 @@
         },
         {
           "important": false,
-          "party": "any",
-          "they_say": "No recommendation - Conservative in the lead with Labour in second place",
+          "party": "lab",
+          "they_say": "For the best chance of reducing the Conservative majority, vote Labour - Conservative in the lead with Labour in second place",
           "url": "https://www.remainunited.org/#postcode=HA40TS",
           "who_suggests": "Remain United"
         },
@@ -47230,7 +47258,7 @@
         {
           "important": false,
           "party": "lab",
-          "they_say": "Vote Labour - competitive Labour-Conservative seat",
+          "they_say": "Vote Labour - competitive Conservative-Labour seat",
           "url": "https://www.remainunited.org/#postcode=S754BX",
           "who_suggests": "Remain United"
         },
@@ -47393,8 +47421,8 @@
         },
         {
           "important": false,
-          "party": "any",
-          "they_say": "No recommendation - Conservative in the lead with Labour in second place",
+          "party": "lab",
+          "they_say": "Vote Labour - competitive Conservative-Labour seat",
           "url": "https://www.remainunited.org/#postcode=WS27BB",
           "who_suggests": "Remain United"
         },
@@ -47665,7 +47693,7 @@
     },
     "wantage": {
       "aggregation": {
-        "disagreement": false,
+        "disagreement": true,
         "important": false,
         "party": "ld",
         "template": "vote-ld.html"
@@ -47700,10 +47728,17 @@
         },
         {
           "important": false,
-          "party": "any",
-          "they_say": "No recommendation - Safe Conservative seat with no clear remain party challenger",
+          "party": "lab",
+          "they_say": "Vote Labour - Conservative in the lead with Labour in second place",
           "url": "https://www.remainunited.org/#postcode=GL73HA",
           "who_suggests": "Remain United"
+        },
+        {
+          "important": false,
+          "party": "lab",
+          "they_say": null,
+          "url": "https://tactical.vote/wantage",
+          "who_suggests": "tactical.vote"
         },
         {
           "important": false,
@@ -47938,7 +47973,7 @@
         {
           "important": false,
           "party": "lab",
-          "they_say": "Vote Labour - competitive Conservative-Labour seat",
+          "they_say": "Vote Labour - competitive Labour-Conservative seat",
           "url": "https://www.remainunited.org/#postcode=WA139BB",
           "who_suggests": "Remain United"
         },
@@ -48303,8 +48338,8 @@
         },
         {
           "important": false,
-          "party": "any",
-          "they_say": "No recommendation - Conservative in the lead with Labour in second place",
+          "party": "lab",
+          "they_say": "For the best chance of reducing the Conservative majority, vote Labour - Conservative in the lead with Labour in second place",
           "url": "https://www.remainunited.org/#postcode=NR322BB",
           "who_suggests": "Remain United"
         },
@@ -48350,10 +48385,10 @@
     },
     "wealden": {
       "aggregation": {
-        "disagreement": false,
+        "disagreement": true,
         "important": false,
-        "party": "ld",
-        "template": "vote-ld.html"
+        "party": null,
+        "template": "contradict.html"
       },
       "analysis": {
         "template": "alliance-mixed.html",
@@ -48378,10 +48413,17 @@
         },
         {
           "important": false,
-          "party": "any",
-          "they_say": "No recommendation - Safe Conservative seat with no clear remain party challenger",
+          "party": "lab",
+          "they_say": "For the best chance of reducing the Conservative majority, vote Labour - Conservative in the lead with Labour in second place",
           "url": "https://www.remainunited.org/#postcode=TN56ET",
           "who_suggests": "Remain United"
+        },
+        {
+          "important": false,
+          "party": "lab",
+          "they_say": null,
+          "url": "https://tactical.vote/wealden",
+          "who_suggests": "tactical.vote"
         },
         {
           "important": false,
@@ -48535,8 +48577,8 @@
         },
         {
           "important": false,
-          "party": "any",
-          "they_say": "No recommendation - Conservative in the lead with Labour in second place",
+          "party": "lab",
+          "they_say": "For the best chance of reducing the Conservative majority, vote Labour - Conservative in the lead with Labour in second place",
           "url": "https://www.remainunited.org/#postcode=NN297BB",
           "who_suggests": "Remain United"
         },
@@ -49120,7 +49162,7 @@
         {
           "important": false,
           "party": "ld",
-          "they_say": "Vote Lib Dem - Conservative in the lead with Lib Dem in second place",
+          "they_say": "For the best chance of reducing the Conservative majority, vote Lib Dem - Conservative in the lead with Lib Dem in second place",
           "url": "https://www.remainunited.org/#postcode=DT13GN",
           "who_suggests": "Remain United"
         },
@@ -49195,7 +49237,7 @@
         {
           "important": false,
           "party": "snp",
-          "they_say": "Vote SNP - Safe SNP seat",
+          "they_say": "Vote SNP - competitive SNP-Labour seat, but SNP more likely to win",
           "url": "https://www.remainunited.org/#postcode=G812PS",
           "who_suggests": "Remain United"
         },
@@ -49399,7 +49441,7 @@
         {
           "important": false,
           "party": "any",
-          "they_say": "No recommendation - Conservative in the lead with Labour in second place",
+          "they_say": "No recommendation - Safe Conservative seat",
           "url": "https://www.remainunited.org/#postcode=CB75GJ",
           "who_suggests": "Remain United"
         },
@@ -49474,7 +49516,7 @@
         {
           "important": false,
           "party": "sf",
-          "they_say": "Vote Sinn Fein - Safe Sinn Fein seat",
+          "they_say": "Vote SF - Safe SF seat",
           "url": "https://www.remainunited.org/#postcode=BT472GD",
           "who_suggests": "Remain United"
         },
@@ -49528,7 +49570,7 @@
         {
           "important": false,
           "party": "any",
-          "they_say": "No recommendation - Conservative in the lead with Labour in second place",
+          "they_say": "No recommendation - Safe Conservative seat with no clear remain party challenger",
           "url": "https://www.remainunited.org/#postcode=DY122YH",
           "who_suggests": "Remain United"
         },
@@ -49771,8 +49813,8 @@
         },
         {
           "important": false,
-          "party": "any",
-          "they_say": "No recommendation - Conservative in the lead with Labour in second place",
+          "party": "lab",
+          "they_say": "For the best chance of reducing the Conservative majority, vote Labour - Conservative in the lead with Labour in second place",
           "url": "https://www.remainunited.org/#postcode=BS227BB",
           "who_suggests": "Remain United"
         },
@@ -49902,8 +49944,8 @@
       "aggregation": {
         "disagreement": true,
         "important": false,
-        "party": null,
-        "template": "contradict.html"
+        "party": "ld",
+        "template": "vote-ld.html"
       },
       "analysis": {
         "template": "alliance-mixed.html",
@@ -49935,8 +49977,8 @@
         },
         {
           "important": false,
-          "party": "lab",
-          "they_say": "Vote Labour - competitive Conservative-Labour seat",
+          "party": "ld",
+          "they_say": "Vote Lib Dem - Conservative in the lead with Lib Dem and Lab extremely close, but we are recommending Lib Dem as the tactical voting intention is higher for Lib Dem than for Labour",
           "url": "https://www.remainunited.org/#postcode=SW194EY",
           "who_suggests": "Remain United"
         },
@@ -50131,7 +50173,7 @@
         {
           "important": false,
           "party": "any",
-          "they_say": "No recommendation - Conservative in the lead with Labour in second place",
+          "they_say": "No recommendation - Safe Conservative seat",
           "url": "https://www.remainunited.org/#postcode=GU195PN",
           "who_suggests": "Remain United"
         },
@@ -50362,8 +50404,8 @@
         },
         {
           "important": false,
-          "party": "any",
-          "they_say": "No recommendation - Conservative in the lead with Labour in second place",
+          "party": "lab",
+          "they_say": "For the best chance of reducing the Conservative majority, vote Labour - Conservative in the lead with Labour in second place",
           "url": "https://www.remainunited.org/#postcode=CM32BB",
           "who_suggests": "Remain United"
         },
@@ -50505,8 +50547,8 @@
       "aggregation": {
         "disagreement": true,
         "important": false,
-        "party": null,
-        "template": "contradict.html"
+        "party": "ld",
+        "template": "vote-ld.html"
       },
       "analysis": {
         "template": "alliance-mixed.html",
@@ -50538,8 +50580,8 @@
         },
         {
           "important": false,
-          "party": "lab",
-          "they_say": "Vote Labour - Conservative in the lead with Labour in second place",
+          "party": "any",
+          "they_say": "No recommendation - Safe Conservative seat with no clear remain party challenger",
           "url": "https://www.remainunited.org/#postcode=GU126BL",
           "who_suggests": "Remain United"
         },
@@ -50717,7 +50759,7 @@
         {
           "important": false,
           "party": "lab",
-          "they_say": "Vote Labour - competitive Conservative-Labour seat",
+          "they_say": "Vote Labour - competitive Labour-Conservative seat",
           "url": "https://www.remainunited.org/#postcode=WV124NZ",
           "who_suggests": "Remain United"
         },
@@ -51194,8 +51236,8 @@
         },
         {
           "important": false,
-          "party": "any",
-          "they_say": "No recommendation - Conservative in the lead with Labour in second place",
+          "party": "lab",
+          "they_say": "For the best chance of reducing the Conservative majority, vote Labour - Conservative in the lead with Labour in second place",
           "url": "https://www.remainunited.org/#postcode=BN124BB",
           "who_suggests": "Remain United"
         },
@@ -51277,7 +51319,7 @@
         {
           "important": false,
           "party": "lab",
-          "they_say": "Vote Labour - competitive Labour-Conservative seat",
+          "they_say": "Vote Labour - competitive Conservative-Labour seat",
           "url": "https://www.remainunited.org/#postcode=LL127BB",
           "who_suggests": "Remain United"
         },
@@ -51454,8 +51496,8 @@
         },
         {
           "important": false,
-          "party": "any",
-          "they_say": "No recommendation - Conservative in the lead with Labour in second place",
+          "party": "lab",
+          "they_say": "For the best chance of reducing the Conservative majority, vote Labour - Conservative in the lead with Labour in second place",
           "url": "https://www.remainunited.org/#postcode=FY37LU",
           "who_suggests": "Remain United"
         },
@@ -51536,8 +51578,8 @@
         },
         {
           "important": false,
-          "party": "any",
-          "they_say": "No recommendation - Conservative in the lead with Labour in second place",
+          "party": "lab",
+          "they_say": "For the best chance of reducing the Conservative majority, vote Labour - Conservative in the lead with Labour in second place",
           "url": "https://www.remainunited.org/#postcode=DY122BB",
           "who_suggests": "Remain United"
         },
@@ -51687,7 +51729,7 @@
         {
           "important": false,
           "party": "ld",
-          "they_say": "Vote Lib Dem - Conservative in the lead with Lib Dem in second place",
+          "they_say": "For the best chance of reducing the Conservative majority, vote Lib Dem - Conservative in the lead with Lib Dem in second place",
           "url": "https://www.remainunited.org/#postcode=BA201AA",
           "who_suggests": "Remain United"
         },
