@@ -280,6 +280,7 @@ _REMAINUTD = {
     'Vote SDLP': SDLP,
     'For the best chance of reducing the DUP majority, vote SF': SF,
     'Vote Independent - David Gauke': DAVIDGAUKE,
+    'For the best chance of reducing or stopping a Tory majority, vote Lib Dem': LD,
 }
 def _remainunited():
     for constituency in all_constituencies():

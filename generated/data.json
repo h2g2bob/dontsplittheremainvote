@@ -6705,6 +6705,13 @@
         {
           "important": false,
           "party": "lab",
+          "they_say": "Current Tory seat. Labour came second last election.",
+          "url": "https://tacticalvote.co.uk/#BridgwaterandWestSomerset",
+          "who_suggests": "tacticalvote.co.uk"
+        },
+        {
+          "important": false,
+          "party": "lab",
           "they_say": "Tactically vote Labour to un-seat a Conservative",
           "url": "https://tacticalvoting.jonworth.eu/bridgwater-and-west-somerset/",
           "who_suggests": "Jon Worth (video!)"
@@ -10357,6 +10364,13 @@
         {
           "important": false,
           "party": "ld",
+          "they_say": "Current Tory seat. Latest polls show Lib Dem candidate in the best position to beat the Tories.",
+          "url": "https://tacticalvote.co.uk/#ChelseaandFulham",
+          "who_suggests": "tacticalvote.co.uk"
+        },
+        {
+          "important": false,
+          "party": "ld",
           "they_say": "Tactically vote Lib Dem to not split the Remain vote",
           "url": "https://tacticalvoting.jonworth.eu/chelsea-and-fulham/",
           "who_suggests": "Jon Worth (video!)"
@@ -11218,9 +11232,9 @@
     "cities-of-london-and-westminster": {
       "aggregation": {
         "disagreement": true,
-        "important": false,
-        "party": null,
-        "template": "contradict.html"
+        "important": true,
+        "party": "ld",
+        "template": "vote-ld.html"
       },
       "analysis": {
         "template": "alliance-mixed.html",
@@ -11236,6 +11250,13 @@
         "slug": "cities-of-london-and-westminster"
       },
       "other_sites": [
+        {
+          "important": true,
+          "party": "ld",
+          "they_say": "Current Tory seat. Latest polls show Lib Dem candidate in the best position to beat the Tories.",
+          "url": "https://tacticalvote.co.uk/#CitiesofLondonandWestminster",
+          "who_suggests": "tacticalvote.co.uk"
+        },
         {
           "important": false,
           "party": "ld",
@@ -22760,6 +22781,13 @@
         "slug": "hitchin-and-harpenden"
       },
       "other_sites": [
+        {
+          "important": false,
+          "party": "ld",
+          "they_say": "Current Tory seat. Latest polls show Lib Dems have the best chance of beating the Tories in this seat.",
+          "url": "https://tacticalvote.co.uk/#HitchinandHarpenden",
+          "who_suggests": "tacticalvote.co.uk"
+        },
         {
           "important": false,
           "party": "ld",
@@ -35192,6 +35220,13 @@
         {
           "important": false,
           "party": "lab",
+          "they_say": "Current Tory seat. Labour came second last election.",
+          "url": "https://tacticalvote.co.uk/#PenrithandTheBorder",
+          "who_suggests": "tacticalvote.co.uk"
+        },
+        {
+          "important": false,
+          "party": "lab",
           "they_say": null,
           "url": "https://tacticalvote.getvoting.org/penrith-and-the-border/",
           "who_suggests": "Best for Britain"
@@ -40700,6 +40735,13 @@
         {
           "important": false,
           "party": "ld",
+          "they_say": "Current Tory seat. Latest polls indicate Lib Dems are best place to beat them.",
+          "url": "https://tacticalvote.co.uk/#SouthEastCambridgeshire",
+          "who_suggests": "tacticalvote.co.uk"
+        },
+        {
+          "important": false,
+          "party": "ld",
           "they_say": "Tactically vote Lib Dem to not split the Remain vote",
           "url": "https://tacticalvoting.jonworth.eu/south-east-cambridgeshire/",
           "who_suggests": "Jon Worth (video!)"
@@ -42369,7 +42411,7 @@
     "southport": {
       "aggregation": {
         "disagreement": false,
-        "important": false,
+        "important": true,
         "party": "lab",
         "template": "vote-lab.html"
       },
@@ -42387,6 +42429,13 @@
         "slug": "southport"
       },
       "other_sites": [
+        {
+          "important": true,
+          "party": "lab",
+          "they_say": "Current Tory seat. Labour came second last election.",
+          "url": "https://tacticalvote.co.uk/#Southport",
+          "who_suggests": "tacticalvote.co.uk"
+        },
         {
           "important": false,
           "party": "lab",
@@ -42481,6 +42530,13 @@
         "slug": "spelthorne"
       },
       "other_sites": [
+        {
+          "important": false,
+          "party": "lab",
+          "they_say": "Current Tory seat. Labour came second last election.",
+          "url": "https://tacticalvote.co.uk/#Spelthorne",
+          "who_suggests": "tacticalvote.co.uk"
+        },
         {
           "important": false,
           "party": "lab",
@@ -42645,6 +42701,13 @@
         "slug": "st-austell-and-newquay"
       },
       "other_sites": [
+        {
+          "important": false,
+          "party": "lab",
+          "they_say": "Current Tory seat. Labour came second last election and are best placed to take the seat this time.",
+          "url": "https://tacticalvote.co.uk/#StAustellandNewquay",
+          "who_suggests": "tacticalvote.co.uk"
+        },
         {
           "important": false,
           "party": "lab",
@@ -45432,7 +45495,7 @@
         {
           "important": false,
           "party": "ld",
-          "they_say": "For the best chance of reducing the Conservative majority, vote Lib Dem - Conservative in the lead with Lib Dem in second place",
+          "they_say": "For the best chance of reducing or stopping a Tory majority, vote Lib Dem - Conservatives in the lead, with Lib Dem second",
           "url": "https://www.remainunited.org/#postcode=GL127BB",
           "who_suggests": "Remain United"
         },
@@ -47715,6 +47778,13 @@
         {
           "important": false,
           "party": "ld",
+          "they_say": "Current Tory seat. Latest polls indicate Lib Dems are best place to beat them.",
+          "url": "https://tacticalvote.co.uk/#Wantage",
+          "who_suggests": "tacticalvote.co.uk"
+        },
+        {
+          "important": false,
+          "party": "ld",
           "they_say": "Tactically vote Lib Dem to not split the Remain vote",
           "url": "https://tacticalvoting.jonworth.eu/wantage/",
           "who_suggests": "Jon Worth (video!)"
@@ -49961,6 +50031,13 @@
         "slug": "wimbledon"
       },
       "other_sites": [
+        {
+          "important": false,
+          "party": "ld",
+          "they_say": "Current Tory seat. Recent polling suggests Lib Dems best placed to beat them.",
+          "url": "https://tacticalvote.co.uk/#Wimbledon",
+          "who_suggests": "tacticalvote.co.uk"
+        },
         {
           "important": false,
           "party": "ld",
