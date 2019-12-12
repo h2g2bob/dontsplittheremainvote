@@ -99,15 +99,16 @@ Use your local knowledge: keep an eye on local newspapers, <a href="https://elec
 <h2>Take action</h2>
 
 <p>
-  {% if aggregation.important %}
-    This is a <strong>marginal constituency</strong> on tacticalvote.co.uk's <a href="https://tacticalvote.co.uk/key-seats/">Key Seats</a>. It is very important to <strong>vote here</strong>
-  {% else %}
-    <strong>Vote</strong>
-  {% endif %}
-  on Thursday and <strong>bring all your friends with you</strong>.
+  <strong>Vote today</strong> and <strong>bring all your friends with you</strong>.
 </p>
-<div class="widebutton"><a href="https://wheredoivote.co.uk/">Plan your visit to the Polling Station</a></div>
-<div class="widebutton"><a href="https://www.talkaboutbrex.co.uk/help/">Have constructive conversations about brexit</a></div>
+{% if aggregation.important %}
+<p>
+  This is a marginal constituency on tacticalvote.co.uk's <a href="https://tacticalvote.co.uk/key-seats/">Key Seats</a>.
+</p>
+{% endif %}
+<div class="widebutton">Vote Today. Polls close 10pm</div>
+<div class="widebutton"><a href="https://wheredoivote.co.uk/">Find your polling station</a></div>
+<div class="widebutton">Give your friends a gentle reminder to vote: <a class="inline" href="https://twitter.com/hashtag/dogsatpollingstations?f=image">these dogs</a> will be very disapointed if you don't vote <a class="inline" href="https://twitter.com/hashtag/dogsatpollingstations?f=image">#dogsatpollingstations</a></div>
 {% if aggregation.party %}
   <div class="widebutton"><a href="https://www.swapmyvote.uk/swap?constituency_ons_id={{constituency.ons_id}}&amp;willing_party_name={{aggregation.party.swap_name}}">Don't like {{aggregation.party.name}}? Vote swap!</a></div>
 {% endif %}
