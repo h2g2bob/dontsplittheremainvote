@@ -115,6 +115,9 @@ Use your local knowledge: keep an eye on local newspapers, <a href="https://elec
 <h2>Election results</h2>
 
 <div class="section scenarios">
+{% for dataset, result in datasets_results.items() %}
+  {% include 'scenario.html' %}
+{% endfor %}
 {% for dataset, result in datasets_election.items() %}
   {% include 'scenario.html' %}
 {% endfor %}

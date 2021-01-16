@@ -1,5 +1,6 @@
 from . import data_ge2015
 from . import data_ge2017
+from . import data_ge2019
 from . import data_eu2019
 from . import data_adj_avg
 from . import data_adj_con
@@ -51,9 +52,13 @@ def datasets_by_constituency() -> List[ConstituencyPage]:
             dataset: dataset.results_by_constituency[constituency].collect_others(0.02)
             for dataset in all_datasets
             if constituency in dataset.results_by_constituency}
+        result_datasets = {
+            data_ge2019.DATA_2019: data_ge2019.DATA_2019.results_by_constituency[constituency]
+        }
         constituency_pages.append(ConstituencyPage(
             constituency=constituency,
             datasets=constituency_datasets,
+            result_datasets=result_datasets,
             other_site_suggestions=other_sites.get(constituency, []),
             known_ppc=known_ppc[constituency],
             pacts=pacts[constituency]))

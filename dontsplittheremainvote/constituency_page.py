@@ -22,6 +22,7 @@ from typing import Tuple
 class ConstituencyPage(NamedTuple):
     constituency: Constituency
     datasets: Dict[Dataset, Result]
+    result_datasets: Dict[Dataset, Result]
     other_site_suggestions: List[OtherSiteSuggestion]
     known_ppc: List[PPC]
     pacts: List[Pact]
