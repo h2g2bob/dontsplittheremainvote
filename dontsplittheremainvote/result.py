@@ -58,6 +58,10 @@ class Result(NamedTuple):
         results[OTHERS] = 1.0 - sum(results.values())
         return Result(results)
 
+    def biggest_remain_party(self):
+        [party, _ratio] = self.remainers()[0]
+        return party
+
     def remainers(self) -> List[Tuple[Party, float]]:
         party_and_ratio = [
             (party, ratio)

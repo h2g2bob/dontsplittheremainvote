@@ -1,0 +1,112 @@
+{% extends "landing.html" %}
+{% block moreheaders %}
+<style>
+  .not-flippable-hidden .not-flippable {
+    display: none;
+  }
+</style>
+<script>
+window.addEventListener("load", function () {
+  document.getElementById("expand-results").addEventListener("click", function() {
+    document.getElementById("results-table").setAttribute("class", "");
+    return false;
+  });
+});
+</script>
+{% endblock %}
+{% block morecontent %}
+
+<h2>2019 General Election results</h2>
+<h3>Seats we could have flipped</h3>
+
+<table class="not-flippable-hidden" id="results-table">
+  <thead>
+    <tr>
+      <th colspan="2"> Where </th>
+      <th> Result </th>
+      <th> Our recommendation </th>
+      <th> Correct reccomendations </th>
+      <th> Bad reccomendations </th>
+    <tr>
+  </thead>
+  <tbody>
+  {% for region, county_dict in constituency_pages.items()|sort %}
+    {% for county, cpage_list in county_dict.items()|sort %}
+      {% for cpage in cpage_list|sort %}
+        {% if not cpage.result_dataset.winner().remain 
+           and cpage.result_dataset.rainbow_alliance_share() > 0.5
+        %}
+          <tr class="flippable">
+        {% else %}
+          <tr class="not-flippable">
+        {% endif %}
+          <td><a href="/constituency/{{cpage.constituency.slug}}.html">{{cpage.constituency.name}}</a></td>
+          <td>{{region}}: {{county}}</td>
+
+          {% if not cpage.result_dataset.winner().remain 
+             and cpage.result_dataset.rainbow_alliance_share() > 0.5
+          %}
+            <td style="background: #000000; color: #ffffff;">
+          {% else %}
+            <td>
+          {% endif %}
+          {% if not cpage.result_dataset.winner().remain %}
+            <span style="color: black; background: {{ cpage.result_dataset.winner().color }}">Leave</span> won the seat.
+          {% endif %}
+          {% if cpage.result_dataset.rainbow_alliance_share() > 0.5 %}
+            <span style="color: black; background: {{ cpage.result_dataset.biggest_remain_party().color }}">Remain</span> got more votes.
+          {% endif %}
+          </td>
+
+          {% if not cpage.result_dataset.winner().remain 
+             and cpage.result_dataset.rainbow_alliance_share() > 0.5
+             and cpage.result_dataset.biggest_remain_party() != cpage.aggregation.party
+          %}
+            <td style="background: #000000; color: #ffffff;">
+          {% else %}
+            <td>
+          {% endif %}
+          {% if not cpage.aggregation.party %}
+            We made no recommendation
+            but should have recommended {{ cpage.result_dataset.biggest_remain_party().name }}
+          {% elif cpage.result_dataset.biggest_remain_party() != cpage.aggregation.party %}
+            We recommanded {{ cpage.aggregation.party.name }}
+            but should have recommended {{ cpage.result_dataset.biggest_remain_party().name }}
+          {% else %}
+            We recommanded {{ cpage.aggregation.party.name }}
+          {% endif %}
+          </td>
+
+          <td>
+            {% for other_site in cpage.other_site_suggestions %}
+              {% if other_site.party == cpage.result_dataset.biggest_remain_party() %}
+                {{ other_site.who_suggests }} <br />
+              {% endif %}
+            {% endfor %}
+          </td>
+          <td>
+            {% for other_site in cpage.other_site_suggestions %}
+              {% if other_site.party != cpage.result_dataset.biggest_remain_party() %}
+                {% if not cpage.result_dataset.winner().remain
+                   and cpage.result_dataset.rainbow_alliance_share() > 0.5 %}
+                  <span style="font-weight: bold; background: black; color: red;">
+                {% else %}
+                  <span>
+                {% endif %}
+                {{ other_site.who_suggests }}
+                </span><br />
+              {% endif %}
+            {% endfor %}
+          </td>
+        </tr>
+      {% endfor %}
+    {% endfor %}
+  {% endfor %}
+  </thead>
+</table>
+
+<div class="widebutton">
+  <a href="#" id="expand-results">More</a>
+</div>
+
+{% endblock %}

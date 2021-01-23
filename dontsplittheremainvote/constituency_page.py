@@ -168,6 +168,11 @@ class ConstituencyPage(NamedTuple):
             if ppc != best_ppc
             and ppc != worst_ppc]
 
+    @property
+    def result_dataset(self):
+        [result] = self.result_datasets.values()
+        return result
+
     def as_json(self):
         return {
             'constituency': self.constituency.as_json(),
