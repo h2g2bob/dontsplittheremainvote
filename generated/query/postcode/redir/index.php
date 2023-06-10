@@ -16,9 +16,9 @@ $res = $stm->execute();
 
 $row = $res->fetchArray(SQLITE3_NUM);
 if ($row) {
-    header("location: /${section}/${row[0]}.html");
+    header("location: /2019/${section}/${row[0]}.html");
 } else {
-    header("location: /${section}/");
+    header("location: /2019/${section}/");
 }
 
 ?>

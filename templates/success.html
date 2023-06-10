@@ -40,7 +40,7 @@ window.addEventListener("load", function () {
         {% else %}
           <tr class="not-flippable">
         {% endif %}
-          <td><a href="/constituency/{{cpage.constituency.slug}}.html">{{cpage.constituency.name}}</a></td>
+          <td><a href="/2019/constituency/{{cpage.constituency.slug}}.html">{{cpage.constituency.name}}</a></td>
           <td>{{region}}: {{county}}</td>
 
           {% if not cpage.result_dataset.winner().remain 

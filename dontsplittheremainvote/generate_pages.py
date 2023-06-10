@@ -24,7 +24,8 @@ from .party import GAVINSHUKER
 JINJA_ENV = Environment(loader=FileSystemLoader('templates/'))
 
 BASE_URL = 'https://dontsplittheremainvote.com'
-STATIC = "/static"
+BASE_PATH = "/2019"
+STATIC = BASE_PATH + "/static"
 IMAGE_LOGO_600_314 = BASE_URL + STATIC + '/banner/new-banner.svg.png'
 IMAGE_LOGO_735_238 = None #BASE_URL + STATIC + '/banner/new-banner-735-238.svg.png'
 
@@ -57,7 +58,7 @@ def generate_constituency(constituency_page, nearby_constituency_pages):
 
         html = JINJA_ENV.get_template(template_name).render(
             static=STATIC,
-            this_url=BASE_URL + url_path,
+            this_url=BASE_URL + BASE_PATH + url_path,
             image_735_385=None,
             image_600_314=BASE_URL + STATIC + '/banner-generated/' + constituency_page.constituency.slug + '.svg.png',
             constituency=constituency_page.constituency,
@@ -97,7 +98,7 @@ def generate_index(constituency_pages):
     ]:
         html = JINJA_ENV.get_template(template_path).render(
             static=STATIC,
-            this_url=BASE_URL + '/',
+            this_url=BASE_URL + BASE_PATH + '/',
             image_735_385=IMAGE_LOGO_735_238,
             image_600_314=IMAGE_LOGO_600_314,
             constituency_pages=region_county_constituency(constituency_pages))
@@ -107,7 +108,7 @@ def generate_index(constituency_pages):
 def generate_datasets(datasets: List[Dataset]):
     html = JINJA_ENV.get_template('datasets.html').render(
         static=STATIC,
-        this_url=BASE_URL + '/datasets.html',
+        this_url=BASE_URL + BASE_PATH + '/datasets.html',
         image_735_385=IMAGE_LOGO_735_238,
         image_600_314=IMAGE_LOGO_600_314,
         datasets=datasets)

@@ -11,9 +11,9 @@ $res = $stm->execute();
 
 $row = $res->fetchArray(SQLITE3_NUM);
 if ($row) {
-    header("location: /minimal/${row[0]}.html");
+    header("location: /2019/minimal/${row[0]}.html");
 } else {
-    header("location: /minimal/");
+    header("location: /2019/minimal/");
 }
 
 ?>

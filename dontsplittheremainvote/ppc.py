@@ -44,7 +44,7 @@ class PPC(NamedTuple):
         if not os.path.exists(on_disk_path):
             print('wget "{}" -O "{}"'.format(self.democlub_image_url, on_disk_path))
             return None
-        return '/static/' + path
+        return '/2019/static/' + path
 
 
 def candidate_data():

@@ -71,7 +71,7 @@ def dontsplit_suggestion(party: Party, constituency: Constituency) -> OtherSiteS
     return OtherSiteSuggestion(
             who_suggests='Don\'t Split the Remain Vote',
             party=party,
-            url='https://dontsplittheremainvote.com/constituency/{}.html#Analysis'.format(constituency.slug))
+            url='https://dontsplittheremainvote.com/2019/constituency/{}.html#Analysis'.format(constituency.slug))
 
 
 _POSTCODE_EXAMPLES = {}
